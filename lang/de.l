@@ -10,9 +10,9 @@
 #
 # Translated by chemical <chem@gmx.net>,shine <dh@shinewelt.de> bis 28.02.2003
 # - Solltest du irgendwelche Rechtschreibfehler oder sonstige
-#   Verbesserungsvorschläge haben, immer her damit!
+#   VerbesserungsvorschlÃ¤ge haben, immer her damit!
 #
-# INFO ::: Letzte Änderung:	08.08.2009	-- Han` -- Han@mefalcon.org --
+# INFO ::: Letzte Ã„nderung:	08.08.2009	-- Han` -- Han@mefalcon.org --
 #
 ##########################################################################
 #
@@ -57,7 +57,7 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Español (Spanish)" or "Français (French)".
+# For example, "EspaÃ±ol (Spanish)" or "FranÃ§ais (French)".
 
 LANG_NAME
 	Deutsch (German)
@@ -116,7 +116,7 @@ STRFTIME_DAYS_LONG
 STRFTIME_MONTHS_SHORT
 	Jan
 	Feb
-	Mär
+	MÃ¤r
 	Apr
 	Mai
 	Jun
@@ -130,7 +130,7 @@ STRFTIME_MONTHS_SHORT
 STRFTIME_MONTHS_LONG
 	Januar
 	Februar
-	März
+	MÃ¤rz
 	April
 	Mai
 	Juni
@@ -153,32 +153,32 @@ USER_RECORD_NOT_FOUND
 UNKNOWN_COMMAND
 	Unbekannter Befehl %s.
 UNKNOWN_COMMAND_HELP
-	Unbekannter Befehl %s.  "%R%s HELP" für Hilfe.
+	Unbekannter Befehl %s.  "%R%s HELP" fÃ¼r Hilfe.
 SYNTAX_ERROR
 	Syntax: %s
 MORE_INFO
-	%R%s HELP %s für weitere Informationen.
+	%R%s HELP %s fÃ¼r weitere Informationen.
 NO_HELP_AVAILABLE
-	Keine Hilfe verfügbar für %s.
+	Keine Hilfe verfÃ¼gbar fÃ¼r %s.
 OBSOLETE_COMMAND
-	Dieser Befehl ist überholt, benutze stattdessen %s.
+	Dieser Befehl ist Ã¼berholt, benutze stattdessen %s.
 
 BAD_USERHOST_MASK
 	Die Hostmaske sollte in dieser Form sein: user@host.
 BAD_EXPIRY_TIME
-	Ungültige Auslaufzeit.
+	UngÃ¼ltige Auslaufzeit.
 USERHOST_MASK_TOO_WIDE
-	%s ist zu allgemeingültig, bitte benutze eine genauere Hostmaske.
+	%s ist zu allgemeingÃ¼ltig, bitte benutze eine genauere Hostmaske.
 
 SERVICE_OFFLINE
-	%s sind derzeit nicht verfügbar, bitte versuche es später noch einmal.
+	%s sind derzeit nicht verfÃ¼gbar, bitte versuche es spÃ¤ter noch einmal.
 READ_ONLY_MODE
-	Achtung: Services sind im Read-Only-Modus, Änderungen werden nicht übernommen!
+	Achtung: Services sind im Read-Only-Modus, Ã„nderungen werden nicht Ã¼bernommen!
 
 PASSWORD_INCORRECT
 	Falsches Passwort.
 INVALID_TARGET
-	"/msg %s" wird nicht mehr unterstützt.  Benutze "/msg %s@%s" oder "/%s" stattdessen.
+	"/msg %s" wird nicht mehr unterstÃ¼tzt.  Benutze "/msg %s@%s" oder "/%s" stattdessen.
 
 # What's the difference between "Access denied" and "Permission denied"?
 # Very little; you can safely make them the same message with no real loss
@@ -191,7 +191,7 @@ ACCESS_DENIED
 PERMISSION_DENIED
 	Berechtigung nicht ausreichend.
 RAW_DISABLED
-	RAW wurde deaktiviert. Um RAW nutzen zu können, muss DisableRaw in der Services Config Datei deaktiviert werden.
+	RAW wurde deaktiviert. Um RAW nutzen zu kÃ¶nnen, muss DisableRaw in der Services Config Datei deaktiviert werden.
 
 MORE_OBSCURE_PASSWORD
 	Bitte versuche es nochmal mit einem besseren Passwort. 
@@ -200,7 +200,7 @@ MORE_OBSCURE_PASSWORD
 	kann keine Leer oder Tabulatortaste enthalten sein.
 
 PASSWORD_TOO_LONG
-	Dein Passwort ist zu lang. Versuche es erneut mit einen kürzeren Passwort.
+	Dein Passwort ist zu lang. Versuche es erneut mit einen kÃ¼rzeren Passwort.
 
 NICK_NOT_REGISTERED
 	Dein Nickname ist nicht registriert.
@@ -224,9 +224,9 @@ NICK_X_FORBIDDEN_OPER
 NICK_X_ILLEGAL
 	Der Nickname %s ist ein illegaler Nickname und kann nicht benutzt werden.
 NICK_X_TRUNCATED
-	Dein Nickname %s wurde auf %d Zeichen gekürzt.
+	Dein Nickname %s wurde auf %d Zeichen gekÃ¼rzt.
 NICK_X_SUSPENDED
-	Der Nick %s ist vorübergehend gesperrt.
+	Der Nick %s ist vorÃ¼bergehend gesperrt.
 CHAN_X_NOT_REGISTERED
 	Der Channel %s ist nicht registriert.
 CHAN_X_NOT_IN_USE
@@ -237,22 +237,22 @@ CHAN_X_FORBIDDEN_OPER
 	Der Channel %s wurde verboten von %s:
 	%s
 CHAN_X_SUSPENDED
-	      Vorübergehend gesperrt: [%s] %s
+	      VorÃ¼bergehend gesperrt: [%s] %s
 NICK_IDENTIFY_REQUIRED
-	Um diesen Befehl nutzen zu können, musst du dich identifizieren.
+	Um diesen Befehl nutzen zu kÃ¶nnen, musst du dich identifizieren.
 	Versuch es erneut nach %R%s IDENTIFY Passwort.
 CHAN_IDENTIFY_REQUIRED
-	Um diesen Befehl nutzen zu können, musst du dich identifizieren.
+	Um diesen Befehl nutzen zu kÃ¶nnen, musst du dich identifizieren.
 	Versuch es erneut nach %R%s IDENTIFY %s Passwort.
 	
 MAIL_DISABLED
 	eMail-Handling der Services wurde deaktiviert.
 MAIL_INVALID
-	eMail-Adresse für %s ist ungültig.
+	eMail-Adresse fÃ¼r %s ist ungÃ¼ltig.
 MAIL_X_INVALID
-	%s ist keine gültige eMail-Adresse.
+	%s ist keine gÃ¼ltige eMail-Adresse.
 MAIL_LATER
-	Die Services können gerade keine Mail verschicken, bitte versuche es später noch einmal.
+	Die Services kÃ¶nnen gerade keine Mail verschicken, bitte versuche es spÃ¤ter noch einmal.
 MAIL_DELAYED
 	Bitte warte noch %d Sekunden und versuche es dann erneut.
 	
@@ -281,25 +281,25 @@ DURATION_SECONDS
 
 # Human readable expiration
 NO_EXPIRE
-	läuft nicht aus
+	lÃ¤uft nicht aus
 EXPIRES_SOON
-	verfällt beim nächstem Datenbank-Update
+	verfÃ¤llt beim nÃ¤chstem Datenbank-Update
 EXPIRES_M
-	verfällt in %d Minuten
+	verfÃ¤llt in %d Minuten
 EXPIRES_1M
-	verfällt in %d Minute
+	verfÃ¤llt in %d Minute
 EXPIRES_HM
-	verfällt in %d Stunden, %d Minuten
+	verfÃ¤llt in %d Stunden, %d Minuten
 EXPIRES_H1M
-	verfällt in %d Stunden, %d Minute
+	verfÃ¤llt in %d Stunden, %d Minute
 EXPIRES_1HM
-	verfällt in %d Stunde, %d Minuten
+	verfÃ¤llt in %d Stunde, %d Minuten
 EXPIRES_1H1M
-	verfällt in %d Stunde, %d Minute
+	verfÃ¤llt in %d Stunde, %d Minute
 EXPIRES_D
-	verfällt in %d Tagen
+	verfÃ¤llt in %d Tagen
 EXPIRES_1D
-	verfällt in %d Tag
+	verfÃ¤llt in %d Tag
 
 # Generic Footer message
 END_OF_ANY_LIST
@@ -319,7 +319,7 @@ LIST_INCORRECT_RANGE
 CS_LIST_INCORRECT_RANGE
 	Um nach Channeln zu suchen die mit # beginnen, suche nach Channelnamen
 	ohne das #-Symbol voranszutellen (anope anstatt #anope).
-	Wildcards können verwendet werden.
+	Wildcards kÃ¶nnen verwendet werden.
 
 ###########################################################################
 #
@@ -329,17 +329,17 @@ CS_LIST_INCORRECT_RANGE
 
 # Automatic messages
 HELP_LIMIT_SERV_OPER
-	Diese Funktion  ist beschränkt auf Services Operatoren.
+	Diese Funktion  ist beschrÃ¤nkt auf Services Operatoren.
 HELP_LIMIT_SERV_ADMIN
-	Diese Funktion  ist beschränkt auf Services Administratoren.
+	Diese Funktion  ist beschrÃ¤nkt auf Services Administratoren.
 HELP_LIMIT_SERV_ROOT
-	Diese Funktion  ist beschränkt auf Services Root-Administratoren.
+	Diese Funktion  ist beschrÃ¤nkt auf Services Root-Administratoren.
 HELP_LIMIT_IRC_OPER
-	Diese Funktion  ist beschränkt auf IRC Operatoren.
+	Diese Funktion  ist beschrÃ¤nkt auf IRC Operatoren.
 HELP_LIMIT_HOST_SETTER
-	Diese Funktion  ist beschränkt auf Host Setters.
+	Diese Funktion  ist beschrÃ¤nkt auf Host Setters.
 HELP_LIMIT_HOST_REMOVER
-	Diese Funktion  ist beschränkt auf Host Removers.
+	Diese Funktion  ist beschrÃ¤nkt auf Host Removers.
 
 
 ###########################################################################
@@ -350,22 +350,22 @@ HELP_LIMIT_HOST_REMOVER
 
 # Automatic messages
 NICK_IS_REGISTERED
-	Dieser Nickname gehört schon jemand anderem. Bitte wähle einen anderen.
-	(Sollte dieser Nickname dir gehören, tippe %R%s IDENTIFY Passwort.)
+	Dieser Nickname gehÃ¶rt schon jemand anderem. Bitte wÃ¤hle einen anderen.
+	(Sollte dieser Nickname dir gehÃ¶ren, tippe %R%s IDENTIFY Passwort.)
 NICK_IS_SECURE
-	Dieser Nickname ist registriert und geschützt.  Wenn es dein Nickname
-	ist, tippe %R%s IDENTIFY Passwort. Ansonsten wähle bitte
+	Dieser Nickname ist registriert und geschÃ¼tzt.  Wenn es dein Nickname
+	ist, tippe %R%s IDENTIFY Passwort. Ansonsten wÃ¤hle bitte
 	einen anderen Nickname.
 NICK_MAY_NOT_BE_USED
-	Dieser Nickname kann nicht benutzt werden. Bitte wähle einen anderen.
+	Dieser Nickname kann nicht benutzt werden. Bitte wÃ¤hle einen anderen.
 FORCENICKCHANGE_IN_1_MINUTE
-	Wenn du ihn nicht innerhalb einer Minute identifizierst, wird er automatisch geändert.
+	Wenn du ihn nicht innerhalb einer Minute identifizierst, wird er automatisch geÃ¤ndert.
 FORCENICKCHANGE_IN_20_SECONDS
-	Wenn du ihn nicht innerhalb von 20 Sekunden identifizierst, wird er automatisch geändert.
+	Wenn du ihn nicht innerhalb von 20 Sekunden identifizierst, wird er automatisch geÃ¤ndert.
 FORCENICKCHANGE_NOW
 	Dieser Nickname ist registriert, du kannst ihn nicht benutzen.
 FORCENICKCHANGE_CHANGING
-	Dein Nickname wurde geändert in %s
+	Dein Nickname wurde geÃ¤ndert in %s
 
 # REGISTER responses
 NICK_REGISTER_SYNTAX
@@ -387,9 +387,9 @@ NICK_REGISTERED
 NICK_REGISTERED_NO_MASK
 	Der Nickname %s wurde erfolgreich registriert.
 NICK_PASSWORD_IS
-	Dein Passwort ist %s - behalte es für spätere Benutzung.
+	Dein Passwort ist %s - behalte es fÃ¼r spÃ¤tere Benutzung.
 NICK_REG_DELAY
-	Du musst länger als %d Sekunden verbunden sein, um einen Nicknamen zu registrieren.
+	Du musst lÃ¤nger als %d Sekunden verbunden sein, um einen Nicknamen zu registrieren.
 
 # GROUP responses
 NICK_GROUP_SYNTAX
@@ -401,12 +401,12 @@ NICK_GROUP_FAILED
 NICK_GROUP_PLEASE_WAIT
 	Bitte warte %d Sekunden, bevor der GROUP Befehl wieder funktioniert.
 NICK_GROUP_CHANGE_DISABLED
-	Dein Nickname ist bereits registriert, tippe %R%s DROP um ihn zu löschen.
+	Dein Nickname ist bereits registriert, tippe %R%s DROP um ihn zu lÃ¶schen.
 NICK_GROUP_SAME
 	Du bist bereits Mitglied der Gruppe %s.
 NICK_GROUP_TOO_MANY
-	Es sind zu viele Nicknamen in %s's Gruppe. Liste sie auf und lösche einige davon.
-	Tippe %R%s HELP GLIST und %R%s HELP DROP für weitere Infos.
+	Es sind zu viele Nicknamen in %s's Gruppe. Liste sie auf und lÃ¶sche einige davon.
+	Tippe %R%s HELP GLIST und %R%s HELP DROP fÃ¼r weitere Infos.
 NICK_GROUP_JOINED
 	Du bist jetzt in der Gruppe %s vertreten.
 
@@ -418,13 +418,13 @@ NICK_IDENTIFY_FAILED
 NICK_IDENTIFY_SUCCEEDED
 	Passwort akzeptiert - du bist jetzt angemeldet.
 NICK_IDENTIFY_EMAIL_REQUIRED
-	Du musst eine eMail-Adresse für deinen Nicknamen angeben.
+	Du musst eine eMail-Adresse fÃ¼r deinen Nicknamen angeben.
 	NickServ kann dir dann dein Passwort per Mail senden, falls du es
 	vergessen solltest.
 NICK_IDENTIFY_EMAIL_HOWTO
 	Tippe %R%S SET EMAIL eMail wenn du deine eMail-Adresse einstellen willst.
-	Deine Privatsphäre wird respektiert und deine eMail-Adresse ist Dritten nicht 
-	zugänglich.
+	Deine PrivatsphÃ¤re wird respektiert und deine eMail-Adresse ist Dritten nicht 
+	zugÃ¤nglich.
 	
 # LOGOUT responses
 NICK_ALREADY_IDENTIFIED
@@ -444,13 +444,13 @@ NICK_LOGOUT_X_SUCCEEDED
 
 # DROP responses
 NICK_LOGOUT_SERVICESADMIN
-	Ausloggen von %s nicht möglich, da es sich um einen Services Administrator handelt.
+	Ausloggen von %s nicht mÃ¶glich, da es sich um einen Services Administrator handelt.
 
 # DROP responses
 NICK_DROP_DISABLED
 	Das Entfernen von Nicknamen ist derzeit deaktiviert.
 NICK_DROPPED
-	Die Registrierung deines Nicknamens wurde gelöscht.
+	Die Registrierung deines Nicknamens wurde gelÃ¶scht.
 NICK_X_DROPPED
 	Der Nickname %s wurde aus der Datenbank entfernt.
 
@@ -460,7 +460,7 @@ NICK_SET_SYNTAX
 NICK_SET_SERVADMIN_SYNTAX
 	SET [Nickname] Option Parameter
 NICK_SET_DISABLED
-	Das Ändern der Optionen wurde deaktiviert.
+	Das Ã„ndern der Optionen wurde deaktiviert.
 NICK_SET_UNKNOWN_OPTION
 	Unbekannte SET Option %s.
 NICK_SET_OPTION_DISABLED
@@ -468,35 +468,35 @@ NICK_SET_OPTION_DISABLED
 
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
-	Der neue "Anführer" MUSS ein Nickname in deiner Gruppe sein!
+	Der neue "AnfÃ¼hrer" MUSS ein Nickname in deiner Gruppe sein!
 NICK_SET_DISPLAY_CHANGED
-	Der neue "Anführer" deiner Gruppe ist jetzt %s.
+	Der neue "AnfÃ¼hrer" deiner Gruppe ist jetzt %s.
 
 # SET PASSWORD responses
 NICK_SET_PASSWORD_FAILED
-	Konnte dein Passwort nicht ändern.
+	Konnte dein Passwort nicht Ã¤ndern.
 NICK_SET_PASSWORD_CHANGED
-	Passwort geändert.
+	Passwort geÃ¤ndert.
 NICK_SET_PASSWORD_CHANGED_TO
-	Passwort geändert in %s.
+	Passwort geÃ¤ndert in %s.
 
 # SET LANGUAGE responses
 NICK_SET_LANGUAGE_SYNTAX
 	SET LANGUAGE Nummer
 NICK_SET_LANGUAGE_UNKNOWN
-	Unbekannte Sprachen-Nummer %d.  Tippe %R%s HELP SET LANGUAGE um eine Liste aller verfügbaren Sprachen zu erhalten.
+	Unbekannte Sprachen-Nummer %d.  Tippe %R%s HELP SET LANGUAGE um eine Liste aller verfÃ¼gbaren Sprachen zu erhalten.
 NICK_SET_LANGUAGE_CHANGED
-	Sprache wurde geändert zu Deutsch.
+	Sprache wurde geÃ¤ndert zu Deutsch.
 
 # SET URL responses
 NICK_SET_URL_CHANGED
-	URL zu %s geändert.
+	URL zu %s geÃ¤ndert.
 NICK_SET_URL_UNSET
 	URL entfernt.
 
 # SET EMAIL responses
 NICK_SET_EMAIL_CHANGED
-	eMail-Adresse zu %s geändert.
+	eMail-Adresse zu %s geÃ¤ndert.
 NICK_SET_EMAIL_UNSET
 	eMail-Adresse wurde entfernt.
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
@@ -508,13 +508,13 @@ NICK_SET_ICQ_CHANGED
 NICK_SET_ICQ_UNSET
 	ICQ-Nummer wurde entfernt.
 NICK_SET_ICQ_INVALID
-	%s ist keine gültige ICQ-Nummer.
+	%s ist keine gÃ¼ltige ICQ-Nummer.
 	
 # SET GREET responses
 NICK_SET_GREET_CHANGED
-	Begrüssungsnachricht wurde zu %s geändert.
+	BegrÃ¼ssungsnachricht wurde zu %s geÃ¤ndert.
 NICK_SET_GREET_UNSET
-	Begrüssungsnachricht wurde entfernt.
+	BegrÃ¼ssungsnachricht wurde entfernt.
 
 # SET PROTECT responses
 NICK_SET_KILL_SYNTAX
@@ -528,7 +528,7 @@ NICK_SET_KILL_QUICK
 NICK_SET_KILL_IMMED
 	Kill-Schutz ist jetzt ON, ohne Wartezeit.
 NICK_SET_KILL_IMMED_DISABLED
-	Die IMMED Option ist in diesem Netzwerk nicht verfügbar.
+	Die IMMED Option ist in diesem Netzwerk nicht verfÃ¼gbar.
 NICK_SET_KILL_OFF
 	Kill-Schutz ist jetzt OFF.
 
@@ -566,7 +566,7 @@ NICK_SET_HIDE_QUIT_OFF
 NICK_SET_HIDE_STATUS_ON
 	Dein Services-Zugriffsstatus wird jetzt in %s INFO Anzeigen versteckt.
 NICK_SET_HIDE_STATUS_OFF
-	Dein Services-Zugriffsstatus wird nicht länger in %s INFO Anzeigen versteckt.
+	Dein Services-Zugriffsstatus wird nicht lÃ¤nger in %s INFO Anzeigen versteckt.
 	
 # SET MSG responses
 NICK_SET_MSG_SYNTAX
@@ -594,49 +594,49 @@ NICK_SASET_UNKNOWN_OPTION
 NICK_SASET_BAD_NICK
 	Nickname %s ist nicht registriert.
 NICK_SASET_OPTION_DISABLED
-	Die Einstellung %s ist auf diesem Netzwerk nicht verfügbar.
+	Die Einstellung %s ist auf diesem Netzwerk nicht verfÃ¼gbar.
 
 # SASET DISPLAY responses
 NICK_SASET_DISPLAY_INVALID
-	Der für %s angezeigte Ursprung muss ein Nickname aus der zugehörigen Gruppe sein!
+	Der fÃ¼r %s angezeigte Ursprung muss ein Nickname aus der zugehÃ¶rigen Gruppe sein!
 NICK_SASET_DISPLAY_CHANGED
 	Der angezeigte Gruppenursprung ist jetzt %s.
 
 # SASET PASSWORD responses
 NICK_SASET_PASSWORD_FAILED
-	Das Passwort für %s konnte nicht geändert werden.
+	Das Passwort fÃ¼r %s konnte nicht geÃ¤ndert werden.
 NICK_SASET_PASSWORD_CHANGED
-	Passwort für %s wurde geändert.
+	Passwort fÃ¼r %s wurde geÃ¤ndert.
 NICK_SASET_PASSWORD_CHANGED_TO
-	Passwort für %s wurde auf %s gesetzt.
+	Passwort fÃ¼r %s wurde auf %s gesetzt.
 
 # SASET LANGUAGE responses
 NICK_SASET_URL_CHANGED
-	URL für %s wurde auf %s gesetzt.
+	URL fÃ¼r %s wurde auf %s gesetzt.
 NICK_SASET_URL_UNSET
 	URL %s wurde entfernt.
 
 # SASET EMAIL responses
 NICK_SASET_EMAIL_CHANGED
-	E-mail Adresse für %s wurde auf %s geändert.
+	E-mail Adresse fÃ¼r %s wurde auf %s geÃ¤ndert.
 NICK_SASET_EMAIL_UNSET
 	E-mail Adresse  %s wurde entfernt.
 NICK_SASET_EMAIL_UNSET_IMPOSSIBLE
-	Auf diesem Netzwerk ist es nicht möglich die E-Mail Adresse zu entfernen.
+	Auf diesem Netzwerk ist es nicht mÃ¶glich die E-Mail Adresse zu entfernen.
 	
 # SASET ICQ responses
 NICK_SASET_ICQ_CHANGED
-	ICQ Nummer für %s wurde auf %s gesetzt.
+	ICQ Nummer fÃ¼r %s wurde auf %s gesetzt.
 NICK_SASET_ICQ_UNSET
 	ICQ Nummer %s wurde entfernt.
 NICK_SASET_ICQ_INVALID
-	%s ist keine gültige ICQ Nummer.
+	%s ist keine gÃ¼ltige ICQ Nummer.
 	
 # SASET GREET responses
 NICK_SASET_GREET_CHANGED
-	Begrüssungsnachricht %s wurde auf %s geändert.
+	BegrÃ¼ssungsnachricht %s wurde auf %s geÃ¤ndert.
 NICK_SASET_GREET_UNSET
-	Begrüssungsnachricht %s wurde entfernt.
+	BegrÃ¼ssungsnachricht %s wurde entfernt.
 
 # SASET PROTECT responses
 NICK_SASET_KILL_SYNTAX
@@ -646,11 +646,11 @@ NICK_SASET_KILL_IMMED_SYNTAX
 NICK_SASET_KILL_ON
 	Schutz des Nicknamens %s ist jetzt aktiviert (ON).
 NICK_SASET_KILL_QUICK
-	Schutz des Nicknamens %s mit verkürzter Verzögerung aktiviert (ON).
+	Schutz des Nicknamens %s mit verkÃ¼rzter VerzÃ¶gerung aktiviert (ON).
 NICK_SASET_KILL_IMMED
-	Schutz des Nicknamens %s ohne Verzögerung aktiviert (ON).
+	Schutz des Nicknamens %s ohne VerzÃ¶gerung aktiviert (ON).
 NICK_SASET_KILL_IMMED_DISABLED
-	Die IMMED Einstellung (Schutz ohne Verzögerung) ist auf diesem Netzwerk nicht verfügbar.
+	Die IMMED Einstellung (Schutz ohne VerzÃ¶gerung) ist auf diesem Netzwerk nicht verfÃ¼gbar.
 NICK_SASET_KILL_OFF
 	Schutz des Nicknamens %s ist jetzt deaktiviert (OFF).
 
@@ -658,17 +658,17 @@ NICK_SASET_KILL_OFF
 NICK_SASET_SECURE_SYNTAX
 	SASET nickname SECURE {ON | OFF}
 NICK_SASET_SECURE_ON
-	Sicherheitsfunktion (SECURE) ist für %s jetzt aktiviert (ON).
+	Sicherheitsfunktion (SECURE) ist fÃ¼r %s jetzt aktiviert (ON).
 NICK_SASET_SECURE_OFF
-	Sicherheitsfunktion (SECURE) ist für %s jetzt deaktiviert (OFF).
+	Sicherheitsfunktion (SECURE) ist fÃ¼r %s jetzt deaktiviert (OFF).
 
 # SASET PRIVATE responses
 NICK_SASET_PRIVATE_SYNTAX
 	SASET nickname PRIVATE {ON | OFF}
 NICK_SASET_PRIVATE_ON
-	Der Privat-Modus (PRIVATE) ist für %s jetzt aktiviert (ON).
+	Der Privat-Modus (PRIVATE) ist fÃ¼r %s jetzt aktiviert (ON).
 NICK_SASET_PRIVATE_OFF
-	Der Privat-Modus (PRIVATE) ist für %s jetzt deaktiviert (OFF).
+	Der Privat-Modus (PRIVATE) ist fÃ¼r %s jetzt deaktiviert (OFF).
 
 # SASET HIDE responses
 NICK_SASET_HIDE_SYNTAX
@@ -719,7 +719,7 @@ NICK_SASET_LANGUAGE_SYNTAX
 	SASET nickname LANGUAGE number
 NICK_SASET_LANGUAGE_UNKNOWN
 	Unbekannte Sprachen-Nummer %d. 
-	Tippe %R%s HELP SET LANGUAGE um eine Liste aller verfügbaren Sprachen zu erhalten.
+	Tippe %R%s HELP SET LANGUAGE um eine Liste aller verfÃ¼gbaren Sprachen zu erhalten.
 NICK_SASET_LANGUAGE_CHANGED
 	Language for %s changed to %s.
 
@@ -730,9 +730,9 @@ NICK_ACCESS_SYNTAX
 NICK_ACCESS_ALREADY_PRESENT
 	Diese Hostmaske %s ist bereits auf der Access-Liste.
 NICK_ACCESS_REACHED_LIMIT
-	Du kannst nur %d Einträge auf der Access-Liste speichern.
+	Du kannst nur %d EintrÃ¤ge auf der Access-Liste speichern.
 NICK_ACCESS_ADDED
-	%s wurde zu deiner Access-Liste hinzugefügt.
+	%s wurde zu deiner Access-Liste hinzugefÃ¼gt.
 NICK_ACCESS_NOT_FOUND
 	%s wurde nicht auf deiner Access-Liste gefunden.
 NICK_ACCESS_DELETED
@@ -744,7 +744,7 @@ NICK_ACCESS_LIST_X
 NICK_ACCESS_LIST_EMPTY
 	Deine Access-Liste ist leer.
 NICK_ACCESS_LIST_X_EMPTY
-	Die Access-Liste für %s leer.
+	Die Access-Liste fÃ¼r %s leer.
 
 # Status messages
 NICK_STATUS_0
@@ -811,7 +811,7 @@ NICK_INFO_OPT_NONE
 NICK_INFO_NO_EXPIRE
 	Dieser Nickname wird nicht auslaufen.
 NICK_INFO_FOR_MORE
-	Für weitere Informationen, tippe %R%s INFO %s ALL.
+	FÃ¼r weitere Informationen, tippe %R%s INFO %s ALL.
 
 # LIST responses
 NICK_INFO_SUSPENDED
@@ -826,7 +826,7 @@ NICK_LIST_SYNTAX
 NICK_LIST_SERVADMIN_SYNTAX
 	LIST Muster [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 NICK_LIST_HEADER
-	Liste der gefundenen Einträge %s:
+	Liste der gefundenen EintrÃ¤ge %s:
 NICK_LIST_RESULTS
 	Ende der Liste - %d/%d Treffer angezeigt.
 
@@ -865,7 +865,7 @@ NICK_NO_RECOVER_SELF
 	Du kannst dich nicht selber recovern!
 NICK_RECOVERED
 	Der User, der mit deinem Nicknamen online gewesen ist, wurde entfernt.Tippe:
-	%R%s RELEASE %s ein, um ihn vor dem %s-Timeout zurückzubekommen.
+	%R%s RELEASE %s ein, um ihn vor dem %s-Timeout zurÃ¼ckzubekommen.
 
 # RELEASE responses
 NICK_RELEASE_SYNTAX
@@ -873,7 +873,7 @@ NICK_RELEASE_SYNTAX
 NICK_RELEASE_NOT_HELD
 	Der Nickname %s ist nicht gesperrt.
 NICK_RELEASED
-	Die Services haben den Nicknamen wieder verfügbar gemacht.
+	Die Services haben den Nicknamen wieder verfÃ¼gbar gemacht.
 
 # GHOST responses
 NICK_GHOST_SYNTAX
@@ -887,7 +887,7 @@ NICK_GHOST_KILLED
 NICK_GETPASS_SYNTAX
 	GETPASS Nickname
 NICK_GETPASS_UNAVAILABLE
-	GETPASS nicht verfügbar, da die Verschlüsselung aktiviert ist.
+	GETPASS nicht verfÃ¼gbar, da die VerschlÃ¼sselung aktiviert ist.
 NICK_GETPASS_PASSWORD_IS
 	Passwort von %s ist %s.
 
@@ -897,13 +897,13 @@ NICK_GETEMAIL_SYNTAX
 NICK_GETEMAIL_EMAILS_ARE
 	Passende Emails %s bis %s.
 NICK_GETEMAIL_NOT_USED
-	Keine eingetragenen Emails für %s.
+	Keine eingetragenen Emails fÃ¼r %s.
 	
 # SENDPASS responses
 NICK_SENDPASS_SYNTAX
 	SENDPASS Nickname
 NICK_SENDPASS_UNAVAILABLE
-	SENDPASS Befehl nicht verfügbar, da die Verschlüsselung aktiviert ist.
+	SENDPASS Befehl nicht verfÃ¼gbar, da die VerschlÃ¼sselung aktiviert ist.
 NICK_SENDPASS_SUBJECT
 	Nick-Passwort (%s)
 NICK_SENDPASS_HEAD
@@ -911,7 +911,7 @@ NICK_SENDPASS_HEAD
 NICK_SENDPASS_LINE_1
 	Du wolltest dir dein Passwort von dem Nicknamen %s via eMail schicken lassen.
 NICK_SENDPASS_LINE_2
-	Das Passwort ist %s Aus Sicherheitsgründen solltest du das Passwort nach Erhalt dieser eMail ändern.
+	Das Passwort ist %s Aus SicherheitsgrÃ¼nden solltest du das Passwort nach Erhalt dieser eMail Ã¤ndern.
 NICK_SENDPASS_LINE_3
 	Wenn du nicht weisst, warum du diese Mail erhalten hast, ignoriere sie bitte.
 NICK_SENDPASS_LINE_4
@@ -949,19 +949,19 @@ NICK_FORBID_FAILED
 
 # Nick Registration responses
 NICK_REQUESTED
-	Dieser Nickname wurde bereits angefordert, bitte prüfe deinen Email Account für das Passwort.
+	Dieser Nickname wurde bereits angefordert, bitte prÃ¼fe deinen Email Account fÃ¼r das Passwort.
 NICK_REG_RESENT
 	Dein Passcode wurde noch einmal an %s geschickt.
 NICK_REG_UNABLE
-	Nick konnte NICHT registriert werden, versuche es später noch einmal.
+	Nick konnte NICHT registriert werden, versuche es spÃ¤ter noch einmal.
 NICK_IS_PREREG
-	Dieser Nickname benötigt das Email Bestätigungs Passwort vor Abschluß der Registrierung.
+	Dieser Nickname benÃ¶tigt das Email BestÃ¤tigungs Passwort vor AbschluÃŸ der Registrierung.
 NICK_ENTER_REG_CODE
-	Ein Password wurde zu %s gesendet, bitte tippe %R%s confirm <passcode> um die Registrierung abzuschließen.
+	Ein Password wurde zu %s gesendet, bitte tippe %R%s confirm <passcode> um die Registrierung abzuschlieÃŸen.
 NICK_CONFIRM_NOT_FOUND
 	Registrieungs Stufe 1 ist eventuell abgelaufen, bitte nutze zuerst "%R%s register <password> <email>".
 NICK_CONFIRM_INVALID
-	Ein ungültiger Passcode wurde eingegeben, prüfe bitte deine Email und gib den Code erneut ein.
+	Ein ungÃ¼ltiger Passcode wurde eingegeben, prÃ¼fe bitte deine Email und gib den Code erneut ein.
 NICK_REG_MAIL_SUBJECT
 	Nickname Registrierung (%s)
 NICK_REG_MAIL_HEAD
@@ -969,7 +969,7 @@ NICK_REG_MAIL_HEAD
 NICK_REG_MAIL_LINE_1
 	Du hast die Registrierung des Nicknamen %s angefordert.
 NICK_REG_MAIL_LINE_2
-	Bitte tippe " %R%s confirm %s " zum Abschluß der Registrierung ein.
+	Bitte tippe " %R%s confirm %s " zum AbschluÃŸ der Registrierung ein.
 NICK_REG_MAIL_LINE_3
 	Wenn du nicht weisst, warum du diese Mail erhalten hast, ignoriere sie bitte.
 NICK_REG_MAIL_LINE_4
@@ -977,9 +977,9 @@ NICK_REG_MAIL_LINE_4
 NICK_REG_MAIL_LINE_5
 	Die %s Administratoren.
 NICK_GETPASS_PASSCODE_IS
-	Passcode für %s ist %s.
+	Passcode fÃ¼r %s ist %s.
 NICK_FORCE_REG
-	Nickname %s bestätigt
+	Nickname %s bestÃ¤tigt
 
 ###########################################################################
 #
@@ -1015,11 +1015,11 @@ CHAN_LEVEL_OPDEOP
 CHAN_LEVEL_ACCESS_LIST
 	Ansicht der Channel-Access-Liste erlaubt
 CHAN_LEVEL_ACCESS_CHANGE
-	Änderungen an der Channel-Access-Liste erlaubt
+	Ã„nderungen an der Channel-Access-Liste erlaubt
 CHAN_LEVEL_MEMO
 	Erlaubnis Channel-Memos zu lesen
 CHAN_LEVEL_ASSIGN
-	Erlaubnis Bots hinzuzufügen / zu entfernen
+	Erlaubnis Bots hinzuzufÃ¼gen / zu entfernen
 CHAN_LEVEL_BADWORDS
 	BADWORDS-Befehl erlaubt
 CHAN_LEVEL_NOKICK
@@ -1075,7 +1075,7 @@ CHAN_NOT_ALLOWED_TO_JOIN
 
 # REGISTER responses
 CHAN_X_INVALID
-	Channel %s ist kein gültiger Channel.
+	Channel %s ist kein gÃ¼ltiger Channel.
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
@@ -1083,7 +1083,7 @@ CHAN_REGISTER_SYNTAX
 CHAN_REGISTER_DISABLED
 	Die Registrierung von Channels ist derzeit deaktiviert.
 CHAN_REGISTER_NOT_LOCAL
-	Lokale Channels können nicht registriert werden.
+	Lokale Channels kÃ¶nnen nicht registriert werden.
 CHAN_MUST_REGISTER_NICK
 	Du musst erst deinen Nicknamen registrieren.  Tippe %R%s HELP REGISTER um Hilfe zu erhalten.
 CHAN_MUST_IDENTIFY_NICK
@@ -1104,7 +1104,7 @@ CHAN_REGISTRATION_FAILED
 CHAN_REGISTERED
 	Der Channel %s ist registriert unter deinem Nicknamen: %s
 CHAN_PASSWORD_IS
-	Dein Channel-Passwort ist %s - behalte es für spätere Benutzung.
+	Dein Channel-Passwort ist %s - behalte es fÃ¼r spÃ¤tere Benutzung.
 CHAN_REGISTER_NONE_CHANNEL
 	Du hast versucht ein nicht existierender Channel %s zu registrieren.
 CHAN_SYMBOL_REQUIRED
@@ -1127,7 +1127,7 @@ CHAN_LOGOUT_SERVADMIN_SYNTAX
 CHAN_LOGOUT_SUCCEEDED
 	Der User %s wurde vom Channel %s ausgeloggt.
 CHAN_LOGOUT_ALL_SUCCEEDED
-	Alle identifizierten User wurden vom Channel ausgeloggt %s (außer dem Channel Founder).
+	Alle identifizierten User wurden vom Channel ausgeloggt %s (auÃŸer dem Channel Founder).
 CHAN_LOGOUT_FOUNDER_FAILED
 	You may not log out of %s (you are founder).
 
@@ -1151,51 +1151,51 @@ CHAN_SET_UNKNOWN_OPTION
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
 	%s hat zu viele Channels auf seinen Nicknamen registriert.
 CHAN_FOUNDER_CHANGED
-	Founder von %s wurde geändert zu %s.
+	Founder von %s wurde geÃ¤ndert zu %s.
 
 # SET SUCCESSOR responses
 CHAN_SUCCESSOR_CHANGED
-	Vertreter von %s wurde geändert zu %s.
+	Vertreter von %s wurde geÃ¤ndert zu %s.
 CHAN_SUCCESSOR_UNSET
-	Der Eintrag des Vertreters für %s wurde entfernt.
+	Der Eintrag des Vertreters fÃ¼r %s wurde entfernt.
 CHAN_SUCCESSOR_IS_FOUNDER
 	%s kann nicht gleichzeitig Founder und Vertreter im Channel %s sein.
 
 # SET PASSWORD responses
 CHAN_SET_PASSWORD_FAILED
-	Konnte das Passwort nicht ändern.
+	Konnte das Passwort nicht Ã¤ndern.
 CHAN_PASSWORD_CHANGED
-	%s Passwort wurde geändert.
+	%s Passwort wurde geÃ¤ndert.
 CHAN_PASSWORD_CHANGED_TO
-	%s Passwort wurde geändert zu %s.
+	%s Passwort wurde geÃ¤ndert zu %s.
 
 # SET DESC responses
 CHAN_DESC_CHANGED
-	Beschreibung von %s wurde geändert zu %s.
+	Beschreibung von %s wurde geÃ¤ndert zu %s.
 
 # SET URL responses
 CHAN_URL_CHANGED
-	URL von %s wurde geändert zu %s.
+	URL von %s wurde geÃ¤ndert zu %s.
 CHAN_URL_UNSET
 	URL von %s wurde entfernt.
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
-	eMail-Adresse von %s wurde geändert in %s.
+	eMail-Adresse von %s wurde geÃ¤ndert in %s.
 CHAN_EMAIL_UNSET
 	eMail-Adresse von %s wurde entfernt.
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
-	Begrüssungsnachricht von %s wurde geändert.
+	BegrÃ¼ssungsnachricht von %s wurde geÃ¤ndert.
 CHAN_ENTRY_MSG_UNSET
-	Begrüssungsnachricht von %s wurde entfernt.
+	BegrÃ¼ssungsnachricht von %s wurde entfernt.
 	
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
-	%s ist kein gültiger Ban-Typ.
+	%s ist kein gÃ¼ltiger Ban-Typ.
 CHAN_SET_BANTYPE_CHANGED
-	Ban-Typ für den Channel %s ist jetzt #%d.
+	Ban-Typ fÃ¼r den Channel %s ist jetzt #%d.
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
@@ -1205,100 +1205,100 @@ CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
 CHAN_SET_MLOCK_L_REQUIRED
 	Lock Mode +L setzt das Festsetzen des Modes +l vorraus.
 CHAN_SET_MLOCK_K_REQUIRED
-	Du musst auch Mode +i festsetzen um Mode +K festsetzen zu können.
+	Du musst auch Mode +i festsetzen um Mode +K festsetzen zu kÃ¶nnen.
 CHAN_MLOCK_CHANGED
-	Mode lock für Channel %s geändert zu %s.
+	Mode lock fÃ¼r Channel %s geÃ¤ndert zu %s.
 
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
 	SET Channel KEEPTOPIC {ON | OFF}
 CHAN_SET_KEEPTOPIC_ON
-	Die Topic-Beibehaltung für %s ist jetzt aktiviert (ON).
+	Die Topic-Beibehaltung fÃ¼r %s ist jetzt aktiviert (ON).
 CHAN_SET_KEEPTOPIC_OFF
-	Die Topic-Beibehaltung für %s ist jetzt deaktiviert (OFF).
+	Die Topic-Beibehaltung fÃ¼r %s ist jetzt deaktiviert (OFF).
 
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
 	SET Channel TOPICLOCK {ON | OFF}
 CHAN_SET_TOPICLOCK_ON
-	Topic-Sperre Option für %s ist jetzt ON.
+	Topic-Sperre Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_TOPICLOCK_OFF
-	Topic-Sperre Option für %s ist jetzt OFF.
+	Topic-Sperre Option fÃ¼r %s ist jetzt OFF.
 
 # SET PRIVATE responses
 CHAN_SET_PEACE_SYNTAX
 	SET Channel PEACE {ON | OFF}
 CHAN_SET_PEACE_ON
-	Peace Option für %s ist jetzt ON.
+	Peace Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_PEACE_OFF
-	Peace Option für %s ist jetzt OFF.
+	Peace Option fÃ¼r %s ist jetzt OFF.
 
 # SET PRIVATE responses
 CHAN_SET_PRIVATE_SYNTAX
 	SET Channel PRIVATE {ON | OFF}
 CHAN_SET_PRIVATE_ON
-	Private Option für %s ist jetzt ON.
+	Private Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_PRIVATE_OFF
-	Private Option für %s ist jetzt OFF.
+	Private Option fÃ¼r %s ist jetzt OFF.
 
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
 	SET Channel SECUREOPS {ON | OFF}
 CHAN_SET_SECUREOPS_ON
-	Secure-Ops Option für %s ist jetzt ON.
+	Secure-Ops Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_SECUREOPS_OFF
-	Secure-Ops Option für %s ist jetzt OFF.
+	Secure-Ops Option fÃ¼r %s ist jetzt OFF.
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
 	SET Channel SECUREFOUNDER {ON | OFF}
 CHAN_SET_SECUREFOUNDER_ON
-	Secure Founder Option für %s ist jetzt ON.
+	Secure Founder Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_SECUREFOUNDER_OFF
-	Secure Founder Option für %s ist jetzt OFF.
+	Secure Founder Option fÃ¼r %s ist jetzt OFF.
 
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
 	SET Channel RESTRICTED {ON | OFF}
 CHAN_SET_RESTRICTED_ON
-	Eingeschränkter Access Option für %s ist jetzt ON.
+	EingeschrÃ¤nkter Access Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_RESTRICTED_OFF
-	Eingeschränkter Access Option für %s ist jetzt OFF.
+	EingeschrÃ¤nkter Access Option fÃ¼r %s ist jetzt OFF.
 
 # SET SECURE responses
 CHAN_SET_SECURE_SYNTAX
 	SET Channel SECURE {ON | OFF}
 CHAN_SET_SECURE_ON
-	Secure Option für %s ist jetzt ON.
+	Secure Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_SECURE_OFF
-	Secure Option für %s ist jetzt OFF.
+	Secure Option fÃ¼r %s ist jetzt OFF.
 
 # SET SIGNKICK responses
 CHAN_SET_SIGNKICK_SYNTAX
 	SET Channel SIGNKICK {ON | LEVEL | OFF}
 CHAN_SET_SIGNKICK_ON
-	Signierte kicks Option für %s ist jetzt ON.
+	Signierte kicks Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_SIGNKICK_LEVEL
-	Signierte kicks Option für %s ist jetzt ON, hängt aber von den
+	Signierte kicks Option fÃ¼r %s ist jetzt ON, hÃ¤ngt aber von den
 	Level des Benutzers der den Befehl verwendet ab.
 CHAN_SET_SIGNKICK_OFF
-	Signierte kicks Option für %s ist jetzt OFF.
+	Signierte kicks Option fÃ¼r %s ist jetzt OFF.
 
 # SET OPNOTICE responses
 CHAN_SET_OPNOTICE_SYNTAX
 	SET Channel OPNOTICE {ON | OFF}
 CHAN_SET_OPNOTICE_ON
-	Op-notice Option für %s ist jetzt ON.
+	Op-notice Option fÃ¼r %s ist jetzt ON.
 CHAN_SET_OPNOTICE_OFF
-	Op-notice Option für %s ist jetzt OFF.
+	Op-notice Option fÃ¼r %s ist jetzt OFF.
 
 # SET NOEXPIRE responses
 CHAN_SET_XOP_SYNTAX
 	SET Channel XOP {ON | OFF}
 CHAN_SET_XOP_ON
-	XOP System für %s ist jetzt ON.
+	XOP System fÃ¼r %s ist jetzt ON.
 CHAN_SET_XOP_OFF
-	XOP System für %s ist jetzt OFF.
+	XOP System fÃ¼r %s ist jetzt OFF.
 
 # SET NOEXPIRE responses
 CHAN_SET_NOEXPIRE_SYNTAX
@@ -1310,24 +1310,24 @@ CHAN_SET_NOEXPIRE_OFF
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
-	Du kannst maximal %d AOP/SOP/VOP Einträge in einem Channel haben.
+	Du kannst maximal %d AOP/SOP/VOP EintrÃ¤ge in einem Channel haben.
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
 	Du kannst diesen Befehl nicht benutzen. Benutze Stattdessen ACCESS.
-	Tippe %R%s HELP ACCESS für weitere Informationen.
+	Tippe %R%s HELP ACCESS fÃ¼r weitere Informationen.
 CHAN_XOP_NOT_AVAILABLE
-	XOP System ist nicht verfügbar.
+	XOP System ist nicht verfÃ¼gbar.
 
 # AOP messages
 CHAN_AOP_SYNTAX
 	AOP Channel {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 CHAN_AOP_DISABLED
-	Die Channel AOP-Liste kann derzeit nicht geändert werden.
+	Die Channel AOP-Liste kann derzeit nicht geÃ¤ndert werden.
 CHAN_AOP_NICKS_ONLY
 	Die Channel AOP-Liste darf nur registrierte Nicknamen enthalten.
 CHAN_AOP_ADDED
-	%s wurde der %s AOP-Liste hinzugefügt.
+	%s wurde der %s AOP-Liste hinzugefÃ¼gt.
 CHAN_AOP_MOVED
 	%s wurde auf die %s AOP-Liste verschoben.
 CHAN_AOP_NO_SUCH_ENTRY
@@ -1335,17 +1335,17 @@ CHAN_AOP_NO_SUCH_ENTRY
 CHAN_AOP_NOT_FOUND
 	%s wurde nicht in der %s AOP-Liste gefunden.
 CHAN_AOP_NO_MATCH
-	Keine passenden Einträge in der %s AOP-Liste.
+	Keine passenden EintrÃ¤ge in der %s AOP-Liste.
 CHAN_AOP_DELETED
-	%s gelöscht von der %s AOP-Liste.
+	%s gelÃ¶scht von der %s AOP-Liste.
 CHAN_AOP_DELETED_ONE
-	1 Eintrag wurde von der %s AOP-Liste gelöscht.
+	1 Eintrag wurde von der %s AOP-Liste gelÃ¶scht.
 CHAN_AOP_DELETED_SEVERAL
-	%d Einträge wurden von der %s AOP-Liste gelöscht.
+	%d EintrÃ¤ge wurden von der %s AOP-Liste gelÃ¶scht.
 CHAN_AOP_LIST_EMPTY
 	Die AOP-Liste von %s ist leer.
 CHAN_AOP_LIST_HEADER
-	AOP Liste für %s:
+	AOP Liste fÃ¼r %s:
 	  Nummer  Nickname
 CHAN_AOP_CLEAR
 	Die AOP-Liste von %s wurde geleert.
@@ -1354,11 +1354,11 @@ CHAN_AOP_CLEAR
 CHAN_HOP_SYNTAX
 	HOP Channel {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 CHAN_HOP_DISABLED
-	Die Channel HOP-Liste kann derzeit nicht geändert werden.
+	Die Channel HOP-Liste kann derzeit nicht geÃ¤ndert werden.
 CHAN_HOP_NICKS_ONLY
 	Die Channel HOP-Liste darf nur registrierte Nicknamen enthalten.
 CHAN_HOP_ADDED
-	%s wurde der %s HOP-Liste hinzugefügt.
+	%s wurde der %s HOP-Liste hinzugefÃ¼gt.
 CHAN_HOP_MOVED
 	%s wurde auf die %s HOP-Liste verschoben.
 CHAN_HOP_NO_SUCH_ENTRY
@@ -1366,17 +1366,17 @@ CHAN_HOP_NO_SUCH_ENTRY
 CHAN_HOP_NOT_FOUND
 	%s wurde nicht gefunden in der %s HOP-Liste.
 CHAN_HOP_NO_MATCH
-	Keine passenden Einträge in der %s HOP-Liste.
+	Keine passenden EintrÃ¤ge in der %s HOP-Liste.
 CHAN_HOP_DELETED
-	%s wurde gelöscht von der %s HOP-Liste.
+	%s wurde gelÃ¶scht von der %s HOP-Liste.
 CHAN_HOP_DELETED_ONE
-	1 Eintrag wurde von der %s HOP-Liste gelöscht.
+	1 Eintrag wurde von der %s HOP-Liste gelÃ¶scht.
 CHAN_HOP_DELETED_SEVERAL
-	%d Einträge wurden von der %s HOP-Liste gelöscht.
+	%d EintrÃ¤ge wurden von der %s HOP-Liste gelÃ¶scht.
 CHAN_HOP_LIST_EMPTY
 	Die HOP-Liste von %s ist leer.
 CHAN_HOP_LIST_HEADER
-	HOP Liste für %s:
+	HOP Liste fÃ¼r %s:
 	  Nummer  Nickname
 CHAN_HOP_CLEAR
 	Die %s HOP-Liste wurde geleert.
@@ -1385,11 +1385,11 @@ CHAN_HOP_CLEAR
 CHAN_SOP_SYNTAX
 	SOP Channel {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 CHAN_SOP_DISABLED
-	Die Channel SOP-Liste kann derzeit nicht geändert werden.
+	Die Channel SOP-Liste kann derzeit nicht geÃ¤ndert werden.
 CHAN_SOP_NICKS_ONLY
 	Die Channel SOP-Liste darf nur registrierte Nicknamen enthalten.
 CHAN_SOP_ADDED
-	%s wurde der %s SOP-Liste hinzugefügt.
+	%s wurde der %s SOP-Liste hinzugefÃ¼gt.
 CHAN_SOP_MOVED
 	%s wurde auf %s SOP-Liste verschoben.
 CHAN_SOP_NO_SUCH_ENTRY
@@ -1397,17 +1397,17 @@ CHAN_SOP_NO_SUCH_ENTRY
 CHAN_SOP_NOT_FOUND
 	%s wurde nicht gefunden in der %s SOP-Liste.
 CHAN_SOP_NO_MATCH
-	Keine passenden Einträge in der %s SOP-Liste.
+	Keine passenden EintrÃ¤ge in der %s SOP-Liste.
 CHAN_SOP_DELETED
-	%s wurde von der %s SOP-Liste gelöscht.
+	%s wurde von der %s SOP-Liste gelÃ¶scht.
 CHAN_SOP_DELETED_ONE
-	1 Eintrag wurde von der %s SOP-Liste gelöscht.
+	1 Eintrag wurde von der %s SOP-Liste gelÃ¶scht.
 CHAN_SOP_DELETED_SEVERAL
-	%d Einträge wurden von der %s SOP-Liste gelöscht.
+	%d EintrÃ¤ge wurden von der %s SOP-Liste gelÃ¶scht.
 CHAN_SOP_LIST_EMPTY
 	Die SOP-Liste von %s ist leer.
 CHAN_SOP_LIST_HEADER
-	SOP Liste für %s:
+	SOP Liste fÃ¼r %s:
 	  Nummer  Nickname
 CHAN_SOP_CLEAR
 	Die SOP-Liste von %s wurde geleert.
@@ -1416,11 +1416,11 @@ CHAN_SOP_CLEAR
 CHAN_VOP_SYNTAX
 	VOP Channel {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 CHAN_VOP_DISABLED
-	Die Channel VOP-Liste kann derzeit nicht geändert werden.
+	Die Channel VOP-Liste kann derzeit nicht geÃ¤ndert werden.
 CHAN_VOP_NICKS_ONLY
 	Die Channel VOP-Liste darf nur registrierte Nicknamen enthalten.
 CHAN_VOP_ADDED
-	%s wurde der %s VOP-Liste hinzugefügt.
+	%s wurde der %s VOP-Liste hinzugefÃ¼gt.
 CHAN_VOP_MOVED
 	%s wurde auf die %s VOP-Liste verschoben.
 CHAN_VOP_NO_SUCH_ENTRY
@@ -1428,17 +1428,17 @@ CHAN_VOP_NO_SUCH_ENTRY
 CHAN_VOP_NOT_FOUND
 	%s wurde nicht gefunden in der %s VOP-Liste.
 CHAN_VOP_NO_MATCH
-	Keine passenden Einträge in der %s VOP-Liste.
+	Keine passenden EintrÃ¤ge in der %s VOP-Liste.
 CHAN_VOP_DELETED
-	%s wurde gelöscht von der %s VOP-Liste.
+	%s wurde gelÃ¶scht von der %s VOP-Liste.
 CHAN_VOP_DELETED_ONE
-	1 Eintrag wurde von der %s VOP-Liste gelöscht.
+	1 Eintrag wurde von der %s VOP-Liste gelÃ¶scht.
 CHAN_VOP_DELETED_SEVERAL
-	%d Einträge wurden von der %s VOP-Liste gelöscht.
+	%d EintrÃ¤ge wurden von der %s VOP-Liste gelÃ¶scht.
 CHAN_VOP_LIST_EMPTY
 	Die VOP-Liste von %s ist leer.
 CHAN_VOP_LIST_HEADER
-	VOP Liste für %s:
+	VOP Liste fÃ¼r %s:
 	  Nummer  Nickname
 CHAN_VOP_CLEAR
 	Die VOP-Liste von %s wurde geleert.
@@ -1449,43 +1449,43 @@ CHAN_ACCESS_SYNTAX
 CHAN_ACCESS_XOP
 	Du kannst dieses Befehl nicht nutzen. 
 	Nutze stattdessen die AOP, SOP und VOP Befehle.
-	Tippe %R%s HELP Befehl für weitere Informationen.
+	Tippe %R%s HELP Befehl fÃ¼r weitere Informationen.
 CHAN_ACCESS_XOP_HOP
 	Du kannst dieses Befehl nicht nutzen.
 	Nutze stattdessen die AOP, SOP, HOP und VOP Befehle.
-	Tippe %R%s HELP Befehl für weitere Informationen.
+	Tippe %R%s HELP Befehl fÃ¼r weitere Informationen.
 CHAN_ACCESS_DISABLED
-	Das Ändern der Channel-Access-Liste wurde zwischenzeitig deaktiviert.
+	Das Ã„ndern der Channel-Access-Liste wurde zwischenzeitig deaktiviert.
 CHAN_ACCESS_LEVEL_NONZERO
-	Access-Level muss grösser als 0 sein.
+	Access-Level muss grÃ¶sser als 0 sein.
 CHAN_ACCESS_LEVEL_RANGE
 	Access-Level muss zwischen %d und einschliesslich %d liegen.
 CHAN_ACCESS_NICKS_ONLY
 	Die Channel-Access-Liste darf nur registrierte Nicknamen enthalten.
 CHAN_ACCESS_REACHED_LIMIT
-	Die Access-Liste ist auf %d Einträge beschränkt.
+	Die Access-Liste ist auf %d EintrÃ¤ge beschrÃ¤nkt.
 CHAN_ACCESS_LEVEL_UNCHANGED
-	Access-Level für %s in %s ist unverändert auf %d.
+	Access-Level fÃ¼r %s in %s ist unverÃ¤ndert auf %d.
 CHAN_ACCESS_LEVEL_CHANGED
-	Access-Level für %s in %s wurde geändert auf %d.
+	Access-Level fÃ¼r %s in %s wurde geÃ¤ndert auf %d.
 CHAN_ACCESS_ADDED
-	%s wurde zur Access-Liste von %s hinzugefügt mit Level %d.
+	%s wurde zur Access-Liste von %s hinzugefÃ¼gt mit Level %d.
 CHAN_ACCESS_NO_SUCH_ENTRY
 	Kein solcher Eintrag (#%d) auf der Access-Liste von %s.
 CHAN_ACCESS_NOT_FOUND
 	%s wurde auf der Access-Liste von %s nicht gefunden.
 CHAN_ACCESS_NO_MATCH
-	Es existieren keine entsprechenden Einträge in der Access-Liste von %s.
+	Es existieren keine entsprechenden EintrÃ¤ge in der Access-Liste von %s.
 CHAN_ACCESS_DELETED
 	%s wurde von der Access-Liste von %s entfernt.
 CHAN_ACCESS_DELETED_ONE
 	1 Eintrag wurde aus der Access-Liste von %s entfernt.
 CHAN_ACCESS_DELETED_SEVERAL
-	%d Einträge wurden aus der Access-Liste von %s entfernt.
+	%d EintrÃ¤ge wurden aus der Access-Liste von %s entfernt.
 CHAN_ACCESS_LIST_EMPTY
 	Die Access-Liste von %s ist leer.
 CHAN_ACCESS_LIST_HEADER
-	Access-Liste für %s:
+	Access-Liste fÃ¼r %s:
 	  Nummer   Level  Nickname
 CHAN_ACCESS_LIST_FOOTER
 	Ende der Access-liste.
@@ -1504,15 +1504,15 @@ CHAN_AKICK_DISABLED
 CHAN_AKICK_ALREADY_EXISTS
 	%s existiert bereits auf der AutoKick-Liste von %s.
 CHAN_AKICK_REACHED_LIMIT
-	Du kannst nur max. %d Einträge auf der AutoKick-Liste haben.
+	Du kannst nur max. %d EintrÃ¤ge auf der AutoKick-Liste haben.
 CHAN_AKICK_ADDED
-	%s wurde der AutoKick-Liste von %s hinzugefügt.
+	%s wurde der AutoKick-Liste von %s hinzugefÃ¼gt.
 CHAN_AKICK_NO_SUCH_ENTRY
 	Kein solcher Eintrag (#%d) auf der Autokick-Liste von %s gefunden.
 CHAN_AKICK_NOT_FOUND
 	%s wurde nicht auf der AutoKick-Liste von %s gefunden.
 CHAN_AKICK_NO_MATCH
-	Keine entsprechenden Einträge auf der AutoKick-Liste von %s gefunden.
+	Keine entsprechenden EintrÃ¤ge auf der AutoKick-Liste von %s gefunden.
 CHAN_AKICK_STUCK
 	%s ist jetzt stetig aktiviert im %s.
 CHAN_AKICK_UNSTUCK
@@ -1522,7 +1522,7 @@ CHAN_AKICK_DELETED
 CHAN_AKICK_DELETED_ONE
 	1 Eintrag der AutoKick-Liste von %s entfernt.
 CHAN_AKICK_DELETED_SEVERAL
-	%d Einträge wurden aus der AutoKick-Liste von %s entfernt.
+	%d EintrÃ¤ge wurden aus der AutoKick-Liste von %s entfernt.
 CHAN_AKICK_LIST_EMPTY
 	Die Autokick-Liste von %s ist leer.
 CHAN_AKICK_LIST_HEADER
@@ -1536,7 +1536,7 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 	%3d %s (stuck) (von %s am %s)
 	    %s
 CHAN_AKICK_ENFORCE_DONE
-	AKICK ENFORCE für %s erledigt. %d User betroffen.
+	AKICK ENFORCE fÃ¼r %s erledigt. %d User betroffen.
 CHAN_AKICK_CLEAR
 	Die Autokick-Liste von %s wurde geleert.
 
@@ -1548,13 +1548,13 @@ CHAN_LEVELS_XOP
 CHAN_LEVELS_RANGE
 	Der Level kann nur zwischen %d und einschliesslich %d liegen.
 CHAN_LEVELS_CHANGED
-	Der Level für %s für den Channel %s wurde geändert auf %d.
+	Der Level fÃ¼r %s fÃ¼r den Channel %s wurde geÃ¤ndert auf %d.
 CHAN_LEVELS_UNKNOWN
-	Einstellung %s ist unbekannt.  Tippe %R%s HELP LEVELS DESC für eine ausführliche Einstellungsliste.
+	Einstellung %s ist unbekannt.  Tippe %R%s HELP LEVELS DESC fÃ¼r eine ausfÃ¼hrliche Einstellungsliste.
 CHAN_LEVELS_DISABLED
 	%s wurde deaktiviert im Channel %s.
 CHAN_LEVELS_LIST_HEADER
-	Zugriffslevel für Channel %s:
+	Zugriffslevel fÃ¼r Channel %s:
 CHAN_LEVELS_LIST_DISABLED
 	    %-*s  (deaktiviert)
 CHAN_LEVELS_LIST_FOUNDER
@@ -1562,7 +1562,7 @@ CHAN_LEVELS_LIST_FOUNDER
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 CHAN_LEVELS_RESET
-	Zugriffslevel für %s wurden auf Standardwerte zurückgesetzt.
+	Zugriffslevel fÃ¼r %s wurden auf Standardwerte zurÃ¼ckgesetzt.
 
 # Status Messages
 CHAN_STATUS_SYNTAX
@@ -1580,7 +1580,7 @@ CHAN_STATUS_INFO
 CHAN_INFO_SYNTAX
 	INFO Channel [ALL]
 CHAN_INFO_HEADER
-	Informationen über den Channel %s:
+	Informationen Ã¼ber den Channel %s:
 CHAN_INFO_FOUNDER
 	           Founder: %s (%s)
 CHAN_INFO_NO_FOUNDER
@@ -1618,7 +1618,7 @@ CHAN_INFO_OPT_PEACE
 CHAN_INFO_OPT_PRIVATE
 	Privat
 CHAN_INFO_OPT_RESTRICTED
-	Eingeschränkter Access
+	EingeschrÃ¤nkter Access
 CHAN_INFO_OPT_SECURE
 	Secure
 CHAN_INFO_OPT_SECUREOPS
@@ -1646,7 +1646,7 @@ CHAN_LIST_SYNTAX
 CHAN_LIST_SERVADMIN_SYNTAX
 	LIST Muster [FORBIDDEN] [NOEXPIRE]
 CHAN_LIST_HEADER
-	Liste passender Einträge zu %s:
+	Liste passender EintrÃ¤ge zu %s:
 CHAN_LIST_FORMAT
 	    %-20s  %s
 CHAN_LIST_END
@@ -1674,7 +1674,7 @@ CHAN_CLEARED_BANS
 CHAN_CLEARED_EXCEPTS
 	Alle Ausnahmen in %s wurden entfernt.
 CHAN_CLEARED_MODES
-	Alle Channel-Modes von %s wurden zurückgesetzt.
+	Alle Channel-Modes von %s wurden zurÃ¼ckgesetzt.
 CHAN_CLEARED_OPS
 	Alle Op-Flags wurden im Channel %s entfernt.
 CHAN_CLEARED_HOPS
@@ -1690,9 +1690,9 @@ CHAN_CLEARED_INVITES
 CHAN_GETPASS_SYNTAX
 	GETPASS Channel
 CHAN_GETPASS_UNAVAILABLE
-	GETPASS Befehl nicht verfügbar, da die Datenbank verschlüsselt ist.
+	GETPASS Befehl nicht verfÃ¼gbar, da die Datenbank verschlÃ¼sselt ist.
 CHAN_GETPASS_PASSWORD_IS
-	Passwort für Channel %s ist %s.
+	Passwort fÃ¼r Channel %s ist %s.
 	
 # SENDPASS responses
 CHAN_GETKEY_SYNTAX
@@ -1706,15 +1706,15 @@ CHAN_GETKEY_KEY
 CHAN_SENDPASS_SYNTAX
 	SENDPASS Channel
 CHAN_SENDPASS_UNAVAILABLE
-	SENDPASS Befehl nicht verfügbar, da die Datenbank verschlüsselt ist.
+	SENDPASS Befehl nicht verfÃ¼gbar, da die Datenbank verschlÃ¼sselt ist.
 CHAN_SENDPASS_SUBJECT
 	Channel-Passwort (%s)
 CHAN_SENDPASS_HEAD
 	Hi,
 CHAN_SENDPASS_LINE_1
-	Du hast das Passwortes für deinen Channel %s angefordert.
+	Du hast das Passwortes fÃ¼r deinen Channel %s angefordert.
 CHAN_SENDPASS_LINE_2
-	Das Passwort ist %s. Aus Sicherheitsgründen solltest du das Passwort bei Erhalt dieser Nachricht ändern.
+	Das Passwort ist %s. Aus SicherheitsgrÃ¼nden solltest du das Passwort bei Erhalt dieser Nachricht Ã¤ndern.
 CHAN_SENDPASS_LINE_3
 	Wenn du nicht weisst, warum du diese Mail empfangen hast, ignoriere Sie bitte.
 CHAN_SENDPASS_LINE_4
@@ -1762,7 +1762,7 @@ CHAN_UNSUSPEND_FAILED
 
 # Misc responses
 CHAN_EXCEPTED
-	%s passt zur Ausnahme von %s und kann nicht gebannt werden, solange die Ausnahme nicht gelöscht wird.
+	%s passt zur Ausnahme von %s und kann nicht gebannt werden, solange die Ausnahme nicht gelÃ¶scht wird.
 
 ###########################################################################
 #
@@ -1782,15 +1782,15 @@ MEMO_TYPE_READ_NUM
 MEMO_TYPE_LIST_NEW
 	Tippe %R%s LIST NEW um eine Auflistung deiner neuen Memos zu erhalten.
 MEMO_AT_LIMIT
-	Warnung: Du hast die maximale Anzahl gespeicherter Memos erreicht (%d). Du kannst keine weiteren Nachrichten empfangen, bis du einige deiner jetzigen Memos gelöscht hast.
+	Warnung: Du hast die maximale Anzahl gespeicherter Memos erreicht (%d). Du kannst keine weiteren Nachrichten empfangen, bis du einige deiner jetzigen Memos gelÃ¶scht hast.
 MEMO_OVER_LIMIT
-	Warnung: Du hast die maximale Anzahl gespeicherter Memos überschritten (%d). Du kannst keine weiteren Memos empfangen, bis du einige deiner jetzigen Memos gelöscht hast.
+	Warnung: Du hast die maximale Anzahl gespeicherter Memos Ã¼berschritten (%d). Du kannst keine weiteren Memos empfangen, bis du einige deiner jetzigen Memos gelÃ¶scht hast.
 MEMO_X_MANY_NOTICE
-	Es gibt %d benachrichtigungen für den Channel %s.
+	Es gibt %d benachrichtigungen fÃ¼r den Channel %s.
 MEMO_X_ONE_NOTICE
-	Es gibt %d Benachrichtigung für Channel %s.
+	Es gibt %d Benachrichtigung fÃ¼r Channel %s.
 MEMO_NEW_X_MEMO_ARRIVED
-	Es gibt eine neue Nachricht für Channel %s.
+	Es gibt eine neue Nachricht fÃ¼r Channel %s.
 	Tippe %R%s READ %s %d um sie zu lesen.
 MEMO_NEW_MEMO_ARRIVED
 	Du hast eine neue Nachricht von %s empfangen.
@@ -1846,13 +1846,13 @@ MEMO_HAVE_NO_NEW_MEMOS
 MEMO_X_HAS_NO_NEW_MEMOS
 	%s hat keine Memos.
 MEMO_LIST_MEMOS
-	Memos für %s.  Um sie zu lesen, tippe %R%s READ Nummer
+	Memos fÃ¼r %s.  Um sie zu lesen, tippe %R%s READ Nummer
 MEMO_LIST_NEW_MEMOS
-	Neue Memos für %s.  Um sie zu lesen, tippe %R%s READ Nummer
+	Neue Memos fÃ¼r %s.  Um sie zu lesen, tippe %R%s READ Nummer
 MEMO_LIST_CHAN_MEMOS
-	Memos für %s.  Um sie zu lesen, tippe %R%s READ %s Nummer
+	Memos fÃ¼r %s.  Um sie zu lesen, tippe %R%s READ %s Nummer
 MEMO_LIST_CHAN_NEW_MEMOS
-	Neue Memos für %s.  Um sie zu lesen, tippe %R%s READ %s Nummer
+	Neue Memos fÃ¼r %s.  Um sie zu lesen, tippe %R%s READ %s Nummer
 MEMO_LIST_HEADER
 	 Nummer  Sender            Datum/Zeit
 MEMO_LIST_FORMAT
@@ -1862,9 +1862,9 @@ MEMO_LIST_FORMAT
 MEMO_READ_SYNTAX
 	READ [Channel] {Liste | LAST | NEW}
 MEMO_HEADER
-	Memo %d von %s (%s).  Um sie zu löschen, tippe %R%s DEL %d
+	Memo %d von %s (%s).  Um sie zu lÃ¶schen, tippe %R%s DEL %d
 MEMO_CHAN_HEADER
-	Memo %d von %s (%s).  Um sie zu löschen, tippe %R%s DEL %s %d
+	Memo %d von %s (%s).  Um sie zu lÃ¶schen, tippe %R%s DEL %s %d
 MEMO_TEXT
 	%s
 
@@ -1872,15 +1872,15 @@ MEMO_TEXT
 MEMO_DEL_SYNTAX
 	DEL [Channel] {Nummer | Liste | ALL}
 MEMO_DELETED_NONE
-	Es wurden keine Memos gelöscht.
+	Es wurden keine Memos gelÃ¶scht.
 MEMO_DELETED_ONE
-	Memo %d wurde gelöscht.
+	Memo %d wurde gelÃ¶scht.
 MEMO_DELETED_SEVERAL
-	Memos %s wurden gelöscht.
+	Memos %s wurden gelÃ¶scht.
 MEMO_DELETED_ALL
-	Alle deine Memos wurden gelöscht.
+	Alle deine Memos wurden gelÃ¶scht.
 MEMO_CHAN_DELETED_ALL
-	Alle Memos für den Channel %s wurden gelöscht.
+	Alle Memos fÃ¼r den Channel %s wurden gelÃ¶scht.
 
 # SET responses
 MEMO_SET_SYNTAX
@@ -1894,19 +1894,19 @@ MEMO_SET_UNKNOWN_OPTION
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-	%s wird dich beim Einloggen über eingegangene Memos informieren. 
+	%s wird dich beim Einloggen Ã¼ber eingegangene Memos informieren. 
 MEMO_SET_NOTIFY_LOGON
-	%s wird dich beim Einloggen oder bei der Rückkehr aus /AWAY über eingegangene Memos informieren.
+	%s wird dich beim Einloggen oder bei der RÃ¼ckkehr aus /AWAY Ã¼ber eingegangene Memos informieren.
 MEMO_SET_NOTIFY_NEW
-	%s wird dich benachrichtigen, sobald neue Memos für dich eintreffen.
+	%s wird dich benachrichtigen, sobald neue Memos fÃ¼r dich eintreffen.
 MEMO_SET_NOTIFY_OFF
-	%s wird dich nicht länger beim Eintreffen neuer Memos benachrichtigen.
+	%s wird dich nicht lÃ¤nger beim Eintreffen neuer Memos benachrichtigen.
 MEMO_SET_NOTIFY_MAIL
-	Du wirst jetzt per Email über neue Memos informiert.
+	Du wirst jetzt per Email Ã¼ber neue Memos informiert.
 MEMO_SET_NOTIFY_NOMAIL
-	Du wirst nicht länger per Email über neue Memos benachrichtigt.
+	Du wirst nicht lÃ¤nger per Email Ã¼ber neue Memos benachrichtigt.
 MEMO_SET_NOTIFY_INVALIDMAIL
-	Du hast keine zulässige Email Adresse gesetzt.
+	Du hast keine zulÃ¤ssige Email Adresse gesetzt.
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
@@ -1914,25 +1914,25 @@ MEMO_SET_LIMIT_SYNTAX
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
 	SET LIMIT [User | Channel] {Limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	Du hast keine Berechtigung dein Memo-Limit zu ändern.
+	Du hast keine Berechtigung dein Memo-Limit zu Ã¤ndern.
 MEMO_SET_LIMIT_FORBIDDEN
-	Du hast keine Berechtigung das Memo-Limit für %s zu ändern.
+	Du hast keine Berechtigung das Memo-Limit fÃ¼r %s zu Ã¤ndern.
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	Du kannst dein Memo-Limit nicht höher als %d setzen.
+	Du kannst dein Memo-Limit nicht hÃ¶her als %d setzen.
 MEMO_SET_LIMIT_TOO_HIGH
-	Du kannst das Memo-Limit für %s nicht höher als %d setzen.
+	Du kannst das Memo-Limit fÃ¼r %s nicht hÃ¶her als %d setzen.
 MEMO_SET_LIMIT_OVERFLOW
 	Das Memo-Limit ist zu gross, es wird reduziert auf %d.
 MEMO_SET_YOUR_LIMIT
 	Dein Memo-Limit wurde auf %d gesetzt.
 MEMO_SET_YOUR_LIMIT_ZERO
-	Du wirst ab sofort keine Memos mehr empfangen können.
+	Du wirst ab sofort keine Memos mehr empfangen kÃ¶nnen.
 MEMO_UNSET_YOUR_LIMIT
 	Dein Memo-Limit wurde aufgehoben.
 MEMO_SET_LIMIT
 	Memo-Limit von %s wurde auf %d gesetzt.
 MEMO_SET_LIMIT_ZERO
-	Memo-Limit von %s wurde auf 0 gesetzt, kein Memo-Empfang für ihn mehr möglich.
+	Memo-Limit von %s wurde auf 0 gesetzt, kein Memo-Empfang fÃ¼r ihn mehr mÃ¶glich.
 MEMO_UNSET_LIMIT
 	Memo-Limit von %s wurde aufgehoben.
 
@@ -1958,11 +1958,11 @@ MEMO_INFO_MEMOS_ALL_UNREAD
 MEMO_INFO_LIMIT
 	Dein Memo-Limit liegt bei %d.
 MEMO_INFO_HARD_LIMIT
-	Dein Memo-Limit liegt bei %d, und kann nicht geändert werden.
+	Dein Memo-Limit liegt bei %d, und kann nicht geÃ¤ndert werden.
 MEMO_INFO_LIMIT_ZERO
 	Dein Memo-Limit liegt bei 0, du kannst keine Memos empfangen.
 MEMO_INFO_HARD_LIMIT_ZERO
-	Dein Memo-Limit liegt bei 0, du kannst keine Memos empfangen. Das Limit kann von dir nicht verändert werden.
+	Dein Memo-Limit liegt bei 0, du kannst keine Memos empfangen. Das Limit kann von dir nicht verÃ¤ndert werden.
 MEMO_INFO_NO_LIMIT
 	Du hast kein Limit in der Anzahl deiner Memos.
 MEMO_INFO_NOTIFY_OFF
@@ -1990,7 +1990,7 @@ MEMO_INFO_X_MEMOS_ALL_UNREAD
 MEMO_INFO_X_LIMIT
 	%s's Memo-Limit liegt bei %d.
 MEMO_INFO_X_HARD_LIMIT
-	%s's Memo-Limit liegt bei %d, und kann nicht geändert werden.
+	%s's Memo-Limit liegt bei %d, und kann nicht geÃ¤ndert werden.
 MEMO_INFO_X_NO_LIMIT
 	%s hat kein Memo-Limit.
 MEMO_INFO_X_NOTIFY_OFF
@@ -2000,7 +2000,7 @@ MEMO_INFO_X_NOTIFY_ON
 MEMO_INFO_X_NOTIFY_RECEIVE
 	%s wird bei Ankunft neuer Memos benachrichtigt.
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s wird beim Logon über neuer Memos benachrichtigt.
+	%s wird beim Logon Ã¼ber neuer Memos benachrichtigt.
 
 # Memo2Mail
 MEMO_MAIL_SUBJECT
@@ -2039,8 +2039,8 @@ MEMO_CHECK_NO_MEMO
 
 # Standard responses
 MEMO_NO_RSEND_SELF
-	Das Erhalten von Empfangsbestätigungen ist nur beim Senden
-	einer Memo an andere User möglich.
+	Das Erhalten von EmpfangsbestÃ¤tigungen ist nur beim Senden
+	einer Memo an andere User mÃ¶glich.
 
 ###########################################################################
 #
@@ -2053,7 +2053,7 @@ BOT_DOES_NOT_EXIST
 	Bot %s gibt es nicht.
 BOT_NOT_ASSIGNED
 	Ein Bot muss dem Channel zugewiesen werden, bevor dieser Befehl funktioniert.
-	Tippe %R%S HELP ASSIGN für weitere Informationen.
+	Tippe %R%S HELP ASSIGN fÃ¼r weitere Informationen.
 BOT_NOT_ON_CHANNEL
 	Der Bot ist nicht im Channel %s.
 	
@@ -2069,9 +2069,9 @@ BOT_REASON_CAPS
 BOT_REASON_COLOR
 	Keine Farben im Channel benutzen!
 BOT_REASON_FLOOD
-	Hör auf zu flooden!
+	HÃ¶r auf zu flooden!
 BOT_REASON_REPEAT
-	Hör auf dich dauernd zu wiederholen!
+	HÃ¶r auf dich dauernd zu wiederholen!
 BOT_REASON_REVERSE
 	Nicht invertiert schreiben!
 BOT_REASON_UNDERLINE
@@ -2103,25 +2103,25 @@ BOT_BOT_ALREADY_EXISTS
 BOT_BOT_CREATION_FAILED
 	Erstellung des Bots ist fehlgeschlagen.
 BOT_BOT_READONLY
-	Das Verändern von Bot-Einstellungen ist derzeit deaktiviert.
+	Das VerÃ¤ndern von Bot-Einstellungen ist derzeit deaktiviert.
 BOT_BOT_ADDED
-	%s!%s@%s (%s) wurde zur der Bot-Liste hinzugefügt.
+	%s!%s@%s (%s) wurde zur der Bot-Liste hinzugefÃ¼gt.
 BOT_BOT_ANY_CHANGES
-	Das alten Informationen stimmen mit den neuen überein.
+	Das alten Informationen stimmen mit den neuen Ã¼berein.
 BOT_BOT_CHANGED
-	Bot %s wurde geändert auf %s!%s@%s (%s)
+	Bot %s wurde geÃ¤ndert auf %s!%s@%s (%s)
 BOT_BOT_DELETED
-	Bot %s wurde gelöscht.
+	Bot %s wurde gelÃ¶scht.
 	
 # BOTLIST responses
 BOT_BOTLIST_HEADER
 	Bot-Liste:
 BOT_BOTLIST_PRIVATE_HEADER
-	Bots die für IRC Operatoren reserviert sind:
+	Bots die fÃ¼r IRC Operatoren reserviert sind:
 BOT_BOTLIST_FOOTER
-	%d Bots verfügbar.
+	%d Bots verfÃ¼gbar.
 BOT_BOTLIST_EMPTY
-	Es sind derzeit keine Bots verfügbar. Frag einen 
+	Es sind derzeit keine Bots verfÃ¼gbar. Frag einen 
 	Services Administrator, ob er einen erstellt.
 	
 # ASSIGN responses
@@ -2144,7 +2144,7 @@ BOT_UNASSIGN_UNASSIGNED
 BOT_INFO_SYNTAX
 	INFO {Channel | Nickname}
 BOT_INFO_NOT_FOUND
-	%s ist kein gültiger Bot bzw. registrierter Channel.
+	%s ist kein gÃ¼ltiger Bot bzw. registrierter Channel.
 BOT_INFO_BOT_HEADER
 	Information vom Bot %s:
 BOT_INFO_BOT_MASK
@@ -2216,7 +2216,7 @@ BOT_INFO_OPT_DONTKICKVOICES
 BOT_INFO_OPT_FANTASY
 	Fantasy-Mode
 BOT_INFO_OPT_GREET
-	Begrüssungsnachricht
+	BegrÃ¼ssungsnachricht
 BOT_INFO_OPT_NOBOT
 	Kein Bot
 BOT_INFO_OPT_SYMBIOSIS
@@ -2231,7 +2231,7 @@ BOT_SET_DISABLED
 	Die SET-Optionen sind derzeit deaktiviert.
 BOT_SET_UNKNOWN
 	Unbekannte Option %s.
-	Tippe %R%S HELP SET für weitere Informationen.
+	Tippe %R%S HELP SET fÃ¼r weitere Informationen.
 	
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
@@ -2261,9 +2261,9 @@ BOT_SET_FANTASY_OFF
 BOT_SET_GREET_SYNTAX
 	SET Channel GREET {ON|OFF}
 BOT_SET_GREET_ON
-	Begrüssungsnachricht ist jetzt ON im %s.
+	BegrÃ¼ssungsnachricht ist jetzt ON im %s.
 BOT_SET_GREET_OFF
-	Begrüssungsnachricht ist jetzt OFF im %s.
+	BegrÃ¼ssungsnachricht ist jetzt OFF im %s.
 	
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
@@ -2296,18 +2296,18 @@ BOT_KICK_DISABLED
 	Die Konfiguration des Kickers ist derzeit deaktiviert.
 BOT_KICK_UNKNOWN
 	Unbekannte Option %s.
-	Tippe %R%S HELP KICK für weitere Informationen.
+	Tippe %R%S HELP KICK fÃ¼r weitere Informationen.
 BOT_KICK_BAD_TTB
-	%s ist eine ungültige Ban-Zeit.
+	%s ist eine ungÃ¼ltige Ban-Zeit.
 
 BOT_KICK_BADWORDS_ON
 	Bot wird jetzt auf bad words achten und kicken. Benutze den BADWORDS
-	Befehl um Wörter zur Liste hinzuzufügen oder zu entfernen.
+	Befehl um WÃ¶rter zur Liste hinzuzufÃ¼gen oder zu entfernen.
 
 BOT_KICK_BADWORDS_ON_BAN
 	Bot wird jetzt auf bad words achten und einen Ban setzen
-	nach %d kicks. Benutze den BADWORDS Befehl um Wörter zur Liste
-	hinzuzufügen oder zu entfernen.
+	nach %d kicks. Benutze den BADWORDS Befehl um WÃ¶rter zur Liste
+	hinzuzufÃ¼gen oder zu entfernen.
 
 BOT_KICK_BADWORDS_OFF
 	bad word Kick ist jetzt deaktiviert.
@@ -2319,10 +2319,10 @@ BOT_KICK_BOLDS_ON_BAN
 BOT_KICK_BOLDS_OFF
 	bold Kick ist jetzt deaktiviert.
 BOT_KICK_CAPS_ON
-	Bot wird jetzt User mit GROSSSCHRIFT kicken (es müssen allerdings
+	Bot wird jetzt User mit GROSSSCHRIFT kicken (es mÃ¼ssen allerdings
 	%d Zeichen und %d%% der gesamten Nachricht sein).
 BOT_KICK_CAPS_ON_BAN
-	Bot wird jetzt User mit GROSSSCHRIFT kicken (es müssen allerdings
+	Bot wird jetzt User mit GROSSSCHRIFT kicken (es mÃ¼ssen allerdings
 	%d Zeichen und %d%% der gesamten Nachricht sein), und wird nach %d Kicks
 	einen Ban setzen.
 BOT_KICK_CAPS_OFF
@@ -2367,25 +2367,25 @@ BOT_KICK_UNDERLINES_OFF
 BOT_BADWORDS_SYNTAX
 	BADWORDS Channel {ADD|DEL|LIST|CLEAR} [Wort | entry-liste] [SINGLE|START|END]
 BOT_BADWORDS_DISABLED
-	Das Ändern der Bad Words-Liste ist derzeit deaktiviert.
+	Das Ã„ndern der Bad Words-Liste ist derzeit deaktiviert.
 BOT_BADWORDS_REACHED_LIMIT
-	Du kannst nur %d Einträge in der Bad Words-Liste eines Channels haben.
+	Du kannst nur %d EintrÃ¤ge in der Bad Words-Liste eines Channels haben.
 BOT_BADWORDS_ALREADY_EXISTS
 	%s existiert bereits in der Bad Words-Liste von %s.
 BOT_BADWORDS_ADDED
-	%s zur Bad Words-Liste von %s hinzugefügt.
+	%s zur Bad Words-Liste von %s hinzugefÃ¼gt.
 BOT_BADWORDS_NO_SUCH_ENTRY
 	Kein solcher Eintrag (#%d) wurde in der Bad Words-Liste von %s gefunden.
 BOT_BADWORDS_NOT_FOUND
 	%s nicht in der Bad Words-Liste von %s gefunden.
 BOT_BADWORDS_NO_MATCH
-	Keine entsprechenden Einträge zu %s in der Bad Words-Liste gefunden.
+	Keine entsprechenden EintrÃ¤ge zu %s in der Bad Words-Liste gefunden.
 BOT_BADWORDS_DELETED
 	%s wurde aus der Bad Words-Liste von %s entfernt.
 BOT_BADWORDS_DELETED_ONE
 	1 Eintrag wurde aus der Bad Words-Liste von %s entfernt.
 BOT_BADWORDS_DELETED_SEVERAL
-	%d Einträge wurden aus der Bad Words-Liste von %s entfernt.
+	%d EintrÃ¤ge wurden aus der Bad Words-Liste von %s entfernt.
 BOT_BADWORDS_LIST_EMPTY
 	Die Bad Words-Liste von %s ist leer.
 BOT_BADWORDS_LIST_HEADER
@@ -2406,18 +2406,18 @@ BOT_ACT_SYNTAX
 
 # Errors
 BOT_EXCEPT
-	User stimmt mit Channel Exception überein.
+	User stimmt mit Channel Exception Ã¼berein.
 
 
 # General messages
 BOT_BAD_NICK
-	Bot Nicknamen dürfen nur gültige Zeichen enthalten.
+	Bot Nicknamen dÃ¼rfen nur gÃ¼ltige Zeichen enthalten.
 BOT_BAD_HOST
-	Bot Hosts dürfen nur gültige Zeichen enthalten.
+	Bot Hosts dÃ¼rfen nur gÃ¼ltige Zeichen enthalten.
 BOT_BAD_IDENT
-	Bot Idents dürfen nur gültige Zeichen enthalten.
+	Bot Idents dÃ¼rfen nur gÃ¼ltige Zeichen enthalten.
 BOT_LONG_IDENT
-	Bot Idents dürfen nur %d Zeichen enthalten.
+	Bot Idents dÃ¼rfen nur %d Zeichen enthalten.
 BOT_LONG_HOST
 	Bot Hosts may only contain %d characters.
 ###########################################################################
@@ -2428,9 +2428,9 @@ BOT_LONG_HOST
 
 # General messages
 OPER_BOUNCY_MODES
-	Services können die Modi nicht ändern. Ist der Server richtig konfiguriert?
+	Services kÃ¶nnen die Modi nicht Ã¤ndern. Ist der Server richtig konfiguriert?
 OPER_BOUNCY_MODES_U_LINE
-	Services können die Modi nicht ändern. Sind die U:lines des
+	Services kÃ¶nnen die Modi nicht Ã¤ndern. Sind die U:lines des
 	Servers richtig konfiguriert?
 
 # GLOBAL responses
@@ -2482,23 +2482,23 @@ OPER_STATS_BYTES_READ
 OPER_STATS_BYTES_WRITTEN
 	Bytes geschrieben : %5d kB
 OPER_STATS_USER_MEM
-	User              : %6d Einträge, %5d kB
+	User              : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_CHANNEL_MEM
-	Channel           : %6d Einträge, %5d kB
+	Channel           : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_GROUPS_MEM
-	NickServ-Gruppen  : %6d Einträge, %5d kB
+	NickServ-Gruppen  : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_ALIASES_MEM
-	NickServ-Aliase   : %6d Einträge, %5d kB
+	NickServ-Aliase   : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_CHANSERV_MEM
-	ChanServ          : %6d Einträge, %5d kB
+	ChanServ          : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_BOTSERV_MEM
-	BotServ           : %6d Einträge, %5d kB
+	BotServ           : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_HOSTSERV_MEM
-	HostServ          : %6d Einträge, %5d kB
+	HostServ          : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_OPERSERV_MEM
-	OperServ          : %6d Einträge, %5d kB
+	OperServ          : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_SESSIONS_MEM
-	Verbindungen      : %6d Einträge, %5d kB
+	Verbindungen      : %6d EintrÃ¤ge, %5d kB
 OPER_STATS_AKILL_COUNT
 	Aktuelle Anzahl von AKILLs: %d
 OPER_STATS_AKILL_EXPIRE_DAYS
@@ -2564,13 +2564,13 @@ OPER_STATS_SZLINE_EXPIRE_MIN
 OPER_STATS_SZLINE_EXPIRE_NONE
 	Standard Auslaufzeit von SZLINEs: Kein Auslauf, permanent
 OPER_STATS_RESET
-	Statistiken zurückgesetzt.
+	Statistiken zurÃ¼ckgesetzt.
 
 # MODE responses
 OPER_STATS_UPLINK_SERVER
 	Uplink Server: %s
 OPER_STATS_UPLINK_CAPAB
-	Uplink-Fähigkeiten: %s
+	Uplink-FÃ¤higkeiten: %s
 OPER_STATS_UPLINK_SERVER_COUNT
 	Server gefunden: %d
 
@@ -2584,15 +2584,15 @@ OPER_UMODE_SYNTAX
 
 # UMODE responses
 OPER_UMODE_SUCCESS
-	Usermodi von %s geändert.
+	Usermodi von %s geÃ¤ndert.
 OPER_UMODE_CHANGED
-	%s hat deine Usermodi geändert.
+	%s hat deine Usermodi geÃ¤ndert.
 
 # OLINE responses
 OPER_OLINE_SYNTAX
 	OLINE Nickname Flags
 OPER_OLINE_SUCCESS
-	Operflags %s wurden für %s hinzugefügt. 
+	Operflags %s wurden fÃ¼r %s hinzugefÃ¼gt. 
 OPER_OLINE_IRCOP
 	Du bist jetzt ein IRC Operator.
 
@@ -2600,9 +2600,9 @@ OPER_OLINE_IRCOP
 OPER_CLEARMODES_SYNTAX
 	CLEARMODES Channel [ALL]
 OPER_CLEARMODES_DONE
-	Alle binären Modi und Bans wurden aus dem Channel %s entfernt.
+	Alle binÃ¤ren Modi und Bans wurden aus dem Channel %s entfernt.
 OPER_CLEARMODES_ALL_DONE
-	Alle Modi wurden vom Channel %s zurückgesetzt.
+	Alle Modi wurden vom Channel %s zurÃ¼ckgesetzt.
 
 
 # KICK responses
@@ -2613,29 +2613,29 @@ OPER_KICK_SYNTAX
 OPER_SVSNICK_SYNTAX
 	SVSNICK Nickname Neuer-Nickname 
 OPER_SVSNICK_NEWNICK
-	Der Nickname %s wird jetzt zu %s geändert.
+	Der Nickname %s wird jetzt zu %s geÃ¤ndert.
 	
 # ADMIN responses
 OPER_ADMIN_SYNTAX
 	ADMIN {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 OPER_ADMIN_SKELETON
-	Services sind im Basis-Modus. Der ADMIN-Befehl ist nicht verfügbar.
+	Services sind im Basis-Modus. Der ADMIN-Befehl ist nicht verfÃ¼gbar.
 OPER_ADMIN_EXISTS
 	%s existiert bereits auf der Services Administratoren-Liste.
 OPER_ADMIN_REACHED_LIMIT
 	Du kannst nur %d Services Administratoren haben.
 OPER_ADMIN_ADDED
-	%s wurde zur Liste der Services Administratoren hinzugefügt.
+	%s wurde zur Liste der Services Administratoren hinzugefÃ¼gt.
 OPER_ADMIN_NOT_FOUND
 	%s wurde nicht auf der Liste der Services Administratoren gefunden.
 OPER_ADMIN_NO_MATCH
-	Keine entsprechenden Einträge in der Services Administratoren-Liste gefunden.
+	Keine entsprechenden EintrÃ¤ge in der Services Administratoren-Liste gefunden.
 OPER_ADMIN_DELETED
 	%s wurde aus der Services Administratoren-Liste entfernt.
 OPER_ADMIN_DELETED_ONE
 	Es wurde 1 Eintrag aus der Services Administratoren-Liste entfernt.
 OPER_ADMIN_DELETED_SEVERAL
-	Es wurden %d Einträge aus der Services Administratoren-Liste entfernt.
+	Es wurden %d EintrÃ¤ge aus der Services Administratoren-Liste entfernt.
 OPER_ADMIN_LIST_EMPTY
 	Die Services Administratoren-Liste ist leer.
 OPER_ADMIN_LIST_HEADER
@@ -2652,23 +2652,23 @@ OPER_ADMIN_MOVED
 OPER_OPER_SYNTAX
 	OPER {ADD|DEL|LIST|CLEAR} [Nickname | entry-liste]
 OPER_OPER_SKELETON
-	Services sind im Basis-Modus. Das OPER-Befehl ist nicht verfügbar.
+	Services sind im Basis-Modus. Das OPER-Befehl ist nicht verfÃ¼gbar.
 OPER_OPER_EXISTS
 	%s existiert bereits auf der Services Operatoren-Liste.
 OPER_OPER_REACHED_LIMIT
 	Du kannst nur %d Services Operatoren haben.
 OPER_OPER_ADDED
-	%s wurde zur der Services Operatoren-Liste hinzugefügt.
+	%s wurde zur der Services Operatoren-Liste hinzugefÃ¼gt.
 OPER_OPER_NOT_FOUND
 	%s wurde nicht auf der Services Operatoren-Liste gefunden.
 OPER_OPER_NO_MATCH
-	Keine entsprechenden Einträge in der Services Operatoren-Liste gefunden.
+	Keine entsprechenden EintrÃ¤ge in der Services Operatoren-Liste gefunden.
 OPER_OPER_DELETED
 	%s wurde aus der Services Operatoren-Liste entfernt.
 OPER_OPER_DELETED_ONE
 	Es wurde 1 Eintrag aus der Services Operatoren-Liste entfernt.
 OPER_OPER_DELETED_SEVERAL
-	Es wurden %d Einträge aus der Services Operatoren-Liste entfernt.
+	Es wurden %d EintrÃ¤ge aus der Services Operatoren-Liste entfernt.
 OPER_OPER_LIST_EMPTY
 	Die Services Operatoren-Liste ist leer.
 OPER_OPER_LIST_HEADER
@@ -2691,21 +2691,21 @@ OPER_AKILL_ALREADY_COVERED
 OPER_AKILL_REACHED_LIMIT
 	Du kannst nur %d AKILLs haben.
 OPER_AKILL_NO_NICK
-	Achtung: AKILL-Masken dürfen keine Nicknamen enthalten, stelle sicher, dass du keinen in der Hostmaske eingetragen hast.
+	Achtung: AKILL-Masken dÃ¼rfen keine Nicknamen enthalten, stelle sicher, dass du keinen in der Hostmaske eingetragen hast.
 OPER_AKILL_ADDED
-	%s wurde zur AKILL-Liste hinzugefügt.
+	%s wurde zur AKILL-Liste hinzugefÃ¼gt.
 OPER_AKILL_CHANGED
-	Auslaufzeit von %s geändert.
+	Auslaufzeit von %s geÃ¤ndert.
 OPER_AKILL_NOT_FOUND
 	%s wurde nicht auf der AKILL-Liste gefunden.
 OPER_AKILL_NO_MATCH
-	Keine entsprechenden Einträge auf der AKILL-Liste.
+	Keine entsprechenden EintrÃ¤ge auf der AKILL-Liste.
 OPER_AKILL_DELETED
 	%s wurde von der AKILL-Liste entfernt.
 OPER_AKILL_DELETED_ONE
 	Es wurde 1 Eintrag von der AKILL-Liste entfernt.
 OPER_AKILL_DELETED_SEVERAL
-	Es wurden %d Einträge von der AKILL-Liste entfernt.
+	Es wurden %d EintrÃ¤ge von der AKILL-Liste entfernt.
 OPER_AKILL_LIST_EMPTY
 	Die AKILL-Liste ist leer.
 OPER_AKILL_LIST_HEADER
@@ -2729,7 +2729,7 @@ OPER_CHANKILL_SYNTAX
 OPER_SGLINE_SYNTAX
 	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+Zeit] {Hostmask | entry-liste}[:Grund]]
 OPER_SGLINE_UNSUPPORTED
-	SGLINE ist in diesem Netz nicht verfügbar.
+	SGLINE ist in diesem Netz nicht verfÃ¼gbar.
 OPER_SGLINE_EXISTS
 	%s existiert bereits auf der SGLINE-Liste.
 OPER_SGLINE_ALREADY_COVERED
@@ -2737,19 +2737,19 @@ OPER_SGLINE_ALREADY_COVERED
 OPER_SGLINE_REACHED_LIMIT
 	Du kannst nur %d SGLINE's haben.
 OPER_SGLINE_ADDED
-	%s wurde zur SGLINE-Liste hinzugefügt.
+	%s wurde zur SGLINE-Liste hinzugefÃ¼gt.
 OPER_SGLINE_CHANGED
-	Auslaufzeit von %s geändert.
+	Auslaufzeit von %s geÃ¤ndert.
 OPER_SGLINE_NOT_FOUND
 	%s wurde nicht auf der SGLINE-Liste gefunden.
 OPER_SGLINE_NO_MATCH
-	Keine entsprechenden Einträge auf der SGLINE-Liste.
+	Keine entsprechenden EintrÃ¤ge auf der SGLINE-Liste.
 OPER_SGLINE_DELETED
 	%s wurde von der SGLINE-Liste entfernt.
 OPER_SGLINE_DELETED_ONE
 	Es wurde 1 Eintrag aus der SGLINE-Liste entfernt.
 OPER_SGLINE_DELETED_SEVERAL
-	Es wurden %d Einträge aus der SGLINE-Liste entfernt.
+	Es wurden %d EintrÃ¤ge aus der SGLINE-Liste entfernt.
 OPER_SGLINE_LIST_EMPTY
 	Die SGLINE-Liste ist leer.
 OPER_SGLINE_LIST_HEADER
@@ -2770,7 +2770,7 @@ OPER_SGLINE_CLEAR
 OPER_SQLINE_SYNTAX
 	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+Zeit] {Hostmaske | entry-liste} [Grund]]
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	Channel SQLINEs werden nicht von deinem IRCd unterstützt, folglich kannst du sie nicht nutzen.
+	Channel SQLINEs werden nicht von deinem IRCd unterstÃ¼tzt, folglich kannst du sie nicht nutzen.
 OPER_SQLINE_EXISTS
 	%s existiert bereits in der SQLINE Liste.
 OPER_SQLINE_ALREADY_COVERED
@@ -2778,19 +2778,19 @@ OPER_SQLINE_ALREADY_COVERED
 OPER_SQLINE_REACHED_LIMIT
 	Du kannst nur %d SQLINE's haben.
 OPER_SQLINE_ADDED
-	%s wurde zur SQLINE-Liste hinzugefügt.
+	%s wurde zur SQLINE-Liste hinzugefÃ¼gt.
 OPER_SQLINE_CHANGED
-	Auslaufzeit von %s geändert.
+	Auslaufzeit von %s geÃ¤ndert.
 OPER_SQLINE_NOT_FOUND
 	%s wurde nicht auf der SQLINE-Liste gefunden.
 OPER_SQLINE_NO_MATCH
-	Keine entsprechenden Einträge auf der SQLINE-Liste.
+	Keine entsprechenden EintrÃ¤ge auf der SQLINE-Liste.
 OPER_SQLINE_DELETED
 	%s wurde von der SQLINE-Liste entfernt.
 OPER_SQLINE_DELETED_ONE
 	Es wurde 1 Eintrag aus der SQLINE-Liste entfernt.
 OPER_SQLINE_DELETED_SEVERAL
-	Es wurden %d Einträge aus der SQLINE-Liste entfernt.
+	Es wurden %d EintrÃ¤ge aus der SQLINE-Liste entfernt.
 OPER_SQLINE_LIST_EMPTY
 	SQLINE Liste ist leer.
 OPER_SQLINE_LIST_HEADER
@@ -2811,7 +2811,7 @@ OPER_SQLINE_CLEAR
 OPER_SZLINE_SYNTAX
 	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+Zeit] {Hostmaske | entry-liste} [Grund]]
 OPER_SZLINE_UNSUPPORTED
-	SZLINE ist auf diesem Netzwerk nicht verfügbar.
+	SZLINE ist auf diesem Netzwerk nicht verfÃ¼gbar.
 OPER_SZLINE_EXISTS
 	%s existiert bereits auf der SZLINE-Liste.
 OPER_SZLINE_ALREADY_COVERED
@@ -2819,11 +2819,11 @@ OPER_SZLINE_ALREADY_COVERED
 OPER_SZLINE_REACHED_LIMIT
 	Du kannst nur %d SZLINE's haben.
 OPER_SZLINE_ONLY_IPS
-	Achtung: Man kann nur IP-Masken zur SZLINE-Liste hinzufügen.
+	Achtung: Man kann nur IP-Masken zur SZLINE-Liste hinzufÃ¼gen.
 OPER_SZLINE_ADDED
-	%s wurde zur SZLINE-Liste hinzugefügt.
+	%s wurde zur SZLINE-Liste hinzugefÃ¼gt.
 OPER_SZLINE_CHANGED
-	Auslaufzeit von %s geändert.
+	Auslaufzeit von %s geÃ¤ndert.
 OPER_SZLINE_NOT_FOUND
 	%s wurde nicht auf der SZLINE-Liste gefunden.
 OPER_SZLINE_NO_MATCH
@@ -2833,7 +2833,7 @@ OPER_SZLINE_DELETED
 OPER_SZLINE_DELETED_ONE
 	Es wurde 1 Eintrag aus der SZLINE-Liste entfernt.
 OPER_SZLINE_DELETED_SEVERAL
-	Es wurden %d Einträge aus der SZLINE-Liste entfernt.
+	Es wurden %d EintrÃ¤ge aus der SZLINE-Liste entfernt.
 OPER_SZLINE_LIST_EMPTY
 	Die SZLINE-Liste ist leer.
 OPER_SZLINE_LIST_HEADER
@@ -2864,11 +2864,11 @@ OPER_SET_READONLY_ON
 OPER_SET_READONLY_OFF
 	Services sind jetzt im read-write Modus.
 OPER_SET_READONLY_ERROR
-	Der Wert für READONLY muss entweder ON oder OFF sein.
+	Der Wert fÃ¼r READONLY muss entweder ON oder OFF sein.
 OPER_SET_LOGCHAN_ON
 	Die Services werden jetzt Logmessages an %s senden.
 OPER_SET_LOGCHAN_OFF
-	Die Services werden jetzt nicht mehr länger Logmessages an einen Channel senden.
+	Die Services werden jetzt nicht mehr lÃ¤nger Logmessages an einen Channel senden.
 OPER_SET_LOGCHAN_ERROR
 	Die Logchannel Option muss auf ON oder OFF gesetzt werden und LogChannel muss definiert sein.
 OPER_SET_DEBUG_ON
@@ -2892,12 +2892,12 @@ OPER_SET_SQL_ON
 OPER_SET_SQL_OFF
 	SQL code wird jetzt NICHT mehr benutzt.
 OPER_SET_SQL_ERROR
-	Einstellungen für SQL können nur ON oder OFF sein.
+	Einstellungen fÃ¼r SQL kÃ¶nnen nur ON oder OFF sein.
 OPER_SET_SQL_ERROR_INIT
 	SQL FEHLER, schaue bitte in deine Logs nach um zu sehen wie du es berichtigen kannst.
 OPER_SET_SQL_ERROR_DISABLED
-	SQL ist für den Netzwerk nicht konfiguriert. Um SQL code zu
-	benutzen mußt du es in deine services.conf richtig Konfigurieren.
+	SQL ist fÃ¼r den Netzwerk nicht konfiguriert. Um SQL code zu
+	benutzen muÃŸt du es in deine services.conf richtig Konfigurieren.
 OPER_SET_LIST_OPTION_ON
 	%s ist eingeschaltet
 OPER_SET_LIST_OPTION_OFF
@@ -2907,7 +2907,7 @@ OPER_SET_LIST_OPTION_OFF
 OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} Server
 OPER_NOOP_SET
-	Alle O:Lines von %s wurden temporär entfernt.
+	Alle O:Lines von %s wurden temporÃ¤r entfernt.
 OPER_NOOP_REVOKE
 	Alle O:lines von %s wurden wiederhergestellt.
 
@@ -2917,7 +2917,7 @@ OPER_JUPE_SYNTAX
 
 # RAW responses
 OPER_JUPE_HOST_ERROR
-	Benutze bitte einen gültigen Hostnamen, wenn du den JUPE Befehl benutzt.
+	Benutze bitte einen gÃ¼ltigen Hostnamen, wenn du den JUPE Befehl benutzt.
 OPER_JUPE_INVALID_SERVER
 	Du kannst den JUPE Befehl nicht gegen Deinen Services Server oder Hub Server richten.
 	
@@ -2935,19 +2935,19 @@ OPER_RELOAD
 
 # RESTART responses
 OPER_CANNOT_RESTART
-	SERVICES_BIN wurde nicht definiert. Neustart nicht möglich. Benutze erneut das configure-Skript und kompiliere die Services erneut mit aktiviertem RESTART-Befehl.
+	SERVICES_BIN wurde nicht definiert. Neustart nicht mÃ¶glich. Benutze erneut das configure-Skript und kompiliere die Services erneut mit aktiviertem RESTART-Befehl.
 
 # IGNORE respondes
 OPER_IGNORE_SYNTAX
 	IGNORE {ADD|DEL|LIST|CLEAR} [Zeit] [Nickname | Hostmaske]
 OPER_IGNORE_VALID_TIME
-	Du musst eine zulässige Zahl als Zeit eingeben.
+	Du musst eine zulÃ¤ssige Zahl als Zeit eingeben.
 OPER_IGNORE_TIME_DONE
-	%s wird jetzt für %s ignoriert.
+	%s wird jetzt fÃ¼r %s ignoriert.
 OPER_IGNORE_PERM_DONE
 	%s will wird jetzt permanent ignoriert.
 OPER_IGNORE_DEL_DONE
-	%s wird nicht länger ignoriert.
+	%s wird nicht lÃ¤nger ignoriert.
 OPER_IGNORE_LIST
 	Services Ignore-Liste:
 OPER_IGNORE_LIST_NOMATCH
@@ -3003,9 +3003,9 @@ OPER_SUPER_ADMIN_SYNTAX
 OPER_SUPER_ADMIN_WALL_ON
 	%s ist jetzt ein Super-Admin.
 OPER_SUPER_ADMIN_WALL_OFF
-	%s verlässt den Super-Admin Mode.
+	%s verlÃ¤sst den Super-Admin Mode.
 OPER_SUPER_ADMIN_ONLY
-	NUR Super-Admins können dieses Befehl benutzen.
+	NUR Super-Admins kÃ¶nnen dieses Befehl benutzen.
 
 OPER_STAFF_LIST_HEADER
 	On Level Nickname
@@ -3019,13 +3019,13 @@ OPER_STAFF_AFORMAT
 OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 OPER_DEFCON_DENIED
-	Dieser Service ist derzeit deaktiviert, bitte versuche es später nochmal
+	Dieser Service ist derzeit deaktiviert, bitte versuche es spÃ¤ter nochmal
 OPER_DEFCON_NO_CONF
 	Das Defcon-System muss in der services.conf aktiviert worden sein
 OPER_DEFCON_CHANGED
 	Services sind jetzt beim DEFCON %d
 OPER_DEFCON_WALL
-	%s hat das DEFCON-Level geändert zu %d
+	%s hat das DEFCON-Level geÃ¤ndert zu %d
 DEFCON_GLOBAL
 	Das Defcon-Level ist jetzt auf Level: %d
 
@@ -3054,13 +3054,13 @@ OPER_MODULE_LIST_FOOTER
 OPER_MODULE_INFO_LIST
 	Module: %s Version: %s Autor: %s geladen: %s
 OPER_MODULE_CMD_LIST
-	Unterstützte Befehle: %R%s %s
+	UnterstÃ¼tzte Befehle: %R%s %s
 OPER_MODULE_MSG_LIST
-	Unterstützte IRCD's für: %s
+	UnterstÃ¼tzte IRCD's fÃ¼r: %s
 OPER_MODULE_NO_LIST
 	Derzeit keine Module geladen
 OPER_MODULE_NO_INFO
-	Es sind keine Informationen für das Modul %s verfügbar
+	Es sind keine Informationen fÃ¼r das Modul %s verfÃ¼gbar
 OPER_MODULE_INFO_SYNTAX
 	MODINFO Modul-Name
 
@@ -3083,35 +3083,35 @@ OPER_EXCEPTION_DEL_SYNTAX
 OPER_EXCEPTION_MOVE_SYNTAX
 	EXCEPTION MOVE Nummer Position
 OPER_EXCEPTION_DISABLED
-	Eingeschränkte Verbindungen sind deaktiviert.
+	EingeschrÃ¤nkte Verbindungen sind deaktiviert.
 OPER_EXCEPTION_ALREADY_PRESENT
-	Die Hostmaske %s ist bereits auf der Liste für eingeschränkte Verbindungen.
+	Die Hostmaske %s ist bereits auf der Liste fÃ¼r eingeschrÃ¤nkte Verbindungen.
 OPER_EXCEPTION_TOO_MANY
-	Die Liste für eingeschränkte Verbindungen ist voll! 
+	Die Liste fÃ¼r eingeschrÃ¤nkte Verbindungen ist voll! 
 OPER_EXCEPTION_ADDED
-	Verbindungslimit für %s geändert auf %d.
+	Verbindungslimit fÃ¼r %s geÃ¤ndert auf %d.
 OPER_EXCEPTION_MOVED
-	DIe Exception für %s (#%d) wurde auf die  %d Position verschoben.
+	DIe Exception fÃ¼r %s (#%d) wurde auf die  %d Position verschoben.
 OPER_EXCEPTION_NO_SUCH_ENTRY
 	Kein solcher Eintrag (#%d) in der Liste der Verbindungs-
-	einschränkungen.
+	einschrÃ¤nkungen.
 OPER_EXCEPTION_NOT_FOUND
 	%s nicht gefunden in der Liste der Verbindungs-
-	einschränkungen.
+	einschrÃ¤nkungen.
 OPER_EXCEPTION_NO_MATCH
-	Keine entsprechenden Einträge in der Liste der 
-	Verbindungseinschränkungen.
+	Keine entsprechenden EintrÃ¤ge in der Liste der 
+	VerbindungseinschrÃ¤nkungen.
 OPER_EXCEPTION_DELETED
-	%s wurde von der Liste der Verbindungseinschränkungen 
+	%s wurde von der Liste der VerbindungseinschrÃ¤nkungen 
 	entfernt.
 OPER_EXCEPTION_DELETED_ONE
 	Es wurde 1 Eintrag von der Liste der Verbindungs-
-	einschränkungen entfernt.
+	einschrÃ¤nkungen entfernt.
 OPER_EXCEPTION_DELETED_SEVERAL
-	Es wurden %d Einträge von der Liste der Verbindungs-
-	einschränkungen entfernt.
+	Es wurden %d EintrÃ¤ge von der Liste der Verbindungs-
+	einschrÃ¤nkungen entfernt.
 OPER_EXCEPTION_LIST_HEADER
-	Aktuelle Liste für eingeschränkte Verbindungen:
+	Aktuelle Liste fÃ¼r eingeschrÃ¤nkte Verbindungen:
 # mask, limit
 OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
@@ -3122,14 +3122,14 @@ OPER_EXCEPTION_VIEW_FORMAT
 	%3d.  %s  (von %s am %s, %s)
 	    Limit: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
-	Ungültige Verbindungseinschränkung. Es muss eine gültige Integer-Zahl sein, grösser oder gleich
+	UngÃ¼ltige VerbindungseinschrÃ¤nkung. Es muss eine gÃ¼ltige Integer-Zahl sein, grÃ¶sser oder gleich
 	Null aber kleiner als %d.
 OPER_EXCEPTION_INVALID_HOSTMASK
-	Ungültige Hostmask. Nur echte Hostmasken sind gültig als Einträge (ohne Nicknamen und Idents).
+	UngÃ¼ltige Hostmask. Nur echte Hostmasken sind gÃ¼ltig als EintrÃ¤ge (ohne Nicknamen und Idents).
 OPER_EXCEPTION_EXISTS
 	%s ist bereits in der  EXCEPTION-Liste.
 OPER_EXCEPTION_CHANGED
-	Exception für %s ist zu %d aktualisiert worden.
+	Exception fÃ¼r %s ist zu %d aktualisiert worden.
 
 # SESSION responses
 OPER_SESSION_SYNTAX
@@ -3141,7 +3141,7 @@ OPER_SESSION_VIEW_SYNTAX
 OPER_SESSION_DISABLED
 	SESSION Befehl ist deaktiviert.
 OPER_SESSION_INVALID_THRESHOLD
-	Ungültiger Wert. Es muss eine gültige grade Zahl sein, die grösser als 1 ist.
+	UngÃ¼ltiger Wert. Es muss eine gÃ¼ltige grade Zahl sein, die grÃ¶sser als 1 ist.
 OPER_SESSION_NOT_FOUND
 	Es wurde keine Verbindung von %s gefunden.
 OPER_SESSION_LIST_HEADER
@@ -3165,47 +3165,47 @@ OPER_HELP_EXCEPTION
 	        EXCEPTION VIEW [Hostmaske | Liste]
 	
 	Erlaubt Services Administratoren, die Liste der Verbindungs-
-	einschränkungen zu bearbeiten.Dadurch ist es möglich
+	einschrÃ¤nkungen zu bearbeiten.Dadurch ist es mÃ¶glich
 	bestimmte Hosts, z.b. Shell-Server, auf eine bestimmte 
-	Anzahl von gleichzeitigen Verbindungen einschränken.Hat 
+	Anzahl von gleichzeitigen Verbindungen einschrÃ¤nken.Hat 
 	ein Host dieses Limit erreicht, wird jede neue Verbindung
 	(vom gleichen Host) nicht mehr akzeptiert. Der betroffene User 
 	wird entfernt (gekilled) und via Notice vom %S informiert
 	warum er vom Netzwerk getrennt wurden.
 	
-	EXCEPTION ADD fügt die angegebene Hostmaske zu der
-	Liste der Verbindungseinschränkungen hinzu. 
+	EXCEPTION ADD fÃ¼gt die angegebene Hostmaske zu der
+	Liste der VerbindungseinschrÃ¤nkungen hinzu. 
 	Beachte, dass nick!user@host und user@host keine richtigen
 	Hostmasken sind!
 	Nur echte Hosts, wie z.B. box.host.dom und *.host.dom sind 
-	zulässig, weil für eingeschränkte Verbindungen die Nicknamen
+	zulÃ¤ssig, weil fÃ¼r eingeschrÃ¤nkte Verbindungen die Nicknamen
 	oder Idents nicht von Interesse sind.
-	Limit muss eine Nummer grösser oder gleich 0 sein, und legt
-	fest, wieviele Verbindungen von diesem Host gemacht werden dürfen.
+	Limit muss eine Nummer grÃ¶sser oder gleich 0 sein, und legt
+	fest, wieviele Verbindungen von diesem Host gemacht werden dÃ¼rfen.
 	Ein Limit von Null bedeutet, dass dieser Host keine ein-
-	geschränkte Verbindung hat. Siehe die AKILL Hilfe fuer
-	weitere Informationen über das Format des optionalen Zeit 
+	geschrÃ¤nkte Verbindung hat. Siehe die AKILL Hilfe fuer
+	weitere Informationen Ã¼ber das Format des optionalen Zeit 
 	Parameter.
 	
 	EXCEPTION DEL entfernt den Host von der Liste.
 	
 	EXCEPTION MOVE verschiebt den Eintrag mit der Nummer 
-	auf die Position. Die Einträge dazwischen werden
-	hoch bzw runtergeschoben um die Lücken zu füllen.
+	auf die Position. Die EintrÃ¤ge dazwischen werden
+	hoch bzw runtergeschoben um die LÃ¼cken zu fÃ¼llen.
 	
 	EXCEPTION LIST und EXCEPTION VIEW zeigt alle aktuellen 
-	Verbindungseinschränkungen. Wird die optionale Hostmaske 
-	angegeben, werden nur die entsprechenden Einträge aus
+	VerbindungseinschrÃ¤nkungen. Wird die optionale Hostmaske 
+	angegeben, werden nur die entsprechenden EintrÃ¤ge aus
 	der Liste angezeigt. Der Unterschied zwischen den beiden 
-	Befehlen liegt darin, dass EXCEPTION VIEW ausführlicher ist.
+	Befehlen liegt darin, dass EXCEPTION VIEW ausfÃ¼hrlicher ist.
 	Es zeigt unter anderem den Namen der Person, die den Eintrag
 	erstellt hat, dessen Grund, das Limit, die Hostmaske und
 	die Auslaufzeit.
 	
-	Beachte das ein verbundender Client die erste Beschränkung
+	Beachte das ein verbundender Client die erste BeschrÃ¤nkung
 	die auf seinen Host zutrifft, "benutzen" wird. Grosse und
-	weit treffende Einträge in der Liste der Verbindungs-
-	einschränkungen senken die Performance der Services.
+	weit treffende EintrÃ¤ge in der Liste der Verbindungs-
+	einschrÃ¤nkungen senken die Performance der Services.
 
 OPER_HELP_SESSION
 	Syntax: SESSION LIST threshold
@@ -3216,17 +3216,17 @@ OPER_HELP_SESSION
 	
 	SESSION LIST zeigt die Hosts mit mindestens threshold 
 	gleichzeitigen Verbindungen.
-	Der threshold muss eine Nummer grösser als 1 sein. Dies
+	Der threshold muss eine Nummer grÃ¶sser als 1 sein. Dies
 	soll verhindern, dass aus Versehen eine riesige Liste
 	von Einzelsitzungen ausgegeben wird.
 	
-	SESSION VIEW ist etwas ausführlicher und zeigt mehr
-	Informationen über den bestimmten Host - mit
+	SESSION VIEW ist etwas ausfÃ¼hrlicher und zeigt mehr
+	Informationen Ã¼ber den bestimmten Host - mit
 	Anzahl Verbindungen und dessen Limit. Der Wert bei
 	host kann keine Platzhalter (Wildcards) enthalten.
 	
 	Siehe die Hilfe zu EXCEPTION um weitere Informationen
-	über das Einschränken von Verbindungen zu erhalten.
+	Ã¼ber das EinschrÃ¤nken von Verbindungen zu erhalten.
 
 ###########################################################################
 #
@@ -3244,7 +3244,7 @@ OPER_HELP_DEFCON
 	Syntax: DEFCON [1|2|3|4|5]
 
 	Das Defcon-System kann benutzt werden, um vordefinierte Einstellung
-	von einschränkungen der Services einzubinden - nützlich während 
+	von einschrÃ¤nkungen der Services einzubinden - nÃ¼tzlich wÃ¤hrend 
 	versuchter Angriffe auf das Netzwerk.
 
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
@@ -3252,7 +3252,7 @@ OPER_HELP_DEFCON_NO_NEW_CHANNELS
 OPER_HELP_DEFCON_NO_NEW_NICKS
 	* Keine neuen Nicknamen-Registrierungen
 OPER_HELP_DEFCON_NO_MLOCK_CHANGE
-	* keine MLOCK änderungen
+	* keine MLOCK Ã¤nderungen
 OPER_HELP_DEFCON_FORCE_CHAN_MODES
 	* Zwingt alle Channels die Modes (%s) zu setzen
 OPER_HELP_DEFCON_REDUCE_SESSION
@@ -3270,9 +3270,9 @@ OPER_HELP_DEFCON_NO_NEW_MEMOS
 OPER_HELP_CHANKILL
 	Syntax: CHANKILL [+Zeit] Channel Grund
 
-	Setzt einen AKILL für jeden Nicknamen des angegebenen Channels. 
-	Es werden die Einträge und komplette reale ident@host für jeden 
-	Nickname benutzt, dann wird der AKILL durchgeführt. 
+	Setzt einen AKILL fÃ¼r jeden Nicknamen des angegebenen Channels. 
+	Es werden die EintrÃ¤ge und komplette reale ident@host fÃ¼r jeden 
+	Nickname benutzt, dann wird der AKILL durchgefÃ¼hrt. 
 
 ###########################################################################
 #
@@ -3291,7 +3291,7 @@ NEWS_RANDOM_TEXT
 NEWS_LOGON_SYNTAX
 	LOGONNEWS {ADD|DEL|LIST} [Text|Nummer]
 NEWS_LOGON_LIST_HEADER
-	Logon News Einträge:
+	Logon News EintrÃ¤ge:
 NEWS_LOGON_LIST_ENTRY
 	%5d (%s von %s)
 	    %s
@@ -3302,22 +3302,22 @@ NEWS_LOGON_ADD_SYNTAX
 NEWS_LOGON_ADD_FULL
 	Die News-Liste ist voll!
 NEWS_LOGON_ADDED
-	Neuer Logon News-Eintrag hinzugefügt (#%d).
+	Neuer Logon News-Eintrag hinzugefÃ¼gt (#%d).
 NEWS_LOGON_DEL_SYNTAX
 	LOGONNEWS DEL {Nummer | ALL}
 NEWS_LOGON_DEL_NOT_FOUND
 	Logon News-Eintrag #%d konnte nicht gefunden werden!
 NEWS_LOGON_DELETED
-	Logon News-Eintrag #%d wurde gelöscht.
+	Logon News-Eintrag #%d wurde gelÃ¶scht.
 NEWS_LOGON_DEL_NONE
-	Keine zu löschenden Einträge in der Logon News-Liste gefunden.
+	Keine zu lÃ¶schenden EintrÃ¤ge in der Logon News-Liste gefunden.
 NEWS_LOGON_DELETED_ALL
 	Alle Logon-News wurden entfernt.
 
 NEWS_OPER_SYNTAX
 	Syntax: OPERNEWS {ADD|DEL|LIST} [Text|Nummer]
 NEWS_OPER_LIST_HEADER
-	Oper News Einträge:
+	Oper News EintrÃ¤ge:
 NEWS_OPER_LIST_ENTRY
 	%5d (%s von %s)
 	    %s
@@ -3328,7 +3328,7 @@ NEWS_OPER_ADD_SYNTAX
 NEWS_OPER_ADD_FULL
 	Die News-Liste ist voll!
 NEWS_OPER_ADDED
-	Neuer Oper-News-Eintrag hinzugefügt (#%d).
+	Neuer Oper-News-Eintrag hinzugefÃ¼gt (#%d).
 NEWS_OPER_DEL_SYNTAX
 	Syntax: OPERNEWS DEL {Nummer | ALL}
 NEWS_OPER_DEL_NOT_FOUND
@@ -3336,14 +3336,14 @@ NEWS_OPER_DEL_NOT_FOUND
 NEWS_OPER_DELETED
 	Oper-News-Eintrag #%d wurde entfernt.
 NEWS_OPER_DEL_NONE
-	Keine Oper-News-Einträge zu löschen!
+	Keine Oper-News-EintrÃ¤ge zu lÃ¶schen!
 NEWS_OPER_DELETED_ALL
-	Alle Oper-News-Einträge wurden entfernt.
+	Alle Oper-News-EintrÃ¤ge wurden entfernt.
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [Text|Nummer]
 NEWS_RANDOM_LIST_HEADER
-	Random news Einträge:
+	Random news EintrÃ¤ge:
 NEWS_RANDOM_LIST_ENTRY
 	%5d (%s von %s)
 	    %s
@@ -3354,17 +3354,17 @@ NEWS_RANDOM_ADD_SYNTAX
 NEWS_RANDOM_ADD_FULL
 	Die News Liste ist voll!
 NEWS_RANDOM_ADDED
-	Neuer Randomnews Eintrag hinzugefügt (#%d).
+	Neuer Randomnews Eintrag hinzugefÃ¼gt (#%d).
 NEWS_RANDOM_DEL_SYNTAX
 	RANDOMNEWS DEL {Nummer | ALL}
 NEWS_RANDOM_DEL_NOT_FOUND
 	Randomnews Eintrag #%d nicht gefunden!
 NEWS_RANDOM_DELETED
-	Randomnews Eintrag #%d gelöscht.
+	Randomnews Eintrag #%d gelÃ¶scht.
 NEWS_RANDOM_DEL_NONE
-	Keine Randomnews Einträge zu löschen!
+	Keine Randomnews EintrÃ¤ge zu lÃ¶schen!
 NEWS_RANDOM_DELETED_ALL
-	Ale Randomnews Einträge wurden gelöscht.
+	Ale Randomnews EintrÃ¤ge wurden gelÃ¶scht.
 
 NEWS_HELP_LOGON
 	Syntax: LOGONNEWS ADD Text
@@ -3376,9 +3376,9 @@ NEWS_HELP_LOGON
 	angezeigt. (Es werden jedoch nur max. %s angezeigt, um ein
 	Flooding des Users zu verhindern. Wenn mehr News
 	existieren, werden nur die neuesten angezeigt.)
-	Die Anzahl der News können in der services.conf festgelegt werden.
+	Die Anzahl der News kÃ¶nnen in der services.conf festgelegt werden.
 	
-	Diese Funktion ist beschränkt auf die Services Administartoren.
+	Diese Funktion ist beschrÃ¤nkt auf die Services Administartoren.
 
 NEWS_HELP_OPER
 	Syntax: OPERNEWS ADD Text
@@ -3390,10 +3390,10 @@ NEWS_HELP_OPER
 	/OPER Befehl) werden ihm diese Nachrichten angezeigt.
 	(Es werden jedoch nur max. %s Nachrichten angezeigt, um ein
 	Flooding des Users zu verhindern. Wenn mehr News
-	existieren, werden nur die neüsten angezeigt.)
-	Die Anzahl der News können in der services.conf festgelegt werden.
+	existieren, werden nur die neÃ¼sten angezeigt.)
+	Die Anzahl der News kÃ¶nnen in der services.conf festgelegt werden.
 	
-	Diese Funktion ist beschränkt auf die Services Administartoren.
+	Diese Funktion ist beschrÃ¤nkt auf die Services Administartoren.
 
 NEWS_HELP_RANDOM
 	Syntax: RANDOMNEWS ADD Text
@@ -3402,9 +3402,9 @@ NEWS_HELP_RANDOM
 	
 	Bearbeitet die Liste der RandomNews Nachrichten oder zeigt diese an.
 	Wenn ein User zum Network verbindet, wird eine (und nur eine!) dieser
-	RandomNews Nachrichten zufällig gewählt und an den User gesendet.
+	RandomNews Nachrichten zufÃ¤llig gewÃ¤hlt und an den User gesendet.
 	
-	Diese Funktion ist beschränkt auf die Services Administartoren.
+	Diese Funktion ist beschrÃ¤nkt auf die Services Administartoren.
 
 ###########################################################################
 #
@@ -3414,30 +3414,30 @@ NEWS_HELP_RANDOM
 
 HELP_HELP
 	%S dient dazu, Hilfe und weitere Informationen zu den Services
-	auszugeben. Eine Themenübersicht bekommt man mit Hilfe des 
+	auszugeben. Eine ThemenÃ¼bersicht bekommt man mit Hilfe des 
 	HELP Befehls der anderen Services:
 	
 	%R%s HELP
-	     für Informationen zum Registrieren der Nicknames
+	     fÃ¼r Informationen zum Registrieren der Nicknames
 	
 	%R%s HELP
-	     für Informationen zum Registrieren und Kontrollieren der
+	     fÃ¼r Informationen zum Registrieren und Kontrollieren der
 	     Channels
 	
 	%R%s HELP
-	     für Informationen zum Senden von Memos an User, die im
+	     fÃ¼r Informationen zum Senden von Memos an User, die im
 	     Moment nicht online sind
 
 HELP_HELP_BOT
 
 	%R%s HELP
-	     für Informationen wie man einen Bot in einem Channel
+	     fÃ¼r Informationen wie man einen Bot in einem Channel
 	     einrichtet
 
 HELP_HELP_HOST
 
 	%R%s HELP
-	     für Informationen über vHosts Einstellungen
+	     fÃ¼r Informationen Ã¼ber vHosts Einstellungen
 
 ###########################################################################
 #
@@ -3445,7 +3445,7 @@ HELP_HELP_HOST
 #
 ###########################################################################
 NICK_HELP_CMD_CONFIRM
-	    CONFIRM    Bestätigt einen "nickserv auth code".
+	    CONFIRM    BestÃ¤tigt einen "nickserv auth code".
 NICK_HELP_CMD_RESEND
 	    RESEND     Sendet ernuet ein "nickserv auth code".
 
@@ -3462,7 +3462,7 @@ NICK_HELP_CMD_SET
 NICK_HELP_CMD_SASET
 	    SASET      Setzt SET Einstellungen auf einen anderen Nicknamen
 NICK_HELP_CMD_DROP
-	    DROP        Die Registrierung einen Nicknamen löschen
+	    DROP        Die Registrierung einen Nicknamen lÃ¶schen
 NICK_HELP_CMD_RECOVER
 	    RECOVER     User killen, der deinen Nicknamen verwendet
 NICK_HELP_CMD_RELEASE
@@ -3477,19 +3477,19 @@ NICK_HELP_CMD_ALIST
 NICK_HELP_CMD_GLIST
 	    GLIST      Listet alle Nicknamen in deine Gruppe
 NICK_HELP_CMD_INFO
-	    INFO       Zeigt Informationen über den angegebenen Nicknamen
+	    INFO       Zeigt Informationen Ã¼ber den angegebenen Nicknamen
 NICK_HELP_CMD_LIST
 	    LIST       Listet alle registrieten Nicknamen des angegebene Muster
 NICK_HELP_CMD_LOGOUT
-	    LOGOUT     Macht das IDENTIFY Befehl rückgängig
+	    LOGOUT     Macht das IDENTIFY Befehl rÃ¼ckgÃ¤ngig
 NICK_HELP_CMD_STATUS
 	    STATUS     Zeigt den Status des angegebenen Nicknamens an
 NICK_HELP_CMD_UPDATE
-	    UPDATE     Erneuert dein gegenwärtigen Status ( Memos , Flags , vHost )
+	    UPDATE     Erneuert dein gegenwÃ¤rtigen Status ( Memos , Flags , vHost )
 NICK_HELP_CMD_GETPASS
 	    GETPASS    Das Passwort eines Nicknamens aus der
 	               Datenbank auslesen (nur wenn keine
-	               Verschlüsselung aktiv ist)
+	               VerschlÃ¼sselung aktiv ist)
 NICK_HELP_CMD_GETEMAIL
 	    GETEMAIL   Gibt die passenden Nicknamen wieder, 
 	               welche die angegebene eMail benutzen.
@@ -3503,13 +3503,13 @@ NICK_HELP_CMD_UNSUSPEND
 NICK_HELP
 	Mit %S kannst du einen Nicknamen "registrieren" und somit
 	verhindern, dass andere ihn nutzen. Die folgenden Befehle
-	erlauben die Registrierung und das Ändern der Einstellungen
+	erlauben die Registrierung und das Ã„ndern der Einstellungen
 	von den Nicknamen. Um sie zu benutzen, tippe 
-	%R%S Befehl. Für weitergehende Informationen zu
+	%R%S Befehl. FÃ¼r weitergehende Informationen zu
 	einem bestimmten Befehl, tippe %R%S HELP Befehl.
 	
 NICK_HELP_FOOTER
-	WARNUNG: Dieser Service soll den Usern einen Weg ermöglichen,
+	WARNUNG: Dieser Service soll den Usern einen Weg ermÃ¶glichen,
 	den Missbrauch ihres Nicknames zu verhindern.Es ist NICHT dazu 
 	gedacht, Nicknamen zu stehlen oder in Massen zu reservieren. 
 	Missbrauch von %S wird geahndet und resultiert mindestens im 
@@ -3517,7 +3517,7 @@ NICK_HELP_FOOTER
 
 NICK_HELP_EXPIRES
 	
-	Nicknamen die seit einer längeren Zeit nicht mehr
+	Nicknamen die seit einer lÃ¤ngeren Zeit nicht mehr
 	genutzt wurden, werden durch den automatischen Auslauf
 	nach %d Tagen aus der Datenbank entfernt.
 
@@ -3527,10 +3527,10 @@ NICK_HELP_REGISTER
 	Registriert deinen Nicknamen in der Datenbank von 
 	%S. Nachdem dein Nickname registriert ist, kannst du mit 
 	den SET und ACCESS Befehlen die Einstellungen deines
-	Nicknames anpassen wie du es möchtest. Stell bitte
+	Nicknames anpassen wie du es mÃ¶chtest. Stell bitte
 	sicher, dass du dir das Passwort bei der Registrierung
-	merkst - du wirst es brauchen, wenn du später
-	Änderungen an den Einstellungen vornehmen willst!
+	merkst - du wirst es brauchen, wenn du spÃ¤ter
+	Ã„nderungen an den Einstellungen vornehmen willst!
 	
 	Beachte auch, dass Gross/Kleinschreibung unterschieden
 	werden! ANOPE, Anope, und anope sind 
@@ -3542,25 +3542,25 @@ NICK_HELP_REGISTER
 	Zum Beispiel deinen echten Namen als Passwort zu 
 	nehmen ist eine schlechte Idee. Deinen Nicknamen selbst
 	als Passwort zu nehmen, ist eine noch viel schlechtere
-	Idee :) und ausserdem würde %S es auch nicht erlauben.
-	Weiterhin sind kurze Passworte anfällig bei Trial-
+	Idee :) und ausserdem wÃ¼rde %S es auch nicht erlauben.
+	Weiterhin sind kurze Passworte anfÃ¤llig bei Trial-
 	and-Error-Versuchen, also sollte es zumindest 5 Zeichen
 	lang sein.
 	Zu guter letzt solltest du auch keine Leerzeichen im 
 	Passwort verwenden. 
 	
-	Der Parameter eMail ist optional und ermöglicht
+	Der Parameter eMail ist optional und ermÃ¶glicht
 	Nickserv dir dein Passwort per eMail zu senden, falls
 	du es vergessen haben solltest. 
-	Deine Privatsphäre wird respektiert und deine 
-	eMail-Adresse wird keinem Dritten verfügbar gemacht.
+	Deine PrivatsphÃ¤re wird respektiert und deine 
+	eMail-Adresse wird keinem Dritten verfÃ¼gbar gemacht.
 	
 	Dieser Befehl (REGISTER) erstellt auch ausserdem
-	eine neue Gruppe für deinen Nicknamen, die dir erlaubt,
+	eine neue Gruppe fÃ¼r deinen Nicknamen, die dir erlaubt,
 	nachher weitere Nicknamen in diese Gruppe aufzunehmen,
 	die dann automatisch die gleiche Konfiguration und
-	Channel-Privilegien bekommen. Für weitere Informationen
-	über diese Funktion tippe %R%S HELP GROUP.
+	Channel-Privilegien bekommen. FÃ¼r weitere Informationen
+	Ã¼ber diese Funktion tippe %R%S HELP GROUP.
 	
 NICK_HELP_GROUP
 	Syntax: GROUP Ziel Passwort
@@ -3575,14 +3575,14 @@ NICK_HELP_GROUP
 	
 	Eine Gruppe existiert so lange es sinnvoll ist. Dies
 	bedeutet, dass selbst wenn ein Nicknamen der Gruppe 
-	GEDROPED (gelöscht) wird, die geteilten Konfigurationen,
+	GEDROPED (gelÃ¶scht) wird, die geteilten Konfigurationen,
 	Rechte erhalten bleiben, so lange mindestens ein Nickname 
 	in der Gruppe verbleibt.
 	 
-	Dieser Befehl lässt sich sogar verwenden, wenn dein Nickname
+	Dieser Befehl lÃ¤sst sich sogar verwenden, wenn dein Nickname
 	(noch) nicht registriert ist. Wenn er jedoch registriert ist, 
 	musst du dich vorher identifizieren. 
-	Tippe %R%S HELP IDENTIFY für weitere Informationen.
+	Tippe %R%S HELP IDENTIFY fÃ¼r weitere Informationen.
 	
 	Es wird allerdings empfohlen diesen Befehl mit einem
 	nicht-registrierten Nicknamen zu verwenden, da der 
@@ -3592,8 +3592,8 @@ NICK_HELP_GROUP
 	gesperrt sein.
 	    
 	Du kannst nur in einer Gruppe zur gleichen Zeit sein.
-	Das Zusammenführen verschiedener Gruppen ist nicht
-	möglich.
+	Das ZusammenfÃ¼hren verschiedener Gruppen ist nicht
+	mÃ¶glich.
 	
 	Achtung: Alle Mitglieder einer Gruppe haben dasselbe
 	Passwort.
@@ -3611,15 +3611,15 @@ NICK_HELP_IDENTIFY
 NICK_HELP_UPDATE
 	Syntax: UPDATE
 
-	Updatet deinen derzeiten Status, z.B. prüft es auf neue Nachrichten,
-	setzt benötigte Channel-Modes (ModeonID), aktualisiert deinen vHost und
+	Updatet deinen derzeiten Status, z.B. prÃ¼ft es auf neue Nachrichten,
+	setzt benÃ¶tigte Channel-Modes (ModeonID), aktualisiert deinen vHost und
 	deine Userflags (lastseentime, etc).
 	
 NICK_HELP_LOGOUT
 	Syntax: LOGOUT
 	
 	Dieser Befehl macht den Effekt des IDENTIFY Befehls
-	rückgängig. NickServ erkennt dich also nicht mehr als
+	rÃ¼ckgÃ¤ngig. NickServ erkennt dich also nicht mehr als
 	den Besitzer des Nicknamens. Beachte jedoch, dass du 
 	nicht mehr gewarnt wirst, dich erneut zu identifizieren.
 
@@ -3627,7 +3627,7 @@ NICK_HELP_DROP
 	Syntax: DROP [Nickname]
 	
 	Entfernt die Registrierung deines Nicknames aus
-	der Datenbank von %S. Ein gelöschter Nickname 
+	der Datenbank von %S. Ein gelÃ¶schter Nickname 
 	kann von jedem jederzeit wieder registriert 
 	werden.
 	
@@ -3637,14 +3637,14 @@ NICK_HELP_DROP
 	
 	Wenn du dieses Befehl benutzen willst, musst du
 	dich vorher mit deinem Passwort identifizieren. 
-	Tippe : %R%S HELP IDENTIFY für weitere Informationen
+	Tippe : %R%S HELP IDENTIFY fÃ¼r weitere Informationen
 
 NICK_HELP_ACCESS
 	Syntax: ACCESS ADD Maske
 	        ACCESS DEL Maske
 	        ACCESS LIST
 	
-	Zeigt oder bearbeitet die Zugriffsliste für deinen 
+	Zeigt oder bearbeitet die Zugriffsliste fÃ¼r deinen 
 	Nicknamen. Durch diese Liste erkennt %S dich 
 	automatisch als berechtigt, diesen Nicknamen zu 
 	nutzen. Wenn du den Nicknamen von anderen Adressen
@@ -3670,22 +3670,22 @@ NICK_HELP_SET
 	Stellt verschiedene Optionen zu deinem Nicknamen ein.
 	Option kann eines der folgenden Werte sein:
 	
-	    DISPLAY      Ändert den "Ursprung" deiner Gruppe
+	    DISPLAY      Ã„ndert den "Ursprung" deiner Gruppe
 	    PASSWORD     Setzt das Passwort deines Nicknamens neu
 	    LANGUAGE     Stellt die Sprache ein, in der dir die 
 	                 Services antworten sollen.
 	    URL          Verbindet eine URL mit deinem Nicknamen
-	    ICQ          Trägt deine ICQ-Nummer unter den Infos
+	    ICQ          TrÃ¤gt deine ICQ-Nummer unter den Infos
 	                 zu deinem Nicknamen ein.
-	    MSG          Ändert die Methode, wie die Services mit
+	    MSG          Ã„ndert die Methode, wie die Services mit
 	                 dir kommunizieren
-	    EMAIL        Verbindet eine öffentliche eMail-Adresse
+	    EMAIL        Verbindet eine Ã¶ffentliche eMail-Adresse
 	                 mit deinem Nicknamen         
-	    GREET        Stellt eine Begrüssungsmeldung für deinen
+	    GREET        Stellt eine BegrÃ¼ssungsmeldung fÃ¼r deinen
 	                 Nicknamen ein.
 	    KILL         Stellt Kill-Schutz an oder aus.
 	    SECURE       Aktiviert/Deaktiviert den Sicherheitsmodus
-	                 für deinen Nicknamen
+	                 fÃ¼r deinen Nicknamen
 	    PRIVATE      Verhindert das Erscheinen deines Nicknamens 
 	                 auf der Liste von %R%S LIST
 	    HIDE         Versteckt bestimmte Informationen deines
@@ -3695,26 +3695,26 @@ NICK_HELP_SET
 	
 	Wenn du eines dieser Optionen nutzen willst, musst du dich
 	vorher identifizeren. 
-	Tippe: %R%S HELP IDENTIFY für weitere Informationen.
+	Tippe: %R%S HELP IDENTIFY fÃ¼r weitere Informationen.
 	
-	Tippe %R%S HELP SET Option für Erläuterungen
+	Tippe %R%S HELP SET Option fÃ¼r ErlÃ¤uterungen
 	zu einer bestimmten oben genannten Option.
 
 NICK_HELP_SET_DISPLAY
 	Syntax: SET DISPLAY Neues-Display
 	
-	Ändert den virtuellen "Anführer" deiner Gruppe in den
+	Ã„ndert den virtuellen "AnfÃ¼hrer" deiner Gruppe in den
 	Services. Der wert von Neues-Display MUSS ein Nickname
 	in deiner Gruppe sein.
 	
-	Hinweis: Dieser Befehl ändert keine Zugriffsrechte
+	Hinweis: Dieser Befehl Ã¤ndert keine Zugriffsrechte
 	des einzelnen Nicks, er wird nur als "Ursprung" der 
-	Gruppe in der Liste aufgeführt.
+	Gruppe in der Liste aufgefÃ¼hrt.
 	
 NICK_HELP_SET_PASSWORD
 	Syntax: SET PASSWORD Neues-Passwort
 	
-	Ändert das Passwort, mit dem du dich als Besitzer des
+	Ã„ndert das Passwort, mit dem du dich als Besitzer des
 	Nicknamen identifizierst.
 
 NICK_HELP_SET_LANGUAGE
@@ -3725,21 +3725,21 @@ NICK_HELP_SET_LANGUAGE
 	Befehl den du gesendet hast.)
 	
 	Nummer muss von der folgenden Liste der unter-
-	stützten Sprachen ausgewählt werden: 
+	stÃ¼tzten Sprachen ausgewÃ¤hlt werden: 
 
 NICK_HELP_SET_URL
 	Syntax: SET URL Url
 	
 	Verbindet die angegebene URL mit deinem Nicknamen.
 	Diese URL wird angezeigt, wenn jemand Informationen
-	über deinen Nicknamen mit dem INFO Befehl anfordert.
+	Ã¼ber deinen Nicknamen mit dem INFO Befehl anfordert.
 
 NICK_HELP_SET_EMAIL
 	Syntax: SET EMAIL Adresse
 	
 	Verbindet die angegebene eMail-Adresse mit deinem
 	Nicknamen. Diese Adresse wird angezeigt, wenn jemand 
-	Informationen über deinen Nicknamen mit dem INFO 
+	Informationen Ã¼ber deinen Nicknamen mit dem INFO 
 	Befehl anfordert.
 	
 NICK_HELP_SET_ICQ
@@ -3747,15 +3747,15 @@ NICK_HELP_SET_ICQ
 	
 	Verbindet die angegebene ICQ Nummer mit deinem Nicknamen.
 	Diese Nummer wird angezeigt, wenn jemand Informationen
-	über deinen Nicknamen mit dem INFO Befehl anfordert.
+	Ã¼ber deinen Nicknamen mit dem INFO Befehl anfordert.
 	
 NICK_HELP_SET_GREET
 	Syntax: SET GREET Nachricht
 	
-	Die angegebene Nachricht wird als Begrüssungsnachricht
+	Die angegebene Nachricht wird als BegrÃ¼ssungsnachricht
 	gesendet, wenn du in einen Channel eintrittst, der
 	die GREET Option eingeschaltet hat. Vorausgesetzt
-	du hast den nötigen Zugriffslevel in der Access-Liste
+	du hast den nÃ¶tigen Zugriffslevel in der Access-Liste
 	des Channels.
 
 NICK_HELP_SET_KILL
@@ -3772,33 +3772,33 @@ NICK_HELP_SET_KILL
 	IMMED wird der User sofort ohne Warnung
 	umbenannt, wenn er nicht auf der Zugriffsliste des
 	Nicknamens steht. Bitte benutze diese Option nicht
-	unnötigerweise.
-	Ausserdem ist es möglich, dass die Netz-Admins
+	unnÃ¶tigerweise.
+	Ausserdem ist es mÃ¶glich, dass die Netz-Admins
 	diese Option deaktiviert haben.
 
 NICK_HELP_SET_SECURE
 	Syntax: SET SECURE {ON | OFF}
 	
-	Stellt die Sicherheitsfunktionen von %S für deinen
+	Stellt die Sicherheitsfunktionen von %S fÃ¼r deinen
 	Nicknamen an oder aus. Mit eingeschaltetem SECURE
 	musst du dich immer identifizieren, egal ob deine
-	Hostmaske auf der Zugriffsliste für den Nicknamen
+	Hostmaske auf der Zugriffsliste fÃ¼r den Nicknamen
 	steht oder nicht. Wenn du allerdings auf 
 	der Zugriffsliste stehst, wird %S bei 
 	fehlender Identifizierung den Nicknamen nicht killen
-	(ist von der KILL Option unabhängig).
+	(ist von der KILL Option unabhÃ¤ngig).
 
 NICK_HELP_SET_PRIVATE
 	Syntax: SET PRIVATE {ON | OFF}
 	
-	Ändert %S's Privat-Modus für deinen Nicknamen.
+	Ã„ndert %S's Privat-Modus fÃ¼r deinen Nicknamen.
 	Mit eingeschaltetem PRIVATE wird dein Nickname
 	nicht auf Listen erscheinen, die durch %S's LIST 
 	Befehls erstellt wurden.
 	
 	(Jeder der deinen Nicknamen kennt, kann gezielt mit 
-	dem INFO Befehl Informationen über deinen Nicknamen 
-	abrufen, unabhängig vom Privat-Modus.)
+	dem INFO Befehl Informationen Ã¼ber deinen Nicknamen 
+	abrufen, unabhÃ¤ngig vom Privat-Modus.)
 
 NICK_HELP_SET_HIDE
 	Syntax: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
@@ -3824,22 +3824,22 @@ NICK_HELP_SET_MSG
 NICK_HELP_SET_AUTOOP
 	Syntax: SET AUTOOP {ON | OFF}
 	
-	Bestimmt ob Du automatisch Op-Status erhälst. Auf ON gestellt
+	Bestimmt ob Du automatisch Op-Status erhÃ¤lst. Auf ON gestellt
 	erlaubt es ChanServ Dir automatisch Op-Status zu geben,
 	wenn Du die Channels betrittst.
 
 NICK_HELP_SASET
 	Syntax: SASET nickname option parameters.
 	
-	Setzt verschiedene Einstellungen für den Nicknamen.  Gültig für option ist:
+	Setzt verschiedene Einstellungen fÃ¼r den Nicknamen.  GÃ¼ltig fÃ¼r option ist:
 	
 	    DISPLAY    Setzt einen Nicknamen als Ursprung der Nickgruppe
 	    PASSWORD   Setzt das Passwort eines Nicknamens
-	    URL        Fügt eine URL dem Nicknamen hinzu
-	    EMAIL      Fügt eine Emailadresse dem Nicknamen hinzu
-	    ICQ        Fügt eine ICQ Nummer dem Nicknamen hinzu
-	    GREET      Fügt eine Begrüssungsnachricht dem Nicknamen hinzu
-	    KILL       Schützt den Nicknamen durch Identifikationszwang
+	    URL        FÃ¼gt eine URL dem Nicknamen hinzu
+	    EMAIL      FÃ¼gt eine Emailadresse dem Nicknamen hinzu
+	    ICQ        FÃ¼gt eine ICQ Nummer dem Nicknamen hinzu
+	    GREET      FÃ¼gt eine BegrÃ¼ssungsnachricht dem Nicknamen hinzu
+	    KILL       SchÃ¼tzt den Nicknamen durch Identifikationszwang
 	    SECURE     Schaltet die Identifikationssicherheitsfunktion 
 	               an oder aus
 	    PRIVATE    Verhindert, dass der Nickname im Befehl
@@ -3848,56 +3848,56 @@ NICK_HELP_SASET
 	               Informationen
 	    MSG        Bestimmt die Art wie die Services Nachrichten senden
 	    NOEXPIRE   Verhindert, dass der Nickname nach einer bestimmten
-	               Zeit verfällt
+	               Zeit verfÃ¤llt
 	    LANGUAGE   Stellt die Sprache ein, in der die Services
 	               dem Nicknamen antworten sollen.
 	    AUTOOP     Sollten die Services dem Nick automatisch seinen
 	               Op-Status geben.
 	
-	Mit %R%S HELP SASET option können mehr Informationen zu 
+	Mit %R%S HELP SASET option kÃ¶nnen mehr Informationen zu 
 	den Einstellungen angefordert werden. Die Einstellungen betreffen den
 	angegebenen Nicknamen. 
 	
-	Die Befehle sind nur für Services Admins verfügbar.
+	Die Befehle sind nur fÃ¼r Services Admins verfÃ¼gbar.
 
 NICK_HELP_SASET_DISPLAY
 	Syntax: SASET nickname DISPLAY new-display
 	
-	Ändert den Nicknamen der als Ursprung einer Nicknamengruppe
+	Ã„ndert den Nicknamen der als Ursprung einer Nicknamengruppe
 	angezeigt wird. Der neue Ursprung muss ein Nickname der 
 	entsprechenden Gruppe sein.
 
 NICK_HELP_SASET_PASSWORD
 	Syntax: SASET nickname PASSWORD new-password
 	
-	Ändert das Passwort um sich als Besitzer eines Nicknamens
+	Ã„ndert das Passwort um sich als Besitzer eines Nicknamens
 	zu identifizieren.
 	
 NICK_HELP_SASET_URL
 	Syntax: SASET nickname URL url
 	
-	Verknüpft eine URL mit dem Nicknamen. Diese URL wird
-	angezeigt wenn jemand mit dem INFO Befehl nähere 
+	VerknÃ¼pft eine URL mit dem Nicknamen. Diese URL wird
+	angezeigt wenn jemand mit dem INFO Befehl nÃ¤here 
 	Informationen zu dem Nicknamen abruft.
 
 NICK_HELP_SASET_EMAIL
 	Syntax: SASET nickname EMAIL address
 	
-	Verknüpft die angegeben Emailadresse mit dem
+	VerknÃ¼pft die angegeben Emailadresse mit dem
 	Nicknamen.
 	
 NICK_HELP_SASET_ICQ
 	Syntax: SASET nickname ICQ number
 	
-	Verknüpft die angegebene ICQ Nummer mit dem Nicknamen.
+	VerknÃ¼pft die angegebene ICQ Nummer mit dem Nicknamen.
 	Diese ICQ Nummer wird angezeigt wenn jemand mit dem 
-	INFO Befehl nähere Informationen zu dem Nicknamen abruft.
+	INFO Befehl nÃ¤here Informationen zu dem Nicknamen abruft.
 	
 NICK_HELP_SASET_GREET
 	Syntax: SASET nickname GREET message
 	
-	Setzt die angegebene Nachricht als Begrüssungsnachricht
-	für den Nicknamen. Diese wird angezeigt, wenn der Nickname
+	Setzt die angegebene Nachricht als BegrÃ¼ssungsnachricht
+	fÃ¼r den Nicknamen. Diese wird angezeigt, wenn der Nickname
 	den Channel betritt und die GREET Einstellung aktiviert
 	ist. Vorraussetzung ist, dass der Benutzer die entsprechenden
 	Rechte besitzt.
@@ -3916,33 +3916,33 @@ NICK_HELP_SASET_KILL
 	IMMED wird der User sofort ohne Warnung
 	umbenannt, wenn er nicht auf der Zugriffsliste des
 	Nicknamens steht. Bitte benutze diese Option nicht
-	unnötigerweise.
-	Ausserdem ist es möglich, dass die Netz-Admins
+	unnÃ¶tigerweise.
+	Ausserdem ist es mÃ¶glich, dass die Netz-Admins
 	diese Option deaktiviert haben.
 
 NICK_HELP_SASET_SECURE
 	Syntax: SASET nickname SECURE {ON | OFF}
 	
-	Schaltet die Sicherheitsfunktionen von %S für den
+	Schaltet die Sicherheitsfunktionen von %S fÃ¼r den
 	Nicknamen an oder aus. Mit eingeschaltetem SECURE
 	muss sich der Nickname immer identifizieren, egal 
-	ob seine Hostmaske auf der Zugriffsliste für den 
+	ob seine Hostmaske auf der Zugriffsliste fÃ¼r den 
 	Nicknamen steht oder nicht. Wenn er allerdings auf 
 	der Zugriffsliste stehst, wird %S bei 
 	fehlender Identifizierung den Nicknamen nicht killen
-	(ist von der KILL Option unabhängig).
+	(ist von der KILL Option unabhÃ¤ngig).
 
 NICK_HELP_SASET_PRIVATE
 	Syntax: SASET nickname PRIVATE {ON | OFF}
 	
-	Ändert %S's Privat-Modus für den Nicknamen.
+	Ã„ndert %S's Privat-Modus fÃ¼r den Nicknamen.
 	Mit eingeschaltetem PRIVATE wird der Nickname
 	nicht auf Listen erscheinen, die durch %S's LIST 
 	Befehl erstellt wurden.
 	
 	(Jeder der den Nicknamen kennt, kann gezielt mit 
-	dem INFO Befehl Informationen über den Nicknamen 
-	abrufen, unabhängig vom Privat-Modus.)
+	dem INFO Befehl Informationen Ã¼ber den Nicknamen 
+	abrufen, unabhÃ¤ngig vom Privat-Modus.)
 
 NICK_HELP_SASET_HIDE
 	Syntax: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
@@ -3969,13 +3969,13 @@ NICK_HELP_SASET_NOEXPIRE
 	Syntax: SASET nickname NOEXPIRE {ON | OFF}
 	
 	Bestimmt ob ein Nickname nach einer gewissen Zeit 
-	verfällt. Wird NOEXPIRE auf ON gesetzt verfällt
+	verfÃ¤llt. Wird NOEXPIRE auf ON gesetzt verfÃ¤llt
 	der Nickname nie.
 
 NICK_HELP_SASET_AUTOOP
 	Syntax: SASET nickname AUTOOP {ON | OFF}
 	
-	Bestimmt ob der angegebene Nickname automatisch Op-Status erhält.
+	Bestimmt ob der angegebene Nickname automatisch Op-Status erhÃ¤lt.
 	Wird AUTOOP auf ON gestellt erlaubt es ChanServ den
 	angegebenen Nicknamen automatisch Op-Status zu geben,
 	wenn der Nick die Channels betritt.
@@ -3986,13 +3986,13 @@ NICK_HELP_SASET_LANGUAGE
 	Wechselt die Sprache der Services, wenn Meldungen an den
 	Nicknamen gesendet werden.
 	(Zum Beispiel in einer Antwort auf einen Befehl den der User gesendet hat).
-	Die Nummer sollte aus der Liste der unterstützten Sprachen gewählt 
+	Die Nummer sollte aus der Liste der unterstÃ¼tzten Sprachen gewÃ¤hlt 
 	werden, die man mit tippen des Befehls %R%S HELP SET LANGUAGE bekommt.
 
 NICK_HELP_RECOVER
 	Syntax: RECOVER Nickname [Passwort]
 	
-	Ermöglicht dir, deinen Nicknamen wieder freizugeben,
+	ErmÃ¶glicht dir, deinen Nicknamen wieder freizugeben,
 	wenn jemand anderes ihn angenommen hat. Diese Funktion
 	wird auch durch %S genutzt, wenn jemand einen Nickname
 	mit Kill-Schutz anzunehmen.
@@ -4009,28 +4009,28 @@ NICK_HELP_RECOVER
 	
 	Als Alternative gibt es das RELEASE Befehl,
 	(%R%S HELP RELEASE) um deinen Nickname 
-	schneller zurückzubekommen.
+	schneller zurÃ¼ckzubekommen.
 	
-	Als Vorraussetzung für das RECOVER Befehl muss 
+	Als Vorraussetzung fÃ¼r das RECOVER Befehl muss 
 	deine aktuelle Adresse (siehe Ausgabe von /WHOIS)
 	auf der Zugriffsliste des zu recovernden Nicknamens 
-	oder in dessen Gruppe sein. Als dritte Möglichkeit
-	kannst du das Passwort für den Nicknamen angeben.
+	oder in dessen Gruppe sein. Als dritte MÃ¶glichkeit
+	kannst du das Passwort fÃ¼r den Nicknamen angeben.
 
 NICK_HELP_RELEASE
 	Syntax: RELEASE Nickname [Passwort]
 	
-	Durch %S wird die Nickname-Sperre, ausgelöst
+	Durch %S wird die Nickname-Sperre, ausgelÃ¶st
 	durch z.B. den automatischen Kill-Schutz oder durch
 	Verwendung des RECOVER Befehls, aufgehoben.
-	Standardmässig hält diese Sperre %s, dieser
-	Befehl setzt den Nickname früher wieder frei.
+	StandardmÃ¤ssig hÃ¤lt diese Sperre %s, dieser
+	Befehl setzt den Nickname frÃ¼her wieder frei.
 	
-	Als Vorraussetzung für die Verwendung des RELEASE 
-	Befehl für einen Nickname, muss deine aktuelle Hostmaske
+	Als Vorraussetzung fÃ¼r die Verwendung des RELEASE 
+	Befehl fÃ¼r einen Nickname, muss deine aktuelle Hostmaske
 	(siehe /WHOIS) in der Zugriffsliste des entsprechenden
 	Nicknamens oder in der Gruppe des Nicknamen sein. Weiterhin 
-	musst du das richtige Passwort für den Nicknamen haben.
+	musst du das richtige Passwort fÃ¼r den Nicknamen haben.
 
 NICK_HELP_GHOST
 	Syntax: GHOST Nickname [Passwort]
@@ -4039,22 +4039,22 @@ NICK_HELP_GHOST
 	Nickname besitzt. Eine solche Verbindung ist eine,
 	die nicht wirklich verbunden ist, bzw. im Begriff ist
 	getrennt zu werden. Normalerweise passiert dies,
-	wenn dein Computer abstürtzt oder deine Internet-
+	wenn dein Computer abstÃ¼rtzt oder deine Internet-
 	Verbindung zusammenbricht, wenn du im IRC bist.
 	
 	Wenn du das GHOST Befehl benutzen willst,muss 
 	deine aktuelle Hostmaske (siehe /WHOIS) in der
 	Zugriffsliste des entsprechenden Nicknamens oder
 	in der Gruppe des Nicknamens sein.Weiterhin musst 
-	du das richtige Passwort für den Nickname haben.
+	du das richtige Passwort fÃ¼r den Nickname haben.
 
 NICK_HELP_INFO
 	Syntax: INFO Nickname [ALL]
 	
-	Zeigt Informationen über den angegebenen Nickname, zum
+	Zeigt Informationen Ã¼ber den angegebenen Nickname, zum
 	Beispiel den Besitzer des Nicknamens, die letzte gesehene
 	Adresse und dessen Uhrzeit und die Optionen des Nicknamens.
-	Wenn du dich für den Nickname über den du Infos anzeigen
+	Wenn du dich fÃ¼r den Nickname Ã¼ber den du Infos anzeigen
 	willst identifiziert hast, und den Parameter ALL 
 	benutzt, werden alle Informationen angezeigt.
 	(Egal ob sie versteckt sind oder nicht.)
@@ -4094,12 +4094,12 @@ NICK_HELP_ALIST
 	        Listet alle Channels auf, in denen du Founder-Access hast.
 	
 	    ALIST AOP
-	        Listet alle Channels auf, in denen du AOP-Access oder höher
+	        Listet alle Channels auf, in denen du AOP-Access oder hÃ¶her
 	        hast.
 	
 	    ALIST 10
 	        Listet alle Channels auf, in denen du das Zugriffs-Level 10 
-	        oder höher hast..
+	        oder hÃ¶her hast..
 	
 	Channels mit der NOEXPIRE Option sind mit einem Ausrufezeichen markiert.
 
@@ -4111,8 +4111,8 @@ NICK_HELP_GLIST
 NICK_HELP_STATUS
 	Syntax: STATUS Nickname
 	
-	Liefert einen Wert zurück, der besagt, ob der augenblickliche
-	Nutzer des Nicknamens der identifizierte Eigentümer ist, oder 
+	Liefert einen Wert zurÃ¼ck, der besagt, ob der augenblickliche
+	Nutzer des Nicknamens der identifizierte EigentÃ¼mer ist, oder 
 	nicht.Die Antwort hat das Format:
 	
 	    Nickname Status-Code
@@ -4121,13 +4121,13 @@ NICK_HELP_STATUS
 	wurde und Status-Code eine der folgenden Werte:
 	
 	    0 - User ist nicht online oder Nickname ist nicht registriert
-	    1 - User wird nicht als Eigentümer erkannt
-	    2 - User wird als Eigentümer erkannt durch die
+	    1 - User wird nicht als EigentÃ¼mer erkannt
+	    2 - User wird als EigentÃ¼mer erkannt durch die
 	        Zugriffsliste
-	    3 - User wird als Eigentümer erkannt durch die
+	    3 - User wird als EigentÃ¼mer erkannt durch die
 	        Identifizierung mit Passwort
 	
-	Bis zu 16 Nicknamen können mit dem Befehl übergeben werden,
+	Bis zu 16 Nicknamen kÃ¶nnen mit dem Befehl Ã¼bergeben werden,
 	der Rest wird ignoriert. Wenn kein Nickname angegeben wird,
 	wird dein STATUS angezeigt.
 
@@ -4136,36 +4136,36 @@ NICK_HELP_SENDPASS
 	
 	Sendet das Passwort des angegebenen Nicks zu der damit
 	verbundenen eMail-Adresse aus der NickServ-Datenbank.
-	Dieses Kommando ist wirklich nützlich, wenn du dein
+	Dieses Kommando ist wirklich nÃ¼tzlich, wenn du dein
 	Passwort vergessen haben solltest.
 	
 	Kann in manchen Netzen auf IRC Operatoren begrenzt
 	sein.
 	
-	Dieses Kommando ist nicht verfügbar, wenn die Datenbanken
-	verschlüsselt angelegt sind.
+	Dieses Kommando ist nicht verfÃ¼gbar, wenn die Datenbanken
+	verschlÃ¼sselt angelegt sind.
 
 NICK_HELP_CONFIRM
 	Syntax: CONFIRM passcode
 	
 	Dies ist der zweite Schritt beim Registrieren des Nicknamens.
-	Du mußt diesen Befehl ausführen, um ihn mit %S zu registrieren.
+	Du muÃŸt diesen Befehl ausfÃ¼hren, um ihn mit %S zu registrieren.
 	Der Passcode (oder auch Authentifizierungscode genannt) wird
 	an Deine email-adresse gesendet beim ersten Schritt des
-	Registrationsprozesses. Für mehr Informationen über die erste
+	Registrationsprozesses. FÃ¼r mehr Informationen Ã¼ber die erste
 	Stufe des Registrationsprozesses tippe: %R%S HELP REGISTER
 
 NICK_HELP_RESEND
 	Syntax: RESEND
 	
-	Dieser Befehl löst das Versenden des Authentifizierungscodes
+	Dieser Befehl lÃ¶st das Versenden des Authentifizierungscodes
 	(auch Passcode genannt) erneut an die gespeicherte Emailadresse
-	des Users, sobald der User ihn ausführt.
+	des Users, sobald der User ihn ausfÃ¼hrt.
 
 NICK_SERVADMIN_HELP
-	Services Administratoren können auch registrierte Nicknamen
-	löschen,ohne sich für den jeweiligen Nicknamen identifizieren
-	zu müssen. Zusätzlich können sie die Zugriffsliste eines
+	Services Administratoren kÃ¶nnen auch registrierte Nicknamen
+	lÃ¶schen,ohne sich fÃ¼r den jeweiligen Nicknamen identifizieren
+	zu mÃ¼ssen. ZusÃ¤tzlich kÃ¶nnen sie die Zugriffsliste eines
 	jeden Nicknamen ansehen und bearbeiten. Siehe :
 	%R%S ACCESS LIST Nickname
 
@@ -4173,17 +4173,17 @@ NICK_SERVADMIN_HELP_LOGOUT
 	Syntax: LOGOUT [Nickname [REVALIDATE]]
 	
 	Ohne angegebenen Parameter, macht dieser Befehl die
-	Wirkung von IDENTIFY rückgängig, zum Beispiel
-	wirst du nicht mehr als Eigentümer des Nicknamens erkannt.
+	Wirkung von IDENTIFY rÃ¼ckgÃ¤ngig, zum Beispiel
+	wirst du nicht mehr als EigentÃ¼mer des Nicknamens erkannt.
 	Beachte jedoch, dass du nicht erneut zur Identifizierung
 	aufgefordert wirst.
 	
-	Mit angegebenem Parameter passiert das gleiche für den
-	Nicknamen. Wenn du zusätzlich REVALIDATE angibst, wird
-	Services dich auffordern, dich erneut für den Nickname
+	Mit angegebenem Parameter passiert das gleiche fÃ¼r den
+	Nicknamen. Wenn du zusÃ¤tzlich REVALIDATE angibst, wird
+	Services dich auffordern, dich erneut fÃ¼r den Nickname
 	zu identifizieren. 
 	
-	Diese Funktion ist beschränkt auf die Services Administartoren.
+	Diese Funktion ist beschrÃ¤nkt auf die Services Administartoren.
 	
 NICK_SERVADMIN_HELP_DROP
 	Syntax: DROP [Nickname]
@@ -4195,12 +4195,12 @@ NICK_SERVADMIN_HELP_DROP
 	von der Datenbank entfernt. Du kannst jeden Nickname 
 	in deiner Gruppe ohne bestimmte Privilegien entfernen.
 	
-	Das Entfernen eines beliebigen Nicknamen ist beschränkt
+	Das Entfernen eines beliebigen Nicknamen ist beschrÃ¤nkt
 	auf Services Administratoren.
 
 NICK_SERVADMIN_HELP_INFO
 	
-	Services Administratoren können den ALL Parameter für
+	Services Administratoren kÃ¶nnen den ALL Parameter fÃ¼r
 	jeden beliebigen Nickname benutzen.
 
 NICK_SERVADMIN_HELP_LIST
@@ -4219,7 +4219,7 @@ NICK_SERVADMIN_HELP_LIST
 	Wenn mehr Optionen angegeben werden, werden alle Nicknamen angezeigt
 	die den Muster entsprechen. 
 	
-	Diese optionen ist beschränkt auf Services Administratoren.
+	Diese optionen ist beschrÃ¤nkt auf Services Administratoren.
 	
 	Beispiele:
 	
@@ -4229,7 +4229,7 @@ NICK_SERVADMIN_HELP_LIST
 	
 	    LIST *Bot*!*@*
 	        Listet alle registrierten Nicknamen die Bot in
-	        ihrem Ident haben (unabhängig von Gross/Klein-
+	        ihrem Ident haben (unabhÃ¤ngig von Gross/Klein-
 	        schreibung).
 	
 	    LIST * NOEXPIRE
@@ -4243,7 +4243,7 @@ NICK_SERVADMIN_HELP_ALIST
 	die du Zugriff hast. Mit einem Parameter werden alle Channels
 	aufgelistet, auf die Nickname Zugriff hat. Mit zwei 
 	Parametern werden alle Channel aufgelistet, in denen Nickname 
-	Zugriffslevel Level oder höher hat.
+	Zugriffslevel Level oder hÃ¶her hat.
 
 NICK_SERVADMIN_HELP_GLIST
 	Syntax: GLIST [Nickname]
@@ -4260,17 +4260,17 @@ NICK_SERVADMIN_HELP_GETPASS
 	Liest das Passwort von Nickname aus der Datenbank aus.
 	Beachte dass wenn jemand dieses Befehl benutzt,
 	diese Aktion im Logbuch der Services vermerkt wird.
-	Zusätzlich wird eine Nachricht an alle IRC Operatoren
+	ZusÃ¤tzlich wird eine Nachricht an alle IRC Operatoren
 	per WALLOPS/GLOBOPS ausgesandt.
 	
-	Dieser Befehl ist nicht verfügbar bei aktivierter
-	Verschlüsselung.
+	Dieser Befehl ist nicht verfÃ¼gbar bei aktivierter
+	VerschlÃ¼sselung.
 
 NICK_SERVADMIN_HELP_GETEMAIL
 	Syntax: GETEMAIL user@emailhost
 
 	Gibt die passenden Nicknamen an, welche die angegebene eMail benutzen. 
-	Beachte, dass du keine wildcards für den User oder emailhost
+	Beachte, dass du keine wildcards fÃ¼r den User oder emailhost
 	verwenden kannst. Immer, wenn dieser Befehl benutzt wird, wird
 	eine Nachricht mit dem Nickname der Person mitgeloggt.
 
@@ -4278,11 +4278,11 @@ NICK_SERVADMIN_HELP_FORBID
 	Syntax: FORBID Nickname [Grund]
 	
 	Verhindert, dass der angegebene Nickname registriert
-	oder genutzt wird. Diese Einschränkung kann durch
-	DROPEN (löschen) des Nicknamen aufgehoben werden.
+	oder genutzt wird. Diese EinschrÃ¤nkung kann durch
+	DROPEN (lÃ¶schen) des Nicknamen aufgehoben werden.
 	
-	In bestimmten Netzen wird ein Grund für das
-	Verbot benötigt.
+	In bestimmten Netzen wird ein Grund fÃ¼r das
+	Verbot benÃ¶tigt.
 
 NICK_SERVADMIN_HELP_SUSPEND
 	Syntax: SUSPEND Nickname Grund
@@ -4302,7 +4302,7 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 CHAN_HELP_CMD_GETPASS
 	    GETPASS    Liest das Passwort des Channel-Founders
 	               aus der Datenbank aus (wenn die
-	               Verschlüsselung deaktiviert ist)
+	               VerschlÃ¼sselung deaktiviert ist)
 CHAN_HELP_CMD_FORBID
 	    FORBID     Verhindert die Nutzung eines Channels
 CHAN_HELP_CMD_SUSPEND
@@ -4337,7 +4337,7 @@ CHAN_HELP_CMD_AKICK
 CHAN_HELP_CMD_DROP
 	    DROP       Registrierung eines Channels aufheben
 CHAN_HELP_CMD_SENDPASS
-	    SENDPASS   Hilft bei vergessenen Passwörtern
+	    SENDPASS   Hilft bei vergessenen PasswÃ¶rtern
 CHAN_HELP_CMD_BAN
 	    BAN        Bant den angegebenen Nicknamen aus einen Channel
 CHAN_HELP_CMD_CLEAR
@@ -4348,7 +4348,7 @@ CHAN_HELP_CMD_DEVOICE
 CHAN_HELP_CMD_GETKEY
 	    GETKEY     Gibt das Channel-Passwort wieder
 CHAN_HELP_CMD_INFO
-	    INFO       Zeigt Informationen über den angegebenen Channel
+	    INFO       Zeigt Informationen Ã¼ber den angegebenen Channel
 CHAN_HELP_CMD_INVITE
 	    INVITE     Befiehlt Chanserv Dich in einen Channel einzuladen
 CHAN_HELP_CMD_KICK
@@ -4360,7 +4360,7 @@ CHAN_HELP_CMD_LOGOUT
 CHAN_HELP_CMD_OP
 	    OP         Gibt den angegebenen Nicknamen Op-Status in einen Channel
 CHAN_HELP_CMD_TOPIC
-	    TOPIC      Ändert den Topic des angegebenen Channels
+	    TOPIC      Ã„ndert den Topic des angegebenen Channels
 CHAN_HELP_CMD_UNBAN
 	    UNBAN      Enfernt den oder die ban(s) die dich betreffen aus einen Channel
 CHAN_HELP_CMD_VOICE
@@ -4371,7 +4371,7 @@ CHAN_HELP_CMD_DEHALFOP
 	    DEHALFOP   Enfernt den HalfOP-Status des angegebenen Nicknamens
 	               in einen Channel
 CHAN_HELP_CMD_DEOWNER
-	    DEOWNER    Entfernt dein Founder (Gründer) Status in einen Channel
+	    DEOWNER    Entfernt dein Founder (GrÃ¼nder) Status in einen Channel
 CHAN_HELP_CMD_DEPROTECT
 	    DEPROTECT  Entfernt den schutz des angegebenen Nicknamens 
 	               in einen Channel
@@ -4380,11 +4380,11 @@ CHAN_HELP_CMD_HALFOP
 CHAN_HELP_CMD_HOP
 	    HOP        Verwaltet die HOP-Liste von einen Channel
 CHAN_HELP_CMD_OWNER
-	    OWNER      Gibt dir Founder (Gründer) Staus in einen Channel
+	    OWNER      Gibt dir Founder (GrÃ¼nder) Staus in einen Channel
 CHAN_HELP_CMD_PROTECT
-	    PROTECT    Schützt den angegebenen Nicknamen in einen Channel
+	    PROTECT    SchÃ¼tzt den angegebenen Nicknamen in einen Channel
 CHAN_HELP_CMD_ADMIN
-	    ADMIN      Schützt den angegebenen Nicknamen in einen Channel
+	    ADMIN      SchÃ¼tzt den angegebenen Nicknamen in einen Channel
 CHAN_HELP_CMD_DEADMIN
 	    DEADMIN    Entfernt den Schutz des angegebenen Nicknamens 
 	               in einen Channel
@@ -4397,31 +4397,31 @@ CHAN_HELP
 	eine Vielzahl von Kontrolloptionen einstellen. %S kann 
 	zum Beispiel das "Takeover" von Channels verhindern,in 
 	dem man die Channel-Op Privilegien auf bestimmte registrierte 
-	Nicknamen begrenzt. Verfügbare Befehle sind unten aufgelistet. 
-	Um sie zu benutzen tippe %R%S Befehl. Für weitere 
+	Nicknamen begrenzt. VerfÃ¼gbare Befehle sind unten aufgelistet. 
+	Um sie zu benutzen tippe %R%S Befehl. FÃ¼r weitere 
 	Informationen zu einem bestimmten Befehl, tippe :
 	%R%S HELP Befehl.
 	 
 	
 CHAN_HELP_EXPIRES
 	
-	Beachte das jeder Channel der für %d Tage nicht
+	Beachte das jeder Channel der fÃ¼r %d Tage nicht
 	genutzt wird,automatisch auslaufen wird.
 
 CHAN_HELP_REGISTER
 	Syntax: REGISTER Channel Password Beschreibung
 	
 	Registriert einen Channel in der Datenbank von %S.
-	Wenn du dieses Befehl nutzen möchtest, musst du
+	Wenn du dieses Befehl nutzen mÃ¶chtest, musst du
 	Operator-Status in dem Channel besitzen. Das
 	Passwort, dass du mit dem IDENTIFY Befehl
-	einstellst, erlaubt es später anderen Änderungen 
-	am Channel durchzuführen.Der letzte Parameter, der 
+	einstellst, erlaubt es spÃ¤ter anderen Ã„nderungen 
+	am Channel durchzufÃ¼hren.Der letzte Parameter, der 
 	angegeben werden MUSS,sollte eine allgemeine 
 	Beschreibung des Channels bzw dessen Zweck beinhalten.
 	
 	Wenn du einen Channel registrierst, wird dein Nickname
-	als Founder (Gründer) eingetragen. Der Channel-Founder 
+	als Founder (GrÃ¼nder) eingetragen. Der Channel-Founder 
 	kann alle Einstellungen des Channels bearbeiten, und 
 	wird automatisch beim Joinen des Channels durch %S mit 
 	Founder/Operator Privilegien ausgestattet.  Mit Hilfe 
@@ -4429,16 +4429,16 @@ CHAN_HELP_REGISTER
 	einen Teil dieser Privilegien anderen registrierten 
 	Nicknamen ebenfalls erteilen.
 	
-	Hinweis: Für das Registrieren eines Channels musst du 
+	Hinweis: FÃ¼r das Registrieren eines Channels musst du 
 	einen registrierten und identifizierten Nickname benutzen. 
 	Hast du dies noch nicht getan, tippe %R%s HELP REGISTER
-	um weitere Informationen darüber zu erhalten.
+	um weitere Informationen darÃ¼ber zu erhalten.
 
 CHAN_HELP_IDENTIFY
 	Syntax: IDENTIFY Channel Passwort
 	
-	Identifiziert ein Nickname gegenüber %S als 
-	Founder (Gründer) des angegebenen Channels. 
+	Identifiziert ein Nickname gegenÃ¼ber %S als 
+	Founder (GrÃ¼nder) des angegebenen Channels. 
 	Das Passwort muss dasselbe wie bei der 
 	registrierung des angegebenen Channels sein
 	und ist in der Regel von den Real-Founder des
@@ -4447,7 +4447,7 @@ CHAN_HELP_IDENTIFY
 CHAN_HELP_LOGOUT
 	Syntax: LOGOUT Channel Nickname
 	
-	Hebt die Identifizierung als Channel-Founder für
+	Hebt die Identifizierung als Channel-Founder fÃ¼r
 	den angegebenen Channel wieder auf.
 	
 	Wenn du der Channel-Founder bist, kannst du jeden
@@ -4463,28 +4463,28 @@ CHAN_HELP_SET
 	Syntax: SET Channel Option Parameter
 	
 	Erlaubt es dem Channel-Founder bestimmte Optionen
-	und Informationen des Channels zu ändern.
+	und Informationen des Channels zu Ã¤ndern.
 	
-	Verfügbare Optionen:
+	VerfÃ¼gbare Optionen:
 	
-	    FOUNDER       Stellt den Founder (Gründer) des Channels ein
+	    FOUNDER       Stellt den Founder (GrÃ¼nder) des Channels ein
 	    SUCCESSOR     Stellt den Vertreter des Founders ein
-	    PASSWORD      Ändert das Passwort des Channel-Founders
-	    DESC          Ändert die Channel-Beschreibung
+	    PASSWORD      Ã„ndert das Passwort des Channel-Founders
+	    DESC          Ã„ndert die Channel-Beschreibung
 	    URL           Verbindet eine URL mit dem Channel
 	    EMAIL         Verbindet eine eMail-Adresse mit dem
 	                  Channel
-	    ENTRYMSG      Stellt eine Begrüssungsmeldung des
+	    ENTRYMSG      Stellt eine BegrÃ¼ssungsmeldung des
 	                  Channels ein
-	    TOPIC         Ändert das Topic im Channel
-	    BANTYPE       Ändert den Ban-Typ, den die Services
+	    TOPIC         Ã„ndert das Topic im Channel
+	    BANTYPE       Ã„ndert den Ban-Typ, den die Services
 	                  in dem Channel anwenden
 	    KEEPTOPIC     Topic behalten, wenn Channel nicht
 	                  benutzt wird
-	    TOPICLOCK     Topic kann nur durch TOPIC geändert werden
+	    TOPICLOCK     Topic kann nur durch TOPIC geÃ¤ndert werden
 	    MLOCK         Channel-Modes fest einstellen
 	    PRIVATE       Den Channel vom /LIST-Befehl verstecken
-	    RESTRICTED    Eingeschränkter Zugriff auf den Channel
+	    RESTRICTED    EingeschrÃ¤nkter Zugriff auf den Channel
 	    SECURE        Aktiviert %S's Sicherheits-funktionen
 	    SECUREOPS     Strengere Kontrolle des Op-Status im Channel
 	    SECUREFOUNDER Strengere Kontrolle des Founder-Status
@@ -4494,20 +4494,20 @@ CHAN_HELP_SET
 	                  benutzt werden
 	    XOP           Schaltet das Listen System ein oder aus
 	
-	Tippe %R%S HELP Option für weitere Informationen
+	Tippe %R%S HELP Option fÃ¼r weitere Informationen
 	zu einem bestimmten Befehl.
 
 CHAN_HELP_SET_FOUNDER
 	Syntax: SET Channel FOUNDER Nickname
 	
-	Ändert den Gründer (Founder) eines Channels. Der neue
+	Ã„ndert den GrÃ¼nder (Founder) eines Channels. Der neue
 	Nickname muss registriert sein.
 
 CHAN_HELP_SET_SUCCESSOR
 	Syntax: SET Channel SUCCESSOR Nickname
 	
-	Ändert den Vertreter des Founders (Gründer) in dem Channel.
-	Wenn der Nickname des Founders ausläuft oder gedropped wird,
+	Ã„ndert den Vertreter des Founders (GrÃ¼nder) in dem Channel.
+	Wenn der Nickname des Founders auslÃ¤uft oder gedropped wird,
 	wenn der Channel registriert ist, wird der Vertreter
 	der neue Founder des Channels. Wenn jedoch der 
 	Vertreter bereits zu viele Channels registriert hat
@@ -4518,13 +4518,13 @@ CHAN_HELP_SET_SUCCESSOR
 CHAN_HELP_SET_PASSWORD
 	Syntax: SET Channel PASSWORD Passwort
 	
-	Ändert das Passwort, dass dich als Founder (Gründer)
+	Ã„ndert das Passwort, dass dich als Founder (GrÃ¼nder)
 	des Channels identifiziert.
 
 CHAN_HELP_SET_DESC
 	Syntax: SET Channel DESC Beschreibung
 	
-	Ändert die Beschreibung für einen Channel, die bei
+	Ã„ndert die Beschreibung fÃ¼r einen Channel, die bei
 	dem LIST und INFO Befehl angezeigt wird.
 
 CHAN_HELP_SET_URL
@@ -4532,23 +4532,23 @@ CHAN_HELP_SET_URL
 	
 	Verbindet die angegebene URL mit dem Channel. Diese
 	URL wird angezeigt, wenn jemand Informationen
-	über den Channel mit dem INFO Befehl abfragt.
+	Ã¼ber den Channel mit dem INFO Befehl abfragt.
 	Wird kein Parameter angegeben, wird die aktuelle
-	URL gelöscht.
+	URL gelÃ¶scht.
 
 CHAN_HELP_SET_EMAIL
 	Syntax: SET Channel EMAIL [eMail-Adresse]
 	
 	Verbindet die angegebene eMail-Adresse mit dem
 	Channel. Diese eMail-Adresse wird angezeigt,
-	wenn jemand Informationen über den Channel mit
+	wenn jemand Informationen Ã¼ber den Channel mit
 	dem INFO Befehl abfragt.Wird kein Parameter 
-	angegeben, wird die aktuelle eMail-Adresse gelöscht.
+	angegeben, wird die aktuelle eMail-Adresse gelÃ¶scht.
 
 CHAN_HELP_SET_ENTRYMSG
 	Syntax: SET Channel ENTRYMSG [Nachricht]
 	
-	Ändert die Nachricht, die User beim Joinen des
+	Ã„ndert die Nachricht, die User beim Joinen des
 	Channels per /notice bekommen. Wird kein Parameter
 	angegeben, wird keine Nachricht beim Joinen 
 	angezeigt.
@@ -4556,7 +4556,7 @@ CHAN_HELP_SET_ENTRYMSG
 CHAN_HELP_SET_BANTYPE
 	Syntax: SET Channel BANTYPE Ban-Typ
 	
-	Stellt den Ban-Typ für den Channel ein, den die
+	Stellt den Ban-Typ fÃ¼r den Channel ein, den die
 	Services anwenden, wenn sie einen Ban eintragen
 	(z.B. bei einem Auto-Kick).
 	
@@ -4570,10 +4570,10 @@ CHAN_HELP_SET_BANTYPE
 CHAN_HELP_SET_KEEPTOPIC
 	Syntax: SET Channel KEEPTOPIC {ON | OFF}
 	
-	Aktiviert oder deaktiviert die Topic Wiederherstellung für
+	Aktiviert oder deaktiviert die Topic Wiederherstellung fÃ¼r
 	den Channel. Wird diese Option eingeschaltet, wird das 
 	Topic des Channels gespeichert durch %S. Selbst wenn 
-	der letzte User den Channel verlässt, wird es 
+	der letzte User den Channel verlÃ¤sst, wird es 
 	wiederhergestellt sobald jemand wieder in den Channel 
 	kommt.
 
@@ -4581,27 +4581,27 @@ CHAN_HELP_SET_TOPICLOCK
 	Syntax: SET Channel TOPICLOCK {ON | OFF}
 	
 	Aktiviert oder deaktiviert die topic lock-Option
-	für den angegebenen Channel.
+	fÃ¼r den angegebenen Channel.
 	Wenn topic lock eingeschaltet ist, wird %S jede
-	Änderung des Topics verhindern/rückgängig machen,
+	Ã„nderung des Topics verhindern/rÃ¼ckgÃ¤ngig machen,
 	ausser es wurde durch TOPIC eingestellt.
 
 CHAN_HELP_SET_MLOCK
 	Syntax: SET Channel MLOCK Modi
 	
-	Stellt den Mode-Lock-Parameter für den angegebenen
-	Channel ein. %S ermöglicht es dir, einzustellen,
-	dass bestimmte Modi immer aus bzw an sein müssen.
+	Stellt den Mode-Lock-Parameter fÃ¼r den angegebenen
+	Channel ein. %S ermÃ¶glicht es dir, einzustellen,
+	dass bestimmte Modi immer aus bzw an sein mÃ¼ssen.
 	
-	Die Modes die gelockt werden können sind von dein IRCD abhängig.
+	Die Modes die gelockt werden kÃ¶nnen sind von dein IRCD abhÃ¤ngig.
 	Jede einzelne dieser Modes kann ein/aus oder gar nicht gelockt werden. 
 	Der Modi Parameter ist genauso aufgebaut wie das jeweilige /MODE Befehl.
 	Dies bedeutet, Modi die durch ein + gekennzeichnet sind, sind aktiviert,
 	durch ein - sind sie deaktiviert.
 	
 	Warnung:  Wenn du den Channel mit Hilfe des SET MLOCK
-	Befehls mit einem Key (Passwort) schützt, solltest du
-	zusätzlich die RESTRICTED Option für den Channel ein-
+	Befehls mit einem Key (Passwort) schÃ¼tzt, solltest du
+	zusÃ¤tzlich die RESTRICTED Option fÃ¼r den Channel ein-
 	schalten (siehe HELP SET RESTRICTED), oder jeder der in
 	diesen Channel kommt wenn er leer ist kann den Key sehen!
 	
@@ -4626,13 +4626,13 @@ CHAN_HELP_SET_PEACE
 
 	Aktiviert oder deaktiviert die peace Option. Wenn
 	peace aktiviert ist, kann ein User einen anderen User
-	mit gleichem oder höherem Zugriffslevel nicht mehr per 
-	%S  kicken, bannen oder dessen Channelstatus löschen.
+	mit gleichem oder hÃ¶herem Zugriffslevel nicht mehr per 
+	%S  kicken, bannen oder dessen Channelstatus lÃ¶schen.
 
 CHAN_HELP_SET_PRIVATE
 	Syntax: SET Channel PRIVATE {ON | OFF}
 	
-	Schaltet den Privat-Modus für einen Channel an
+	Schaltet den Privat-Modus fÃ¼r einen Channel an
 	oder aus. Wird er aktiviert, wird der Channel in der
 	Ausgabe von%R%S LIST nicht mehr auftauchen.
 
@@ -4640,10 +4640,10 @@ CHAN_HELP_SET_RESTRICTED
 	Syntax: SET Channel RESTRICTED {ON | OFF}
 	
 	Aktiviert oder deaktiviert den restricted access
-	(beschränkter Zugriff)-Modi für einen Channel. Wenn 
+	(beschrÃ¤nkter Zugriff)-Modi fÃ¼r einen Channel. Wenn 
 	restricted access eingeschaltet ist, werden
 	User die sonst keinen Channel Operator-Status besitzen
-	würden (Nicknamen mit negativem Zugriffslevel, oder wenn
+	wÃ¼rden (Nicknamen mit negativem Zugriffslevel, oder wenn
 	Secure Ops aktiv ist, Nicknamen die nicht auf der
 	Zugriffsliste sind) vom Channel gekicked und gebanned.
 
@@ -4651,7 +4651,7 @@ CHAN_HELP_SET_SECURE
 	Syntax: SET Channel SECURE {ON | OFF}
 	
 	Aktiviert oder deaktiviert die Sicherheitsfunktionen
-	von %S für den angegebenen Channel. 
+	von %S fÃ¼r den angegebenen Channel. 
 	Wird SECURE eingeschaltet, werden nur registrierte
 	Nicknamen (durch %s) die per Passwort 
 	identifiziert sind in den Channel gelassen, so wie es 
@@ -4660,8 +4660,8 @@ CHAN_HELP_SET_SECURE
 CHAN_HELP_SET_SECUREOPS
 	Syntax: SET Channel SECUREOPS {ON | OFF}
 	
-	Ändert die Secure-Ops Option für einen Channel.
-	Wird diese Option eingeschaltet, können Nicknamen, 
+	Ã„ndert die Secure-Ops Option fÃ¼r einen Channel.
+	Wird diese Option eingeschaltet, kÃ¶nnen Nicknamen, 
 	die nicht auf der Zugriffsliste des Channels stehen, 
 	keinen Op-Status erhalten.
 	
@@ -4669,42 +4669,42 @@ CHAN_HELP_SET_SECUREFOUNDER
 	Syntax: SET Channel SECUREFOUNDER {ON | OFF}
 	
 	Aktiviert oder deaktiviert die Secure Founder-Option
-	für einen Channel.
+	fÃ¼r einen Channel.
 	Wird diese Option eingeschaltet, kann nur der "echte"
-	Gründer des Channels diesen DROPEN(löschen), das Passwort 
-	und den Successor verändern und nicht derjenige, der sich 
-	per IDENTIFY gegenüber %S als Gründer (Founder) identifiziert
+	GrÃ¼nder des Channels diesen DROPEN(lÃ¶schen), das Passwort 
+	und den Successor verÃ¤ndern und nicht derjenige, der sich 
+	per IDENTIFY gegenÃ¼ber %S als GrÃ¼nder (Founder) identifiziert
 	hat.
 	
 CHAN_HELP_SET_SIGNKICK
 	Syntax: SET Channel SIGNKICK {ON | LEVEL | OFF}
 	
-	Aktiviert oder deaktiviert signierte Kicks für einen
+	Aktiviert oder deaktiviert signierte Kicks fÃ¼r einen
 	Channel. Ist SIGNKICK aktiviert, wird der Grund
-	eines Kicks der durch %S KICK ausgeführt wurde, durch
+	eines Kicks der durch %S KICK ausgefÃ¼hrt wurde, durch
 	den Nicknamen des Kickers signiert.
 	
 	Wird LEVEL benutzt, werden Kicks durch Nicknamen
-	deren Level grösser oder gleich dem SIGNKICK Level ist,
+	deren Level grÃ¶sser oder gleich dem SIGNKICK Level ist,
 	nicht durch den Nicknamen signiert.
-	Siehe %R%S HELP LEVELS für weitere Informationen.
+	Siehe %R%S HELP LEVELS fÃ¼r weitere Informationen.
 
 CHAN_HELP_SET_XOP
 	Syntax: SET Channel XOP {ON | OFF}
 	
-	Aktiviert oder deaktiviert das xOP Listen System für einen Channel.
+	Aktiviert oder deaktiviert das xOP Listen System fÃ¼r einen Channel.
 	Wenn XOP aktiviert ist, musst du AOP/SOP/VOP
-	Befehl benutzen, um Zugriffslevel festlegen zu können. Andernfalls
+	Befehl benutzen, um Zugriffslevel festlegen zu kÃ¶nnen. Andernfalls
 	musst du das ACCESS Befehl benutzen.
 	
 	Technische Bemerkung: Wenn du vom Access zum xOP System 
-	wechselst, werden die Zugriffslevel geändert, folglich wirst du
-	nicht die selben Werte finden, wenn du zu Access zurückwechselst.
+	wechselst, werden die Zugriffslevel geÃ¤ndert, folglich wirst du
+	nicht die selben Werte finden, wenn du zu Access zurÃ¼ckwechselst.
 	
 	Du solltest nach einem Wechsel zum XOP System darauf achten, 
 	dass die User das richtige Level besitzen, da das Umwechseln
 	auf Vermutung basiert und nicht immer perfekt funktioniert. 
-	Es ist nicht empfohlen nach einer Änderung der Levels das xOP
+	Es ist nicht empfohlen nach einer Ã„nderung der Levels das xOP
 	System zu nutzen.
 	
 	Der Wechsel vom xOP System zum Access System fuktioniert
@@ -4713,7 +4713,7 @@ CHAN_HELP_SET_XOP
 CHAN_HELP_SET_OPNOTICE
 	Syntax: SET Channel OPNOTICE {ON | OFF}
 	
-	Aktiviert oder deaktiviert die Op-Notice Option für
+	Aktiviert oder deaktiviert die Op-Notice Option fÃ¼r
 	einen Channel.
 	Wird Op-Notice eingeschaltet, sendet %S eine
 	Notice an den Channel wenn OP oder DEOP Befehle
@@ -4731,32 +4731,32 @@ CHAN_HELP_AOP
 	zu nutzen, beim Betreten des Channels werden die Greet
 	Messages dieser User angezeigt, usw.
 
-	Der AOP ADD Befehl fügt den jeweiligen Nicknamen zur AOP-Liste
+	Der AOP ADD Befehl fÃ¼gt den jeweiligen Nicknamen zur AOP-Liste
 	hinzu.
 	
-	Der AOP DEL Befehl löscht den jeweiligen Nickname aus der
+	Der AOP DEL Befehl lÃ¶scht den jeweiligen Nickname aus der
 	AOP-Liste. Wenn mehrere Eintragsnummern angegeben werden, 
-	werden diese Einträge gelöscht.  (Siehe Beispiel bei LIST.)
+	werden diese EintrÃ¤ge gelÃ¶scht.  (Siehe Beispiel bei LIST.)
 
 	
 	Der AOP LIST Befehl zeigt die aktuelle AOP-Liste. Wenn
 	Wildcard Masks angegeben werden, werden nur die betroffenen 
-	Einträge angezeigt. Werden mehrere Eintragsnummern angegeben,
-	werden nur diese Einträge angezeigt, zB:
+	EintrÃ¤ge angezeigt. Werden mehrere Eintragsnummern angegeben,
+	werden nur diese EintrÃ¤ge angezeigt, zB:
 
 	   AOP #channel LIST 2-5,7-9
-	      Listet die AOP Einträge 2 bis 5 und 7 bis 9.
+	      Listet die AOP EintrÃ¤ge 2 bis 5 und 7 bis 9.
 	      
-	Der AOP CLEAR Befehl löscht alle Einträge der AOP-Liste.
+	Der AOP CLEAR Befehl lÃ¶scht alle EintrÃ¤ge der AOP-Liste.
 	
-	AOP ADD und AOP DEL  sind auf SOPs beschränkt, während
+	AOP ADD und AOP DEL  sind auf SOPs beschrÃ¤nkt, wÃ¤hrend
 	AOP CLEAR nur vom Channel Founder genutzt werden kann.
 	Jeder User auf der AOP Liste kann den AOP LIST Befehl benutzen.
 	
-	Dieser Befehl kann für deinen Channel ausgeschaltet sein, in
-	diesem Fall nutze bitte die Access Liste. Für weitere Infos zur
+	Dieser Befehl kann fÃ¼r deinen Channel ausgeschaltet sein, in
+	diesem Fall nutze bitte die Access Liste. FÃ¼r weitere Infos zur
 	Access Liste, tippe bitte %R%S HELP ACCESS und
-	%R%S HELP SET XOP für Infos über den Wechsel vom XOP und 
+	%R%S HELP SET XOP fÃ¼r Infos Ã¼ber den Wechsel vom XOP und 
 	vom Access System.
 
 CHAN_HELP_HOP
@@ -4768,32 +4768,32 @@ CHAN_HELP_HOP
 	Verwaltet die HOP (HalfOP) Liste eines Channels. User auf
 	dieser Liste werden automatisch gehalfopt, wenn sie joinen.
 	
-	Der HOP ADD Befehl fügt den jeweiligen Nicknamen zur HOP-Liste
+	Der HOP ADD Befehl fÃ¼gt den jeweiligen Nicknamen zur HOP-Liste
 	hinzu.
 
-	Der HOP DEL Befehl löscht den jeweiligen Nicknamen aus der
+	Der HOP DEL Befehl lÃ¶scht den jeweiligen Nicknamen aus der
 	HOP-Liste. Wenn mehrere Eintragsnummern angegeben werden,
-	werden diese Einträge gelöscht.  (Siehe Beispiel bei LIST.)
+	werden diese EintrÃ¤ge gelÃ¶scht.  (Siehe Beispiel bei LIST.)
 	        
 	
 	Der HOP LIST Befehl zeigt die aktuelle HOP-Liste an. Wenn
 	Wildcard Masks angegeben werden, werden nur die betroffenen
-	Einträge angezeigt. Werden mehrere Eintragsnummern angegeben,
-	werden nur diese Einträge angezeigt, zB:
+	EintrÃ¤ge angezeigt. Werden mehrere Eintragsnummern angegeben,
+	werden nur diese EintrÃ¤ge angezeigt, zB:
 	
 	   HOP #channel LIST 2-5,7-9
-	     Listet die HOP Einträge 2 bis 5 und 7 bis 9.
+	     Listet die HOP EintrÃ¤ge 2 bis 5 und 7 bis 9.
 
-	Der HOP CLEAR Befehl löscht alle Einträge der HOP-Liste.
+	Der HOP CLEAR Befehl lÃ¶scht alle EintrÃ¤ge der HOP-Liste.
 
 	HOP ADD, HOP DEL und HOP LIST sind auf AOPs oder
-	höher beschränkt, während HOP CLEAR nur vom Founder genutzt
+	hÃ¶her beschrÃ¤nkt, wÃ¤hrend HOP CLEAR nur vom Founder genutzt
 	werden kann.
 	
-	Dieser Befehl kann für deinen Channel ausgeschaltet sein, in  
-	diesem Fall nutze bitte die Access Liste. Für weitere Infos zur
+	Dieser Befehl kann fÃ¼r deinen Channel ausgeschaltet sein, in  
+	diesem Fall nutze bitte die Access Liste. FÃ¼r weitere Infos zur
 	Access Liste, tippe bitte %R%S HELP ACCESS und
-	%R%S HELP SET XOP für Infos über den Wechsel vom xOP und
+	%R%S HELP SET XOP fÃ¼r Infos Ã¼ber den Wechsel vom xOP und
 	vom Access System.
 	
 CHAN_HELP_SOP
@@ -4804,35 +4804,35 @@ CHAN_HELP_SOP
 	
 	Verwaltet die SOP (SuperOP) Liste eines Channels. Ein User
 	in der SOP-Liste besitzt die selben Rechte wie ein AOP und kann
-	zusätzlich die AutoKick und BadWord Listen bearbeiten, Channel-
+	zusÃ¤tzlich die AutoKick und BadWord Listen bearbeiten, Channel-
 	memos lesen und senden, usw. 
 	
-	Der SOP ADD Befehl fügt den jeweiligen Nicknamen zur SOP-Liste
+	Der SOP ADD Befehl fÃ¼gt den jeweiligen Nicknamen zur SOP-Liste
 	hinzu.
 
-	Der SOP DEL Befehl löscht den jeweiligen Nicknamen aus der
+	Der SOP DEL Befehl lÃ¶scht den jeweiligen Nicknamen aus der
 	SOP-Liste. Wenn mehrere Eintragsnummern angegeben werden,
-	werden diese Einträge gelöscht.  (Siehe Beispiel bei LIST.)
+	werden diese EintrÃ¤ge gelÃ¶scht.  (Siehe Beispiel bei LIST.)
 	
 	            
 	Der SOP LIST Befehl zeigt die aktuelle SOP-Liste. Wenn
 	Wildcard Masks angegeben werden, werden nur die betroffenen
-	Einträge angezeigt. Werden mehrere Eintragsnummern angegeben,
-	werden nur diese Einträge angezeigt, zB:
+	EintrÃ¤ge angezeigt. Werden mehrere Eintragsnummern angegeben,
+	werden nur diese EintrÃ¤ge angezeigt, zB:
 
 	   SOP #channel LIST 2-5,7-9
-	      Listet die SOP Einträge 2 bis 5 und 7 bis 9.
+	      Listet die SOP EintrÃ¤ge 2 bis 5 und 7 bis 9.
 	
-	Der SOP CLEAR Befehl löscht alle Einträge der SOP-Liste.
+	Der SOP CLEAR Befehl lÃ¶scht alle EintrÃ¤ge der SOP-Liste.
 
 	SOP ADD, SOP DEL und SOP CLEAR sind auf den Channel-
-	founder beschränkt. SOP LIST kann von jedem AOP genutzt
+	founder beschrÃ¤nkt. SOP LIST kann von jedem AOP genutzt
 	werden.
 	
-	Dieser Befehl kann für deinen Channel ausgeschaltet sein, in  
-	diesem Fall nutze bitte die Access Liste. Für weitere Infos zur
+	Dieser Befehl kann fÃ¼r deinen Channel ausgeschaltet sein, in  
+	diesem Fall nutze bitte die Access Liste. FÃ¼r weitere Infos zur
 	Access Liste, tippe bitte %R%S HELP ACCESS und
-	%R%S HELP SET XOP für Infos über den Wechsel vom xOP und
+	%R%S HELP SET XOP fÃ¼r Infos Ã¼ber den Wechsel vom xOP und
 	vom Access System.
 
 CHAN_HELP_VOP
@@ -4844,32 +4844,32 @@ CHAN_HELP_VOP
 	Verwaltet die VOP (Voice) Liste eines Channels.VOPs
 	bekommen automatisch Voice, wenn sie den Channel betreten.
 
-	Der VOP ADD Befehl fügt den jeweiligen Nicknamen zur VOP-Liste
+	Der VOP ADD Befehl fÃ¼gt den jeweiligen Nicknamen zur VOP-Liste
 	hinzu.
 
-	Der VOP DEL Befehl löscht den jeweiligen Nicknamen aus der
+	Der VOP DEL Befehl lÃ¶scht den jeweiligen Nicknamen aus der
 	VOP Liste. Wenn mehrere Eintragsnummern angegeben werden,
-	werden diese Einträge gelöscht.  (Siehe Beispiel bei LIST.)
+	werden diese EintrÃ¤ge gelÃ¶scht.  (Siehe Beispiel bei LIST.)
 
 
 	Der VOP LIST Befehl zeigt die aktuelle VOP-Liste. Wenn
 	Wildcard Masks angegeben werden, werden nur die betroffenen
-	Einträge angezeigt. Werden mehrere Eintragsnummern angegeben,
-	werden nur diese Einträge angezeigt, zB:
+	EintrÃ¤ge angezeigt. Werden mehrere Eintragsnummern angegeben,
+	werden nur diese EintrÃ¤ge angezeigt, zB:
 
 	   VOP #channel LIST 2-5,7-9
-	      Listet die VOP Einträge 2 bis 5 und 7 bis 9.
+	      Listet die VOP EintrÃ¤ge 2 bis 5 und 7 bis 9.
 
-	Der VOP CLEAR Befehl löscht alle Einträge der VOP-Liste.
+	Der VOP CLEAR Befehl lÃ¶scht alle EintrÃ¤ge der VOP-Liste.
 
 	VOP ADD, VOP DEL und VOP LIST sind auf AOPs oder
-	höher beschränkt, wärend VOP CLEAR nur vom Channelfounder
+	hÃ¶her beschrÃ¤nkt, wÃ¤rend VOP CLEAR nur vom Channelfounder
 	genutzt werden kann.
 	
-	Dieser Befehl kann für deinen Channel ausgeschaltet sein, in
-	diesem Fall nutze bitte die Access Liste. Für weitere Infos zur
+	Dieser Befehl kann fÃ¼r deinen Channel ausgeschaltet sein, in
+	diesem Fall nutze bitte die Access Liste. FÃ¼r weitere Infos zur
 	Access Liste, tippe bitte %R%S HELP ACCESS und
-	%R%S HELP SET XOP für Infos über den Wechsel vom xOP und
+	%R%S HELP SET XOP fÃ¼r Infos Ã¼ber den Wechsel vom xOP und
 	vom Access System.
 
 CHAN_HELP_ACCESS
@@ -4878,21 +4878,21 @@ CHAN_HELP_ACCESS
 	        ACCESS Channel LIST [Maske | Liste]
 	        ACCESS Channel CLEAR
 	
-	Verwaltet die Zugriffsliste für einen Channel. Diese
-	Liste sagt aus, welchem User Channel-Op-Status ermöglicht
+	Verwaltet die Zugriffsliste fÃ¼r einen Channel. Diese
+	Liste sagt aus, welchem User Channel-Op-Status ermÃ¶glicht
 	oder wem Zugriff auf %S Befehle des Channels
 	freigeschaltet werden soll.
 	
 	Verschiedene Zugriffslevel bestimmen den Zugriff auf
 	Privilegien, die dieser User dann im Channel besitzt.
-	Tippe %R%S HELP ACCESS LEVELS für weitere Infos.
+	Tippe %R%S HELP ACCESS LEVELS fÃ¼r weitere Infos.
 	Jeder Nickname, der nicht auf der Zugriffsliste steht, 
 	hat automatisch einen Level von 0.
 	
-	Der ACCESS ADD Befehl fügt einen Nickname mit dem
+	Der ACCESS ADD Befehl fÃ¼gt einen Nickname mit dem
 	angegeben Level auf die Zugriffsliste ein. Wenn der 
 	Nickname schon auf der Liste steht, wird der Level nur 
-	geändert. Der angegebene Level muss kleiner als der 
+	geÃ¤ndert. Der angegebene Level muss kleiner als der 
 	des Users sein, der diesen Befehl aufruft und wenn der 
 	Nickname schon auf der Zugriffsliste steht, muss sein 
 	aktueller Level ebenfalls kleiner sein, als von dem User, 
@@ -4900,28 +4900,28 @@ CHAN_HELP_ACCESS
 	
 	Mit ACCESS DEL wird ein Nickname von der Zugriffs-
 	liste entfernt. Wenn eine Liste von Nummern angegeben wird,
-	werden diese Einträge entfernt (siehe die Beispiele
-	für LIST weiter unten).
+	werden diese EintrÃ¤ge entfernt (siehe die Beispiele
+	fÃ¼r LIST weiter unten).
 	
 	Der ACCESS LIST Befehl zeigt die Zugriffsliste eines
 	Channels an. Wird eine Bereichsliste angegeben, werden die
-	entsprechenden Einträge angezeigt, zum Beispiel:
+	entsprechenden EintrÃ¤ge angezeigt, zum Beispiel:
 	
 	   ACCESS #channel LIST 2-5,7-9
-	      Zeigt Einträge mit den Nummern 2 bis 5 und 
+	      Zeigt EintrÃ¤ge mit den Nummern 2 bis 5 und 
 	      7 bis 9 an.
 	
-	Durch ACCESS CLEAR werden alle Einträge der
+	Durch ACCESS CLEAR werden alle EintrÃ¤ge der
 	Zugriffsliste entfernt.
 
 CHAN_HELP_ACCESS_LEVELS
 	User Zugriffslevel
 	
-	Standardmässig sind die Zugriffslevel wie folgt
+	StandardmÃ¤ssig sind die Zugriffslevel wie folgt
 	definiert:
 	
-	   Founder   (Gründer) vollständiger Zugriff auf
-	                   den Channel und alle dazugehörigen
+	   Founder   (GrÃ¼nder) vollstÃ¤ndiger Zugriff auf
+	                   den Channel und alle dazugehÃ¶rigen
 	                   Funktionen durch %S wird 
 	                   automatisch mit Op-Status versehen beim 
 	                   Joinen. Beachte dass nur eine Person den 
@@ -4936,9 +4936,9 @@ CHAN_HELP_ACCESS_LEVELS
 	                   (ausser Secure-Ops ist aktiv).
 	        <0   Kann keinen Operator-Status erlangen.
 	
-	Neue Levels können Levels hinzugefügt oder verändert
+	Neue Levels kÃ¶nnen Levels hinzugefÃ¼gt oder verÃ¤ndert
 	werden mit Hilfe des LEVELS Befehls. Tippe %R
-	%S HELP LEVELS für weitere Informationen.
+	%S HELP LEVELS fÃ¼r weitere Informationen.
 
 CHAN_HELP_AKICK
 	Syntax: AKICK channel ADD {nick | mask} [reason]
@@ -4950,37 +4950,37 @@ CHAN_HELP_AKICK
 	        AKICK Channel ENFORCE
 	        AKICK Channel CLEAR
 	
-	Verwaltet die AutoKick-Liste für einen Channel.
+	Verwaltet die AutoKick-Liste fÃ¼r einen Channel.
 	Wenn ein User joined, der auf der AutoKick-Liste steht,
 	wird %S einen Ban auf den User setzen und ihn 
 	dann kicken.
 	
 	Mit Hilfe von AKICK ADD kann man Nicknamen oder Hostmasken
-	der AutoKick-Liste hinzufügen. Wird ein Grund beim
-	Befehl angegeben, wird dieser als Kick-Grund für den
-	User genutzt, ohne Reason wird standardmässig 
+	der AutoKick-Liste hinzufÃ¼gen. Wird ein Grund beim
+	Befehl angegeben, wird dieser als Kick-Grund fÃ¼r den
+	User genutzt, ohne Reason wird standardmÃ¤ssig 
 	"You have been banned from the channel" verwendet.
 	Wird ein registrierter Nick gekickt, so wird der
-	registrierte Nickname zur Kickliste hinzugefügt,
+	registrierte Nickname zur Kickliste hinzugefÃ¼gt,
 	anstatt der Hostmaske. Alle Nicknamen die dieser Gruppe
-	angehören werden ebenfalls gekickt.
+	angehÃ¶ren werden ebenfalls gekickt.
 	
 	Durch den AKICK DEL Befehls wird ein Eintrag von der
 	AutoKick-Liste entfernt. Es entfernt jedoch nicht die Bans,
 	die noch im Channel von ChanServ gesetzt sind, diese
-	müssen manuell entfernt werden.
+	mÃ¼ssen manuell entfernt werden.
 
 	Der AKICK STICK Befehl bannt die gegebenne Maske 
 	dauerhft vom Channel. Falls jemand versucht, den Ban zu
 	entfernen, wird %S ihn automatisch neu setzen. Kann
-	nicht für registrierte Nicknamen genutzt werden.
+	nicht fÃ¼r registrierte Nicknamen genutzt werden.
 	
 	Der AKICK UNSTICK Befehl macht den AKICK STICK
-	Befehl wieder rückgängig, sodass der Ban wieder
+	Befehl wieder rÃ¼ckgÃ¤ngig, sodass der Ban wieder
 	entfernt werden kann.
 	
 	Der AKICK LIST Befehl zeigt den Inhalt einer 
-	AutoKick-Liste an, oder optional die Einträge, die auf
+	AutoKick-Liste an, oder optional die EintrÃ¤ge, die auf
 	das angegebene Muster passen.
 	
 	Das Ergebnis von AKICK VIEW ist im Grunde das Gleiche
@@ -4991,7 +4991,7 @@ CHAN_HELP_AKICK
 	aktuelle AutoKick-Liste auf den Channel anzuwenden 
 	und User, die ein Muster der Liste treffen, zu entfernen.
 	
-	Der AKICK CLEAR Befehl entfernt alle Einträge aus
+	Der AKICK CLEAR Befehl entfernt alle EintrÃ¤ge aus
 	Der AutoKick-Liste.
 
 CHAN_HELP_LEVELS
@@ -5005,26 +5005,26 @@ CHAN_HELP_LEVELS
 	der Zugriffslevel eines Channels. Mit diesem Befehl
 	kann man Zugriffslevel definieren, die die meisten
 	Funktionen von %S abdecken. (SET FOUNDER und SET PASSWORD,
-	genau wie dieser Befehl, sind beschränkt auf den Channel-
+	genau wie dieser Befehl, sind beschrÃ¤nkt auf den Channel-
 	Founder.)
 	
-	LEVELS SET erlaubt einem Zugriffslevel eine Änderung seiner
+	LEVELS SET erlaubt einem Zugriffslevel eine Ã„nderung seiner
 	Funktion bzw Gruppe von Funktionen. LEVELS DISABLE (oder 
-	DIS als Abkürzung) deaktiviert eine automatische Funktion
+	DIS als AbkÃ¼rzung) deaktiviert eine automatische Funktion
 	oder verweigert den Zugriff auf jeden anderen ausser den
 	Channel-Founder.
 	
 	Durch LEVELS LIST werden die aktuellen Levels und ihre
 	Funktionen aufgelistet. LEVELS RESET setzt alle Level auf
-	die Standardwerte eines neu erzeugten Channels zurück
+	die Standardwerte eines neu erzeugten Channels zurÃ¼ck
 	(siehe HELP ACCESS LEVELS).
 	
-	Für eine Auflistung der Funktionen, die diese Parameter 
+	FÃ¼r eine Auflistung der Funktionen, die diese Parameter 
 	haben, siehe HELP LEVELS DESC.
 
 CHAN_HELP_LEVELS_DESC
-	Die folgenden Befehle/Funktionen werden unterstützt. 
-	Beachte bitte, dass die hier angegebenen Level für
+	Die folgenden Befehle/Funktionen werden unterstÃ¼tzt. 
+	Beachte bitte, dass die hier angegebenen Level fÃ¼r
 	AUTODEOP und NOJOIN Maximum-Levels sind, alle anderen
 	hingegegen sind Minimum-Level.
 
@@ -5034,12 +5034,12 @@ CHAN_HELP_LEVELS_DESC_FORMAT
 CHAN_HELP_INFO
 	Syntax: INFO Channel [ALL]
 	
-	Zeigt Informationen über einen registrierten Channel,
-	seinen Gründer, das Datum der Registrierung, die
+	Zeigt Informationen Ã¼ber einen registrierten Channel,
+	seinen GrÃ¼nder, das Datum der Registrierung, die
 	letzte Nutzung, seine Beschreibung und Mode-Locks,
 	wenn welche eingestellt sind. Wenn du als Founder
-	(Gründer) identifiziert bist und den Parameter 
-	ALL angibst, wird die Begrüssungsnachricht und 
+	(GrÃ¼nder) identifiziert bist und den Parameter 
+	ALL angibst, wird die BegrÃ¼ssungsnachricht und 
 	die Successors (Vertreter) ebenfalls angezeigt.
 
 CHAN_HELP_LIST
@@ -5048,8 +5048,8 @@ CHAN_HELP_LIST
 	Listet alle registrierten Channels, die dem Muster
 	entsprechen, auf. (Alle Channels mit aktiviertem
 	PRIVATE-Flag werden nicht angezeigt.)
-	Anmerkung: Beachte, dass ein führendes '#' einen
-	numerischen Bereich angibt, Channelnamen müssen
+	Anmerkung: Beachte, dass ein fÃ¼hrendes '#' einen
+	numerischen Bereich angibt, Channelnamen mÃ¼ssen
 	ohne '#' angegeben werden.
 
 CHAN_HELP_OP
@@ -5059,10 +5059,10 @@ CHAN_HELP_OP
 	in dem Channel. Wird kein Nickname angegeben, wird
 	ChanServ Dir Op Status geben, vorausgesetzt,
 	du hast dieentsprechenden Rechte in der Zugriffsliste
-	um diesen Befehl auszuführen.
+	um diesen Befehl auszufÃ¼hren.
 	
-	Standardmässig ist dafür ein Level von 5 oder
-	grösser erforderlich.
+	StandardmÃ¤ssig ist dafÃ¼r ein Level von 5 oder
+	grÃ¶sser erforderlich.
 
 CHAN_HELP_DEOP
 	Syntax: DEOP [Channel [Nickname]]
@@ -5070,12 +5070,12 @@ CHAN_HELP_DEOP
 	Entfernt den Operator-Status eines bestimmten Nickname
 	in dem Channel. Wird kein Nickname angegeben, wird 
 	ChanServ Dir den Op Status nehmen. Wird weder Channel
-	noch Nick als Parameter übergeben, wird ChanServ Dir 
+	noch Nick als Parameter Ã¼bergeben, wird ChanServ Dir 
 	in allen Channels den Op Status nehmen, in denen Du die
 	entsprechenden Rechte hast.
 	
-	Standardmässig ist dafür ein Level von 5 oder
-	grösser erforderlich.
+	StandardmÃ¤ssig ist dafÃ¼r ein Level von 5 oder
+	grÃ¶sser erforderlich.
 	
 CHAN_HELP_VOICE
 	Syntax: VOICE [Channel [Nickname]]
@@ -5086,7 +5086,7 @@ CHAN_HELP_VOICE
 	wird ChanServ Dir in allen Channels Voice geben,
 	in denen Du die entsprechenden Rechte hast.
 	
-	Standardmässig brauchst du dafür ein Level von 5
+	StandardmÃ¤ssig brauchst du dafÃ¼r ein Level von 5
 	um anderen Voice zu erteilen, oder Level 3 um Dir
 	selbst Voice zu geben.
 
@@ -5099,7 +5099,7 @@ CHAN_HELP_DEVOICE
 	wird ChanServ Dir in allen Channels den Voice Status nehmen,
 	in denen Du die entsprechenden Rechte hast.
 	
-	Standardmässig brauchst du dafür ein Level von 5
+	StandardmÃ¤ssig brauchst du dafÃ¼r ein Level von 5
 	um anderen den Voice Status zu nehmen, oder Level 3 um
 	dich selbst vom Voice-Flag zu befreien.
 	
@@ -5112,7 +5112,7 @@ CHAN_HELP_HALFOP
 	wird ChanServ Dir in allen Channels den Halfop geben,
 	in denen du die entsprechenden Rechte hast.
 	
-	Standardmässig brauchst du dafür ein Level von 5
+	StandardmÃ¤ssig brauchst du dafÃ¼r ein Level von 5
 	um andere den Halfop Status zu geben, oder Level 4 
 	um Dir selbst den Halfop Status zu geben.
 
@@ -5125,21 +5125,21 @@ CHAN_HELP_DEHALFOP
 	wird ChanServ Dir in allen Channels den Halfop nehmen, in denen
 	du die entsprechenden Rechte hast.
 	
-	Standardmässig brauchst du dafür ein Level von 5
+	StandardmÃ¤ssig brauchst du dafÃ¼r ein Level von 5
 	um andere den Halfop Status zu nehmen, oder Level 4 
 	um Dir selbst den Halfop Status zu nehmen.
 	
 CHAN_HELP_PROTECT
 	Syntax: PROTECT [Channel [Nickname]]
 	
-	Beschützt den angegebenen Nicknamen in dem Channel. Wird kein
-	Nickname angegeben, wird ChanServ dich beschützen. Wird weder
+	BeschÃ¼tzt den angegebenen Nicknamen in dem Channel. Wird kein
+	Nickname angegeben, wird ChanServ dich beschÃ¼tzen. Wird weder
 	Nickname noch Channel angegeben, wird ChanServ dich in allen
-	Channels beschützen in denen du die entsprechenden
+	Channels beschÃ¼tzen in denen du die entsprechenden
 	Rechte hast.
 	
-	Standardmässig lässt sich diese Funktion vom Founder
-	aufrufen oder von denjenigen mit Level 10 und grösser, 
+	StandardmÃ¤ssig lÃ¤sst sich diese Funktion vom Founder
+	aufrufen oder von denjenigen mit Level 10 und grÃ¶sser, 
 	die den Schutz auf sich selbst anwenden.
 
 CHAN_HELP_DEPROTECT
@@ -5147,61 +5147,61 @@ CHAN_HELP_DEPROTECT
 	
 	Entfernt den Schutz auf den angegebenen Nickname in dem Channel.
 	Wird kein Nickname angegeben, wird ChanServ dich nicht mehr
-	beschützen. Wird weder Nickname noch Channel angegeben, wird
-	ChanServ dich in allen Channels nicht länger schützen,
+	beschÃ¼tzen. Wird weder Nickname noch Channel angegeben, wird
+	ChanServ dich in allen Channels nicht lÃ¤nger schÃ¼tzen,
 	in denen du die entsprechenden Rechte hast.
 	
-	Standardmässig lässt sich diese Funktion vom Founder
-	aufrufen oder von denjenigen mit Level 10 und grösser,
+	StandardmÃ¤ssig lÃ¤sst sich diese Funktion vom Founder
+	aufrufen oder von denjenigen mit Level 10 und grÃ¶sser,
 	die den Schutz von sich selbst aufheben wollen.
 	
 CHAN_HELP_OWNER
 	Syntax: OWNER [Channel]
 	
-	Gibt dir Owner Status im Channel. Für den Fall, dass
+	Gibt dir Owner Status im Channel. FÃ¼r den Fall, dass
 	kein Channel angegeben wird, wird dir in jedem Channel,
 	in dem du ausreichend Rechte besitzt, Owner Status
 	gegeben.
 	
-	Benötigt Founder Zugriffslevel im jeweiligen Channel.
+	BenÃ¶tigt Founder Zugriffslevel im jeweiligen Channel.
 
 CHAN_HELP_DEOWNER
 	Syntax: DEOWNER [Channel]
 	
-	Nimmt dir Owner Status im Channel. Für den Fall, dass    
+	Nimmt dir Owner Status im Channel. FÃ¼r den Fall, dass    
 	kein Channel angegeben wird, wird dir in jedem Channel,        
 	in dem du ausreichend Rechte besitzt, Owner Status 
 	genommen.
 	
-	Benötigt Founder Zugriffslevel im jeweiligen Channel.
+	BenÃ¶tigt Founder Zugriffslevel im jeweiligen Channel.
 
 CHAN_HELP_INVITE
 	Syntax: INVITE Channel
 	
 	Diese Funktion erlaubt es dir, dich durch %S in den
-	angegebenen Channel einladen zu lassen. Standardmässig
-	wird dies nur ausgeführt, wenn den Nickname auf der 
-	Zugriffsliste des Channels einen Level grösser 5 
+	angegebenen Channel einladen zu lassen. StandardmÃ¤ssig
+	wird dies nur ausgefÃ¼hrt, wenn den Nickname auf der 
+	Zugriffsliste des Channels einen Level grÃ¶sser 5 
 	(oder INVITE) hat.
 
 CHAN_HELP_UNBAN
 	Syntax: UNBAN Channel
 	
 	Durch %S werden alle Bans entfernt, die dich am joinen
-	des Channels hindern. Eine Vorraussetzung dafür ist
-	allerdings, dass dein Level in dem Channel grösser als
+	des Channels hindern. Eine Vorraussetzung dafÃ¼r ist
+	allerdings, dass dein Level in dem Channel grÃ¶sser als
 	5 (oder UNBAN)ist.
 	
 CHAN_HELP_KICK
 	Syntax: KICK [Channel [Nickname [Grund]]]
 	
-	Kickt den ausgewählten Nicknamen aus dem Channel. Wird
+	Kickt den ausgewÃ¤hlten Nicknamen aus dem Channel. Wird
 	kein Nickname angegeben, wird ChanServ dich (!) kicken.
 	Wenn weder Nickname noch Channel angegeben werden, wird
 	ChanServ dich aus allen Channels kicken, in denen
 	du die entsprechenden Rechte hast.
 	
-	Standardmässig ist für diese Funktion ein Level
+	StandardmÃ¤ssig ist fÃ¼r diese Funktion ein Level
 	von mindestens 5 erforderlich.
 
 CHAN_HELP_BAN
@@ -5210,10 +5210,10 @@ CHAN_HELP_BAN
 	Bannt einen Nicknamen im Channel. Falls kein Nickname angegeben
 	wird, wirst du gebannt. Falls kein Nickname und kein Channel
 	angegeben werden, wirst du in allen Channels gebannt,
-	vorausgesetzt du hast die nötige Berechtigung.
+	vorausgesetzt du hast die nÃ¶tige Berechtigung.
 	
-	Standardmässig auf AOPs oder User mit Access Level 5 oder
-	höher beschränkt.
+	StandardmÃ¤ssig auf AOPs oder User mit Access Level 5 oder
+	hÃ¶her beschrÃ¤nkt.
 
 CHAN_HELP_TOPIC
 	Syntax: TOPIC Channel [Topic]
@@ -5221,40 +5221,40 @@ CHAN_HELP_TOPIC
 	Veranlasst %S ein Topic im Channel zu setzen. Falls Topic
 	nicht angegeben wird, wird ein leeres Topic gesetzt. Dieser
 	Befehl ist vor allem in Verbindung mit SET TOPICLOCK
-	nützlich. Tippe %R%S HELP SET TOPICLOCK für weitere
+	nÃ¼tzlich. Tippe %R%S HELP SET TOPICLOCK fÃ¼r weitere
 	Informationen.
 	
-	Standardmässig auf Founder (Gründer) beschränkt. 
+	StandardmÃ¤ssig auf Founder (GrÃ¼nder) beschrÃ¤nkt. 
 
 CHAN_HELP_CLEAR
 	Syntax: CLEAR Channel was
 	
 	Sagt %S, dass es bestimmte Einstellungen 
-	in einem Channel zurücksetzen soll. Die Option 
+	in einem Channel zurÃ¼cksetzen soll. Die Option 
 	kann eine der folgenden sein:
 	
-	     MODES    Setzt alle Modi in dem Channel zurück.
+	     MODES    Setzt alle Modi in dem Channel zurÃ¼ck.
 	              (z.B. Modi i,k,l,m,n,p,s und t)
 	     BANS     Entfernt alle Bans in dem Channel
 	     EXCEPTS  Entfernt alle Excepts in dem Channel
-	     INVITES  Löscht alle Einladungen im Channel.
+	     INVITES  LÃ¶scht alle Einladungen im Channel.
 	     OPS      Entfernt jeden Operator-Status (mode +o)
 	              in dem Channel.
 	     HOPS     Entfernt jeden Halfoperator-Status (mode +h) 
-	              in den Channel.(Falls dein IRCD es unterstützt).
+	              in den Channel.(Falls dein IRCD es unterstÃ¼tzt).
 	     VOICES   Entfernt alle Voice-Flags (mode +v) in dem Channel.
 	     USERS    Entfernt (kickt) alle User aus dem Channel.
 	
-	Standardmässig muss dein Zugriffslevel in diesem Channel
+	StandardmÃ¤ssig muss dein Zugriffslevel in diesem Channel
 	mindestens 10 betragen.
 	
 CHAN_HELP_GETKEY
 	Syntax: GETKEY Channel
 	
-	Liefert den Key des angegebenen Channels zurück. Dieser
-	Befehl wird am häufigsten von Bots und/oder Skripten
+	Liefert den Key des angegebenen Channels zurÃ¼ck. Dieser
+	Befehl wird am hÃ¤ufigsten von Bots und/oder Skripten
 	genutzt, daher wird das Ergebnis in dieser Form
-	zurückgeliefert:
+	zurÃ¼ckgeliefert:
 	
 	KEY <channel> <key>
 	
@@ -5265,29 +5265,29 @@ CHAN_HELP_SENDPASS
 	
 	Sendet das Passwort des angegebenen Channels an die
 	eMail-Adresse, die dem Founder in der Datenbank
-	assoziiert ist. Dieser Befehl ist sehr nützlich,
+	assoziiert ist. Dieser Befehl ist sehr nÃ¼tzlich,
 	wenn man mit dem Problem des vergessenen Passwortes
 	konfrontiert wird.
 	
-	Kann in einigen Netzen auf IRC Operatoren beschränkt
+	Kann in einigen Netzen auf IRC Operatoren beschrÃ¤nkt
 	sein.
 	
-	Dieser Befehl ist nicht verfügbar, wenn die
-	Datenbank verschlüsselt gespeichert wird.
+	Dieser Befehl ist nicht verfÃ¼gbar, wenn die
+	Datenbank verschlÃ¼sselt gespeichert wird.
 
 CHAN_SERVADMIN_HELP
 	
-	Services Administratoren können weiterhin beliebige Channels
-	DROPEN (löschen), Zugriffslisten oder Channel-Einstellungen
-	ansehen ohne sich vorher für den Channel identifizieren zu müssen.
+	Services Administratoren kÃ¶nnen weiterhin beliebige Channels
+	DROPEN (lÃ¶schen), Zugriffslisten oder Channel-Einstellungen
+	ansehen ohne sich vorher fÃ¼r den Channel identifizieren zu mÃ¼ssen.
 	
 CHAN_SERVADMIN_HELP_LOGOUT
 	Syntax: LOGOUT Channel [Nickname]
 	
 	Durch dieser Befehl wird dich ChanServ nicht mehr als
-	identifiziert für den angegebenen Channel betrachten.
+	identifiziert fÃ¼r den angegebenen Channel betrachten.
 	
-	Wenn du der Founder (Gründer) dieses Channels bist, kannst
+	Wenn du der Founder (GrÃ¼nder) dieses Channels bist, kannst
 	du jeden ausloggen, ansonsten nur dich selbst.
 	
 	Bist du ein Services Administrator, kannst du jeden des
@@ -5300,35 +5300,35 @@ CHAN_SERVADMIN_HELP_DROP
 	Syntax: DROP Channel
 	
 	Entfernt die Registrierung des angegebenen Channels aus
-	der Datenbank. Zusätzlich werden Zugriffslisten, 
+	der Datenbank. ZusÃ¤tzlich werden Zugriffslisten, 
 	Einstellungen usw mit aus der Datenbank entfernt.
 	
-	Nur Services Administratoren können Channel DROPEN, 
-	(löschen) ohne sich vorher gegenüber dem Channel als 
+	Nur Services Administratoren kÃ¶nnen Channel DROPEN, 
+	(lÃ¶schen) ohne sich vorher gegenÃ¼ber dem Channel als 
 	Founder zu identifizieren.
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Services Administratoren können zusätzlich die Option NOEXPIRE
+	Services Administratoren kÃ¶nnen zusÃ¤tzlich die Option NOEXPIRE
 	an einem Channel setzen, dies verhindert den automatischen
 	Auslauf des Channels.
 	
-	Weiterhin können Services Administratoren Einstellungen 
-	eines Channels verändern, ohne sich vorher für ihn
-	identifizieren zu müssen.
+	Weiterhin kÃ¶nnen Services Administratoren Einstellungen 
+	eines Channels verÃ¤ndern, ohne sich vorher fÃ¼r ihn
+	identifizieren zu mÃ¼ssen.
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 	Syntax: SET Channel NOEXPIRE {ON | OFF}
 	
-	Ändert das NOEXPIRE-Flag an einem Channel. Wird es
+	Ã„ndert das NOEXPIRE-Flag an einem Channel. Wird es
 	auf ON gestellt, wird der Channel bei Nichtnutzung
 	nicht auslaufen.
 	
-	Diese Funktion ist beschränkt auf Services Administratoren.
+	Diese Funktion ist beschrÃ¤nkt auf Services Administratoren.
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Services Administratoren können den ALL Parameter bei jedem
+	Services Administratoren kÃ¶nnen den ALL Parameter bei jedem
 	Channel benutzen.
 
 CHAN_SERVADMIN_HELP_LIST
@@ -5344,7 +5344,7 @@ CHAN_SERVADMIN_HELP_LIST
 	mit dem entsprechenden Flag angezeigt. Werden mehr Optionen
 	angegeben, werden nur Channels angezeigt, die mindestens eins
 	der entsprechenden Flags gesetzt haben. Diese Funktionen sind
-	beschränkt auf Services Administratoren.
+	beschrÃ¤nkt auf Services Administratoren.
 
 CHAN_SERVADMIN_HELP_GETPASS
 	Syntax: GETPASS Channel
@@ -5353,7 +5353,7 @@ CHAN_SERVADMIN_HELP_GETPASS
 	aus der Datenbank von ChanServ aus.
 	Beachte dass wenn jemand dieser Befehl benutzt,
 	diese Aktion im Logbuch der Services vermerkt wird.
-	Zusätzlich wird eine Nachricht an alle IRC Operatoren 
+	ZusÃ¤tzlich wird eine Nachricht an alle IRC Operatoren 
 	per WALLOPS/GLOBOPS ausgesandt.
 
 CHAN_SERVADMIN_HELP_FORBID
@@ -5362,7 +5362,7 @@ CHAN_SERVADMIN_HELP_FORBID
 	Verbietet die Nutzung bzw die Registrierung des
 	angegebenen Channels. 
 	Die Wirkung wird wieder aufgehoben durch DROPEN
-	(löschen) des Channels.
+	(lÃ¶schen) des Channels.
 	
 	Bei einigen Netzen muss evtl ein Grund angegeben
 	werden.
@@ -5372,7 +5372,7 @@ CHAN_SERVADMIN_HELP_SUSPEND
 	
 	Verbietet jegliche Nutzung des Channels. Kann durch
 	den UNSUSPEND Befehls wieder aufgehoben werden,
-	wobei alle vorherigen Einstellungen wieder übernommen
+	wobei alle vorherigen Einstellungen wieder Ã¼bernommen
 	werden.
 	
 	Ein Grund kann auf manchen Netzwerke notwendig sein.
@@ -5382,7 +5382,7 @@ CHAN_SERVADMIN_HELP_UNSUSPEND
 	
 	Gibt einen Channel, der auf SUSPEND gesetzt ist,
 	wieder frei. Alle vorherigen Einstellungen werden
-	übernommen.
+	Ã¼bernommen.
 	
 CHAN_SERVADMIN_HELP_STATUS
 	Syntax: STATUS Channel Nickname
@@ -5393,7 +5393,7 @@ CHAN_SERVADMIN_HELP_STATUS
 	    STATUS Channel Nickname Access-Level
 	
 	Tritt ein Fehler auf, wird die Antwort in dieser Form
-	zurückgeliefert:
+	zurÃ¼ckgeliefert:
 	
 	    STATUS ERROR error-message
 
@@ -5411,17 +5411,17 @@ MEMO_HELP_CMD_LIST
 MEMO_HELP_CMD_READ
 	    READ   Lesen einer oder mehrerer Memos
 MEMO_HELP_CMD_DEL
-	    DEL    Löschen einer oder mehrerer Memos
+	    DEL    LÃ¶schen einer oder mehrerer Memos
 MEMO_HELP_CMD_SET
 	    SET    Stellt bestimmte Optionen ein in Hinsicht
 	           auf Memos
 MEMO_HELP_CMD_INFO
-	    INFO   Zeigt Informationen bezüglich deiner Memos an
+	    INFO   Zeigt Informationen bezÃ¼glich deiner Memos an
 MEMO_HELP_CMD_RSEND
 	    RSEND  Sendet eine Memo an einen Nickname oder Channel
-	           und  sendet dir eine Empfangsbestätigung zurück
+	           und  sendet dir eine EmpfangsbestÃ¤tigung zurÃ¼ck
 MEMO_HELP_CMD_CHECK
-	    CHECK  Überprüft ob deine letzte gesendete Memo an
+	    CHECK  ÃœberprÃ¼ft ob deine letzte gesendete Memo an
 	           einen Nicknamen gelesen wurde
 
 MEMO_HELP_CMD_SENDALL
@@ -5432,12 +5432,12 @@ MEMO_HELP_CMD_STAFF
 MEMO_HELP_HEADER
 	%S ist eine Einrichtung, die es erlaubt, 
 	dass sich IRC User untereinander kurze Textnachrichten 
-	senden, egal ob die Empfänger zu dem Zeitpunkt online 
+	senden, egal ob die EmpfÃ¤nger zu dem Zeitpunkt online 
 	sind oder nicht.
-	Als Empfänger können auch Channels angegeben werden (*).
+	Als EmpfÃ¤nger kÃ¶nnen auch Channels angegeben werden (*).
 	
-	Sowohl der Nickname des Senders als auch Empfängers müssen
-	registriert sein, um eine Memo versenden zu können.
+	Sowohl der Nickname des Senders als auch EmpfÃ¤ngers mÃ¼ssen
+	registriert sein, um eine Memo versenden zu kÃ¶nnen.
 	
 	%S's Befehle beinhalten:
 	
@@ -5447,22 +5447,22 @@ MEMO_HELP_OPER
 	NICHT benutzt.
 MEMO_HELP_FOOTER
 	
-	Tippe: %R%S HELP Befehl für hilfe bei jedem der
-	oben aufgeführten Befehle.
+	Tippe: %R%S HELP Befehl fÃ¼r hilfe bei jedem der
+	oben aufgefÃ¼hrten Befehle.
 
 	(*) Bei der Standarteinstellung kann jeder User mit einem 
-	    Access-Level auf den Channel von 10 oder höher die 
+	    Access-Level auf den Channel von 10 oder hÃ¶her die 
 	    Channel-Nachrichten lesen. Dies kann mit dem
-	    %s LEVELS Befehl geändert werden.
+	    %s LEVELS Befehl geÃ¤ndert werden.
 
 MEMO_HELP_SEND
 	Syntax: SEND {Nickname | Channel} Memo-Text
 	
 	Sendet an einen Nicknamen oder Channel die Memo 
 	mit dem Inhalt Memo-Text.  Wird an einen Nicknamen 
-	gesendet, erhält der Empfänger eine Notice, dass
+	gesendet, erhÃ¤lt der EmpfÃ¤nger eine Notice, dass
 	er/sie eine neue Memo hat.
-	Der Empfänger (Nickname/Channel) muss registriert sein.
+	Der EmpfÃ¤nger (Nickname/Channel) muss registriert sein.
 	
 MEMO_HELP_CANCEL
 	Syntax: CANCEL {Nickname | Channel}
@@ -5474,7 +5474,7 @@ MEMO_HELP_CANCEL
 MEMO_HELP_LIST
 	Syntax: LIST [Channel] [List | NEW]
 	
-	Führt alle Memos auf, die du im Moment gespeichert hast.
+	FÃ¼hrt alle Memos auf, die du im Moment gespeichert hast.
 	Mit dem Parameter NEW werden nur neue, ungelesene, Memos
 	aufgelistet. Ungelesene Memos sind durch ein "*" markiert,
 	links neben ihrer Nummer. Du kannst auch einen Bereich
@@ -5486,7 +5486,7 @@ MEMO_HELP_LIST
 MEMO_HELP_READ
 	Syntax: READ [Channel] {Nummer | List | LAST | NEW}
 	
-	Schickt dir den Inhalt der Memo, die du lesen möchtest.
+	Schickt dir den Inhalt der Memo, die du lesen mÃ¶chtest.
 	Wird LAST angegeben, bekommst du die Memo die du als 
 	letztes erhalten hast. Mit NEW werden dir alle neuen,
 	ungelesenen, Memos geschickt. 
@@ -5505,113 +5505,113 @@ MEMO_HELP_DEL
 	Nummern oder Bereiche angeben anstatt einer einzelnen
 	Nummer, wie das zweite Beispiel zeigt.
 	
-	Wird LAST angegeben, wird die letzte Memo gelöscht.
+	Wird LAST angegeben, wird die letzte Memo gelÃ¶scht.
 	Wird ALL angegeben, werden alle deine Memos
 	entfernt.
 	
 	Beispiele:
 	
 	   DEL 1
-	      Löscht dein Memo mit der Nummer 1.
+	      LÃ¶scht dein Memo mit der Nummer 1.
 	
 	   DEL 2-5,7-9
-	      Löscht Memos mit den Nummern 2 bis 5 und 7 bis 9.
+	      LÃ¶scht Memos mit den Nummern 2 bis 5 und 7 bis 9.
 
 MEMO_HELP_SET
 	Syntax: SET Option Parameter
 	
-	Stellt verschiedene Optionen bezüglich der Memos ein.
+	Stellt verschiedene Optionen bezÃ¼glich der Memos ein.
 	Option kann einer der Parameter sein:
 	
 	    NOTIFY      Stellt ein, wann du benachrichtigt wirst,
 	                wenn du eine neue Memo bekommst.
 	
-	    LIMIT       Ändert die maximale Anzahl Memos, die
+	    LIMIT       Ã„ndert die maximale Anzahl Memos, die
 	                du empfangen kannst.
 	
-	Tippe: %R%S HELP SET Option für weitere Informationen
-	über eine bestimmte Option.
+	Tippe: %R%S HELP SET Option fÃ¼r weitere Informationen
+	Ã¼ber eine bestimmte Option.
 
 MEMO_HELP_SET_NOTIFY
 	Syntax: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 	
-	Ändert den Zeitpunkt, wann MemoServ dich über neue
+	Ã„ndert den Zeitpunkt, wann MemoServ dich Ã¼ber neue
 	eingegangene Memos informiert:
 	
-	    ON      Du wirst über neue Nachrichten informiert,
+	    ON      Du wirst Ã¼ber neue Nachrichten informiert,
 	            wenn du dich identifizierst, /AWAY aufhebst,
 	            und wenn sie an dich gesandt werden.
 	    LOGON   Du wirst nur benachrichtigt, wenn du dich
-	            identifizierst oder das /AWAY rückgängig
+	            identifizierst oder das /AWAY rÃ¼ckgÃ¤ngig
 	            machst.
 	    NEW     Du wirst nur informiert, wenn sie an dich
 	            gesendet werden.
-	    MAIL    Du wirst über neue memos per email informiert.
-	    NOMAIL  Du wirst nicht über neue memos informiert per email.
-	    OFF     Es wird keine Benachrichtigung über neue
+	    MAIL    Du wirst Ã¼ber neue memos per email informiert.
+	    NOMAIL  Du wirst nicht Ã¼ber neue memos informiert per email.
+	    OFF     Es wird keine Benachrichtigung Ã¼ber neue
 	            Memos stattfinden.
 	
 	ON ist eine Kombination aus LOGON und NEW.
 	MAIL und NOMAIL sind optionale Einstellungen und
 	beeinflussen ON | LOGON | NEW nicht. Nach der Einstellung
-	OFF muß die Option Mail erneut gesetzt werden, damit
+	OFF muÃŸ die Option Mail erneut gesetzt werden, damit
 	memos per email zugestellt werden sollen.
 
 MEMO_HELP_SET_LIMIT
 	Syntax: SET LIMIT [Channel] Limit
 	
-	Ändert das Limit der Anzahl der Memos, die du
+	Ã„ndert das Limit der Anzahl der Memos, die du
 	(oder der angegebene Channel) haben darf. Wird dies auf
 	0 gesetzt, kann dir niemand mehr Memos senden.
-	Du kannst es jedoch auch nicht höher als %d setzen.
+	Du kannst es jedoch auch nicht hÃ¶her als %d setzen.
 
 MEMO_HELP_INFO
 	Syntax: INFO [Channel]
 	
-	Zeigt Informationen über die Anzahl der Memos die du
+	Zeigt Informationen Ã¼ber die Anzahl der Memos die du
 	hast, wie viele davon ungelesen sind und wie viele
 	du max. empfangen kannst. Mit angegebenem Parameter
-	wird die gleiche Information über den Channel angezeigt.
+	wird die gleiche Information Ã¼ber den Channel angezeigt.
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
 	Syntax: SET LIMIT [User | Channel] {Limit | NONE} [HARD]
 	
-	Ändert die max. Anzahl von Memos die ein User oder
+	Ã„ndert die max. Anzahl von Memos die ein User oder
 	Channel haben kann. Das setzen dieser Grenze auf 0
 	verhindert das Empfangen jeglicher Memos. Wird 
 	hingegen NONE eingestellt, kann der User so
 	viele Memos empfangen und behalten wie er will.
-	Wird kein User oder Channel angegeben, veränderst
+	Wird kein User oder Channel angegeben, verÃ¤nderst
 	du dein eigenes Limit.
 	
-	Durch den Zusatzparameter HARD wird eine Änderung
+	Durch den Zusatzparameter HARD wird eine Ã„nderung
 	des Limits durch den entsprechenden User verhindert.
 	Wird dieser Parameter nicht angegeben, hat das den
 	gegenteiligen Effekt - der User kann sein Limit 
-	ändern (sogar wenn das vorherige Limit auf 
+	Ã¤ndern (sogar wenn das vorherige Limit auf 
 	HARD eingestellt war).
 	
-	Die Nutzung des SET LIMIT Befehls ist beschränkt auf 
+	Die Nutzung des SET LIMIT Befehls ist beschrÃ¤nkt auf 
 	Services Administratoren. Jeder andere User kann nur 
-	das Limit von sich selbst oder dem Channel ändern, in 
+	das Limit von sich selbst oder dem Channel Ã¤ndern, in 
 	dem er einen entsprechenden Zugriffslevel besitzt, er 
-	kann auch nicht die Grenze von %d Memos überschreiten.
+	kann auch nicht die Grenze von %d Memos Ã¼berschreiten.
 	Der HARD Befehl kann er auch nicht nutzen.
 
 MEMO_SERVADMIN_HELP_INFO
 	Syntax: INFO [Nickname | Channel]
 	
-	Ohne Parameter werden Informationen über dein Postfach
+	Ohne Parameter werden Informationen Ã¼ber dein Postfach
 	angezeigt, die Anzahl Memos die du hast, die davon neu
 	bzw ungelesen sind, und wie viele Memos du max.
 	empfangen kannst.
 	
 	Mit einem Channel als Parameter werden die entsprechenden
-	Informationen über den Channel angezeigt.
+	Informationen Ã¼ber den Channel angezeigt.
 	
-	Wird eine Nickname übergeben, werden die entsprechenden
-	Informationen über den Nicknamen angezeigt. Diese
-	Funktion ist beschränkt auf Services Administratoren.
+	Wird eine Nickname Ã¼bergeben, werden die entsprechenden
+	Informationen Ã¼ber den Nicknamen angezeigt. Diese
+	Funktion ist beschrÃ¤nkt auf Services Administratoren.
 
 MEMO_HELP_STAFF
 	Syntax: STAFF Memo-Text
@@ -5620,7 +5620,7 @@ MEMO_HELP_STAFF
 	dem Memo-Text.
 	Note: Wenn du Operatoren an beide der Services-Zugriffs-Listen 
 	(Oper und Admin) hast, so werden die alle diese Nachricht erhalten. 
-	Das gleichte trifft für die Operatoren auf der Root-Liste zu.
+	Das gleichte trifft fÃ¼r die Operatoren auf der Root-Liste zu.
 
 MEMO_HELP_SENDALL
 	Syntax: SENDALL Memo-Text
@@ -5633,8 +5633,8 @@ MEMO_HELP_RSEND
 	
 	Sendet an einen Nicknamen oder Channel die Memo 
 	mit dem Inhalt Memo-Text.  Wird an einen Nicknamen 
-	gesendet, erhält der Empfänger eine Notice, dass er/sie 
-	eine neue Memo hat. Der Empfänger (Nickname/Channel) muss 
+	gesendet, erhÃ¤lt der EmpfÃ¤nger eine Notice, dass er/sie 
+	eine neue Memo hat. Der EmpfÃ¤nger (Nickname/Channel) muss 
 	registriert sein. Wenn deine Memo gelesen worden ist, 
 	bekommst du eine Auto-Memo die dich Informirmiert
 	das der / die jenige dein Memo-Text gelesen hat.
@@ -5642,7 +5642,7 @@ MEMO_HELP_RSEND
 MEMO_HELP_CHECK
 	Syntax: CHECK Nickname
 	
-	Überprüft ob deine letzte gesendete Memo an einen Nicknamen gelesen
+	ÃœberprÃ¼ft ob deine letzte gesendete Memo an einen Nicknamen gelesen
 	worden ist oder nicht. Der CHECK Befehl funktioniert nicht mit Channels.
 
 ###########################################################################
@@ -5663,12 +5663,12 @@ OPER_HELP_CMD_STAFF
 	    STAFF        Zeigt alle Nicknamen, die Zugriff auf die 
 	                 Services haben, Onlinestatus und Level
 OPER_HELP_CMD_MODE
-	    MODE         Channel-Modes ändern
+	    MODE         Channel-Modes Ã¤ndern
 OPER_HELP_CMD_KICK
 	    KICK         Einen User aus einem beliebigen
 	                 Channel kicken
 OPER_HELP_CMD_CLEARMODES
-	    CLEARMODES   Die Modi eines Channels zurücksetzen
+	    CLEARMODES   Die Modi eines Channels zurÃ¼cksetzen
 OPER_HELP_CMD_KILLCLONES
 	    KILLCLONES   Alle User mit einem bestimmten Host killen
 OPER_HELP_CMD_AKILL
@@ -5686,16 +5686,16 @@ OPER_HELP_CMD_USERLIST
 OPER_HELP_CMD_LOGONNEWS
 	    LOGONNEWS     Logon-News bearbeiten
 OPER_HELP_CMD_RANDOMNEWS
-	    RANDOMNEWS    Definiert Nachrichten, die den Benutzern zufällig
+	    RANDOMNEWS    Definiert Nachrichten, die den Benutzern zufÃ¤llig
 	                  beim Verbinden angezeigt werden
 OPER_HELP_CMD_OPERNEWS
 	    OPERNEWS      Oper News bearbeiten
 OPER_HELP_CMD_SESSION
 	    SESSION       Hosts mit einer bestimmten Anzahl
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION     Bearbeiten der Liste der eingeschränkten Verbindungen
+	    EXCEPTION     Bearbeiten der Liste der eingeschrÃ¤nkten Verbindungen
 OPER_HELP_CMD_NOOP
-	    NOOP          Alle O:Lines temporär deaktivieren
+	    NOOP          Alle O:Lines temporÃ¤r deaktivieren
 OPER_HELP_CMD_JUPE
 	    JUPE          Einen Server "jupitern"
 OPER_HELP_CMD_IGNORE
@@ -5705,7 +5705,7 @@ OPER_HELP_CMD_SET
 OPER_HELP_CMD_RELOAD
 	    RELOAD        Die Konfigurationsdatei neu einlesen
 OPER_HELP_CMD_UPDATE
-	    UPDATE        Die Services Datenbänke sofort speichern
+	    UPDATE        Die Services DatenbÃ¤nke sofort speichern
 OPER_HELP_CMD_RESTART
 	    RESTART       Datenbanken speichern und Services neustarten
 OPER_HELP_CMD_QUIT
@@ -5714,21 +5714,21 @@ OPER_HELP_CMD_QUIT
 OPER_HELP_CMD_SHUTDOWN
 	    SHUTDOWN      Datenbanken speichern und Services beenden
 OPER_HELP_CMD_DEFCON
-	    DEFCON        Ändert das  DefCon System
+	    DEFCON        Ã„ndert das  DefCon System
 OPER_HELP_CMD_CHANKILL
 	    CHANKILL      Setzt einen AKILL auf alle User des angegebenen Channels.
 OPER_HELP_CMD_OLINE
 	    OLINE         Einem User "Operflags" setzen
 OPER_HELP_CMD_UMODE
-	    UMODE         User Modi ändern
+	    UMODE         User Modi Ã¤ndern
 OPER_HELP_CMD_SVSNICK
 	    SVSNICK       Erzwingt einen Nicknamen wechsel
 OPER_HELP_CMD_MODLOAD
-	    MODLOAD       Lädt ein Modul
+	    MODLOAD       LÃ¤dt ein Modul
 OPER_HELP_CMD_MODUNLOAD
 	    MODUNLOAD     Entfernt ein Modul
 OPER_HELP_CMD_MODINFO
-	    MODINFO       Info über ein geladenes Modul
+	    MODINFO       Info Ã¼ber ein geladenes Modul
 OPER_HELP_CMD_MODLIST
 	    MODLIST       Listet die geladenen Module auf
 
@@ -5742,7 +5742,7 @@ OPER_HELP_LOGGED
 OPER_HELP_GLOBAL
 	Syntax: GLOBAL Nachricht
 	
-	Ermöglicht Administratoren eine Nachricht an alle User auf
+	ErmÃ¶glicht Administratoren eine Nachricht an alle User auf
 	dem Netzwerk zu senden. Die Nachricht wird als
 	Absender %s tragen.
 
@@ -5750,26 +5750,26 @@ OPER_HELP_STATS
 	Syntax: STATS [AKILL | ALL | RESET]
 	
 	Wird keine Option angegeben, wird eine kurze Statistik
-	ausgegeben. Sie enthält die aktuelle Anzahl verbundener
+	ausgegeben. Sie enthÃ¤lt die aktuelle Anzahl verbundener
 	User, IRCops (inklusive den Services). Die max. Anzahl
 	gleichzeitig verbundener User seitdem die Services
 	gestartet wurden und die Uptime.
 	
-	Mit der AKILL Option, wird die aktuelle Grösse der
-	AutoKill-Liste ausgegeben und dessen standardmässige
+	Mit der AKILL Option, wird die aktuelle GrÃ¶sse der
+	AutoKill-Liste ausgegeben und dessen standardmÃ¤ssige
 	Auslaufzeit.
 	
-	Die ALL Option ist nur für Services Administratoren verfügbar.
+	Die ALL Option ist nur fÃ¼r Services Administratoren verfÃ¼gbar.
 	Sie zeigt unter anderem den aktuellen Speicherverbrauch der 
 	Services. Dieser Befehl kann auf einem grossen Netzwerk dazu 
-	führen, dass die Services für kurze Zeit nicht mehr ansprechbar 
-	sind, also übertreib es nicht.
+	fÃ¼hren, dass die Services fÃ¼r kurze Zeit nicht mehr ansprechbar 
+	sind, also Ã¼bertreib es nicht.
 	
-	Durch RESET werden einige Werte der Statistik zurück-
+	Durch RESET werden einige Werte der Statistik zurÃ¼ck-
 	gesetzt, unter anderem die max. Anzahl gleichzeitig
 	verbundenen User.
 	
-	UPTIME kann als Synonym für STATS verwendet werden.
+	UPTIME kann als Synonym fÃ¼r STATS verwendet werden.
 
 OPER_HELP_OPER
 	Syntax: OPER ADD Nickname
@@ -5779,30 +5779,30 @@ OPER_HELP_OPER
 	
 	Erlaubt Services Root bestimmte Nicknamen in 
 	die Liste der Services Operatoren aufnehmen oder zu entfernen. 
-	Ein User der sich für diesen Nicknamen gegenüber %s 
+	Ein User der sich fÃ¼r diesen Nicknamen gegenÃ¼ber %s 
 	identifiziert hat und auf der Liste der Services Operatoren 
 	ist, hat Zugriff auf die Befehle von OperServ.
 	
 	Mit OPER ADD wird der angegebene Nickname auf die Liste der
-	Services Operatoren hinzugefügt.
+	Services Operatoren hinzugefÃ¼gt.
 	
 	Durch OPER DEL wird der angegebene Nickname von der Liste
 	entfernt. Wird ein Bereich von Zahlen eingegeben, werden
-	die entsprechenden Einträge gelöscht. (Siehe das Beispiel
-	für LIST weiter unten.)
+	die entsprechenden EintrÃ¤ge gelÃ¶scht. (Siehe das Beispiel
+	fÃ¼r LIST weiter unten.)
 	
 	Der OPER LIST Befehl zeigt den Inhalt der Liste der
 	Services Operatoren. Wird eine Maske mit Platzhaltern
-	(Wildcards) angegeben, werden die entsprechenden Einträge 
+	(Wildcards) angegeben, werden die entsprechenden EintrÃ¤ge 
 	angezeigt. Wird eine Zahlenbereich angegeben, werden
-	ebenfalls nur die entsprechenden Einträge angezeigt,
+	ebenfalls nur die entsprechenden EintrÃ¤ge angezeigt,
 	zum Beispiel:
 	
 	   OPER LIST 2-5,7-9
-	      Zeigt die Einträge 2 bis 5 und 7 bis 9 aus
+	      Zeigt die EintrÃ¤ge 2 bis 5 und 7 bis 9 aus
 	      der Services Operatoren-Liste.
 	
-	Durch OPER CLEAR werden alle Einträge aus dieser Liste
+	Durch OPER CLEAR werden alle EintrÃ¤ge aus dieser Liste
 	entfernt.
 	
 	Jeder IRC Operator kann den OPER LIST Befehl verwenden.
@@ -5815,51 +5815,51 @@ OPER_HELP_ADMIN
 	
 	Erlaubt Services Roots bestimmte Nicknamen in die Liste
 	der Services Administratoren aufnehmen oder zu entfernen. 
-	Ein User der sich für diesen Nicknamen gegenüber %s
+	Ein User der sich fÃ¼r diesen Nicknamen gegenÃ¼ber %s
 	identifiziert hat und auf die Services Adminstratoren-Liste
 	ist, hat Zugriff auf die Admin Befehlen von OperServ.
 	
 	Mit ADMIN ADD wir der angegebene Nickname auf die
-	Services Administratoren-Liste hinzugefügt.
+	Services Administratoren-Liste hinzugefÃ¼gt.
 	
 	Durch ADMIN DEL wird der angegebene Nickname von der Liste
 	entfernt. Wird ein Bereich von Zahlen eingegeben, werden
-	die entsprechenden Einträge gelöscht. (Siehe das Beispiel
-	für LIST weiter unten.)
+	die entsprechenden EintrÃ¤ge gelÃ¶scht. (Siehe das Beispiel
+	fÃ¼r LIST weiter unten.)
 	
 	Der ADMIN LIST Befehl zeigt den Inhalt der Services 
 	Administratoren-Liste an. Wird eine Maske mit Platzhaltern
-	(Wildcards) angegeben, werden die entsprechenden Einträge
+	(Wildcards) angegeben, werden die entsprechenden EintrÃ¤ge
 	angezeigt. Wird ein Zahlenbereich angegeben, werden
-	ebenfalls nur die entsprechenden Einträge angezeigt,
+	ebenfalls nur die entsprechenden EintrÃ¤ge angezeigt,
 	zum Beispiel:
 	
 	   ADMIN LIST 2-5,7-9
-	      Zeigt die Einträge 2 bis 5 und 7 bis 9 aus der
+	      Zeigt die EintrÃ¤ge 2 bis 5 und 7 bis 9 aus der
 	      Services Administratoren-Liste an.
 	
 	Mit Hilfe von ADMIN CLEAR wird die Services
 	Administartoren-Liste  komplett geleert.
 	
 	Jeder IRC Operator kann den Befehl ADMIN LIST nutzen, 
-	jegliche anderen Befehle können nur von Services Roots
+	jegliche anderen Befehle kÃ¶nnen nur von Services Roots
 	aufgerufen werden.
 
 OPER_HELP_IGNORE
 	Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
 	
 	Erlaubt Services Admins den Services einen Nick oder eine
-	Hostmaske für eine bestimmte Zeit oder bis zum nächsten
-	Neustart zu ignorieren. Mit Hilfe von Zeit lässt sich eine
+	Hostmaske fÃ¼r eine bestimmte Zeit oder bis zum nÃ¤chsten
+	Neustart zu ignorieren. Mit Hilfe von Zeit lÃ¤sst sich eine
 	bestimmte Auslaufzeit dieses Eintrags definieren.
 	Zeit wird durch eine Ganzzahl angegeben, gefolgt von einem
 	Buchstaben: s (Sekunden), m (Minuten), h (Stunden)
 	oder d (Tage).
-	Kombinationen (wie zum Beispiel 1h30m) sind nicht zulässig.
+	Kombinationen (wie zum Beispiel 1h30m) sind nicht zulÃ¤ssig.
 	Wird kein Buchstabe angegeben, wird von Sekunden ausgegangen
 	(also 30 bedeutet dann z.B. 30 Sekunden). Um einen 
-	IGNORE-Eintrag zu erstellen, der nicht ausläuft, benutze 0.
-	Wenn eine Hostmaske hinzugefügt wird sollte es in dem Format
+	IGNORE-Eintrag zu erstellen, der nicht auslÃ¤uft, benutze 0.
+	Wenn eine Hostmaske hinzugefÃ¼gt wird sollte es in dem Format
 	user@host oder nick!user@host erfolgen, ansonsten wird es als
 	Nick angesehen. Wildcards sind erlaubt.
 	
@@ -5869,14 +5869,14 @@ OPER_HELP_MODE
 	Syntax: MODE Channel Modi
 	
 	Erlaubt es Services Operatoren die Channel Modes eines
-	beliebigen Channels zu verändern. Der Paramater hat das
+	beliebigen Channels zu verÃ¤ndern. Der Paramater hat das
 	gleiche Format wie der normale /MODE Befehl.
 
 OPER_HELP_UMODE
 	Syntax: UMODE User Modi
 	
 	Erlaubt es Super Adminstratoren die Usermodi eines 
-	beliebigen Users zu ändern. Der Paramater hat das gleiche 
+	beliebigen Users zu Ã¤ndern. Der Paramater hat das gleiche 
 	Format wie der normale /MODE Befehl.
 
 OPER_HELP_OLINE
@@ -5899,7 +5899,7 @@ OPER_HELP_KICK
 	
 	Erlaubt staff einen User aus einem beliebigen
 	Channel zu kicken. Die Parameter sind dieselben
-	wie für das normale /KICK Befehl.
+	wie fÃ¼r das normale /KICK Befehl.
 	Die Kick-Nachricht wird den Nicknamen des IRCops
 	vor dem Grund haben. Zum Beispiel:
 	
@@ -5908,7 +5908,7 @@ OPER_HELP_KICK
 OPER_HELP_SVSNICK
 	Syntax: SVSNICK Nickname Neuer-Nickname
 	
-	Erzwingt die Änderung des Nicknamens eines User zu dem neuen Nicknamen.
+	Erzwingt die Ã„nderung des Nicknamens eines User zu dem neuen Nicknamen.
 	Limited to Super Admins.
 
 OPER_HELP_AKILL
@@ -5922,43 +5922,43 @@ OPER_HELP_AKILL
 	bearbeiten. Versucht ein User der einen entsprechenden 
 	Eintrag auf der AKILL-Liste hat zu verbinden, werden
 	die Services ihn killen und falls der Server dies
-	unterstützt wird ein Ban (G-line) für den User gesetzt.
+	unterstÃ¼tzt wird ein Ban (G-line) fÃ¼r den User gesetzt.
 	
-	AKILL ADD fügt die angegebene user@Hostmaske mit
+	AKILL ADD fÃ¼gt die angegebene user@Hostmaske mit
 	dem Grund (dieser muss angegeben werden) zur AKILL-
-	Liste hinzu. Mit Hilfe von Zeit lässt sich eine bestimmte
+	Liste hinzu. Mit Hilfe von Zeit lÃ¤sst sich eine bestimmte
 	Auslaufzeit dieses Eintrags definieren.
 	Zeit wird durch eine Ganzzahl angegeben, gefolgt von
 	einem Buchstaben:
 	d (Tage), h (Stunden), oder m (Minuten). Kombinationen
-	(wie zum Beispiel 1h30m) sind nicht zulässig. Wird kein
+	(wie zum Beispiel 1h30m) sind nicht zulÃ¤ssig. Wird kein
 	Buchstabe angegeben, wird von Tagen ausgegangen (also +30 
 	bedeutet dann z.B. 30 Tage). Um einen AKILL-Eintrag zu
-	erstellen, der nicht ausläuft, benutze +0.  Fängt die Usermaske
+	erstellen, der nicht auslÃ¤uft, benutze +0.  FÃ¤ngt die Usermaske
 	mit einem + an, muss eine Auslaufzeit (Zeit) definiert
 	werden, auch wenn es die Standard-Zeit ist. Die Standard-
-	Auslaufzeit für einen AKILL kann man unter STATS AKILL finden.
+	Auslaufzeit fÃ¼r einen AKILL kann man unter STATS AKILL finden.
 	
 	Das AKILL DEL Befehl entfernt die angegebene Maske von
 	der AKILL-Liste, sofern ein solcher Eintag existiert. Wird
-	eine Liste von Nummern angegeben, werden diese Einträge
-	entfernt. (Siehe das Beispiel für LIST weiter unten.)
+	eine Liste von Nummern angegeben, werden diese EintrÃ¤ge
+	entfernt. (Siehe das Beispiel fÃ¼r LIST weiter unten.)
 	
 	Mit Hilfe von AKILL LIST wird die AKILL Liste angezeigt.
 	Werden Platzhalter (Wildcards) in der Maske angegeben, werden
-	nur die entsprechenden Einträge angezeigt. Die Ausgabe
-	lässt sich ebenfalls durch einen Zahlenbereich begrenzen, 
+	nur die entsprechenden EintrÃ¤ge angezeigt. Die Ausgabe
+	lÃ¤sst sich ebenfalls durch einen Zahlenbereich begrenzen, 
 	wie das Beispiel zeigt:
 	
 	   AKILL LIST 2-5,7-9
-	      Zeigt nur die Einträge 2 bis 5 und 7 bis 9.
+	      Zeigt nur die EintrÃ¤ge 2 bis 5 und 7 bis 9.
 	
-	AKILL VIEW ist eine ausführlichere Version des AKILL LIST
-	Befehls und zeigt zusätzlich, wer einen Eintrag wann 
-	erstellt hat, wann er ausläuft und natürlich die user@host
+	AKILL VIEW ist eine ausfÃ¼hrlichere Version des AKILL LIST
+	Befehls und zeigt zusÃ¤tzlich, wer einen Eintrag wann 
+	erstellt hat, wann er auslÃ¤uft und natÃ¼rlich die user@host
 	Maske mit dem Grund.
 	
-	AKILL CLEAR entfernt alle Einträge aus der AKILL-Liste.
+	AKILL CLEAR entfernt alle EintrÃ¤ge aus der AKILL-Liste.
 	
 OPER_HELP_SGLINE
 	Syntax: SGLINE ADD [+Zeit] Maske:Grund
@@ -5971,22 +5971,22 @@ OPER_HELP_SGLINE
 	bearbeiten. Versucht ein User dessen Realname auf 
 	einen Eintrag in der SGLINE-Liste trifft zu verbinden,
 	werden die Services ihn die verbindung auf das IRC Netz
-	nicht ausführen lassen.
+	nicht ausfÃ¼hren lassen.
 	
-	SGLINE ADD fügt die angegebene Realnamen-Maske mit 
+	SGLINE ADD fÃ¼gt die angegebene Realnamen-Maske mit 
 	dem Grund (muss angegeben werden) zur SGLINE-Liste 
-	hinzu. Mit Hilfe von Zeit lässt sich eine bestimmte
+	hinzu. Mit Hilfe von Zeit lÃ¤sst sich eine bestimmte
 	Auslaufzeit dieses Eintrags definieren.
 	Zeit wird durch eine Ganzzahl angegeben, gefolgt von
 	einem Buchstaben:
 	d  (Tage), h (Stunden), oder m (Minuten). Kombinationen
-	(wie zum Beispiel 1h30m) sind nicht zulässig.  Wird kein
+	(wie zum Beispiel 1h30m) sind nicht zulÃ¤ssig.  Wird kein
 	Buchstabe angegeben, wird von Tagen ausgegangen (also +30 
 	bedeutet dann z.B. 30 Tage). Um einen SGLINE-Eintrag zu
-	erstellen, der nicht ausläuft, benutze +0. Beginnt
+	erstellen, der nicht auslÃ¤uft, benutze +0. Beginnt
 	die Realnamen-Maske mit einem +, an, muss eine 
 	Auslaufzeit (expiry) definiert werden, auch wenn es die 
-	Standard-Zeit ist. Die Standard-Auslaufzeit für eine
+	Standard-Zeit ist. Die Standard-Auslaufzeit fÃ¼r eine
 	SGLINE kann man unter STATS AKILL finden.
 	
 	Beachte: Da die Realnamen-Maske Leerzeichen enthalten kann,
@@ -5996,24 +5996,24 @@ OPER_HELP_SGLINE
 	Das SGLINE DEL Befehl entfernt die angegebene Maske
 	von der SGLINE-Liste, sofern ein solcher Eintag existiert.
 	Wird eine Liste von Nummern angegeben, werden diese
-	Einträge entfernt. (Siehe das Beispiel für LIST weiter
+	EintrÃ¤ge entfernt. (Siehe das Beispiel fÃ¼r LIST weiter
 	unten.)
 	
 	Mit Hilfe von SGLINE LIST wird die SGLINE-Liste 
 	angezeigt. Werden Platzhalter (Wildcards) in der Maske
-	angegeben, werden nur die entsprechenden Einträge
-	angezeigt. Die Ausgabe lässt sich ebenfalls durch einen
+	angegeben, werden nur die entsprechenden EintrÃ¤ge
+	angezeigt. Die Ausgabe lÃ¤sst sich ebenfalls durch einen
 	Zahlenbereich begrenzen, wie das Beispiel zeigt:
 	
 	   SGLINE LIST 2-5,7-9
-	      Zeigt nur die Einträge 2 bis 5 und 7 bis 9.
+	      Zeigt nur die EintrÃ¤ge 2 bis 5 und 7 bis 9.
 	
-	SGLINE VIEW ist eine ausführlichere Version des 
-	SGLINE LIST Befehls und zeigt zusätzlich, wer einen 
-	Eintrag wann erstellt hat, wann er ausläuft und 
-	natürlich die user@host Maske mit dem Grund.
+	SGLINE VIEW ist eine ausfÃ¼hrlichere Version des 
+	SGLINE LIST Befehls und zeigt zusÃ¤tzlich, wer einen 
+	Eintrag wann erstellt hat, wann er auslÃ¤uft und 
+	natÃ¼rlich die user@host Maske mit dem Grund.
 	
-	SGLINE CLEAR entfernt alle Einträge aus der 
+	SGLINE CLEAR entfernt alle EintrÃ¤ge aus der 
 	SGLINE-Liste.
 
 OPER_HELP_SQLINE
@@ -6025,44 +6025,44 @@ OPER_HELP_SQLINE
 	
 	Erlaubt Services Operatoren die SQLINE Liste zu bearbeiten.
 	Falls ein User mit passendem Nicknamen sich zum Netzwerk
-	verbinden möchte, werden die Services diese Verbindung nicht 
-	ausführen lassen.
+	verbinden mÃ¶chte, werden die Services diese Verbindung nicht 
+	ausfÃ¼hren lassen.
 	
 	Wenn der erste Buchstabe ein # ist, werden die Services die
 	Nutzung des betreffenden Channels nicht zulassen (bei IRCds,
-	die dieses Feature unterstützen).
+	die dieses Feature unterstÃ¼tzen).
 	
-	SQLINE ADD fügt den angegeben Nicknamen mit dem Grund (muss
+	SQLINE ADD fÃ¼gt den angegeben Nicknamen mit dem Grund (muss
 	angegeben werden) zur SGLINE-Liste hinzu. ^_Zeit^_ wird
 	durch eine Ganzzahl angegeben, gefolgt von einem Buchstaben: 
 	d (Tage), h (Stunden), oder m (Minuten).
 	Kombinationen sind nicht erlaubt. Wird kein Buchstabe angegeben,
 	wird von Tagen ausgegangen (also +30 bedeutet 30 Tage).
-	Um einen SQLINE-Eintrag zu erstellen, der nicht ausläuft,
+	Um einen SQLINE-Eintrag zu erstellen, der nicht auslÃ¤uft,
 	benutze+0.  
 	Beginnt die Maske mit einem +, muss eine Auslaufzeit
 	(expiry) definiert werden, auch wenn es die Standard-Zeit ist. 
-	Die Standard-Auslaufzeit für eine SQLINE kann man unter
+	Die Standard-Auslaufzeit fÃ¼r eine SQLINE kann man unter
 	STATS AKILL finden.
 	
 	Das SQLINE DEL Command entfernt die betreffende Maske von
 	der SQLINE Liste.  Wird eine Liste von Nummern angegeben,
-	werden diese Einträge entfernt. (Siehe das Beispiel für LIST 
+	werden diese EintrÃ¤ge entfernt. (Siehe das Beispiel fÃ¼r LIST 
 	weiter unten.)
 	
 	Mit Hilfe von SQLINE LIST wird die SQLINE-Liste angezeigt.
 	Werden Wildcards in der Maske angegeben, werden nur die
-	entsprechenden Einträge angezeigt. Die Ausgabe lässt sich
+	entsprechenden EintrÃ¤ge angezeigt. Die Ausgabe lÃ¤sst sich
 	ebenfalls durch einen Zahlenbereich begrenzen:
 
 	   SQLINE LIST 2-5,7-9
-	      Zeigt die SQLINE Einträge 2 bis 5 und 7 bis 9 an.
+	      Zeigt die SQLINE EintrÃ¤ge 2 bis 5 und 7 bis 9 an.
 
-	SQLINE VIEW ist eine ausführlichere Version von SQLINE LIST
+	SQLINE VIEW ist eine ausfÃ¼hrlichere Version von SQLINE LIST
 	und zeigt an, wer eine SQLINE gesetzt hat, das Datum und wann
-	diese ausläuft, ausserdem die Maske und den Grund.
+	diese auslÃ¤uft, ausserdem die Maske und den Grund.
 	
-	SQLINE CLEAR löscht alle Einträge der SQLINE Liste.
+	SQLINE CLEAR lÃ¶scht alle EintrÃ¤ge der SQLINE Liste.
 
 OPER_HELP_SZLINE
 	Syntax: SZLINE ADD [+Zeit] Maske Grund
@@ -6075,51 +6075,51 @@ OPER_HELP_SZLINE
 	bearbeiten. Versucht ein User zu connecten dessen
 	IP auf einen entsprechenden Eintrag auf der SZLINE-
 	Liste passt, wird der Server seine IRC Verbindung
-	verhindern (unabhängig davon, ob die IP einen
+	verhindern (unabhÃ¤ngig davon, ob die IP einen
 	PTR-Record hat oder nicht.)
 	
-	SZLINE ADD fügt die angegebene IP-Maske mit dem
+	SZLINE ADD fÃ¼gt die angegebene IP-Maske mit dem
 	Reason (muss angegeben werden) zur SZLINE-Liste 
-	hinzu. Mit Hilfe von expiry lässt sich eine bestimmte
+	hinzu. Mit Hilfe von expiry lÃ¤sst sich eine bestimmte
 	Auslaufzeit dieses Eintrags definieren.
 	expiry wird durch eine Ganzzahl angegeben, gefolgt von
 	einem Buchstaben:
 	 d (Tage), h (Stunden), oder m (Minuten). Kombinationen
-	(wie zum Beispiel 1h30m) sind nicht zulässig. Wird kein
+	(wie zum Beispiel 1h30m) sind nicht zulÃ¤ssig. Wird kein
 	Buchstabe angegeben, wird von Tagen ausgegangen (also +30 
 	bedeutet dann z.B. 30 Tage). Um einen SZLINE-Eintrag zu
-	erstellen, der nicht ausläuft, benutze +0. Fängt die
+	erstellen, der nicht auslÃ¤uft, benutze +0. FÃ¤ngt die
 	IP-Maske mit einem  + an, muss eine Auslaufzeit
 	(expiry) definiert werden, auch wenn es die Standard-Zeit
-	ist. Die Standard-Auslaufzeit für eine SZLINE kann man 
+	ist. Die Standard-Auslaufzeit fÃ¼r eine SZLINE kann man 
 	unter STATS AKILL finden.
 	
 	Der SZLINE DEL Befehl entfernt die angegebene Maske
 	von der SZLINE-Liste, sofern ein solcher Eintag existiert. 
-	Wird eine Liste von Nummern angegeben, werden diese Einträge
-	entfernt. (Siehe das Beispiel für LIST weiter unten.)
+	Wird eine Liste von Nummern angegeben, werden diese EintrÃ¤ge
+	entfernt. (Siehe das Beispiel fÃ¼r LIST weiter unten.)
 	
 	Mit Hilfe von SZLINE LIST wird die SZLINE-Liste angezeigt.
 	Werden Platzhalter (Wildcards) in der Maske angegeben, werden
-	nur die entsprechenden Einträge angezeigt. Die Ausgabe
-	lässt sich ebenfalls durch einen Zahlenbereich begrenzen,
+	nur die entsprechenden EintrÃ¤ge angezeigt. Die Ausgabe
+	lÃ¤sst sich ebenfalls durch einen Zahlenbereich begrenzen,
 	wie das Beispiel zeigt:
 	
 	   SZLINE LIST 2-5,7-9
-	      Zeigt nur die Einträge 2 bis 5 und 7 bis 9.
+	      Zeigt nur die EintrÃ¤ge 2 bis 5 und 7 bis 9.
 	
-	SZLINE VIEW ist eine ausführlichere Version des
-	SZLINE LIST Befehls und zeigt zusätzlich, wer einen
-	Eintrag wann erstellt hat, wann er ausläuft und natürlich
+	SZLINE VIEW ist eine ausfÃ¼hrlichere Version des
+	SZLINE LIST Befehls und zeigt zusÃ¤tzlich, wer einen
+	Eintrag wann erstellt hat, wann er auslÃ¤uft und natÃ¼rlich
 	die IP Maske mit dem Grund.
 	
-	SZLINE CLEAR entfernt alle Einträge aus der SZLINE-Liste.
+	SZLINE CLEAR entfernt alle EintrÃ¤ge aus der SZLINE-Liste.
 
 OPER_HELP_SET
 	Syntax: SET Option Einstellungen
 	
-	Ändert globale Einstellungen der Services Optionen.
-	Diese Optionen lassen sich ändern:
+	Ã„ndert globale Einstellungen der Services Optionen.
+	Diese Optionen lassen sich Ã¤ndern:
 	
 	    READONLY   Nur-Lese Modus der Datenbank an oder aus
 	    LOGCHAN    Zeigt Logmessages in einem Chan
@@ -6134,29 +6134,29 @@ OPER_HELP_SET_READONLY
 	Syntax: SET READONLY {ON | OFF}
 	
 	Schaltet den Read-Only-Mode an oder aus. Im
-	Read-Only-Modus können normale User nichts mehr
-	an den Datenbanken der Services ändern, dies beinhaltet
+	Read-Only-Modus kÃ¶nnen normale User nichts mehr
+	an den Datenbanken der Services Ã¤ndern, dies beinhaltet
 	Channel und Nicknamen-Zugriffslisten, etc. IRCops mit
-	genügend Rechten werden weiterhin Änderungen an der
-	AKILL-Liste, Nicknamen sperren oder DROPEN (löschen) dürfen,
-	aber diese Änderungen werden nicht gespeichert, bis
+	genÃ¼gend Rechten werden weiterhin Ã„nderungen an der
+	AKILL-Liste, Nicknamen sperren oder DROPEN (lÃ¶schen) dÃ¼rfen,
+	aber diese Ã„nderungen werden nicht gespeichert, bis
 	der Read-Only-Mode deaktiviert wurde bevor die
 	Services beendet oder neu gestartet werden.
 	
-	Diese Option ist äquivalent mit der Befehlszeilen-
+	Diese Option ist Ã¤quivalent mit der Befehlszeilen-
 	Option -readonly.
 
 OPER_HELP_SET_LOGCHAN
 	Syntax: SET LOGCHAN {ON | OFF}
 
-	Mit dieser Option senden die Services alle Logeinträge zum
+	Mit dieser Option senden die Services alle LogeintrÃ¤ge zum
 	angegebenen Channel. LogChannel muss in der Services Config
 	Datei aktiviert sein.
 	
-	Diese Option ist äquivalent mit der Befehlszeilen-
+	Diese Option ist Ã¤quivalent mit der Befehlszeilen-
 	Option -logchan.
 	
-	Anmerkung: Diese Option kann ein großes Sicherheitsproblem
+	Anmerkung: Diese Option kann ein groÃŸes Sicherheitsproblem
 	               darstellen, wenn der Logchannel nicht ausreichend
 	               gesichert ist.
 
@@ -6169,7 +6169,7 @@ OPER_HELP_SET_DEBUG
 	geschrieben. Wird Nummer angegeben, wird der Debugging
 	Level auf Nummer gesetzt.
 	
-	Diese Option ist äquivalent mit der Befehlszeilen-
+	Diese Option ist Ã¤quivalent mit der Befehlszeilen-
 	Option -debug.
 	
 OPER_HELP_SET_NOEXPIRE
@@ -6180,13 +6180,13 @@ OPER_HELP_SET_NOEXPIRE
 	auslaufen bis dieser Modus wieder ausgeschaltet
 	wird.
 
-	Diese Option ist äquivalent mit der Befehlszeilen-
+	Diese Option ist Ã¤quivalent mit der Befehlszeilen-
 	Option -noexpire.
 
 OPER_HELP_SET_SUPERADMIN
 	Syntax: SET SUPERADMIN {ON | OFF}
 
-	Der Super-Admin Modus verleiht dir zusätzliche Rechte, wie
+	Der Super-Admin Modus verleiht dir zusÃ¤tzliche Rechte, wie
 	zB. Founder in jedem Channel, etc.
 
 	Dieser Modus ist nicht dauerhaft und sollte nur genutzt
@@ -6197,7 +6197,7 @@ OPER_HELP_SET_SQL
 	Syntax: SET SQL {ON | OFF}
 
 	Diese Einstellung wird Anope veranlassen SQL zu benutzen oder nicht.
-	Kann nützlich sein wenn zB der MySQL-Server aus ist.
+	Kann nÃ¼tzlich sein wenn zB der MySQL-Server aus ist.
 
 OPER_HELP_SET_IGNORE
 	Syntax: SET IGNORE {ON | OFF}
@@ -6208,29 +6208,29 @@ OPER_HELP_SET_IGNORE
 OPER_HELP_SET_LIST
 	Syntax: SET LIST
 
-	Zeigt dir eine Liste der verfügbaren Einstellungen von %S
+	Zeigt dir eine Liste der verfÃ¼gbaren Einstellungen von %S
 
 OPER_HELP_NOOP
 	Syntax: NOOP SET Server
 	        NOOP REVOKE Server
 	
-	NOOP SET entfernt temporär alle O:Lines des 
+	NOOP SET entfernt temporÃ¤r alle O:Lines des 
 	angegebenen Servers und killt alle IRCops die 
-	gegenwärtig auf diesem verbunden sind, und verhindert 
-	so das rehashen des Servers (dieses würde die Funktion
+	gegenwÃ¤rtig auf diesem verbunden sind, und verhindert 
+	so das rehashen des Servers (dieses wÃ¼rde die Funktion
 	aufheben).
 	
-	NOOP REVOKE macht alle O:Lines wieder verfügbar auf
+	NOOP REVOKE macht alle O:Lines wieder verfÃ¼gbar auf
 	dem angegebenen Server.
 	
 	Achtung: Der Server wird in keinster Weise
-	von den Services geprüft.
+	von den Services geprÃ¼ft.
 
 OPER_HELP_JUPE
 	Syntax: JUPE Server [Grund]
 
 	Durch die Services wird ein Server "gejupitert". Dies
-	bedeutet, dass ein Server vorgetäuscht und so der
+	bedeutet, dass ein Server vorgetÃ¤uscht und so der
 	echte Server daran gehindert wird, zu connecten. Der
 	"Server" kann durch das normale SQUIT Befehls
 	entfernt werden. Wird ein Grund angegeben,
@@ -6242,8 +6242,8 @@ OPER_HELP_RAW
 	
 	Sendet die Zeichenkette von text direkt an den Server,
 	zu denen die Services verbunden sind. Dieses Kommando
-	hat einen sehr beschränkten Nutzenfaktor, und kann
-	leicht den Ablauf des Netzes stören, wenn es falsch
+	hat einen sehr beschrÃ¤nkten Nutzenfaktor, und kann
+	leicht den Ablauf des Netzes stÃ¶ren, wenn es falsch
 	benutz wird. BENUTZE DIESES KOMMANDO NICHT so lange
 	du nicht genau weisst, was du tust!
 
@@ -6257,10 +6257,10 @@ OPER_HELP_RELOAD
 	Syntax: RELOAD
 	
 	Die Services werden bei diesem Befehl die Konfigurations-
-	datei neu einlesen. Beachte das für einige Direktiven
+	datei neu einlesen. Beachte das fÃ¼r einige Direktiven
 	trotzdem ein Neustart der Services erforderlich ist, um
 	sie wirksam zu machen (so wie die Services Nicknamen,
-	Aktivierung der Verbindungseinschränkungen, etc.)
+	Aktivierung der VerbindungseinschrÃ¤nkungen, etc.)
 
 OPER_HELP_QUIT
 	Syntax: QUIT
@@ -6269,7 +6269,7 @@ OPER_HELP_QUIT
 	Datenbanken werden dabei nicht gespeichert.
 	Dieser Befehl sollte nicht benutzt werden, ausser
 	die Datenbanken sollen wirklich nicht aktualisiert
-	werden. Für das normale Beenden der Services sollte
+	werden. FÃ¼r das normale Beenden der Services sollte
 	der SHUTDOWN Befehl benutzt werden.
 
 OPER_HELP_SHUTDOWN
@@ -6283,7 +6283,7 @@ OPER_HELP_RESTART
 	
 	Die Services werden sich bei diesem Befehl beenden,
 	die Datenbanken speichern, und danach neustarten
-	(die ausführbare Datei erneut aufrufen).
+	(die ausfÃ¼hrbare Datei erneut aufrufen).
 
 OPER_HELP_CHANLIST
 	Syntax: CHANLIST [{Muster | Nickname} [SECRET]]
@@ -6294,7 +6294,7 @@ OPER_HELP_CHANLIST
 	Wird ein Muster angegeben, werden nur die dem Muster 
 	entsprechenden Channel angezeigt. Wird ein Nickname 
 	angegeben, werden nur die Channels aufgelistet, in denen 
-	sich der User mit dem Nick befindet. Wird zusätzlich der 
+	sich der User mit dem Nick befindet. Wird zusÃ¤tzlich der 
 	Parameter SECRET angegeben, werden nur Channel aufgelistet, 
 	die Mode +s oder Mode +p gesetzt haben.
 	
@@ -6308,13 +6308,13 @@ OPER_HELP_USERLIST
 	angezeigt, auf die das Muster passt (es muss im Format
 	nick!user@host sein).  Wird ein Channel angegeben, werden
 	nur die User angezeigt, die in diesem Channel sind. Wird
-	zusätzlich INVISIBLE angegeben, werden nur User mit dem Flag
+	zusÃ¤tzlich INVISIBLE angegeben, werden nur User mit dem Flag
 	+i angezeigt.
 	
 OPER_HELP_MODLOAD
 	Syntax: MODLOAD Modul-Name
 
-	Dieser Befehl lädt das benannte Module aus dem 
+	Dieser Befehl lÃ¤dt das benannte Module aus dem 
 	modules - Verzeichnis.
 	
 OPER_HELP_MODUNLOAD
@@ -6326,7 +6326,7 @@ OPER_HELP_MODUNLOAD
 OPER_HELP_MODINFO
 	Syntax: MODINFO Modul-Name
 
-	Dieser Befehl listet Informationen über das benannte, geladene 
+	Dieser Befehl listet Informationen Ã¼ber das benannte, geladene 
 	Module auf.
 
 OPER_HELP_MODLIST
@@ -6352,24 +6352,24 @@ BOT_HELP_CMD_KICK
 BOT_HELP_CMD_BADWORDS
 	    BADWORDS      Verwaltet die Bad-Word-Liste
 BOT_HELP_CMD_ACT
-	    ACT           Veranlaßt den Bot ein "/me" Befehl ausführen
+	    ACT           VeranlaÃŸt den Bot ein "/me" Befehl ausfÃ¼hren
 BOT_HELP_CMD_INFO
-	    INFO          Erlaubt dir Informationen über ein BotServ ServicesBot zu sehen
+	    INFO          Erlaubt dir Informationen Ã¼ber ein BotServ ServicesBot zu sehen
 BOT_HELP_CMD_SAY
-	    SAY           Veranlaßt ein Bot ein Text in einen Channel zu sagen
+	    SAY           VeranlaÃŸt ein Bot ein Text in einen Channel zu sagen
 BOT_HELP_CMD_UNASSIGN
 	    UNASSIGN      Entfernt ein ServicesBot von einen Channel
 BOT_HELP_CMD_BOT
 	    BOT           Verwaltung von Bots
 
 BOT_HELP
-	%S ist dafür geschaffen, Bots in Channels 
-	einzubringen. Geschaffen wurde er für User, die
-	selbst keinen Bot ausfetzen können, oder auch Netzwerke,
-	die Bots verbieten. Mögliche Befehle siehe unten, 
+	%S ist dafÃ¼r geschaffen, Bots in Channels 
+	einzubringen. Geschaffen wurde er fÃ¼r User, die
+	selbst keinen Bot ausfetzen kÃ¶nnen, oder auch Netzwerke,
+	die Bots verbieten. MÃ¶gliche Befehle siehe unten, 
 	die Syntax ist %R%S Befehl.  
 	
-	Für weitere Hilfe zu einem bestimmten Befehl
+	FÃ¼r weitere Hilfe zu einem bestimmten Befehl
 	tippe %R%S HELP Befehl
 
 BOT_HELP_FOOTER
@@ -6379,22 +6379,22 @@ BOT_HELP_FOOTER
 BOT_HELP_BOTLIST
 	Syntax: BOTLIST
 	
-	Zeigt alle verfügbaren Bots des Netzwerkes.
+	Zeigt alle verfÃ¼gbaren Bots des Netzwerkes.
 	
 BOT_HELP_ASSIGN
 	Syntax: ASSIGN Channel Botnick
 	
 	Weist einem Channel einen Bot zu. Der Botnick muss 
-	jedoch existieren. Nach dieser Zuweisung können die 
+	jedoch existieren. Nach dieser Zuweisung kÃ¶nnen die 
 	Channel-spezifischen Einstellungen des Bots angepasst 
 	werden.
 	
 BOT_HELP_UNASSIGN
 	Syntax: UNASSIGN Channel
 	
-	Löscht die Zuweisung eines Bots zu einem Channel.
+	LÃ¶scht die Zuweisung eines Bots zu einem Channel.
 	Dieser Befehl bewirkt, dass der Bot den Channel
-	nicht mehr betritt. Die Konfiguration des Bots für den 
+	nicht mehr betritt. Die Konfiguration des Bots fÃ¼r den 
 	Channel bleibt jedoch erhalten, sodass der Bot dem
 	Channel wieder zugewiesen werden kann, ohne das 
 	alle Einstellungen verloren gehen.
@@ -6402,7 +6402,7 @@ BOT_HELP_UNASSIGN
 BOT_HELP_INFO
 	Syntax: INFO {Channel | Botnick}
 	
-	Zeigt %S Informationen über einen Bot oder einen Channel
+	Zeigt %S Informationen Ã¼ber einen Bot oder einen Channel
 	an. Wenn der Parameter ein Channel ist, so werden 
 	Informationen wie aktive Kicks etc. angezeigt, wenn der 
 	Parameter ein Botnick ist, werden Informationen wie 
@@ -6411,22 +6411,22 @@ BOT_HELP_INFO
 BOT_HELP_SET
 	Syntax: SET (Channel | Bot) Option Parameter
 	
-	Konfiguriert Optionen für einen Bot.
+	Konfiguriert Optionen fÃ¼r einen Bot.
 	Option kann folgende Werte annehmen:
 	
 	    DONTKICKOPS       Chan-Ops werden (nicht) vom Bot 
 	                      gekickt.
 	    DONTKICKVOICES    Gevoicte User werden (nicht) 
 	                      vom Bot gekickt.
-	    GREET             Begrüssungsnachricht
+	    GREET             BegrÃ¼ssungsnachricht
 	    FANTASY           Aktiviert Befehle wie !op !deop usw. 
-	    SYMBIOSIS         Bot übernimmt die Aufgaben vom ChanServ
+	    SYMBIOSIS         Bot Ã¼bernimmt die Aufgaben vom ChanServ
 	
 	%R%S HELP SET Option um weitere Informationen
-	über einen spezifischen Befehl zu erhalten.
+	Ã¼ber einen spezifischen Befehl zu erhalten.
 	
-	Achtung: Die Berechtigungsstufen für diesen Befehl
-	können variieren!
+	Achtung: Die Berechtigungsstufen fÃ¼r diesen Befehl
+	kÃ¶nnen variieren!
 
 BOT_HELP_SET_DONTKICKOPS
 	Syntax: SET Channel DONTKICKOPS {ON|OFF}
@@ -6449,16 +6449,16 @@ BOT_HELP_SET_FANTASY
 	
 	Aktiviert oder deaktiviert den Fantasy in einem
 	Channel. Wenn dieser aktiviert ist, ist es Usern
-	möglich, Befehle wie !op, !deop, !voice, !devoice,
+	mÃ¶glich, Befehle wie !op, !deop, !voice, !devoice,
 	!kick, !kb, !unban, !seen und !halfop im Channel zu 
-	benutzen. Die Befehle sind selbsterklärend, 
+	benutzen. Die Befehle sind selbsterklÃ¤rend, 
 	probiert's halt mal aus, mit oder ohne Nickname.
 	
-	Hinweis: Auch hier benötigt der ausführende User
+	Hinweis: Auch hier benÃ¶tigt der ausfÃ¼hrende User
 	die Rechte, um die Befehle zu benutzen, und zwar
 	sowohl das Level um Fantasy zu nutzen, als auch
 	ein Level bzw Mode, mit dem er das gegebene 
-	Kommando ausführen könnte. (Beispiel: Jemand, 
+	Kommando ausfÃ¼hren kÃ¶nnte. (Beispiel: Jemand, 
 	der kein Op ist, kann auch niemanden mit !op oppen.)
 	
 BOT_HELP_SET_GREET
@@ -6466,7 +6466,7 @@ BOT_HELP_SET_GREET
 	
 	Aktiviert oder deaktiviert den Greet Mode
 	in einem Channel. Wenn diese Mode aktiviert ist, zeigt der Bot
-	eine Begrüssungsnachricht bei joinenden Usern, die eine
+	eine BegrÃ¼ssungsnachricht bei joinenden Usern, die eine
 	Msg definiert haben und weiterhin auch die 
 	Berechtigung haben, dass diese angezeigt wird.
 	
@@ -6474,9 +6474,9 @@ BOT_HELP_SET_SYMBIOSIS
 	Syntax: SET Channel SYMBIOSIS {ON|OFF}
 	
 	Aktiviert oder deaktiviert den Symbiosis Mode.
-	Wenn diese Mode aktiviert ist, führt der Bot alle Aktionen aus,
-	die sonst %s übernimmt. 
-	(Modechanges, Kicks, Begrüssungsnachrichten usw.)
+	Wenn diese Mode aktiviert ist, fÃ¼hrt der Bot alle Aktionen aus,
+	die sonst %s Ã¼bernimmt. 
+	(Modechanges, Kicks, BegrÃ¼ssungsnachrichten usw.)
 	
 BOT_HELP_KICK
 	Syntax: KICK Channel Option Parameter
@@ -6494,11 +6494,11 @@ BOT_HELP_KICK
 	    UNDERLINES   Bot kickt bei Unterstreichungen
 	
 	%R%S HELP KICK Option um weitere 
-	Informationen über einen bestimmten Befehl
+	Informationen Ã¼ber einen bestimmten Befehl
 	zu erhalten.
 	
-	Achtung: Die Berechtigungsstufen für diesen Befehl
-	können variieren!
+	Achtung: Die Berechtigungsstufen fÃ¼r diesen Befehl
+	kÃ¶nnen variieren!
 
 BOT_HELP_KICK_BOLDS
 	Syntax: KICK Channel BOLDS {ON|OFF} [ttb]
@@ -6554,7 +6554,7 @@ BOT_HELP_KICK_CAPS
 	
 	Der Bot kickt nur, wenn mindestens min Grossbuchstaben
 	verwendet wurden und der Text mindestens prozente%% 
-	Grossbuchstaben enthält. (Standard ist hier zehn Zeichen und
+	Grossbuchstaben enthÃ¤lt. (Standard ist hier zehn Zeichen und
 	25 %% - dieser wird angewendet, wenn die Paramter nicht
 	angegeben werden.
 	
@@ -6569,7 +6569,7 @@ BOT_HELP_KICK_FLOOD
 	aktiviert ist, kickt er User, die den Channel 
 	mit mindestens ln Zeilen in secs flooden.
 	Sollte weder ln noch secs angegeben sein,
-	so werden defaultmässig 6 Zeilen / 10 Sekunden 
+	so werden defaultmÃ¤ssig 6 Zeilen / 10 Sekunden 
 	gesetzt.
 	
 	ttb beschreibt wie oft der User gekickt wird, bevor
@@ -6592,7 +6592,7 @@ BOT_HELP_KICK_BADWORDS
 	Syntax: KICK Channel BADWORDS {ON|OFF} [ttb]
 	
 	Schaltet den Bad-Word-Kicker an oder aus. Wenn er 
-	aktiviert ist, kickt der er den Bösewicht, der ein Wort
+	aktiviert ist, kickt der er den BÃ¶sewicht, der ein Wort
 	aus der Bad-Word-Liste sagt.
 	
 	Die Bad-Words werden mit dem BADWORDS Befehl festgelegt.
@@ -6610,34 +6610,34 @@ BOT_HELP_BADWORDS
 	
 	Verwaltet die Bad-Word-List eines Channels.
 	
-	In dieser Liste sind Wörter gespeichert, bei denen der
+	In dieser Liste sind WÃ¶rter gespeichert, bei denen der
 	entsprechende User aus dem Channel gekickt wird, wenn er 
-	eines dieser Wörter erwähnt.
+	eines dieser WÃ¶rter erwÃ¤hnt.
 	
-	Für mehr Informationen: %R%S HELP KICK BADWORDS.
+	FÃ¼r mehr Informationen: %R%S HELP KICK BADWORDS.
 	
-	Der BADWORDS ADD Befehl fügt Wörter zur der
+	Der BADWORDS ADD Befehl fÃ¼gt WÃ¶rter zur der
 	Bad-Word-Liste hinzu. Wenn das Wort mit dem Paramter
 	SINGLE angeben wird, so wird ein User nur dann gekickt,
 	wenn er das ganze Wort sagt. Mit dem Parametern
 	END / START wird der User gekickt, wenn er ein Wort sagt,
-	das mit dem angegebenen Wort anfängt / endet.
+	das mit dem angegebenen Wort anfÃ¤ngt / endet.
 	
 	Wenn keine Parameter angegeben werden, wird der User,
 	sobald er das angegebene Wort in irgendeiner Kombination
 	sagt, gekickt.
 	
-	Der BADWORDS DEL Befehl löscht Einträge von der Bad- 
-	Word-Liste. Auch hier gibt es die Möglichkeit, mehrere
-	Einträge auf einmal zu löschen (siehe BADWORDS LIST).
+	Der BADWORDS DEL Befehl lÃ¶scht EintrÃ¤ge von der Bad- 
+	Word-Liste. Auch hier gibt es die MÃ¶glichkeit, mehrere
+	EintrÃ¤ge auf einmal zu lÃ¶schen (siehe BADWORDS LIST).
 	
-	Der BADWORDS LIST Befehl zeigt Einträge der Bad-Word-Liste.
+	Der BADWORDS LIST Befehl zeigt EintrÃ¤ge der Bad-Word-Liste.
 	Wildcards wie auch Bereiche werden interpretiert, z.B:
 	
 	BADWORDS #Channel LIST 2-5,7-9
-	Zeigt die Einträge 2-5 und 7-9 der Bad-Word-Liste an.
+	Zeigt die EintrÃ¤ge 2-5 und 7-9 der Bad-Word-Liste an.
 	
-	Der BADWORDS CLEAR Befehl löscht alle Einträge aus der
+	Der BADWORDS CLEAR Befehl lÃ¶scht alle EintrÃ¤ge aus der
 	Bad-Word-Liste.
 
 BOT_HELP_SAY
@@ -6655,16 +6655,16 @@ BOT_SERVADMIN_HELP_BOT
 	        BOT CHANGE Botnick Neuer-Botnick [User [Host [Realname]]]
 	        BOT DEL Botnick
 	
-	Erlaubt Services Administratoren Bots zu erstellen/verändern/
-	löschen, die die User in Ihren Channeln benutzen können.
+	Erlaubt Services Administratoren Bots zu erstellen/verÃ¤ndern/
+	lÃ¶schen, die die User in Ihren Channeln benutzen kÃ¶nnen.
 	
-	Der BOT ADD Befehl fügt einen Bot mit dem angegebenen 
+	Der BOT ADD Befehl fÃ¼gt einen Bot mit dem angegebenen 
 	Botnick, User, Host und Realnamen hinzu. 
-	Der BOT CHANGE Befehl ändert Attribute eines Bots. 
-	Der BOT DEL Befehl löscht den angegebenen Bot aus der Botliste.  
+	Der BOT CHANGE Befehl Ã¤ndert Attribute eines Bots. 
+	Der BOT DEL Befehl lÃ¶scht den angegebenen Bot aus der Botliste.  
 	
 	Achtung: Wenn ein Bot erstellt wird, dessen Nickname 
-	registriert ist, wird dieser Nickname gelöscht. Falls 
+	registriert ist, wird dieser Nickname gelÃ¶scht. Falls 
 	der User mit diesem Nicknamen online ist, wird dieser 
 	entfernt (gekillt).
 
@@ -6677,15 +6677,15 @@ BOT_SERVADMIN_HELP_SET
 	                   Zuweisungen aufheben.
 
 	    PRIVATE        Verhindert das Bots von Nicht-IRC Operatoren
-	                   assigned werden können.
+	                   assigned werden kÃ¶nnen.
 	
 BOT_SERVADMIN_HELP_SET_NOBOT
 	Syntax: SET Channel NOBOT {ON|OFF}
 	
 	Durch diese Option kann einem Channel explizit kein Bot 
-	zugewiesen werden. Sollte dem Channel, für den diese 
-	Option gewählt wird, bereits ein Bot zugewiesen 
-	sein, so verfällt die Zuweisung.
+	zugewiesen werden. Sollte dem Channel, fÃ¼r den diese 
+	Option gewÃ¤hlt wird, bereits ein Bot zugewiesen 
+	sein, so verfÃ¤llt die Zuweisung.
 	
 BOT_SERVADMIN_HELP_SET_PRIVATE
 	Syntax: SET Botnick PRIVATE {ON|OFF}
@@ -6705,21 +6705,21 @@ HOST_ENTRY
 HOST_IDENT_ENTRY
 	#%d Nickname:%s, vHost:%s@%s (%s - %s)
 HOST_SET
-	vHost für %s wurde gesetzt: %s.
+	vHost fÃ¼r %s wurde gesetzt: %s.
 HOST_IDENT_SET
-	vHost für %s wurde gesetzt: %s@%s.
+	vHost fÃ¼r %s wurde gesetzt: %s@%s.
 HOST_SETALL
-	vHost für die Gruppe %s wurde gesetzt: %s.
+	vHost fÃ¼r die Gruppe %s wurde gesetzt: %s.
 HOST_DELALL
-	vHost für die Gruppe %s wurden gelöscht.
+	vHost fÃ¼r die Gruppe %s wurden gelÃ¶scht.
 HOST_DELALL_SYNTAX
 	DELALL Nickname.
 HOST_IDENT_SETALL
-	vHost für die Gruppe %s wurde gesetzt: %s@%s.
+	vHost fÃ¼r die Gruppe %s wurde gesetzt: %s@%s.
 HOST_SET_ERROR
 	Fehler! Ein vHost darf nur die Zeichen A-Z, a-z, 0-9, '.' und '-' enthalten.
 HOST_SET_IDENT_ERROR
-	Fehler! Eine vHost-vIdent muss das  Format einer gültiger Ident haben.
+	Fehler! Eine vHost-vIdent muss das  Format einer gÃ¼ltiger Ident haben.
 HOST_SET_TOOLONG
 	Fehler! Der vHost ist zu lang, bitte nutze einen vHost mit weniger als
 	 %d Buchstaben.
@@ -6745,25 +6745,25 @@ HOST_ID
 HOST_NOT_REGED
 	Du musst erst deinen Nickname registrieren, um einen vHost zu erhalten.
 HOST_DEL
-	vHost für %s wurde gelöscht.
+	vHost fÃ¼r %s wurde gelÃ¶scht.
 HOST_DEL_SYNTAX
 	DEL Nickname.
 HOST_OFF
-	Dein vHost wurde deaktiviert und die normale Host-Verschlüsselung wiederhergestellt.
+	Dein vHost wurde deaktiviert und die normale Host-VerschlÃ¼sselung wiederhergestellt.
 HOST_OFF_UNREAL
-	Dein vHost wurde deaktiviert. Um die normale Host-Verschlüsselung zu reaktivieren, tippe /mode %s +%s
+	Dein vHost wurde deaktiviert. Um die normale Host-VerschlÃ¼sselung zu reaktivieren, tippe /mode %s +%s
 HOST_NO_VIDENT
-	Dein IRCd unterstützt keine vIdents. Falls das inkorrekt sein sollte, melde das bitte als einen Bug.
+	Dein IRCd unterstÃ¼tzt keine vIdents. Falls das inkorrekt sein sollte, melde das bitte als einen Bug.
 HOST_GROUP
 	Alle vHosts in der Gruppe %s wurden auf %s gesetzt.
 HOST_IDENT_GROUP
 	Alle vHosts in der Gruppe %s wurden auf %s@%s gesetzt.
 HOST_LIST_FOOTER
-	Liste alle Einträge. (Count: %d)
+	Liste alle EintrÃ¤ge. (Count: %d)
 HOST_LIST_RANGE_FOOTER
-	Einträge von %d bis %d
+	EintrÃ¤ge von %d bis %d
 HOST_LIST_KEY_FOOTER
-	Auf das Muster %s passenden Einträge. (Count: %d)
+	Auf das Muster %s passenden EintrÃ¤ge. (Count: %d)
 
 HOST_HELP_CMD_ON
 	    ON          Aktiviert deinen vHost
@@ -6778,11 +6778,11 @@ HOST_HELP_CMD_SET
 HOST_HELP_CMD_SETALL
 	    SETALL      Setzt einer Gruppe einen vHost
 HOST_HELP_CMD_DEL
-	    DEL         Löscht den vHost eines Users
+	    DEL         LÃ¶scht den vHost eines Users
 HOST_HELP_CMD_DELALL
-	    DELALL      Löscht den vHost einer Gruppe
+	    DELALL      LÃ¶scht den vHost einer Gruppe
 HOST_HELP_CMD_LIST
-	    LIST        Zeigt einen oder mehrere vHost Einträge an
+	    LIST        Zeigt einen oder mehrere vHost EintrÃ¤ge an
 
 HOST_OPER_HELP
 	Nicht benutzt.
@@ -6804,26 +6804,26 @@ HOST_HELP_SET
 	Syntax: SET Nickname Hostmaske.
 
 	Setzt einem User einen vHost anstelle des normalen
-	Hosts.  Falls dein IRCd vIdents unterstützt, kannst
+	Hosts.  Falls dein IRCd vIdents unterstÃ¼tzt, kannst
 	du mit SET <nickname> <ident>@<hostmaske> auch eine Ident
 	wie einen vHost setzen.
 
 HOST_HELP_DELALL
 	Syntax: DELALL Nickname.
 
-	Löscht den vHost aller Nicknamen aus der gleichen Gruppe 
+	LÃ¶scht den vHost aller Nicknamen aus der gleichen Gruppe 
 	des angegeben Nicknamens.
 
 HOST_HELP_SETALL
 	Syntax: SETALL Nickname Hostmaske.
 
 	Setzt allen Usern einer Gruppe einen vHost. Falls dein
-	IRCd vIdents unterstützt, kannst du mit 
+	IRCd vIdents unterstÃ¼tzt, kannst du mit 
 	SETALL <nickname> <ident>@<hostmaske> eine Ident sowie 
 	einen vHosts setzen.
 
 	* Anmerkung: Dieser Befehl betrifft keine Nicknamen,
-	die nachträglich zu der Gruppe hinzugefügt wurden.
+	die nachtrÃ¤glich zu der Gruppe hinzugefÃ¼gt wurden.
 
 HOST_HELP_OFF
 	Syntax: OFF
@@ -6836,23 +6836,23 @@ HOST_HELP_OFF
 HOST_HELP_DEL
 	Syntax: DEL Nickname
 
-	Löscht den vHost des angegebenen Nicknamens.
+	LÃ¶scht den vHost des angegebenen Nicknamens.
 
 HOST_HELP_LIST
 	Syntax: LIST [Muster|#X-Y]
 
 	Dieser Befehl listet dem Operator die registrierten vHost's.
-	Wenn ein Muster angegeben ist, werden nur die Einträge des 
+	Wenn ein Muster angegeben ist, werden nur die EintrÃ¤ge des 
 	Nicknamens oder die vHost's, die dem gegeben Muster entsprechen, 
-	z.B. Rob* für alle Einträge, die mit "Rob" beginnen.
+	z.B. Rob* fÃ¼r alle EintrÃ¤ge, die mit "Rob" beginnen.
 
-	Wenn ein #X-Y Style benutzt wird, werden nur die Einträge 
+	Wenn ein #X-Y Style benutzt wird, werden nur die EintrÃ¤ge 
 	zwischen den angegeben Faktoren angezeigt, z.B. #1-3 wird 
-	die ersten drei Nicknamen/vHost-Einträge anzeigen.
+	die ersten drei Nicknamen/vHost-EintrÃ¤ge anzeigen.
 
 	Die Liste benutzt jedes mal den Wert von NSListMax als ein 
-	festes Limit für die Anzahl der dem Operator anzuzeigenden 
-	Einträge.
+	festes Limit fÃ¼r die Anzahl der dem Operator anzuzeigenden 
+	EintrÃ¤ge.
 
 HOST_HELP_GROUP
 	Syntax:GROUP
@@ -6861,16 +6861,16 @@ HOST_HELP_GROUP
 	Nicknamens, zum vHost der gesamten Gruppe zu setzen.
 
 OPER_SVSNICK_UNSUPPORTED
-	SVSNICK ist auf diesem Netzwerk nicht verfügbar.
+	SVSNICK ist auf diesem Netzwerk nicht verfÃ¼gbar.
 
 OPER_SQLINE_UNSUPPORTED
-	SQLINE ist auf diesem Netzwerk nicht verfügbar.
+	SQLINE ist auf diesem Netzwerk nicht verfÃ¼gbar.
 
 OPER_SVSO_UNSUPPORTED
-	OLINE ist auf diesem Netzwerk nicht verfügbar.
+	OLINE ist auf diesem Netzwerk nicht verfÃ¼gbar.
 
 OPER_UMODE_UNSUPPORTED
-	UMODE ist auf diesem Netzwerk nicht verfügbar.
+	UMODE ist auf diesem Netzwerk nicht verfÃ¼gbar.
 
 OPER_SUPER_ADMIN_NOT_ENABLED
 	SuperAdmin muss in der services.conf eingeschaltet werden.

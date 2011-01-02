@@ -47,8 +47,8 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "EspaÒol (Spanish)" or "FranÁais (French)".
-# Translated by AUJAC (AssociaciÛ d'Usuaris de Java de Catalunya. http://www.aujac.org)
+# For example, "Espa√±ol (Spanish)" or "Fran√ßais (French)".
+# Translated by AUJAC (Associaci√≥ d'Usuaris de Java de Catalunya. http://www.aujac.org)
 LANG_NAME
 	Catala (Catalan)
 
@@ -119,7 +119,7 @@ STRFTIME_MONTHS_SHORT
 STRFTIME_MONTHS_LONG
 	Gener
 	Febrer
-	MarÁ
+	Mar√ß
 	Abril
 	Maig
 	Juny
@@ -138,24 +138,24 @@ COMMA_SPACE
 
 # Various error messages.
 USER_RECORD_NOT_FOUND
-	Error Intern - Impossible processar peticiÛ.
+	Error Intern - Impossible processar petici√≥.
 UNKNOWN_COMMAND
 	Comanda no coneguda %s.
 UNKNOWN_COMMAND_HELP
 	Comanda no coneguda %s. "%R%s HELP" per ajuda.
 SYNTAX_ERROR
-	Sint‡xis: %s
+	Sint√†xis: %s
 MORE_INFO
-	%R%s HELP %s per mÈs informaciÛ.
+	%R%s HELP %s per m√©s informaci√≥.
 NO_HELP_AVAILABLE
 	No existeix ajuda per %s.
 OBSOLETE_COMMAND
-	Aquesta comanda esta obsoleta; utilitzi %s en substituciÛ.
+	Aquesta comanda esta obsoleta; utilitzi %s en substituci√≥.
 
 BAD_USERHOST_MASK
 	La mascara ha de ser de la forma usuari@host.
 BAD_EXPIRY_TIME
-	Temps d'expiraciÛ inv‡lid.
+	Temps d'expiraci√≥ inv√†lid.
 USERHOST_MASK_TOO_WIDE
 	%s La cobertura es mes amplia; Per favor utilitzi una mascara mes especifica.
 
@@ -175,21 +175,21 @@ INVALID_TARGET
 # OperServ gets "Access denied", while a non-Services admin trying to use
 # NickServ SET NOEXPIRE gets "Permission denied".
 ACCESS_DENIED
-	accÈs denegat.
+	acc√©s denegat.
 PERMISSION_DENIED
 	Permis denegat.
 RAW_DISABLED
 	The RAW option has been disabled. If you must use it, enable the DisableRaw directive in Services configuration.
 
 MORE_OBSCURE_PASSWORD
-	Per favor intenti novamente amb una clau mes oculta. Les claus han de ser de com a mÌnim 5 car‡cters, no han de ser f‡cils d'encertar (ex. Nom real o Nick), i no poden contenir el car‡cter d'espai o tabulaciÛ.
+	Per favor intenti novamente amb una clau mes oculta. Les claus han de ser de com a m√≠nim 5 car√†cters, no han de ser f√†cils d'encertar (ex. Nom real o Nick), i no poden contenir el car√†cter d'espai o tabulaci√≥.
 PASSWORD_TOO_LONG
 	Your password is too long. Please try again with a shorter password.
 
 NICK_NOT_REGISTERED
 	El teu nick no esta registrat.
 NICK_NOT_REGISTERED_HELP
-	El teu nick no esta registrat. Escriu %R%s HELP per mes informaciÛ al registrat el teu nickname.
+	El teu nick no esta registrat. Escriu %R%s HELP per mes informaci√≥ al registrat el teu nickname.
 NICK_X_IS_SERVICES
 	Nick %s is part of this Network's Services.
 NICK_X_NOT_REGISTERED
@@ -223,11 +223,11 @@ CHAN_X_FORBIDDEN_OPER
 CHAN_X_SUSPENDED
 	      Suspended: [%s] %s
 NICK_IDENTIFY_REQUIRED
-	AutentificaciÛ per clau requerida per aquesta comanda.
-	Intenta un altre cop desprÈs de escriure %R%s IDENTIFY clau.
+	Autentificaci√≥ per clau requerida per aquesta comanda.
+	Intenta un altre cop despr√©s de escriure %R%s IDENTIFY clau.
 CHAN_IDENTIFY_REQUIRED
-	AutentificaciÛ per clau requerida per aquesta comanda.
-	Intenta de nou desprÈs d'escriure %R%s IDENTIFY %s clau.
+	Autentificaci√≥ per clau requerida per aquesta comanda.
+	Intenta de nou despr√©s d'escriure %R%s IDENTIFY %s clau.
 	
 MAIL_DISABLED
 	Els serveis han estat configurats per no enviar email
@@ -241,7 +241,7 @@ MAIL_DELAYED
 	Per favor espera %d segons i intenta un altre cop.
 	
 NO_REASON
-	Sense raÛ
+	Sense ra√≥
 UNKNOWN
 	<desconegut>
 
@@ -267,7 +267,7 @@ DURATION_SECONDS
 NO_EXPIRE
 	no expira
 EXPIRES_SOON
-	expira amb el prÚxim update de la base de dades
+	expira amb el pr√≤xim update de la base de dades
 EXPIRES_M
 	expira en %d minuts
 EXPIRES_1M
@@ -379,9 +379,9 @@ NICK_REG_DELAY
 NICK_GROUP_SYNTAX
 	GROUP grup clau
 NICK_GROUP_DISABLED
-	Ho sento, La agrupaciÛ de nicks esta temporalment inabilitada.
+	Ho sento, La agrupaci√≥ de nicks esta temporalment inabilitada.
 NICK_GROUP_FAILED
-	Ho sento, La agrupaciÛ de nicks ha fallat.
+	Ho sento, La agrupaci√≥ de nicks ha fallat.
 NICK_GROUP_PLEASE_WAIT
 	Per favor espera %d segons abans d'utilitzar la comanda GROUP novament.
 NICK_GROUP_CHANGE_DISABLED
@@ -391,7 +391,7 @@ NICK_GROUP_SAME
 NICK_GROUP_TOO_MANY
 	N'hi ha molts nicks en el grup de %s; lllistals i treu-ne alguns.
 	Escriu %R%s HELP GLIST i %R%s HELP DROP
-	per mÈs informaciÛ.
+	per m√©s informaci√≥.
 NICK_GROUP_JOINED
 	Ara ets membre en el grup de %s.
 
@@ -399,7 +399,7 @@ NICK_GROUP_JOINED
 NICK_IDENTIFY_SYNTAX
 	IDENTIFY clau
 NICK_IDENTIFY_FAILED
-	Ho sento, la identificaciÛ ha fallat.
+	Ho sento, la identificaci√≥ ha fallat.
 NICK_IDENTIFY_SUCCEEDED
 	Clau aceptada - Has estat reconegut.
 NICK_IDENTIFY_EMAIL_REQUIRED
@@ -445,11 +445,11 @@ NICK_SET_SYNTAX
 NICK_SET_SERVADMIN_SYNTAX
 	SET [nick] opcio per ametres
 NICK_SET_DISABLED
-	Ho sento, el seteig de OpciÛs per nicknames esta temporalment inhabilitat.
+	Ho sento, el seteig de Opci√≥s per nicknames esta temporalment inhabilitat.
 NICK_SET_UNKNOWN_OPTION
 	Opcio SET desconeguda %s.
 NICK_SET_OPTION_DISABLED
-	OpciÛ %s no pot ser establerta en aquesta xarxa.
+	Opci√≥ %s no pot ser establerta en aquesta xarxa.
 
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
@@ -471,7 +471,7 @@ NICK_SET_LANGUAGE_SYNTAX
 NICK_SET_LANGUAGE_UNKNOWN
 	Numero de llenguatge %d desconegut. Escriu %R%s HELP SET LANGUAGE per una lllista de llenguatges.
 NICK_SET_LANGUAGE_CHANGED
-	Llenguatge canviat a Catal‡.
+	Llenguatge canviat a Catal√†.
 
 # SET URL responses
 NICK_SET_URL_CHANGED
@@ -481,11 +481,11 @@ NICK_SET_URL_UNSET
 
 # SET EMAIL responses
 NICK_SET_EMAIL_CHANGED
-	AdreÁa E-mail canviada a %s.
+	Adre√ßa E-mail canviada a %s.
 NICK_SET_EMAIL_UNSET
-	AdreÁa E-mail no establerta.
+	Adre√ßa E-mail no establerta.
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
-	No pots establir la teva adreÁa e-mail en aquesta xarxa.
+	No pots establir la teva adre√ßa e-mail en aquesta xarxa.
 	
 # SET ICQ responses
 NICK_SET_ICQ_CHANGED
@@ -493,7 +493,7 @@ NICK_SET_ICQ_CHANGED
 NICK_SET_ICQ_UNSET
 	Numero ICQ no establert.
 NICK_SET_ICQ_INVALID
-	%s no es un numero v‡lid.
+	%s no es un numero v√†lid.
 	
 # SET GREET responses
 NICK_SET_GREET_CHANGED
@@ -507,47 +507,47 @@ NICK_SET_KILL_SYNTAX
 NICK_SET_KILL_IMMED_SYNTAX
 	SET KILL {ON | QUICK | IMMED | OFF}
 NICK_SET_KILL_ON
-	ProtecciÛ activada.
+	Protecci√≥ activada.
 NICK_SET_KILL_QUICK
-	La protecciÛ esta activada, amb demora reduida.
+	La protecci√≥ esta activada, amb demora reduida.
 NICK_SET_KILL_IMMED
-	La protecciÛ esta activada, sense demora.
+	La protecci√≥ esta activada, sense demora.
 NICK_SET_KILL_IMMED_DISABLED
-	L'opciÛ IMMED no esta disponible en aquesta xarxa.
+	L'opci√≥ IMMED no esta disponible en aquesta xarxa.
 NICK_SET_KILL_OFF
-	La protecciÛ esta desactivada.
+	La protecci√≥ esta desactivada.
 
 # SET SECURE responses
 NICK_SET_SECURE_SYNTAX
 	SET SECURE {ON | OFF}
 NICK_SET_SECURE_ON
-	L'opciÛ de seguretat esta activada.
+	L'opci√≥ de seguretat esta activada.
 NICK_SET_SECURE_OFF
-	L'opciÛ de seguretat esta desactivada.
+	L'opci√≥ de seguretat esta desactivada.
 
 # SET PRIVATE responses
 NICK_SET_PRIVATE_SYNTAX
 	SET PRIVATE {ON | OFF}
 NICK_SET_PRIVATE_ON
-	L'opciÛ de privacitat esta activada.
+	L'opci√≥ de privacitat esta activada.
 NICK_SET_PRIVATE_OFF
-	L'opciÛ de privacitat esta desactivada.
+	L'opci√≥ de privacitat esta desactivada.
 
 # SET HIDE responses
 NICK_SET_HIDE_SYNTAX
 	SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SET_HIDE_EMAIL_ON
-	La teva adreÁa e-mail no sera mostrada a %s INFO displays.
+	La teva adre√ßa e-mail no sera mostrada a %s INFO displays.
 NICK_SET_HIDE_EMAIL_OFF
-	La teva adreÁa e-mail sera mostrada a %s INFO displays.
+	La teva adre√ßa e-mail sera mostrada a %s INFO displays.
 NICK_SET_HIDE_MASK_ON
 	La teva ultima mascara usuari@host no sera mostrada a %s INFO displays.
 NICK_SET_HIDE_MASK_OFF
 	La teva ultima mascara usuari@host sera mostrada a %s INFO displays.
 NICK_SET_HIDE_QUIT_ON
-	El teu ˙ltim missatge quit no sera mostrat a %s INFO displays.
+	El teu √∫ltim missatge quit no sera mostrat a %s INFO displays.
 NICK_SET_HIDE_QUIT_OFF
-	El teu ˙ltim missatge quit sera mostrat a %s INFO displays.
+	El teu √∫ltim missatge quit sera mostrat a %s INFO displays.
 	
 # SET MSG responses
 NICK_SET_HIDE_STATUS_ON
@@ -714,19 +714,19 @@ NICK_SASET_LANGUAGE_CHANGED
 NICK_ACCESS_SYNTAX
 	ACCESS {ADD | DEL | LIST} [mascara]
 NICK_ACCESS_ALREADY_PRESENT
-	La mascara %s ja esta present a la teva lllista d'accÈs.
+	La mascara %s ja esta present a la teva lllista d'acc√©s.
 NICK_ACCESS_REACHED_LIMIT
-	Ho sento, sols pots tenir %d inst‡ncies a la teva lllista d'accÈs per nickname.
+	Ho sento, sols pots tenir %d inst√†ncies a la teva lllista d'acc√©s per nickname.
 NICK_ACCESS_ADDED
-	%s afegit a la teva lllista d'accÈs.
+	%s afegit a la teva lllista d'acc√©s.
 NICK_ACCESS_NOT_FOUND
-	%s no trobat a la teva lllista d'accÈs.
+	%s no trobat a la teva lllista d'acc√©s.
 NICK_ACCESS_DELETED
-	%s esborrat de la teva lllista d'accÈs.
+	%s esborrat de la teva lllista d'acc√©s.
 NICK_ACCESS_LIST
-	Lllista d'accÈs:
+	Lllista d'acc√©s:
 NICK_ACCESS_LIST_X
-	Lllista d'accÈs per %s:
+	Lllista d'acc√©s per %s:
 NICK_ACCESS_LIST_EMPTY
 	Your access list is empty.
 NICK_ACCESS_LIST_X_EMPTY
@@ -754,7 +754,7 @@ NICK_INFO_SERVICES_ADMIN
 NICK_INFO_SERVICES_ROOT
 	%s is a services root administrator.
 NICK_INFO_ADDRESS
-	Ultima adreÁa vista: %s
+	Ultima adre√ßa vista: %s
 NICK_INFO_ADDRESS_ONLINE
 	   Esta en linea desde: %s
 NICK_INFO_ADDRESS_ONLINE_NOHOST
@@ -764,11 +764,11 @@ NICK_INFO_TIME_REGGED
 NICK_INFO_LAST_SEEN
 	      Ultima vegada vist: %s
 NICK_INFO_LAST_QUIT
-	   Ÿltim missatge quit: %s
+	   √ôltim missatge quit: %s
 NICK_INFO_URL
 	                   URL: %s
 NICK_INFO_EMAIL
-	      		AdreÁa E-mail: %s
+	      		Adre√ßa E-mail: %s
 NICK_INFO_VHOST
 	            	vhost: %s
 NICK_INFO_VHOST2
@@ -778,12 +778,12 @@ NICK_INFO_ICQ
 NICK_INFO_GREET
 	 Missatge de benvinguda: %s
 NICK_INFO_OPTIONS
-	              OpciÛs: %s
+	              Opci√≥s: %s
 NICK_INFO_EXPIRE
 	Expires in: %s
 # These strings MUST NOT be empty
 NICK_INFO_OPT_KILL
-	ProtecciÛ
+	Protecci√≥
 NICK_INFO_OPT_SECURE
 	Segur
 NICK_INFO_OPT_PRIVATE
@@ -797,7 +797,7 @@ NICK_INFO_OPT_NONE
 NICK_INFO_NO_EXPIRE
 	Aquest nickname no caducara.
 NICK_INFO_FOR_MORE
-	Per mÈs informaciÛ, escriu %R%s INFO %s ALL.
+	Per m√©s informaci√≥, escriu %R%s INFO %s ALL.
 
 # LIST responses
 NICK_INFO_SUSPENDED
@@ -872,7 +872,7 @@ NICK_GHOST_KILLED
 NICK_GETPASS_SYNTAX
 	GETPASS nickname
 NICK_GETPASS_UNAVAILABLE
-	La comanda GETPASS no esta disponible per l'us d'encriptaciÛ.
+	La comanda GETPASS no esta disponible per l'us d'encriptaci√≥.
 NICK_GETPASS_PASSWORD_IS
 	La clau per %s es %s.
 
@@ -887,7 +887,7 @@ NICK_GETEMAIL_NOT_USED
 NICK_SENDPASS_SYNTAX
 	SENDPASS nickname
 NICK_SENDPASS_UNAVAILABLE
-	La comanda SENDPASS no esta disponible per l'us d'encriptaciÛ.
+	La comanda SENDPASS no esta disponible per l'us d'encriptaci√≥.
 NICK_SENDPASS_SUBJECT
 	Clau pel Nickname (%s)
 NICK_SENDPASS_HEAD
@@ -929,7 +929,7 @@ NICK_FORBID_SYNTAX_REASON
 NICK_FORBID_SUCCEEDED
 	El nick %s esta prohibit.
 NICK_FORBID_FAILED
-	La prohibiciÛ de %s no es possible!
+	La prohibici√≥ de %s no es possible!
 
 ###########################################################################
 #
@@ -979,13 +979,13 @@ NICK_FORCE_REG
 
 # Access level descriptions
 CHAN_LEVEL_AUTOOP
-	Status autom‡tic d'operador de canal
+	Status autom√†tic d'operador de canal
 CHAN_LEVEL_AUTOVOICE
-	Mode autom‡tico +v
+	Mode autom√†tico +v
 CHAN_LEVEL_AUTOHALFOP
-	Mode autom‡tic +h
+	Mode autom√†tic +h
 CHAN_LEVEL_AUTOPROTECT
-	Mode autom‡tic +a
+	Mode autom√†tic +a
 CHAN_LEVEL_AUTODEOP
 	Status d'operador de canal inhabilitat
 CHAN_LEVEL_NOJOIN
@@ -1003,9 +1003,9 @@ CHAN_LEVEL_UNBAN
 CHAN_LEVEL_OPDEOP
 	Abilitat a utilitzar la comanda OP/DEOP
 CHAN_LEVEL_ACCESS_LIST
-	Abilitat a veure la lllista de accÈs
+	Abilitat a veure la lllista de acc√©s
 CHAN_LEVEL_ACCESS_CHANGE
-	Abilitat a modificar la lllista de accÈs
+	Abilitat a modificar la lllista de acc√©s
 CHAN_LEVEL_MEMO
 	Abilitat a llistar/llegir memos del canal
 CHAN_LEVEL_ASSIGN
@@ -1050,7 +1050,7 @@ CHAN_LEVEL_TOPIC
 	Autoritzat a utilitzar la comanda TOPIC
 CHAN_LEVEL_INFO
 	Autoritzar a utilitzar La comanda INFO amb
-	l'opciÛ ALL
+	l'opci√≥ ALL
 
 # Automatic responses
 CHAN_IS_REGISTERED
@@ -1068,13 +1068,13 @@ CHAN_X_INVALID
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
-	REGISTER canal clau descripciÛ
+	REGISTER canal clau descripci√≥
 CHAN_REGISTER_DISABLED
 	Ho sento, el registre de canals esta temporalment inhabilitat.
 CHAN_REGISTER_NOT_LOCAL
 	Canals locals no poden ser enregistrats.
 CHAN_MUST_REGISTER_NICK
-	Has de registrar el teu nickname primer. Escriu %R%s HELP per mÈs informaciÛ de com registrar nicknames.
+	Has de registrar el teu nickname primer. Escriu %R%s HELP per m√©s informaci√≥ de com registrar nicknames.
 CHAN_MUST_IDENTIFY_NICK
 	Per favor primer identifica't amb %s, utilitzant la comanda:
 	%R%s IDENTIFY clau
@@ -1085,11 +1085,11 @@ CHAN_ALREADY_REGISTERED
 CHAN_MUST_BE_CHANOP
 	Has de ser un operador de canal per registrar el canal.
 CHAN_REACHED_CHANNEL_LIMIT
-	Ho sento, has arribat al teu lÌmit de %d canals.
+	Ho sento, has arribat al teu l√≠mit de %d canals.
 CHAN_EXCEEDED_CHANNEL_LIMIT
-	Ho sento, has sobrepassat el teu lÌmit de %d canals.
+	Ho sento, has sobrepassat el teu l√≠mit de %d canals.
 CHAN_REGISTRATION_FAILED
-	Ho sento, la registraciÛ ha fallat.
+	Ho sento, la registraci√≥ ha fallat.
 CHAN_REGISTERED
 	El canal %s esta registrat sota el teu nickname: %s
 CHAN_PASSWORD_IS
@@ -1104,7 +1104,7 @@ CHAN_SYMBOL_REQUIRED
 CHAN_IDENTIFY_SYNTAX
 	IDENTIFY canal clau
 CHAN_IDENTIFY_FAILED
-	Ho sento, la identificaciÛ ha fallat.
+	Ho sento, la identificaci√≥ ha fallat.
 CHAN_IDENTIFY_SUCCEEDED
 	Clau aceptada - ara tens nivell de fundador a %s.
 
@@ -1130,11 +1130,11 @@ CHAN_DROPPED
 
 # SET responses
 CHAN_SET_SYNTAX
-	SET canal opciÛ per ametres
+	SET canal opci√≥ per ametres
 CHAN_SET_DISABLED
-	Ho sento, l'establiment d'OpciÛs de canal esta temporalment deshAbilitat.
+	Ho sento, l'establiment d'Opci√≥s de canal esta temporalment deshAbilitat.
 CHAN_SET_UNKNOWN_OPTION
-	OpciÛ SET %s desconoceguda.
+	Opci√≥ SET %s desconoceguda.
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
@@ -1160,7 +1160,7 @@ CHAN_PASSWORD_CHANGED_TO
 
 # SET DESC responses
 CHAN_DESC_CHANGED
-	La descripciÛ de %s canviada a%s.
+	La descripci√≥ de %s canviada a%s.
 
 # SET URL responses
 CHAN_URL_CHANGED
@@ -1170,9 +1170,9 @@ CHAN_URL_UNSET
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
-	AdreÁa e-mail per a %s canviada a %s.
+	Adre√ßa e-mail per a %s canviada a %s.
 CHAN_EMAIL_UNSET
-	AdreÁa e-mail per a %s no establerta.
+	Adre√ßa e-mail per a %s no establerta.
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
@@ -1188,11 +1188,11 @@ CHAN_SET_BANTYPE_CHANGED
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
-	Car‡cter de Mode %c desconegut i ignorat.
+	Car√†cter de Mode %c desconegut i ignorat.
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
-	Mode %c ignorat per que no pots øøølockerjar-lo???.
+	Mode %c ignorat per que no pots ¬ø¬ø¬ølockerjar-lo???.
 CHAN_SET_MLOCK_L_REQUIRED
-	Has d'utilitzar Mode de lock +l tambÈ pel Mode
+	Has d'utilitzar Mode de lock +l tamb√© pel Mode
 	de lock +L.
 CHAN_SET_MLOCK_K_REQUIRED
 	Has d'utilitzar Mode de lock +i tambe pel Mode
@@ -1301,41 +1301,41 @@ CHAN_SET_NOEXPIRE_OFF
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
-	Ho sento, sols pots tenir %d inst‡ncies de AOP/SOP/VOP
+	Ho sento, sols pots tenir %d inst√†ncies de AOP/SOP/VOP
 	en un canal.
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
 	No pots utilitzar aquesta comanda. Utilitza la comanda ACCESS.
-	Escriu %R%s HELP ACCESS per mÈs informaciÛ.
+	Escriu %R%s HELP ACCESS per m√©s informaci√≥.
 CHAN_XOP_NOT_AVAILABLE
 	xOP system is not available.
 
 # AOP messages
 CHAN_AOP_SYNTAX
-	AOP canal {ADD|DEL|LIST|CLEAR} [nick | inst‡ncia]
+	AOP canal {ADD|DEL|LIST|CLEAR} [nick | inst√†ncia]
 CHAN_AOP_DISABLED
-	Ho sento, la modificaciÛ de la llista AOP de canals esta
+	Ho sento, la modificaci√≥ de la llista AOP de canals esta
 	temporalment deshabilitada.
 CHAN_AOP_NICKS_ONLY
-	La llista de AOP de canals nomËs pot contenir nicks
+	La llista de AOP de canals nom√®s pot contenir nicks
 	registrats.
 CHAN_AOP_ADDED
 	%s afegit a la llista AOP de %s.
 CHAN_AOP_MOVED
 	%s moved to %s AOP list.
 CHAN_AOP_NO_SUCH_ENTRY
-	No existeix la inst‡ncia (#%d) a la llista AOP de %s.
+	No existeix la inst√†ncia (#%d) a la llista AOP de %s.
 CHAN_AOP_NOT_FOUND
 	%s no trobat a la llista AOP de %s.
 CHAN_AOP_NO_MATCH
-	No existeixen inst‡ncies coincidents a la llista AOP de %s.
+	No existeixen inst√†ncies coincidents a la llista AOP de %s.
 CHAN_AOP_DELETED
 	%s esborrat de la llista AOP de %s.
 CHAN_AOP_DELETED_ONE
-	1 inst‡ncia esborrada de la llista AOP de %s.
+	1 inst√†ncia esborrada de la llista AOP de %s.
 CHAN_AOP_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista AOP de %s.
+	%d inst√†ncies esborrades de la llista AOP de %s.
 CHAN_AOP_LIST_EMPTY
 	La llista AOP de %s esta buida.
 CHAN_AOP_LIST_HEADER
@@ -1348,7 +1348,7 @@ CHAN_AOP_CLEAR
 CHAN_HOP_SYNTAX
 	HOP canal {ADD|DEL|LIST|CLEAR} [nick | llista]
 CHAN_HOP_DISABLED
-	Ho sento, la modificaciÛ de llistes HOP de canals esta
+	Ho sento, la modificaci√≥ de llistes HOP de canals esta
 	temporalment deshabilitada.
 CHAN_HOP_NICKS_ONLY
 	Llistes HOP de canals sols pot tenir nicks registrats.
@@ -1357,17 +1357,17 @@ CHAN_HOP_ADDED
 CHAN_HOP_MOVED
 	%s moved to %s HOP list.
 CHAN_HOP_NO_SUCH_ENTRY
-	No existeix la inst‡ncia (#%d) a la llista HOP de %s.
+	No existeix la inst√†ncia (#%d) a la llista HOP de %s.
 CHAN_HOP_NOT_FOUND
 	%s no trobat a la llista HOP de %s.
 CHAN_HOP_NO_MATCH
-	No existeixen inst‡ncies coincidents a la llista HOP de %s.
+	No existeixen inst√†ncies coincidents a la llista HOP de %s.
 CHAN_HOP_DELETED
 	%s esborrat de la llista HOP de %s.
 CHAN_HOP_DELETED_ONE
-	1 inst‡ncia esborrada de la llista HOP de %s.
+	1 inst√†ncia esborrada de la llista HOP de %s.
 CHAN_HOP_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista HOP de %s.
+	%d inst√†ncies esborrades de la llista HOP de %s.
 CHAN_HOP_LIST_EMPTY
 	La llista HOP de %s esta buida.
 CHAN_HOP_LIST_HEADER
@@ -1380,7 +1380,7 @@ CHAN_HOP_CLEAR
 CHAN_SOP_SYNTAX
 	SOP canal {ADD|DEL|LIST|CLEAR} [nick | llista]
 CHAN_SOP_DISABLED
-	Ho sento, la modificaciÛ de la llista SOP de canals esta
+	Ho sento, la modificaci√≥ de la llista SOP de canals esta
 	temporalment deshabilitada.
 CHAN_SOP_NICKS_ONLY
 	Llistes SOP de canals sols pot tenir nicks registrats.
@@ -1389,17 +1389,17 @@ CHAN_SOP_ADDED
 CHAN_SOP_MOVED
 	%s moved to %s SOP list.
 CHAN_SOP_NO_SUCH_ENTRY
-	No existeix la inst‡ncia (#%d) a la llista SOP de %s.
+	No existeix la inst√†ncia (#%d) a la llista SOP de %s.
 CHAN_SOP_NOT_FOUND
 	%s no trobat a la llista SOP de %s.
 CHAN_SOP_NO_MATCH
-	No existeixen inst‡ncies coincidents a la llista SOP de %s.
+	No existeixen inst√†ncies coincidents a la llista SOP de %s.
 CHAN_SOP_DELETED
 	%s esborrat de la llista SOP de %s.
 CHAN_SOP_DELETED_ONE
-	1 inst‡ncia esborrada de la llista SOP de %s.
+	1 inst√†ncia esborrada de la llista SOP de %s.
 CHAN_SOP_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista SOP de %s.
+	%d inst√†ncies esborrades de la llista SOP de %s.
 CHAN_SOP_LIST_EMPTY
 	La llista SOP de %s esta buida.
 CHAN_SOP_LIST_HEADER
@@ -1412,7 +1412,7 @@ CHAN_SOP_CLEAR
 CHAN_VOP_SYNTAX
 	VOP canal {ADD|DEL|LIST|CLEAR} [nick | llista]
 CHAN_VOP_DISABLED
-	Ho sento, la modificaciÛ de la llista VOP de canals esta
+	Ho sento, la modificaci√≥ de la llista VOP de canals esta
 	temporalment deshabilitada.
 CHAN_VOP_NICKS_ONLY
 	Llistes VOP de canals sols pot tenir nicks registrats.
@@ -1421,17 +1421,17 @@ CHAN_VOP_ADDED
 CHAN_VOP_MOVED
 	%s moved to %s VOP list.
 CHAN_VOP_NO_SUCH_ENTRY
-	No existeix la inst‡ncia (#%d) a la llista VOP de %s.
+	No existeix la inst√†ncia (#%d) a la llista VOP de %s.
 CHAN_VOP_NOT_FOUND
 	%s no trobat a la llista VOP de %s.
 CHAN_VOP_NO_MATCH
-	No existeixen inst‡ncies coincidents a la llista VOP de %s.
+	No existeixen inst√†ncies coincidents a la llista VOP de %s.
 CHAN_VOP_DELETED
 	%s esborrat de la llista VOP de %s.
 CHAN_VOP_DELETED_ONE
-	1 inst‡ncia esborrada de la llista VOP de %s.
+	1 inst√†ncia esborrada de la llista VOP de %s.
 CHAN_VOP_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista VOP de %s.
+	%d inst√†ncies esborrades de la llista VOP de %s.
 CHAN_VOP_LIST_EMPTY
 	La llista VOP de %s esta buida.
 CHAN_VOP_LIST_HEADER
@@ -1446,84 +1446,84 @@ CHAN_ACCESS_SYNTAX
 CHAN_ACCESS_XOP
 	No pots utilitzar aquest comanda.
 	Utilitza les comandes AOP, SOP i VOP.
-	Escriu %R%s HELP comanda per a mÈs informaciÛ.
+	Escriu %R%s HELP comanda per a m√©s informaci√≥.
 CHAN_ACCESS_XOP_HOP
 	You can't use this command. 
 	Use the AOP, SOP, HOP and VOP commands instead.
 	Type %R%s HELP command for more information.
 CHAN_ACCESS_DISABLED
-	Ho sento, la modificaciÛ d'accÈs a canals esta temporalment inabilitada.
+	Ho sento, la modificaci√≥ d'acc√©s a canals esta temporalment inabilitada.
 CHAN_ACCESS_LEVEL_NONZERO
-	El nivell de accÈs no pot ser zero.
+	El nivell de acc√©s no pot ser zero.
 CHAN_ACCESS_LEVEL_RANGE
-	El nivell d'accÈs ha de ser entre %d i %d inclosos.
+	El nivell d'acc√©s ha de ser entre %d i %d inclosos.
 CHAN_ACCESS_NICKS_ONLY
-	Las llistes de accÈs a canals sols pot contenir nicks registrats.
+	Las llistes de acc√©s a canals sols pot contenir nicks registrats.
 CHAN_ACCESS_REACHED_LIMIT
-	Ho sento, sols pots tenir %d inst‡ncies d'accÈs en un determinat canal.
+	Ho sento, sols pots tenir %d inst√†ncies d'acc√©s en un determinat canal.
 CHAN_ACCESS_LEVEL_UNCHANGED
-	Nivell d'accÈs per a %s en %s no cambiada de %d.
+	Nivell d'acc√©s per a %s en %s no cambiada de %d.
 CHAN_ACCESS_LEVEL_CHANGED
-	Nivell d'accÈs per a %s en %s cambiada a %d.
+	Nivell d'acc√©s per a %s en %s cambiada a %d.
 CHAN_ACCESS_ADDED
-	%s afegit a la llista d'accÈs de %s amb nivel %d.
+	%s afegit a la llista d'acc√©s de %s amb nivel %d.
 CHAN_ACCESS_NO_SUCH_ENTRY
-	No existeix (#%d) a la llista d'accÈs de %s.
+	No existeix (#%d) a la llista d'acc√©s de %s.
 CHAN_ACCESS_NOT_FOUND
-	%s no trobat a la llista d'accÈs de %s.
+	%s no trobat a la llista d'acc√©s de %s.
 CHAN_ACCESS_NO_MATCH
-	No hi ha inst‡ncies que concordin a la llista d'accÈs de %s .
+	No hi ha inst√†ncies que concordin a la llista d'acc√©s de %s .
 CHAN_ACCESS_DELETED
-	%s esborrat de la llista d'accÈs de %s.
+	%s esborrat de la llista d'acc√©s de %s.
 CHAN_ACCESS_DELETED_ONE
-	1 inst‡ncia esborrada de la llista d'accÈs de %s.
+	1 inst√†ncia esborrada de la llista d'acc√©s de %s.
 CHAN_ACCESS_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista d'accÈs de %s.
+	%d inst√†ncies esborrades de la llista d'acc√©s de %s.
 CHAN_ACCESS_LIST_EMPTY
-	La llista d'accÈs de %s esta buida.
+	La llista d'acc√©s de %s esta buida.
 CHAN_ACCESS_LIST_HEADER
-	Llista d'accÈs per a %s:
+	Llista d'acc√©s per a %s:
 	  Num   Niv  Nick
 CHAN_ACCESS_LIST_FOOTER
-	fi de llista d'accÈs.
+	fi de llista d'acc√©s.
 CHAN_ACCESS_LIST_XOP_FORMAT
 	  %3d   %s  %s
 CHAN_ACCESS_LIST_AXS_FORMAT
 	  %3d  %4d  %s
 CHAN_ACCESS_CLEAR
-	La llista d'accÈs pel canal %s ha estat netegada.
+	La llista d'acc√©s pel canal %s ha estat netegada.
 
 # AKICK responses
 CHAN_AKICK_SYNTAX
 	AKICK canal {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-o-mascara] [rao]
 CHAN_AKICK_DISABLED
-	Ho sento, la modificaciÛ de kicks autom‡tics a canals esta temporalment inabilitada.
+	Ho sento, la modificaci√≥ de kicks autom√†tics a canals esta temporalment inabilitada.
 CHAN_AKICK_ALREADY_EXISTS
-	%s ja esta present a la llista de kick autom‡tic en el canal %s.
+	%s ja esta present a la llista de kick autom√†tic en el canal %s.
 CHAN_AKICK_REACHED_LIMIT
-	Ho sento, sols pots tenir %d mascaras per a kicks autom‡tics a un canal.
+	Ho sento, sols pots tenir %d mascaras per a kicks autom√†tics a un canal.
 CHAN_AKICK_ADDED
-	%s afegit a la llista de kicks autom‡tics en el canal %s.
+	%s afegit a la llista de kicks autom√†tics en el canal %s.
 CHAN_AKICK_NO_SUCH_ENTRY
-	La inst‡ncia (#%d) no existeix a la llista de kicks autom‡tics en el canal %s.
+	La inst√†ncia (#%d) no existeix a la llista de kicks autom√†tics en el canal %s.
 CHAN_AKICK_NOT_FOUND
-	%s no trobat a la llista de kicks autom‡tics en el canal %s.
+	%s no trobat a la llista de kicks autom√†tics en el canal %s.
 CHAN_AKICK_NO_MATCH
-	No existeixen inst‡ncies que concordin a la llista de kicks autom‡tics en el canal %s.
+	No existeixen inst√†ncies que concordin a la llista de kicks autom√†tics en el canal %s.
 CHAN_AKICK_STUCK
 	%s esta ara sempre actiu en el canal %s.
 CHAN_AKICK_UNSTUCK
 	%s ja no esta sempre actiu en el canal %s.
 CHAN_AKICK_DELETED
-	%s esborrat de la llista de kicks autom‡tics del canal %s.
+	%s esborrat de la llista de kicks autom√†tics del canal %s.
 CHAN_AKICK_DELETED_ONE
-	1 inst‡ncia esborrada de la llista de kicks autom‡tics del canal %s.
+	1 inst√†ncia esborrada de la llista de kicks autom√†tics del canal %s.
 CHAN_AKICK_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista de kicks autom‡tics del canal %s.
+	%d inst√†ncies esborrades de la llista de kicks autom√†tics del canal %s.
 CHAN_AKICK_LIST_EMPTY
-	La llista de kicks autom‡tics del canal %s esta buida.
+	La llista de kicks autom√†tics del canal %s esta buida.
 CHAN_AKICK_LIST_HEADER
-	Llista de kicks autom‡tics pel canal %s:
+	Llista de kicks autom√†tics pel canal %s:
 CHAN_AKICK_LIST_FORMAT
 	  %3d %s (%s)
 CHAN_AKICK_VIEW_FORMAT
@@ -1535,7 +1535,7 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 CHAN_AKICK_ENFORCE_DONE
 	AKICK ENFORCE en %s completa; %d usuaris afectats.
 CHAN_AKICK_CLEAR
-	La llista de kicks autom‡tics en canal %s ha estat netegada.
+	La llista de kicks autom√†tics en canal %s ha estat netegada.
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
@@ -1547,19 +1547,19 @@ CHAN_LEVELS_RANGE
 CHAN_LEVELS_CHANGED
 	Nivell per a %s en el canal %s cambiat a %d.
 CHAN_LEVELS_UNKNOWN
-	OpciÛ %s no coneguda. Escriu %R%s HELP LEVELS DESC per a una llista de opciÛns valides.
+	Opci√≥ %s no coneguda. Escriu %R%s HELP LEVELS DESC per a una llista de opci√≥ns valides.
 CHAN_LEVELS_DISABLED
 	%s inhabilitat(s) en el canal %s.
 CHAN_LEVELS_LIST_HEADER
-	Opcions del nivell d'accÈs pel canal %s:
+	Opcions del nivell d'acc√©s pel canal %s:
 CHAN_LEVELS_LIST_DISABLED
 	    %-*s  (inhabilitat)
 CHAN_LEVELS_LIST_FOUNDER
-	    %-*s  (nomËs el fundador)
+	    %-*s  (nom√®s el fundador)
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 CHAN_LEVELS_RESET
-	Nivells d'accÈs per a %s canviats als valors originals.
+	Nivells d'acc√©s per a %s canviats als valors originals.
 
 # Status Messages
 CHAN_STATUS_SYNTAX
@@ -1577,7 +1577,7 @@ CHAN_STATUS_INFO
 CHAN_INFO_SYNTAX
 	INFO canal [ALL]
 CHAN_INFO_HEADER
-	InformaciÛ pel canal %s:
+	Informaci√≥ pel canal %s:
 CHAN_INFO_FOUNDER
 	          Fundador: %s (%s)
 CHAN_INFO_NO_FOUNDER
@@ -1587,35 +1587,35 @@ CHAN_INFO_SUCCESSOR
 CHAN_INFO_NO_SUCCESSOR
 	           Successor: %s
 CHAN_INFO_DESCRIPTION
-	       DescripciÛ: %s
+	       Descripci√≥: %s
 CHAN_INFO_ENTRYMSG
 	Missatge d'entrada: %s
 CHAN_INFO_TIME_REGGED
 	        Registrat: %s
 CHAN_INFO_LAST_USED
-	  ⁄ltim cop utilitzat: %s
+	  √öltim cop utilitzat: %s
 CHAN_INFO_LAST_TOPIC
-	      ⁄ltim tÚpic: %s
+	      √öltim t√≤pic: %s
 CHAN_INFO_TOPIC_SET_BY
-	 TÚpic establert per: %s
+	 T√≤pic establert per: %s
 CHAN_INFO_URL
 	               URL: %s
 CHAN_INFO_EMAIL
-	  AdreÁa e-mail: %s
+	  Adre√ßa e-mail: %s
 CHAN_INFO_BANTYPE
 	       Tipus de ban: %d
 CHAN_INFO_OPTIONS
 	          Opcions: %s
 CHAN_INFO_OPT_KEEPTOPIC
-	RetenciÛ de tÚpic
+	Retenci√≥ de t√≤pic
 CHAN_INFO_OPT_OPNOTICE
-	NotÌcia de OP
+	Not√≠cia de OP
 CHAN_INFO_OPT_PEACE
 	Pau
 CHAN_INFO_OPT_PRIVATE
 	Privat
 CHAN_INFO_OPT_RESTRICTED
-	accÈs restringit
+	acc√©s restringit
 CHAN_INFO_OPT_SECURE
 	Segur
 CHAN_INFO_OPT_SECUREOPS
@@ -1625,7 +1625,7 @@ CHAN_INFO_OPT_SECUREFOUNDER
 CHAN_INFO_OPT_SIGNKICK
 	Kicks Signats
 CHAN_INFO_OPT_TOPICLOCK
-	Lock de tÚpic
+	Lock de t√≤pic
 CHAN_INFO_OPT_XOP
 	Sistema de llistes xOP
 CHAN_INFO_OPT_NONE
@@ -1639,15 +1639,15 @@ CHAN_INFO_NO_EXPIRE
 
 # LIST responses
 CHAN_LIST_SYNTAX
-	LIST patrÛ
+	LIST patr√≥
 CHAN_LIST_SERVADMIN_SYNTAX
-	LIST patrÛ [FORBIDDEN] [NOEXPIRE]
+	LIST patr√≥ [FORBIDDEN] [NOEXPIRE]
 CHAN_LIST_HEADER
-	Llista de inst‡ncies concordant a %s:
+	Llista de inst√†ncies concordant a %s:
 CHAN_LIST_FORMAT
 	    %-20s  %s
 CHAN_LIST_END
-	Fi de la llista - %d/%d concord‡ncia(es) mostrada(es).
+	Fi de la llista - %d/%d concord√†ncia(es) mostrada(es).
 	
 # CLIST responses
 CHAN_INVITE_SYNTAX
@@ -1661,7 +1661,7 @@ CHAN_UNBANNED
 
 # TOPIC responses
 CHAN_TOPIC_SYNTAX
-	TOPIC canal [tÚpic]
+	TOPIC canal [t√≤pic]
 
 # CLEAR responses
 CHAN_CLEAR_SYNTAX
@@ -1687,7 +1687,7 @@ CHAN_CLEARED_INVITES
 CHAN_GETPASS_SYNTAX
 	GETPASS canal
 CHAN_GETPASS_UNAVAILABLE
-	Comanda GETPASS no permessa per que encriptaciÛ esta en ˙s.
+	Comanda GETPASS no permessa per que encriptaci√≥ esta en √∫s.
 CHAN_GETPASS_PASSWORD_IS
 	La clau pel canal %s es %s.
 	
@@ -1703,7 +1703,7 @@ CHAN_GETKEY_KEY
 CHAN_SENDPASS_SYNTAX
 	SENDPASS canal
 CHAN_SENDPASS_UNAVAILABLE
-	Comanda SENDPASS no permessa per que encriptaciÛ esta en ˙s.
+	Comanda SENDPASS no permessa per que encriptaci√≥ esta en √∫s.
 CHAN_SENDPASS_SUBJECT
 	Clau del canal (%s)
 CHAN_SENDPASS_HEAD
@@ -1723,9 +1723,9 @@ CHAN_SENDPASS_OK
 
 # FORBID responses
 CHAN_FORBID_SYNTAX
-	FORBID canal [raÛ]
+	FORBID canal [ra√≥]
 CHAN_FORBID_SYNTAX_REASON
-	FORBID canal raÛ
+	FORBID canal ra√≥
 CHAN_FORBID_SUCCEEDED
 	Canal %s ara prohibit.
 CHAN_FORBID_FAILED
@@ -1773,15 +1773,15 @@ MEMO_HAVE_NEW_MEMO
 MEMO_HAVE_NEW_MEMOS
 	Tens %d memos nous.
 MEMO_TYPE_READ_LAST
-	Escriu %R%s READ LAST per llegir el teu ˙ltim memo.
+	Escriu %R%s READ LAST per llegir el teu √∫ltim memo.
 MEMO_TYPE_READ_NUM
 	Escriu %R%s READ %d per a llegir-lo.
 MEMO_TYPE_LIST_NEW
 	Escriu %R%s LIST NEW per a llistar els teus memos.
 MEMO_AT_LIMIT
-	AdvertËncia: Has assolit el m‡xim numero de memos (%d). No podras rebre mes memos fins que esborris alguns dels existents.
+	Advert√®ncia: Has assolit el m√†xim numero de memos (%d). No podras rebre mes memos fins que esborris alguns dels existents.
 MEMO_OVER_LIMIT
-	AdvertËncia: Has sobrepassat el m‡ximo numero de memos (%d). Et resultara impossible rebre mÈs memos fins que esborris alguns dels existents.
+	Advert√®ncia: Has sobrepassat el m√†ximo numero de memos (%d). Et resultara impossible rebre m√©s memos fins que esborris alguns dels existents.
 MEMO_X_MANY_NOTICE
 	There are %d memos on channel %s.
 MEMO_X_ONE_NOTICE
@@ -1829,7 +1829,7 @@ MEMO_STAFF_SYNTAX
 MEMO_CANCEL_SYNTAX
 	CANCEL {nick | canal}
 MEMO_CANCEL_DISABLED
-	Ho sento, la cancel.laciÛ de memos esta temporalment inabilitada.
+	Ho sento, la cancel.laci√≥ de memos esta temporalment inabilitada.
 MEMO_CANCEL_NONE
 	Cap memo pot ser cancelat.
 MEMO_CANCELLED
@@ -1883,11 +1883,11 @@ MEMO_CHAN_DELETED_ALL
 
 # SET responses
 MEMO_SET_SYNTAX
-	SET OpciÛ parametres
+	SET Opci√≥ parametres
 MEMO_SET_DISABLED
 	Ho sento, l'establiment d'opcions per a memos esta temporalment inhabilitat.
 MEMO_SET_UNKNOWN_OPTION
-	OpciÛ SET %s desconeguda.
+	Opci√≥ SET %s desconeguda.
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
@@ -1899,7 +1899,7 @@ MEMO_SET_NOTIFY_LOGON
 MEMO_SET_NOTIFY_NEW
 	%s ara te notificara dels teus memos quant se t'enviin.
 MEMO_SET_NOTIFY_OFF
-	%s no t'enviara cap notificaciÛ dels teus memos.
+	%s no t'enviara cap notificaci√≥ dels teus memos.
 
 # SET LIMIT responses
 MEMO_SET_NOTIFY_MAIL
@@ -1911,31 +1911,31 @@ MEMO_SET_NOTIFY_INVALIDMAIL
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
-	SET LIMIT [canal] lÌmit
+	SET LIMIT [canal] l√≠mit
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
-	SET LIMIT [usuari | canal] {lÌmit | NONE} [HARD]
+	SET LIMIT [usuari | canal] {l√≠mit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	No estas autoritzat a canviar el teu lÌmit de memos.
+	No estas autoritzat a canviar el teu l√≠mit de memos.
 MEMO_SET_LIMIT_FORBIDDEN
-	El lÌmit de memos per a %s no pot ser canviat.
+	El l√≠mit de memos per a %s no pot ser canviat.
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	No pots establir el teu lÌmit de memos a mes de %d.
+	No pots establir el teu l√≠mit de memos a mes de %d.
 MEMO_SET_LIMIT_TOO_HIGH
-	No pots establir el lÌmite de memos per %s mes de %d.
+	No pots establir el l√≠mite de memos per %s mes de %d.
 MEMO_SET_LIMIT_OVERFLOW
-	LÌmit de memos molt alt; limitant-lo a %d.
+	L√≠mit de memos molt alt; limitant-lo a %d.
 MEMO_SET_YOUR_LIMIT
-	El teu lÌmite de memos ha estat establert a %d.
+	El teu l√≠mite de memos ha estat establert a %d.
 MEMO_SET_YOUR_LIMIT_ZERO
-	No et sera possible rebre mÈs memos.
+	No et sera possible rebre m√©s memos.
 MEMO_UNSET_YOUR_LIMIT
-	El teu lÌmit de memos ha estat deshabilitat.
+	El teu l√≠mit de memos ha estat deshabilitat.
 MEMO_SET_LIMIT
-	LÌmite de memos per a %s establert a %d.
+	L√≠mite de memos per a %s establert a %d.
 MEMO_SET_LIMIT_ZERO
-	LÌmit de memos per a %s establert a 0.
+	L√≠mit de memos per a %s establert a 0.
 MEMO_UNSET_LIMIT
-	LÌmit de memos per a %s deshabilitat.
+	L√≠mit de memos per a %s deshabilitat.
 
 # INFO responses
 MEMO_INFO_SYNTAX
@@ -1957,23 +1957,23 @@ MEMO_INFO_MEMOS_SOME_UNREAD
 MEMO_INFO_MEMOS_ALL_UNREAD
 	Tens %d memos, cap d'ells llegit.
 MEMO_INFO_LIMIT
-	El teu lÌmit de memos es %d.
+	El teu l√≠mit de memos es %d.
 MEMO_INFO_HARD_LIMIT
-	El teu lÌmit de memos es %d i no pot ser canviat.
+	El teu l√≠mit de memos es %d i no pot ser canviat.
 MEMO_INFO_LIMIT_ZERO
-	El teu lÌmit de memos es 0; no rebr‡s nous memos.
+	El teu l√≠mit de memos es 0; no rebr√†s nous memos.
 MEMO_INFO_HARD_LIMIT_ZERO
-	El teu lÌmit de memos es 0; no rebr‡s nous memos. No pots cambiar aquest lÌmit.
+	El teu l√≠mit de memos es 0; no rebr√†s nous memos. No pots cambiar aquest l√≠mit.
 MEMO_INFO_NO_LIMIT
-	No tens lÌmit en el numero de memos que pots mantenir.
+	No tens l√≠mit en el numero de memos que pots mantenir.
 MEMO_INFO_NOTIFY_OFF
-	No ser‡s notificat per memos nous.
+	No ser√†s notificat per memos nous.
 MEMO_INFO_NOTIFY_ON
-	Ser‡s notificat per nous memos quant et conectis i quant se t'enviin.
+	Ser√†s notificat per nous memos quant et conectis i quant se t'enviin.
 MEMO_INFO_NOTIFY_RECEIVE
-	Ser‡s notificat quan els memos nous se t'enviin.
+	Ser√†s notificat quan els memos nous se t'enviin.
 MEMO_INFO_NOTIFY_SIGNON
-	Ser‡s notificat per memos nous quant et conectis.
+	Ser√†s notificat per memos nous quant et conectis.
 MEMO_INFO_X_NO_MEMOS
 	%s no te memos.
 MEMO_INFO_X_MEMO
@@ -1989,17 +1989,17 @@ MEMO_INFO_X_MEMOS_SOME_UNREAD
 MEMO_INFO_X_MEMOS_ALL_UNREAD
 	%s actualment te %d memos, dels quals cap ha estat llegit.
 MEMO_INFO_X_LIMIT
-	El lÌmit de memos per a %s es %d.
+	El l√≠mit de memos per a %s es %d.
 MEMO_INFO_X_HARD_LIMIT
-	El lÌmit de memos per a %s es %d, i no pot ser canviat.
+	El l√≠mit de memos per a %s es %d, i no pot ser canviat.
 MEMO_INFO_X_NO_LIMIT
-	%s no te lÌmit per a memos.
+	%s no te l√≠mit per a memos.
 MEMO_INFO_X_NOTIFY_OFF
 	%s no es notificat per memos nous.
 MEMO_INFO_X_NOTIFY_ON
-	%s es notificat per memos nous quant es connecta i quant li sÛn enviats.
+	%s es notificat per memos nous quant es connecta i quant li s√≥n enviats.
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s es notificat quant nous memos li sÛn enviats.
+	%s es notificat quant nous memos li s√≥n enviats.
 MEMO_INFO_X_NOTIFY_SIGNON
 	%s es notificat de nous memos quant es connecta.
 	
@@ -2077,7 +2077,7 @@ BOT_DOES_NOT_EXIST
 	El bot %s no existeix.
 BOT_NOT_ASSIGNED
 	Has d'assignar un bot al canal abans de poder utilitzar aquesta comanda.
-	Escriu %R%S HELP ASSIGN per a mÈs informaciÛ.
+	Escriu %R%S HELP ASSIGN per a m√©s informaci√≥.
 BOT_NOT_ON_CHANNEL
 	El bot no esta al canal %s.
 	
@@ -2125,13 +2125,13 @@ BOT_BOT_SYNTAX
 BOT_BOT_ALREADY_EXISTS
 	El bot %s ja existeix.
 BOT_BOT_CREATION_FAILED
-	Ho sento, la creaciÛ de bot ha fallat
+	Ho sento, la creaci√≥ de bot ha fallat
 BOT_BOT_READONLY
-	Ho sento, la modificaciÛ de bots esta temporalment inabilitada.
+	Ho sento, la modificaci√≥ de bots esta temporalment inabilitada.
 BOT_BOT_ADDED
 	%s!%s@%s (%s) afegit a la llista de bots.
 BOT_BOT_ANY_CHANGES
-	La informaciÛ antiga es igual a la nova.
+	La informaci√≥ antiga es igual a la nova.
 BOT_BOT_CHANGED
 	El bot %s ha estat canviat a %s!%s@%s (%s)
 BOT_BOT_DELETED
@@ -2168,9 +2168,9 @@ BOT_UNASSIGN_UNASSIGNED
 BOT_INFO_SYNTAX
 	INFO {canal | nick}
 BOT_INFO_NOT_FOUND
-	%s no Ès un bot valid o un canal registrat.
+	%s no √©s un bot valid o un canal registrat.
 BOT_INFO_BOT_HEADER
-	InformaciÛ pel bot %s:
+	Informaci√≥ pel bot %s:
 BOT_INFO_BOT_MASK
 	       Mascara : %s@%s
 BOT_INFO_BOT_REALNAME
@@ -2184,7 +2184,7 @@ BOT_INFO_BOT_OPTIONS
 BOT_INFO_OPT_PRIVATE
 	Privat
 BOT_INFO_CHAN_HEADER
-	InformaciÛ pel canal %s:
+	Informaci√≥ pel canal %s:
 BOT_INFO_CHAN_BOT
 	           Nick del bot : %s
 BOT_INFO_CHAN_BOT_NONE
@@ -2198,9 +2198,9 @@ BOT_INFO_CHAN_KICK_BOLDS
 BOT_INFO_CHAN_KICK_BOLDS_BAN
 	    Kicker per negretes : %s (%d kick(s) per a ban)
 BOT_INFO_CHAN_KICK_CAPS_ON
-	            Caps kicker : %s (mÌnim %d/%d%%)
+	            Caps kicker : %s (m√≠nim %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_BAN
-	  Kicker per majuscules : %s (%d kick(s) per a ban; mÌnim %d/%d%%)
+	  Kicker per majuscules : %s (%d kick(s) per a ban; m√≠nim %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_OFF
 	  Kicker per majuscules : %s
 BOT_INFO_CHAN_KICK_COLORS
@@ -2214,11 +2214,11 @@ BOT_INFO_CHAN_KICK_FLOOD_BAN
 BOT_INFO_CHAN_KICK_FLOOD_OFF
 	       Kicker per flood : %s
 BOT_INFO_CHAN_KICK_REPEAT_ON
-	  Kicker per repeticiÛ : %s (%d vegades)
+	  Kicker per repetici√≥ : %s (%d vegades)
 BOT_INFO_CHAN_KICK_REPEAT_BAN
-	  Kicker per repeticiÛ : %s (%d kick(s) per a ban; %d vegades)
+	  Kicker per repetici√≥ : %s (%d kick(s) per a ban; %d vegades)
 BOT_INFO_CHAN_KICK_REPEAT_OFF
-	  Kicker per repeticiÛ : %s
+	  Kicker per repetici√≥ : %s
 BOT_INFO_CHAN_KICK_REVERSES
 	    Kicker per inversos : %s
 BOT_INFO_CHAN_KICK_REVERSES_BAN
@@ -2234,13 +2234,13 @@ BOT_INFO_INACTIVE
 BOT_INFO_CHAN_OPTIONS
 	               Opcions : %s
 BOT_INFO_OPT_DONTKICKOPS
-	ProtecciÛ de Ops
+	Protecci√≥ de Ops
 BOT_INFO_OPT_DONTKICKVOICES
-	ProtecciÛ de Voices
+	Protecci√≥ de Voices
 BOT_INFO_OPT_FANTASY
 	Fantasia
 BOT_INFO_OPT_GREET
-	SalutaciÛ
+	Salutaci√≥
 BOT_INFO_OPT_NOBOT
 	Sense bot
 BOT_INFO_OPT_SYMBIOSIS
@@ -2250,12 +2250,12 @@ BOT_INFO_OPT_NONE
 	
 # SET responses
 BOT_SET_SYNTAX
-	SET canal OpciÛ establiments
+	SET canal Opci√≥ establiments
 BOT_SET_DISABLED
 	Ho sento, l'establiment d'opcions per a bot esta temporalment inhabilitat
 BOT_SET_UNKNOWN
-	OpciÛ %s desconeguda.
-	Escriu %R%S HELP SET per a mÈs informaciÛ.
+	Opci√≥ %s desconeguda.
+	Escriu %R%S HELP SET per a m√©s informaci√≥.
 	
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
@@ -2285,9 +2285,9 @@ BOT_SET_FANTASY_OFF
 BOT_SET_GREET_SYNTAX
 	SET canal GREET {ON|OFF}
 BOT_SET_GREET_ON
-	Mode salutaciÛ ara activat en el canal %s.
+	Mode salutaci√≥ ara activat en el canal %s.
 BOT_SET_GREET_OFF
-	Mode salutaciÛ ara desactivat en el canal %s.
+	Mode salutaci√≥ ara desactivat en el canal %s.
 	
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
@@ -2315,12 +2315,12 @@ BOT_SET_SYMBIOSIS_OFF
 	
 # KICK responses
 BOT_KICK_SYNTAX
-	KICK canal opciÛ {ON|OFF} [establiments]
+	KICK canal opci√≥ {ON|OFF} [establiments]
 BOT_KICK_DISABLED
-	Ho sento, la configuraciÛ de kicker esta temporalment inabilitada.
+	Ho sento, la configuraci√≥ de kicker esta temporalment inabilitada.
 BOT_KICK_UNKNOWN
-	OpciÛ %s desconeguda.
-	Escriu %R%S HELP KICK per a mÈs informaciÛ
+	Opci√≥ %s desconeguda.
+	Escriu %R%S HELP KICK per a m√©s informaci√≥
 BOT_KICK_BAD_TTB
 	%s no pot ser pres com vegades a banegar
 
@@ -2328,7 +2328,7 @@ BOT_KICK_BADWORDS_ON
 	El bot ara kickejara paraules malsonants. Utilitza la comanda BADWORDS
 	per a afegir o treure paraules.
 BOT_KICK_BADWORDS_ON_BAN
-	El bot ara kickejara paraules malsonants, i banejara desprÈs de
+	El bot ara kickejara paraules malsonants, i banejara despr√©s de
 	%d kicks al mateix usuari. Utilitza la comanda BADWORDS
 	per a afegir o treure paraules.
 BOT_KICK_BADWORDS_OFF
@@ -2336,23 +2336,23 @@ BOT_KICK_BADWORDS_OFF
 BOT_KICK_BOLDS_ON
 	El bot ara kickjeara negretes.
 BOT_KICK_BOLDS_ON_BAN
-	El bot ara kickjeara negretes, i banejara desprÈs de 
+	El bot ara kickjeara negretes, i banejara despr√©s de 
 	%d kicks al mateix usuari.
 BOT_KICK_BOLDS_OFF
 	El bot ja no kickejara negretes.
 BOT_KICK_CAPS_ON
 	El bot ara kickejara majuscules (han de ser al menys
-	%d car‡cters i %d%% del missatge senser).
+	%d car√†cters i %d%% del missatge senser).
 BOT_KICK_CAPS_ON_BAN
 	El bot ara kickejara majusculas (han de ser al menys
-	%d car‡cters i %d%% del missatge senser), i banegara
-	desprÈs de %d kicks al mateix usuari.
+	%d car√†cters i %d%% del missatge senser), i banegara
+	despr√©s de %d kicks al mateix usuari.
 BOT_KICK_CAPS_OFF
 	El bot ja no kickejara majuscules.
 BOT_KICK_COLORS_ON
 	El bot ara kickejara colors.
 BOT_KICK_COLORS_ON_BAN
-	El bot ara kickejara colors, i banejara desprÈs de %d 
+	El bot ara kickejara colors, i banejara despr√©s de %d 
 	kicks al mateix usuari.
 BOT_KICK_COLORS_OFF
 	El bot ja no kickejara colors.
@@ -2360,7 +2360,7 @@ BOT_KICK_FLOOD_ON
 	El bot ara kickejara flood (%d linees en %d segons).
 BOT_KICK_FLOOD_ON_BAN
 	El bot ara kickejara flood (%d linees in %d segons), i 
-	banejara desprÈs de %d kicks al mateix usuari.
+	banejara despr√©s de %d kicks al mateix usuari.
 BOT_KICK_FLOOD_OFF
 	El bot ja no kickejara flood.
 BOT_KICK_REPEAT_ON
@@ -2368,21 +2368,21 @@ BOT_KICK_REPEAT_ON
 	el mateix).
 BOT_KICK_REPEAT_ON_BAN
 	El bot ara kickejara repeticions (usuaris que repeteixin %d vegades
-	el mateix), i banejara desprÈs de %d 
+	el mateix), i banejara despr√©s de %d 
 	kicks al mateix usuari.
 BOT_KICK_REPEAT_OFF
 	El bot ja no kickejara repeticions.
 BOT_KICK_REVERSES_ON
 	El bot ara kickejara reversos.
 BOT_KICK_REVERSES_ON_BAN
-	El bot ara kickejara reversos, i banejara desprÈs de %d 
+	El bot ara kickejara reversos, i banejara despr√©s de %d 
 	kicks al mateix usuari.
 BOT_KICK_REVERSES_OFF
 	El bot ja no kickejara reversos.
 BOT_KICK_UNDERLINES_ON
 	El bot ara kickejara subratllats.
 BOT_KICK_UNDERLINES_ON_BAN
-	El bot ara kickejara subratllats, i banejara desprÈs de %d 
+	El bot ara kickejara subratllats, i banejara despr√©s de %d 
 	kicks al mateix usuari.
 BOT_KICK_UNDERLINES_OFF
 	El bot ja no kickejara subratllats.
@@ -2399,7 +2399,7 @@ BOT_BADWORDS_ALREADY_EXISTS
 BOT_BADWORDS_ADDED
 	%s afegida a  la llista de paraules malsonants de  %s.
 BOT_BADWORDS_NO_SUCH_ENTRY
-	No existeix la inst‡ncia (#%d) a la llista de paraules malsonants de %s.
+	No existeix la inst√†ncia (#%d) a la llista de paraules malsonants de %s.
 BOT_BADWORDS_NOT_FOUND
 	%s no trobada a la llista de paraules malsonants de %s.
 BOT_BADWORDS_NO_MATCH
@@ -2473,11 +2473,11 @@ OPER_GLOBAL_SYNTAX
 
 # STATS responses
 OPER_STATS_UNKNOWN_OPTION
-	OpciÛ STATS %s desconeguda.
+	Opci√≥ STATS %s desconeguda.
 OPER_STATS_CURRENT_USERS
 	Actuals usuaris: %d (%d ops)
 OPER_STATS_MAX_USERS
-	M‡xim  numero d'usuaris: %d (%s)
+	M√†xim  numero d'usuaris: %d (%s)
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
@@ -2535,67 +2535,67 @@ OPER_STATS_SESSIONS_MEM
 OPER_STATS_AKILL_COUNT
 	Numero actual de AKILLs: %d
 OPER_STATS_AKILL_EXPIRE_DAYS
-	Temps d'expiraciÛ per defecte de AKILL: %d dies
+	Temps d'expiraci√≥ per defecte de AKILL: %d dies
 OPER_STATS_AKILL_EXPIRE_DAY
-	Temps d'expiraciÛ per defecte de AKILL: 1 dia
+	Temps d'expiraci√≥ per defecte de AKILL: 1 dia
 OPER_STATS_AKILL_EXPIRE_HOURS
-	Temps d'expiraciÛ per defecte de AKILL: %d hores
+	Temps d'expiraci√≥ per defecte de AKILL: %d hores
 OPER_STATS_AKILL_EXPIRE_HOUR
-	Temps d'expiraciÛ per defecte de AKILL: 1 hora
+	Temps d'expiraci√≥ per defecte de AKILL: 1 hora
 OPER_STATS_AKILL_EXPIRE_MINS
-	Temps d'expiraciÛ per defecte de AKILL: %d minuts
+	Temps d'expiraci√≥ per defecte de AKILL: %d minuts
 OPER_STATS_AKILL_EXPIRE_MIN
-	Temps d'expiraciÛ per defecte de AKILL: 1 minut
+	Temps d'expiraci√≥ per defecte de AKILL: 1 minut
 OPER_STATS_AKILL_EXPIRE_NONE
-	Temps d'expiraciÛ per defecte de AKILL: Sense expiraciÛ
+	Temps d'expiraci√≥ per defecte de AKILL: Sense expiraci√≥
 OPER_STATS_SGLINE_COUNT
 	Numero actual de SGLINEs: %d
 OPER_STATS_SGLINE_EXPIRE_DAYS
-	Temps d'expiraciÛ per defecte de SGLINE: %d dies
+	Temps d'expiraci√≥ per defecte de SGLINE: %d dies
 OPER_STATS_SGLINE_EXPIRE_DAY
-	Temps d'expiraciÛ per defecte de SGLINE: 1 dia
+	Temps d'expiraci√≥ per defecte de SGLINE: 1 dia
 OPER_STATS_SGLINE_EXPIRE_HOURS
-	Temps d'expiraciÛ per defecte de SGLINE: %d hores
+	Temps d'expiraci√≥ per defecte de SGLINE: %d hores
 OPER_STATS_SGLINE_EXPIRE_HOUR
-	Temps d'expiraciÛ per defecte de SGLINE: 1 hora
+	Temps d'expiraci√≥ per defecte de SGLINE: 1 hora
 OPER_STATS_SGLINE_EXPIRE_MINS
-	Temps d'expiraciÛ per defecte de SGLINE: %d minuts
+	Temps d'expiraci√≥ per defecte de SGLINE: %d minuts
 OPER_STATS_SGLINE_EXPIRE_MIN
-	Temps d'expiraciÛ per defecte de SGLINE: 1 minut
+	Temps d'expiraci√≥ per defecte de SGLINE: 1 minut
 OPER_STATS_SGLINE_EXPIRE_NONE
-	Temps d'expiraciÛ per defecte de SGLINE: Sense expiraciÛ
+	Temps d'expiraci√≥ per defecte de SGLINE: Sense expiraci√≥
 OPER_STATS_SQLINE_COUNT
 	Numero actual de SQLINEs: %d
 OPER_STATS_SQLINE_EXPIRE_DAYS
-	Temps d'expiraciÛ per defecte de SQLINE: %d dies
+	Temps d'expiraci√≥ per defecte de SQLINE: %d dies
 OPER_STATS_SQLINE_EXPIRE_DAY
-	Temps d'expiraciÛ per defecte de SQLINE: 1 dia
+	Temps d'expiraci√≥ per defecte de SQLINE: 1 dia
 OPER_STATS_SQLINE_EXPIRE_HOURS
-	Temps d'expiraciÛ per defecte de SQLINE: %d hores
+	Temps d'expiraci√≥ per defecte de SQLINE: %d hores
 OPER_STATS_SQLINE_EXPIRE_HOUR
-	Temps d'expiraciÛ per defecte de SQLINE: 1 hora
+	Temps d'expiraci√≥ per defecte de SQLINE: 1 hora
 OPER_STATS_SQLINE_EXPIRE_MINS
-	Temps d'expiraciÛ per defecte de SQLINE: %d minuts
+	Temps d'expiraci√≥ per defecte de SQLINE: %d minuts
 OPER_STATS_SQLINE_EXPIRE_MIN
-	Temps d'expiraciÛ per defecte de SQLINE: 1 minut
+	Temps d'expiraci√≥ per defecte de SQLINE: 1 minut
 OPER_STATS_SQLINE_EXPIRE_NONE
-	Temps d'expiraciÛ per defecte de SQLINE: Sense expiraciÛ
+	Temps d'expiraci√≥ per defecte de SQLINE: Sense expiraci√≥
 OPER_STATS_SZLINE_COUNT
 	Numero actual de SZLINEs: %d
 OPER_STATS_SZLINE_EXPIRE_DAYS
-	Temps d'expiraciÛ per defecte de SZLINE: %d dies
+	Temps d'expiraci√≥ per defecte de SZLINE: %d dies
 OPER_STATS_SZLINE_EXPIRE_DAY
-	Temps d'expiraciÛ per defecte de SZLINE: 1 dia
+	Temps d'expiraci√≥ per defecte de SZLINE: 1 dia
 OPER_STATS_SZLINE_EXPIRE_HOURS
-	Temps d'expiraciÛ per defecte de SZLINE: %d hores
+	Temps d'expiraci√≥ per defecte de SZLINE: %d hores
 OPER_STATS_SZLINE_EXPIRE_HOUR
-	Temps d'expiraciÛ per defecte de SZLINE: 1 hora
+	Temps d'expiraci√≥ per defecte de SZLINE: 1 hora
 OPER_STATS_SZLINE_EXPIRE_MINS
-	Temps d'expiraciÛ per defecte de SZLINE: %d minuts
+	Temps d'expiraci√≥ per defecte de SZLINE: %d minuts
 OPER_STATS_SZLINE_EXPIRE_MIN
-	Temps d'expiraciÛ per defecte de SZLINE: 1 minut
+	Temps d'expiraci√≥ per defecte de SZLINE: 1 minut
 OPER_STATS_SZLINE_EXPIRE_NONE
-	Temps d'expiraciÛ per defecte de SZLINE: Sense expiraciÛ
+	Temps d'expiraci√≥ per defecte de SZLINE: Sense expiraci√≥
 OPER_STATS_RESET
 	Estadistiques restablertes.
 
@@ -2642,7 +2642,7 @@ OPER_CLEARMODES_ALL_DONE
 
 # KICK responses
 OPER_KICK_SYNTAX
-	KICK canal usuari raÛ
+	KICK canal usuari ra√≥
 	
 # ADMIN responses
 OPER_SVSNICK_SYNTAX
@@ -2664,13 +2664,13 @@ OPER_ADMIN_ADDED
 OPER_ADMIN_NOT_FOUND
 	%s no trobat a la llista d'administradors de serveis.
 OPER_ADMIN_NO_MATCH
-	No existeixen inst‡ncies similars a la llista d'administradors de serveis.
+	No existeixen inst√†ncies similars a la llista d'administradors de serveis.
 OPER_ADMIN_DELETED
 	%s esborrat de la llista d'administradors de serveis.
 OPER_ADMIN_DELETED_ONE
-	1 inst‡ncia esborrada de la llista d'administradors de serveis.
+	1 inst√†ncia esborrada de la llista d'administradors de serveis.
 OPER_ADMIN_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista d'administradors de serveis.
+	%d inst√†ncies esborrades de la llista d'administradors de serveis.
 OPER_ADMIN_LIST_EMPTY
 	La llista d'administradors de serveis esta buida.
 OPER_ADMIN_LIST_HEADER
@@ -2697,13 +2697,13 @@ OPER_OPER_ADDED
 OPER_OPER_NOT_FOUND
 	%s no trobat a la llista d'operadors de serveis.
 OPER_OPER_NO_MATCH
-	No existeixen inst‡ncies similars a la llista d'operadors de serveis.
+	No existeixen inst√†ncies similars a la llista d'operadors de serveis.
 OPER_OPER_DELETED
 	%s esborrat de la llista d'operadors de serveis.
 OPER_OPER_DELETED_ONE
-	1 inst‡ncia esborrada de la llista d'operadors de serveis.
+	1 inst√†ncia esborrada de la llista d'operadors de serveis.
 OPER_OPER_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista d'operadors de serveis.
+	%d inst√†ncies esborrades de la llista d'operadors de serveis.
 OPER_OPER_LIST_EMPTY
 	La llista d'administradors de serveis esta buida.
 OPER_OPER_LIST_HEADER
@@ -2718,7 +2718,7 @@ OPER_OPER_MOVED
 
 # AKILL responses
 OPER_AKILL_SYNTAX
-	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraciÛ] {mascara | llista} [raÛ]]
+	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraci√≥] {mascara | llista} [ra√≥]]
 OPER_AKILL_EXISTS
 	%s ja esta present a la llista de AKILLs.
 OPER_AKILL_ALREADY_COVERED
@@ -2730,22 +2730,22 @@ OPER_AKILL_NO_NICK
 OPER_AKILL_ADDED
 	%s afegit a la llista de AKILLs.
 OPER_AKILL_CHANGED
-	Temps d'expiraciÛ per a %s canviat.
+	Temps d'expiraci√≥ per a %s canviat.
 OPER_AKILL_NOT_FOUND
 	%s no trobat a la llista de AKILLs.
 OPER_AKILL_NO_MATCH
-	No existeixen inst‡ncies similars a la llista de AKILLs.
+	No existeixen inst√†ncies similars a la llista de AKILLs.
 OPER_AKILL_DELETED
 	%s esborrat de la llista de AKILLs.
 OPER_AKILL_DELETED_ONE
-	1 inst‡ncia esborrada de la llista de AKILLs.
+	1 inst√†ncia esborrada de la llista de AKILLs.
 OPER_AKILL_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista de AKILLs.
+	%d inst√†ncies esborrades de la llista de AKILLs.
 OPER_AKILL_LIST_EMPTY
 	La llista de AKILLS esta buida.
 OPER_AKILL_LIST_HEADER
 	Llista actual de AKILLs:
-	  Num   Mascara                           RaÛ
+	  Num   Mascara                           Ra√≥
 OPER_AKILL_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_AKILL_VIEW_HEADER
@@ -2762,7 +2762,7 @@ OPER_CHANKILL_SYNTAX
 	CHANKILL [+expiry] {#channel} [reason]
 # SGLINE responses
 OPER_SGLINE_SYNTAX
-	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraciÛ] {mascara | llista}[:raÛ]]
+	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraci√≥] {mascara | llista}[:ra√≥]]
 OPER_SGLINE_UNSUPPORTED
 	Ho sento, SGLINE no esta disponible en aquesta xarxa.
 OPER_SGLINE_EXISTS
@@ -2774,22 +2774,22 @@ OPER_SGLINE_REACHED_LIMIT
 OPER_SGLINE_ADDED
 	%s afegit a la llista de SGLINEs.
 OPER_SGLINE_CHANGED
-	Temps d'expiraciÛ per a %s canviat.
+	Temps d'expiraci√≥ per a %s canviat.
 OPER_SGLINE_NOT_FOUND
 	%s no trobat a a la llista de SGLINEs.
 OPER_SGLINE_NO_MATCH
-	No existeixen inst‡ncies similars a la llista de SGLINEs.
+	No existeixen inst√†ncies similars a la llista de SGLINEs.
 OPER_SGLINE_DELETED
 	%s esborrat de la llista de SGLINEs.
 OPER_SGLINE_DELETED_ONE
-	1 inst‡ncia esborrada de la llista de SGLINEs.
+	1 inst√†ncia esborrada de la llista de SGLINEs.
 OPER_SGLINE_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista de SGLINEs.
+	%d inst√†ncies esborrades de la llista de SGLINEs.
 OPER_SGLINE_LIST_EMPTY
 	La llista de SGLINEs esta buida.
 OPER_SGLINE_LIST_HEADER
 	Llista actual de SGLINEs:
-	  Num   Mascara                           RaÛ
+	  Num   Mascara                           Ra√≥
 OPER_SGLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SGLINE_VIEW_HEADER
@@ -2803,9 +2803,9 @@ OPER_SGLINE_CLEAR
 
 # SQLINE responses
 OPER_SQLINE_SYNTAX
-	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraciÛ] {mascara | llista} [raÛ]]
+	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraci√≥] {mascara | llista} [ra√≥]]
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	SQLINEs de canal no estan soportades pel teu IRCd, aixÌ que no les pots utilitzar.
+	SQLINEs de canal no estan soportades pel teu IRCd, aix√≠ que no les pots utilitzar.
 OPER_SQLINE_EXISTS
 	%s ja existeix a la llista de SQLINEs.
 OPER_SQLINE_ALREADY_COVERED
@@ -2815,22 +2815,22 @@ OPER_SQLINE_REACHED_LIMIT
 OPER_SQLINE_ADDED
 	%s afegit a la llista de SQLINEs.
 OPER_SQLINE_CHANGED
-	Temps d'expiraciÛ per a %s canviat.
+	Temps d'expiraci√≥ per a %s canviat.
 OPER_SQLINE_NOT_FOUND
 	%s no trobat a la llista de SQLINEs
 OPER_SQLINE_NO_MATCH
-	No existeixen inst‡ncies similars a la llista de SQLINEs.
+	No existeixen inst√†ncies similars a la llista de SQLINEs.
 OPER_SQLINE_DELETED
 	%s esborrat de la llista de SQLINEs.
 OPER_SQLINE_DELETED_ONE
-	1 inst‡ncia esborrada de la llista de SQLINEs.
+	1 inst√†ncia esborrada de la llista de SQLINEs.
 OPER_SQLINE_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista de SQLINEs.
+	%d inst√†ncies esborrades de la llista de SQLINEs.
 OPER_SQLINE_LIST_EMPTY
 	La llista de SQLINEs esta buida.
 OPER_SQLINE_LIST_HEADER
 	Llista actual de SQLINEs:
-	  Num   Mascara                           RaÛ
+	  Num   Mascara                           Ra√≥
 OPER_SQLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SQLINE_VIEW_HEADER
@@ -2844,7 +2844,7 @@ OPER_SQLINE_CLEAR
 
 # SZLINE responses
 OPER_SZLINE_SYNTAX
-	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraciÛ] {mascara | llista} [raÛ]]
+	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiraci√≥] {mascara | llista} [ra√≥]]
 OPER_SZLINE_UNSUPPORTED
 	Ho sento, la comanda SZLINE no esta disponible en aquesta xarxa.
 OPER_SZLINE_EXISTS
@@ -2858,22 +2858,22 @@ OPER_SZLINE_ONLY_IPS
 OPER_SZLINE_ADDED
 	%s afegit a la llista de SZLINEs.
 OPER_SZLINE_CHANGED
-	Temps d'expiraciÛ de %s canviat.
+	Temps d'expiraci√≥ de %s canviat.
 OPER_SZLINE_NOT_FOUND
 	%s no trobat a la llista de SZLINEs.
 OPER_SZLINE_NO_MATCH
-	No existeixen inst‡ncies similars a la llista de SZLINEs.
+	No existeixen inst√†ncies similars a la llista de SZLINEs.
 OPER_SZLINE_DELETED
 	%s esborrat de la llista de SZLINEs.
 OPER_SZLINE_DELETED_ONE
-	1 inst‡ncia esborrada de la llista de SZLINEs.
+	1 inst√†ncia esborrada de la llista de SZLINEs.
 OPER_SZLINE_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista de SZLINEs.
+	%d inst√†ncies esborrades de la llista de SZLINEs.
 OPER_SZLINE_LIST_EMPTY
 	La llista de SZLINEs esta buida.
 OPER_SZLINE_LIST_HEADER
 	Llista actual de SZLINEs:
-	  Num   Mascara                           RaÛ
+	  Num   Mascara                           Ra√≥
 OPER_SZLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SZLINE_VIEW_HEADER
@@ -2887,7 +2887,7 @@ OPER_SZLINE_CLEAR
 
 # SET responses
 OPER_SET_SYNTAX
-	SET OpciÛ estabilment
+	SET Opci√≥ estabilment
 OPER_SET_IGNORE_ON
 	Codi ignore sera utilitzat.
 OPER_SET_IGNORE_OFF
@@ -2895,7 +2895,7 @@ OPER_SET_IGNORE_OFF
 OPER_SET_IGNORE_ERROR
 	L'establiment per a IGNORE ha de ser ON o OFF.
 OPER_SET_READONLY_ON
-	Serveis ara en Mode nomËs lectura.
+	Serveis ara en Mode nom√®s lectura.
 OPER_SET_READONLY_OFF
 	Serveis ara en Mode de lectura-escriptura.
 OPER_SET_READONLY_ERROR
@@ -2921,7 +2921,7 @@ OPER_SET_NOEXPIRE_OFF
 OPER_SET_NOEXPIRE_ERROR
 	Establiment per a NOEXPIRE ha de ser ON o OFF.
 OPER_SET_UNKNOWN_OPTION
-	OpciÛ %s desconeguda.
+	Opci√≥ %s desconeguda.
 OPER_SET_SQL_ON
 	SQL code will be used.
 OPER_SET_SQL_OFF
@@ -2948,7 +2948,7 @@ OPER_NOOP_REVOKE
 
 # JUPE responses
 OPER_JUPE_SYNTAX
-	JUPE nom-del-servidor [raÛ]
+	JUPE nom-del-servidor [ra√≥]
 
 # RAW responses
 OPER_JUPE_HOST_ERROR
@@ -2966,7 +2966,7 @@ OPER_UPDATING
 	
 # RELOAD responses
 OPER_RELOAD
-	L'arxiu de configuraciÛ de serveis ha estat carregat novament.
+	L'arxiu de configuraci√≥ de serveis ha estat carregat novament.
 
 # RESTART responses
 OPER_CANNOT_RESTART
@@ -3003,10 +3003,10 @@ OPER_KILLCLONES_UNKNOWN_NICK
 # CHANLIST responses
 OPER_CHANLIST_HEADER
 	Llista de canal:
-	Nom                 Modes de Usr. TÚpic
+	Nom                 Modes de Usr. T√≤pic
 OPER_CHANLIST_HEADER_USER
 	Llista del canal %s:
-	Nom                 Modes de Usr. TÚpic
+	Nom                 Modes de Usr. T√≤pic
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
@@ -3133,48 +3133,48 @@ MODULE_HELP_HEADER
 OPER_EXCEPTION_SYNTAX
 	EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [parametres]
 OPER_EXCEPTION_ADD_SYNTAX
-	EXCEPTION ADD [+expiraciÛ] mascara lÌmit raÛ
+	EXCEPTION ADD [+expiraci√≥] mascara l√≠mit ra√≥
 OPER_EXCEPTION_DEL_SYNTAX
 	EXCEPTION DEL {mascara | llista}
 OPER_EXCEPTION_MOVE_SYNTAX
-	EXCEPTION MOVE numero posiciÛ
+	EXCEPTION MOVE numero posici√≥
 OPER_EXCEPTION_DISABLED
-	LÌmits de sessions no disponibles.
+	L√≠mits de sessions no disponibles.
 OPER_EXCEPTION_ALREADY_PRESENT
 	La mascara %s ja esta present a la llista d'excepcions.
 OPER_EXCEPTION_TOO_MANY
-	La llista d'excepcions al lÌmit de sessiones esta plena!
+	La llista d'excepcions al l√≠mit de sessiones esta plena!
 OPER_EXCEPTION_ADDED
-	LÌmit de sessiÛ per a %s establert a %d.
+	L√≠mit de sessi√≥ per a %s establert a %d.
 OPER_EXCEPTION_MOVED
-	ExcepciÛ per a %s (#%d) moguda a la posiciÛ %d.
+	Excepci√≥ per a %s (#%d) moguda a la posici√≥ %d.
 OPER_EXCEPTION_NO_SUCH_ENTRY
-	La inst‡ncia no existeix (#%d)  a la llista d'excepcions al lÌmit de sessions.
+	La inst√†ncia no existeix (#%d)  a la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_NOT_FOUND
-	%s no trobat a a la llista d'excepcions al lÌmit de sessions.
+	%s no trobat a a la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_NO_MATCH
-	No existeixen inst‡ncies similars a la llista d'excepcions al lÌmit de sessions.
+	No existeixen inst√†ncies similars a la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_DELETED
-	%s inst‡ncies esborrades de la llista d'excepcions al lÌmit de sessions.
+	%s inst√†ncies esborrades de la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_DELETED_ONE
-	1 inst‡ncia esborrada de la llista d'excepcions al lÌmit de sessions.
+	1 inst√†ncia esborrada de la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_DELETED_SEVERAL
-	%d inst‡ncies esborrades de la llista d'excepcions al lÌmit de sessions.
+	%d inst√†ncies esborrades de la llista d'excepcions al l√≠mit de sessions.
 OPER_EXCEPTION_LIST_HEADER
-	llista d'excepcions al lÌmit de sessions actual:
+	llista d'excepcions al l√≠mit de sessions actual:
 # mask, limit
 OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
 OPER_EXCEPTION_LIST_COLHEAD
-	Num  LÌmit Host
+	Num  L√≠mit Host
 # mask, set-by, set-time, expires, limit, reason
 OPER_EXCEPTION_VIEW_FORMAT
 	%3d.  %s  (per %s a %s; %s)
-	   LÌmit: %-4d  - %s
+	   L√≠mit: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
-	LÌmit de sessiÛ inv‡lid. Ha de ser un sencer v‡lido mÈs gran o igual a zero i mes petit que %d.
+	L√≠mit de sessi√≥ inv√†lid. Ha de ser un sencer v√†lido m√©s gran o igual a zero i mes petit que %d.
 OPER_EXCEPTION_INVALID_HOSTMASK
-	Mascara invalida. NomËs mascares reals son valides ja que excepcions no son comparades a nicks o usernames.
+	Mascara invalida. Nom√®s mascares reals son valides ja que excepcions no son comparades a nicks o usernames.
 OPER_EXCEPTION_EXISTS
 	%s already exists on the EXCEPTION list.
 OPER_EXCEPTION_CHANGED
@@ -3182,19 +3182,19 @@ OPER_EXCEPTION_CHANGED
 
 # SESSION responses
 OPER_SESSION_SYNTAX
-	SESSION {LIST lÌmit | VIEW host}
+	SESSION {LIST l√≠mit | VIEW host}
 OPER_SESSION_LIST_SYNTAX
-	SESSION LIST lÌmit
+	SESSION LIST l√≠mit
 OPER_SESSION_VIEW_SYNTAX
 	SESSION VIEW host
 OPER_SESSION_DISABLED
-	El lÌmit de sessiÛ esta inhabilitat.
+	El l√≠mit de sessi√≥ esta inhabilitat.
 OPER_SESSION_INVALID_THRESHOLD
-	Valor de umbral inv‡lid. Ha de ser un sencer v‡lid mÈs gran a 1.
+	Valor de umbral inv√†lid. Ha de ser un sencer v√†lid m√©s gran a 1.
 OPER_SESSION_NOT_FOUND
-	%s no trobat a la llista de sessiÛ.
+	%s no trobat a la llista de sessi√≥.
 OPER_SESSION_LIST_HEADER
-	Hosts amb un mÌnim de %d sessions:
+	Hosts amb un m√≠nim de %d sessions:
 OPER_SESSION_LIST_COLHEAD
 	Sessions  Host
 # limit, host
@@ -3202,50 +3202,50 @@ OPER_SESSION_LIST_FORMAT
 	%6d    %s
 # host, sessions, limit
 OPER_SESSION_VIEW_FORMAT
-	El host %s actualment te %d sessions amb un lÌmit de %d.
+	El host %s actualment te %d sessions amb un l√≠mit de %d.
 
 # EXCEPTION help
 
 OPER_HELP_EXCEPTION
-	Sintaxis: EXCEPTION ADD [+expiraciÛ] mascara lÌmit raÛ
+	Sintaxis: EXCEPTION ADD [+expiraci√≥] mascara l√≠mit ra√≥
 	          EXCEPTION DEL {mascara | llista}
-	          EXCEPTION MOVE numero posiciÛ
+	          EXCEPTION MOVE numero posici√≥
 	          EXCEPTION LIST [mascara | llista]
 	          EXCEPTION VIEW [mascara | llista]
 	
 	Permet als administradors de serveis manipular la llista
-	de hosts que tenen un lÌmit de sessiÛ especÌfic - permetent 
-	a certes m‡quines, com servidors de shells, mantenir un nombre mÈs alt 
-	de clients al mateix temps. En quant un host arribi al seu lÌmit
+	de hosts que tenen un l√≠mit de sessi√≥ espec√≠fic - permetent 
+	a certes m√†quines, com servidors de shells, mantenir un nombre m√©s alt 
+	de clients al mateix temps. En quant un host arribi al seu l√≠mit
 	de sessions, tots els clients intentant conectarse desde aquest 
 	host seran expulsats. Abans de expulsar usuaris, aquests son
 	notificats a traves de un /NOTICE del %S amb ajuda sobre
-	el lÌmit de sessiÛ. El contingut d'aquest notice es un establiment
-	de configuraciÛ.
+	el l√≠mit de sessi√≥. El contingut d'aquest notice es un establiment
+	de configuraci√≥.
 	
 	EXCEPTION ADD afegeix la mascara de host donada a la llista de
 	excepcion. Teniu en compte que les mascares nick!usuari@host
-	i usuari@host son invalides. NomËs mascares reals com
+	i usuari@host son invalides. Nom√®s mascares reals com
 	irc.aujac.org i *.aujac.org, son permessas ja que el
-	lÌmit de sessions no compta nicks o noms d'usuari.
-	LÌmit ha de ser un numero mes gran o igual a zero. AixÚ determina
+	l√≠mit de sessions no compta nicks o noms d'usuari.
+	L√≠mit ha de ser un numero mes gran o igual a zero. Aix√≤ determina
 	quantes sessions el host pot tenir en un cert temps. El valor
-	zero significa que el host no te lÌmits de sessiÛ. Veure la ajuda
-	sobre AKILL per a mÈs detalls sobre el parametre opcional
-	expiraciÛ.
+	zero significa que el host no te l√≠mits de sessi√≥. Veure la ajuda
+	sobre AKILL per a m√©s detalls sobre el parametre opcional
+	expiraci√≥.
 	EXCEPTION DEL remou la mascara donada de la llista d'excepcions.
-	EXCEPTION MOVE mou l'excepciÛ numero a posiciÛ. Les
+	EXCEPTION MOVE mou l'excepci√≥ numero a posici√≥. Les
 	excepcions entremig seran mogudes amunt o avall per a omplir l'espai.
 	
 	EXCEPTION LIST i EXCEPTION VIEW mostra totes les
 	excepcions actuals; si la mascara opcional es donada, la llista es
 	limitada a les excepcions similars a la mascara. La diferencia
 	es que EXCEPTION VIEW es mes verbal, mostrant el nom de la
-	persona que va afegir l'excepciÛ, el lÌmit d'excepciÛ, raÛ,
-	mascara de hosts i la data i hora d'expiraciÛ. 
+	persona que va afegir l'excepci√≥, el l√≠mit d'excepci√≥, ra√≥,
+	mascara de hosts i la data i hora d'expiraci√≥. 
 	
 	Pren nota de que un client conectant-se "utilitzara" la primera
-	excepciÛ a la que el host s'assembli. Llargues llistes d'excepcions
+	excepci√≥ a la que el host s'assembli. Llargues llistes d'excepcions
 	i mascares que s'assemblin a moltes mascares possiblement contribueixin
 	al mal rendiment dels serveis.
 	
@@ -3257,16 +3257,16 @@ OPER_HELP_SESSION
 	
 	Permet als administradors de serveis veure la llista de sessions.
 	
-	SESSION LIST llista hosts amb un mÌnim de umbral sessions.
-	L'umbral ha de ser un numero superior a 1. AixÚ es per a prevenir
-	llistats accidentals del gran nombre de hosts de sessiÛ.
-	SESSION VIEW mostra informaciÛ detallada sobre un host 
-	especÌfic - incloent el compte de sessiÛ i el lÌmit de sessiÛ
+	SESSION LIST llista hosts amb un m√≠nim de umbral sessions.
+	L'umbral ha de ser un numero superior a 1. Aix√≤ es per a prevenir
+	llistats accidentals del gran nombre de hosts de sessi√≥.
+	SESSION VIEW mostra informaci√≥ detallada sobre un host 
+	espec√≠fic - incloent el compte de sessi√≥ i el l√≠mit de sessi√≥
 	actual.
 	El valor host no pot incluir comodins.
 	
-	Mireu l'ajuda sobre EXCEPTION per a mÈs informaciÛ sobre
-	lÌmits de sessiÛ i como establir-los per a hosts i grups especÌfics
+	Mireu l'ajuda sobre EXCEPTION per a m√©s informaci√≥ sobre
+	l√≠mits de sessi√≥ i como establir-los per a hosts i grups espec√≠fics
 	d'ara endavant. 
 	
 	Limitat a administradors de serveis.
@@ -3332,51 +3332,51 @@ OPER_HELP_CHANKILL
 ###########################################################################
 
 NEWS_LOGON_TEXT
-	[NotÌcies de Logon - %s] %s
+	[Not√≠cies de Logon - %s] %s
 NEWS_OPER_TEXT
-	[NotÌcies de Oper - %s] %s
+	[Not√≠cies de Oper - %s] %s
 NEWS_RANDOM_TEXT
-	[NotÌcies al Atzar - %s] %s
+	[Not√≠cies al Atzar - %s] %s
 
 NEWS_LOGON_SYNTAX
 	LOGONNEWS {ADD|DEL|LIST} [text|numero]
 NEWS_LOGON_LIST_HEADER
-	NotÌcies d'entrada:
+	Not√≠cies d'entrada:
 NEWS_LOGON_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_LOGON_LIST_NONE
-	No hi ha notÌcies de entrada.
+	No hi ha not√≠cies de entrada.
 NEWS_LOGON_ADD_SYNTAX
 	LOGONNEWS ADD texto
 NEWS_LOGON_ADD_FULL
-	La llista de notÌcies esta plena!
+	La llista de not√≠cies esta plena!
 NEWS_LOGON_ADDED
-	Noves notÌcies d'entrada afegida (#%d).
+	Noves not√≠cies d'entrada afegida (#%d).
 NEWS_LOGON_DEL_SYNTAX
 	LOGONNEWS DEL {numero | ALL}
 NEWS_LOGON_DEL_NOT_FOUND
-	NotÌcia d'entrada #%d no trobada!
+	Not√≠cia d'entrada #%d no trobada!
 NEWS_LOGON_DELETED
-	NotÌcia d'entrada #%d esborrada.
+	Not√≠cia d'entrada #%d esborrada.
 NEWS_LOGON_DEL_NONE
-	No hi ha notÌcies d'entrada per a esborrar!
+	No hi ha not√≠cies d'entrada per a esborrar!
 NEWS_LOGON_DELETED_ALL
-	Totes les notÌcies d'entrada esborrades.
+	Totes les not√≠cies d'entrada esborrades.
 
 NEWS_OPER_SYNTAX
 	Sintaxis: OPERNEWS {ADD|DEL|LIST} [texto|numero]
 NEWS_OPER_LIST_HEADER
-	notÌcies de oper:
+	not√≠cies de oper:
 NEWS_OPER_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_OPER_LIST_NONE
-	No hay notÌcies de oper.
+	No hay not√≠cies de oper.
 NEWS_OPER_ADD_SYNTAX
 	Sintaxis: OPERNEWS ADD texto
 NEWS_OPER_ADD_FULL
-	La llista de notÌcies esta plena!
+	La llista de not√≠cies esta plena!
 NEWS_OPER_ADDED
 	Nueva noticia de oper anadida (#%d).
 NEWS_OPER_DEL_SYNTAX
@@ -3386,23 +3386,23 @@ NEWS_OPER_DEL_NOT_FOUND
 NEWS_OPER_DELETED
 	Noticia de oper #%d esborrada.
 NEWS_OPER_DEL_NONE
-	No hi ha notÌcies de oper per esborrar!
+	No hi ha not√≠cies de oper per esborrar!
 NEWS_OPER_DELETED_ALL
-	Totes les notÌcies de oper esborrades.
+	Totes les not√≠cies de oper esborrades.
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [text|numero]
 NEWS_RANDOM_LIST_HEADER
-	NotÌcies al Azar:
+	Not√≠cies al Azar:
 NEWS_RANDOM_LIST_ENTRY
 	%5d (%s per %s)
 	    %s
 NEWS_RANDOM_LIST_NONE
-	No hi ha notÌcies al azar.
+	No hi ha not√≠cies al azar.
 NEWS_RANDOM_ADD_SYNTAX
 	RANDOMNEWS ADD text
 NEWS_RANDOM_ADD_FULL
-	La llista de notÌcies esta plena!
+	La llista de not√≠cies esta plena!
 NEWS_RANDOM_ADDED
 	Nova noticia a l'atzar afegida (#%d).
 NEWS_RANDOM_DEL_SYNTAX
@@ -3410,11 +3410,11 @@ NEWS_RANDOM_DEL_SYNTAX
 NEWS_RANDOM_DEL_NOT_FOUND
 	Noticia a l'atzar #%d no trobada!
 NEWS_RANDOM_DELETED
-	NotÌcia a l'atzar #%d esborrada.
+	Not√≠cia a l'atzar #%d esborrada.
 NEWS_RANDOM_DEL_NONE
-	No hi ha notÌcies a l'atzar per esborrar!
+	No hi ha not√≠cies a l'atzar per esborrar!
 NEWS_RANDOM_DELETED_ALL
-	Totes les notÌcies al azar esborrades.
+	Totes les not√≠cies al azar esborrades.
 
 NEWS_HELP_LOGON
 	Syntax: LOGONNEWS ADD text
@@ -3450,7 +3450,7 @@ NEWS_HELP_RANDOM
 	          RANDOMNEWS LIST
 	
 	Edita o mostra la llista de missatges de noticia a l'atzar.
-	Quant un usuari es connecta a la xarxa, un (i nomËs un) dels
+	Quant un usuari es connecta a la xarxa, un (i nom√®s un) dels
 	missatges a l'atzar sera escollit i enviat a ells.
 	
 	RANDOMNEWS may only be used by Services admins.
@@ -3462,25 +3462,25 @@ NEWS_HELP_RANDOM
 ###########################################################################
 
 HELP_HELP
-	%S es un servei designat per donar informaciÛ sobre
-	serveis. TÚpics d'ajuda estan disponibles via les
+	%S es un servei designat per donar informaci√≥ sobre
+	serveis. T√≤pics d'ajuda estan disponibles via les
 	comandes HELP dels altres clients de serveis:
 
 	%R%s HELP
-	     per mes informaciÛ sobre registrar nicknames
+	     per mes informaci√≥ sobre registrar nicknames
 
 	%R%s HELP
-	     per mes informaciÛ sobre registrar i controlar
+	     per mes informaci√≥ sobre registrar i controlar
 	     canals
 
 	%R%s HELP
-	     per mÈs informaciÛ sobre enviar missatges a usuaris no
+	     per m√©s informaci√≥ sobre enviar missatges a usuaris no
 	     en linea.
 
 HELP_HELP_BOT
 
 	%R%s HELP
-	     per mÈs informaciÛ sobre establir un bot en el teu canal
+	     per m√©s informaci√≥ sobre establir un bot en el teu canal
 
 HELP_HELP_HOST
 
@@ -3504,7 +3504,7 @@ NICK_HELP_CMD_GROUP
 NICK_HELP_CMD_IDENTIFY
 	    IDENTIFY   Per identificar-te amb la teva clau
 NICK_HELP_CMD_ACCESS
-	    ACCESS     Modifica la llista d'adreÁes autoritzades
+	    ACCESS     Modifica la llista d'adre√ßes autoritzades
 NICK_HELP_CMD_SET
 	    SET        Estableix proteccions, inclouent kills
 NICK_HELP_CMD_SASET
@@ -3514,9 +3514,9 @@ NICK_HELP_CMD_DROP
 NICK_HELP_CMD_RECOVER
 	    RECOVER    Kickeja un usuari que estigui utilitzant el teu nickname
 NICK_HELP_CMD_RELEASE
-	    RELEASE    Repren possesiÛ del teu nick desprÈs de RECOVER
+	    RELEASE    Repren possesi√≥ del teu nick despr√©s de RECOVER
 NICK_HELP_CMD_SENDPASS
-	    SENDPASS   Vas oblidar la teva clau? Intenta aixÚ
+	    SENDPASS   Vas oblidar la teva clau? Intenta aix√≤
 NICK_HELP_CMD_GHOST
 	    GHOST      Disconnects a "ghost" IRC session using your nick
 NICK_HELP_CMD_ALIST
@@ -3535,7 +3535,7 @@ NICK_HELP_CMD_UPDATE
 	    UPDATE     Updates your current status, i.e. it checks for new memos
 NICK_HELP_CMD_GETPASS
 	    GETPASS    Recupera la clau per un nickname
-	               (sols si encriptaciÛ esta deshabilitada)
+	               (sols si encriptaci√≥ esta deshabilitada)
 NICK_HELP_CMD_GETEMAIL
 	    GETEMAIL   Matches and returns all users that registered using given email
 NICK_HELP_CMD_FORBID
@@ -3547,22 +3547,22 @@ NICK_HELP_CMD_UNSUSPEND
 
 NICK_HELP
 	%S Et permet "registrar" un nickname i
-	prevenir a d'altres utilitzar-lo. Les seg¸ents comandes
+	prevenir a d'altres utilitzar-lo. Les seg√ºents comandes
 	permeten el registre i manteniment de nicknames;
 	per a utilitzar-los, escriu %R%S comanda.
-	per mÈs informaciÛ sobre una comanda especifica
+	per m√©s informaci√≥ sobre una comanda especifica
 	escriu %R%S HELP comanda.
 	
 NICK_HELP_FOOTER
 	NOTESE: Aquest servei intenta proveir una eina
 	pels usuaris d'IRC d'assegurar-se que la seva identitat no esta
 	compromessa, NO per facilitar el "robatori" de nicknames
-	o un altre acciÛ maliciosa. L'abus de %S resultara, com a
-	mÌnim, en la perdua del nickname esmentat.
+	o un altre acci√≥ maliciosa. L'abus de %S resultara, com a
+	m√≠nim, en la perdua del nickname esmentat.
 
 NICK_HELP_EXPIRES
-	Nicknames en desus estan subjectes a l'expiraciÛ
-	automatica, en altres paraules, seran esborrats desprÈs
+	Nicknames en desus estan subjectes a l'expiraci√≥
+	automatica, en altres paraules, seran esborrats despr√©s
 	de %d dies.
 
 NICK_HELP_REGISTER
@@ -3574,17 +3574,17 @@ NICK_HELP_REGISTER
 	Assegura't de recordar la clau que vas fer servir per
 	registrar-te - la necessitaras per fer canvis en el teu nick
 	(Tingues en compte que les majuscules importen!  AUJAC,
-	Aujac, i aujac sÛn totes claus diferents!)
+	Aujac, i aujac s√≥n totes claus diferents!)
 	
 	Guies per escollir claus:
 	
-	Las claus no han de ser f‡cils d'endevinar. Per exemple,
+	Las claus no han de ser f√†cils d'endevinar. Per exemple,
 	utilitzar el teu nom real com clau es una mala idea. Utilitzar
 	el teu nickname com a clau es una idea pitjor :( i,
 	de fet, %S no ho permetria. A mes, claus curtes
 	son vulnerables a ser encertades, aixi que hauries d'escollir una
-	clau de com a mÌnim 5 car‡cters.
-	Per ˙ltim, el car‡cter d'espai no pot ser utilitzat.
+	clau de com a m√≠nim 5 car√†cters.
+	Per √∫ltim, el car√†cter d'espai no pot ser utilitzat.
 	
 	El parametre email es opcional i establira l'email pel
 	teu nick inmediatament. Com sigui, pot ser que sigui demanat
@@ -3593,9 +3593,9 @@ NICK_HELP_REGISTER
 	terceres persones.
 	
 	Aquesta comanda crea un nou grup pel teu nickname
-	que et permetra registrar altres nicks desprÈs compartint
-	la mateixa configuraciÛ, memos i privilegis. Per mÈs
-	informaciÛ sobre aquesta caracterÌstica, escriu %R%S
+	que et permetra registrar altres nicks despr√©s compartint
+	la mateixa configuraci√≥, memos i privilegis. Per m√©s
+	informaci√≥ sobre aquesta caracter√≠stica, escriu %R%S
 	HELP GROUP.
 	
 NICK_HELP_GROUP
@@ -3604,19 +3604,19 @@ NICK_HELP_GROUP
 	Aquesta comanda fa que el teu nickname s'adhereixi al grup de nicknames
 	grup. clau es la de teu nickname.
 	
-	L'uniÛ a un grup et permetra compartir configuracions,
+	L'uni√≥ a un grup et permetra compartir configuracions,
 	memos, i privilegis en canals amb tots els nicknames en un
-	grup, i molt mÈs!
+	grup, i molt m√©s!
 	 
-	Un grup existeix sempre i quant sigui servible. AixÚ
-	significa que si un nick del grup es eliminat, no perdr‡s
+	Un grup existeix sempre i quant sigui servible. Aix√≤
+	significa que si un nick del grup es eliminat, no perdr√†s
 	les caracteristiques compartides descrites anteriorment, sempre i
 	quant al menys un nick quedi al grup.
 	
 	Pots utilitzar aquesta comanda encara que no estigui registrar el teu
 	nick. Si el teu nick ja esta registrat hauras d'identificar-te
 	abans d'utilitzar aquesta comanda. Escriu %R%S HELP
-	IDENTIFY per mÈs informaciÛ. Potser que no sigui possible
+	IDENTIFY per m√©s informaci√≥. Potser que no sigui possible
 	a la teva xarxa.
 	
 	Es recomenable utilitzar aquesta comanda amb un nick no registrat ja
@@ -3624,7 +3624,7 @@ NICK_HELP_GROUP
 	Pots utilitzar-la amb un nick ja registrat (per canviar de grup) 
 	sols si els administradors de la teva xarxa ho permeten.
 	
-	Pots estar en un sol grup a la vegada. L'uniÛ de
+	Pots estar en un sol grup a la vegada. L'uni√≥ de
 	grups no es possible.
 	
 	Tingues en compte: tots els nicks en un grup comparteixen la
@@ -3664,36 +3664,36 @@ NICK_HELP_DROP
 	parametre nick.
 	
 	Abans d'utilitzar aquesta comanda has d'identificar-te amb la teva
-	clau (%R%S HELP IDENTIFY per mÈs informaciÛ).
+	clau (%R%S HELP IDENTIFY per m√©s informaci√≥).
 
 NICK_HELP_ACCESS
 	Sintaxis: ACCESS ADD mascara
 	          ACCESS DEL mascara
 	          ACCESS LIST
 	
-	Modifica o mostra la llista d'accÈs pel teu nick. Aquesta
-	Ès la llista d'adreces que seran automaticament
+	Modifica o mostra la llista d'acc√©s pel teu nick. Aquesta
+	√©s la llista d'adreces que seran automaticament
 	reconegudes per %S com autoritzades a utilitzar el nick. Si
-	vols utilitzar el nick des d'una adreÁa diferent,
+	vols utilitzar el nick des d'una adre√ßa diferent,
 	has d'enviar una comanda IDENTIFY per fer que %S et
 	reconegui.
 	
 	Exemples:
 	
 	    ACCESS ADD anyone@*.aujac.org
-	        Permet accÈs a l'usuari anyone des de
+	        Permet acc√©s a l'usuari anyone des de
 	        qualsevol maquina en el domini aujac.org.
 	
 	    ACCESS DEL anyone@*.aujac.org
 	        Anul.la la comanda anterior.
 	
 	    ACCESS LIST
-	        Mostra la llista d'accÈs actual.
+	        Mostra la llista d'acc√©s actual.
 
 NICK_HELP_SET
-	Sintaxis: SET OpciÛ parametres
+	Sintaxis: SET Opci√≥ parametres
 	
-	Estableix varies opcions per a nicknames. OpciÛ pot ser
+	Estableix varies opcions per a nicknames. Opci√≥ pot ser
 	una de:
 	
 	    DISPLAY    Estableix el display del teu grup amb serveis
@@ -3703,22 +3703,22 @@ NICK_HELP_SET
 	    URL        Associa una URL amb el teu nickname
 	    EMAIL      Associa un E-mail amb el teu nickname
 	    ICQ        Associa un numero ICQ amb el teu nickname
-	    GREET      Associa un salutaciÛ amb el teu nickname
-	    KILL       Activa o desactiva la protecciÛ
+	    GREET      Associa un salutaci√≥ amb el teu nickname
+	    KILL       Activa o desactiva la protecci√≥
 	    SECURE     Activa o desactiva la seguretat de nickname
 	    PRIVATE    Preveu el teu nickname d'apareixer en un
 	                   %R%S LIST
-	    HIDE       Oculta algunes parts de la teva informaciÛ
-	    MSG        canvia el metode de comunicaciÛ amb els
+	    HIDE       Oculta algunes parts de la teva informaci√≥
+	    MSG        canvia el metode de comunicaci√≥ amb els
 	                    serveis
 	    AUTOOP     Should services op you automatically.    
 	
 	Per utilitzar aquest comanda, has d'identificar-te primer 
 	utilitzant la teva clau (%R%S HELP IDENTIFY
-	per mes informaciÛ).
+	per mes informaci√≥).
 	
-	Escriu %R%S HELP SET opciÛ per mes
-	informaciÛ sobre una opciÛ especifica.
+	Escriu %R%S HELP SET opci√≥ per mes
+	informaci√≥ sobre una opci√≥ especifica.
 
 NICK_HELP_SET_DISPLAY
 	Sintaxis: SET DISPLAY nou-display
@@ -3746,14 +3746,14 @@ NICK_HELP_SET_URL
 	Sintaxis: SET URL url
 	
 	Associa l'URL donada amb el teu nickname. Aquesta URL
-	sera mostrada quant algu demani informaciÛ
+	sera mostrada quant algu demani informaci√≥
 	sobre el teu nick amb la comanda INFO.
 
 NICK_HELP_SET_EMAIL
 	Sintaxis: SET EMAIL direccion
 	
 	Associa el E-mail donat amb el teu nickname. L'e-mail
-	sera mostrat quant algu demani informaciÛ
+	sera mostrat quant algu demani informaci√≥
 	sobre el teu nick amb la comanda INFO.
 	
 NICK_HELP_SET_ICQ
@@ -3761,60 +3761,60 @@ NICK_HELP_SET_ICQ
 	
 	Associa el numero ICQ donat amb el teu nickname. Aquest
 	numero sera mostrat quant algu soliciti
-	informaciÛ sobre el teu nick amb la comanda INFO.
+	informaci√≥ sobre el teu nick amb la comanda INFO.
 	
 NICK_HELP_SET_GREET
 	Sintaxis: SET GREET missatge
 	
-	Fa que el missatge introduit sigui la salutaciÛ pel teu nickname, 
+	Fa que el missatge introduit sigui la salutaci√≥ pel teu nickname, 
 	el que sera mostrat quant entris a un canal amb la
-	opciÛ GREET habilitada, sempre i quant tinguis 
-	l'accÈs necessari.
+	opci√≥ GREET habilitada, sempre i quant tinguis 
+	l'acc√©s necessari.
 
 NICK_HELP_SET_KILL
 	Sintaxis: SET KILL {ON | QUICK | IMMED | OFF}
 	
-	Canvia la protecciÛ autom‡tica del teu nick a on o off.
-	Amb protecciÛ on, si un altre usuari intenta utilitzar el teu nick,
-	tindra un minut per canviar de nick, desprËs del qual
+	Canvia la protecci√≥ autom√†tica del teu nick a on o off.
+	Amb protecci√≥ on, si un altre usuari intenta utilitzar el teu nick,
+	tindra un minut per canviar de nick, despr√®s del qual
 	%S canviara el seu nick automaticament.
 	
-	Si estableixes QUICK, l'usuari tibdr‡ nomËs 20 segons
+	Si estableixes QUICK, l'usuari tibdr√† nom√®s 20 segons
 	per canviar el nick en comptes dels 60 habituals. Si selecciones
 	IMMED, el nick del usuari sera canviat automaticament
 	sense ser avisat ni donar-li oportunitat de canviar-lo abans;
-	per favor no utilitzis aquesta opciÛ excepte que ho consideris
+	per favor no utilitzis aquesta opci√≥ excepte que ho consideris
 	necessari. A mes, els administradors de la xarxa poden haber
-	deshabilitat aquesta opciÛ.
+	deshabilitat aquesta opci√≥.
 
 NICK_HELP_SET_SECURE
 	Sintaxis: SET SECURE {ON | OFF}
 	
 	Canvia les caracteristiques de seguretat de %S pel teu nick a on
 	u off. Amb SECURE establert, has d'especificar la teva clau 
-	per ser reconegut com propietari del nick, a pesar de que la teva adreÁa
-	estigui a la llista d'accÈss. D'altra banda, si estas a la llista 
-	d'accÈs, %S no te auto-kickejara no important l'establiment de l'opciÛ
+	per ser reconegut com propietari del nick, a pesar de que la teva adre√ßa
+	estigui a la llista d'acc√©ss. D'altra banda, si estas a la llista 
+	d'acc√©s, %S no te auto-kickejara no important l'establiment de l'opci√≥
 	KILL.
 
 NICK_HELP_SET_PRIVATE
 	Sintaxis: SET PRIVATE {ON | OFF}
 	
-	Fa que %S activi o desactivi l'opciÛ de privacitat del teu
+	Fa que %S activi o desactivi l'opci√≥ de privacitat del teu
 	nick. Amb PRIVATE establert,el teu nickname no apareixera en les
 	llistes de nicknames generades amb la comanda LIST de %S.
 	(D'altra banda, qualsevol persona que sapigue el teu nick podra comprobar
-	la teva informaciÛ utilitzant la comanda INFO.)
+	la teva informaci√≥ utilitzant la comanda INFO.)
 
 NICK_HELP_SET_HIDE
 	Sintaxis: SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 	
-	Permet prevenir que certa informaciÛ sobre el teu nick sigui donada
-	quant es sol.licitada mitjanÁant la comanda %S INFO.
-	Pots ocultar la teva adreÁa e-mail (EMAIL), l'ultima
-	mascara usuari@host (USERMASK), i el teu ˙ltim missatge
+	Permet prevenir que certa informaci√≥ sobre el teu nick sigui donada
+	quant es sol.licitada mitjan√ßant la comanda %S INFO.
+	Pots ocultar la teva adre√ßa e-mail (EMAIL), l'ultima
+	mascara usuari@host (USERMASK), i el teu √∫ltim missatge
 	quit (QUIT).
-	El segon parametre especifica si la informaciÛ ha de ser
+	El segon parametre especifica si la informaci√≥ ha de ser
 	ocultada (OFF) o mostrada (ON).
 	
 NICK_HELP_SET_MSG
@@ -3822,7 +3822,7 @@ NICK_HELP_SET_MSG
 	
 	Et permet escollir la forma en la que els serveis es
 	comunicaran amb tu. Amb MSG establert, els serveis
-	utilitzaran msgs, de l'altra forma utilitzaran notÌcies. 
+	utilitzaran msgs, de l'altra forma utilitzaran not√≠cies. 
 
 NICK_HELP_SET_AUTOOP
 	Syntax: SET AUTOOP {ON | OFF}
@@ -4037,35 +4037,35 @@ NICK_HELP_RELEASE
 NICK_HELP_GHOST
 	Sintaxis: GHOST nickname [clau]
 	
-	Termina una sessiÛ IRC "fantasma" utilitzant el teu nick. Una
-	sessiÛ fantasma Ès una connexiÛ falsa, de tal manera que els
-	servidors IRC creuen esta en linea per una raÛ o altre.
-	Tipicament, aixÚ succeix si el teu ordinador es bloqueja o la
-	teva connexiÛ a internet es talla mentres estas
+	Termina una sessi√≥ IRC "fantasma" utilitzant el teu nick. Una
+	sessi√≥ fantasma √©s una connexi√≥ falsa, de tal manera que els
+	servidors IRC creuen esta en linea per una ra√≥ o altre.
+	Tipicament, aix√≤ succeix si el teu ordinador es bloqueja o la
+	teva connexi√≥ a internet es talla mentres estas
 	a IRC.
 	
 	Per utilitzar la comanda GHOST per un nick, la teva
-	adreÁa actual mostrada a /WHOIS ha d'estar a la llista
-	d'accÈs d'aquest nick, has d'estar identificat i en el
+	adre√ßa actual mostrada a /WHOIS ha d'estar a la llista
+	d'acc√©s d'aquest nick, has d'estar identificat i en el
 	grup d'aquest nick, o has de proveir la clau correcta
 	per aquest nickname.
 
 NICK_HELP_INFO
 	Sintaxis: INFO nickname [ALL]
 	
-	Mostra informaciÛ relativa al nick que s'especifiqui,
-	tal com el propietari del nick, l'ultima adreÁa utilitzada
+	Mostra informaci√≥ relativa al nick que s'especifiqui,
+	tal com el propietari del nick, l'ultima adre√ßa utilitzada
 	i temps, i opcions del nick. Si estas identificat amb el
-	nick per el qual demanes informaciÛ i utilitzes el parametre
-	ALL, podras veure tota la informaciÛ; independentment de
+	nick per el qual demanes informaci√≥ i utilitzes el parametre
+	ALL, podras veure tota la informaci√≥; independentment de
 	si esta oculta o no.
 
 NICK_HELP_LIST
-	Sintaxis: LIST patrÛ
+	Sintaxis: LIST patr√≥
 	
-	Llista tots els nicknames que concordin amb el patrÛ
+	Llista tots els nicknames que concordin amb el patr√≥
 	donat, en el format nick!usuari@host. Nicks amb 
-	l'opciÛ PRIVATE establerta no seran mostrats.
+	l'opci√≥ PRIVATE establerta no seran mostrats.
 	
 	Exemples:
 	
@@ -4111,19 +4111,19 @@ NICK_HELP_GLIST
 NICK_HELP_STATUS
 	Sintaxis: STATUS nickname...
 	
-	Retorna informaciÛ sobre si l'usuari que utilitza el nick especificat
+	Retorna informaci√≥ sobre si l'usuari que utilitza el nick especificat
 	ha estat reconegut com el propietari del nickname.
-	La resposta te el seg¸ent format:
+	La resposta te el seg√ºent format:
 	
 	    nickname codi-del-status
 	
 	A on nickname es el nickname enviat amb la comanda, i
-	codi-del-status es un dels seg¸ents:
+	codi-del-status es un dels seg√ºents:
 	
 	    0 - Usuari no esta en linea o el nick no esta registrat.
 	    1 - Usuari no reconegut com el propietari del nick.
-	    2 - Usuari reconegut sols mitjanÁant la llista d'accÈs.
-	    3 - Usuari reconegut mitjanÁant autentificaciÛ per clau.
+	    2 - Usuari reconegut sols mitjan√ßant la llista d'acc√©s.
+	    3 - Usuari reconegut mitjan√ßant autentificaci√≥ per clau.
 	
 	Fins 16 nicknames poden ser enviats amb cada comanda. El
 	reste seran ignorats. If no nickname is given, your status
@@ -4132,14 +4132,14 @@ NICK_HELP_STATUS
 NICK_HELP_SENDPASS
 	Sintaxis: SENDPASS nickname
 	
-	Envia la clau del nickname donat a l'adreÁa
+	Envia la clau del nickname donat a l'adre√ßa
 	e-mail establerta en el registre del nickname. Aquesta comanda
-	es sumament ˙til per recuperar claus perdudes.
+	es sumament √∫til per recuperar claus perdudes.
 	
 	Pot ser limitat a operadors d'IRC en certes
 	xarxes.
 	
-	Aquesta comanda no esta disponible quant encriptaciÛ esta habilitada.
+	Aquesta comanda no esta disponible quant encriptaci√≥ esta habilitada.
 
 NICK_HELP_CONFIRM
 	Syntax: CONFIRM passcode
@@ -4158,21 +4158,21 @@ NICK_HELP_RESEND
 	to the e-mail address of the user whom is performing it.
 
 NICK_SERVADMIN_HELP
-	Administradors de serveis poden tambÈ eliminar qualsevol
+	Administradors de serveis poden tamb√© eliminar qualsevol
 	nickname sense tenir que identificar-se pel nick i poden
-	veure la llista d'accÈs per qualsevol nickname
+	veure la llista d'acc√©s per qualsevol nickname
 	(%R%S ACCESS LIST nick).
 
 NICK_SERVADMIN_HELP_LOGOUT
 	Sintaxis: LOGOUT [nickname [REVALIDATE]]
 	
-	Sense un parametre, desf‡ l'efecte de la comanda IDENTIFY, 
-	Ès a dir, fa que no siguis reconegut com l'autentic propietari del nick
+	Sense un parametre, desf√† l'efecte de la comanda IDENTIFY, 
+	√©s a dir, fa que no siguis reconegut com l'autentic propietari del nick
 	Tingues en compte, que no seras necessari tornar-te a identificar.
 	
 	Amb un parametre, fa lo mateix pel nick donat. Si
-	a mÈs a mÈs especifiques REVALIDATE, els serveis requeriran
-	a l'esmentat nick a reidentificar-se. Aquest ˙s esta limitat a
+	a m√©s a m√©s especifiques REVALIDATE, els serveis requeriran
+	a l'esmentat nick a reidentificar-se. Aquest √∫s esta limitat a
 	administradors de serveis.
 
 NICK_SERVADMIN_HELP_DROP
@@ -4192,12 +4192,12 @@ NICK_SERVADMIN_HELP_INFO
 	ALL amb qualsevol nick.
 
 NICK_SERVADMIN_HELP_LIST
-	Sintaxis: LIST patrÛ [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+	Sintaxis: LIST patr√≥ [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	
 	Llista tots els nicknames registrats que concordin amb el
-	patrÛ donat, en el format nick!usuari@host. Nicks amb
-	L'opciÛ PRIVATE tan sols sera mostrada a administradors
-	de serveis. Nicks amb l'opciÛ NOEXPIRE establerta tindran
+	patr√≥ donat, en el format nick!usuari@host. Nicks amb
+	L'opci√≥ PRIVATE tan sols sera mostrada a administradors
+	de serveis. Nicks amb l'opci√≥ NOEXPIRE establerta tindran
 	un ! avantposat al nickname per a administradors de
 	serveis.
 	
@@ -4238,7 +4238,7 @@ NICK_SERVADMIN_HELP_GLIST
 	
 	Amb un parametre, llista tots els nicknames que hi ha
 	en el grup del nick esmentat.
-	El seu ˙s esta limitat a administradors de serveis.
+	El seu √∫s esta limitat a administradors de serveis.
 
 NICK_SERVADMIN_HELP_GETPASS
 	Sintaxis: GETPASS nickname
@@ -4250,7 +4250,7 @@ NICK_SERVADMIN_HELP_GETPASS
 	
 	Limitat a administradors de serveis.
 	
-	Aquesta comanda no esta disponible si encriptaciÛ esta habilitada.
+	Aquesta comanda no esta disponible si encriptaci√≥ esta habilitada.
 
 NICK_SERVADMIN_HELP_GETEMAIL
 	Syntax: GETEMAIL user@emailhost
@@ -4263,12 +4263,12 @@ NICK_SERVADMIN_HELP_GETEMAIL
 	Limited to Services admins.
 
 NICK_SERVADMIN_HELP_FORBID
-	Sintaxis: FORBID nickname [raÛ]
+	Sintaxis: FORBID nickname [ra√≥]
 	
-	Impedeix que un nickname sigui registrat o utilitzat per alg˙.
+	Impedeix que un nickname sigui registrat o utilitzat per alg√∫.
 	Pot ser cancel.lat eliminat el nick.
 	
-	En algunes xarxes, la raÛ es necessaria.
+	En algunes xarxes, la ra√≥ es necessaria.
 	
 	Limitat a administradors de serveis.
 
@@ -4305,7 +4305,7 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 ###########################################################################
 CHAN_HELP_CMD_GETPASS
 	    GETPASS    Retorna la clau de fundador per a un canal
-	               (sols si l'encriptaciÛ esta deshabilitada)
+	               (sols si l'encriptaci√≥ esta deshabilitada)
 CHAN_HELP_CMD_FORBID
 	    FORBID     Evita que un canal es faci servir
 CHAN_HELP_CMD_SUSPEND
@@ -4321,7 +4321,7 @@ CHAN_HELP_CMD_REGISTER
 CHAN_HELP_CMD_IDENTIFY
 	    IDENTIFY   T'identifica amb la teva clau
 CHAN_HELP_CMD_SET
-	    SET        Establir opcions i informaciÛ d'un canal
+	    SET        Establir opcions i informaci√≥ d'un canal
 CHAN_HELP_CMD_AOP
 	    AOP        Modifica la llista d'usuaris AOP
 CHAN_HELP_CMD_SOP
@@ -4329,9 +4329,9 @@ CHAN_HELP_CMD_SOP
 CHAN_HELP_CMD_ACCESS
 	    ACCESS     Modifica la llista d'usuaris privilegiats
 CHAN_HELP_CMD_LEVELS
-	    LEVELS     Redefine el significat de nivells d'accÈs
+	    LEVELS     Redefine el significat de nivells d'acc√©s
 CHAN_HELP_CMD_AKICK
-	    AKICK      MantÈ la llista d'AutoKick
+	    AKICK      Mant√© la llista d'AutoKick
 CHAN_HELP_CMD_DROP
 	    DROP       Cancel.la l'enregistrament d'un canal
 CHAN_HELP_CMD_SENDPASS
@@ -4389,43 +4389,43 @@ CHAN_HELP
 	%S et permet registrar i controlar varis
 	aspectes dels canals. Sovint, %S pot prevenir
 	a usuaris maliciosos "pendre" canals limitant
-	qui esta permÈs a tenir privilegis d'operador.
-	Les comandes disponibles estan llistades a continuaciÛ;
+	qui esta perm√©s a tenir privilegis d'operador.
+	Les comandes disponibles estan llistades a continuaci√≥;
 	Per a utilitzar-los, escriu %R%S comanda.
-	Per mÈs informaciÛ sobre una comanda especifica,
+	Per m√©s informaci√≥ sobre una comanda especifica,
 	escriu %R%S HELP comanda.
 	 
 
 CHAN_HELP_EXPIRES
 	
 	Tingues en compte que qualsevol canal que no sigui utilitzat durant
-	%d dies (al qual cap usuari a la llista d'accÈs
+	%d dies (al qual cap usuari a la llista d'acc√©s
 	del canal entri en aquest periode de temps) sera
 	automaticament eliminat.
 
 CHAN_HELP_REGISTER
-	Sintaxis: REGISTER canal clau descripciÛ
+	Sintaxis: REGISTER canal clau descripci√≥
 	
 	Registra un canal en la base de dades de %S. Per a
 	utilitzar aquesta comanda, has de ser un operador en el
 	canal que intentis registrar. La clau es utilitzada amb
 	la comanda IDENTIFY per a permetre a altres fer
 	canvis en les opcions del canal posteriorment.
-	L'˙ltim parametre, el qual ha de ser inclÚs, Ès
-	una descripciÛ general del propÚsit del canal.
+	L'√∫ltim parametre, el qual ha de ser incl√≤s, √©s
+	una descripci√≥ general del prop√≤sit del canal.
 	
 	Quant registres un canal, ets reconegut com el
 	"fundador" del canal. El fundador del canal pot
 	canviar tots els parametres pel canal;
-	%S tambÈ donar‡ al fundador privilegis d'operador
+	%S tamb√© donar√† al fundador privilegis d'operador
 	automaticamente quant l'usuari entri al canal.
 	Esbrina sobre la comanda ACCESS
-	(%R%S HELP ACCESS) Per mÈs informaciÛ sobre
+	(%R%S HELP ACCESS) Per m√©s informaci√≥ sobre
 	com donar aquests privilegis a altres usuaris del canal.
 	
 	NOTA: Per registrar un canal has d'haver registrat
 	el teu nickname primer. Si encara no ho has fet, escriu
-	%R%s HELP per mÈs informaciÛ de com fer-ho.
+	%R%s HELP per m√©s informaci√≥ de com fer-ho.
 
 CHAN_HELP_IDENTIFY
 	Sintaxis: IDENTIFY canal clau
@@ -4448,12 +4448,12 @@ CHAN_HELP_LOGOUT
 CHAN_HELP_DROP
 	Sintaxis: DROP canal
 	
-	Desenregistra el canal especificat. NomËs pot ser utilitzat pel
+	Desenregistra el canal especificat. Nom√®s pot ser utilitzat pel
 	fundador del canal, qui ha d'utilitzar primer la comanda
 	 IDENTIFY.
 
 CHAN_HELP_SET
-	Sintaxis: SET canal opciÛ parametres
+	Sintaxis: SET canal opci√≥ parametres
 	
 	Li permet al fundador del canal establir varies opcions
 	del canal i altres informacions.
@@ -4463,7 +4463,7 @@ CHAN_HELP_SET
 	    FOUNDER       Estableix el fundador d'un canal
 	    SUCCESSOR     Estableix el successor d'un canal
 	    PASSWORD      Estableix el password del fundador
-	    DESC          Estableix la descripciÛ del canal
+	    DESC          Estableix la descripci√≥ del canal
 	    URL           Associa una URL amb el canal
 	    EMAIL         Associa un E-mail amb el canal
 	    ENTRYMSG      Estableix un missatge a enviar als
@@ -4475,9 +4475,9 @@ CHAN_HELP_SET
 	                  esta en uso
 	    OPNOTICE      Envia una noticia quant les comandes
 	                  OP/DEOP son utilitzats
-	    PEACE         Regula l'˙s de comandes critiques
+	    PEACE         Regula l'√∫s de comandes critiques
 	    PRIVATE       Oculta el canal de la comanda LIST
-	    RESTRICTED    Restringeix l'accÈs al canal
+	    RESTRICTED    Restringeix l'acc√©s al canal
 	    SECURE        Activa les opcions de seguretat de %S
 	    SECUREOPS     Estricte control de l'estatus de chanop
 	    SECUREFOUNDER Estricto control de l'estatus de fundador
@@ -4487,8 +4487,8 @@ CHAN_HELP_SET
 	                  TOPIC
 	    XOP           Canvia el sistema de privilegis d'usuari
 	
-	Escriu %R%S HELP opciÛ per mÈs informaciÛ
-	sobre una opciÛ en particular.
+	Escriu %R%S HELP opci√≥ per m√©s informaci√≥
+	sobre una opci√≥ en particular.
 
 CHAN_HELP_SET_FOUNDER
 	Sintaxis: SET canal FOUNDER nick
@@ -4502,9 +4502,9 @@ CHAN_HELP_SET_SUCCESSOR
 	Canvia el successor d'un canal. Si el nickname fundador
 	caduca o es eliminat mentres el canal esta encara registrat,
 	el successor es convertira en el nou fundador del canal.
-	PerÚ, si el successor ja te molts canals
+	Per√≤, si el successor ja te molts canals
 	registrats (%d), el canal sera eliminat, tal i com
-	si no hi haguËs un successor. El nou nickname ha de ser un
+	si no hi hagu√®s un successor. El nou nickname ha de ser un
 	d'enregistrat.
 
 CHAN_HELP_SET_PASSWORD
@@ -4514,26 +4514,26 @@ CHAN_HELP_SET_PASSWORD
 	fundador del canal.
 
 CHAN_HELP_SET_DESC
-	Sintaxis: SET canal DESC descripciÛ
+	Sintaxis: SET canal DESC descripci√≥
 	
-	Estableix la descripciÛ pel canal, la que es mostrada
+	Estableix la descripci√≥ pel canal, la que es mostrada
 	amb les comandes LIST i INFO.
 
 CHAN_HELP_SET_URL
 	Sintaxis: SET canal URL [url]
 	
 	Associa l'URL especificada amb el canal. Aquesta URL sera mostrada
-	quant algu sol.liciti informaciÛ sobre el canal amb
+	quant algu sol.liciti informaci√≥ sobre el canal amb
 	la comanda INFO. Si no s'especifica cap parametre, 
 	esborra la URL actual pel canal.
 
 CHAN_HELP_SET_EMAIL
-	Sintaxis: SET canal EMAIL [direcciÛ]
+	Sintaxis: SET canal EMAIL [direcci√≥]
 	
-	Associa l'adreÁa e-mail especificada amb el canal.
-	Aquesta adreÁa sera mostrada quant algu sol.liciti
-	informaciÛ sobre el canal amb la comanda INFO.
-	Si cap parametre es establert, borra l'adreÁa e-mail
+	Associa l'adre√ßa e-mail especificada amb el canal.
+	Aquesta adre√ßa sera mostrada quant algu sol.liciti
+	informaci√≥ sobre el canal amb la comanda INFO.
+	Si cap parametre es establert, borra l'adre√ßa e-mail
 	actual pel canal.
 
 CHAN_HELP_SET_ENTRYMSG
@@ -4560,224 +4560,224 @@ CHAN_HELP_SET_BANTYPE
 CHAN_HELP_SET_KEEPTOPIC
 	Sintaxis: SET canal KEEPTOPIC {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ de retenciÛ de topic 
-	per un canal. Quant la retenciÛ de topic esta
+	Habilita o deshabilita l'opci√≥ de retenci√≥ de topic 
+	per un canal. Quant la retenci√≥ de topic esta
 	establerta, el topic pel canal sera recordat 
-	%S fins i tot desprÈs de que l'˙ltim usuari
-	sorti del canal, i sigui restaurat la prÚxima vegada que
+	%S fins i tot despr√©s de que l'√∫ltim usuari
+	sorti del canal, i sigui restaurat la pr√≤xima vegada que
 	el canal sigui creat.
 
 CHAN_HELP_SET_TOPICLOCK
-	Sint‡xi: SET canal TOPICLOCK {ON | OFF}
+	Sint√†xi: SET canal TOPICLOCK {ON | OFF}
 	
-	Habilita o deshabilita L'opciÛ de fixaciÛ de topic
-	per a un canal. Quan la fixaciÛ de topic est‡
-	establerta, %S no permetr‡ que el topico del canal
+	Habilita o deshabilita L'opci√≥ de fixaci√≥ de topic
+	per a un canal. Quan la fixaci√≥ de topic est√†
+	establerta, %S no permetr√† que el topico del canal
 	sigui canviat excepte amb la comanda TOPIC.
 
 CHAN_HELP_SET_MLOCK
-	Sint‡xi: SET canal MLOCK Modes
+	Sint√†xi: SET canal MLOCK Modes
 	
-	Estableix el par‡metre de fixaciÛ de Modes pel canal.
+	Estableix el par√†metre de fixaci√≥ de Modes pel canal.
 	%S et permet definir certs Modes de canal per a estar
 	sempre encesos o apagats o lliures d' estar un dels
 	anteriors.
 	
-	El par‡metre Modes Ès construit de la mateixa forma
-	que La comanda /MODE; aixÚ significa, Modes seguits
+	El par√†metre Modes √©s construit de la mateixa forma
+	que La comanda /MODE; aix√≤ significa, Modes seguits
 	per un + estan fixats encesos, i Modes seguits per
 	un - estan fixats apagats. tenir en compte que, a
-	difËrencia de La comanda MODE, cada us de SET MLOCK
-	esborrar‡ tots els Modes fixats prËviament abans de
+	dif√®rencia de La comanda MODE, cada us de SET MLOCK
+	esborrar√† tots els Modes fixats pr√®viament abans de
 	establir els nous!
 	
-	AdVeuretËncia: Si estableixes una clau amb fixaciÛ de Mode, com
-	en el segon exemple de mÈs endevant, haur‡s tambÈ d'establir la
-	OpciÛ RESTRICTED pel canal (veure HELP SET RESTRICTED),
-	o qui sigui que entri al canal quan aquest Ès buit podr‡ veure la
+	AdVeuret√®ncia: Si estableixes una clau amb fixaci√≥ de Mode, com
+	en el segon exemple de m√©s endevant, haur√†s tamb√© d'establir la
+	Opci√≥ RESTRICTED pel canal (veure HELP SET RESTRICTED),
+	o qui sigui que entri al canal quan aquest √©s buit podr√† veure la
 	clau!
 	
 	Exemples:
 	
 	    SET #canal MLOCK +nt-iklps
-	        ForÁa els Modes n i t encesos, i els Modes i, k,
-	        l, p i s apagats. El Mode m Ès deixat lliure per a
-	        estar encËs o apagat.
+	        For√ßa els Modes n i t encesos, i els Modes i, k,
+	        l, p i s apagats. El Mode m √©s deixat lliure per a
+	        estar enc√®s o apagat.
 	
 	    SET #canal MLOCK +knst-ilmp mi-key
-	        ForÁa els Modes k, n, s, i t encesos, i els Modes
-	        i, l, m, i p apagats. TambÈ forÁa la clau del canal
+	        For√ßa els Modes k, n, s, i t encesos, i els Modes
+	        i, l, m, i p apagats. Tamb√© for√ßa la clau del canal
 	        a ser "mi-clau".
 	
 	    SET #canal MLOCK +
-	        Esborra la fixaciÛ de Modes; tots els Modes del canal
-	        sÛn lliures d'estar encesos o apagats.
+	        Esborra la fixaci√≥ de Modes; tots els Modes del canal
+	        s√≥n lliures d'estar encesos o apagats.
 
 CHAN_HELP_SET_PEACE
-	Sint‡xi: SET canal PEACE {ON | OFF}
+	Sint√†xi: SET canal PEACE {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ de pau per a un
-	canal. Quan pau est‡ establerta, un usuari no
+	Habilita o deshabilita l'opci√≥ de pau per a un
+	canal. Quan pau est√† establerta, un usuari no
 	podra expulsar, banejar o esborrar un estatus de canal
 	d'un usuari amb nivelll igual o superior a ell via
 	comandes de %S.
 
 CHAN_HELP_SET_PRIVATE
-	Sint‡xi: SET canal PRIVATE {ON | OFF}
+	Sint√†xi: SET canal PRIVATE {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ de privacitat per a un canal.
-	Quan privacitat est‡ establerta, un %R%S LIST no
-	inclour‡ el canal en cap llista.
+	Habilita o deshabilita l'opci√≥ de privacitat per a un canal.
+	Quan privacitat est√† establerta, un %R%S LIST no
+	inclour√† el canal en cap llista.
 
 CHAN_HELP_SET_RESTRICTED
-	Sint‡xi: SET canal RESTRICTED {ON | OFF}
+	Sint√†xi: SET canal RESTRICTED {ON | OFF}
 	
 	Enables or disables the restricted access option for a
 	channel.  When restricted access is set, users not on
 	the access list will instead be kicked and banned from the channel.
 
 CHAN_HELP_SET_SECURE
-	Sint‡xi: SET canal SECURE {ON | OFF}
+	Sint√†xi: SET canal SECURE {ON | OFF}
 	
-	Habilita o deshabilita les caracterÌstiques de seguretat
-	de %S per a un canal. Quan SECURE est‡
-	establert, nomÈs usuaris que haguin registrat els seus nicknames
-	amb %s i haguin utilitzat IDENTIFY amb la seva clau els ser‡
-	atorgat accÈs al canal controlat per la llista de
-	accÈs.
+	Habilita o deshabilita les caracter√≠stiques de seguretat
+	de %S per a un canal. Quan SECURE est√†
+	establert, nom√©s usuaris que haguin registrat els seus nicknames
+	amb %s i haguin utilitzat IDENTIFY amb la seva clau els ser√†
+	atorgat acc√©s al canal controlat per la llista de
+	acc√©s.
 
 CHAN_HELP_SET_SECUREOPS
-	Sint‡xi: SET canal SECUREOPS {ON | OFF}
+	Sint√†xi: SET canal SECUREOPS {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ seguretat de ops per a un
-	canal.  Quan seguretat de ops est‡ establerta, usuaris
-	que no estaven a la llista d'usuaris no els ser‡ permËs 
+	Habilita o deshabilita l'opci√≥ seguretat de ops per a un
+	canal.  Quan seguretat de ops est√† establerta, usuaris
+	que no estaven a la llista d'usuaris no els ser√† perm√®s 
 	obtenir l' estatus d'operador de canal.
 	
 CHAN_HELP_SET_SECUREFOUNDER
-	Sint‡xi: SET canal SECUREFOUNDER {ON | OFF}
+	Sint√†xi: SET canal SECUREFOUNDER {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ seguretat de fundador per a
-	un canal. Quan seguretat de fundador est‡ establerta, nomÈs
-	el fundador real podr‡ eliminar el canal, canviar la seva clau,
+	Habilita o deshabilita l'opci√≥ seguretat de fundador per a
+	un canal. Quan seguretat de fundador est√† establerta, nom√©s
+	el fundador real podr√† eliminar el canal, canviar la seva clau,
 	el seu fundador i el seu sucesor, i no aquells que estiguin identificats
 	amb %S.
 	
 CHAN_HELP_SET_SIGNKICK
-	Sint‡xi: SET canal SIGNKICK {ON | LEVEL | OFF}
+	Sint√†xi: SET canal SIGNKICK {ON | LEVEL | OFF}
 	
 	Habilita o deshabilita els kicks firmats per a un
-	canal. Quan SIGNKICK est‡ establert, kicks
+	canal. Quan SIGNKICK est√† establert, kicks
 	fets amb la comanda %S KICK tindran el
-	nick que ha fet servir la comanda en la raÛ.
+	nick que ha fet servir la comanda en la ra√≥.
 	
 	Si uses LEVEL, aquells que tenen nivelll superior o
 	igual al nivelll SIGNKICK en el canal no tindran els seus kicks 
-	firmats. Veure %R%S HELP LEVELS per a mÈs informaciÛ.
+	firmats. Veure %R%S HELP LEVELS per a m√©s informaci√≥.
 
 CHAN_HELP_SET_XOP
-	Sint‡xi: SET canal XOP {ON | OFF}
+	Sint√†xi: SET canal XOP {ON | OFF}
 	
 	Habilita o deshabilita el sistema de llistes xOP per a un canal.
-	Quan XOP est‡ establert, has de fer servir les comandes AOP/SOP/VOP
+	Quan XOP est√† establert, has de fer servir les comandes AOP/SOP/VOP
 	per a donar privilegis de canal a usuaris. D'altra manera
 	has de fer servir la comanda ACCESS.
 	
-	Nota TËcnica: Quan canvies de llista d'accÈs a sistema
-	de llistes xOP, al teva definiciÛ de nivellls d'usuari ser‡
-	canviada, aixÌ que no tindras els mateixos valors si tornes a
-	canviar a llista de accÈs!
+	Nota T√®cnica: Quan canvies de llista d'acc√©s a sistema
+	de llistes xOP, al teva definici√≥ de nivellls d'usuari ser√†
+	canviada, aix√≠ que no tindras els mateixos valors si tornes a
+	canviar a llista de acc√©s!
 	
-	TambÈ hauries de comprovar si els teus usuaris estan a la llista xOP
-	corresponent desprÈs del canvi, ja que la deducciÛ no Ès
+	Tamb√© hauries de comprovar si els teus usuaris estan a la llista xOP
+	corresponent despr√©s del canvi, ja que la deducci√≥ no √©s
 	sempre perfecta... de fet, no es recomana el fer servir llistes
-	xOP si vas canviar la definiciÛ de nivellls amb la comanda
+	xOP si vas canviar la definici√≥ de nivellls amb la comanda
 	LEVELS.
 	
-	Canviar de llistes xOP al sistema de llistes d'accÈs no causa cap
+	Canviar de llistes xOP al sistema de llistes d'acc√©s no causa cap
 	problema.
 
 CHAN_HELP_SET_OPNOTICE
-	Sint‡xi: SET canal OPNOTICE {ON | OFF}
+	Sint√†xi: SET canal OPNOTICE {ON | OFF}
 	
-	Habilita o deshabilita l'opciÛ de op-notice per a un canal.
-	Quan op-notice est‡ establert, %S enviar‡ una noticia
+	Habilita o deshabilita l'opci√≥ de op-notice per a un canal.
+	Quan op-notice est√† establert, %S enviar√† una noticia
 	a l'usuari del canal quan les comandes OP o DEOP siguin
 	utilitzades per a un usuari en el canal.
 
 CHAN_HELP_AOP
-	Sint‡xi: AOP canal ADD nick
+	Sint√†xi: AOP canal ADD nick
 	          AOP canal DEL {nick | instancia | llista}
 	          AOP canal LIST [mascara | llista]
 	          AOP canal CLEAR
 	
-	MantÈ la llista OP (AutoOP) per a un canal. La llista
-	AOP li dÛna a l'usuari el dret de ser autom‡ticament
+	Mant√© la llista OP (AutoOP) per a un canal. La llista
+	AOP li d√≥na a l'usuari el dret de ser autom√†ticament
 	opejat en el teu canal, desbanejat o convidar-se a ell mateix en cas de
-	ser neces‡ri, mostrar el missatge de salutaciÛ al entrar, etc.
+	ser neces√†ri, mostrar el missatge de salutaci√≥ al entrar, etc.
 	
 	La comanda AOP ADD agrega al nickname donat a la llista
 	AOP.
 	
 	La comanda AOP DEL esborra el nickname donat de la
-	llista AOP. Si una llista de inst‡ncies Ès donada, aquestes
-	inst‡ncies sÛn esborrades. (Veure l'exemple per a LIST mÈs
+	llista AOP. Si una llista de inst√†ncies √©s donada, aquestes
+	inst√†ncies s√≥n esborrades. (Veure l'exemple per a LIST m√©s
 	endevant.)
 	
 	La comanda AOP LIST mostra la llista AOP. Si una
-	mascara amb comodÌ Ès donada, nomÈs les inst‡ncies
-	que concordin amb la mascara sÛn mostrades. Si una llista de
-	inst‡ncies Ès donada, sols aquestes inst‡ncies sÛn mostrades;
+	mascara amb comod√≠ √©s donada, nom√©s les inst√†ncies
+	que concordin amb la mascara s√≥n mostrades. Si una llista de
+	inst√†ncies √©s donada, sols aquestes inst√†ncies s√≥n mostrades;
 	per exemple:
 	
 	   AOP #canal LIST 2-5,7-9
-	      Mostra inst‡ncies de AOP enumerades 2 a 5 i
+	      Mostra inst√†ncies de AOP enumerades 2 a 5 i
 	      7 a 9.
 	
-	La comanda AOP CLEAR neteja totes les inst‡ncies de la
+	La comanda AOP CLEAR neteja totes les inst√†ncies de la
 	llista AOP.
 	
-	Les comandes AOP ADD i AOP DEL est‡ limitats a
+	Les comandes AOP ADD i AOP DEL est√† limitats a
 	SOPs o superior, mentre que la comanda AOP CLEAR
-	sols pot ser utilitzada per el fundador del canal. Tot i aixÌ,
+	sols pot ser utilitzada per el fundador del canal. Tot i aix√≠,
 	qualsevol usuari a la llista AOP pot usar la comanda
 	AOP LIST.
 	
 	Aquesta comanda pot haVeure sigut deshabilitada per al teu canal.
-	Si aquest Ès el cas, has de fer servir la llista d'accÈs. Veure
-	%R%S HELP ACCESS per a informaciÛ sobre la llista
-	de accÈs i %R%S HELP SET XOP per a saber com canviar
-	entre la llista de accÈs i el sistema de llistes xOP.
+	Si aquest √©s el cas, has de fer servir la llista d'acc√©s. Veure
+	%R%S HELP ACCESS per a informaci√≥ sobre la llista
+	de acc√©s i %R%S HELP SET XOP per a saber com canviar
+	entre la llista de acc√©s i el sistema de llistes xOP.
 
 CHAN_HELP_HOP
-	Sint‡xi: HOP canal ADD nick
+	Sint√†xi: HOP canal ADD nick
 	          HOP canal DEL {nick | instancia | llista}
 	          HOP canal LIST [mascara | llista]
 	          HOP canal CLEAR
 	
-	MantÈ la llista HOP (HalfOP) per a un canal. La llista
-	HOP li dÛna a l'usuari el dret de ser autom‡ticament
+	Mant√© la llista HOP (HalfOP) per a un canal. La llista
+	HOP li d√≥na a l'usuari el dret de ser autom√†ticament
 	halfopejat en el teu canal.
 	
 	La comanda HOP ADD agrega al nickname donat a la llista
 	HOP.
 	
 	La comanda HOP DEL esborra el nickname donat de la
-	llista HOP. Si una llista d'inst‡ncies Ès donada, aquestes
-	inst‡ncies sÛn esborrades. (Veure l'exemple per a LIST mÈs
+	llista HOP. Si una llista d'inst√†ncies √©s donada, aquestes
+	inst√†ncies s√≥n esborrades. (Veure l'exemple per a LIST m√©s
 	endevant.)
 	
 	La comanda HOP LIST mostra la llista HOP. Si una
-	mascara amb comodÌ Ès donada, nomÈs les inst‡ncies
-	que concordin amb la mascara sÛn mostrades. Si una llista de
-	inst‡ncies Ès donada, nomÈs aquestes inst‡ncies sÛn mostrades;
+	mascara amb comod√≠ √©s donada, nom√©s les inst√†ncies
+	que concordin amb la mascara s√≥n mostrades. Si una llista de
+	inst√†ncies √©s donada, nom√©s aquestes inst√†ncies s√≥n mostrades;
 	per exemple:
 	
 	   HOP #canal LIST 2-5,7-9
-	      Mostra inst‡ncies de HOP enumerades 2 a 5 y
+	      Mostra inst√†ncies de HOP enumerades 2 a 5 y
 	      7 a 9.
 	
-	La comanda HOP CLEAR neteja totes les inst‡ncies de la
+	La comanda HOP CLEAR neteja totes les inst√†ncies de la
 	llista HOP.
 	
 	Les comandes HOP ADD i HOP DEL estan limitades a
@@ -4785,19 +4785,19 @@ CHAN_HELP_HOP
 	sols pot ser utilitzada per el fundador del canal.
 	
 	Aquesta comanda pot haber estat deshabilitada per al teu canal.
-	Si aquest Ès el cas, has de fer servir la llista d'accÈs. Veure
-	%R%S HELP ACCESS per a informaciÛ sobre la llista
-	d'accÈs i %R%S HELP SET XOP per a saber com canviar
-	entre la llista d'accÈs i el sistema de llistes xOP.
+	Si aquest √©s el cas, has de fer servir la llista d'acc√©s. Veure
+	%R%S HELP ACCESS per a informaci√≥ sobre la llista
+	d'acc√©s i %R%S HELP SET XOP per a saber com canviar
+	entre la llista d'acc√©s i el sistema de llistes xOP.
 
 CHAN_HELP_SOP
-	Sint‡xi: SOP canal ADD nick
+	Sint√†xi: SOP canal ADD nick
 	          SOP canal DEL {nick | instancia | llista}
 	          SOP canal LIST [mascara | llista]
 	          SOP canal CLEAR
 	
-	MantÈ la llista SOP (SuperOP) per a un canal. La llista
-	SOP li dÛna a l'usuari els drets donats per la llista AOP,
+	Mant√© la llista SOP (SuperOP) per a un canal. La llista
+	SOP li d√≥na a l'usuari els drets donats per la llista AOP,
 	i agrega aquells necesaris per a utilitzar les llistes de
 	AutoKick i BadWords, enviar i llegir memos de canal, etc.
 	
@@ -4805,21 +4805,21 @@ CHAN_HELP_SOP
 	SOP.
 	
 	La comanda SOP DEL esborra el nickname donat de la
-	llista SOP. Si una llista d'inst‡ncies Ès dada, aquestes
-	inst‡ncies sÛn esborrades. (Veure l'exemple per a LIST mÈs
+	llista SOP. Si una llista d'inst√†ncies √©s dada, aquestes
+	inst√†ncies s√≥n esborrades. (Veure l'exemple per a LIST m√©s
 	endevant.)
 	
 	La comanda SOP LIST mostra la llista SOP. Si una
-	mascara amb comodÌ Ès donada, nomÈs les inst‡ncies
-	coincidents amb la mascara sÛn mostrades. Si una llista de
-	inst‡ncies Ès donada, sols aquestes inst‡ncies sÛn mostrades;
+	mascara amb comod√≠ √©s donada, nom√©s les inst√†ncies
+	coincidents amb la mascara s√≥n mostrades. Si una llista de
+	inst√†ncies √©s donada, sols aquestes inst√†ncies s√≥n mostrades;
 	per exemple:
 	
 	   SOP #canal LIST 2-5,7-9
-	      Mostra inst‡ncies de SOP enumerades 2 a 5 i
+	      Mostra inst√†ncies de SOP enumerades 2 a 5 i
 	      7 a 9.
 	
-	La comanda SOP CLEAR neteja totes les inst‡ncies de la
+	La comanda SOP CLEAR neteja totes les inst√†ncies de la
 	llista SOP.
 	
 	Les comandes SOP ADD, SOP DEL i SOP CLEAR estan
@@ -4827,40 +4827,40 @@ CHAN_HELP_SOP
 	llista AOP pot fer servir la comanda SOP LIST.
 	
 	Aquesta comanda pot haber sigut deshabilitada per al teu canal.
-	Si aquest Ès el cas, has de fer servir la llista d'accÈs. Veure
-	%R%S HELP ACCESS per a informaciÛ sobre la llista
-	d'accÈs i %R%S HELP SET XOP per a saber com canviar
-	entre la llista d'accÈs i el sistema de llistes xOP.
+	Si aquest √©s el cas, has de fer servir la llista d'acc√©s. Veure
+	%R%S HELP ACCESS per a informaci√≥ sobre la llista
+	d'acc√©s i %R%S HELP SET XOP per a saber com canviar
+	entre la llista d'acc√©s i el sistema de llistes xOP.
 
 CHAN_HELP_VOP
-	Sint‡xi: VOP canal ADD nick
+	Sint√†xi: VOP canal ADD nick
 	          VOP canal DEL {nick | instancia | llista}
 	          VOP canal LIST [mascara | llista]
 	          VOP canal CLEAR
 	
-	MantÈ la llista VOP (VOicePeople) per a un canal.
+	Mant√© la llista VOP (VOicePeople) per a un canal.
 	La llista VOP li dona a l'usuari el dret de ser
-	autom‡ticament donat veu o donar-se veu a si mateix.
+	autom√†ticament donat veu o donar-se veu a si mateix.
 	
 	La comanda VOP ADD agrega el nickname donat a la llista
 	VOP.
 	
 	La comanda VOP DEL esborra el nickname donat de la
-	llista VOP. Si una llista de inst‡ncies Ès donada, aquestes
-	inst‡ncies sÛn esborrades. (Veure l'exemple per a LIST mÈs
+	llista VOP. Si una llista de inst√†ncies √©s donada, aquestes
+	inst√†ncies s√≥n esborrades. (Veure l'exemple per a LIST m√©s
 	endevant.)
 	
 	La comanda VOP LIST mostra la llista VOP. Si una
-	mascara amb comodÌ Ès donada, sols les inst‡ncies
-	concordant amb la mascara sÛn mostrades. Si una llista de
-	inst‡ncies Ès donada, sols aquetes inst‡ncies sÛn mostrades;
+	mascara amb comod√≠ √©s donada, sols les inst√†ncies
+	concordant amb la mascara s√≥n mostrades. Si una llista de
+	inst√†ncies √©s donada, sols aquetes inst√†ncies s√≥n mostrades;
 	per exemple:
 	
 	   VOP #canal LIST 2-5,7-9
-	      mostra inst‡ncies de VOP enumerades 2 a 5 i
+	      mostra inst√†ncies de VOP enumerades 2 a 5 i
 	      7 a 9.
 	
-	La comanda VOP CLEAR neteja totes les inst‡ncies de la
+	La comanda VOP CLEAR neteja totes les inst√†ncies de la
 	llista VOP.
 	
 	Les comandes VOP ADD, VOP DEL i VOP LIST estan
@@ -4869,65 +4869,65 @@ CHAN_HELP_VOP
 	canal.
 	
 	Aquesta comanda pot haber sigut deshabilitada per al teu canal.
-	Si aquest Ès el cas, has de fer servir la llista de accÈs. Veure
-	%R%S HELP ACCESS per a informaciÛ sobre la llista
-	d'accÈs i %R%S HELP SET XOP per a saber como canviar
-	entre la llista d'accÈs i el sistema de llistes xOP.
+	Si aquest √©s el cas, has de fer servir la llista de acc√©s. Veure
+	%R%S HELP ACCESS per a informaci√≥ sobre la llista
+	d'acc√©s i %R%S HELP SET XOP per a saber como canviar
+	entre la llista d'acc√©s i el sistema de llistes xOP.
 
 CHAN_HELP_ACCESS
-	Sint‡xi: ACCESS canal ADD nick nivell
+	Sint√†xi: ACCESS canal ADD nick nivell
 	          ACCESS canal DEL {nick | indices | llista}
 	          ACCESS canal LIST [mascara | llista]
 	          ACCESS canal CLEAR
 	
-	MantÈ la llista d'accÈs per a un canal. La llista
-	de accÈs especÌfica quins usuaris estan permesos a tenir
-	l'estatus d'operador de canal o accÈs a comandes de
+	Mant√© la llista d'acc√©s per a un canal. La llista
+	de acc√©s espec√≠fica quins usuaris estan permesos a tenir
+	l'estatus d'operador de canal o acc√©s a comandes de
 	%S en el canal.  Diferents nivellls d'usuaris permeten
-	accÈs a diferents subnivelles de privilegis;
-	%R%S HELP ACCESS LEVELS per a informaciÛ mÈs
-	especÌfica. Qualsevol nick no present a la llista de
-	accÈs tÈ un nivelll 0.
+	acc√©s a diferents subnivelles de privilegis;
+	%R%S HELP ACCESS LEVELS per a informaci√≥ m√©s
+	espec√≠fica. Qualsevol nick no present a la llista de
+	acc√©s t√© un nivelll 0.
 	
 	La comanda ACCESS ADD afegeix el nickname donat a la llista
-	d'accÈs amb el nivelll d'usuari donat; si el nick ja est‡
-	present a la llista, el nivelll d'accÈs Ès canviat al
+	d'acc√©s amb el nivelll d'usuari donat; si el nick ja est√†
+	present a la llista, el nivelll d'acc√©s √©s canviat al
 	especificat en la comanda. El nivelll especificat
 	ha de ser menys que el de l'usuari que fa la comanda, i si
-	el nick ja est‡ a la llista d'accÈs, l'accÈs actual
-	del nick ha de ser menor que l'accÈs de l'usuari que fa la
+	el nick ja est√† a la llista d'acc√©s, l'acc√©s actual
+	del nick ha de ser menor que l'acc√©s de l'usuari que fa la
 	comanda.
 	
 	La comanda ACCESS DEL esborra el nick donat de la llista
-	d'accÈs. Si una llista d'inst‡ncies Ès donada, aquestes inst‡ncies
-	sÛn esborrades.  (Veure l'exemple per a LIST mÈs endevant.)
+	d'acc√©s. Si una llista d'inst√†ncies √©s donada, aquestes inst√†ncies
+	s√≥n esborrades.  (Veure l'exemple per a LIST m√©s endevant.)
 	
-	La comanda ACCESS LIST mostra la llista d'accÈs. Si
-	una mascara amb comodÌ Ès donada, sols aquestes inst‡ncies
-	concordant amb la mascara sÛn mostrades. Si una llista de
-	inst‡ncies Ès donada, sols aquestes inst‡ncies sÛn mostrades; per
+	La comanda ACCESS LIST mostra la llista d'acc√©s. Si
+	una mascara amb comod√≠ √©s donada, sols aquestes inst√†ncies
+	concordant amb la mascara s√≥n mostrades. Si una llista de
+	inst√†ncies √©s donada, sols aquestes inst√†ncies s√≥n mostrades; per
 	exemple:
 
 	   ACCESS #canal LIST 2-5,7-9
-	      llista inst‡ncies d'accÈs numerades 2 fins 5 i
+	      llista inst√†ncies d'acc√©s numerades 2 fins 5 i
 	      7 fins a 9.
 	      
-	La comanda ACCESS CLEAR neteja totes les inst‡ncies
-	de la llista d'accÈs.
+	La comanda ACCESS CLEAR neteja totes les inst√†ncies
+	de la llista d'acc√©s.
 
 CHAN_HELP_ACCESS_LEVELS
-	nivellls d'accÈs per a usuaris
+	nivellls d'acc√©s per a usuaris
 	
-	Per defecte, els seg¸ents nivellls d'accÈs estan definits:
+	Per defecte, els seg√ºents nivellls d'acc√©s estan definits:
 	
-	   Fundador   accÈs complet a les funcions de %S;
-	                     Op autom‡tico al entrar al canal. Notis
+	   Fundador   acc√©s complet a les funcions de %S;
+	                     Op autom√†tico al entrar al canal. Notis
 	                     que sols una persona pot tenir estatus
 	                     de fundador (no pot ser donat fent servir la
 	                     comanda ACCESS).
-	        10   accÈs a la comanda AKICK; Op autom‡tico.
-	         5   Op autom‡tico.
-	         3   Voice autom‡tico.
+	        10   acc√©s a la comanda AKICK; Op autom√†tico.
+	         5   Op autom√†tico.
+	         3   Voice autom√†tico.
 	         0   Cap privilegi especial; pot ser opejat
 	                     per altres ops (a menys que seguretat de
 	                     ops estigui establerta).
@@ -4935,10 +4935,10 @@ CHAN_HELP_ACCESS_LEVELS
 	
 	Aquests nivellls poden ser canviats, o afegir-ne de nous,
 	fent servir la comanda LEVELS; escriu %R%S HELP LEVELS
-	per a mÈs informaciÛ.
+	per a m√©s informaci√≥.
 
 CHAN_HELP_AKICK
-	Sint‡xi: AKICK channel ADD {nick | mask} [reason]
+	Sint√†xi: AKICK channel ADD {nick | mask} [reason]
 	         AKICK channel STICK mask
 	         AKICK channel UNSTICK mask
 	         AKICK channel DEL {nick | mask | entry-num | list}
@@ -4947,179 +4947,179 @@ CHAN_HELP_AKICK
 	         AKICK canal ENFORCE
 	         AKICK canal CLEAR
 	
-	MantÈ la llista d'AutoKicks per a un canal. Si
+	Mant√© la llista d'AutoKicks per a un canal. Si
 	un usuari de la llista de Autokicks intenta entrar
-	al canal, %S banejar‡ l'usuari del canal, desprÈs el
-	kickejar‡.
+	al canal, %S banejar√† l'usuari del canal, despr√©s el
+	kickejar√†.
 	
 	La comanda AKICK ADD afegeix el nick o mascara de
-	usuari donat a la llista de Autokicks. Si una raÛ
-	es donada amb la comanda, aquesta raÛ ser‡ utilitzada quan 
-	l'usuari sigui kickejat; si no, la raÛ per defecte Ès
+	usuari donat a la llista de Autokicks. Si una ra√≥
+	es donada amb la comanda, aquesta ra√≥ ser√† utilitzada quan 
+	l'usuari sigui kickejat; si no, la ra√≥ per defecte √©s
 	"Has sigut banejat del canal".
 	When akicking a registered nick the nickserv account
 	will be added to the akick list instead of the mask.
 	All users within that nickgroup will then be akicked.
 	
 	La comanda AKICK STICK baneja permanent la mascara
-	donada en el canal. Si alg˙ intenta treure el ban,
-	%S l'establir‡ autom‡ticament. No pot ser
+	donada en el canal. Si alg√∫ intenta treure el ban,
+	%S l'establir√† autom√†ticament. No pot ser
 	usada per a nicks registrats.
 	
 	La comanda AKICK UNSTICK cancela l'efecto de la
-	comanda AKICK STICK, aixÌ que ser‡ possible esborrar
+	comanda AKICK STICK, aix√≠ que ser√† possible esborrar
 	el ban del canal.
 	
 	La comanda AKICK DEL esborra el nick o mascara donats
-	de la llista de AutoKicks. Tot i aixÌ, no esborra cap ban
+	de la llista de AutoKicks. Tot i aix√≠, no esborra cap ban
 	posat per un AutoKick; aquells han de ser esborrats
 	manualment.
 	
 	La comanda AKICK LIST mostra la llista de AutoKicks,
-	o opcionalment sols les inst‡ncies de AutoKick 
+	o opcionalment sols les inst√†ncies de AutoKick 
 	que concordin amb la mascara especificada.
 	
-	La comanda AKICK VIEW Ès una versiÛ mÈs detallada
+	La comanda AKICK VIEW √©s una versi√≥ m√©s detallada
 	de la comanda AKICK LIST.
 	
-	La comanda AKICK ENFORCE fa a %S a forÁar la
+	La comanda AKICK ENFORCE fa a %S a for√ßar la
 	llista AKICK actual esborrant als usuaris que
 	concordin amb la mascara AKICK.
 	
-	La comanda AKICK CLEAR neteja totes les inst‡ncies
+	La comanda AKICK CLEAR neteja totes les inst√†ncies
 	de la llista de akicks.
 
 CHAN_HELP_LEVELS
-	Sint‡xi: LEVELS canal SET tipo nivell
+	Sint√†xi: LEVELS canal SET tipo nivell
 	        LEVELS canal {DIS | DISABLE} tipo
 	        LEVELS canal LIST
 	        LEVELS canal RESET
 	
 	La comanda LEVELS permet un control fin sobre el
-	significat dels nivellls d'accÈs numËrics per a
-	canals. Amb aquesta comanda, pots definir el nivelll d'accÈs
+	significat dels nivellls d'acc√©s num√®rics per a
+	canals. Amb aquesta comanda, pots definir el nivelll d'acc√©s
 	requerit per a la majoria de les funcions de %S.
-	(Les comandes SET FOUNDER i SET PASSWORD, aixÌ com
+	(Les comandes SET FOUNDER i SET PASSWORD, aix√≠ com
 	aquesta comanda estan sempre restringidws al fundador del
 	canal.)
 	
-	LEVELS SET permet canviar el nivelll d'accÈs per a una funciÛ
+	LEVELS SET permet canviar el nivelll d'acc√©s per a una funci√≥
 	o un grup de funcions. LEVELS DISABLE (o DIS abreviat)
-	deshabilita una caracterÌstica autom‡tica o prohibeix accÈs a una
-	funciÛ per a totss excepte el fundador del canal.
-	LEVELS LIST mostra els nivellls actuals per a cada funciÛ o
+	deshabilita una caracter√≠stica autom√†tica o prohibeix acc√©s a una
+	funci√≥ per a totss excepte el fundador del canal.
+	LEVELS LIST mostra els nivellls actuals per a cada funci√≥ o
 	grup de funcions. LEVELS RESET restableix els nivellls als 
 	nivellls per defecte d'un canal acabat de crear (Veure
 	HELP ACCESS LEVELS).
 	
-	Per a una llista de les caracterÌsticas i funcions a les que
+	Per a una llista de les caracter√≠sticas i funcions a les que
 	se'ls pot canviar els nivellls, Veure HELP LEVELS DESC.
 
 CHAN_HELP_LEVELS_DESC
-	Els seg¸ents nombres de caracterÌstiques/funcions sÛn
+	Els seg√ºents nombres de caracter√≠stiques/funcions s√≥n
 	entesos. Cal tenir en compte que els nivellls per a AUTODEOP
-	i NOJOIN sÛn nivellls m‡xims, mentre tots els altres
-	sÛn nivellls mÌnims.
+	i NOJOIN s√≥n nivellls m√†xims, mentre tots els altres
+	s√≥n nivellls m√≠nims.
 
 CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
 
 CHAN_HELP_INFO
-	Sint‡xi: INFO canal [ALL]
+	Sint√†xi: INFO canal [ALL]
 	
-	llista informaciÛ sobre el canal registrat donat,
-	incloent el seu fundador, temps de registraciÛ, ˙ltim
-	cop utilitzat, descripciÛ i fixaciÛ de Modes, si existeixen.
-	Si ALL Ès especificat, el misatge d'entrada i
-	sucsesor tambÈ seran mostrats.
+	llista informaci√≥ sobre el canal registrat donat,
+	incloent el seu fundador, temps de registraci√≥, √∫ltim
+	cop utilitzat, descripci√≥ i fixaci√≥ de Modes, si existeixen.
+	Si ALL √©s especificat, el misatge d'entrada i
+	sucsesor tamb√© seran mostrats.
 	
-	Per defecte, l'opciÛ ALL est‡ limitada a aquells
-	amb accÈs de fundador en el canal.
+	Per defecte, l'opci√≥ ALL est√† limitada a aquells
+	amb acc√©s de fundador en el canal.
 
 CHAN_HELP_LIST
-	Sint‡xi: LIST patrÛ
+	Sint√†xi: LIST patr√≥
 	
-	llista tots els canals registrats concordant amb el patrÛ 
-	donat (canals amb l'opciÛ PRIVATE establerta no sÛn
+	llista tots els canals registrats concordant amb el patr√≥ 
+	donat (canals amb l'opci√≥ PRIVATE establerta no s√≥n
 	llistats.)
 
 CHAN_HELP_OP
-	Sint‡xi: OP [#canal [nick]]
+	Sint√†xi: OP [#canal [nick]]
 	
-	Opeja al nick seleccionat en un canal. Si un nick no Ès
-	donat, t'opejar‡ a tu. Si el canal i el nick no sÛn donats,
-	te opejar‡ en tots els canals en els que estiguis,
+	Opeja al nick seleccionat en un canal. Si un nick no √©s
+	donat, t'opejar√† a tu. Si el canal i el nick no s√≥n donats,
+	te opejar√† en tots els canals en els que estiguis,
 	sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs o aquells amb nivelll d'
-	accÈs 5 i major en el canal.
+	acc√©s 5 i major en el canal.
 
 CHAN_HELP_DEOP
-	Sint‡xi: DEOP [#canal [nick]]
+	Sint√†xi: DEOP [#canal [nick]]
 	
-	Desopeja al nick seleccionado en un canal. Si el nick no Ès
-	donat, et desopejar‡ a tu. Si el canal i el nick no sÛn donats,
-	et desopejar‡ a tu en tots els canals en els que estiguis,
+	Desopeja al nick seleccionado en un canal. Si el nick no √©s
+	donat, et desopejar√† a tu. Si el canal i el nick no s√≥n donats,
+	et desopejar√† a tu en tots els canals en els que estiguis,
 	sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs o aquells amb nivelll d'
-	accÈs 5 i major en el canal.
+	acc√©s 5 i major en el canal.
 	
 CHAN_HELP_VOICE
-	Sint‡xi: VOICE [#canal [nick]]
+	Sint√†xi: VOICE [#canal [nick]]
 	
-	DÛna voice al nick seleccionat en un canal. Si el nick no
-	Ès donat, et donar‡ voice a ti. Si el canal i el nick no sÛn
-	donats, et donar‡ voice en tots els canals en els que
+	D√≥na voice al nick seleccionat en un canal. Si el nick no
+	√©s donat, et donar√† voice a ti. Si el canal i el nick no s√≥n
+	donats, et donar√† voice en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a
 	fer-ho.
 	
 	Per defecte, limitat AOPs o aquells amb nivelll d'
-	accÈs 5 i major en el canal, o a VOPs o aquells
+	acc√©s 5 i major en el canal, o a VOPs o aquells
 	amb nivelll 3 i major per a donar-se voice a si mateixos.
 
 CHAN_HELP_DEVOICE
-	Sint‡xi: DEVOICE [#canal [nick]]
+	Sint√†xi: DEVOICE [#canal [nick]]
 	
 	Treu voice al nick seleccionat en un canal. Si el nick no
-	Ès donat, et treur‡ voice a tu. Si el canal i el nick no sÛn
-	donats, et treur‡ voice en tots els canals en els que
+	√©s donat, et treur√† voice a tu. Si el canal i el nick no s√≥n
+	donats, et treur√† voice en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs o aquells amb nivelll d'
-	accÈs 5 i major en el canal, o a VOPs o aquells amb
+	acc√©s 5 i major en el canal, o a VOPs o aquells amb
 	nivelll 3 i major per a donar-se voice a si mateixos.
 	
 CHAN_HELP_HALFOP
-	Sint‡xi: HALFOP [#canal [nick]]
+	Sint√†xi: HALFOP [#canal [nick]]
 	
-	DÛna Halfop al nick seleccionat en un canal. Si el nick no
-	Ès donat, et donar‡ halfop a tu. Si el canal i el nick no sÛn
-	donats, et donar‡ halfop en tots els canals en els que
+	D√≥na Halfop al nick seleccionat en un canal. Si el nick no
+	√©s donat, et donar√† halfop a tu. Si el canal i el nick no s√≥n
+	donats, et donar√† halfop en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs i aquells amb nivelll d'
-	accÈs 5 i major en el canal, o a HOPs o aquells amb nivelll
+	acc√©s 5 i major en el canal, o a HOPs o aquells amb nivelll
 	4 i major per a donar-se halfop a si mateixos.
 
 CHAN_HELP_DEHALFOP
-	Sint‡xi: DEHALFOP [#canal [nick]]
+	Sint√†xi: DEHALFOP [#canal [nick]]
 	
 	Treu Halfop al nick seleccionat en un canal. Si el nick no
-	Ès donat, et treur‡ halfop a tu. Si el canal i el nick no sÛn
-	donats, et treur‡ halfop en tots els canals en els que
+	√©s donat, et treur√† halfop a tu. Si el canal i el nick no s√≥n
+	donats, et treur√† halfop en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs i aquells amb nivelll d'
-	accÈs 5 i major en el canal, o a HOPs o aquells amb
+	acc√©s 5 i major en el canal, o a HOPs o aquells amb
 	nivelll 4 i major per a treure's halfop a si mateixos.
 
 CHAN_HELP_PROTECT
-	Sint‡xi: PROTECT [#canal [nick]]
+	Sint√†xi: PROTECT [#canal [nick]]
 	
-	Protejeix al nick seleccionat en un canal. Si el nick no Ès
-	donat, et protegir‡ a tu. Si el canal i el nick no sÛn donats,
-	et protejir‡ en tots els canals en els que
+	Protejeix al nick seleccionat en un canal. Si el nick no √©s
+	donat, et protegir√† a tu. Si el canal i el nick no s√≥n donats,
+	et protejir√† en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho..
 	
 	Per defecte, limitat al fundador, o a SOPs o aquells
@@ -5127,11 +5127,11 @@ CHAN_HELP_PROTECT
 	mismos.
 
 CHAN_HELP_DEPROTECT
-	Sint‡xi: DEPROTECT [#canal [nick]]
+	Sint√†xi: DEPROTECT [#canal [nick]]
 	
 	Desprotejeix al nick seleccionat en un canal. Si el nick no
-	Ès donat, et desprotegir‡ a tu. Si el canal i el nick no sÛn
-	donats, et desprotegir‡ en tots els canals en els que
+	√©s donat, et desprotegir√† a tu. Si el canal i el nick no s√≥n
+	donats, et desprotegir√† en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho..
 	
 	Per defecte, limitat al fundador, o a SOPs o aquells
@@ -5139,25 +5139,25 @@ CHAN_HELP_DEPROTECT
 	si mateixos.
 
 CHAN_HELP_OWNER
-	Sint‡xi: OWNER [#canal]
+	Sint√†xi: OWNER [#canal]
 	
-	Et dÛna l'estatus de propietari del canal. Si el canal no
-	Ès donat, et donar‡ estatus de propietari en tots els canals en els que
+	Et d√≥na l'estatus de propietari del canal. Si el canal no
+	√©s donat, et donar√† estatus de propietari en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Limitad a aquells amb nivelll de fundador en el canal.
 
 CHAN_HELP_DEOWNER
-	Sint‡xi: DEOWNER [#canal]
+	Sint√†xi: DEOWNER [#canal]
 	
 	Esborra l'estatus de propietari del canal. Si el canal no
-	Ès donat, esborra l'estatus de propietari en tots els canals en els que
+	√©s donat, esborra l'estatus de propietari en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Limitat a aquells amb nivelll de fundador en el canal.
 
 CHAN_HELP_INVITE
-	Sint‡xi: INVITE canal
+	Sint√†xi: INVITE canal
 	
 	Li diu a %S que et convidi al canal donat.
 	
@@ -5165,7 +5165,7 @@ CHAN_HELP_INVITE
 	i major en el canal.
 
 CHAN_HELP_UNBAN
-	Sint‡xi: UNBAN canal
+	Sint√†xi: UNBAN canal
 	
 	Li diu a %S que esborri tots els bans que no permeten que 
 	entris al canal donat.
@@ -5174,44 +5174,44 @@ CHAN_HELP_UNBAN
 	i major en el canal.
 
 CHAN_HELP_KICK
-	Sint‡xi: KICK [#canal [nick [raÛ]]]
+	Sint√†xi: KICK [#canal [nick [ra√≥]]]
 	
-	Kickeja al nick seleccionat en el canal. Si el nick no Ès
-	donat, et kickejara a tu. Si el canal i el nick no sÛn donats,
-	et kickejar‡ en tots els canals en els que
+	Kickeja al nick seleccionat en el canal. Si el nick no √©s
+	donat, et kickejara a tu. Si el canal i el nick no s√≥n donats,
+	et kickejar√† en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs o aquells amb nivell d'
-	accÈs 5 i major en el canal.
+	acc√©s 5 i major en el canal.
 
 CHAN_HELP_BAN
-	Sint‡xi: BAN [#canal [nick [raÛ]]]
+	Sint√†xi: BAN [#canal [nick [ra√≥]]]
 	
 	Baneja un nick seleccionat en un canal. Si el nick no
-	Ès donat, et banejar‡ a ti. Si el canal i el nick no sÛn donats,
+	√©s donat, et banejar√† a ti. Si el canal i el nick no s√≥n donats,
 	et banejara en tots els canals en els que
 	estiguis, sempre i quan tinguis els permisos per a fer-ho.
 	
 	Per defecte, limitat a AOPs o aquells amb nivell d'
-	accÈs 5 i major en el canal.
+	acc√©s 5 i major en el canal.
 
 CHAN_HELP_TOPIC
-	Sint‡xi: TOPIC canal [topico]
+	Sint√†xi: TOPIC canal [topico]
 	
 	Fa a %S establir el topic del canal al especificat.
-	Si el topic no Ès donat, un topic buit Ès establert.
-	Aquesta comanda Ès mÈs util utilitzada en conjunt a SET
+	Si el topic no √©s donat, un topic buit √©s establert.
+	Aquesta comanda √©s m√©s util utilitzada en conjunt a SET
 	TOPICLOCK. Veure %R%S HELP SET TOPICLOCK
-	per a mÈs informaciÛ.
+	per a m√©s informaci√≥.
 	
 	Per defecte, limitat a aquells amb nivell de fundador
 	en el canal.
 
 CHAN_HELP_CLEAR
-	Sint‡xi: CLEAR canal que
+	Sint√†xi: CLEAR canal que
 	
-	Li diu a %S que netegi certs par‡metres en el canal.
-	que pot ser un dels seg¸ents:
+	Li diu a %S que netegi certs par√†metres en el canal.
+	que pot ser un dels seg√ºents:
 	
 	     MODES    Reestableix totss los Modes en el canal (o sigui,
 	                  neteja els Modes i,k,l,m,n,p,s,t).
@@ -5226,107 +5226,107 @@ CHAN_HELP_CLEAR
 	                  tingui aquest Mode establert.
 	     USERS    Explusa (kickea) tots els usuaris del canal.
 	
-	Per defecte, el nivell d'accÈs en el canal ha de ser de
+	Per defecte, el nivell d'acc√©s en el canal ha de ser de
 	fundador.
 
 CHAN_HELP_GETKEY
-	Sint‡xi: GETKEY canal
+	Sint√†xi: GETKEY canal
 	
-	Retorna la clau del canal donat. Aquesta Ès una comanda
+	Retorna la clau del canal donat. Aquesta √©s una comanda
 	principalment per a ser utilitzada per bots i/o scripts,
-	aixÌ que el resultat Ès de la seg¸ent manera:
+	aix√≠ que el resultat √©s de la seg√ºent manera:
 	
 	KEY <canal> <key>
 	
-	key Ès "NO KEY" si no hi ha key establerta.
+	key √©s "NO KEY" si no hi ha key establerta.
 	
 CHAN_HELP_SENDPASS
-	Sint‡xi: SENDPASS canal
+	Sint√†xi: SENDPASS canal
 	
 	Envia la clau del canal donat a l'adresa email establerta
 	en l'arxiu del nickname del fundador. Aquesta comanda
-	Ès sumament ˙til per a recuperar claus perdudes.
+	√©s sumament √∫til per a recuperar claus perdudes.
 	
 	pot ser limitat a  Operadors de IRC en certas xarxes.
 	
-	Aquesta comanda no Ès disponible quan l'encriptaciÛ est‡ habilitada.
+	Aquesta comanda no √©s disponible quan l'encriptaci√≥ est√† habilitada.
 
 CHAN_SERVADMIN_HELP
 	
-	Les seg¸ents comandes estan disponibles per a administradors
+	Les seg√ºents comandes estan disponibles per a administradors
 	de serveis:
 	
-	    STATUS     Retorna el nivell d'accÈs actual d'un
+	    STATUS     Retorna el nivell d'acc√©s actual d'un
 	                   usuari en un canal
 	    CLIST      llista tots els canals en els que l'usuari
 	               sigui fundador
 	
-	Administradors de serveis tambÈ poden eliminar un canal
-	sense haver d'identificar-se per mitj‡ d'una clau, i poden
-	Veure l'accÈs, AKICK, i par‡metres de les llistes de nivells per a
+	Administradors de serveis tamb√© poden eliminar un canal
+	sense haver d'identificar-se per mitj√† d'una clau, i poden
+	Veure l'acc√©s, AKICK, i par√†metres de les llistes de nivells per a
 	qualsevol canal.
 
 CHAN_SERVADMIN_HELP_LOGOUT
-	Sint‡xi: LOGOUT canal [nickname]
+	Sint√†xi: LOGOUT canal [nickname]
 	
 	Aquesta comanda ha fa que el nick seleccionat no sigui identificat
 	pel canal donat.
 	
 	Si tu ets el fundador del canal, pots desconectar a
-	qui sigui, sinÛ nomÈs et pots desconectar a
+	qui sigui, sin√≥ nom√©s et pots desconectar a
 	tu mateix.
 	
 	Si ets un administrador de serveis, pots
 	desconectar a qui sigui d'un canal sense ser el fundador
-	del canal. A mÈs, pots omitir el par‡metro nickname;
-	aixÚ desconectara a tots els usuaris identificados
+	del canal. A m√©s, pots omitir el par√†metro nickname;
+	aix√≤ desconectara a tots els usuaris identificados
 	del canal.
 
 CHAN_SERVADMIN_HELP_DROP
-	Sint‡xi: DROP canal
+	Sint√†xi: DROP canal
 	
-	Desregistra el canal donat.  NomÈs
+	Desregistra el canal donat.  Nom√©s
 	administradors de serveis poden eliminar un
 	canal per el qual no s'haguin identificado.
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Administradors de serveis poden tambiÈ establir la
-	OpciÛ NOEXPIRE, amb la qual s'evita que els canals
-	expirin. A mÈs, administradors de
+	Administradors de serveis poden tambi√© establir la
+	Opci√≥ NOEXPIRE, amb la qual s'evita que els canals
+	expirin. A m√©s, administradors de
 	serveis poden establir opcions per a qualsevol canal
 	sense haver d'identificarse per clau en el canal.
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
-	Sint‡xi: SET canal NOEXPIRE {ON | OFF}
+	Sint√†xi: SET canal NOEXPIRE {ON | OFF}
 	
-	Estableix si el canal expirar‡. Establint-lo 
+	Estableix si el canal expirar√†. Establint-lo 
 	a ON evita que el canal  expiri.
 	
 	limitat a administradors de serveis.
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Administradors de serveis poden utilitzar el par‡metre
+	Administradors de serveis poden utilitzar el par√†metre
 	ALL amb qualsevol canal
 
 CHAN_SERVADMIN_HELP_LIST
-	Sint‡xi: LIST patrÛ [FORBIDDEN] [NOEXPIRE]
+	Sint√†xi: LIST patr√≥ [FORBIDDEN] [NOEXPIRE]
 	
-	llista tots els canals registrats concordant amb el patrÛ donat.
-	canals amb l'opciÛ PRIVATE establreta sols seran mostrats
-	a administradors de serveis. canals amb l'opciÛ NOEXPIRE
+	llista tots els canals registrats concordant amb el patr√≥ donat.
+	canals amb l'opci√≥ PRIVATE establreta sols seran mostrats
+	a administradors de serveis. canals amb l'opci√≥ NOEXPIRE
 	tindran un ! davant del nom del canal per a
 	administradors de serveis.
 	
 	Si les opcions FORBIDDEN o NOEXPIRE son donades, sols canals
 	que, respectivament, tenen FORBID o NOEXPIRE establert seran
-	mostrats. Si ambdues opcions sÛn donades, ambdÛs tipus de canals
+	mostrats. Si ambdues opcions s√≥n donades, ambd√≥s tipus de canals
 	seran mostrats. Aquestes opcions estan limitadas a
 	administradors de serveis.
 
 CHAN_SERVADMIN_HELP_GETPASS
-	Sint‡xi: GETPASS canal
+	Sint√†xi: GETPASS canal
 	
 	Retorna la clau pel canal donat. tenir en compte
 	que quan aquesta comanda es fa servir, un missatge incloent la
@@ -5336,12 +5336,12 @@ CHAN_SERVADMIN_HELP_GETPASS
 	limitat a administradors de serveis.
 
 CHAN_SERVADMIN_HELP_FORBID
-	Sint‡xi: FORBID canal [raÛ]
+	Sint√†xi: FORBID canal [ra√≥]
 	
 	Prohibeix a qualsevol de registrar o usar el canal
 	donat. pot ser cancelat eliminant el canal.
 	
-	RaÛ pot ser requerida en certas xarxes.
+	Ra√≥ pot ser requerida en certas xarxes.
 	
 	limitat a administradors de serveis.
 
@@ -5365,14 +5365,14 @@ CHAN_SERVADMIN_HELP_UNSUSPEND
 	Limited to Services admins.
 
 CHAN_SERVADMIN_HELP_STATUS
-	Sint‡xi: STATUS canal nickname
+	Sint√†xi: STATUS canal nickname
 	
-	Retorna el nivell d'accÈs actual del nick donat
-	en el canal donat. La resposta Ès de la forma:
+	Retorna el nivell d'acc√©s actual del nick donat
+	en el canal donat. La resposta √©s de la forma:
 	
-	    STATUS canal nickname nivell-de-accÈs
+	    STATUS canal nickname nivell-de-acc√©s
 	
-	Si un error es dÛna, la resposta ser‡ de la forma:
+	Si un error es d√≥na, la resposta ser√† de la forma:
 	
 	    STATUS ERROR missatge-de-error
 	
@@ -5386,13 +5386,13 @@ CHAN_SERVADMIN_HELP_STATUS
 MEMO_HELP_CMD_SEND
 	    SEND   Envia un memo a un nick o canal
 MEMO_HELP_CMD_CANCEL
-	    CANCEL Cancela l'˙ltim memo enviat
+	    CANCEL Cancela l'√∫ltim memo enviat
 MEMO_HELP_CMD_LIST
 	    LIST   llista els teus memos
 MEMO_HELP_CMD_READ
-	    READ   Llegeix un o mÈs memos
+	    READ   Llegeix un o m√©s memos
 MEMO_HELP_CMD_DEL
-	    DEL    Esborra un o mÈs memos
+	    DEL    Esborra un o m√©s memos
 MEMO_HELP_CMD_SET
 	    SET    Estableix opcions relacionades a memos
 MEMO_HELP_CMD_INFO
@@ -5407,9 +5407,9 @@ MEMO_HELP_CMD_STAFF
 	    STAFF  Send a memo to all opers/admins
 
 MEMO_HELP_HEADER
-	%S Ès una utilitat que permet a usuaris de IRC
+	%S √©s una utilitat que permet a usuaris de IRC
 	enviar missatges curts a altres usuaris de IRC, estiguin
-	en linea o no, o a canals(*). AmbdÛs el nickname que
+	en linea o no, o a canals(*). Ambd√≥s el nickname que
 	envia i el nickname o canal destinataris han d'estar
 	registrats per a enviar un memo.
 	
@@ -5421,62 +5421,62 @@ MEMO_HELP_OPER
 	not used.
 MEMO_HELP_FOOTER
 	
-	escriu %R%S HELP comando per a mÈs ajuda en
+	escriu %R%S HELP comando per a m√©s ajuda en
 	qualsevol de les comandes llistades anteriorment.
 	
 	(*) Per defecte, qualsevol usuari amb al menys nivell
-	    d'accÈs 10 en un canal pot lleguir els memos del
-	    canal. AixÚ pot ser canviat amb la comanda
+	    d'acc√©s 10 en un canal pot lleguir els memos del
+	    canal. Aix√≤ pot ser canviat amb la comanda
 	    LEVELS de %s.
 
 MEMO_HELP_SEND
-	Sint‡xi: SEND {nick | canal} text-del-memo
+	Sint√†xi: SEND {nick | canal} text-del-memo
 	
-	Envia un memo al nick o canal donat, que contÈ
+	Envia un memo al nick o canal donat, que cont√©
 	text-del-memo. A l'enviar a un nickname, aquest
-	rebr‡ noticia de que ell/ella tÈ un nou memo. El nick
+	rebr√† noticia de que ell/ella t√© un nou memo. El nick
 	o canal receptors han d'estar registrats.
 
 MEMO_HELP_CANCEL
-	Sint‡xi: CANCEL {nick | canal}
+	Sint√†xi: CANCEL {nick | canal}
 	
 	Cancela l'ultim memo enviat al nick o canal donat,
 	sempre i quan no hagi sigut llegit al moment en el que
 	vas fer servir la comanda.
 
 MEMO_HELP_LIST
-	Sint‡xi: LIST [canal] [llista | NEW]
+	Sint√†xi: LIST [canal] [llista | NEW]
 	
 	llista els memos que tens actualment. Amb NEW, llista
-	nomÈs els memos nous (no llegits). Memos nous estan
+	nom√©s els memos nous (no llegits). Memos nous estan
 	marcats amb un "*" a l'esquerra del nobre del memo.
-	TambÈ pots especificar una llista de nombres, com en el
-	exemple mÈs endevant:
+	Tamb√© pots especificar una llista de nombres, com en el
+	exemple m√©s endevant:
 	
 	   LIST 2-5,7-9
 	      llista memos enumerats 2 a 5 i 7 a 9.
 
 MEMO_HELP_READ
-	Sint‡xi: READ [canal] {nombre | llista | LAST | NEW}
+	Sint√†xi: READ [canal] {nombre | llista | LAST | NEW}
 	
-	T'envia el text dels memos especificats. Si LAST Ès
-	donat, t'envia l'ultim memo rebut. si NEW Ès donat, t'
+	T'envia el text dels memos especificats. Si LAST √©s
+	donat, t'envia l'ultim memo rebut. si NEW √©s donat, t'
 	envia tots els teus memos nous. D'altra forma, t'envia el
-	memo nombre nombre.  TambÈ pots donar una llista de
+	memo nombre nombre.  Tamb√© pots donar una llista de
 	nombres, com en el exemple:
 	
 	   READ 2-5,7-9
 	      mostra els memos enumerats 2 a 5 i 7 a 9.
 
 MEMO_HELP_DEL
-	Sint‡xi: DEL [canal] {nombre | llista | LAST | ALL}
+	Sint√†xi: DEL [canal] {nombre | llista | LAST | ALL}
 	
 	Esorra el o els memos especificats. pots donar multiples
 	nombres o rangs de nombres en lloc d'un solo, com en el
 	exemple.
 	
 	If LAST is given, the last memo will be deleted.
-	Si ALL Ès donat, esborra tots els teus memos.
+	Si ALL √©s donat, esborra tots els teus memos.
 	
 	exemples:
 	
@@ -5487,24 +5487,24 @@ MEMO_HELP_DEL
 	      Esborra els memos enumerats 2 a 5 i 7 a 9.
 
 MEMO_HELP_SET
-	Sint‡xi: SET OpciÛ par‡metros
+	Sint√†xi: SET Opci√≥ par√†metros
 	
-	Estableix varies opcions de memos. OpciÛ pot ser una de:
+	Estableix varies opcions de memos. Opci√≥ pot ser una de:
 	
-	    NOTIFY      Canvia quan ser‡s notificat sobre de
+	    NOTIFY      Canvia quan ser√†s notificat sobre de
 	                    nous memos (sols per a nicknames)
-	    LIMIT       Estableix el m‡xim nombre de memos que
+	    LIMIT       Estableix el m√†xim nombre de memos que
 	                    pots rebre
 	
-	escriu %R%S HELP SET OpciÛ per a mÈs informaciÛ
-	sobre una opciÛ especÌfica.
+	escriu %R%S HELP SET Opci√≥ per a m√©s informaci√≥
+	sobre una opci√≥ espec√≠fica.
 
 MEMO_HELP_SET_NOTIFY
-	Sint‡xi: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
+	Sint√†xi: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 	
-	Canvia quan se't notificar‡ de nous memos:
+	Canvia quan se't notificar√† de nous memos:
 	
-	    ON      NotificaciÛ de memos quan et conectis,
+	    ON      Notificaci√≥ de memos quan et conectis,
 	               quan treguis  /AWAY, i quan 
 	                s'enviin
 	    LOGON   Sols seras notificat de memos quan et conectis
@@ -5514,59 +5514,59 @@ MEMO_HELP_SET_NOTIFY
 	    MAIL    You will be notified of memos by email aswell as
 	               any other settings you have.
 	    NOMAIL  You will not be notified of memos by email.
-	    OFF     No rebr‡s cap notificaciÛ per memos.
+	    OFF     No rebr√†s cap notificaci√≥ per memos.
 	
-	ON Ès escencialment LOGON i NEW combinats.
+	ON √©s escencialment LOGON i NEW combinats.
 
 MEMO_HELP_SET_LIMIT
-	Sint‡xi: SET LIMIT [canal] lÌmit
+	Sint√†xi: SET LIMIT [canal] l√≠mit
 	
-	Estableix el m‡xim nombre de memos que tu (o el canal donat)
-	pots  tenir. Si queda a 0, ning˙ podr‡
-	enviar-te memos. A mÈs, no pots establir el lÌmit mÈs
+	Estableix el m√†xim nombre de memos que tu (o el canal donat)
+	pots  tenir. Si queda a 0, ning√∫ podr√†
+	enviar-te memos. A m√©s, no pots establir el l√≠mit m√©s
 	alt que %d.
 
 MEMO_HELP_INFO
-	Sint‡xi: INFO [canal]
+	Sint√†xi: INFO [canal]
 	
-	mostra informaciÛ del nombre de memos que tens,
+	mostra informaci√≥ del nombre de memos que tens,
 	quants d'ells encar no han sigut llegits, i quants memos
-	pots rebre. Amb un par‡metre, mostra la mateixa
-	informaciÛ pel canal donat.
+	pots rebre. Amb un par√†metre, mostra la mateixa
+	informaci√≥ pel canal donat.
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
-	Sint‡xi: SET LIMIT [usuari | canal] {lÌmit | NONE} [HARD]
+	Sint√†xi: SET LIMIT [usuari | canal] {l√≠mit | NONE} [HARD]
 	
-	Estableix el m‡xim nombre de memos un usuari o canal est‡
-	permËs. Establir el lÌmit a 0 evita a l'usuari
+	Estableix el m√†xim nombre de memos un usuari o canal est√†
+	perm√®s. Establir el l√≠mit a 0 evita a l'usuari
 	de rebre memos; posar-lo a NONE permet a l'usuari
 	de rebre i guardar els memos que vulgui. Si no dones un
-	nickname o canal, el teu propi lÌmit est‡ establert.
+	nickname o canal, el teu propi l√≠mit est√† establert.
 	
-	Afegir HARD evita al usuari de canviar el lÌmit. No
-	afegir HARD tÈ l'efect contrari, permetent a l'
-	usuari canviar el lÌmit (encara que un lÌmit previ hagui sigut establert
+	Afegir HARD evita al usuari de canviar el l√≠mit. No
+	afegir HARD t√© l'efect contrari, permetent a l'
+	usuari canviar el l√≠mit (encara que un l√≠mit previ hagui sigut establert
 	amb HARD).
 	
-	L'us de la comanda SET LIMIT est‡ limitat a
+	L'us de la comanda SET LIMIT est√† limitat a
 	administradors de serveis. altres usuaris poden
-	nomÈs establir lÌmits per a ells mateixos o per a un canal en
+	nom√©s establir l√≠mits per a ells mateixos o per a un canal en
 	el que tinguin certos privilegos, no podenn esborrar el seu
-	lÌmit, no poden establir el lÌmit mÈs enll‡ de %d, i no
-	poden establir un lÌmit hard.
+	l√≠mit, no poden establir el l√≠mit m√©s enll√† de %d, i no
+	poden establir un l√≠mit hard.
 
 MEMO_SERVADMIN_HELP_INFO
-	Sint‡xi: INFO [nick | canal]
+	Sint√†xi: INFO [nick | canal]
 	
-	Sense un par‡metro, mostra informaciÛ del nombre
+	Sense un par√†metro, mostra informaci√≥ del nombre
 	de memos que tens, quants d' ells encara no  s'han
 	llegit, i el nombre total de memos que pots rebre.
 	
-	amb un canal de par‡metre, mostra la mateixa informaciÛ
+	amb un canal de par√†metre, mostra la mateixa informaci√≥
 	pel canal donat.
 	
-	amb un nickname de par‡metr, mostra la misma
-	informaciÛ pel nickname donat. Aquest us est‡
+	amb un nickname de par√†metr, mostra la misma
+	informaci√≥ pel nickname donat. Aquest us est√†
 	limitat a administradors de serveis.
 
 ###########################################################################
@@ -5672,7 +5672,7 @@ OPER_HELP_CMD_OPERNEWS
 OPER_HELP_CMD_SESSION
 	    SESSION     Mostra la llista de sessions de host
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION   Modifica la llista de lÌmit de sessiÛ
+	    EXCEPTION   Modifica la llista de l√≠mit de sessi√≥
 OPER_HELP_CMD_NOOP
 	    NOOP        Temporalment elimina totes les linees O:
 	                d'un servidor remotamente
@@ -5683,9 +5683,9 @@ OPER_HELP_CMD_IGNORE
 OPER_HELP_CMD_SET
 	    SET         Estableix varies opcions globals dels serveis
 OPER_HELP_CMD_RELOAD
-	    RELOAD      Recarrega la configuraciÛ dels serveis
+	    RELOAD      Recarrega la configuraci√≥ dels serveis
 OPER_HELP_CMD_UPDATE
-	    UPDATE      ForÁa a la base de dades dels serveis a
+	    UPDATE      For√ßa a la base de dades dels serveis a
 	                ser actualitzada a disc inmediatament
 OPER_HELP_CMD_RESTART
 	    RESTART     Guarda la base de dades dels serveis i
@@ -5722,35 +5722,35 @@ OPER_HELP_LOGGED
 	Noticia: Totes les comandes enviades a %S son monitorejades!
 
 OPER_HELP_GLOBAL
-	Sint‡xi: GLOBAL missatge
+	Sint√†xi: GLOBAL missatge
 	
 	Permet als Administrators a enviar missatges als usuaris de
 	la xarxa. El missatge sera enviat desde el nick %s.
 
 OPER_HELP_STATS
-	Sint‡xi: STATS [AKILL | ALL | RESET]
+	Sint√†xi: STATS [AKILL | ALL | RESET]
 	
-	Sense una opciÛ, mostra el nom actual d'usuaris i
-	IRCops en linea (excluient els serveis), el m‡xim
+	Sense una opci√≥, mostra el nom actual d'usuaris i
+	IRCops en linea (excluient els serveis), el m√†xim
 	nombre d'usuaris desde que els serveis s'han iniciat, i
 	el temps que els serveis han estat funcionant.
 	
-	Amb L'opciÛ AKILL, mostra la mida actual de la
-	llista AKILL i l'actual temps d'expiraciÛ per defecte.
+	Amb L'opci√≥ AKILL, mostra la mida actual de la
+	llista AKILL i l'actual temps d'expiraci√≥ per defecte.
 	
-	L'opciÛ ALL esta sols disponible per administradors de
-	serveis, i mostra informaciÛ en el us de memÚria dels
-	serveis. Utilitzar aquesta opciÛ pot congelar els
+	L'opci√≥ ALL esta sols disponible per administradors de
+	serveis, i mostra informaci√≥ en el us de mem√≤ria dels
+	serveis. Utilitzar aquesta opci√≥ pot congelar els
 	serveis per un curt periode de temps en xarxes grans,
 	aixi que no es recomana utilitzar sovint.
 	
-	L'opciÛ RESET estableix el nombre m‡xim d'usuaris
+	L'opci√≥ RESET estableix el nombre m√†xim d'usuaris
 	al nombre d'usuaris actualment presents en la xarxa.
 	
-	UPTIME pot ser utilitzat com a sinÚnim per STATS.
+	UPTIME pot ser utilitzat com a sin√≤nim per STATS.
 
 OPER_HELP_OPER
-	Sint‡xi: OPER ADD nick
+	Sint√†xi: OPER ADD nick
 	          OPER DEL {nick | nom | llista}
 	          OPER LIST [mascara | llista]
 	          OPER CLEAR
@@ -5767,27 +5767,27 @@ OPER_HELP_OPER
 	
 	La comanda OPER DEL elimina el nickname donat de
 	la llista d'operadors de serveis. Si una llista de
-	inst‡ncies es especificada, aquestes inst‡ncies son esborrades.
-	(Veure l'exemple per a LIST especificat mÈs endavant.)
+	inst√†ncies es especificada, aquestes inst√†ncies son esborrades.
+	(Veure l'exemple per a LIST especificat m√©s endavant.)
 	
 	La comanda OPER LIST mostra la llista
-	d'operadors de serveis. Si s'especifica una mascara, nomËs
-	les inst‡ncies que concordin amb la mascara sÛn
-	mostrades. Si s'especifica una llista de noms es , nomËs aquestes
-	inst‡ncies son mostrades; per exemple:
+	d'operadors de serveis. Si s'especifica una mascara, nom√®s
+	les inst√†ncies que concordin amb la mascara s√≥n
+	mostrades. Si s'especifica una llista de noms es , nom√®s aquestes
+	inst√†ncies son mostrades; per exemple:
 	
 	   OPER LIST 2-5,7-9
-	      Llista inst‡ncies d'operadors de serveis
+	      Llista inst√†ncies d'operadors de serveis
 	      enumerades de 2 a 5 i de 7 a 9.
 	
-	La comanda OPER CLEAR neteja totes les inst‡ncies
+	La comanda OPER CLEAR neteja totes les inst√†ncies
 	de la llista d'operadors de serveis.
 	
 	Qualsevol operador d'IRC pot utilitzar la forma
 	OPER LIST de la comanda.
 
 OPER_HELP_ADMIN
-	Sint‡xi: ADMIN ADD nick
+	Sint√†xi: ADMIN ADD nick
 	          ADMIN DEL {nick | nom | llista}
 	          ADMIN LIST [mascara | llista]
 	          ADMIN CLEAR
@@ -5803,19 +5803,19 @@ OPER_HELP_ADMIN
 	
 	La comanda ADMIN DEL elimina el nickname especificat de la
 	llista d'administradors de serveis. Si una llista
-	d'inst‡ncies es especificada, aquestes inst‡ncies son esborrades.
-	(Veure l'exemple per LIST que s'especifica mÈs endavant.)
+	d'inst√†ncies es especificada, aquestes inst√†ncies son esborrades.
+	(Veure l'exemple per LIST que s'especifica m√©s endavant.)
 	
 	La comanda ADMIN LIST mostra la llista
-	d'administradors de serveis. Si s'especifica una mascara, nomËs
-	les inst‡ncies que concordin amb la mascara sÛn mostrades;
+	d'administradors de serveis. Si s'especifica una mascara, nom√®s
+	les inst√†ncies que concordin amb la mascara s√≥n mostrades;
 	per exemple:
 	
 	   ADMIN LIST 2-5,7-9
-	      Llista inst‡ncies de la llista d'administradors de
+	      Llista inst√†ncies de la llista d'administradors de
 	      serveis enumerades de 2 a 5 i de 7 a 9.
 	
-	La comanda ADMIN CLEAR neteja totes les inst‡ncies de
+	La comanda ADMIN CLEAR neteja totes les inst√†ncies de
 	la llista d'administradors de serveis.
 	
 	Qualsevol operador d'IRC pot utilitzar la forma ADMIN LIST
@@ -5839,7 +5839,7 @@ OPER_HELP_IGNORE
 	Ignores will not be enforced on IRC Operators.
 
 OPER_HELP_MODE
-	Sint‡xi: MODE canal Modes
+	Sint√†xi: MODE canal Modes
 	
 	Permet als operadors de serveis establir modes de canal
 	per a qualsevol canal. Els parametres son els mateixos que per la
@@ -5862,7 +5862,7 @@ OPER_HELP_OLINE
 	remove all flags simply type a "-" instead of any flags.
 
 OPER_HELP_CLEARMODES
-	Sint‡xi: CLEARMODES canal [ALL]
+	Sint√†xi: CLEARMODES canal [ALL]
 	
 	Neteja tots els modes binarios (i,k,l,m,n,p,s,t) i
 	bans del canal. Si s'especifica ALL, tambe neteja
@@ -5871,7 +5871,7 @@ OPER_HELP_CLEARMODES
 	Limitat a operadors de serveis.
 
 OPER_HELP_KICK
-	Sint‡xi: KICK canal usuari raÛ
+	Sint√†xi: KICK canal usuari ra√≥
 	
 	Permet als IRCops kickejar un usuari de qualsevol
 	canal. Els parametres son els mateixos que per la comanda
@@ -5889,7 +5889,7 @@ OPER_HELP_SVSNICK
 	Limited to Super Admins.
 
 OPER_HELP_AKILL
-	Sint‡xi: AKILL ADD [+expiraciÛ] mascara raÛ
+	Sint√†xi: AKILL ADD [+expiraci√≥] mascara ra√≥
 	          AKILL DEL {mascara | nom | llista}
 	          AKILL LIST [mascara | llista]
 	          AKILL VIEW [mascara | llista]
@@ -5903,41 +5903,41 @@ OPER_HELP_AKILL
 	per la mascara de l'usuari.
 	
 	AKILL ADD afegeix la mascara usuari@host especificada a la llista
-	de AKILLS per la raÛ especificada (que HA DE SER especificada).
-	expiraciÛ es especificada com un sencer seguit de
+	de AKILLS per la ra√≥ especificada (que HA DE SER especificada).
+	expiraci√≥ es especificada com un sencer seguit de
 	 d (dies), h (hores), o m (minuts). Combinacions (com
 	1h30m) no estan permesses. Si un especificador d'unitats no
-	es inclÚs, per defecte seran dies (o sigui +30 nomËs
+	es incl√≤s, per defecte seran dies (o sigui +30 nom√®s
 	significa 30 dies).  Per afegir un AKILL que no caduqui, utilitza +0.
-	Si la mascara a afegir comenÁa amb un +, s'ha d'especificar
-	un temps d'expiraciÛ. El temps d'expiraciÛ per defecte actual de AKILLS
+	Si la mascara a afegir comen√ßa amb un +, s'ha d'especificar
+	un temps d'expiraci√≥. El temps d'expiraci√≥ per defecte actual de AKILLS
 	pot ser consultat amb la comanda STATS AKILL.
 	
 	La comanda AKILL DEL esborra la mascara especificada de la llista
 	d'AKILLS si esta present. Si s'especifica una llista de noms,
-	aquestes inst‡ncies son esborrades.  (Veure l'exemple per LIST 
-	especificat mÈs endavant.)
+	aquestes inst√†ncies son esborrades.  (Veure l'exemple per LIST 
+	especificat m√©s endavant.)
 	
 	La comanda AKILL LIST mostra la llista d'AKILLS.  
-	Si s'especifica una mascara, nomËs les inst‡ncies coincidents
-	amb la mascara sÛn mostrades. Si s'especifica una llista de noms,
-	nomËs aquestes inst‡ncies son mostrades; per exemple:
+	Si s'especifica una mascara, nom√®s les inst√†ncies coincidents
+	amb la mascara s√≥n mostrades. Si s'especifica una llista de noms,
+	nom√®s aquestes inst√†ncies son mostrades; per exemple:
 	
 	   AKILL LIST 2-5,7-9
-	      Llista les inst‡ncies de AKILL enumerades de 2 a 5 i de 7 
+	      Llista les inst√†ncies de AKILL enumerades de 2 a 5 i de 7 
 	      a 9.
 	      
-	AKILL VIEW es una versiÛ mÈs verbal d'AKILL LIST, i 
+	AKILL VIEW es una versi√≥ m√©s verbal d'AKILL LIST, i 
 	mostrara qui va afegir un AKILL, la data en que va ser afegit,
-	i quan caducara, aixÌ com tambe la mascara usuari@host
-	i la raÛ.
+	i quan caducara, aix√≠ com tambe la mascara usuari@host
+	i la ra√≥.
 	
-	AKILL CLEAR neteja totes les inst‡ncies de la llista d'AKILLS.
+	AKILL CLEAR neteja totes les inst√†ncies de la llista d'AKILLS.
 	
 	Limitat a operadors de serveis.
 	
 OPER_HELP_SGLINE
-	Sint‡xi: SGLINE ADD [+expiraciÛ] mascara:raÛ
+	Sint√†xi: SGLINE ADD [+expiraci√≥] mascara:ra√≥
 	         SGLINE DEL {mascara | nom | llista}
 	         SGLINE LIST [mascara | llista]
 	         SGLINE VIEW [mascara | llista]
@@ -5946,51 +5946,51 @@ OPER_HELP_SGLINE
 	Permet als operadors de serveis manipular la llista
 	de SGLINES. Si un usuari amb un nom real concordant
 	amb una mascara SGLINE s'intenta connectar, els serveis
-	l'impediran aconseguir una sessiÛ d'IRC.
+	l'impediran aconseguir una sessi√≥ d'IRC.
 	
 	SGLINE ADD afegeix la mascara de nom real especificada a la
-	llista de SGLINES per la raÛ especificada (obligatori). 
-	expiraciÛ es especificada com un sencer
+	llista de SGLINES per la ra√≥ especificada (obligatori). 
+	expiraci√≥ es especificada com un sencer
 	seguit de d (dies), h (hores), o m
 	(minuts).  Combinacions (com 1h30m) no estan
-	permesses. Si l'especificaciÛ de la unitat no es
-	especificada, per defecte sÛn dies (Ès a dir +30 nomËs
+	permesses. Si l'especificaci√≥ de la unitat no es
+	especificada, per defecte s√≥n dies (√©s a dir +30 nom√®s
 	significa 30 dies). Per afegir una SGLINE que no caduqui,
-	utilitza +0. Si la mascara de nom real especificada comenÁa amb
-	+, el temp d'expiraciÛ ha de ser especificat, encara que sigui
-	el mateix que el per defecte. El temps actual d'expiraciÛ
+	utilitza +0. Si la mascara de nom real especificada comen√ßa amb
+	+, el temp d'expiraci√≥ ha de ser especificat, encara que sigui
+	el mateix que el per defecte. El temps actual d'expiraci√≥
 	per defecte per SGLINES pot ser consultat amb la comanda
 	STATS AKILL.
 	Nota: Ja que la mascara de nom real pot contenir
-	espais, el separador entre aquest i la raÛ es un signe de
+	espais, el separador entre aquest i la ra√≥ es un signe de
 	dos punts.
 	
 	La comanda SGLINE DEL esborra la mascara especificada de la
 	llista de SGLINES si esta present. Si s'especifica una llista de
-	inst‡ncies, aquestes inst‡ncies son esborrades. (Veure 
-	l'exemple per LIST especificat mÈs endavant.)
+	inst√†ncies, aquestes inst√†ncies son esborrades. (Veure 
+	l'exemple per LIST especificat m√©s endavant.)
 	
 	La comanda SGLINE LIST mostra la llista de SGLINES. Si
-	s'especifica una mascara, nomËs les inst‡ncies concordant amb
-	la mascara sÛn mostrades. Si s'especifica una llista de inst‡ncies,
-	nomËs aquestes inst‡ncies son mostrades; per exemple:
+	s'especifica una mascara, nom√®s les inst√†ncies concordant amb
+	la mascara s√≥n mostrades. Si s'especifica una llista de inst√†ncies,
+	nom√®s aquestes inst√†ncies son mostrades; per exemple:
 	
 	   SGLINE LIST 2-5,7-9
-	      Llista inst‡ncies de SGLINES enumerades de 2 a 5 i de 7 
+	      Llista inst√†ncies de SGLINES enumerades de 2 a 5 i de 7 
 	      a 9.
 	      
-	SGLINE VIEW es una versiÛ mÈs verbal que SGLINE LIST,
+	SGLINE VIEW es una versi√≥ m√©s verbal que SGLINE LIST,
 	i mostrara qui va fegir la SGLINE, la data en la que va
-	ser afegida, i quan caducara, a mÈs de la mascara de nom real
-	i la raÛ.
+	ser afegida, i quan caducara, a m√©s de la mascara de nom real
+	i la ra√≥.
 	
-	SGLINE CLEAR neteja totes les inst‡ncies de la llista de
+	SGLINE CLEAR neteja totes les inst√†ncies de la llista de
 	SGLINES.
 	
 	Limitat a operadors de serveis.
 
 OPER_HELP_SQLINE
-	Sint‡xi: SQLINE ADD [+expiraciÛ] mascara raÛ
+	Sint√†xi: SQLINE ADD [+expiraci√≥] mascara ra√≥
 	         SQLINE DEL {mascara | nom | llista}
 	         SQLINE LIST [mascara | llista]
 	         SQLINE VIEW [mascara | llista]
@@ -5999,52 +5999,52 @@ OPER_HELP_SQLINE
 	Permet als operadors de serveis manipular la llista
 	de SQLINES. Si un usuari amb un nick concordant amb una
 	mascara SQLINE s'intenta connectar, els serveis li
-	impediran aconseguir una sessiÛ d'IRC.
+	impediran aconseguir una sessi√≥ d'IRC.
 	
-	Si el primer car‡cter de la mascara es #, els serveis
-	evitaran l'˙s dels canals coincidents (a IRCds
+	Si el primer car√†cter de la mascara es #, els serveis
+	evitaran l'√∫s dels canals coincidents (a IRCds
 	que ho soportin).
 	
 	SQLINE ADD afegeix la mascara de nom real especificada a la
-	llista de SQLINES per la raÛ especificada (que s'ha d'especficar). 
-	expiraciÛ es especificada como un sencer
+	llista de SQLINES per la ra√≥ especificada (que s'ha d'especficar). 
+	expiraci√≥ es especificada como un sencer
 	seguit de d (dies), h (hores), o m
 	(minuts).  Combinacions (com 1h30m) no estan
-	permesses. Si l'especificaciÛ de la unitat no es
-	especificada, per defecte sÛn dies (Ès a dir +30 nomËs
+	permesses. Si l'especificaci√≥ de la unitat no es
+	especificada, per defecte s√≥n dies (√©s a dir +30 nom√®s
 	significa 30 dies). Per afegir una SQLINE que no caduqui,
-	utilitzar +0. Si la mascara de nom real especificada comenÁa amb
-	+, el temps d'expiraciÛ ha de ser especificat, encara que sigui
-	el mateix que el per defecte. El temps actual d'expiraciÛ
+	utilitzar +0. Si la mascara de nom real especificada comen√ßa amb
+	+, el temps d'expiraci√≥ ha de ser especificat, encara que sigui
+	el mateix que el per defecte. El temps actual d'expiraci√≥
 	per defecte per SQLINES pot ser consultat amb la comanda
 	STATS AKILL.
 	
 	La comanda SQLINE DEL esborra la mascara especificada de la
 	llista de SQLINES si esta present. Si s'especifica una llista de
-	inst‡ncies, aquestes inst‡ncies son esborrades. (Veure
-	l'exemple per LIST especificat mÈs endavant.)
+	inst√†ncies, aquestes inst√†ncies son esborrades. (Veure
+	l'exemple per LIST especificat m√©s endavant.)
 	
 	La comanda SQLINE LIST mostra la llista de SQLINES. Si
-	s'especifica una mascara, nomËs les inst‡ncies coincidents amb
-	la mascara son mostrades. Si s'especifica una llista de inst‡ncies,
-	sols esas inst‡ncies son mostrades; per exemple:
+	s'especifica una mascara, nom√®s les inst√†ncies coincidents amb
+	la mascara son mostrades. Si s'especifica una llista de inst√†ncies,
+	sols esas inst√†ncies son mostrades; per exemple:
 	
 	   SQLINE LIST 2-5,7-9
-	      llista inst‡ncies de SQLINES enumerades de 2 a 5 i de 7
+	      llista inst√†ncies de SQLINES enumerades de 2 a 5 i de 7
 	      a 9.
 	
-	SQLINE VIEW es una versiÛ mÈs verbal que SQLINE LIST,
+	SQLINE VIEW es una versi√≥ m√©s verbal que SQLINE LIST,
 	i mostrara qui va afegir la SQLINE, la data en la que va
-	ser afegida, i quan caducara, a mÈs de la mascara de nom real
-	i la raÛ.
+	ser afegida, i quan caducara, a m√©s de la mascara de nom real
+	i la ra√≥.
 	
-	SQLINE CLEAR neteja totes les inst‡ncies de la llista de
+	SQLINE CLEAR neteja totes les inst√†ncies de la llista de
 	SQLINES.
 	
 	Limitat a operadors de serveis.
 
 OPER_HELP_SZLINE
-	Sint‡xi: SZLINE ADD [+expiraciÛ] mascara raÛ
+	Sint√†xi: SZLINE ADD [+expiraci√≥] mascara ra√≥
 	          SZLINE DEL {mascara | nom | llista}
 	          SZLINE LIST [mascara | llista]
 	          SZLINE VIEW [mascara | llista]
@@ -6053,54 +6053,54 @@ OPER_HELP_SZLINE
 	Permet als operadors de serveis manipular la
 	llista de SZLINES. Si un usuari amb una IP concordant
 	amb una mascara de la llista de SZLINES intenta connectar-se,
-	els serveis le impediran obtenir una sessiÛ d'IRC
-	(Ès a dir, si la IP te un PTR RR o no).
+	els serveis le impediran obtenir una sessi√≥ d'IRC
+	(√©s a dir, si la IP te un PTR RR o no).
 	
 	SZLINE ADD afegeix la mascara IP especificada a la llista de
-	SZLINES per la raÛ especificada (que s'ha d'especificar).
-	expiraciÛ es especificada com un sencer seguit
+	SZLINES per la ra√≥ especificada (que s'ha d'especificar).
+	expiraci√≥ es especificada com un sencer seguit
 	de d (dias), h (hores), o m (minuts).
 	Combinacions (com 1h30m) no estan permesses. Si
-	una especificaciÛ d'unitat no es especificada, per
-	defecte es dies (Ès a dir, +30 significa
+	una especificaci√≥ d'unitat no es especificada, per
+	defecte es dies (√©s a dir, +30 significa
 	30 dies). Per afegir una SZLINE que no caduqui, utilitzar
-	+0. Si la mascara a afegir comenÁa amb un
-	+, el temps d'expiraciÛ ha de ser especificat, encara
+	+0. Si la mascara a afegir comen√ßa amb un
+	+, el temps d'expiraci√≥ ha de ser especificat, encara
 	que sigui el mateix que el per defecte. El temps actual
-	d'expiraciÛ per defecte per SZLINES pot ser
+	d'expiraci√≥ per defecte per SZLINES pot ser
 	consultat amb la comanda STATS AKILL.
 	
 	La comanda SZLINE DEL esborra la mascara especificada de la
 	llista de SZLINES si esta present. Si s'especifica una llista de
-	inst‡ncies, aquestes inst‡ncies son esborrades. (Veure
-	l'exemple per LIST especificat mÈs endavant.)
+	inst√†ncies, aquestes inst√†ncies son esborrades. (Veure
+	l'exemple per LIST especificat m√©s endavant.)
 	
 	La comanda SZLINE LIST mostra la llista de SZLINES.  
-	Si s'especifica una mascara, nomËs aquellas inst‡ncies
-	coincidents amb la mascara sÛn mostrades. Si s'especifica una llista
-	de inst‡ncies, nomËs aquestes inst‡ncies sÛn mostrades;
+	Si s'especifica una mascara, nom√®s aquellas inst√†ncies
+	coincidents amb la mascara s√≥n mostrades. Si s'especifica una llista
+	de inst√†ncies, nom√®s aquestes inst√†ncies s√≥n mostrades;
 	per exemple:
 	
 	   SZLINE LIST 2-5,7-9
-	      Llista inst‡ncies SZLINE enumerades de 2 a 5 i de 7 
+	      Llista inst√†ncies SZLINE enumerades de 2 a 5 i de 7 
 	      a 9.
 	      
-	SZLINE VIEW es una versiÛ mÈs verbal de SZLINE LIST,
+	SZLINE VIEW es una versi√≥ m√©s verbal de SZLINE LIST,
 	i mostrara qui va afegir una SZLINE, la data en la que
-	va ser afegida, i quan caducara, a mÈs de la mascara IP i
-	la raÛ.
+	va ser afegida, i quan caducara, a m√©s de la mascara IP i
+	la ra√≥.
 	
-	SZLINE CLEAR neteja totes les inst‡ncies de la llista
+	SZLINE CLEAR neteja totes les inst√†ncies de la llista
 	de SZLINES.
 	
 	Limitat a operadors de serveis.
 
 OPER_HELP_SET
-	Sint‡xi: SET opciÛ parametres
+	Sint√†xi: SET opci√≥ parametres
 	
 	Estableix varies opcions globals de serveis.
-	Noms de opcions actualment definides sÛn:
-	    READONLY   Estableix Mode nomËs lectura o nomËs escritura
+	Noms de opcions actualment definides s√≥n:
+	    READONLY   Estableix Mode nom√®s lectura o nom√®s escritura
 	    LOGCHAN    Report log messages to a channel
 	    DEBUG      Activa o desactiva el Mode debug
 	    NOEXPIRE   Activa o desactiva el Mode no expire
@@ -6112,19 +6112,19 @@ OPER_HELP_SET
 	Limitat a administradors de serveis.
 
 OPER_HELP_SET_READONLY
-	Sint‡xi: SET READONLY {ON | OFF}
+	Sint√†xi: SET READONLY {ON | OFF}
 	
-	Estableix el mode nomËs lectura a activat o desactivat. En mode
-	nomËs lectura, els usuaris normals no podran modificar dades
-	de serveis, incloent accÈs a llistes de canals i
+	Estableix el mode nom√®s lectura a activat o desactivat. En mode
+	nom√®s lectura, els usuaris normals no podran modificar dades
+	de serveis, incloent acc√©s a llistes de canals i
 	nicknames, etc. IRCops amb suficients privilegis amb
 	els serveis podren modificar la llista AKILL de
-	serveis i eliminar o prohibir nicknames i canals, perÚ
+	serveis i eliminar o prohibir nicknames i canals, per√≤
 	cap d'aquests canvios sera guardat excepte que el
-	mode nomËs lectura es desactivi abans de que els serveis
+	mode nom√®s lectura es desactivi abans de que els serveis
 	siguin desactivats o reiniciats.
 	
-	Aquesta opciÛ es equivalent a l'opciÛ -readonly en
+	Aquesta opci√≥ es equivalent a l'opci√≥ -readonly en
 	la linea de comandes.
 
 OPER_HELP_SET_LOGCHAN
@@ -6141,25 +6141,25 @@ OPER_HELP_SET_LOGCHAN
 	channel is not properly secured.
 
 OPER_HELP_SET_DEBUG
-	Sint‡xi: SET DEBUG {ON | OFF | nom}
+	Sint√†xi: SET DEBUG {ON | OFF | nom}
 	
 	Estableix el mode debug a activat o desactivat. En mode debug,
-	tota la informaciÛ enviada desde i cap als serveis,
-	a mÈs de un numero de missatges sÛn escrits a l'arxiu
+	tota la informaci√≥ enviada desde i cap als serveis,
+	a m√©s de un numero de missatges s√≥n escrits a l'arxiu
 	de log.  Si s'especifica nom, el mode debug es
 	activat, amb el nivell de debug especificat a nom.
 	
-	Aquesta opciÛ es equivalent a l'opciÛ -debug en
+	Aquesta opci√≥ es equivalent a l'opci√≥ -debug en
 	la linea de comandes.
 
 OPER_HELP_SET_NOEXPIRE
-	Sint‡xi: SET NOEXPIRE {ON | OFF}
+	Sint√†xi: SET NOEXPIRE {ON | OFF}
 	
 	Estableix el mode no expire a activat o desactivat. En
 	mode no expire, nicks, canals, akills i excepcions
-	no caducaran fins que l'opciÛ sigui desactivada.
+	no caducaran fins que l'opci√≥ sigui desactivada.
 	
-	Aquaquesta opciÛ es equivalent a l'opciÛ -noexpire
+	Aquaquesta opci√≥ es equivalent a l'opci√≥ -noexpire
 	en la linea de comandes.
 
 OPER_HELP_SET_SUPERADMIN
@@ -6190,13 +6190,13 @@ OPER_HELP_SET_LIST
 	Display the various %S settings
 
 OPER_HELP_NOOP
-	Sint‡xi: NOOP SET servidor
+	Sint√†xi: NOOP SET servidor
 	          NOOP REVOKE servidor
 	
 	NOOP SET esborra totes les linees O: del
 	servidor especificat i killeja a tots els IRCops actuals
 	per a prevenir-los de fer rehash en el servidor
-	(ja que aixÚ cancel.laria l'efecte).
+	(ja que aix√≤ cancel.laria l'efecte).
 	
 	NOOP REVOKE fa que les linees 0: disponibles novament
 	en el servidor especificat.
@@ -6207,102 +6207,102 @@ OPER_HELP_NOOP
 	Limitat a administradors de serveis.
 
 OPER_HELP_JUPE
-	Sint‡xi: JUPE servidor [raÛ]
+	Sint√†xi: JUPE servidor [ra√≥]
 	
 	Li diu als serveis que fagin jupiter (saturn, mart,...) a un servidor
-	-- Ès a dir, crear un "servidor" fals conectant als
+	-- √©s a dir, crear un "servidor" fals conectant als
 	serveis el qual preveu al servidor real de
 	connectar-se. El jupe pot ser eliminat utilitzant la comanda
-	estandart SQUIT. Si una raÛ es especificada, es afegida
-	en el camp d'informaciÛ sobre el servidor; d'altra
-	banda, el camp de informaciÛ sobre el servidor tindra
+	estandart SQUIT. Si una ra√≥ es especificada, es afegida
+	en el camp d'informaci√≥ sobre el servidor; d'altra
+	banda, el camp de informaci√≥ sobre el servidor tindra
 	el text "Juped per <nick>", mostrant el nickname
 	de la persona que va jupitejar el servidor.
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_RAW
-	Sint‡xi: RAW text
+	Sint√†xi: RAW text
 	
 	Envia una linea de text directament al servidor al qual
 	els serveis estan connectats. Aquesta comanda te un
 	us molt limitat i pot malmetre una xarxa si es
-	utilitzat de manera imprÚpia. NO UTILITZIS aquesta COMANDA a
+	utilitzat de manera impr√≤pia. NO UTILITZIS aquesta COMANDA a
 	no ser que estiguis absolutament seguro del que fas!
 	    
 	Limitat a administradors de serveis.
 
 OPER_HELP_UPDATE
-	Sint‡xi: UPDATE
+	Sint√†xi: UPDATE
 	
-	ForÁa als serveis a actualitzar tots els arxius de
+	For√ßa als serveis a actualitzar tots els arxius de
 	la base de dades tan aviat como enviis la comanda.
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_RELOAD
-	Sint‡xi: RELOAD
+	Sint√†xi: RELOAD
 	
-	ForÁa als serveis a recarregar l'arxiu de
-	configuraciÛ. Tenir en compe que algunes directives
+	For√ßa als serveis a recarregar l'arxiu de
+	configuraci√≥. Tenir en compe que algunes directives
 	necessiten que els serveis es reinicin de nou per tenir
-	efecte (tal com nicknames dels serveis, activaciÛ
-	de la limitaciÛ de sessions, etc.)
+	efecte (tal com nicknames dels serveis, activaci√≥
+	de la limitaci√≥ de sessions, etc.)
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_QUIT
-	Sint‡xi: QUIT
+	Sint√†xi: QUIT
 	
-	ForÁa als serveis a parar inmediatament; les bases de
+	For√ßa als serveis a parar inmediatament; les bases de
 	dades no son guardades. Aquesta comanda no ha de ser utilitzada
-	excepte que les cÚpies en la memÚria semblin espatllades i no
+	excepte que les c√≤pies en la mem√≤ria semblin espatllades i no
 	hagin de ser guardades. Per parar normalment, utilitza la comanda
 	SHUTDOWN.
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_SHUTDOWN
-	Sint‡xi: SHUTDOWN
+	Sint√†xi: SHUTDOWN
 	
-	ForÁa als serveis a guardar totes les bases de
+	For√ßa als serveis a guardar totes les bases de
 	datos i parar.
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_RESTART
-	Sint‡xi: RESTART
+	Sint√†xi: RESTART
 	
-	ForÁa als serveis a guardar totes les bases de
-	dades i desprÈs parar i arrancar de nou.
+	For√ßa als serveis a guardar totes les bases de
+	dades i despr√©s parar i arrancar de nou.
 	(es a dir, finalitzar el programa e inmediatament reiniciar
 	el programa de nou).
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_CHANLIST
-	Sint‡xi: CHANLIST [{patrÛ | nick} [SECRET]]
+	Sint√†xi: CHANLIST [{patr√≥ | nick} [SECRET]]
 	
-	Llista tots els canals actualment en ˙s en la xarxa IRC,
+	Llista tots els canals actualment en √∫s en la xarxa IRC,
 	estiguin registrats o no.
 	
-	Si s'especifica patrÛ, llista nomËs els canals que concordin amb ell. 
-	Si s'especifica un nickname, llista nomËs els canals en els que l'usuari
-	hi sigui. Si s'especifica SECRET, llista nomËs els canals que
-	concordin amb patrÛ i que tinguin modes +s o +p.
+	Si s'especifica patr√≥, llista nom√®s els canals que concordin amb ell. 
+	Si s'especifica un nickname, llista nom√®s els canals en els que l'usuari
+	hi sigui. Si s'especifica SECRET, llista nom√®s els canals que
+	concordin amb patr√≥ i que tinguin modes +s o +p.
 	
 	Limitat a administradors de serveis.
 
 OPER_HELP_USERLIST
-	Sint‡xi: USERLIST [{patrÛ | canal} [INVISIBLE]]
+	Sint√†xi: USERLIST [{patr√≥ | canal} [INVISIBLE]]
 	
 	Llista tots els usuaris actualment en linea en la xarxa IRC,
 	estiguin registrats o no.
 	
-	Si s'especifica patrÛ, llista nomËs els usuaris que concordin
+	Si s'especifica patr√≥, llista nom√®s els usuaris que concordin
 	amb ell (ha de ser amb el format nick!usuari@host). Si s'especifica canal,
-	llista nomËs els  usuaris que estiguin en el canal donat. Si s'especifica
-	INVISIBLE, nomËs els usuaris amb la bandera +i seran
+	llista nom√®s els  usuaris que estiguin en el canal donat. Si s'especifica
+	INVISIBLE, nom√®s els usuaris amb la bandera +i seran
 	llistats.
 	
 	Limitat a administradors de serveis.
@@ -6353,7 +6353,7 @@ BOT_HELP_CMD_SET
 BOT_HELP_CMD_KICK
 	KICK               Configura kickers
 BOT_HELP_CMD_BADWORDS
-	BADWORDS           MantÈ una llista de paraules malsonants
+	BADWORDS           Mant√© una llista de paraules malsonants
 BOT_HELP_CMD_ACT
 	ACT                Makes the bot do the equivalent of a "/me" command
 BOT_HELP_CMD_INFO
@@ -6363,16 +6363,16 @@ BOT_HELP_CMD_SAY
 BOT_HELP_CMD_UNASSIGN
 	UNASSIGN           Unassigns a bot from a channel
 BOT_HELP_CMD_BOT
-	BOT                MantÈ la llista de bots de la xarxa
+	BOT                Mant√© la llista de bots de la xarxa
 	
 BOT_HELP
 	%S et permet crear un bot en el teu propi canal.
-	AixÚ ha estat creat per a usuaris que no poden
+	Aix√≤ ha estat creat per a usuaris que no poden
 	tenir un bot en un host o configurar un bot, o per a us en xarxes
 	que no permeten bots d'usuaris. Comandes
-	disponibles estan llistades mÈs endavant; per a
-	utilitzar-los, escriu %R%S comanda. per a mÈs
-	informaciÛ sobre un comanda especifica, escriu  
+	disponibles estan llistades m√©s endavant; per a
+	utilitzar-los, escriu %R%S comanda. per a m√©s
+	informaci√≥ sobre un comanda especifica, escriu  
 	%R%S HELP comanda.
 	
 	
@@ -6381,38 +6381,38 @@ BOT_HELP_FOOTER
 	%d usuari(s) en ell.
 	
 BOT_HELP_BOTLIST
-	Sint‡xi: BOTLIST
+	Sint√†xi: BOTLIST
 	
 	Llista tots els bots disponibles en aquesta xarxa.
 	
 BOT_HELP_ASSIGN
-	Sint‡xi: ASSIGN canal nick
+	Sint√†xi: ASSIGN canal nick
 	
 	Assigna un bot especificat per nick al canal.
-	DesprËs d'aixÚ pots configurar el bot segons
+	Despr√®s d'aix√≤ pots configurar el bot segons
 	les teves necessitats.
 
 BOT_HELP_UNASSIGN
-	Sint‡xi: UNASSIGN canal
+	Sint√†xi: UNASSIGN canal
 	
 	Desassigna un bot d'un canal. A l'utilitzar aquesta comanda
-	el bot ja no entrara al canal. De totes maneres, la configuraciÛ
-	del bot pel canal es enmagatzemada, aixÌ et sera possible
+	el bot ja no entrara al canal. De totes maneres, la configuraci√≥
+	del bot pel canal es enmagatzemada, aix√≠ et sera possible
 	reassignar un bot sense haver de configurar-lo de nou.
 
 BOT_HELP_INFO
-	Sint‡xi: INFO {canal | nick}
+	Sint√†xi: INFO {canal | nick}
 	
-	Permet veure la informaciÛ de %S sobre un canal o
-	bot. Si el parametre es un canal, rebr‡s informaciÛ
-	aixÌ como kickers activats. Si el parametre es un nick,
-	rebr‡s informaciÛ sobre el bot, aixÌ com temps
-	de creaciÛ o nom de canals en els que aquest estigui.
+	Permet veure la informaci√≥ de %S sobre un canal o
+	bot. Si el parametre es un canal, rebr√†s informaci√≥
+	aix√≠ como kickers activats. Si el parametre es un nick,
+	rebr√†s informaci√≥ sobre el bot, aix√≠ com temps
+	de creaci√≥ o nom de canals en els que aquest estigui.
 
 BOT_HELP_SET
-	Sint‡xi: SET canal opciÛ parametres
+	Sint√†xi: SET canal opci√≥ parametres
 	
-	Configura opcions de bot.  OpciÛ pot ser uno de:
+	Configura opcions de bot.  Opci√≥ pot ser uno de:
 	
 	    DONTKICKOPS      Per a protegir ops contra kicks de bots
 	    DONTKICKVOICES   Per a protegir voices contra kicks de bots
@@ -6420,56 +6420,56 @@ BOT_HELP_SET
 	    FANTASY          Habilita comandoe de fantasia
 	    SYMBIOSIS        Permet al bot a actuar como un bot real
 	
-	Escriu %R%S HELP SET opciÛ per mÈs informaciÛ
-	sobre una opciÛ especifica.
+	Escriu %R%S HELP SET opci√≥ per m√©s informaci√≥
+	sobre una opci√≥ especifica.
 	
-	Nota: L'accÈs a aquesta comanda esta controlat pel
+	Nota: L'acc√©s a aquesta comanda esta controlat pel
 	nivell SET.
 	
 BOT_HELP_SET_DONTKICKOPS
-	Sint‡xi: SET canal DONTKICKOPS {ON|OFF}
+	Sint√†xi: SET canal DONTKICKOPS {ON|OFF}
 	
-	Habilita o deshabilita el mode de protecciÛ d'ops
+	Habilita o deshabilita el mode de protecci√≥ d'ops
 	en un canal. En habilitar-lo, ops no seran
 	kickejats pel bot, encara que no concideixen amb
 	el nivell NOKICK.
 
 BOT_HELP_SET_DONTKICKVOICES
-	Sint‡xi: SET canal DONTKICKVOICES {ON|OFF}
+	Sint√†xi: SET canal DONTKICKVOICES {ON|OFF}
 	
-	Habilita o deshabilita el mode de protecciÛ de voices
+	Habilita o deshabilita el mode de protecci√≥ de voices
 	en un canal. En hbilitarlo, voices no seran
 	kickejatos pel bot, encara que no coincideixin amb
 	el nivell NOKICK.
 
 BOT_HELP_SET_FANTASY
-	Sint‡xi: SET canal FANTASY {ON|OFF}
+	Sint√†xi: SET canal FANTASY {ON|OFF}
 	
 	Habilita o deshabilita el mode de fantasia
 	en un canal. En habilitar-lo, els usuaris podran
 	utilitzar les comandes !op, !deop, !voice, !devoice,
 	!kick, !kb, !unban, !seen en un canal (investiga
-	com utilitzar-los; intenta amb o sense nick per cadasc˙
-	i amb raÛ per a alguns?).
+	com utilitzar-los; intenta amb o sense nick per cadasc√∫
+	i amb ra√≥ per a alguns?).
 	
 	Cal dir que els usuaris que desitgin utilitzar comandes
 	de fantasia HAN DE DISPOSSAR del nivell necessari
 	pel nivell FANTASIA i altres depenent
 	de la comanda si es requereix (per exemple, per a
 	utilitzar !op, l'usuari ha de tenir suficient
-	accÈs pel nivell OPDEOP).
+	acc√©s pel nivell OPDEOP).
 
 BOT_HELP_SET_GREET
-	Sint‡xi: SET canal GREET {ON|OFF}
+	Sint√†xi: SET canal GREET {ON|OFF}
 	
 	Habilita o deshabilita el mode de asludo en
 	un canal. En habilitar-lo, el bot mostrara els
 	missatges dels usuaris que entrin al canal,
-	sempre i quan tinguin el suficient accÈs
+	sempre i quan tinguin el suficient acc√©s
 	al canal.
 
 BOT_HELP_SET_SYMBIOSIS
-	Sint‡xi: SET canal SYMBIOSIS {ON|OFF}
+	Sint√†xi: SET canal SYMBIOSIS {ON|OFF}
 	
 	Habilita o dehsabilita el mode simbiosis en
 	un canal. En habilitar-lo, el bot fara qualsevol
@@ -6478,9 +6478,9 @@ BOT_HELP_SET_SYMBIOSIS
 	missatges d'entrada.
 
 BOT_HELP_KICK
-	Sint‡xi: KICK canal opciÛ parametres
+	Sint√†xi: KICK canal opci√≥ parametres
 	
-	Configura els kickers de bot. opciÛ pot ser una de:
+	Configura els kickers de bot. opci√≥ pot ser una de:
 	
 	    BOLDS         Estableix si el bot kickejara negretes
 	    BADWORDS      Estableix si el bot kickejara paraules malsonants
@@ -6493,17 +6493,17 @@ BOT_HELP_KICK
 	    REVERSES      Estableix si el bot kickejara reversos
 	    UNDERLINES    Estableix si el bot kickejara subratllats
 	
-	Escriu %R%S HELP KICK OpciÛ per mÈs
-	informaciÛ sobre una opciÛ especifica.
+	Escriu %R%S HELP KICK Opci√≥ per m√©s
+	informaci√≥ sobre una opci√≥ especifica.
 	
-	Nota: L'accÈs a aquesta comanda es control.lat pel
+	Nota: L'acc√©s a aquesta comanda es control.lat pel
 	nivell SET.
 
 BOT_HELP_KICK_BOLDS
-	Sint‡xi: KICK canal BOLDS {ON|OFF} [ttb]
+	Sint√†xi: KICK canal BOLDS {ON|OFF} [ttb]
 
 	Estableix el kick per negretes a actvitat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que utilitzin negretes.
 	
 	ttb es el numero de cops que un usuari sera kickejat
@@ -6511,10 +6511,10 @@ BOT_HELP_KICK_BOLDS
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_COLORS
-	Sint‡xi: KICK canal COLORS {ON|OFF} [ttb]
+	Sint√†xi: KICK canal COLORS {ON|OFF} [ttb]
 	
 	Estableix el kick per colors a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que utilitzin colors.
 	
 	ttb es el numero de cops que un usuari sera kickejat
@@ -6522,10 +6522,10 @@ BOT_HELP_KICK_COLORS
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_REVERSES
-	Sint‡xi: KICK canal REVERSES {ON|OFF} [ttb]
+	Sint√†xi: KICK canal REVERSES {ON|OFF} [ttb]
 	
 	Estableix el kick per reversos a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que utilitzin reversos.
 	
 	ttb es el numero de cops que un usuari sera kickejat
@@ -6533,10 +6533,10 @@ BOT_HELP_KICK_REVERSES
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_UNDERLINES
-	Sint‡xi: KICK canal UNDERLINES {ON|OFF} [ttb]
+	Sint√†xi: KICK canal UNDERLINES {ON|OFF} [ttb]
 	
 	Estableix el kick per subratllats a activat o apagat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que utilitzin subratllats.
 	
 	ttb es el numero de cops que un usuari sera kickejat
@@ -6544,27 +6544,27 @@ BOT_HELP_KICK_UNDERLINES
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_CAPS
-	Sint‡xi: KICK canal CAPS {ON|OFF} [ttb [min [porcentaje]]]
+	Sint√†xi: KICK canal CAPS {ON|OFF} [ttb [min [porcentaje]]]
 
 	Estableix el kick per mayusculas a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ le diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ le diu al bot que kickegi
 	usuaris que estiguin escrivint en majuscules.
 	
-	El bot kickeja nomËs si hi ha com a mÌnim min majuscules
-	i que constitueixin com a mÌnim porcentatge%% del total
+	El bot kickeja nom√®s si hi ha com a m√≠nim min majuscules
+	i que constitueixin com a m√≠nim porcentatge%% del total
 	del text (si no s'especifica, per defecte s'estableix a 10
-	car‡cters i 25%%).
+	car√†cters i 25%%).
 	
 	ttb es el numero de cops que un usuari sera kickejat
 	abans de ser banejat. No cal especificar ttb per a deshabilitar
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_FLOOD
-	Sint‡xi: KICK canal FLOOD {ON|OFF} [ttb [ln [segs]]]
+	Sint√†xi: KICK canal FLOOD {ON|OFF} [ttb [ln [segs]]]
 
 	Estableix el kick per flood a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
-	usuaris que estiguin floodejant el canal utilitzant com a mÌnim
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
+	usuaris que estiguin floodejant el canal utilitzant com a m√≠nim
 	ln linees en segs segons (si no s'especifica, per
 	defecte es establert a 6 linees en 10 segons).
 	
@@ -6573,10 +6573,10 @@ BOT_HELP_KICK_FLOOD
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_REPEAT
-	Sint‡xi: KICK #canal REPEAT {ON|OFF} [ttb [num]]
+	Sint√†xi: KICK #canal REPEAT {ON|OFF} [ttb [num]]
 	
-	Estableix el kick per repeticiÛ a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	Estableix el kick per repetici√≥ a activat o desactivat.
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que estiguin repetint num cops (si num no s'especifica,
 	per defecte es establert a 3).
 	
@@ -6585,64 +6585,64 @@ BOT_HELP_KICK_REPEAT
 	el sistema de ban un cop activat.
 
 BOT_HELP_KICK_BADWORDS
-	Sint‡xi: KICK #canal BADWORDS {ON|OFF} [ttb]
+	Sint√†xi: KICK #canal BADWORDS {ON|OFF} [ttb]
 	
 	Estableix el kick per paraules malsonants a activat o desactivat.
-	En habilitar-lo, aquesta opciÛ li diu al bot que kickegi
+	En habilitar-lo, aquesta opci√≥ li diu al bot que kickegi
 	usuaris que utilitzin certes paraules al canal.
 	
 	Pots definir paraules malsonants pel teu canal utilitzant la comanda
-	BADWORDS. Escriu %R%S HELP BADWORDS per mÈs informaciÛ.
+	BADWORDS. Escriu %R%S HELP BADWORDS per m√©s informaci√≥.
 	
 	ttb es el numero de cops que un usuari sera kickejat
 	abans de ser banejat. No cal especificar ttb per a deshabilitar
 	el sistema de ban un cop activat.
 
 BOT_HELP_BADWORDS
-	Sint‡xi: BADWORDS canal ADD paraula [SINGLE | START | END]
+	Sint√†xi: BADWORDS canal ADD paraula [SINGLE | START | END]
 	          BADWORDS canal DEL {paraula | nom | llista}
 	          BADWORDS canal LIST [mascara | llista]
 	          BADWORDS canal CLEAR
 	
 	Mante la llista de paraules malsonants per un canal. La llista
 	de paraules malsonants determina quines paraules han de donar peu a ser kickejats
-	Quan el kick per paraules malsonants esta habilitat. Per mÈs
-	informaciÛ, escriu %R%S HELP KICK BADWORDS.
+	Quan el kick per paraules malsonants esta habilitat. Per m√©s
+	informaci√≥, escriu %R%S HELP KICK BADWORDS.
 	
 	La comanda BADWORDS ADD afegeix una paraula a la llista
 	de paraules malsonants. Si s'especifica SINGLE, el kick es
-	fara nomËs si l'usuari du la paraula completa. Si s'especifica
-	START, el kick es fara nomËs si l'usuari
+	fara nom√®s si l'usuari du la paraula completa. Si s'especifica
+	START, el kick es fara nom√®s si l'usuari
 	escriu una paraula que comenci amb paraula.
-	Si no s'especifica END, el kick es fara nomËs si
+	Si no s'especifica END, el kick es fara nom√®s si
 	l'usuari escriu una paraula que finalitzi amb paraula. Si
-	no s'especifica res, un kick es far‡ cada vegada que
+	no s'especifica res, un kick es far√† cada vegada que
 	paraula sigui escrita per un usuari.
 	
 	La comanda BADWORDS DEL esborra la paraula esmantada de la
 	llista de paraules malsonants. Si s'especifica una llista de noms, aquestes
-	inst‡ncies son esborrades. (Veure l'exemple per LIST especificat mÈs
+	inst√†ncies son esborrades. (Veure l'exemple per LIST especificat m√©s
 	endavant).
 	
 	La comanda BADWORDS LIST mostra la llista de bad
-	words. Si s'especifica una mascara, nomËs les inst‡ncies
-	concordant amb la mascara sÛn mostrades. Si s'especifica una llista
-	de noms, nomËs aquestes inst‡ncies son mostrades;
+	words. Si s'especifica una mascara, nom√®s les inst√†ncies
+	concordant amb la mascara s√≥n mostrades. Si s'especifica una llista
+	de noms, nom√®s aquestes inst√†ncies son mostrades;
 	per exemple:
 	
 	   BADWORDS #canal LIST 2-5,7-9
 	      Llista paraules malsonants enumerades de 2 a 5 i de 7 a 9.
 	      
-	La comanda BADWORDS CLEAR neteja totes les inst‡ncies
+	La comanda BADWORDS CLEAR neteja totes les inst√†ncies
 	de la llista de paraules malsonants.
 
 BOT_HELP_SAY
-	Sint‡xi: SAY canal text
+	Sint√†xi: SAY canal text
 	
 	Fa que el bot escrigui el text especificat en el canal especificat.
 
 BOT_HELP_ACT
-	Sint‡xi: ACT canal text
+	Sint√†xi: ACT canal text
 	
 	Fa que el bot fagi l'equivalent a la comanda "/me"
 	en el canal especificat utilitzant el text especificat.
@@ -6662,12 +6662,12 @@ BOT_SERVADMIN_HELP_BOT
 	d'integritat per aquests parametres, tingues molta cura.
 	BOT CHANGE permet cambiar el nickname, usuari, host
 	o nom real d'un bot sense tenir que esborrar-lo (i la
-	informaciÛ associada a ell).
+	informaci√≥ associada a ell).
 	BOT DEL esborra el bot donat de la llista de bots.
 	
 	Nota: Si fas un bot amb un nick ja enregistrat,
-	sera eliminat. A mÈs, si un usuari est‡ actualment
-	usant el nick, ser‡ killejat.
+	sera eliminat. A m√©s, si un usuari est√† actualment
+	usant el nick, ser√† killejat.
 
 BOT_SERVADMIN_HELP_SET
 	
@@ -6677,23 +6677,23 @@ BOT_SERVADMIN_HELP_SET
 	    NOBOT            Evita a un bot de ser assignat
 	                        a un canal
 	    PRIVATE          Evita a un bot de ser assignat
-	                     per alg˙ mes que un operador
+	                     per alg√∫ mes que un operador
 	                     d'IRC
 
 BOT_SERVADMIN_HELP_SET_NOBOT
 
 	Sintaxi: SET canal NOBOT {ON|OFF}
 	
-	Aquesta opciÛ fa al canal no sigui assignable. Si un
-	bot ja est‡ assignat al canal, es desassignara
-	autom‡ticament quan habiliteu aquesta opciÛ.
+	Aquesta opci√≥ fa al canal no sigui assignable. Si un
+	bot ja est√† assignat al canal, es desassignara
+	autom√†ticament quan habiliteu aquesta opci√≥.
 	
 	Limitat a administradors de serveis.
 
 BOT_SERVADMIN_HELP_SET_PRIVATE
 	Sintaxi: SET nick-del-bot PRIVATE {ON|OFF}
 	
-	Aquesta opciÛ evita un bot de ser assignat
+	Aquesta opci√≥ evita un bot de ser assignat
 	a un canal per usuaris que no son operadors
 	d'IRC.
 	

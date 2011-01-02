@@ -48,7 +48,7 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Español (Spanish)" or "Français (French)".
+# For example, "EspaÃ±ol (Spanish)" or "FranÃ§ais (French)".
 
 LANG_NAME
 	Nederlands (Dutch)

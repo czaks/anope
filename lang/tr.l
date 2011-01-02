@@ -38,18 +38,18 @@
 # (including empty lines).  This has to be a tab, not spaces.
 
 ###########################################################################
-# Son güncelleme - ysfm - ysfm@irc.org.tr - irc.sohbet.net.tr 		  #
-# Imla ve Ceviri hatalarını ysfm@irc.org.tr adresine bildiriniz		  #
-# Turkish - Türkçe                                                        #
+# Son gÃ¼ncelleme - ysfm - ysfm@irc.org.tr - irc.sohbet.net.tr 		  #
+# Imla ve Ceviri hatalarÄ±nÄ± ysfm@irc.org.tr adresine bildiriniz		  #
+# Turkish - TÃ¼rkÃ§e                                                        #
 ###########################################################################
 
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Español (Spanish)" or "Français (French)".
+# For example, "EspaÃ±ol (Spanish)" or "FranÃ§ais (French)".
 
 LANG_NAME
-	Türkçe (Turkish)
+	TÃ¼rkÃ§e (Turkish)
 #################################################################
 # Translated by CafeiN (oytuny@yahoo.com) irc.ixir.net          #
 # Modified by MeShGuL - guzelbey@cs.utk.edu - irc.arkadas.com   #
@@ -91,7 +91,7 @@ STRFTIME_DAYS_SHORT
 	Paz
 	Pzt
 	Sal
-	Çar
+	Ã‡ar
 	Per
 	Cum
 	Cmt
@@ -99,21 +99,21 @@ STRFTIME_DAYS_SHORT
 STRFTIME_DAYS_LONG
 	Pazar
 	Pazartesi
-	Salı
-	Çarşamba
-	Perşembe
+	SalÄ±
+	Ã‡arÅŸamba
+	PerÅŸembe
 	Cuma
 	Cumartesi
 # %b
 STRFTIME_MONTHS_SHORT
 	Oca
-	Şub
+	Åub
 	Mar
 	Nis
 	May
 	Haz
 	Tem
-	Ağu
+	AÄŸu
 	Eyl
 	Eki
 	Kas
@@ -121,17 +121,17 @@ STRFTIME_MONTHS_SHORT
 # %B
 STRFTIME_MONTHS_LONG
 	Ocak
-	Şubat
+	Åubat
 	Mart
 	Nisan
-	Mayıs
+	MayÄ±s
 	Haziran
 	Temmuz
-	Ağustos
-	Eylül
+	AÄŸustos
+	EylÃ¼l
 	Ekim
-	Kasım
-	Aralık
+	KasÄ±m
+	AralÄ±k
 
 
 # This is used in ChanServ/NickServ INFO displays.
@@ -141,35 +141,35 @@ COMMA_SPACE
 
 # Various error messages.
 USER_RECORD_NOT_FOUND
-	Dahili hata - Kullanıcı kaydı bulunamadı.
+	Dahili hata - KullanÄ±cÄ± kaydÄ± bulunamadÄ±.
 UNKNOWN_COMMAND
 	Varolmayan komut %s.
 UNKNOWN_COMMAND_HELP
-	Varolmayan komut %s. yardım için "%R%s HELP" yazınız.
+	Varolmayan komut %s. yardÄ±m iÃ§in "%R%s HELP" yazÄ±nÄ±z.
 SYNTAX_ERROR
-	Kullanımı: %s
+	KullanÄ±mÄ±: %s
 MORE_INFO
-	Daha fazla bilgi için %R%s HELP %s yazınız.
+	Daha fazla bilgi iÃ§in %R%s HELP %s yazÄ±nÄ±z.
 NO_HELP_AVAILABLE
-	%s hakkında yardım bulunamadı.
+	%s hakkÄ±nda yardÄ±m bulunamadÄ±.
 OBSOLETE_COMMAND
-	Bu komut artık kullanılmıyor; onun yerine %s komutunu deneyin.
+	Bu komut artÄ±k kullanÄ±lmÄ±yor; onun yerine %s komutunu deneyin.
 
 BAD_USERHOST_MASK
-	Mask user@host şeklinde tanımlanmalıdır.
+	Mask user@host ÅŸeklinde tanÄ±mlanmalÄ±dÄ±r.
 BAD_EXPIRY_TIME
-	Geçersiz zaman aşımı süresi.
+	GeÃ§ersiz zaman aÅŸÄ±mÄ± sÃ¼resi.
 USERHOST_MASK_TOO_WIDE
-	%s kapsamı aşırı geniş; Lütfen daha belirli bir mask kullanın.
+	%s kapsamÄ± aÅŸÄ±rÄ± geniÅŸ; LÃ¼tfen daha belirli bir mask kullanÄ±n.
 
 SERVICE_OFFLINE
-	%s şu an devre dışı.
+	%s ÅŸu an devre dÄ±ÅŸÄ±.
 READ_ONLY_MODE
-	Not: Servisler read-only modunda; değişiklikler kaydedilmeyecektir!
+	Not: Servisler read-only modunda; deÄŸiÅŸiklikler kaydedilmeyecektir!
 PASSWORD_INCORRECT
-	Şifre geçersiz.
+	Åifre geÃ§ersiz.
 INVALID_TARGET
-	"/msg %s" şeklinde uzun mesaj desteklenmemektedir. "/msg %s@%s" veya "/%s" şeklinde deneyiniz.
+	"/msg %s" ÅŸeklinde uzun mesaj desteklenmemektedir. "/msg %s@%s" veya "/%s" ÅŸeklinde deneyiniz.
 
 # What's the difference between "Access denied" and "Permission denied"?
 # Very little; you can safely make them the same message with no real loss
@@ -178,70 +178,70 @@ INVALID_TARGET
 # OperServ gets "Access denied", while a non-Services admin trying to use
 # NickServ SET NOEXPIRE gets "Permission denied".
 ACCESS_DENIED
-	Bu komuta erişiminiz yok.
+	Bu komuta eriÅŸiminiz yok.
 PERMISSION_DENIED
 	Bu komutu kullanma izniniz yok.
 RAW_DISABLED
-	Raw ayarları kapalı bulunuyor. DisableRaw Özelliği servis ayarları dosyasında açık görünüyor.
+	Raw ayarlarÄ± kapalÄ± bulunuyor. DisableRaw Ã–zelliÄŸi servis ayarlarÄ± dosyasÄ±nda aÃ§Ä±k gÃ¶rÃ¼nÃ¼yor.
 
 MORE_OBSCURE_PASSWORD
-	Lütfen daha zor bir şifre deneyin.  Şifreler en az 5 karakter uzunlukta, kolayca tahmin edilemeyecek birşey olmalıdır(ör: gerçek isminiz, nickiniz v.b. olmamalıdır), ve boşlukla tab kullanılmamalıdır.
+	LÃ¼tfen daha zor bir ÅŸifre deneyin.  Åifreler en az 5 karakter uzunlukta, kolayca tahmin edilemeyecek birÅŸey olmalÄ±dÄ±r(Ã¶r: gerÃ§ek isminiz, nickiniz v.b. olmamalÄ±dÄ±r), ve boÅŸlukla tab kullanÄ±lmamalÄ±dÄ±r.
 PASSWORD_TOO_LONG
-	Şifreniz çok uzun. Lütfen daha kısa bir şifre deneyiniz.
+	Åifreniz Ã§ok uzun. LÃ¼tfen daha kÄ±sa bir ÅŸifre deneyiniz.
 
 NICK_NOT_REGISTERED
-	Nickiniz kayıtlı değil.
+	Nickiniz kayÄ±tlÄ± deÄŸil.
 NICK_NOT_REGISTERED_HELP
-	Nickiniz kayıtlı değil.  Nick kayıt hakkında bilgi almak için %R%s HELP yazın.
+	Nickiniz kayÄ±tlÄ± deÄŸil.  Nick kayÄ±t hakkÄ±nda bilgi almak iÃ§in %R%s HELP yazÄ±n.
 NICK_X_IS_SERVICES
-	%s Rumuzu servislerin bir parçası olarak görünüyor(Servisler Tarafından kullanılıyor).
+	%s Rumuzu servislerin bir parÃ§asÄ± olarak gÃ¶rÃ¼nÃ¼yor(Servisler TarafÄ±ndan kullanÄ±lÄ±yor).
 NICK_X_NOT_REGISTERED
-	%s kayıtlı bir nick değil.
+	%s kayÄ±tlÄ± bir nick deÄŸil.
 NICK_X_IN_USE
-	%s rumuzu şu anda kullanılmaktadır.
+	%s rumuzu ÅŸu anda kullanÄ±lmaktadÄ±r.
 NICK_X_NOT_IN_USE
-	%s nicki şu an kullanımda değil.
+	%s nicki ÅŸu an kullanÄ±mda deÄŸil.
 NICK_X_NOT_ON_CHAN
 	%s su anda %s kanalinda degil.
 NICK_X_FORBIDDEN
-	%s nicki kayıt edilemez ve kullanılamaz.
+	%s nicki kayÄ±t edilemez ve kullanÄ±lamaz.
 NICK_X_FORBIDDEN_OPER
-	%s nicki yasaklanmıştır. %s:
+	%s nicki yasaklanmÄ±ÅŸtÄ±r. %s:
 	%s
 NICK_X_ILLEGAL
-	%s rumuzu yasaklanmış bir rumuzdur. Kullanıma kapatılmıştır.
+	%s rumuzu yasaklanmÄ±ÅŸ bir rumuzdur. KullanÄ±ma kapatÄ±lmÄ±ÅŸtÄ±r.
 NICK_X_TRUNCATED
-	%s rumuzu uzun %d karakter nickten kısaltılacak.
+	%s rumuzu uzun %d karakter nickten kÄ±saltÄ±lacak.
 NICK_X_SUSPENDED
-	%s rumuzu askıya alınmıştır(Geçici olarak kullanıma yasaklanmıştır).
+	%s rumuzu askÄ±ya alÄ±nmÄ±ÅŸtÄ±r(GeÃ§ici olarak kullanÄ±ma yasaklanmÄ±ÅŸtÄ±r).
 CHAN_X_NOT_REGISTERED
-	%s kanalı kayıtlı değil.
+	%s kanalÄ± kayÄ±tlÄ± deÄŸil.
 CHAN_X_NOT_IN_USE
-	%s kanalı şu an kullanımda değil.
+	%s kanalÄ± ÅŸu an kullanÄ±mda deÄŸil.
 CHAN_X_FORBIDDEN
-	%s kanalı kayıt edilemez ve kullanılamaz.
+	%s kanalÄ± kayÄ±t edilemez ve kullanÄ±lamaz.
 CHAN_X_FORBIDDEN_OPER
-	%s kanalı yasaklanmıştır. %s:
+	%s kanalÄ± yasaklanmÄ±ÅŸtÄ±r. %s:
 	%s
 CHAN_X_SUSPENDED
 	      Suspended: [%s] %s
 NICK_IDENTIFY_REQUIRED
-	Bu komutu kullanabilmek için şifrenizi girmelisiniz.
-	%R%s IDENTIFY şifreniz yazarak yeniden deneyiniz.
+	Bu komutu kullanabilmek iÃ§in ÅŸifrenizi girmelisiniz.
+	%R%s IDENTIFY ÅŸifreniz yazarak yeniden deneyiniz.
 CHAN_IDENTIFY_REQUIRED
-	Bu komutu kullanabilmek için şifrenizi girmelisiniz.
-	%R%s IDENTIFY %s şifreniz yazarak yeniden deneyiniz.
+	Bu komutu kullanabilmek iÃ§in ÅŸifrenizi girmelisiniz.
+	%R%s IDENTIFY %s ÅŸifreniz yazarak yeniden deneyiniz.
 	
 MAIL_DISABLED
-	Servislerin mail gönderme özelliği devre dışıdır.
+	Servislerin mail gÃ¶nderme Ã¶zelliÄŸi devre dÄ±ÅŸÄ±dÄ±r.
 MAIL_INVALID
-	%s için mail adresi geçerli değil.
+	%s iÃ§in mail adresi geÃ§erli deÄŸil.
 MAIL_X_INVALID
-	%s geçerli bir mail adresi değil.
+	%s geÃ§erli bir mail adresi deÄŸil.
 MAIL_LATER
-	Şu an mail gönderilemiyor; lütfen az sonra tekrar deneyin.
+	Åu an mail gÃ¶nderilemiyor; lÃ¼tfen az sonra tekrar deneyin.
 MAIL_DELAYED
-	Lütfen %d saniye bekleyin ve tekrar deneyin.
+	LÃ¼tfen %d saniye bekleyin ve tekrar deneyin.
 	
 NO_REASON
 	Sebep yok
@@ -250,9 +250,9 @@ UNKNOWN
 
 # Duration system
 DURATION_DAY
-	1 gün
+	1 gÃ¼n
 DURATION_DAYS
-	%d gün
+	%d gÃ¼n
 DURATION_HOUR
 	1 saat
 DURATION_HOURS
@@ -268,25 +268,25 @@ DURATION_SECONDS
 
 # Human readable expiration
 NO_EXPIRE
-	zaman aşımı yok
+	zaman aÅŸÄ±mÄ± yok
 EXPIRES_SOON
-	bir sonraki veritabanı güncellemesinde zaman aşımı süresi dolacak
+	bir sonraki veritabanÄ± gÃ¼ncellemesinde zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_M
-	%d dakika sonra zaman aşımı süresi dolacak
+	%d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_1M
-	%d dakika sonra zaman aşımı süresi dolacak
+	%d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_HM
-	%d saat, %d dakika sonra zaman aşımı süresi dolacak
+	%d saat, %d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_H1M
-	%d saat, %d dakika sonra zaman aşımı süresi dolacak
+	%d saat, %d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_1HM
-	%d saat, %d dakika sonra zaman aşımı süresi dolacak
+	%d saat, %d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_1H1M
-	%d saat, %d dakika sonra zaman aşımı süresi dolacak
+	%d saat, %d dakika sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_D
-	%d gün sonra zaman aşımı süresi dolacak
+	%d gÃ¼n sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 EXPIRES_1D
-	%d gün sonra zaman aşımı süresi dolacak
+	%d gÃ¼n sonra zaman aÅŸÄ±mÄ± sÃ¼resi dolacak
 
 # Generic Footer message
 END_OF_ANY_LIST
@@ -301,10 +301,10 @@ END_OF_ANY_LIST
 
 # Automatic messages
 LIST_INCORRECT_RANGE
-	Geçersiz giriş deniyorsunuz. Geçerli arama şekli #Aranan değil Aranan'dır.
+	GeÃ§ersiz giriÅŸ deniyorsunuz. GeÃ§erli arama ÅŸekli #Aranan deÄŸil Aranan'dÄ±r.
 CS_LIST_INCORRECT_RANGE
-	' # ' Karakteri ile baslayan bir giriş yaptınız, kanal aramalarında
-	kanal ismi başına #-karakteri koymanıza gerek yoktur. (anope girişi #anope şekline karşılık gelmektedir).
+	' # ' Karakteri ile baslayan bir giriÅŸ yaptÄ±nÄ±z, kanal aramalarÄ±nda
+	kanal ismi baÅŸÄ±na #-karakteri koymanÄ±za gerek yoktur. (anope giriÅŸi #anope ÅŸekline karÅŸÄ±lÄ±k gelmektedir).
 
 ###########################################################################
 #
@@ -314,17 +314,17 @@ CS_LIST_INCORRECT_RANGE
 
 # Automatic messages
 HELP_LIMIT_SERV_OPER
-	Bu komut Services Operators kullanımı icindir.
+	Bu komut Services Operators kullanÄ±mÄ± icindir.
 HELP_LIMIT_SERV_ADMIN
-	Bu komut Services Administrators kullanımı icindir.
+	Bu komut Services Administrators kullanÄ±mÄ± icindir.
 HELP_LIMIT_SERV_ROOT
-	Bu komut Services Roots kullanımı icindir.
+	Bu komut Services Roots kullanÄ±mÄ± icindir.
 HELP_LIMIT_IRC_OPER
-	Bu komut IRC Operators kullanımı icindir.
+	Bu komut IRC Operators kullanÄ±mÄ± icindir.
 HELP_LIMIT_HOST_SETTER
-	Bu komut Host Setters kullanımı icindir.
+	Bu komut Host Setters kullanÄ±mÄ± icindir.
 HELP_LIMIT_HOST_REMOVER
-	Bu komut Host Removers kullanımı icindir.
+	Bu komut Host Removers kullanÄ±mÄ± icindir.
 
 
 ###########################################################################
@@ -335,121 +335,121 @@ HELP_LIMIT_HOST_REMOVER
 
 # Automatic messages
 NICK_IS_REGISTERED
-	Bu nick başkasına ait. Lütfen başka bir tane seçin.
-	(Eğer bu sizin nickiniz ise, %R%s IDENTIFY şifreniz yazınız.)
+	Bu nick baÅŸkasÄ±na ait. LÃ¼tfen baÅŸka bir tane seÃ§in.
+	(EÄŸer bu sizin nickiniz ise, %R%s IDENTIFY ÅŸifreniz yazÄ±nÄ±z.)
 NICK_IS_SECURE
-	Bu nick kayıtlı ve korumalıdır. Eğer bu sizin nickiniz ise, 
-	%R%s IDENTIFY şifreniz yazınız. Yada, başka bir nick seçin.
+	Bu nick kayÄ±tlÄ± ve korumalÄ±dÄ±r. EÄŸer bu sizin nickiniz ise, 
+	%R%s IDENTIFY ÅŸifreniz yazÄ±nÄ±z. Yada, baÅŸka bir nick seÃ§in.
 NICK_MAY_NOT_BE_USED
-	Bu nick kullanılamaz.  Lütfen başka bir tane seçin.
+	Bu nick kullanÄ±lamaz.  LÃ¼tfen baÅŸka bir tane seÃ§in.
 FORCENICKCHANGE_IN_1_MINUTE
-	Eğer bir dakika içinde nickinizi değiştirmezseniz, Sistem size otomatik olarak yeni bir rumuz atayacaktır.
+	EÄŸer bir dakika iÃ§inde nickinizi deÄŸiÅŸtirmezseniz, Sistem size otomatik olarak yeni bir rumuz atayacaktÄ±r.
 FORCENICKCHANGE_IN_20_SECONDS
-	Eğer 20 saniye içinde nickinizi değiştirmezseniz, Sistem size otomatik olarak yeni bir rumuz atayacaktır.
+	EÄŸer 20 saniye iÃ§inde nickinizi deÄŸiÅŸtirmezseniz, Sistem size otomatik olarak yeni bir rumuz atayacaktÄ±r.
 FORCENICKCHANGE_NOW
-	Bu nick kayıtlıdır; bunu kullanamazsınız.
+	Bu nick kayÄ±tlÄ±dÄ±r; bunu kullanamazsÄ±nÄ±z.
 FORCENICKCHANGE_CHANGING
-	Nickiniz %s olarak değiştirildi.
+	Nickiniz %s olarak deÄŸiÅŸtirildi.
 
 # REGISTER responses
 NICK_REGISTER_SYNTAX
-	REGISTER şifreniz [emailiniz]
+	REGISTER ÅŸifreniz [emailiniz]
 NICK_REGISTER_SYNTAX_EMAIL
-	REGISTER şifreniz emailiniz
+	REGISTER ÅŸifreniz emailiniz
 NICK_REGISTRATION_DISABLED
-	Nick kaydı geçici olarak devre dışıdır.
+	Nick kaydÄ± geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 NICK_REGISTRATION_FAILED
-	Nick kaydı başarısız.
+	Nick kaydÄ± baÅŸarÄ±sÄ±z.
 NICK_REG_PLEASE_WAIT
-	Lütfen %d saniye REGISTER komutunu tekrar kullanmak için bekleyin.
+	LÃ¼tfen %d saniye REGISTER komutunu tekrar kullanmak iÃ§in bekleyin.
 NICK_CANNOT_BE_REGISTERED
-	%s nicki kayıt edilemez.
+	%s nicki kayÄ±t edilemez.
 NICK_ALREADY_REGISTERED
-	%s nicki zaten kayıtlı!
+	%s nicki zaten kayÄ±tlÄ±!
 NICK_REGISTERED
-	%s nicki sizin adınıza kayıt edildi: %s
+	%s nicki sizin adÄ±nÄ±za kayÄ±t edildi: %s
 NICK_REGISTERED_NO_MASK
-	%s Rumuzu kayıtlı bulunuyor.
+	%s Rumuzu kayÄ±tlÄ± bulunuyor.
 NICK_PASSWORD_IS
-	Nick Şifreniz %s - İlerde kullanacağınız için unutmayınız ve kimseye söylemeyiniz.
+	Nick Åifreniz %s - Ä°lerde kullanacaÄŸÄ±nÄ±z iÃ§in unutmayÄ±nÄ±z ve kimseye sÃ¶ylemeyiniz.
 
 # GROUP responses
 NICK_REG_DELAY
-	Rumuzunuzu kayıt edebilmeniz icin baglantı surenizden %d saniye sonra kayıt işlemini denemelisiniz.
+	Rumuzunuzu kayÄ±t edebilmeniz icin baglantÄ± surenizden %d saniye sonra kayÄ±t iÅŸlemini denemelisiniz.
 
 # GROUP responses
 NICK_GROUP_SYNTAX
-	GROUP hedef şifre
+	GROUP hedef ÅŸifre
 NICK_GROUP_DISABLED
-	Nick gruplama geçici olarak devre dışı.
+	Nick gruplama geÃ§ici olarak devre dÄ±ÅŸÄ±.
 NICK_GROUP_FAILED
-	Nick gruplama başarısız.
+	Nick gruplama baÅŸarÄ±sÄ±z.
 NICK_GROUP_PLEASE_WAIT
-	GROUP komutunu tekrar kullanmadan önce lütfen %d saniye bekleyin.
+	GROUP komutunu tekrar kullanmadan Ã¶nce lÃ¼tfen %d saniye bekleyin.
 NICK_GROUP_CHANGE_DISABLED
-	Nickiniz zaten kayıtlı; önce %R%s DROP yazın.
+	Nickiniz zaten kayÄ±tlÄ±; Ã¶nce %R%s DROP yazÄ±n.
 NICK_GROUP_SAME
-	%s grubunun zaten bir üyesisiniz.
+	%s grubunun zaten bir Ã¼yesisiniz.
 NICK_GROUP_TOO_MANY
-	%s nickinin grubunda çok fazla nick var; listeleyip birkaçini silin.
-	Daha fazla bilgi için %R%s HELP GLIST ve %R%s HELP DROP 
+	%s nickinin grubunda Ã§ok fazla nick var; listeleyip birkaÃ§ini silin.
+	Daha fazla bilgi iÃ§in %R%s HELP GLIST ve %R%s HELP DROP 
 	yazin.
 NICK_GROUP_JOINED
 	%s grubuna dahil edildiniz.
 
 # IDENTIFY responses
 NICK_IDENTIFY_SYNTAX
-	IDENTIFY şifreniz
+	IDENTIFY ÅŸifreniz
 NICK_IDENTIFY_FAILED
-	Tanımlama başarısız.
+	TanÄ±mlama baÅŸarÄ±sÄ±z.
 NICK_IDENTIFY_SUCCEEDED
-	Şifre kabul edildi.
+	Åifre kabul edildi.
 NICK_IDENTIFY_EMAIL_REQUIRED
-	Şimdi nickiniz için bir e-mail adresi belirtmelisiniz.
-	Bu e-mail adresi şifrenizi unutmanız halinde şifrenizi
-	isterken kullanılacaktır.
+	Åimdi nickiniz iÃ§in bir e-mail adresi belirtmelisiniz.
+	Bu e-mail adresi ÅŸifrenizi unutmanÄ±z halinde ÅŸifrenizi
+	isterken kullanÄ±lacaktÄ±r.
 NICK_IDENTIFY_EMAIL_HOWTO
-	Mail adresinizi ayarlamak için %R%S SET EMAIL e-mailadresiniz 
-	yazın. Gizliliğiniz korunacaktır; bu mail adresi herhangi üçüncü 
-	şahıslara verilmeyecektir.
+	Mail adresinizi ayarlamak iÃ§in %R%S SET EMAIL e-mailadresiniz 
+	yazÄ±n. GizliliÄŸiniz korunacaktÄ±r; bu mail adresi herhangi Ã¼Ã§Ã¼ncÃ¼ 
+	ÅŸahÄ±slara verilmeyecektir.
 
 # LOGOUT responses
 NICK_ALREADY_IDENTIFIED
-	Rumuzunuzu zaten sisteme tanıtmış durumdasınız.
+	Rumuzunuzu zaten sisteme tanÄ±tmÄ±ÅŸ durumdasÄ±nÄ±z.
 
 # UPDATE responses
 NICK_UPDATE_SUCCESS
-	Durum güncellendi (Cevrimdisi mesajlar, ozel adres(vhost), ayarlar, yetkiler).
+	Durum gÃ¼ncellendi (Cevrimdisi mesajlar, ozel adres(vhost), ayarlar, yetkiler).
 	
 # LOGOUT responses
 NICK_LOGOUT_SYNTAX
 	LOGOUT
 NICK_LOGOUT_SUCCEEDED
-	Nickinizin çıkışı yapıldı.
+	Nickinizin Ã§Ä±kÄ±ÅŸÄ± yapÄ±ldÄ±.
 NICK_LOGOUT_X_SUCCEEDED
-	%s nickinin çıkışı yapıldı.
+	%s nickinin Ã§Ä±kÄ±ÅŸÄ± yapÄ±ldÄ±.
 
 # DROP responses
 NICK_LOGOUT_SERVICESADMIN
-	Cıkış yapılamıyor %s Servis görevlisi durumunda.
+	CÄ±kÄ±ÅŸ yapÄ±lamÄ±yor %s Servis gÃ¶revlisi durumunda.
 
 # DROP responses
 NICK_DROP_DISABLED
-	Nick kaydı silinmesi geçici olarak devre dışıdır.
+	Nick kaydÄ± silinmesi geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 NICK_DROPPED
-	Nickinizin kaydı silindi (dropped).
+	Nickinizin kaydÄ± silindi (dropped).
 NICK_X_DROPPED
-	%s nickinin kaydı silindi (dropped).
+	%s nickinin kaydÄ± silindi (dropped).
 
 # SET responses
 NICK_SET_SYNTAX
-	SET özellik parametre
+	SET Ã¶zellik parametre
 NICK_SET_SERVADMIN_SYNTAX
-	SET [nick] özellik parametre
+	SET [nick] Ã¶zellik parametre
 NICK_SET_DISABLED
-	NickServ'ün SET komutu geçici olarak devre dışıdır.
+	NickServ'Ã¼n SET komutu geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 NICK_SET_UNKNOWN_OPTION
-	Varolmayan SET özelliği: %s.
+	Varolmayan SET Ã¶zelliÄŸi: %s.
 
 # SET DISPLAY responses
 NICK_SET_OPTION_DISABLED
@@ -457,35 +457,35 @@ NICK_SET_OPTION_DISABLED
 
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
-	Yeni gösterim nick grubunuzdan bir nick olmalıdır!
+	Yeni gÃ¶sterim nick grubunuzdan bir nick olmalÄ±dÄ±r!
 NICK_SET_DISPLAY_CHANGED
-	Yeni gösterim %s.
+	Yeni gÃ¶sterim %s.
 
 # SET PASSWORD responses
 NICK_SET_PASSWORD_FAILED
-	Şifre değiştirilemedi.
+	Åifre deÄŸiÅŸtirilemedi.
 NICK_SET_PASSWORD_CHANGED
-	Şifreniz değiştirildi.
+	Åifreniz deÄŸiÅŸtirildi.
 NICK_SET_PASSWORD_CHANGED_TO
-	Nick şifreniz %s olarak değiştirildi.
+	Nick ÅŸifreniz %s olarak deÄŸiÅŸtirildi.
 
 # SET LANGUAGE responses
 NICK_SET_LANGUAGE_SYNTAX
 	SET LANGUAGE numara
 NICK_SET_LANGUAGE_UNKNOWN
-	Varolmayan dil numarası %d.  Dil listesi için %R%s HELP SET LANGUAGE yazın.
+	Varolmayan dil numarasÄ± %d.  Dil listesi iÃ§in %R%s HELP SET LANGUAGE yazÄ±n.
 NICK_SET_LANGUAGE_CHANGED
-	Dil Türkçe olarak değiştirildi.
+	Dil TÃ¼rkÃ§e olarak deÄŸiÅŸtirildi.
 
 # SET URL responses
 NICK_SET_URL_CHANGED
-	URL adresi %s olarak değiştirildi.
+	URL adresi %s olarak deÄŸiÅŸtirildi.
 NICK_SET_URL_UNSET
 	URL adresi silindi.
 
 # SET EMAIL responses
 NICK_SET_EMAIL_CHANGED
-	E-mail adresi %s olarak değiştirildi.
+	E-mail adresi %s olarak deÄŸiÅŸtirildi.
 NICK_SET_EMAIL_UNSET
 	E-mail adresi silindi.
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
@@ -493,17 +493,17 @@ NICK_SET_EMAIL_UNSET_IMPOSSIBLE
 
 # SET ICQ responses
 NICK_SET_ICQ_CHANGED
-	ICQ numarası %s olarak değiştirildi.
+	ICQ numarasÄ± %s olarak deÄŸiÅŸtirildi.
 NICK_SET_ICQ_UNSET
-	ICQ numarası silindi.
+	ICQ numarasÄ± silindi.
 NICK_SET_ICQ_INVALID
-	%s geçerli bir numara değil.
+	%s geÃ§erli bir numara deÄŸil.
 	
 # SET GREET responses
 NICK_SET_GREET_CHANGED
-	Karşılama mesajı %s olarak değiştirildi.
+	KarÅŸÄ±lama mesajÄ± %s olarak deÄŸiÅŸtirildi.
 NICK_SET_GREET_UNSET
-	Karşılama mesajı silindi.
+	KarÅŸÄ±lama mesajÄ± silindi.
 
 # SET PROTECT responses
 NICK_SET_KILL_SYNTAX
@@ -511,53 +511,53 @@ NICK_SET_KILL_SYNTAX
 NICK_SET_KILL_IMMED_SYNTAX
 	SET KILL {ON | QUICK | IMMED | OFF}
 NICK_SET_KILL_ON
-	Kill koruması: AKTİF.
+	Kill korumasÄ±: AKTÄ°F.
 NICK_SET_KILL_QUICK
-	Kill koruması: zaman limitli olarak AKTİF.
+	Kill korumasÄ±: zaman limitli olarak AKTÄ°F.
 NICK_SET_KILL_IMMED
-	Anında kill koruması: AKTİF.
+	AnÄ±nda kill korumasÄ±: AKTÄ°F.
 NICK_SET_KILL_IMMED_DISABLED
-	HEMEN seçeneği bu networkte aktif değil.
+	HEMEN seÃ§eneÄŸi bu networkte aktif deÄŸil.
 NICK_SET_KILL_OFF
-	Kill koruması: KAPALI.
+	Kill korumasÄ±: KAPALI.
 
 # SET SECURE responses
 NICK_SET_SECURE_SYNTAX
 	SET SECURE {ON | OFF}
 NICK_SET_SECURE_ON
-	Güvenlik seçeneği: AKTİF.
+	GÃ¼venlik seÃ§eneÄŸi: AKTÄ°F.
 NICK_SET_SECURE_OFF
-	Güvenlik seçeneği: KAPALI.
+	GÃ¼venlik seÃ§eneÄŸi: KAPALI.
 
 # SET PRIVATE responses
 NICK_SET_PRIVATE_SYNTAX
 	SET PRIVATE {ON | OFF}
 NICK_SET_PRIVATE_ON
-	Özel seçeneği: AKTİF.
+	Ã–zel seÃ§eneÄŸi: AKTÄ°F.
 NICK_SET_PRIVATE_OFF
-	Özel seçeneği: KAPALI.
+	Ã–zel seÃ§eneÄŸi: KAPALI.
 
 # SET HIDE responses
 NICK_SET_HIDE_SYNTAX
 	SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SET_HIDE_EMAIL_ON
-	Artık %s INFO da e-mail adresiniz gözükmeyecek.
+	ArtÄ±k %s INFO da e-mail adresiniz gÃ¶zÃ¼kmeyecek.
 NICK_SET_HIDE_EMAIL_OFF
-	Artık %s INFO da e-mail adresiniz gözükecek.
+	ArtÄ±k %s INFO da e-mail adresiniz gÃ¶zÃ¼kecek.
 NICK_SET_HIDE_MASK_ON
-	Artık son göründüğünüz user@host maskınız %s INFO da gözükmeyecek.
+	ArtÄ±k son gÃ¶rÃ¼ndÃ¼ÄŸÃ¼nÃ¼z user@host maskÄ±nÄ±z %s INFO da gÃ¶zÃ¼kmeyecek.
 NICK_SET_HIDE_MASK_OFF
-	Artık son göründüğünüz user@host maskınız %s INFO da gözükecek.
+	ArtÄ±k son gÃ¶rÃ¼ndÃ¼ÄŸÃ¼nÃ¼z user@host maskÄ±nÄ±z %s INFO da gÃ¶zÃ¼kecek.
 NICK_SET_HIDE_QUIT_ON
-	Artık son çıkış mesajınız(/quit) %s INFO da gözükmeyecek.
+	ArtÄ±k son Ã§Ä±kÄ±ÅŸ mesajÄ±nÄ±z(/quit) %s INFO da gÃ¶zÃ¼kmeyecek.
 NICK_SET_HIDE_QUIT_OFF
-	Artık son çıkış mesajınız(/quit) %s INFO da gözükecek.
+	ArtÄ±k son Ã§Ä±kÄ±ÅŸ mesajÄ±nÄ±z(/quit) %s INFO da gÃ¶zÃ¼kecek.
 
 # SET NOEXPIRE responses
 NICK_SET_HIDE_STATUS_ON
-	Artık %s INFO da servisler üzerindeki yetkiniz gorunecek.
+	ArtÄ±k %s INFO da servisler Ã¼zerindeki yetkiniz gorunecek.
 NICK_SET_HIDE_STATUS_OFF
-	Servisler uzerindeki yetkiniz %s bilgilerinde gözükmeyecek.
+	Servisler uzerindeki yetkiniz %s bilgilerinde gÃ¶zÃ¼kmeyecek.
 	
 # SET MSG responses
 NICK_SET_MSG_SYNTAX
@@ -565,7 +565,7 @@ NICK_SET_MSG_SYNTAX
 NICK_SET_MSG_ON
 	Servisler bundan sonra size mesaj(Genel Mesaj) ile cevap verecek.
 NICK_SET_MSG_OFF
-	Servisler bundan sonra size notice(Uyarı mesajı) ile cevap verecek.
+	Servisler bundan sonra size notice(UyarÄ± mesajÄ±) ile cevap verecek.
 
 # SET AUTOOP responses
 NICK_SET_AUTOOP_SYNTAX
@@ -580,55 +580,55 @@ NICK_SET_AUTOOP_OFF
 NICK_SASET_SYNTAX
 	SASET rumuz ayar parametereler
 NICK_SASET_DISABLED
-	Üzgünüz, bu düzenleme komutu kapalı durumdadır.
+	ÃœzgÃ¼nÃ¼z, bu dÃ¼zenleme komutu kapalÄ± durumdadÄ±r.
 NICK_SASET_UNKNOWN_OPTION
-	%s gecersiz bir düzenmele girdisidir.
+	%s gecersiz bir dÃ¼zenmele girdisidir.
 NICK_SASET_BAD_NICK
-	%s rumuzu kayıtlı bulunmuyor.
+	%s rumuzu kayÄ±tlÄ± bulunmuyor.
 NICK_SASET_OPTION_DISABLED
-	%s ayarları bu sunucu uzerinde kullanılabilir durumda degildir.
+	%s ayarlarÄ± bu sunucu uzerinde kullanÄ±labilir durumda degildir.
 
 # SASET DISPLAY responses
 NICK_SASET_DISPLAY_INVALID
 	%s grubu gecerli bir nick grubu degil!
 NICK_SASET_DISPLAY_CHANGED
-	%s Yeni nick grubu olarak ayarlandı.
+	%s Yeni nick grubu olarak ayarlandÄ±.
 
 # SASET PASSWORD responses
 NICK_SASET_PASSWORD_FAILED
-	Üzgünüz, %s rumuzunun sifresi degiştirilemedi.
+	ÃœzgÃ¼nÃ¼z, %s rumuzunun sifresi degiÅŸtirilemedi.
 NICK_SASET_PASSWORD_CHANGED
 	%s rumuzunun sifresi degistirildi degistirildi.
 NICK_SASET_PASSWORD_CHANGED_TO
-	%s rumuzunun sifresi %s olarak degiştirildi.
+	%s rumuzunun sifresi %s olarak degiÅŸtirildi.
 
 # SASET LANGUAGE responses
 NICK_SASET_URL_CHANGED
 	%s rumuzunun silgisi %s olarak degistirildi.
 NICK_SASET_URL_UNSET
-	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiş konuma getirildi).
+	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiÅŸ konuma getirildi).
 
 # SASET EMAIL responses
 NICK_SASET_EMAIL_CHANGED
 	%s rumuzunun silgisi %s olarak degistirildi.
 NICK_SASET_EMAIL_UNSET
-	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiş konuma getirildi)..
+	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiÅŸ konuma getirildi)..
 NICK_SASET_EMAIL_UNSET_IMPOSSIBLE
-	Mail adresi bu sunucu için geçersiz konuma alınabilecek bir bilgi degildir.
+	Mail adresi bu sunucu iÃ§in geÃ§ersiz konuma alÄ±nabilecek bir bilgi degildir.
 	
 # SASET ICQ responses
 NICK_SASET_ICQ_CHANGED
 	%s rumuzunun silgisi %s olarak degistirildi.
 NICK_SASET_ICQ_UNSET
-	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiş konuma getirildi).
+	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiÅŸ konuma getirildi).
 NICK_SASET_ICQ_INVALID
-	%s gecerli bir numara değil.
+	%s gecerli bir numara deÄŸil.
 	
 # SASET GREET responses
 NICK_SASET_GREET_CHANGED
 	%s rumuzunun silgisi %s olarak degistirildi.
 NICK_SASET_GREET_UNSET
-	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiş konuma getirildi).
+	%s Rumuzunun bilgisi silindi(Bilgi belirtilmemiÅŸ konuma getirildi).
 
 # SASET PROTECT responses
 NICK_SASET_KILL_SYNTAX
@@ -636,15 +636,15 @@ NICK_SASET_KILL_SYNTAX
 NICK_SASET_KILL_IMMED_SYNTAX
 	SASET nickname KILL {ON | QUICK | IMMED | OFF}
 NICK_SASET_KILL_ON
-	Koruma durumu ACIK değişiklik yapılan nick %s.
+	Koruma durumu ACIK deÄŸiÅŸiklik yapÄ±lan nick %s.
 NICK_SASET_KILL_QUICK
-	Koruma durumu ACIK değişiklik yapılan nick %s, kısa sureli koruma aktif.
+	Koruma durumu ACIK deÄŸiÅŸiklik yapÄ±lan nick %s, kÄ±sa sureli koruma aktif.
 NICK_SASET_KILL_IMMED
-	Koruma durumu ACIK değişiklik yapılan nick %s, bekleme suresi olmayan koruma aktif.
+	Koruma durumu ACIK deÄŸiÅŸiklik yapÄ±lan nick %s, bekleme suresi olmayan koruma aktif.
 NICK_SASET_KILL_IMMED_DISABLED
 	IMMED bu sunucu icin gecerli bir rumuz koruma durumu degildir.
 NICK_SASET_KILL_OFF
-	Koruma durumu KAPALI değişiklik yapılan nick %s.
+	Koruma durumu KAPALI deÄŸiÅŸiklik yapÄ±lan nick %s.
 
 # SASET SECURE responses
 NICK_SASET_SECURE_SYNTAX
@@ -666,21 +666,21 @@ NICK_SASET_PRIVATE_OFF
 NICK_SASET_HIDE_SYNTAX
 	SET nickname HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SASET_HIDE_EMAIL_ON
-	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatÄ±ldÄ±.
 NICK_SASET_HIDE_EMAIL_OFF
-	%s Rumuzuna ait bilgi %s INFO'da gosterime acıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime acÄ±ldÄ±.
 NICK_SASET_HIDE_MASK_ON
-	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatÄ±ldÄ±.
 NICK_SASET_HIDE_MASK_OFF
-	%s Rumuzuna ait bilgi %s INFO'da gosterime acıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime acÄ±ldÄ±.
 NICK_SASET_HIDE_QUIT_ON
-	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatÄ±ldÄ±.
 NICK_SASET_HIDE_QUIT_OFF
-	%s Rumuzuna ait bilgi %s INFO'da gosterime acıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime acÄ±ldÄ±.
 NICK_SASET_HIDE_STATUS_ON
-	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatıldı.
+	%s Rumuzuna ait bilgi %s INFO'da gosterime kapatÄ±ldÄ±.
 NICK_SASET_HIDE_STATUS_OFF
-	%s Rumuzuna ait bilgi %s INFO'da gosterime acıldı..
+	%s Rumuzuna ait bilgi %s INFO'da gosterime acÄ±ldÄ±..
 	
 # SASET MSG responses
 NICK_SASET_MSG_SYNTAX
@@ -688,15 +688,15 @@ NICK_SASET_MSG_SYNTAX
 NICK_SASET_MSG_ON
 	Services bundan sonra %s rumuzuna mesajlar ile cevap verecek.
 NICK_SASET_MSG_OFF
-	Services bundan sonra %s rumuzuna notices(uyarılar) ile cevap verecek.
+	Services bundan sonra %s rumuzuna notices(uyarÄ±lar) ile cevap verecek.
 
 # SET NOEXPIRE responses
 NICK_SASET_NOEXPIRE_SYNTAX
 	SASET nickname NOEXPIRE {ON | OFF}
 NICK_SASET_NOEXPIRE_ON
-	%s rumuzu zaman aşımına kapatıldı.
+	%s rumuzu zaman aÅŸÄ±mÄ±na kapatÄ±ldÄ±.
 NICK_SASET_NOEXPIRE_OFF
-	%s rumuzu zaman aşımına açıldı.
+	%s rumuzu zaman aÅŸÄ±mÄ±na aÃ§Ä±ldÄ±.
 
 # ACCESS responses
 NICK_SASET_AUTOOP_SYNTAX
@@ -710,7 +710,7 @@ NICK_SASET_AUTOOP_OFF
 NICK_SASET_LANGUAGE_SYNTAX
 	SASET nickname LANGUAGE numara
 NICK_SASET_LANGUAGE_UNKNOWN
-	Bilinmeyen dil numarası %d.  Lütfen %R%s HELP SET LANGUAGE komutu ile diller ve kodları hakkında bilgi alınız.
+	Bilinmeyen dil numarasÄ± %d.  LÃ¼tfen %R%s HELP SET LANGUAGE komutu ile diller ve kodlarÄ± hakkÄ±nda bilgi alÄ±nÄ±z.
 NICK_SASET_LANGUAGE_CHANGED
 	Language for %s changed to %s.
 
@@ -721,11 +721,11 @@ NICK_ACCESS_SYNTAX
 NICK_ACCESS_ALREADY_PRESENT
 	%s access listenizde zaten var.
 NICK_ACCESS_REACHED_LIMIT
-	Bir nick için sadece %d tane access girilebilir.
+	Bir nick iÃ§in sadece %d tane access girilebilir.
 NICK_ACCESS_ADDED
 	%s access listenize eklendi.
 NICK_ACCESS_NOT_FOUND
-	%s access listenizde bulunamadı.
+	%s access listenizde bulunamadÄ±.
 NICK_ACCESS_DELETED
 	%s access listenizden silindi.
 NICK_ACCESS_LIST
@@ -733,9 +733,9 @@ NICK_ACCESS_LIST
 NICK_ACCESS_LIST_X
 	%s nickinin access listesi:
 NICK_ACCESS_LIST_EMPTY
-	Size ait yetki bulunamadı.
+	Size ait yetki bulunamadÄ±.
 NICK_ACCESS_LIST_X_EMPTY
-	%s rumuzuna ait yetki bulunamadı.
+	%s rumuzuna ait yetki bulunamadÄ±.
 
 # Status messages
 NICK_STATUS_0
@@ -753,23 +753,23 @@ NICK_INFO_SYNTAX
 NICK_INFO_REALNAME
 	   %s                isim: %s
 NICK_INFO_SERVICES_OPER
-	      %s servis operatörüdür.
+	      %s servis operatÃ¶rÃ¼dÃ¼r.
 NICK_INFO_SERVICES_ADMIN
 	      %s servis adminidir.
 NICK_INFO_SERVICES_ROOT
 	%s is a services root administrator.
 NICK_INFO_ADDRESS
-	      Son görüldüğü adres: %s
+	      Son gÃ¶rÃ¼ldÃ¼ÄŸÃ¼ adres: %s
 NICK_INFO_ADDRESS_ONLINE
-	      Bağlandığı adres: %s
+	      BaÄŸlandÄ±ÄŸÄ± adres: %s
 NICK_INFO_ADDRESS_ONLINE_NOHOST
-	      %s şu an bağlı.
+	      %s ÅŸu an baÄŸlÄ±.
 NICK_INFO_TIME_REGGED
-	          Kayıt zamanı: %s
+	          KayÄ±t zamanÄ±: %s
 NICK_INFO_LAST_SEEN
-	   Son görüldüğü tarih: %s
+	   Son gÃ¶rÃ¼ldÃ¼ÄŸÃ¼ tarih: %s
 NICK_INFO_LAST_QUIT
-	      Son çıkış mesajı: %s
+	      Son Ã§Ä±kÄ±ÅŸ mesajÄ±: %s
 NICK_INFO_URL
 	                   URL: %s
 NICK_INFO_EMAIL
@@ -781,18 +781,18 @@ NICK_INFO_VHOST2
 NICK_INFO_ICQ
 	                 ICQ #: %d
 NICK_INFO_GREET
-	      Karşılama mesajı: %s
+	      KarÅŸÄ±lama mesajÄ±: %s
 NICK_INFO_OPTIONS
-	            Özellikler: %s
+	            Ã–zellikler: %s
 NICK_INFO_EXPIRE
-	Zaman Aşımı: %s
+	Zaman AÅŸÄ±mÄ±: %s
 # These strings MUST NOT be empty
 NICK_INFO_OPT_KILL
-	Kill koruması
+	Kill korumasÄ±
 NICK_INFO_OPT_SECURE
-	Güvenlik
+	GÃ¼venlik
 NICK_INFO_OPT_PRIVATE
-	Özel
+	Ã–zel
 NICK_INFO_OPT_MSG
 	Message mode
 NICK_INFO_OPT_AUTOOP
@@ -800,15 +800,15 @@ NICK_INFO_OPT_AUTOOP
 NICK_INFO_OPT_NONE
 	YOK
 NICK_INFO_NO_EXPIRE
-	Bu nick zaman aşımına uğramayacak.
+	Bu nick zaman aÅŸÄ±mÄ±na uÄŸramayacak.
 NICK_INFO_FOR_MORE
-	Geniş bilgi için, %R%s INFO %s ALL yazın.
+	GeniÅŸ bilgi iÃ§in, %R%s INFO %s ALL yazÄ±n.
 
 # LIST responses
 NICK_INFO_SUSPENDED
-	Bu rumuz ' %s ' sebebinden dolayı askıya alınmıstır kullanılamaz
+	Bu rumuz ' %s ' sebebinden dolayÄ± askÄ±ya alÄ±nmÄ±stÄ±r kullanÄ±lamaz
 NICK_INFO_SUSPENDED_NO_REASON
-	Bu rumuz  alınmıstır kullanılamaz
+	Bu rumuz  alÄ±nmÄ±stÄ±r kullanÄ±lamaz
 
 # LIST responses
 NICK_LIST_SYNTAX
@@ -816,7 +816,7 @@ NICK_LIST_SYNTAX
 NICK_LIST_SERVADMIN_SYNTAX
 	LIST model [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 NICK_LIST_HEADER
-	%s içeren kayıtların listesi:
+	%s iÃ§eren kayÄ±tlarÄ±n listesi:
 NICK_LIST_RESULTS
 	Liste sonu - %d/%d .
 
@@ -846,86 +846,86 @@ NICK_GLIST_FOOTER
 NICK_GLIST_REPLY
 	   %c%s
 NICK_GLIST_REPLY_ADMIN
-	   %c%s (zaman aşımı %s)
+	   %c%s (zaman aÅŸÄ±mÄ± %s)
 
 # RECOVER responses
 NICK_RECOVER_SYNTAX
-	RECOVER nick [şifre]
+	RECOVER nick [ÅŸifre]
 NICK_NO_RECOVER_SELF
 	Kendizi recover edemezsiniz!
 NICK_RECOVERED
-	Nickiniz serbest bırakıldı.
+	Nickiniz serbest bÄ±rakÄ±ldÄ±.
 	%R%s RELEASE %s komutunu kullanarak %s saniye icinde nickinizi kullanabilirsiniz.
 
 # RELEASE responses
 NICK_RELEASE_SYNTAX
-	RELEASE nick [şifre]
+	RELEASE nick [ÅŸifre]
 NICK_RELEASE_NOT_HELD
 	%s nicki zaten serbest.
 NICK_RELEASED
-	Nickiniz serbest bırakıldı.
+	Nickiniz serbest bÄ±rakÄ±ldÄ±.
 
 # GHOST responses
 NICK_GHOST_SYNTAX
-	GHOST nick [şifre]
+	GHOST nick [ÅŸifre]
 NICK_NO_GHOST_SELF
 	Kendinizi ghost edemezsiniz!
 NICK_GHOST_KILLED
-	Asılı kalan nickiniz kill lendi.
+	AsÄ±lÄ± kalan nickiniz kill lendi.
 
 # GETPASS responses
 NICK_GETPASS_SYNTAX
 	GETPASS nick
 NICK_GETPASS_UNAVAILABLE
-	GETPASS komutu devre dışı çünkü şifreleme(encryption) devrede.
+	GETPASS komutu devre dÄ±ÅŸÄ± Ã§Ã¼nkÃ¼ ÅŸifreleme(encryption) devrede.
 NICK_GETPASS_PASSWORD_IS
-	%s nickinin şifresi %s.
+	%s nickinin ÅŸifresi %s.
 
 # SENDPASS responses
 NICK_GETEMAIL_SYNTAX
-	GETEMAIL kullanıcıadi@emailsunucusu 
+	GETEMAIL kullanÄ±cÄ±adi@emailsunucusu 
 NICK_GETEMAIL_EMAILS_ARE
-	%s Rumuzu %s adresini kullanıyor.
+	%s Rumuzu %s adresini kullanÄ±yor.
 NICK_GETEMAIL_NOT_USED
-	%s icin bir bilgi bulunamadı.
+	%s icin bir bilgi bulunamadÄ±.
 	
 # SENDPASS responses
 NICK_SENDPASS_SYNTAX
 	SENDPASS nick
 NICK_SENDPASS_UNAVAILABLE
-	SENDPASS komutu devre dışı çünkü şifreleme(encryption) devrede.
+	SENDPASS komutu devre dÄ±ÅŸÄ± Ã§Ã¼nkÃ¼ ÅŸifreleme(encryption) devrede.
 NICK_SENDPASS_SUBJECT
-	Nick şifresi (%s)
+	Nick ÅŸifresi (%s)
 NICK_SENDPASS_HEAD
 	Selam,
 NICK_SENDPASS_LINE_1
-	%s nickinizin şifresinin e-mail adresinize yollanmasını istemişsiniz.
+	%s nickinizin ÅŸifresinin e-mail adresinize yollanmasÄ±nÄ± istemiÅŸsiniz.
 NICK_SENDPASS_LINE_2
-	Nickinizin Şifresi %s Güvenlik nedenlerinden dolayı, bu maili aldıktan sonra değiştirseniz iyi olur.
+	Nickinizin Åifresi %s GÃ¼venlik nedenlerinden dolayÄ±, bu maili aldÄ±ktan sonra deÄŸiÅŸtirseniz iyi olur.
 NICK_SENDPASS_LINE_3
-	Eğer bu mailin neden size gönderildiğini bilmiyorsanız, maili ciddiye almayın.
+	EÄŸer bu mailin neden size gÃ¶nderildiÄŸini bilmiyorsanÄ±z, maili ciddiye almayÄ±n.
 NICK_SENDPASS_LINE_4
-	LÜTFEN BU MAİLE CEVAP VERMEYİN!
+	LÃœTFEN BU MAÄ°LE CEVAP VERMEYÄ°N!
 NICK_SENDPASS_LINE_5
-	%s yönetimi.
+	%s yÃ¶netimi.
 NICK_SENDPASS_OK
-	%s nickinin şifresi gönderildi.
+	%s nickinin ÅŸifresi gÃ¶nderildi.
 
 # FORBID responses
 NICK_SUSPEND_SYNTAX
 	SUSPEND nickname reason
 NICK_SUSPEND_SUCCEEDED
-	%s şu anda askıya alındı.
+	%s ÅŸu anda askÄ±ya alÄ±ndÄ±.
 NICK_SUSPEND_FAILED
-	%s rumuzu icin işlem yapılamadı!
+	%s rumuzu icin iÅŸlem yapÄ±lamadÄ±!
 
 # UNSUSPEND responses
 NICK_UNSUSPEND_SYNTAX
 	UNSUSPEND nickname
 NICK_UNSUSPEND_SUCCEEDED
-	%s kullanıma acıldı.
+	%s kullanÄ±ma acÄ±ldÄ±.
 NICK_UNSUSPEND_FAILED
-	%s rumuzu icin işlem yapılamadı!
+	%s rumuzu icin iÅŸlem yapÄ±lamadÄ±!
 
 # FORBID responses
 NICK_FORBID_SYNTAX
@@ -933,9 +933,9 @@ NICK_FORBID_SYNTAX
 NICK_FORBID_SYNTAX_REASON
 	FORBID nick sebep
 NICK_FORBID_SUCCEEDED
-	%s nickinin Kullanımı yasaklandı.
+	%s nickinin KullanÄ±mÄ± yasaklandÄ±.
 NICK_FORBID_FAILED
-	%s nickinin Kullanımı yasaklanamadı!
+	%s nickinin KullanÄ±mÄ± yasaklanamadÄ±!
 
 ###########################################################################
 #
@@ -945,37 +945,37 @@ NICK_FORBID_FAILED
 
 # Access level descriptions
 NICK_REQUESTED
-	Bu rumuz icin zaten bir kayıt istegi bulunuyor, lütfen mail adresinizi kontrol ederek aktivasyon bilgilerini öğreniniz.
+	Bu rumuz icin zaten bir kayÄ±t istegi bulunuyor, lÃ¼tfen mail adresinizi kontrol ederek aktivasyon bilgilerini Ã¶ÄŸreniniz.
 NICK_REG_RESENT
-	Aktivasyon kodunuz %s adresine tekrar gönderildi.
+	Aktivasyon kodunuz %s adresine tekrar gÃ¶nderildi.
 NICK_REG_UNABLE
-	Rumuz kayit edilemiyor, lütfen daha sonra tekrar deneyiniz.
+	Rumuz kayit edilemiyor, lÃ¼tfen daha sonra tekrar deneyiniz.
 NICK_IS_PREREG
-	Bu rumuz e-mail adresinde bulunan aktivasyon işleminin sonucunu beklemektedir.
+	Bu rumuz e-mail adresinde bulunan aktivasyon iÅŸleminin sonucunu beklemektedir.
 NICK_ENTER_REG_CODE
-	Aktivasyon kodu %s adresine yollandı, %R%s confirm <passcode> şeklinde işlemi tamamlayabilirsiniz.
+	Aktivasyon kodu %s adresine yollandÄ±, %R%s confirm <passcode> ÅŸeklinde iÅŸlemi tamamlayabilirsiniz.
 NICK_CONFIRM_NOT_FOUND
-	Kayıt işlemine başlamak icin önce "%R%s register <password> <email>" şeklinde bir kayıt talebinde bulunmalısınız.
+	KayÄ±t iÅŸlemine baÅŸlamak icin Ã¶nce "%R%s register <password> <email>" ÅŸeklinde bir kayÄ±t talebinde bulunmalÄ±sÄ±nÄ±z.
 NICK_CONFIRM_INVALID
-	Yanlış aktivasyon kodu, mail adresinizi kontrol ederek tekrar deneyiniz.
+	YanlÄ±ÅŸ aktivasyon kodu, mail adresinizi kontrol ederek tekrar deneyiniz.
 NICK_REG_MAIL_SUBJECT
-	Rumuz Kayıt islemi (%s)
+	Rumuz KayÄ±t islemi (%s)
 NICK_REG_MAIL_HEAD
 	Merhabalar,
 NICK_REG_MAIL_LINE_1
-	%s Rumuzunu kayıt etmek icin bir istekte bulundunuz.
+	%s Rumuzunu kayÄ±t etmek icin bir istekte bulundunuz.
 NICK_REG_MAIL_LINE_2
-	Irc Sunucusu üzerinde " %R%s confirm %s " komutunu kullanarak kayıt işleminizi tamamlayabilirsiniz.
+	Irc Sunucusu Ã¼zerinde " %R%s confirm %s " komutunu kullanarak kayÄ±t iÅŸleminizi tamamlayabilirsiniz.
 NICK_REG_MAIL_LINE_3
-	Eğer bu postanın neden gönderildiği hakkında bir bilginiz yok ise lütfen postayı silerek adresi engelleyiniz.
+	EÄŸer bu postanÄ±n neden gÃ¶nderildiÄŸi hakkÄ±nda bir bilginiz yok ise lÃ¼tfen postayÄ± silerek adresi engelleyiniz.
 NICK_REG_MAIL_LINE_4
-	LÜTFEN BU POSTAYA CEVAP ATMAYINIZ!
+	LÃœTFEN BU POSTAYA CEVAP ATMAYINIZ!
 NICK_REG_MAIL_LINE_5
-	%s Sunucusu Yöneticisi.
+	%s Sunucusu YÃ¶neticisi.
 NICK_GETPASS_PASSCODE_IS
 	%s rumuzu icin gerekli aktivasyon kodu %s.
 NICK_FORCE_REG
-	%s rumuzu onaylandı.
+	%s rumuzu onaylandÄ±.
 
 ###########################################################################
 #
@@ -985,51 +985,51 @@ NICK_FORCE_REG
 
 # Access level descriptions
 CHAN_LEVEL_AUTOOP
-	Kanala girişte ChanServ tarafından otomatik op (+o)
+	Kanala giriÅŸte ChanServ tarafÄ±ndan otomatik op (+o)
 CHAN_LEVEL_AUTOVOICE
-	Kanala girişte ChanServ tarafından otomatik voice (+v)
+	Kanala giriÅŸte ChanServ tarafÄ±ndan otomatik voice (+v)
 CHAN_LEVEL_AUTOHALFOP
-	Kanala girişte ChanServ tarafından otomatik yarım op (+h)
+	Kanala giriÅŸte ChanServ tarafÄ±ndan otomatik yarÄ±m op (+h)
 CHAN_LEVEL_AUTOPROTECT
-	Kanala girişte ChanServ tarafından otomatik koruma (+a)
+	Kanala giriÅŸte ChanServ tarafÄ±ndan otomatik koruma (+a)
 CHAN_LEVEL_AUTODEOP
-	Kanal içinde op olmasını yasaklar.
+	Kanal iÃ§inde op olmasÄ±nÄ± yasaklar.
 CHAN_LEVEL_NOJOIN
-	RESTRICTED özelliğinin aktif olması halinde kanala giremez.
+	RESTRICTED Ã¶zelliÄŸinin aktif olmasÄ± halinde kanala giremez.
 CHAN_LEVEL_INVITE
 	INVITE komutunu kullanmaya izinlidir.
 CHAN_LEVEL_AKICK
 	AKICK komutunu kullanmaya izinlidir.
 CHAN_LEVEL_SET
-	SET komutunu (FOUNDER/PASSWORD hariç) kullanmaya izinlidir.
+	SET komutunu (FOUNDER/PASSWORD hariÃ§) kullanmaya izinlidir.
 CHAN_LEVEL_CLEAR
 	CLEAR komutunu kullanmaya izinlidir.
 CHAN_LEVEL_UNBAN
 	UNBAN komutunu kullanmaya izinlidir.
 CHAN_LEVEL_OPDEOP
-	OP/DEOP komutlarını kullanmaya izinlidir.
+	OP/DEOP komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_ACCESS_LIST
-	Kanalın Access listesini görüntülemeye izinlidir.
+	KanalÄ±n Access listesini gÃ¶rÃ¼ntÃ¼lemeye izinlidir.
 CHAN_LEVEL_ACCESS_CHANGE
-	Kanalın Access listesinde değişiklik yapmaya izinlidir.
+	KanalÄ±n Access listesinde deÄŸiÅŸiklik yapmaya izinlidir.
 CHAN_LEVEL_MEMO
 	Kanala gelen mesajlari listelemeye/okumaya izinlidir.
 CHAN_LEVEL_ASSIGN
-	Botun assign/unassign komutlarını kullanmaya izinlidir.
+	Botun assign/unassign komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_BADWORDS
 	BADWORDS komutunu kullanmaya izinlidir.
 CHAN_LEVEL_NOKICK
-	Bot tarafından kicklenmemeyi sağlar.
+	Bot tarafÄ±ndan kicklenmemeyi saÄŸlar.
 CHAN_LEVEL_FANTASIA
-	Kanalda fantazi komutlarını kullanmaya izinlidir. 
+	Kanalda fantazi komutlarÄ±nÄ± kullanmaya izinlidir. 
 CHAN_LEVEL_SAY
-	SAY ve ACT komutlarını kullanmaya izinlidir.
+	SAY ve ACT komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_GREET
-	Karşılama mesajı alabilir.
+	KarÅŸÄ±lama mesajÄ± alabilir.
 CHAN_LEVEL_VOICEME
 	Kendini (de)voice etmeye izinlidir.
 CHAN_LEVEL_VOICE
-	VOICE/DEVOICE komutlarını kullanmaya izinlidir.
+	VOICE/DEVOICE komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_GETKEY
 	GETKEY komutunu kullanmaya izinlidir.
 CHAN_LEVEL_OPDEOPME
@@ -1037,17 +1037,17 @@ CHAN_LEVEL_OPDEOPME
 CHAN_LEVEL_HALFOPME
 	Kendini (de)halfop etmeye izinlidir.
 CHAN_LEVEL_HALFOP
-	HALFOP/DEHALFOP komutlarını kullanmaya izinlidir.
+	HALFOP/DEHALFOP komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_PROTECTME
 	Kendini (de)protect etmeye izinlidir.
 CHAN_LEVEL_PROTECT
-	PROTECT/DEPROTECT komutlarını kullanmaya izinlidir.
+	PROTECT/DEPROTECT komutlarÄ±nÄ± kullanmaya izinlidir.
 CHAN_LEVEL_KICKME
 	Kendini atmaya izinlidir.
 CHAN_LEVEL_KICK
 	KICK komutunu kullanmaya izinlidir.
 CHAN_LEVEL_SIGNKICK
-	SIGNKICK LEVEL kullanıldığında işaretli atma yapılmaz.
+	SIGNKICK LEVEL kullanÄ±ldÄ±ÄŸÄ±nda iÅŸaretli atma yapÄ±lmaz.
 CHAN_LEVEL_BANME
 	Kendini banlamaya yetkili
 CHAN_LEVEL_BAN
@@ -1055,252 +1055,252 @@ CHAN_LEVEL_BAN
 CHAN_LEVEL_TOPIC
 	TOPIC komutunu kullanmaya yetkili
 CHAN_LEVEL_INFO
-	INFO komutunu ALL seçenegiyle kullanmaya yetkili
+	INFO komutunu ALL seÃ§enegiyle kullanmaya yetkili
 
 # Automatic responses
 CHAN_IS_REGISTERED
-	Bu kanal %s ile kayıtlıdır.
+	Bu kanal %s ile kayÄ±tlÄ±dÄ±r.
 CHAN_NOT_ALLOWED_OP
-	%s kanalında op olmaya yetkiniz yok.
+	%s kanalÄ±nda op olmaya yetkiniz yok.
 CHAN_MAY_NOT_BE_USED
-	Bu kanal kullanılamaz.
+	Bu kanal kullanÄ±lamaz.
 CHAN_NOT_ALLOWED_TO_JOIN
-	Bu kanalda bulunmanıza müsaade yok.
+	Bu kanalda bulunmanÄ±za mÃ¼saade yok.
 
 # REGISTER responses
 CHAN_X_INVALID
-	%s geçerli bir kanal değil.
+	%s geÃ§erli bir kanal deÄŸil.
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
-	REGISTER kanaladı şifre açıklama
+	REGISTER kanaladÄ± ÅŸifre aÃ§Ä±klama
 CHAN_REGISTER_DISABLED
-	Kanal kaydı geçici olarak devre dışıdır.
+	Kanal kaydÄ± geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 CHAN_REGISTER_NOT_LOCAL
-	Local kanallar kayıt edilemezler.
+	Local kanallar kayÄ±t edilemezler.
 CHAN_MUST_REGISTER_NICK
-	Önce nickinizi kayıt etmeniz gerekiyor.  Nick kayıt hakkında bilgi için %R%s HELP yazınız.
+	Ã–nce nickinizi kayÄ±t etmeniz gerekiyor.  Nick kayÄ±t hakkÄ±nda bilgi iÃ§in %R%s HELP yazÄ±nÄ±z.
 CHAN_MUST_IDENTIFY_NICK
-	Lütfen önce %s ile bu komutu kullanarak nickinizi tanıtın:
-	%R%s IDENTIFY şifreniz
+	LÃ¼tfen Ã¶nce %s ile bu komutu kullanarak nickinizi tanÄ±tÄ±n:
+	%R%s IDENTIFY ÅŸifreniz
 CHAN_MAY_NOT_BE_REGISTERED
-	%s kanalı kayıt edilemez.
+	%s kanalÄ± kayÄ±t edilemez.
 CHAN_ALREADY_REGISTERED
-	%s kanalı zaten kayıtlı!
+	%s kanalÄ± zaten kayÄ±tlÄ±!
 CHAN_MUST_BE_CHANOP
-	Kanal kayıt edebilmeniz için kayıt edilmemiş bir kanala ilk girip op olmanız gerekmektedir.
+	Kanal kayÄ±t edebilmeniz iÃ§in kayÄ±t edilmemiÅŸ bir kanala ilk girip op olmanÄ±z gerekmektedir.
 CHAN_REACHED_CHANNEL_LIMIT
-	%d kanallık limitinizi doldurdunuz.
+	%d kanallÄ±k limitinizi doldurdunuz.
 CHAN_EXCEEDED_CHANNEL_LIMIT
-	%d kanallık limitinizi aştınız.
+	%d kanallÄ±k limitinizi aÅŸtÄ±nÄ±z.
 CHAN_REGISTRATION_FAILED
-	Kanal kaydı başarısız.
+	Kanal kaydÄ± baÅŸarÄ±sÄ±z.
 CHAN_REGISTERED
-	%s kanalı bu nicke kayıt edildi: %s
+	%s kanalÄ± bu nicke kayÄ±t edildi: %s
 CHAN_PASSWORD_IS
-	Kanal şifreniz %s - ilerde kullanacağınız için unutmayınız ve kimseye söylemeyiniz.
+	Kanal ÅŸifreniz %s - ilerde kullanacaÄŸÄ±nÄ±z iÃ§in unutmayÄ±nÄ±z ve kimseye sÃ¶ylemeyiniz.
 CHAN_REGISTER_NONE_CHANNEL
-	Geçersiz bir kanalı kaydetmek istiyorsunuz %s
+	GeÃ§ersiz bir kanalÄ± kaydetmek istiyorsunuz %s
 CHAN_SYMBOL_REQUIRED
-	Kanalı kayıt etmek için # sembolunu kanal isminin başına eklemeniz gereklidir.
+	KanalÄ± kayÄ±t etmek iÃ§in # sembolunu kanal isminin baÅŸÄ±na eklemeniz gereklidir.
 
 
 # IDENTIFY responses
 CHAN_IDENTIFY_SYNTAX
-	IDENTIFY kanaladı şifreniz
+	IDENTIFY kanaladÄ± ÅŸifreniz
 CHAN_IDENTIFY_FAILED
-	Geçersiz şifre.
+	GeÃ§ersiz ÅŸifre.
 CHAN_IDENTIFY_SUCCEEDED
-	Şifre kabul edildi - %s kanalında founder seviyesinde erişim kazandınız.
+	Åifre kabul edildi - %s kanalÄ±nda founder seviyesinde eriÅŸim kazandÄ±nÄ±z.
 
 # LOGOUT responses
 CHAN_LOGOUT_SYNTAX
-	LOGOUT kanaladı nick
+	LOGOUT kanaladÄ± nick
 CHAN_LOGOUT_SERVADMIN_SYNTAX
-	LOGOUT kanaladı [nick]
+	LOGOUT kanaladÄ± [nick]
 CHAN_LOGOUT_SUCCEEDED
-	Kullanıcı %s artık %s kanalı tarafından tanınmıyor.
+	KullanÄ±cÄ± %s artÄ±k %s kanalÄ± tarafÄ±ndan tanÄ±nmÄ±yor.
 CHAN_LOGOUT_ALL_SUCCEEDED
-	Tüm tanımlı kullanıcılar artık %s kanalı tarafından tanınmıyor (kanal sahibi haric).
+	TÃ¼m tanÄ±mlÄ± kullanÄ±cÄ±lar artÄ±k %s kanalÄ± tarafÄ±ndan tanÄ±nmÄ±yor (kanal sahibi haric).
 CHAN_LOGOUT_FOUNDER_FAILED
-	%s Kanalından yetki cıkısı yapamazsınız (kanal sahibi sizsiniz).
+	%s KanalÄ±ndan yetki cÄ±kÄ±sÄ± yapamazsÄ±nÄ±z (kanal sahibi sizsiniz).
 
 # DROP responses
 CHAN_DROP_SYNTAX
-	DROP kanaladı
+	DROP kanaladÄ±
 CHAN_DROP_DISABLED
-	Kanal kaydının silinmesi(DROP) geçici olarak devre dışıdır.
+	Kanal kaydÄ±nÄ±n silinmesi(DROP) geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 CHAN_DROPPED
-	%s kanalının kaydı silinmiştir (dropped).
+	%s kanalÄ±nÄ±n kaydÄ± silinmiÅŸtir (dropped).
 
 # SET responses
 CHAN_SET_SYNTAX
-	SET kanaladı özellik parametre
+	SET kanaladÄ± Ã¶zellik parametre
 CHAN_SET_DISABLED
-	Chanserv'ün SET komutu geçici olarak devre dışıdır.
+	Chanserv'Ã¼n SET komutu geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 CHAN_SET_UNKNOWN_OPTION
-	Varolmayan SET özelliği: %s.
+	Varolmayan SET Ã¶zelliÄŸi: %s.
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
-	%s çok fazla kanala sahip.
+	%s Ã§ok fazla kanala sahip.
 CHAN_FOUNDER_CHANGED
-	%s kanalının founderı %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n founderÄ± %s olarak deÄŸiÅŸtirildi.
 
 # SET SUCCESSOR responses
 CHAN_SUCCESSOR_CHANGED
-	%s için successor %s olarak değiştirildi.
+	%s iÃ§in successor %s olarak deÄŸiÅŸtirildi.
 CHAN_SUCCESSOR_UNSET
-	%s için successor kaldırıldı.
+	%s iÃ§in successor kaldÄ±rÄ±ldÄ±.
 CHAN_SUCCESSOR_IS_FOUNDER
-	%s %s kanalında successor olamaz çünkü zaten o kanalın founderı.
+	%s %s kanalÄ±nda successor olamaz Ã§Ã¼nkÃ¼ zaten o kanalÄ±n founderÄ±.
 
 # SET PASSWORD responses
 CHAN_SET_PASSWORD_FAILED
-	Şifre değişimi başarısız.
+	Åifre deÄŸiÅŸimi baÅŸarÄ±sÄ±z.
 CHAN_PASSWORD_CHANGED
-	%s kanalının şifresi değiştirildi.
+	%s kanalÄ±nÄ±n ÅŸifresi deÄŸiÅŸtirildi.
 CHAN_PASSWORD_CHANGED_TO
-	%s kanalının şifresi %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n ÅŸifresi %s olarak deÄŸiÅŸtirildi.
 
 # SET DESC responses
 CHAN_DESC_CHANGED
-	%s kanalının açıklaması %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n aÃ§Ä±klamasÄ± %s olarak deÄŸiÅŸtirildi.
 
 # SET URL responses
 CHAN_URL_CHANGED
-	%s kanalının URL adresi %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n URL adresi %s olarak deÄŸiÅŸtirildi.
 CHAN_URL_UNSET
-	%s kanalının URL adresi kaldırıldı.
+	%s kanalÄ±nÄ±n URL adresi kaldÄ±rÄ±ldÄ±.
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
-	%s kanalının e-mail adresi %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n e-mail adresi %s olarak deÄŸiÅŸtirildi.
 CHAN_EMAIL_UNSET
-	%s kanalının e-mail adresi kaldırıldı.
+	%s kanalÄ±nÄ±n e-mail adresi kaldÄ±rÄ±ldÄ±.
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
-	%s kanalının giriş mesajı değiştirildi.
+	%s kanalÄ±nÄ±n giriÅŸ mesajÄ± deÄŸiÅŸtirildi.
 CHAN_ENTRY_MSG_UNSET
-	%s kanalının giriş mesajı kaldırıldı.
+	%s kanalÄ±nÄ±n giriÅŸ mesajÄ± kaldÄ±rÄ±ldÄ±.
 	
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
-	%s geçerli bir ban tipi değil.
+	%s geÃ§erli bir ban tipi deÄŸil.
 CHAN_SET_BANTYPE_CHANGED
-	%s kanalının ban tipi #%d olarak değiştirildi.
+	%s kanalÄ±nÄ±n ban tipi #%d olarak deÄŸiÅŸtirildi.
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
-	Varolmayan mod karakteri %c yoksayıldı.
+	Varolmayan mod karakteri %c yoksayÄ±ldÄ±.
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
 	%c modunu kitleyemezsiniz, yoksayildi.
 CHAN_SET_MLOCK_L_REQUIRED
-	+L modunu kullanabilmek için +l modunuda kullanmalisiniz.
+	+L modunu kullanabilmek iÃ§in +l modunuda kullanmalisiniz.
 CHAN_SET_MLOCK_K_REQUIRED
-	+K modunu kullanabilmek için +i modunuda kullanmalisiniz.
+	+K modunu kullanabilmek iÃ§in +i modunuda kullanmalisiniz.
 CHAN_MLOCK_CHANGED
-	%s kanalının mod kilidi %s olarak değiştirildi.
+	%s kanalÄ±nÄ±n mod kilidi %s olarak deÄŸiÅŸtirildi.
 
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
-	SET kanaladı KEEPTOPIC {ON | OFF}
+	SET kanaladÄ± KEEPTOPIC {ON | OFF}
 CHAN_SET_KEEPTOPIC_ON
-	Kanal başlığı saklama %s kanalı için aktif duruma gecti.
+	Kanal baÅŸlÄ±ÄŸÄ± saklama %s kanalÄ± iÃ§in aktif duruma gecti.
 CHAN_SET_KEEPTOPIC_OFF
-	Kanal başlığı saklama %s kanalı için pasif duruma gecti.
+	Kanal baÅŸlÄ±ÄŸÄ± saklama %s kanalÄ± iÃ§in pasif duruma gecti.
 
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
-	SET kanaladı TOPICLOCK {ON | OFF}
+	SET kanaladÄ± TOPICLOCK {ON | OFF}
 CHAN_SET_TOPICLOCK_ON
-	Kanal başlığı kilidi %s kanalı için aktif duruma gecti.
+	Kanal baÅŸlÄ±ÄŸÄ± kilidi %s kanalÄ± iÃ§in aktif duruma gecti.
 CHAN_SET_TOPICLOCK_OFF
-	Kanal başlığı kilidi %s kanalı için pasif duruma gecti.
+	Kanal baÅŸlÄ±ÄŸÄ± kilidi %s kanalÄ± iÃ§in pasif duruma gecti.
 
 # SET PEACE responses
 CHAN_SET_PEACE_SYNTAX
 	SET kanaladi PEACE {ON | OFF}
 CHAN_SET_PEACE_ON
-	Bariş secenegi %s kanalı icin aktif.
+	BariÅŸ secenegi %s kanalÄ± icin aktif.
 CHAN_SET_PEACE_OFF
-	Bariş secenegi %s kanalı icin pasif.
+	BariÅŸ secenegi %s kanalÄ± icin pasif.
 
 # SET PRIVATE responses
 CHAN_SET_PRIVATE_SYNTAX
-	SET kanaladı PRIVATE {ON | OFF}
+	SET kanaladÄ± PRIVATE {ON | OFF}
 CHAN_SET_PRIVATE_ON
-	Özel kanal konumu %s kanalı icin  aktif.
+	Ã–zel kanal konumu %s kanalÄ± icin  aktif.
 CHAN_SET_PRIVATE_OFF
-	Özel kanal konumu %s kanalı icin  pasif.
+	Ã–zel kanal konumu %s kanalÄ± icin  pasif.
 
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
-	SET kanaladı SECUREOPS {ON | OFF}
+	SET kanaladÄ± SECUREOPS {ON | OFF}
 CHAN_SET_SECUREOPS_ON
-	Operator koruması %s kanalı icin  aktif.
+	Operator korumasÄ± %s kanalÄ± icin  aktif.
 CHAN_SET_SECUREOPS_OFF
-	Operator koruması %s kanalı icin  pasif.
+	Operator korumasÄ± %s kanalÄ± icin  pasif.
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
-	SET kanaladı SECUREFOUNDER {ON | OFF}
+	SET kanaladÄ± SECUREFOUNDER {ON | OFF}
 CHAN_SET_SECUREFOUNDER_ON
-	Kanal Sahibi koruması %s kanalı icin  aktif.
+	Kanal Sahibi korumasÄ± %s kanalÄ± icin  aktif.
 CHAN_SET_SECUREFOUNDER_OFF
-	Kanal Sahibi koruması %s kanalı icin  pasif.
+	Kanal Sahibi korumasÄ± %s kanalÄ± icin  pasif.
 
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
-	SET kanaladı RESTRICTED {ON | OFF}
+	SET kanaladÄ± RESTRICTED {ON | OFF}
 CHAN_SET_RESTRICTED_ON
-	Ayrıcalıklı giriş %s kanalı icin  aktif.
+	AyrÄ±calÄ±klÄ± giriÅŸ %s kanalÄ± icin  aktif.
 CHAN_SET_RESTRICTED_OFF
-	Ayrıcalıklı giriş %s kanalı icin  pasif.
+	AyrÄ±calÄ±klÄ± giriÅŸ %s kanalÄ± icin  pasif.
 
 # SET SECURE responses
 CHAN_SET_SECURE_SYNTAX
 	SET kanal SECURE {ON | OFF}
 CHAN_SET_SECURE_ON
-	Yetki seviyesi korumasi %s kanalı icin  aktif.
+	Yetki seviyesi korumasi %s kanalÄ± icin  aktif.
 CHAN_SET_SECURE_OFF
-	Yetki seviyesi korumasi %s kanalı icin  pasif.
+	Yetki seviyesi korumasi %s kanalÄ± icin  pasif.
 
 # SET SIGNKICK responses
 CHAN_SET_SIGNKICK_SYNTAX
-	SET kanaladı SIGNKICK {ON | LEVEL | OFF}
+	SET kanaladÄ± SIGNKICK {ON | LEVEL | OFF}
 CHAN_SET_SIGNKICK_ON
-	%s Kanalında kullanılan atma komutları icin imza gosterimi aktif.
+	%s KanalÄ±nda kullanÄ±lan atma komutlarÄ± icin imza gosterimi aktif.
 CHAN_SET_SIGNKICK_LEVEL
-	%s kanalı icin yetki kullanan kisi gosterimi aktif, fakat
-	kanal icinde ayma komutu uygulanan kişinin yetkisi göz önünde tutulur.
+	%s kanalÄ± icin yetki kullanan kisi gosterimi aktif, fakat
+	kanal icinde ayma komutu uygulanan kiÅŸinin yetkisi gÃ¶z Ã¶nÃ¼nde tutulur.
 CHAN_SET_SIGNKICK_OFF
-	%s Kanalında kullanılan atma komutları icin imza gosterimi pasif.
+	%s KanalÄ±nda kullanÄ±lan atma komutlarÄ± icin imza gosterimi pasif.
 
 # SET OPNOTICE responses
 CHAN_SET_OPNOTICE_SYNTAX
-	SET kanaladı OPNOTICE {ON | OFF}
+	SET kanaladÄ± OPNOTICE {ON | OFF}
 CHAN_SET_OPNOTICE_ON
-	Op-notice  %s kanalı icin ON.
+	Op-notice  %s kanalÄ± icin ON.
 CHAN_SET_OPNOTICE_OFF
-	Op-notice  %s kanalı icin OFF.
+	Op-notice  %s kanalÄ± icin OFF.
 
 # SET XOP responses
 CHAN_SET_XOP_SYNTAX
 	SET kanaladi XOP {ON | OFF}
 CHAN_SET_XOP_ON
-	xOP listesi %s kanalı icin ON.
+	xOP listesi %s kanalÄ± icin ON.
 CHAN_SET_XOP_OFF
-	xOP listesi  %s kanalı icin OFF.
+	xOP listesi  %s kanalÄ± icin OFF.
 
 # SET NOEXPIRE responses
 CHAN_SET_NOEXPIRE_SYNTAX
-	SET kanaladı NOEXPIRE {ON | OFF}
+	SET kanaladÄ± NOEXPIRE {ON | OFF}
 CHAN_SET_NOEXPIRE_ON
-	%s kanalı zaman aşımından çıkarıldı.
+	%s kanalÄ± zaman aÅŸÄ±mÄ±ndan Ã§Ä±karÄ±ldÄ±.
 CHAN_SET_NOEXPIRE_OFF
-	%s kanalı zaman aşımına eklendi.
+	%s kanalÄ± zaman aÅŸÄ±mÄ±na eklendi.
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
@@ -1309,23 +1309,23 @@ CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
 	Bu komutu kullanamazsiniz. Yerine ACCESS komutunu kullanin.
-	Daha fazla bilgi için %R%s HELP ACCESS yazin.
+	Daha fazla bilgi iÃ§in %R%s HELP ACCESS yazin.
 CHAN_XOP_NOT_AVAILABLE
-	xOP sistemi geçerli degil.
+	xOP sistemi geÃ§erli degil.
 
 # AOP messages
 CHAN_AOP_SYNTAX
 	AOP kanal {ADD|DEL|LIST|CLEAR} [nick | liste-no]
 CHAN_AOP_DISABLED
-	Kanal AOP listesi degisiklikleri geçici olarak devre disidir.
+	Kanal AOP listesi degisiklikleri geÃ§ici olarak devre disidir.
 CHAN_AOP_NICKS_ONLY
 	Kanal AOP listeleri sadece kayitli nicklerden olusabilir.
 CHAN_AOP_ADDED
 	%s %s kanalinin AOP listesine eklenmistir.
 CHAN_AOP_MOVED
-	%s nicki %s kanalı AOP listesine taşındı.
+	%s nicki %s kanalÄ± AOP listesine taÅŸÄ±ndÄ±.
 CHAN_AOP_NO_SUCH_ENTRY
-	(#%d) %s kanalinin AOP listesinde böyle bir kayit bulunamadi.
+	(#%d) %s kanalinin AOP listesinde bÃ¶yle bir kayit bulunamadi.
 CHAN_AOP_NOT_FOUND
 	%s %s kanali AOP listesinde bulunamadi.
 CHAN_AOP_NO_MATCH
@@ -1348,13 +1348,13 @@ CHAN_AOP_CLEAR
 CHAN_HOP_SYNTAX
 	HOP kanaladi {ADD|DEL|LIST|CLEAR} [nick | liste-no]
 CHAN_HOP_DISABLED
-	Kanal HOP listesi degisiklikleri geçici olarak devre disidir.
+	Kanal HOP listesi degisiklikleri geÃ§ici olarak devre disidir.
 CHAN_HOP_NICKS_ONLY
 	Kanal HOP listeleri sadece kayitli nicklerden olusabilir.
 CHAN_HOP_ADDED
 	%s %s kanali HOP listesine eklendi.
 CHAN_HOP_MOVED
-	%s nicki %s kanalı HOP listesine taşındı.
+	%s nicki %s kanalÄ± HOP listesine taÅŸÄ±ndÄ±.
 CHAN_HOP_NO_SUCH_ENTRY
 	(#%d) %s kanali HOP listesinde uyusan kayit bulunamadi.
 CHAN_HOP_NOT_FOUND
@@ -1379,13 +1379,13 @@ CHAN_HOP_CLEAR
 CHAN_SOP_SYNTAX
 	SOP kanaladi {ADD|DEL|LIST|CLEAR} [nick | liste-no]
 CHAN_SOP_DISABLED
-	Kanal SOP listesi degisikligi geçici olarak devre disidir.
+	Kanal SOP listesi degisikligi geÃ§ici olarak devre disidir.
 CHAN_SOP_NICKS_ONLY
 	Kanal SOP listesi sadece kayitli nicklerden olusabilir.
 CHAN_SOP_ADDED
 	%s %s kanali SOP listesine eklendi.
 CHAN_SOP_MOVED
-	%s nicki %s kanalı SOP listesine taşındı.
+	%s nicki %s kanalÄ± SOP listesine taÅŸÄ±ndÄ±.
 CHAN_SOP_NO_SUCH_ENTRY
 	(#%d) %s kanali SOP listesinde uyusan kayit bulunamadi.
 CHAN_SOP_NOT_FOUND
@@ -1410,13 +1410,13 @@ CHAN_SOP_CLEAR
 CHAN_VOP_SYNTAX
 	VOP kanaladi {ADD|DEL|LIST|CLEAR} [nick | liste-no]
 CHAN_VOP_DISABLED
-	Kanal VOP listesi degisikligi geçici olarak devre disidir.
+	Kanal VOP listesi degisikligi geÃ§ici olarak devre disidir.
 CHAN_VOP_NICKS_ONLY
 	Kanal VOP listeleri sadece kayitli nicklerden olusabilir.
 CHAN_VOP_ADDED
 	%s %s kanali VOP listesine eklendi.
 CHAN_VOP_MOVED
-	%s nicki %s kanalı VOP listesine taşındı.
+	%s nicki %s kanalÄ± VOP listesine taÅŸÄ±ndÄ±.
 CHAN_VOP_NO_SUCH_ENTRY
 	(#%d) %s kanali VOP listesinde uyusan kayit bulunamadi.
 CHAN_VOP_NOT_FOUND
@@ -1439,48 +1439,48 @@ CHAN_VOP_CLEAR
 
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
-	ACCESS kanaladı {ADD|DEL|LIST|CLEAR} [nick [seviye] | kayıt-listesi]
+	ACCESS kanaladÄ± {ADD|DEL|LIST|CLEAR} [nick [seviye] | kayÄ±t-listesi]
 CHAN_ACCESS_XOP
 	Bu komutu kullanamazsiniz. 
 	Yerine AOP, SOP veya VOP komutlarini kullanin.
-	Daha fazla bilgi için %R%s HELP komut yazin.
+	Daha fazla bilgi iÃ§in %R%s HELP komut yazin.
 CHAN_ACCESS_XOP_HOP
-	Bu komutu kullanamazsınız. 
-	AOP, SOP, HOP ve VOP komutlarını deneyiniz.
-	%R%s HELP command şeklinde daha ayrıntılı bilgi elde edebilirsiniz.
+	Bu komutu kullanamazsÄ±nÄ±z. 
+	AOP, SOP, HOP ve VOP komutlarÄ±nÄ± deneyiniz.
+	%R%s HELP command ÅŸeklinde daha ayrÄ±ntÄ±lÄ± bilgi elde edebilirsiniz.
 CHAN_ACCESS_DISABLED
-	Kanal access listesinin değiştirilmesi geçici olarak devre dışıdır.
+	Kanal access listesinin deÄŸiÅŸtirilmesi geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 CHAN_ACCESS_LEVEL_NONZERO
-	Access seviyesi sıfırdan farklı bir sayı olmalıdır.
+	Access seviyesi sÄ±fÄ±rdan farklÄ± bir sayÄ± olmalÄ±dÄ±r.
 CHAN_ACCESS_LEVEL_RANGE
-	Access seviyesi %d ve %d arasında olmalıdır.
+	Access seviyesi %d ve %d arasÄ±nda olmalÄ±dÄ±r.
 CHAN_ACCESS_NICKS_ONLY
-	Kanal access listesi sadece kayıtlı kullanıcıları içermelidir.
+	Kanal access listesi sadece kayÄ±tlÄ± kullanÄ±cÄ±larÄ± iÃ§ermelidir.
 CHAN_ACCESS_REACHED_LIMIT
-	Kanalda sadece %d tane access kaydı olabilir.
+	Kanalda sadece %d tane access kaydÄ± olabilir.
 CHAN_ACCESS_LEVEL_UNCHANGED
-	%s nickinin access seviyesi %s kanalında zaten %d.
+	%s nickinin access seviyesi %s kanalÄ±nda zaten %d.
 CHAN_ACCESS_LEVEL_CHANGED
-	%s nickinin access seviyesi %s kanalında %d olarak değiştirildi.
+	%s nickinin access seviyesi %s kanalÄ±nda %d olarak deÄŸiÅŸtirildi.
 CHAN_ACCESS_ADDED
 	%s nicki %s kanalinin access listesine %d seviyeden eklendi.
 CHAN_ACCESS_NO_SUCH_ENTRY
-	(#%d) şeklinde bir kayıt %s kanalının access listesinde bulunamadı.
+	(#%d) ÅŸeklinde bir kayÄ±t %s kanalÄ±nÄ±n access listesinde bulunamadÄ±.
 CHAN_ACCESS_NOT_FOUND
-	%s %s kanalının access listesinde bulunamadı.
+	%s %s kanalÄ±nÄ±n access listesinde bulunamadÄ±.
 CHAN_ACCESS_NO_MATCH
-	Uyuşan kayıt %s kanalının access listesinde yok.
+	UyuÅŸan kayÄ±t %s kanalÄ±nÄ±n access listesinde yok.
 CHAN_ACCESS_DELETED
-	%s %s kanalının access listesinden silindi.
+	%s %s kanalÄ±nÄ±n access listesinden silindi.
 CHAN_ACCESS_DELETED_ONE
-	%s kanalının access listesinden 1 kayıt silindi.
+	%s kanalÄ±nÄ±n access listesinden 1 kayÄ±t silindi.
 CHAN_ACCESS_DELETED_SEVERAL
 	Deleted %d entries from %s access list.
 CHAN_ACCESS_LIST_EMPTY
-	%s kanalının access listesi boş.
+	%s kanalÄ±nÄ±n access listesi boÅŸ.
 CHAN_ACCESS_LIST_HEADER
-	%s kanalı için access listesi:
-	  Sıra   Seviye  Nick
+	%s kanalÄ± iÃ§in access listesi:
+	  SÄ±ra   Seviye  Nick
 CHAN_ACCESS_LIST_FOOTER
 	access listenin sonu.
 CHAN_ACCESS_LIST_XOP_FORMAT
@@ -1492,35 +1492,35 @@ CHAN_ACCESS_CLEAR
 
 # AKICK responses
 CHAN_AKICK_SYNTAX
-	AKICK kanaladı {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-veya-usermask] [sebep]
+	AKICK kanaladÄ± {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-veya-usermask] [sebep]
 CHAN_AKICK_DISABLED
-	Kanal Akick listesinin değiştirilmesi geçici olarak devre dışıdır.
+	Kanal Akick listesinin deÄŸiÅŸtirilmesi geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 CHAN_AKICK_ALREADY_EXISTS
-	%s nicki %s kanalının akick listesinde zaten var.
+	%s nicki %s kanalÄ±nÄ±n akick listesinde zaten var.
 CHAN_AKICK_REACHED_LIMIT
-	Bir kanalın akick listesinde en fazla %d kişi olabilir.
+	Bir kanalÄ±n akick listesinde en fazla %d kiÅŸi olabilir.
 CHAN_AKICK_ADDED
-	%s nicki %s kanalının akick listesine eklendi.
+	%s nicki %s kanalÄ±nÄ±n akick listesine eklendi.
 CHAN_AKICK_NO_SUCH_ENTRY
-	(#%d) şeklinde bir kayıt %s kanalının akick listesinde bulunamadı.
+	(#%d) ÅŸeklinde bir kayÄ±t %s kanalÄ±nÄ±n akick listesinde bulunamadÄ±.
 CHAN_AKICK_NOT_FOUND
-	%s %s kanalının akick listesinde bulunamadı.
+	%s %s kanalÄ±nÄ±n akick listesinde bulunamadÄ±.
 CHAN_AKICK_NO_MATCH
-	Uyuşan kayıt %s kanalının akick listesinde bulunamadı.
+	UyuÅŸan kayÄ±t %s kanalÄ±nÄ±n akick listesinde bulunamadÄ±.
 CHAN_AKICK_STUCK
-	%s artik %s kanalinda sürekli aktif.
+	%s artik %s kanalinda sÃ¼rekli aktif.
 CHAN_AKICK_UNSTUCK
-	%s artik %s kanalinda sürekli aktif degil.
+	%s artik %s kanalinda sÃ¼rekli aktif degil.
 CHAN_AKICK_DELETED
-	%s %s kanalının akick listesinden silindi.
+	%s %s kanalÄ±nÄ±n akick listesinden silindi.
 CHAN_AKICK_DELETED_ONE
-	%s kanalının akick listesinden 1 kayıt silindi.
+	%s kanalÄ±nÄ±n akick listesinden 1 kayÄ±t silindi.
 CHAN_AKICK_DELETED_SEVERAL
 	Deleted %d entries from %s autokick list.
 CHAN_AKICK_LIST_EMPTY
-	%s kanalının akick listesi boş.
+	%s kanalÄ±nÄ±n akick listesi boÅŸ.
 CHAN_AKICK_LIST_HEADER
-	%s kanalının akick listesi:
+	%s kanalÄ±nÄ±n akick listesi:
 CHAN_AKICK_LIST_FORMAT
 	  %3d %s (%s)
 CHAN_AKICK_VIEW_FORMAT
@@ -1530,41 +1530,41 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 	%3d %s (kalici) (by %s on %s)
 	    %s
 CHAN_AKICK_ENFORCE_DONE
-	 %s için AKICK uygulaması tamam; %d kullanıcı için geçerli.
+	 %s iÃ§in AKICK uygulamasÄ± tamam; %d kullanÄ±cÄ± iÃ§in geÃ§erli.
 CHAN_AKICK_CLEAR
 	Kanal %s akick listesi temizlendi.
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
-	LEVELS kanaladı {SET | DIS[ABLE] | LIST | RESET} [madde [seviye]]
+	LEVELS kanaladÄ± {SET | DIS[ABLE] | LIST | RESET} [madde [seviye]]
 CHAN_LEVELS_XOP
 	Bu modda bu komut kullanilmaz.
 CHAN_LEVELS_RANGE
-	Level %d ile %d arasında olmalıdır.
+	Level %d ile %d arasÄ±nda olmalÄ±dÄ±r.
 CHAN_LEVELS_CHANGED
-	%s için level %s kanalında %d olarak değiştirildi.
+	%s iÃ§in level %s kanalÄ±nda %d olarak deÄŸiÅŸtirildi.
 CHAN_LEVELS_UNKNOWN
-	Varolmayan ayar: %s. Geçerli ayar listesi için %R%s HELP LEVELS DESC yazınız.
+	Varolmayan ayar: %s. GeÃ§erli ayar listesi iÃ§in %R%s HELP LEVELS DESC yazÄ±nÄ±z.
 CHAN_LEVELS_DISABLED
-	%s %s kanalında iptal edildi.
+	%s %s kanalÄ±nda iptal edildi.
 CHAN_LEVELS_LIST_HEADER
-	%s kanalı için access level ayarları:
+	%s kanalÄ± iÃ§in access level ayarlarÄ±:
 CHAN_LEVELS_LIST_DISABLED
-	    %-*s  (kapatıldı)
+	    %-*s  (kapatÄ±ldÄ±)
 CHAN_LEVELS_LIST_FOUNDER
 	    %-*s  (sadece founder)
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 CHAN_LEVELS_RESET
-	%s için access levelleri varsayılanlarla değiştirildi.
+	%s iÃ§in access levelleri varsayÄ±lanlarla deÄŸiÅŸtirildi.
 
 # Status Messages
 CHAN_STATUS_SYNTAX
 	Durum HATASI
 CHAN_STATUS_NOT_REGGED
-	Durum HATASI %s kanal kayıtlı degil
+	Durum HATASI %s kanal kayÄ±tlÄ± degil
 CHAN_STATUS_FORBIDDEN
-	Durum HATASI %s kanalı yasaklı
+	Durum HATASI %s kanalÄ± yasaklÄ±
 CHAN_STATUS_NOTONLINE
 	Durum HATASI Nic %s sunucuda degil
 CHAN_STATUS_INFO
@@ -1572,25 +1572,25 @@ CHAN_STATUS_INFO
 
 # INFO responses
 CHAN_INFO_SYNTAX
-	INFO kanaladı [ALL]
+	INFO kanaladÄ± [ALL]
 CHAN_INFO_HEADER
-	%s kanalı için bilgi:
+	%s kanalÄ± iÃ§in bilgi:
 CHAN_INFO_FOUNDER
 	        Kanal Sahibi: %s (%s)
 CHAN_INFO_NO_FOUNDER
 	        Kanal Sahibi: %s
 CHAN_INFO_SUCCESSOR
-	      Kanal vârisi: %s (%s)
+	      Kanal vÃ¢risi: %s (%s)
 CHAN_INFO_NO_SUCCESSOR
-	      Kanal vârisi: %s
+	      Kanal vÃ¢risi: %s
 CHAN_INFO_DESCRIPTION
-	       Açıklama: %s
+	       AÃ§Ä±klama: %s
 CHAN_INFO_ENTRYMSG
-	   Giriş mesajı: %s
+	   GiriÅŸ mesajÄ±: %s
 CHAN_INFO_TIME_REGGED
-	   Kayıt tarihi: %s
+	   KayÄ±t tarihi: %s
 CHAN_INFO_LAST_USED
-	 Son kullanılış: %s
+	 Son kullanÄ±lÄ±ÅŸ: %s
 CHAN_INFO_LAST_TOPIC
 	      Son topic: %s
 CHAN_INFO_TOPIC_SET_BY
@@ -1602,25 +1602,25 @@ CHAN_INFO_EMAIL
 CHAN_INFO_BANTYPE
 	       Ban tipi: %d
 CHAN_INFO_OPTIONS
-	     Özellikler: %s
+	     Ã–zellikler: %s
 CHAN_INFO_OPT_KEEPTOPIC
-	Topic hatırlama
+	Topic hatÄ±rlama
 CHAN_INFO_OPT_OPNOTICE
 	OP Notu
 CHAN_INFO_OPT_PEACE
 	Baris
 CHAN_INFO_OPT_PRIVATE
-	Özel
+	Ã–zel
 CHAN_INFO_OPT_RESTRICTED
 	Kisitli Erisim.
 CHAN_INFO_OPT_SECURE
-	Güvenlik
+	GÃ¼venlik
 CHAN_INFO_OPT_SECUREOPS
 	Secure Ops
 CHAN_INFO_OPT_SECUREFOUNDER
 	Secure Founder
 CHAN_INFO_OPT_SIGNKICK
-	İşaretli atma
+	Ä°ÅŸaretli atma
 CHAN_INFO_OPT_TOPICLOCK
 	Topic kilidi
 CHAN_INFO_OPT_XOP
@@ -1630,9 +1630,9 @@ CHAN_INFO_OPT_NONE
 CHAN_INFO_MODE_LOCK
 	     Mod kilidi: %s
 CHAN_INFO_EXPIRE
-	      Zaman Aşımı: %s
+	      Zaman AÅŸÄ±mÄ±: %s
 CHAN_INFO_NO_EXPIRE
-	Bu kanal için zaman aşımı söz konusu değil.
+	Bu kanal iÃ§in zaman aÅŸÄ±mÄ± sÃ¶z konusu deÄŸil.
 
 # LIST responses
 CHAN_LIST_SYNTAX
@@ -1640,21 +1640,21 @@ CHAN_LIST_SYNTAX
 CHAN_LIST_SERVADMIN_SYNTAX
 	LIST model [FORBIDDEN] [NOEXPIRE]
 CHAN_LIST_HEADER
-	%s ile uyuşan kayıt listesi:
+	%s ile uyuÅŸan kayÄ±t listesi:
 CHAN_LIST_FORMAT
 	    %-20s  %s
 CHAN_LIST_END
-	Liste sonu - %d/%d uyan kayıt bulundu.
+	Liste sonu - %d/%d uyan kayÄ±t bulundu.
 
 # CLIST responses
 CHAN_INVITE_SYNTAX
-	INVITE kanaladı
+	INVITE kanaladÄ±
 
 # UNBAN responses
 CHAN_UNBAN_SYNTAX
-	UNBAN kanaladı
+	UNBAN kanaladÄ±
 CHAN_UNBANNED
-	%s kanalındaki banınız kaldırıldı.
+	%s kanalÄ±ndaki banÄ±nÄ±z kaldÄ±rÄ±ldÄ±.
 
 # TOPIC responses
 CHAN_TOPIC_SYNTAX
@@ -1662,75 +1662,75 @@ CHAN_TOPIC_SYNTAX
 
 # CLEAR responses
 CHAN_CLEAR_SYNTAX
-	CLEAR kanaladı neyi
+	CLEAR kanaladÄ± neyi
 CHAN_CLEARED_BANS
-	%s kanalındaki tüm banlar kaldırıldı.
+	%s kanalÄ±ndaki tÃ¼m banlar kaldÄ±rÄ±ldÄ±.
 CHAN_CLEARED_EXCEPTS
-	%s kanalındaki tüm ayrıcalıklar kaldırıldı.
+	%s kanalÄ±ndaki tÃ¼m ayrÄ±calÄ±klar kaldÄ±rÄ±ldÄ±.
 CHAN_CLEARED_MODES
-	%s kanalındaki tüm modlar resetlendi.
+	%s kanalÄ±ndaki tÃ¼m modlar resetlendi.
 CHAN_CLEARED_OPS
-	Mod +o %s kanalında temizlendi.
+	Mod +o %s kanalÄ±nda temizlendi.
 CHAN_CLEARED_HOPS
-	Mod +h  %s kanalında temizlendi.
+	Mod +h  %s kanalÄ±nda temizlendi.
 CHAN_CLEARED_VOICES
-	Mod +v %s kanalında temizlendi.
+	Mod +v %s kanalÄ±nda temizlendi.
 CHAN_CLEARED_USERS
-	%s kanalındaki tüm kullanıcılar atıldı.
+	%s kanalÄ±ndaki tÃ¼m kullanÄ±cÄ±lar atÄ±ldÄ±.
 CHAN_CLEARED_INVITES
-	%s kanalıdaki tüm davetler kaldırıldı.
+	%s kanalÄ±daki tÃ¼m davetler kaldÄ±rÄ±ldÄ±.
 
 # GETPASS responses
 CHAN_GETPASS_SYNTAX
-	GETPASS kanaladı
+	GETPASS kanaladÄ±
 CHAN_GETPASS_UNAVAILABLE
-	GETPASS komutu devre dışı çünkü şifreleme(encryption) devrede.
+	GETPASS komutu devre dÄ±ÅŸÄ± Ã§Ã¼nkÃ¼ ÅŸifreleme(encryption) devrede.
 CHAN_GETPASS_PASSWORD_IS
-	%s kanalının şifresi %s.
+	%s kanalÄ±nÄ±n ÅŸifresi %s.
 	
 # SENDPASS responses
 CHAN_GETKEY_SYNTAX
 	GETKEY channel
 CHAN_GETKEY_NOKEY
-	%s kanalı sifreli degil.
+	%s kanalÄ± sifreli degil.
 CHAN_GETKEY_KEY
 	KEY %s %s
 
 # SENDPASS responses
 CHAN_SENDPASS_SYNTAX
-	SENDPASS kanaladı
+	SENDPASS kanaladÄ±
 CHAN_SENDPASS_UNAVAILABLE
-	SENDPASS komutu devre dışı çünkü şifreleme(encryption) devrede.
+	SENDPASS komutu devre dÄ±ÅŸÄ± Ã§Ã¼nkÃ¼ ÅŸifreleme(encryption) devrede.
 CHAN_SENDPASS_SUBJECT
-	Kanal şifresi (%s)
+	Kanal ÅŸifresi (%s)
 CHAN_SENDPASS_HEAD
 	Selam,
 CHAN_SENDPASS_LINE_1
-	%s kanalınızın şifresinin e-mail adresinize gönderilmesini istemişsiniz.
+	%s kanalÄ±nÄ±zÄ±n ÅŸifresinin e-mail adresinize gÃ¶nderilmesini istemiÅŸsiniz.
 CHAN_SENDPASS_LINE_2
-	Kanal Şifresi %s. Güvenlik nedenlerinden dolayı, şifrenizi bu maili aldıktan sonra değiştirirseniz iyi olur.
+	Kanal Åifresi %s. GÃ¼venlik nedenlerinden dolayÄ±, ÅŸifrenizi bu maili aldÄ±ktan sonra deÄŸiÅŸtirirseniz iyi olur.
 CHAN_SENDPASS_LINE_3
-	Eğer bu mailin niye size gönderildiğini bilmiyorsanız, lütfen ciddiye almayın.
+	EÄŸer bu mailin niye size gÃ¶nderildiÄŸini bilmiyorsanÄ±z, lÃ¼tfen ciddiye almayÄ±n.
 CHAN_SENDPASS_LINE_4
-	LÜTFEN BU MAİLE CEVAP VERMEYİN!
+	LÃœTFEN BU MAÄ°LE CEVAP VERMEYÄ°N!
 CHAN_SENDPASS_LINE_5
-	%s yönetimi.
+	%s yÃ¶netimi.
 CHAN_SENDPASS_OK
-	%s kanalının şifresi gönderildi.
+	%s kanalÄ±nÄ±n ÅŸifresi gÃ¶nderildi.
 
 # FORBID responses
 CHAN_FORBID_SYNTAX
-	FORBID kanaladı [sebep]
+	FORBID kanaladÄ± [sebep]
 CHAN_FORBID_SYNTAX_REASON
-	FORBID kanaladı sebep
+	FORBID kanaladÄ± sebep
 CHAN_FORBID_SUCCEEDED
-	%s kanalının Kullanımı yasaklandı.
+	%s kanalÄ±nÄ±n KullanÄ±mÄ± yasaklandÄ±.
 CHAN_FORBID_FAILED
-	%s kanalının Kullanımı yasaklanamadı!
+	%s kanalÄ±nÄ±n KullanÄ±mÄ± yasaklanamadÄ±!
 
 # Misc responses
 CHAN_FORBID_REASON
-	Bu kanal yasaklanmış durumda.
+	Bu kanal yasaklanmÄ±ÅŸ durumda.
 
 # SUSPEND responses
 CHAN_SUSPEND_SYNTAX
@@ -1738,25 +1738,25 @@ CHAN_SUSPEND_SYNTAX
 CHAN_SUSPEND_SYNTAX_REASON
 	SUSPEND channel reason
 CHAN_SUSPEND_SUCCEEDED
-	%s bu kanal kullanıma kapatıldı
+	%s bu kanal kullanÄ±ma kapatÄ±ldÄ±
 CHAN_SUSPEND_FAILED
-	%s kanalı için islem yapılamadi!
+	%s kanalÄ± iÃ§in islem yapÄ±lamadi!
 CHAN_SUSPEND_REASON
-	Kanal kullanıma kapatılmış.
+	Kanal kullanÄ±ma kapatÄ±lmÄ±ÅŸ.
 
 # UNSUSPEND responses
 CHAN_UNSUSPEND_SYNTAX
 	UNSUSPEND channel
 CHAN_UNSUSPEND_ERROR
-	' # ' işareti kanal isminde bulunmuyor.
+	' # ' iÅŸareti kanal isminde bulunmuyor.
 CHAN_UNSUSPEND_SUCCEEDED
-	%s kanalı kullanıma acildi.
+	%s kanalÄ± kullanÄ±ma acildi.
 CHAN_UNSUSPEND_FAILED
-	%s kanalı kullanıma acilamadi!
+	%s kanalÄ± kullanÄ±ma acilamadi!
 
 # Misc responses
 CHAN_EXCEPTED
-	%s %s kanalında ayrıcalıklı konumda bulunuyor ve bu konum kaldırılmadan kişiyi kanaldan atamazsınız.
+	%s %s kanalÄ±nda ayrÄ±calÄ±klÄ± konumda bulunuyor ve bu konum kaldÄ±rÄ±lmadan kiÅŸiyi kanaldan atamazsÄ±nÄ±z.
 
 ###########################################################################
 #
@@ -1766,57 +1766,57 @@ CHAN_EXCEPTED
 
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
-	1 yeni mesajınız var.
+	1 yeni mesajÄ±nÄ±z var.
 MEMO_HAVE_NEW_MEMOS
-	%d yeni mesajınız var.
+	%d yeni mesajÄ±nÄ±z var.
 MEMO_TYPE_READ_LAST
-	Okumak için %R%s READ LAST yazın.
+	Okumak iÃ§in %R%s READ LAST yazÄ±n.
 MEMO_TYPE_READ_NUM
-	Okumak için %R%s READ %d yazın.
+	Okumak iÃ§in %R%s READ %d yazÄ±n.
 MEMO_TYPE_LIST_NEW
-	Listelemek için %R%s LIST NEW yazın.
+	Listelemek iÃ§in %R%s LIST NEW yazÄ±n.
 MEMO_AT_LIMIT
-	Dikkat: Maksimum mesaj sayınıza ulaştınız (%d).  Şimdiki mesajlarınızdan bir kaçını silmezseniz yeni mesaj alamayacaksınız.
+	Dikkat: Maksimum mesaj sayÄ±nÄ±za ulaÅŸtÄ±nÄ±z (%d).  Åimdiki mesajlarÄ±nÄ±zdan bir kaÃ§Ä±nÄ± silmezseniz yeni mesaj alamayacaksÄ±nÄ±z.
 MEMO_OVER_LIMIT
-	Dikkat: Maksimum mesaj sayınızı aştınız (%d).  Şimdiki mesajlarınızdan bir kaçını silmezseniz yeni mesaj alamayacaksınız.
+	Dikkat: Maksimum mesaj sayÄ±nÄ±zÄ± aÅŸtÄ±nÄ±z (%d).  Åimdiki mesajlarÄ±nÄ±zdan bir kaÃ§Ä±nÄ± silmezseniz yeni mesaj alamayacaksÄ±nÄ±z.
 MEMO_X_MANY_NOTICE
-	%d adet %s kanalına ait mesaj bulunuyor.
+	%d adet %s kanalÄ±na ait mesaj bulunuyor.
 MEMO_X_ONE_NOTICE
-	%d adet %s kanalına ait mesaj bulunuyor.
+	%d adet %s kanalÄ±na ait mesaj bulunuyor.
 MEMO_NEW_X_MEMO_ARRIVED
-	%s kanalında okunmamış bir mesaj bulunuyor.
-	%R%s READ %s %d şeklinde mesajı okuyabilirsiniz.
+	%s kanalÄ±nda okunmamÄ±ÅŸ bir mesaj bulunuyor.
+	%R%s READ %s %d ÅŸeklinde mesajÄ± okuyabilirsiniz.
 MEMO_NEW_MEMO_ARRIVED
-	%s nickinden yeni mesajınız var.
-	Okumak için %R%s READ %d yazın.
+	%s nickinden yeni mesajÄ±nÄ±z var.
+	Okumak iÃ§in %R%s READ %d yazÄ±n.
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
-	Hiç mesajınız yok.
+	HiÃ§ mesajÄ±nÄ±z yok.
 MEMO_X_HAS_NO_MEMOS
-	%s nickinin hiç mesajı yok.
+	%s nickinin hiÃ§ mesajÄ± yok.
 MEMO_DOES_NOT_EXIST
-	%d numaralı mesaj bulunamadı!
+	%d numaralÄ± mesaj bulunamadÄ±!
 MEMO_LIST_NOT_FOUND
-	Uyuşan mesaj bulunamadı.
+	UyuÅŸan mesaj bulunamadÄ±.
 
 # SEND responses
 MEMO_SEND_SYNTAX
-	SEND {nick | kanaladı} mesaj
+	SEND {nick | kanaladÄ±} mesaj
 MEMO_SEND_DISABLED
-	Mesaj yollama geçici olarak devre dışıdır.
+	Mesaj yollama geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 MEMO_SEND_PLEASE_WAIT
-	Lütfen %d saniye SEND komutunu tekrar kullanmak için bekleyin.
+	LÃ¼tfen %d saniye SEND komutunu tekrar kullanmak iÃ§in bekleyin.
 MEMO_X_GETS_NO_MEMOS
 	%s nicki mesaj alamaz.
 MEMO_X_HAS_TOO_MANY_MEMOS
-	%s nickinin limiti dolduğundan daha fazla mesaj alamaz.
+	%s nickinin limiti dolduÄŸundan daha fazla mesaj alamaz.
 MEMO_SENT
-	%s nickine mesajınız gönderildi.
+	%s nickine mesajÄ±nÄ±z gÃ¶nderildi.
 	
 # CANCEL responses
 MEMO_MASS_SENT
-	Mesaj tüm kayıtlı kullanıcılara iletildi.
+	Mesaj tÃ¼m kayÄ±tlÄ± kullanÄ±cÄ±lara iletildi.
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
@@ -1824,181 +1824,181 @@ MEMO_STAFF_SYNTAX
 	
 # CANCEL responses
 MEMO_CANCEL_SYNTAX
-	CANCEL {nick | kanaladı}
+	CANCEL {nick | kanaladÄ±}
 MEMO_CANCEL_DISABLED
-	Mesaj iptal etme geçici olarak devre dışıdır.
+	Mesaj iptal etme geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 MEMO_CANCEL_NONE
-	İptal edilecek mesaj yoktu.
+	Ä°ptal edilecek mesaj yoktu.
 MEMO_CANCELLED
-	%s nickine gönderilen son mesaj iptal edildi.
+	%s nickine gÃ¶nderilen son mesaj iptal edildi.
 
 # LIST responses
 MEMO_LIST_SYNTAX
-	LIST [kanaladı] [liste | NEW]
+	LIST [kanaladÄ±] [liste | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
-	Hiç yeni mesajınız yok.
+	HiÃ§ yeni mesajÄ±nÄ±z yok.
 MEMO_X_HAS_NO_NEW_MEMOS
-	%s nickinin hiç yeni mesajı yok.
+	%s nickinin hiÃ§ yeni mesajÄ± yok.
 MEMO_LIST_MEMOS
-	%s nicki için mesajlar.  Okumak için: %R%s READ num yazın.
+	%s nicki iÃ§in mesajlar.  Okumak iÃ§in: %R%s READ num yazÄ±n.
 MEMO_LIST_NEW_MEMOS
-	%s nicki için yeni mesajlar.  Okumak için: %R%s READ num yazın.
+	%s nicki iÃ§in yeni mesajlar.  Okumak iÃ§in: %R%s READ num yazÄ±n.
 MEMO_LIST_CHAN_MEMOS
-	%s kanali için mesajlar.  Okumak için: %R%s READ %s num yazın.
+	%s kanali iÃ§in mesajlar.  Okumak iÃ§in: %R%s READ %s num yazÄ±n.
 MEMO_LIST_CHAN_NEW_MEMOS
-	%s kanali için yeni mesajlar.  Okumak için: %R%s READ %s num yazın.
+	%s kanali iÃ§in yeni mesajlar.  Okumak iÃ§in: %R%s READ %s num yazÄ±n.
 MEMO_LIST_HEADER
-	 Num  Gönderen          Tarih/Zaman
+	 Num  GÃ¶nderen          Tarih/Zaman
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
 # READ responses
 MEMO_READ_SYNTAX
-	READ [kanaladı] {liste | LAST | NEW}
+	READ [kanaladÄ±] {liste | LAST | NEW}
 MEMO_HEADER
-	%d nolu mesaj %s nickinden (%s).  Silmek için: %R%s DEL %d yazın.
+	%d nolu mesaj %s nickinden (%s).  Silmek iÃ§in: %R%s DEL %d yazÄ±n.
 MEMO_CHAN_HEADER
-	%d nolu mesaj %s nickinden (%s).  Silmek için: %R%s DEL %s %d yazın.
+	%d nolu mesaj %s nickinden (%s).  Silmek iÃ§in: %R%s DEL %s %d yazÄ±n.
 MEMO_TEXT
 	%s
 
 # DEL responses
 MEMO_DEL_SYNTAX
-	DEL [kanaladı] {num | liste | ALL}
+	DEL [kanaladÄ±] {num | liste | ALL}
 MEMO_DELETED_NONE
-	Hiç mesaj silinmedi.
+	HiÃ§ mesaj silinmedi.
 MEMO_DELETED_ONE
 	%d nolu mesaj silindi.
 MEMO_DELETED_SEVERAL
-	%s mesajları silindi.
+	%s mesajlarÄ± silindi.
 MEMO_DELETED_ALL
-	Tüm mesajlarınız silindi.
+	TÃ¼m mesajlarÄ±nÄ±z silindi.
 
 # SET responses
 MEMO_CHAN_DELETED_ALL
-	%s kanalına ait tüm mesajlar silindi.
+	%s kanalÄ±na ait tÃ¼m mesajlar silindi.
 
 # SET responses
 MEMO_SET_SYNTAX
-	SET özellik parametre
+	SET Ã¶zellik parametre
 MEMO_SET_DISABLED
-	MemoServ'ün SET komutu geçici olarak devre dışıdır.
+	MemoServ'Ã¼n SET komutu geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 MEMO_SET_UNKNOWN_OPTION
-	Varolmayan SET özelliği: %s.
+	Varolmayan SET Ã¶zelliÄŸi: %s.
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-	%s sizi yeni mesajlar için bağlandığınızda veya mesajlar size gönderildiği anda uyaracak.
+	%s sizi yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda veya mesajlar size gÃ¶nderildiÄŸi anda uyaracak.
 MEMO_SET_NOTIFY_LOGON
-	%s sizi yeni mesajlar için bağlandığınızda veya AWAY modundan dönüşte uyaracak.
+	%s sizi yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda veya AWAY modundan dÃ¶nÃ¼ÅŸte uyaracak.
 MEMO_SET_NOTIFY_NEW
-	%s sizi yeni mesajlar için size gönderildiği anda uyaracak.
+	%s sizi yeni mesajlar iÃ§in size gÃ¶nderildiÄŸi anda uyaracak.
 MEMO_SET_NOTIFY_OFF
-	%s sizi yeni mesajlar için uyarmayacak.
+	%s sizi yeni mesajlar iÃ§in uyarmayacak.
 
 # SET LIMIT responses
 MEMO_SET_NOTIFY_MAIL
-	Yeni mesajlar hakkında mail adresiniz aracılıgı ile bilgilendirileceksiniz.
+	Yeni mesajlar hakkÄ±nda mail adresiniz aracÄ±lÄ±gÄ± ile bilgilendirileceksiniz.
 MEMO_SET_NOTIFY_NOMAIL
-	Mail yolu ile bilgilendirme kapatıldı.
+	Mail yolu ile bilgilendirme kapatÄ±ldÄ±.
 MEMO_SET_NOTIFY_INVALIDMAIL
 	Rumuzunuza ait gecerli bir mail adresi bulunmuyor.
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
-	SET LIMIT [kanaladı] limit
+	SET LIMIT [kanaladÄ±] limit
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
-	SET LIMIT [kullanıcı | kanaladı] {limit | NONE} [HARD]
+	SET LIMIT [kullanÄ±cÄ± | kanaladÄ±] {limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	Mesaj limitinizi belirlemeye izinli değilsiniz.
+	Mesaj limitinizi belirlemeye izinli deÄŸilsiniz.
 MEMO_SET_LIMIT_FORBIDDEN
-	%s nickinin mesaj limiti değiştirelemez.
+	%s nickinin mesaj limiti deÄŸiÅŸtirelemez.
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	Mesaj limitinizi %d sayısından daha fazla yapamazsınız.
+	Mesaj limitinizi %d sayÄ±sÄ±ndan daha fazla yapamazsÄ±nÄ±z.
 MEMO_SET_LIMIT_TOO_HIGH
-	%s nickinin mesaj limitini %d sayısından daha fazla yapamazsınız.
+	%s nickinin mesaj limitini %d sayÄ±sÄ±ndan daha fazla yapamazsÄ±nÄ±z.
 MEMO_SET_LIMIT_OVERFLOW
-	Mesaj limiti çok fazla; limit %d olarak değiştiriliyor.
+	Mesaj limiti Ã§ok fazla; limit %d olarak deÄŸiÅŸtiriliyor.
 MEMO_SET_YOUR_LIMIT
-	Mesaj limitiniz %d olarak ayarlandı.
+	Mesaj limitiniz %d olarak ayarlandÄ±.
 MEMO_SET_YOUR_LIMIT_ZERO
-	Limitiniz sıfır olduğundan artık mesaj alamayacaksınız.
+	Limitiniz sÄ±fÄ±r olduÄŸundan artÄ±k mesaj alamayacaksÄ±nÄ±z.
 MEMO_UNSET_YOUR_LIMIT
-	Mesaj limitiniz kapatıldı.
+	Mesaj limitiniz kapatÄ±ldÄ±.
 MEMO_SET_LIMIT
-	%s nickinin mesaj limiti %d olarak ayarlandı.
+	%s nickinin mesaj limiti %d olarak ayarlandÄ±.
 MEMO_SET_LIMIT_ZERO
-	%s nickinin mesaj limiti 0 olarak ayarlandı.
+	%s nickinin mesaj limiti 0 olarak ayarlandÄ±.
 MEMO_UNSET_LIMIT
-	%s nickinin mesaj limiti kapatıldı.
+	%s nickinin mesaj limiti kapatÄ±ldÄ±.
 
 # INFO responses
 MEMO_INFO_SYNTAX
-	INFO [kanaladı]
+	INFO [kanaladÄ±]
 MEMO_INFO_SERVADMIN_SYNTAX
-	INFO [nick | kanaladı]
+	INFO [nick | kanaladÄ±]
 MEMO_INFO_NO_MEMOS
-	Şu an hiç mesajınız yok.
+	Åu an hiÃ§ mesajÄ±nÄ±z yok.
 MEMO_INFO_MEMO
-	Şu an 1 mesajınız var.
+	Åu an 1 mesajÄ±nÄ±z var.
 MEMO_INFO_MEMO_UNREAD
-	Şu an 1 mesajınız var, ve henüz okunmadı.
+	Åu an 1 mesajÄ±nÄ±z var, ve henÃ¼z okunmadÄ±.
 MEMO_INFO_MEMOS
-	Şu an %d mesajınız var.
+	Åu an %d mesajÄ±nÄ±z var.
 MEMO_INFO_MEMOS_ONE_UNREAD
-	Şu an %d mesajınız var, 1 tanesi okunmamış.
+	Åu an %d mesajÄ±nÄ±z var, 1 tanesi okunmamÄ±ÅŸ.
 MEMO_INFO_MEMOS_SOME_UNREAD
-	Şu an %d mesajınız var, %d tanesi okunmamış.
+	Åu an %d mesajÄ±nÄ±z var, %d tanesi okunmamÄ±ÅŸ.
 MEMO_INFO_MEMOS_ALL_UNREAD
-	Şu an %d mesajınız var; hiçbiri okunmamış.
+	Åu an %d mesajÄ±nÄ±z var; hiÃ§biri okunmamÄ±ÅŸ.
 MEMO_INFO_LIMIT
 	Mesaj limitiniz %d.
 MEMO_INFO_HARD_LIMIT
-	Mesaj limitiniz %d, ve değiştirilemez.
+	Mesaj limitiniz %d, ve deÄŸiÅŸtirilemez.
 MEMO_INFO_LIMIT_ZERO
-	Mesaj limitiniz 0; hiç mesaj alamayacaksınız.
+	Mesaj limitiniz 0; hiÃ§ mesaj alamayacaksÄ±nÄ±z.
 MEMO_INFO_HARD_LIMIT_ZERO
-	Mesaj limitiniz 0; hiç yeni mesaj alamayacaksınız.  Bu limiti değiştiremezsiniz.
+	Mesaj limitiniz 0; hiÃ§ yeni mesaj alamayacaksÄ±nÄ±z.  Bu limiti deÄŸiÅŸtiremezsiniz.
 MEMO_INFO_NO_LIMIT
-	Saklayabileceğiniz mesaj sayısında limit yok.
+	SaklayabileceÄŸiniz mesaj sayÄ±sÄ±nda limit yok.
 MEMO_INFO_NOTIFY_OFF
-	Yeni mesajlar için uyarılmayacaksınız.
+	Yeni mesajlar iÃ§in uyarÄ±lmayacaksÄ±nÄ±z.
 MEMO_INFO_NOTIFY_ON
-	Yeni mesajlar için bağlandığınızda ve size ulaştığında uyarılacaksınız.
+	Yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda ve size ulaÅŸtÄ±ÄŸÄ±nda uyarÄ±lacaksÄ±nÄ±z.
 MEMO_INFO_NOTIFY_RECEIVE
-	Yeni mesajlar için ulaştıkları anda uyarılacaksınız.
+	Yeni mesajlar iÃ§in ulaÅŸtÄ±klarÄ± anda uyarÄ±lacaksÄ±nÄ±z.
 MEMO_INFO_NOTIFY_SIGNON
-	Yeni mesajlar için bağlandığınızda uyarılacaksınız.
+	Yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda uyarÄ±lacaksÄ±nÄ±z.
 MEMO_INFO_X_NO_MEMOS
-	%s nickinin şu an hiç mesajı yok.
+	%s nickinin ÅŸu an hiÃ§ mesajÄ± yok.
 MEMO_INFO_X_MEMO
-	%s nickinin şu an 1 mesajı var.
+	%s nickinin ÅŸu an 1 mesajÄ± var.
 MEMO_INFO_X_MEMO_UNREAD
-	%s nickinin şu an 1 mesajı var, ve daha okunmamış.
+	%s nickinin ÅŸu an 1 mesajÄ± var, ve daha okunmamÄ±ÅŸ.
 MEMO_INFO_X_MEMOS
-	%s nickinin şu an %d mesajı var.
+	%s nickinin ÅŸu an %d mesajÄ± var.
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-	%s nickinin şu an %d mesajı var, 1 tanesi okunmamış.
+	%s nickinin ÅŸu an %d mesajÄ± var, 1 tanesi okunmamÄ±ÅŸ.
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-	%s nickinin şu an %d mesajı var, %d tanesi okunmamış.
+	%s nickinin ÅŸu an %d mesajÄ± var, %d tanesi okunmamÄ±ÅŸ.
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-	%s nickinin şu an %d mesajı var; hiçbiri okunmamış.
+	%s nickinin ÅŸu an %d mesajÄ± var; hiÃ§biri okunmamÄ±ÅŸ.
 MEMO_INFO_X_LIMIT
 	%s nickinin mesaj limiti %d.
 MEMO_INFO_X_HARD_LIMIT
-	%s nickinin mesaj limiti %d, ve değiştirilemez.
+	%s nickinin mesaj limiti %d, ve deÄŸiÅŸtirilemez.
 MEMO_INFO_X_NO_LIMIT
 	%s nickinin mesaj limiti yok.
 MEMO_INFO_X_NOTIFY_OFF
-	%s yeni mesajlar için uyarılmayacak.
+	%s yeni mesajlar iÃ§in uyarÄ±lmayacak.
 MEMO_INFO_X_NOTIFY_ON
-	%s yeni mesajlar için bağlandığında ve mesajlar ulaştığı anda uyarılacak.
+	%s yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nda ve mesajlar ulaÅŸtÄ±ÄŸÄ± anda uyarÄ±lacak.
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s yeni mesajlar ulaştığı anda uyarılacak.
+	%s yeni mesajlar ulaÅŸtÄ±ÄŸÄ± anda uyarÄ±lacak.
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s yeni mesajlar için bağlandığında uyarılacak.
+	%s yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nda uyarÄ±lacak.
 	
 ###########################################################################
 #
@@ -2008,11 +2008,11 @@ MEMO_INFO_X_NOTIFY_SIGNON
 	
 # Standard responses
 MEMO_MAIL_SUBJECT
-	Yeni CevrimDışı Mesaj Bildirimi
+	Yeni CevrimDÄ±ÅŸÄ± Mesaj Bildirimi
 MEMO_MAIL_TEXT1
-	Nerhabalar sayın %s ,
+	Nerhabalar sayÄ±n %s ,
 MEMO_MAIL_TEXT2
-	Bu mail yeni gönderilen Cevrimdısı mesajları bilgilendirmek amaci ile gonderilmis bir e-postadır. Mesajı yollayan %s. Mesaj numaranız %d.
+	Bu mail yeni gÃ¶nderilen CevrimdÄ±sÄ± mesajlarÄ± bilgilendirmek amaci ile gonderilmis bir e-postadÄ±r. MesajÄ± yollayan %s. Mesaj numaranÄ±z %d.
 MEMO_MAIL_TEXT3
 	Mesaj icerigi:
 
@@ -2024,7 +2024,7 @@ MEMO_MAIL_TEXT3
 	
 # Standard responses
 MEMO_RSEND_PLEASE_WAIT
-	RSEND komutunu kullanmadan önce %d saniye bekleyiniz sonra tekrar deneyiniz.
+	RSEND komutunu kullanmadan Ã¶nce %d saniye bekleyiniz sonra tekrar deneyiniz.
 MEMO_RSEND_DISABLED
 	Uzgunuz RSEND bu sunucuda aktif degil.
 MEMO_RSEND_SYNTAX
@@ -2034,8 +2034,8 @@ MEMO_RSEND_NICK_MEMO_TEXT
 MEMO_RSEND_CHAN_MEMO_TEXT
 	[auto-memo] %s na gondermis oldugunuz mesaj okundu.
 MEMO_RSEND_USER_NOTIFICATION
-	%s rumuzuna göndermis oldugu mesajın okudugunu bildiren bir bildirim
-	yollanacaktır.
+	%s rumuzuna gÃ¶ndermis oldugu mesajÄ±n okudugunu bildiren bir bildirim
+	yollanacaktÄ±r.
 
 ###########################################################################
 #
@@ -2047,11 +2047,11 @@ MEMO_RSEND_USER_NOTIFICATION
 MEMO_CHECK_SYNTAX
 	CHECK nickname
 MEMO_CHECK_NOT_READ
-	%s rumuzuna son yollanan mesaj (yollayan %s) okunmamış.
+	%s rumuzuna son yollanan mesaj (yollayan %s) okunmamÄ±ÅŸ.
 MEMO_CHECK_READ
 	%s rumuzuna son yollanan mesaj (yollayan %s) okunmus durumda.
 MEMO_CHECK_NO_MEMO
-	%s rumuzunun sizin tarafınızdan yollanmıs bir mesajı bulunmuyor.
+	%s rumuzunun sizin tarafÄ±nÄ±zdan yollanmÄ±s bir mesajÄ± bulunmuyor.
 
 ###########################################################################
 #
@@ -2061,7 +2061,7 @@ MEMO_CHECK_NO_MEMO
 	
 # Standard responses
 MEMO_NO_RSEND_SELF
-	Kendinize yolladıgınız mesajların durumunu kontrol edemezsiniz.
+	Kendinize yolladÄ±gÄ±nÄ±z mesajlarÄ±n durumunu kontrol edemezsiniz.
 
 ###########################################################################
 #
@@ -2071,66 +2071,66 @@ MEMO_NO_RSEND_SELF
 	
 # Standard responses
 BOT_DOES_NOT_EXIST
-	Bot %s mevcut değil.
+	Bot %s mevcut deÄŸil.
 BOT_NOT_ASSIGNED
-	Bu komutu kullanmadan önce kanala bir bot sokmalısınız.
-	Daha fazla bilgi için %R%S HELP ASSIGN yazın.
+	Bu komutu kullanmadan Ã¶nce kanala bir bot sokmalÄ±sÄ±nÄ±z.
+	Daha fazla bilgi iÃ§in %R%S HELP ASSIGN yazÄ±n.
 BOT_NOT_ON_CHANNEL
-	Bot %s kanalında değil.
+	Bot %s kanalÄ±nda deÄŸil.
 	
 # Kick reasons (must be a single line)
 BOT_REASON_BADWORD
-	%s kelimesinin bu kanalda kullanılması yasaktır!
+	%s kelimesinin bu kanalda kullanÄ±lmasÄ± yasaktÄ±r!
 BOT_REASON_BADWORD_GENTLE
-	Konuşmalarına dikkat et!
+	KonuÅŸmalarÄ±na dikkat et!
 BOT_REASON_BOLD
-	Bu kanalda kalın yazı kullanılması yasaktır!
+	Bu kanalda kalÄ±n yazÄ± kullanÄ±lmasÄ± yasaktÄ±r!
 BOT_REASON_CAPS
-	Lütfen büyük harf kullanmayın!
+	LÃ¼tfen bÃ¼yÃ¼k harf kullanmayÄ±n!
 BOT_REASON_COLOR
-	Lütfen bu kanalda renkli yazı kullanmayın!
+	LÃ¼tfen bu kanalda renkli yazÄ± kullanmayÄ±n!
 BOT_REASON_FLOOD
 	Flood yapma!
 BOT_REASON_REPEAT
 	Kendini tekrar etme!
 BOT_REASON_REVERSE
-	Lütfen bu kanalda Ctrl+R ile yazılmış yazı kullanmayın!
+	LÃ¼tfen bu kanalda Ctrl+R ile yazÄ±lmÄ±ÅŸ yazÄ± kullanmayÄ±n!
 BOT_REASON_UNDERLINE
-	Lütfen bu kanalda altı çizili yazı kullanmayın!
+	LÃ¼tfen bu kanalda altÄ± Ã§izili yazÄ± kullanmayÄ±n!
 
 # !seen replies
 BOT_SEEN_BOT
 	Beni buldun, %s!
 BOT_SEEN_YOU
-	Kendinimi arıyorsun, %s?
+	Kendinimi arÄ±yorsun, %s?
 BOT_SEEN_ON_CHANNEL
-	%s şu anda kanalda!
+	%s ÅŸu anda kanalda!
 BOT_SEEN_ON_CHANNEL_AS
-	%s şu anda kanalda (%s olarak) ! 
+	%s ÅŸu anda kanalda (%s olarak) ! 
 BOT_SEEN_ON
-	%s %s önce buradaydı.
+	%s %s Ã¶nce buradaydÄ±.
 BOT_SEEN_NEVER
-	%s diye birini bu kanalda hiç görmedim.
+	%s diye birini bu kanalda hiÃ§ gÃ¶rmedim.
 BOT_SEEN_UNKNOWN
-	%s şahsının kim olduğunu bilmiyorum.
+	%s ÅŸahsÄ±nÄ±n kim olduÄŸunu bilmiyorum.
 
 # BOT responses
 BOT_BOT_SYNTAX
-	BOT ADD nick user host gerçekismi
-	BOT CHANGE eskinick yeninick [user [host [gerçekismi]]]
+	BOT ADD nick user host gerÃ§ekismi
+	BOT CHANGE eskinick yeninick [user [host [gerÃ§ekismi]]]
 	BOT DEL nick
 BOT_BOT_ALREADY_EXISTS
 	%s nickli bot zaten var.
 BOT_BOT_CREATION_FAILED
-	Bot yaratma başarısız.
+	Bot yaratma baÅŸarÄ±sÄ±z.
 BOT_BOT_READONLY
-	Botta değişiklik yapma geçici olarak devre dışı.
+	Botta deÄŸiÅŸiklik yapma geÃ§ici olarak devre dÄ±ÅŸÄ±.
 BOT_BOT_ADDED
 	%s!%s@%s (%s) bot listesine eklendi.
 BOT_BOT_ANY_CHANGES
-	Eski bilgiler şimdikilerle aynı.
+	Eski bilgiler ÅŸimdikilerle aynÄ±.
 BOT_BOT_CHANGED
-	%s botu %s!%s@%s (%s) olarak değiştirildi.
+	%s botu %s!%s@%s (%s) olarak deÄŸiÅŸtirildi.
 BOT_BOT_DELETED
 	%s botu silindi.
 	
@@ -2142,72 +2142,72 @@ BOT_BOTLIST_PRIVATE_HEADER
 BOT_BOTLIST_FOOTER
 	%d bot mevcut.
 BOT_BOTLIST_EMPTY
-	Şu an mevcut bot yok.
-	Server adminine bir tane yaratmasını söyleyin!
+	Åu an mevcut bot yok.
+	Server adminine bir tane yaratmasÄ±nÄ± sÃ¶yleyin!
 	
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
-	ASSIGN kanaladı nick
+	ASSIGN kanaladÄ± nick
 BOT_ASSIGN_READONLY
-	Kanala bot sokma geçici olarak devre dışı.
+	Kanala bot sokma geÃ§ici olarak devre dÄ±ÅŸÄ±.
 BOT_ASSIGN_ALREADY
-	%s botu zaten %s kanalında bulunuyor.
+	%s botu zaten %s kanalÄ±nda bulunuyor.
 BOT_ASSIGN_ASSIGNED
-	%s botu %s kanalına sokuldu.
+	%s botu %s kanalÄ±na sokuldu.
 	
 # UNASSIGN responses
 BOT_UNASSIGN_SYNTAX
-	UNASSIGN kanaladı
+	UNASSIGN kanaladÄ±
 BOT_UNASSIGN_UNASSIGNED
-	%s kanalından bot çıkarıldı.
+	%s kanalÄ±ndan bot Ã§Ä±karÄ±ldÄ±.
 	
 # INFO responses
 BOT_INFO_SYNTAX
-	INFO {kanaladı | nick}
+	INFO {kanaladÄ± | nick}
 BOT_INFO_NOT_FOUND
-	%s geçerli bir bot yada kanal değil.
+	%s geÃ§erli bir bot yada kanal deÄŸil.
 BOT_INFO_BOT_HEADER
 	%s botunun bilgileri:
 BOT_INFO_BOT_MASK
 	               Mask : %s@%s
 BOT_INFO_BOT_REALNAME
-	        Gerçek ismi : %s
+	        GerÃ§ek ismi : %s
 BOT_INFO_BOT_CREATED
-	          Yaratılış : %s
+	          YaratÄ±lÄ±ÅŸ : %s
 BOT_INFO_BOT_USAGE
-	Kullanılan kanallar : %d kanalda
+	KullanÄ±lan kanallar : %d kanalda
 BOT_INFO_BOT_OPTIONS
 	    Ayarlar : %s
 BOT_INFO_OPT_PRIVATE
-	Özel
+	Ã–zel
 BOT_INFO_CHAN_HEADER
-	%s kanalının bilgileri:
+	%s kanalÄ±nÄ±n bilgileri:
 BOT_INFO_CHAN_BOT
 	           Botun nicki : %s
 BOT_INFO_CHAN_BOT_NONE
-	           Botun nicki : şu an yok.
+	           Botun nicki : ÅŸu an yok.
 BOT_INFO_CHAN_KICK_BADWORDS
-	          Küfürde atma : %s
+	          KÃ¼fÃ¼rde atma : %s
 BOT_INFO_CHAN_KICK_BADWORDS_BAN
-	          Küfürde atma : %s (%d tanede ban)
+	          KÃ¼fÃ¼rde atma : %s (%d tanede ban)
 BOT_INFO_CHAN_KICK_BOLDS
-	     Kalın yazıda atma : %s
+	     KalÄ±n yazÄ±da atma : %s
 BOT_INFO_CHAN_KICK_BOLDS_BAN
-	     Kalın yazıda atma : %s (%d tanede ban)
+	     KalÄ±n yazÄ±da atma : %s (%d tanede ban)
 BOT_INFO_CHAN_KICK_CAPS_ON
-	     Büyük yazıda atma : %s (minimum %d/%d%%)
+	     BÃ¼yÃ¼k yazÄ±da atma : %s (minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_BAN
-	     Büyük yazıda atma : %s (%d tanede ban; minimum %d/%d%%)
+	     BÃ¼yÃ¼k yazÄ±da atma : %s (%d tanede ban; minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_OFF
-	     Büyük yazıda atma : %s
+	     BÃ¼yÃ¼k yazÄ±da atma : %s
 BOT_INFO_CHAN_KICK_COLORS
-	    Renkli yazıda atma : %s
+	    Renkli yazÄ±da atma : %s
 BOT_INFO_CHAN_KICK_COLORS_BAN
-	    Renkli yazıda atma : %s (%d tanede ban)
+	    Renkli yazÄ±da atma : %s (%d tanede ban)
 BOT_INFO_CHAN_KICK_FLOOD_ON
-	          Floodda atma : %s (%d sıra %ds)
+	          Floodda atma : %s (%d sÄ±ra %ds)
 BOT_INFO_CHAN_KICK_FLOOD_BAN
-	          Floodda atma : %s (%d tanede ban; %d sıra %ds)
+	          Floodda atma : %s (%d tanede ban; %d sÄ±ra %ds)
 BOT_INFO_CHAN_KICK_FLOOD_OFF
 	          Floodda atma : %s
 BOT_INFO_CHAN_KICK_REPEAT_ON
@@ -2221,208 +2221,208 @@ BOT_INFO_CHAN_KICK_REVERSES
 BOT_INFO_CHAN_KICK_REVERSES_BAN
 	        Ctrl+R de atma : %s (%d tanede ban)
 BOT_INFO_CHAN_KICK_UNDERLINES
-	Altıçizili yazıda atma : %s
+	AltÄ±Ã§izili yazÄ±da atma : %s
 BOT_INFO_CHAN_KICK_UNDERLINES_BAN
-	Altıçizili yazıda atma : %s (%d tanede ban)
+	AltÄ±Ã§izili yazÄ±da atma : %s (%d tanede ban)
 BOT_INFO_ACTIVE
 	Aktif
 BOT_INFO_INACTIVE
-	Kapalı
+	KapalÄ±
 BOT_INFO_CHAN_OPTIONS
-	         Özellikler : %s
+	         Ã–zellikler : %s
 BOT_INFO_OPT_DONTKICKOPS
-	Opları koruma
+	OplarÄ± koruma
 BOT_INFO_OPT_DONTKICKVOICES
-	Voiceları koruma
+	VoicelarÄ± koruma
 BOT_INFO_OPT_FANTASY
 	Fantazi
 BOT_INFO_OPT_GREET
-	Karşılama
+	KarÅŸÄ±lama
 BOT_INFO_OPT_NOBOT
 	Bot yok
 BOT_INFO_OPT_SYMBIOSIS
-	Gerçek bot
+	GerÃ§ek bot
 BOT_INFO_OPT_NONE
 	YOK
 	
 # SET responses
 BOT_SET_SYNTAX
-	SET kanaladı özellik ayarlar
+	SET kanaladÄ± Ã¶zellik ayarlar
 BOT_SET_DISABLED
-	Bot özellik ayarı geçici olarak devre dışı.
+	Bot Ã¶zellik ayarÄ± geÃ§ici olarak devre dÄ±ÅŸÄ±.
 BOT_SET_UNKNOWN
-	Varolmayan özellik %s.
-	Daha fazla bilgi için %R%S HELP SET yazın.
+	Varolmayan Ã¶zellik %s.
+	Daha fazla bilgi iÃ§in %R%S HELP SET yazÄ±n.
 	
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
-	SET kanaladı DONTKICKOPS {ON|OFF}
+	SET kanaladÄ± DONTKICKOPS {ON|OFF}
 BOT_SET_DONTKICKOPS_ON
-	Bot %s kanalında opları atmayacak .
+	Bot %s kanalÄ±nda oplarÄ± atmayacak .
 BOT_SET_DONTKICKOPS_OFF
-	Bot %s kanalında oplarıda atacak.
+	Bot %s kanalÄ±nda oplarÄ±da atacak.
 	
 # SET DONTKICKVOICES messages
 BOT_SET_DONTKICKVOICES_SYNTAX
-	SET kanaladı DONTKICKVOICES {ON|OFF}
+	SET kanaladÄ± DONTKICKVOICES {ON|OFF}
 BOT_SET_DONTKICKVOICES_ON
-	Bot %s kanalında voiceları atmayacak.
+	Bot %s kanalÄ±nda voicelarÄ± atmayacak.
 BOT_SET_DONTKICKVOICES_OFF
-	Bot %s kanalında voicelarıda atacak.
+	Bot %s kanalÄ±nda voicelarÄ±da atacak.
 
 # SET FANTASY messages
 BOT_SET_FANTASY_SYNTAX
-	SET kanaladı FANTASY {ON|OFF}
+	SET kanaladÄ± FANTASY {ON|OFF}
 BOT_SET_FANTASY_ON
-	Fantazi modu %s kanalında AKTİF.
+	Fantazi modu %s kanalÄ±nda AKTÄ°F.
 BOT_SET_FANTASY_OFF
-	Fantazi modu %s kanalında KAPALI.
+	Fantazi modu %s kanalÄ±nda KAPALI.
 	
 # SET GREET messages
 BOT_SET_GREET_SYNTAX
-	SET kanaladı GREET {ON|OFF}
+	SET kanaladÄ± GREET {ON|OFF}
 BOT_SET_GREET_ON
-	Karşılama modu %s kanalında AKTİF.
+	KarÅŸÄ±lama modu %s kanalÄ±nda AKTÄ°F.
 BOT_SET_GREET_OFF
-	Karşılama modu %s kanalında KAPALI.
+	KarÅŸÄ±lama modu %s kanalÄ±nda KAPALI.
 
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
-	SET kanaladı NOBOT {ON|OFF}
+	SET kanaladÄ± NOBOT {ON|OFF}
 BOT_SET_NOBOT_ON
-	Bot yok modu %s kanalı için AKTİF.
+	Bot yok modu %s kanalÄ± iÃ§in AKTÄ°F.
 BOT_SET_NOBOT_OFF
-	Bot yok modu %s kanalı için KAPALI.
+	Bot yok modu %s kanalÄ± iÃ§in KAPALI.
 
 # SET PRIVATE
 BOT_SET_PRIVATE_SYNTAX
 	SET kanaladi PRIVATE {ON|OFF}
 BOT_SET_PRIVATE_ON
-	%s botunun özel seçenegi artik AKTIF.
+	%s botunun Ã¶zel seÃ§enegi artik AKTIF.
 BOT_SET_PRIVATE_OFF
-	%s botunun özel seçenegi artik KAPALI.
+	%s botunun Ã¶zel seÃ§enegi artik KAPALI.
 	
 # SET SYMBIOSIS
 BOT_SET_SYMBIOSIS_SYNTAX
-	SET kanaladı SYMBIOSIS {ON|OFF}
+	SET kanaladÄ± SYMBIOSIS {ON|OFF}
 BOT_SET_SYMBIOSIS_ON
-	Gerçek bot modu %s kanalında AKTİF.
+	GerÃ§ek bot modu %s kanalÄ±nda AKTÄ°F.
 BOT_SET_SYMBIOSIS_OFF
-	Gerçek bot modu %s kanalında KAPALI.
+	GerÃ§ek bot modu %s kanalÄ±nda KAPALI.
 	
 # KICK responses
 BOT_KICK_SYNTAX
-	KICK kanaladı özellik {ON|OFF} [ayarlar]
+	KICK kanaladÄ± Ã¶zellik {ON|OFF} [ayarlar]
 BOT_KICK_DISABLED
-	Atma ayarları geçici olarak devre dışı.
+	Atma ayarlarÄ± geÃ§ici olarak devre dÄ±ÅŸÄ±.
 BOT_KICK_UNKNOWN
-	Varolmayan özellik %s.
-	Daha fazla bilgi için %R%S HELP KICK yazın.
+	Varolmayan Ã¶zellik %s.
+	Daha fazla bilgi iÃ§in %R%S HELP KICK yazÄ±n.
 BOT_KICK_BAD_TTB
-	%s değeri kullanılamaz.
+	%s deÄŸeri kullanÄ±lamaz.
 BOT_KICK_BADWORDS_ON
-	Bot şimdi küfürlerde atacak. BADWORDS komutunu kullanarak
-	listeye küfür ekleyip silebilirsiniz.
+	Bot ÅŸimdi kÃ¼fÃ¼rlerde atacak. BADWORDS komutunu kullanarak
+	listeye kÃ¼fÃ¼r ekleyip silebilirsiniz.
 BOT_KICK_BADWORDS_ON_BAN
-	Bot şimdi küfürlerde atacak, ve %d atma sonrasında 
-	aynı kullanıcıyı banlayacak. BADWORDS komutunu
-	kullanarak küfür ekleyip çıkarabilirsiniz.
+	Bot ÅŸimdi kÃ¼fÃ¼rlerde atacak, ve %d atma sonrasÄ±nda 
+	aynÄ± kullanÄ±cÄ±yÄ± banlayacak. BADWORDS komutunu
+	kullanarak kÃ¼fÃ¼r ekleyip Ã§Ä±karabilirsiniz.
 BOT_KICK_BADWORDS_OFF
-	Bot artık küfürlerde atmayacak.
+	Bot artÄ±k kÃ¼fÃ¼rlerde atmayacak.
 BOT_KICK_BOLDS_ON
-	Bot şimdi kalın yazıda atacak.
+	Bot ÅŸimdi kalÄ±n yazÄ±da atacak.
 BOT_KICK_BOLDS_ON_BAN
-	Bot şimdi kalın yazıda atacak, ve 
-	%d atma sonrasında aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi kalÄ±n yazÄ±da atacak, ve 
+	%d atma sonrasÄ±nda aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_BOLDS_OFF
-	Bot artık kalın yazıda atmayacak.
+	Bot artÄ±k kalÄ±n yazÄ±da atmayacak.
 BOT_KICK_CAPS_ON
-	Bot şimdi büyük yazıda atacak(Tüm mesajın en az
-	%d karakterini ve %d%% kadarını içermelidir).
+	Bot ÅŸimdi bÃ¼yÃ¼k yazÄ±da atacak(TÃ¼m mesajÄ±n en az
+	%d karakterini ve %d%% kadarÄ±nÄ± iÃ§ermelidir).
 BOT_KICK_CAPS_ON_BAN
-	Bot şimdi büyük yazıda atacak(Tüm mesajın en az
-	%d karakterini ve %d%% kadarını içermelidir), ve 
-	%d atma sonrasında aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi bÃ¼yÃ¼k yazÄ±da atacak(TÃ¼m mesajÄ±n en az
+	%d karakterini ve %d%% kadarÄ±nÄ± iÃ§ermelidir), ve 
+	%d atma sonrasÄ±nda aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_CAPS_OFF
-	Bot artık büyük yazıda atmayacak.
+	Bot artÄ±k bÃ¼yÃ¼k yazÄ±da atmayacak.
 BOT_KICK_COLORS_ON
-	Bot şimdi renkli yazıda atacak.
+	Bot ÅŸimdi renkli yazÄ±da atacak.
 BOT_KICK_COLORS_ON_BAN
-	Bot şimdi renkli yazıda atacak, ve 
-	%d atma sonrasında aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi renkli yazÄ±da atacak, ve 
+	%d atma sonrasÄ±nda aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_COLORS_OFF
-	Bot artık renkli yazıda atmayacak.
+	Bot artÄ±k renkli yazÄ±da atmayacak.
 BOT_KICK_FLOOD_ON
-	Bot şimdi text floodda atacak(%d sıra %d saniyede).
+	Bot ÅŸimdi text floodda atacak(%d sÄ±ra %d saniyede).
 BOT_KICK_FLOOD_ON_BAN
-	Bot şimdi text floodda atacak(%d sira %d saniyede), ve 
-	%d atma sonrasında aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi text floodda atacak(%d sira %d saniyede), ve 
+	%d atma sonrasÄ±nda aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_FLOOD_OFF
-	Bot artık text floodda atmayacak.
+	Bot artÄ±k text floodda atmayacak.
 BOT_KICK_REPEAT_ON
-	Bot şimdi tekrarda atacak(kullanıcı %d kez
-	aynı şeyi söylerse).
+	Bot ÅŸimdi tekrarda atacak(kullanÄ±cÄ± %d kez
+	aynÄ± ÅŸeyi sÃ¶ylerse).
 BOT_KICK_REPEAT_ON_BAN
-	Bot şimdi tekrarda atacak(kullanıcı %d kez
-	aynı şeyi söylerse), ve %d atma sonrasında
-	aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi tekrarda atacak(kullanÄ±cÄ± %d kez
+	aynÄ± ÅŸeyi sÃ¶ylerse), ve %d atma sonrasÄ±nda
+	aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_REPEAT_OFF
-	Bot artık tekrarda atmayacak.
+	Bot artÄ±k tekrarda atmayacak.
 BOT_KICK_REVERSES_ON
-	Bot şimdi Ctrl+R de atacak.
+	Bot ÅŸimdi Ctrl+R de atacak.
 BOT_KICK_REVERSES_ON_BAN
-	Bot şimdi Ctrl+R de atacak, ve %d atma sonrasında 
-	aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi Ctrl+R de atacak, ve %d atma sonrasÄ±nda 
+	aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_REVERSES_OFF
-	Bot artık Ctrl+R de atmayacak.
+	Bot artÄ±k Ctrl+R de atmayacak.
 BOT_KICK_UNDERLINES_ON
-	Bot şimdi altıçizili yazıda atacak.
+	Bot ÅŸimdi altÄ±Ã§izili yazÄ±da atacak.
 BOT_KICK_UNDERLINES_ON_BAN
-	Bot şimdi altıçizili yazıda atacak, ve %d atma 
-	sonrasında aynı kullanıcıyı banlayacak.
+	Bot ÅŸimdi altÄ±Ã§izili yazÄ±da atacak, ve %d atma 
+	sonrasÄ±nda aynÄ± kullanÄ±cÄ±yÄ± banlayacak.
 BOT_KICK_UNDERLINES_OFF
-	Bot artık altıçizili yazıda atmayacak.
+	Bot artÄ±k altÄ±Ã§izili yazÄ±da atmayacak.
 	
 # BADWORDS messages
 BOT_BADWORDS_SYNTAX
-	BADWORDS kanaladı {ADD|DEL|LIST|CLEAR} [nick | kayıt-listesi]
+	BADWORDS kanaladÄ± {ADD|DEL|LIST|CLEAR} [nick | kayÄ±t-listesi]
 BOT_BADWORDS_DISABLED
-	Kanalın küfür listesinde değişiklik yapma geçici olarak devre dışıdır.
+	KanalÄ±n kÃ¼fÃ¼r listesinde deÄŸiÅŸiklik yapma geÃ§ici olarak devre dÄ±ÅŸÄ±dÄ±r.
 BOT_BADWORDS_REACHED_LIMIT
-	Bir kanalda sadece %d tane küfür kaydı olabilir.
+	Bir kanalda sadece %d tane kÃ¼fÃ¼r kaydÄ± olabilir.
 BOT_BADWORDS_ALREADY_EXISTS
-	%s zaten %s kanalının küfür listesinde var.
+	%s zaten %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinde var.
 BOT_BADWORDS_ADDED
-	%s %s kanalının küfür listesine eklendi.
+	%s %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesine eklendi.
 BOT_BADWORDS_NO_SUCH_ENTRY
-	(#%d) şeklinde bir kayıt %s kanalının küfür listesinde bulunamadı.
+	(#%d) ÅŸeklinde bir kayÄ±t %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinde bulunamadÄ±.
 BOT_BADWORDS_NOT_FOUND
-	%s %s kanalının küfür listesinde bulunamadı.
+	%s %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinde bulunamadÄ±.
 BOT_BADWORDS_NO_MATCH
-	Uyuşan kayıt %s kanalının küfür listesinde bulunamadı.
+	UyuÅŸan kayÄ±t %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinde bulunamadÄ±.
 BOT_BADWORDS_DELETED
-	%s %s kanalının küfür listesinden çıkarıldı.
+	%s %s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinden Ã§Ä±karÄ±ldÄ±.
 BOT_BADWORDS_DELETED_ONE
-	%s kanalının küfür listesinden 1 kayıt silindi.
+	%s kanalÄ±nÄ±n kÃ¼fÃ¼r listesinden 1 kayÄ±t silindi.
 BOT_BADWORDS_DELETED_SEVERAL
 	Deleted %d entries from %s bad words list.
 BOT_BADWORDS_LIST_EMPTY
-	%s kanalının küfür listesi boş.
+	%s kanalÄ±nÄ±n kÃ¼fÃ¼r listesi boÅŸ.
 BOT_BADWORDS_LIST_HEADER
-	%s kanalının küfür listesi:
-	  Sayı   Kelime                           Tipi
+	%s kanalÄ±nÄ±n kÃ¼fÃ¼r listesi:
+	  SayÄ±   Kelime                           Tipi
 BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 BOT_BADWORDS_CLEAR
-	Küfür listesi şimdi boş.
+	KÃ¼fÃ¼r listesi ÅŸimdi boÅŸ.
 
 # SAY responses
 BOT_SAY_SYNTAX
-	SAY kanaladı yazı
+	SAY kanaladÄ± yazÄ±
 
 # ACT responses
 BOT_ACT_SYNTAX
-	ACT kanaladı yazı
+	ACT kanaladÄ± yazÄ±
 
 ###########################################################################
 #
@@ -2432,7 +2432,7 @@ BOT_ACT_SYNTAX
 
 # General messages
 BOT_EXCEPT
-	Kullanıcı kanal ayrıcalıklı kullanıcıları listesinde bulunuyor.
+	KullanÄ±cÄ± kanal ayrÄ±calÄ±klÄ± kullanÄ±cÄ±larÄ± listesinde bulunuyor.
 
 ###########################################################################
 #
@@ -2442,15 +2442,15 @@ BOT_EXCEPT
 
 # General messages
 BOT_BAD_NICK
-	Bot rumuzu geçerli karakterlerden oluşmalıdır.
+	Bot rumuzu geÃ§erli karakterlerden oluÅŸmalÄ±dÄ±r.
 BOT_BAD_HOST
-	Bot'un adresi geçerli karakterlerden oluşmalıdır.
+	Bot'un adresi geÃ§erli karakterlerden oluÅŸmalÄ±dÄ±r.
 BOT_BAD_IDENT
-	Bot ident'i geçerli karakterlerden oluşmalıdır..
+	Bot ident'i geÃ§erli karakterlerden oluÅŸmalÄ±dÄ±r..
 BOT_LONG_IDENT
-	Bot Ident'i en fazla %d karakter olmalıdır.
+	Bot Ident'i en fazla %d karakter olmalÄ±dÄ±r.
 BOT_LONG_HOST
-	Bot adresi en fazla %d karakter olmalıdır.
+	Bot adresi en fazla %d karakter olmalÄ±dÄ±r.
 
 ###########################################################################
 #
@@ -2460,9 +2460,9 @@ BOT_LONG_HOST
 
 # General messages
 OPER_BOUNCY_MODES
-	Servisler mod değiştiremiyor.  Serverin doğru ayarlandığına emin olun.
+	Servisler mod deÄŸiÅŸtiremiyor.  Serverin doÄŸru ayarlandÄ±ÄŸÄ±na emin olun.
 OPER_BOUNCY_MODES_U_LINE
-	Servisler mod değiştiremiyor.  Serverin U:line larının doğru ayarlandığına emin olun.
+	Servisler mod deÄŸiÅŸtiremiyor.  Serverin U:line larÄ±nÄ±n doÄŸru ayarlandÄ±ÄŸÄ±na emin olun.
 
 # GLOBAL responses
 OPER_GLOBAL_SYNTAX
@@ -2470,143 +2470,143 @@ OPER_GLOBAL_SYNTAX
 
 # STATS responses
 OPER_STATS_UNKNOWN_OPTION
-	Varolmayan STATS özelliği: %s.
+	Varolmayan STATS Ã¶zelliÄŸi: %s.
 OPER_STATS_CURRENT_USERS
-	Şu anki kullanıcı sayısı: %d (%d op)
+	Åu anki kullanÄ±cÄ± sayÄ±sÄ±: %d (%d op)
 OPER_STATS_MAX_USERS
-	Maximum kullanıcı sayısı: %d (%s)
+	Maximum kullanÄ±cÄ± sayÄ±sÄ±: %d (%s)
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
 # or more, but just add a %d to get seconds as well.
 OPER_STATS_UPTIME_DHMS
-	Servisler %d gündür çalışıyor, %02d:%02d
+	Servisler %d gÃ¼ndÃ¼r Ã§alÄ±ÅŸÄ±yor, %02d:%02d
 OPER_STATS_UPTIME_1DHMS
-	Servisler %d gündür çalışıyor, %02d:%02d
+	Servisler %d gÃ¼ndÃ¼r Ã§alÄ±ÅŸÄ±yor, %02d:%02d
 OPER_STATS_UPTIME_HMS
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_HM1S
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_H1MS
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_H1M1S
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1HMS
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1HM1S
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1H1MS
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1H1M1S
-	Servisler %d saat, %d dakikadır çalışıyor.
+	Servisler %d saat, %d dakikadÄ±r Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_MS
-	Servisler %d dakika, %d saniyedir çalışıyor.
+	Servisler %d dakika, %d saniyedir Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_M1S
-	Servisler %d dakika, %d saniyedir çalışıyor.
+	Servisler %d dakika, %d saniyedir Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1MS
-	Servisler %d dakika, %d saniyedir çalışıyor.
+	Servisler %d dakika, %d saniyedir Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_UPTIME_1M1S
-	Servisler %d dakika, %d saniyedir çalışıyor.
+	Servisler %d dakika, %d saniyedir Ã§alÄ±ÅŸÄ±yor.
 OPER_STATS_BYTES_READ
 	Okunan veri  : %5d kB
 OPER_STATS_BYTES_WRITTEN
-	Yazılan veri : %5d kB
+	YazÄ±lan veri : %5d kB
 OPER_STATS_USER_MEM
-	Kullanıcı  : %6d kayıt, %5d kB
+	KullanÄ±cÄ±  : %6d kayÄ±t, %5d kB
 OPER_STATS_CHANNEL_MEM
-	Kanal      : %6d kayıt, %5d kB
+	Kanal      : %6d kayÄ±t, %5d kB
 OPER_STATS_GROUPS_MEM
 	NS Groups     : %6d records, %5d kB
 OPER_STATS_ALIASES_MEM
 	NS Aliases    : %6d records, %5d kB
 OPER_STATS_CHANSERV_MEM
-	ChanServ   : %6d kayıt, %5d kB
+	ChanServ   : %6d kayÄ±t, %5d kB
 OPER_STATS_BOTSERV_MEM
-	BotServ    : %6d kayıt, %5d kB
+	BotServ    : %6d kayÄ±t, %5d kB
 OPER_STATS_HOSTSERV_MEM
 	HostServ      : %6d records, %5d kB
 OPER_STATS_OPERSERV_MEM
-	OperServ   : %6d kayıt, %5d kB
+	OperServ   : %6d kayÄ±t, %5d kB
 OPER_STATS_SESSIONS_MEM
-	Oturumlar  : %6d kayıt, %5d kB
+	Oturumlar  : %6d kayÄ±t, %5d kB
 OPER_STATS_AKILL_COUNT
-	Şu anki AKILL sayısı: %d
+	Åu anki AKILL sayÄ±sÄ±: %d
 OPER_STATS_AKILL_EXPIRE_DAYS
-	Varsayılan AKILL zaman aşımı: %d gün
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: %d gÃ¼n
 OPER_STATS_AKILL_EXPIRE_DAY
-	Varsayılan AKILL zaman aşımı: 1 gün
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: 1 gÃ¼n
 OPER_STATS_AKILL_EXPIRE_HOURS
-	Varsayılan AKILL zaman aşımı: %d saat
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: %d saat
 OPER_STATS_AKILL_EXPIRE_HOUR
-	Varsayılan AKILL zaman aşımı: 1 saat
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: 1 saat
 OPER_STATS_AKILL_EXPIRE_MINS
-	Varsayılan AKILL zaman aşımı: %d dakika
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: %d dakika
 OPER_STATS_AKILL_EXPIRE_MIN
-	Varsayılan AKILL zaman aşımı: 1 dakika
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: 1 dakika
 OPER_STATS_AKILL_EXPIRE_NONE
-	Varsayılan AKILL zaman aşımı: zaman aşımı yok
+	VarsayÄ±lan AKILL zaman aÅŸÄ±mÄ±: zaman aÅŸÄ±mÄ± yok
 OPER_STATS_SGLINE_COUNT
-	Şu anki SGLINE sayısı: %d
+	Åu anki SGLINE sayÄ±sÄ±: %d
 OPER_STATS_SGLINE_EXPIRE_DAYS
-	Varsayılan SGLINE zaman aşımı süresi: %d gün
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d gÃ¼n
 OPER_STATS_SGLINE_EXPIRE_DAY
-	Varsayılan SGLINE zaman aşımı süresi: 1 gün
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 gÃ¼n
 OPER_STATS_SGLINE_EXPIRE_HOURS
-	Varsayılan SGLINE zaman aşımı süresi: %d saat
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d saat
 OPER_STATS_SGLINE_EXPIRE_HOUR
-	Varsayılan SGLINE zaman aşımı süresi: 1 saat
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 saat
 OPER_STATS_SGLINE_EXPIRE_MINS
-	Varsayılan SGLINE zaman aşımı süresi: %d dakika
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d dakika
 OPER_STATS_SGLINE_EXPIRE_MIN
-	Varsayılan SGLINE zaman aşımı süresi: 1 dakika
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 dakika
 OPER_STATS_SGLINE_EXPIRE_NONE
-	Varsayılan SGLINE zaman aşımı süresi: Zaman aşımı yok
+	VarsayÄ±lan SGLINE zaman aÅŸÄ±mÄ± sÃ¼resi: Zaman aÅŸÄ±mÄ± yok
 OPER_STATS_SQLINE_COUNT
 	Su anki SQLINE sayisi: %d
 OPER_STATS_SQLINE_EXPIRE_DAYS
-	Varsayilan SQLINE zaman asimi süresi: %d gün
+	Varsayilan SQLINE zaman asimi sÃ¼resi: %d gÃ¼n
 OPER_STATS_SQLINE_EXPIRE_DAY
-	Varsayilan SQLINE zaman asimi süresi: 1 gün
+	Varsayilan SQLINE zaman asimi sÃ¼resi: 1 gÃ¼n
 OPER_STATS_SQLINE_EXPIRE_HOURS
-	Varsayilan SQLINE zaman asimi süresi: %d saat
+	Varsayilan SQLINE zaman asimi sÃ¼resi: %d saat
 OPER_STATS_SQLINE_EXPIRE_HOUR
-	Varsayilan SQLINE zaman asimi süresi: 1 saat
+	Varsayilan SQLINE zaman asimi sÃ¼resi: 1 saat
 OPER_STATS_SQLINE_EXPIRE_MINS
-	Varsayilan SQLINE zaman asimi süresi: %d dakika
+	Varsayilan SQLINE zaman asimi sÃ¼resi: %d dakika
 OPER_STATS_SQLINE_EXPIRE_MIN
-	Varsayilan SQLINE zaman asimi süresi: 1 dakika
+	Varsayilan SQLINE zaman asimi sÃ¼resi: 1 dakika
 OPER_STATS_SQLINE_EXPIRE_NONE
-	Varsayilan SQLINE zaman asimi süresi: Zaman asimi yok
+	Varsayilan SQLINE zaman asimi sÃ¼resi: Zaman asimi yok
 OPER_STATS_SZLINE_COUNT
-	Şu anki SZLINE sayısı: %d
+	Åu anki SZLINE sayÄ±sÄ±: %d
 OPER_STATS_SZLINE_EXPIRE_DAYS
-	Varsayılan SZLINE zaman aşımı süresi: %d gün
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d gÃ¼n
 OPER_STATS_SZLINE_EXPIRE_DAY
-	Varsayılan SZLINE zaman aşımı süresi: 1 gün
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 gÃ¼n
 OPER_STATS_SZLINE_EXPIRE_HOURS
-	Varsayılan SZLINE zaman aşımı süresi: %d saat
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d saat
 OPER_STATS_SZLINE_EXPIRE_HOUR
-	Varsayılan SZLINE zaman aşımı süresi: 1 saat
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 saat
 OPER_STATS_SZLINE_EXPIRE_MINS
-	Varsayılan SZLINE zaman aşımı süresi: %d dakika
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: %d dakika
 OPER_STATS_SZLINE_EXPIRE_MIN
-	Varsayılan SZLINE zaman aşımı süresi: 1 dakika
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: 1 dakika
 OPER_STATS_SZLINE_EXPIRE_NONE
-	Varsayılan SZLINE zaman aşımı süresi: Zaman aşımı yok
+	VarsayÄ±lan SZLINE zaman aÅŸÄ±mÄ± sÃ¼resi: Zaman aÅŸÄ±mÄ± yok
 OPER_STATS_RESET
-	İstatistikler resetlendi.
+	Ä°statistikler resetlendi.
 
 # MODE responses
 OPER_STATS_UPLINK_SERVER
-	Baglı bulunulan sunucu: %s
+	BaglÄ± bulunulan sunucu: %s
 OPER_STATS_UPLINK_CAPAB
-	Baglı Ağın ozellikleri: %s
+	BaglÄ± AÄŸÄ±n ozellikleri: %s
 OPER_STATS_UPLINK_SERVER_COUNT
 	Bulunan sunucular: %d
 
 # MODE responses
 OPER_MODE_SYNTAX
-	MODE kanaladı modlar
+	MODE kanaladÄ± modlar
 
 # CLEARMODES responses
 OPER_UMODE_SYNTAX
@@ -2614,9 +2614,9 @@ OPER_UMODE_SYNTAX
 
 # OLINE responses
 OPER_UMODE_SUCCESS
-	%s rumuzunun modları değiştirildi.
+	%s rumuzunun modlarÄ± deÄŸiÅŸtirildi.
 OPER_UMODE_CHANGED
-	%s nickli kullanıcı sizin modlarınızı değiştirdi.
+	%s nickli kullanÄ±cÄ± sizin modlarÄ±nÄ±zÄ± deÄŸiÅŸtirdi.
 
 # OLINE responses
 OPER_OLINE_SYNTAX
@@ -2630,16 +2630,16 @@ OPER_OLINE_IRCOP
 
 # CLEARMODES responses
 OPER_CLEARMODES_SYNTAX
-	CLEARMODES kanaladı [ALL]
+	CLEARMODES kanaladÄ± [ALL]
 OPER_CLEARMODES_DONE
-	%s kanalında modlar ve banlar temizlendi.
+	%s kanalÄ±nda modlar ve banlar temizlendi.
 OPER_CLEARMODES_ALL_DONE
-	%s kanalındaki tüm modlar temizlendi.
+	%s kanalÄ±ndaki tÃ¼m modlar temizlendi.
 
 
 # KICK responses
 OPER_KICK_SYNTAX
-	KICK kanaladı kullanıcı sebep
+	KICK kanaladÄ± kullanÄ±cÄ± sebep
 
 # ADMIN responses
 OPER_SVSNICK_SYNTAX
@@ -2649,9 +2649,9 @@ OPER_SVSNICK_NEWNICK
 	
 # ADMIN responses
 OPER_ADMIN_SYNTAX
-	ADMIN {ADD|DEL|LIST|CLEAR} [nick | kayıt-listesi]
+	ADMIN {ADD|DEL|LIST|CLEAR} [nick | kayÄ±t-listesi]
 OPER_ADMIN_SKELETON
-	Servisler iskelet modunda(skeleton); ADMIN komutu devre dışı.
+	Servisler iskelet modunda(skeleton); ADMIN komutu devre dÄ±ÅŸÄ±.
 OPER_ADMIN_EXISTS
 	%s zaten Servis adminleri listesinde.
 OPER_ADMIN_REACHED_LIMIT
@@ -2659,17 +2659,17 @@ OPER_ADMIN_REACHED_LIMIT
 OPER_ADMIN_ADDED
 	%s Servis adminleri listesine eklendi.
 OPER_ADMIN_NOT_FOUND
-	%s Servisler admin listesinde bulunamadı.
+	%s Servisler admin listesinde bulunamadÄ±.
 OPER_ADMIN_NO_MATCH
-	Servis adminleri listesinde uyuşan kayıt yok.
+	Servis adminleri listesinde uyuÅŸan kayÄ±t yok.
 OPER_ADMIN_DELETED
 	%s servis adminleri listesinden silindi.
 OPER_ADMIN_DELETED_ONE
-	Servis adminleri listesinden 1 kayıt silindi.
+	Servis adminleri listesinden 1 kayÄ±t silindi.
 OPER_ADMIN_DELETED_SEVERAL
-	Servis adminleri listesinden %d kayıt silindi.
+	Servis adminleri listesinden %d kayÄ±t silindi.
 OPER_ADMIN_LIST_EMPTY
-	Servis adminleri listesi boş.
+	Servis adminleri listesi boÅŸ.
 OPER_ADMIN_LIST_HEADER
 	Servis adminleri listesi:
 	  Num   Nick
@@ -2678,78 +2678,78 @@ OPER_ADMIN_LIST_FORMAT
 OPER_ADMIN_CLEAR
 	Servis adminleri listesi temizlendi.
 OPER_ADMIN_MOVED
-	%s rumuzu servis adminleri listesine alındı.
+	%s rumuzu servis adminleri listesine alÄ±ndÄ±.
 
 # OPER responses
 OPER_OPER_SYNTAX
-	OPER {ADD|DEL|LIST|CLEAR} [nick | kayıt-listesi]
+	OPER {ADD|DEL|LIST|CLEAR} [nick | kayÄ±t-listesi]
 OPER_OPER_SKELETON
-	Servisler iskelet modunda(skeleton); OPER komutu devre dışı.
+	Servisler iskelet modunda(skeleton); OPER komutu devre dÄ±ÅŸÄ±.
 OPER_OPER_EXISTS
-	%s zaten servis operatörleri listesinde.
+	%s zaten servis operatÃ¶rleri listesinde.
 OPER_OPER_REACHED_LIMIT
-	Sadece %d tane servis operatörü olabilir.
+	Sadece %d tane servis operatÃ¶rÃ¼ olabilir.
 OPER_OPER_ADDED
-	%s servis operatörleri listesine eklendi.
+	%s servis operatÃ¶rleri listesine eklendi.
 OPER_OPER_NOT_FOUND
-	%s servis operatörleri listesinde bulunamadı.
+	%s servis operatÃ¶rleri listesinde bulunamadÄ±.
 OPER_OPER_NO_MATCH
-	Servis operatörleri listesinde uyuşan kayıt bulunamadı.
+	Servis operatÃ¶rleri listesinde uyuÅŸan kayÄ±t bulunamadÄ±.
 OPER_OPER_DELETED
-	%s servis operatörleri listesinden silindi.
+	%s servis operatÃ¶rleri listesinden silindi.
 OPER_OPER_DELETED_ONE
-	Servis operatörleri listesinden 1 kayıt silindi.
+	Servis operatÃ¶rleri listesinden 1 kayÄ±t silindi.
 OPER_OPER_DELETED_SEVERAL
-	Servis operatörleri listesinden %d kayıt silindi.
+	Servis operatÃ¶rleri listesinden %d kayÄ±t silindi.
 OPER_OPER_LIST_EMPTY
-	Servis operatörleri listesi boş.
+	Servis operatÃ¶rleri listesi boÅŸ.
 OPER_OPER_LIST_HEADER
-	Servis operatörleri listesi:
+	Servis operatÃ¶rleri listesi:
 	  Num   Nick
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 OPER_OPER_CLEAR
-	Servis operatörleri listesi temizlendi.
+	Servis operatÃ¶rleri listesi temizlendi.
 OPER_OPER_MOVED
-	%s rumuzu servis operatorleri listesine alındı.
+	%s rumuzu servis operatorleri listesine alÄ±ndÄ±.
 
 # AKILL responses
 OPER_AKILL_SYNTAX
-	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaşımı] {mask | kayıt-no} [sebep]]
+	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaÅŸÄ±mÄ±] {mask | kayÄ±t-no} [sebep]]
 OPER_AKILL_EXISTS
 	%s zaten AKILL listesinde.
 OPER_AKILL_ALREADY_COVERED
-	%s zaten %s tarafından değiştirildi.
+	%s zaten %s tarafÄ±ndan deÄŸiÅŸtirildi.
 OPER_AKILL_REACHED_LIMIT
-	Sadece %d kişi AKILL listesinde olabilir.
+	Sadece %d kiÅŸi AKILL listesinde olabilir.
 OPER_AKILL_NO_NICK
-	Hatırlatma: AKILL maskına nick eklenemez; AKILL maskına nick eklemediğinizden emin olun.
+	HatÄ±rlatma: AKILL maskÄ±na nick eklenemez; AKILL maskÄ±na nick eklemediÄŸinizden emin olun.
 OPER_AKILL_ADDED
 	%s AKILL listesine eklendi.
 OPER_AKILL_CHANGED
-	%s nickinin zaman aşımı süresi değiştirildi.
+	%s nickinin zaman aÅŸÄ±mÄ± sÃ¼resi deÄŸiÅŸtirildi.
 OPER_AKILL_NOT_FOUND
-	%s AKILL listesinde bulunamadı.
+	%s AKILL listesinde bulunamadÄ±.
 OPER_AKILL_NO_MATCH
-	Uyuşan kayıt AKILL listesinde bulunamadı.
+	UyuÅŸan kayÄ±t AKILL listesinde bulunamadÄ±.
 OPER_AKILL_DELETED
 	%s AKILL listesinden silindi.
 OPER_AKILL_DELETED_ONE
-	AKILL listesinden 1 kayıt silindi.
+	AKILL listesinden 1 kayÄ±t silindi.
 OPER_AKILL_DELETED_SEVERAL
-	AKILL listesinden %d kayıt silindi.
+	AKILL listesinden %d kayÄ±t silindi.
 OPER_AKILL_LIST_EMPTY
-	AKILL listesi boş.
+	AKILL listesi boÅŸ.
 OPER_AKILL_LIST_HEADER
-	Şu anki AKILL listesi:
+	Åu anki AKILL listesi:
 	  No    Mask                              Sebep
 OPER_AKILL_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_AKILL_VIEW_HEADER
-	Şu anki AKILL listesi:
+	Åu anki AKILL listesi:
 # number, mask, set-by, set-time, expires, reason
 OPER_AKILL_VIEW_FORMAT
-	%3d  %s (%s tarafından %s tarihinde; %s)
+	%3d  %s (%s tarafÄ±ndan %s tarihinde; %s)
 	      %s
 OPER_AKILL_CLEAR
 	AKILL listesi temizlendi.
@@ -2759,38 +2759,38 @@ OPER_CHANKILL_SYNTAX
 	CHANKILL [+expiry] {#channel} [reason]
 # SGLINE responses
 OPER_SGLINE_SYNTAX
-	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaşımı] {mask | kayıt-sırası} [sebep]]
+	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaÅŸÄ±mÄ±] {mask | kayÄ±t-sÄ±rasÄ±} [sebep]]
 OPER_SGLINE_UNSUPPORTED
-	SGLINE bu networkte mevcut değil.
+	SGLINE bu networkte mevcut deÄŸil.
 OPER_SGLINE_EXISTS
 	%s zaten SGLINE listesinde.
 OPER_SGLINE_ALREADY_COVERED
-	%s zaten %s tarafından değiştirildi.
+	%s zaten %s tarafÄ±ndan deÄŸiÅŸtirildi.
 OPER_SGLINE_REACHED_LIMIT
-	Sadece %d kişi SGLINE listesinde olabilir.
+	Sadece %d kiÅŸi SGLINE listesinde olabilir.
 OPER_SGLINE_ADDED
 	%s SGLINE listesinde eklendi.
 OPER_SGLINE_CHANGED
-	%s nickinin zaman aşımı süresi değiştirildi.
+	%s nickinin zaman aÅŸÄ±mÄ± sÃ¼resi deÄŸiÅŸtirildi.
 OPER_SGLINE_NOT_FOUND
-	%s SGLINE listesinde bulunamadı.
+	%s SGLINE listesinde bulunamadÄ±.
 OPER_SGLINE_NO_MATCH
-	SGLINE listesinde uyuşan kayıt bulunamadı.
+	SGLINE listesinde uyuÅŸan kayÄ±t bulunamadÄ±.
 OPER_SGLINE_DELETED
 	%s SGLINE listesinden silindi.
 OPER_SGLINE_DELETED_ONE
-	SGLINE listesinden 1 kayıt silindi.
+	SGLINE listesinden 1 kayÄ±t silindi.
 OPER_SGLINE_DELETED_SEVERAL
-	SGLINE listesinden %d kayıt silindi.
+	SGLINE listesinden %d kayÄ±t silindi.
 OPER_SGLINE_LIST_EMPTY
-	SGLINE listesi boş.
+	SGLINE listesi boÅŸ.
 OPER_SGLINE_LIST_HEADER
-	Şu anki SGLINE listesi:
+	Åu anki SGLINE listesi:
 	  No   Mask                              Sebep
 OPER_SGLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SGLINE_VIEW_HEADER
-	Şu anki SGLINE listesi:
+	Åu anki SGLINE listesi:
 # number, mask, set-by, set-time, expires, reason
 OPER_SGLINE_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
@@ -2802,7 +2802,7 @@ OPER_SGLINE_CLEAR
 OPER_SQLINE_SYNTAX
 	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+zaman asimi] {mask | kayit-sirasi} [sebep]]
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	SQLINE kullandiginiz IRCd tarafindan desteklenmiyor, bu yüzden kullanmazsiniz.
+	SQLINE kullandiginiz IRCd tarafindan desteklenmiyor, bu yÃ¼zden kullanmazsiniz.
 OPER_SQLINE_EXISTS
 	%s zaten SQLINE listesinde mevcut.
 OPER_SQLINE_ALREADY_COVERED
@@ -2812,7 +2812,7 @@ OPER_SQLINE_REACHED_LIMIT
 OPER_SQLINE_ADDED
 	%s SQLINE listesine eklendi.
 OPER_SQLINE_CHANGED
-	%s için zaman asimi süresi degistirildi.
+	%s iÃ§in zaman asimi sÃ¼resi degistirildi.
 OPER_SQLINE_NOT_FOUND
 	%s SQLINE listesinde bulunamadi.
 OPER_SQLINE_NO_MATCH
@@ -2841,40 +2841,40 @@ OPER_SQLINE_CLEAR
 
 # SZLINE responses
 OPER_SZLINE_SYNTAX
-	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaşımı] {mask | kayıt-sırası} [sebep]]
+	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+zamanaÅŸÄ±mÄ±] {mask | kayÄ±t-sÄ±rasÄ±} [sebep]]
 OPER_SZLINE_UNSUPPORTED
-	SZLINE bu networkte mevcut değil.
+	SZLINE bu networkte mevcut deÄŸil.
 OPER_SZLINE_EXISTS
 	%s zaten SZLINE listesinde.
 OPER_SZLINE_ALREADY_COVERED
-	%s zaten %s tarafından değiştirildi.
+	%s zaten %s tarafÄ±ndan deÄŸiÅŸtirildi.
 OPER_SZLINE_REACHED_LIMIT
-	Sadece %d kişi SZLINE listesinde olabilir.
+	Sadece %d kiÅŸi SZLINE listesinde olabilir.
 OPER_SZLINE_ONLY_IPS
-	Hatırlatma: SZLINE listesine sadece IP masklarını ekleyebilirsiniz.
+	HatÄ±rlatma: SZLINE listesine sadece IP masklarÄ±nÄ± ekleyebilirsiniz.
 OPER_SZLINE_ADDED
 	%s SZLINE listesine eklendi.
 OPER_SZLINE_CHANGED
-	%s nickinin zaman aşımı süresi değiştirildi.
+	%s nickinin zaman aÅŸÄ±mÄ± sÃ¼resi deÄŸiÅŸtirildi.
 OPER_SZLINE_NOT_FOUND
-	%s SZLINE listesinde bulunamadı.
+	%s SZLINE listesinde bulunamadÄ±.
 OPER_SZLINE_NO_MATCH
-	SZLINE listesinde uyuşan kayıt bulunamadı.
+	SZLINE listesinde uyuÅŸan kayÄ±t bulunamadÄ±.
 OPER_SZLINE_DELETED
 	%s SZLINE listesinden silindi.
 OPER_SZLINE_DELETED_ONE
-	SZLINE listesinden 1 kayıt silindi.
+	SZLINE listesinden 1 kayÄ±t silindi.
 OPER_SZLINE_DELETED_SEVERAL
-	SZLINE listesinden %d kayıt silindi.
+	SZLINE listesinden %d kayÄ±t silindi.
 OPER_SZLINE_LIST_EMPTY
-	SZLINE listesi boş.
+	SZLINE listesi boÅŸ.
 OPER_SZLINE_LIST_HEADER
-	Şu anki SZLINE listesi:
+	Åu anki SZLINE listesi:
 	  No   Mask                              Sebep
 OPER_SZLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SZLINE_VIEW_HEADER
-	Şu anki SZLINE listesi:
+	Åu anki SZLINE listesi:
 # number, mask, set-by, set-time, expires, reason
 OPER_SZLINE_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
@@ -2884,19 +2884,19 @@ OPER_SZLINE_CLEAR
 
 # SET responses
 OPER_SET_SYNTAX
-	SET özellik ayar
+	SET Ã¶zellik ayar
 OPER_SET_IGNORE_ON
 	Ignore kodu AKTIF.
 OPER_SET_IGNORE_OFF
 	Ignore kodu KAPALI.
 OPER_SET_IGNORE_ERROR
-	IGNORE ayarı ON veya OFF şeklinde olmalıdır.
+	IGNORE ayarÄ± ON veya OFF ÅŸeklinde olmalÄ±dÄ±r.
 OPER_SET_READONLY_ON
-	Servisler şimdi read-only modunda.
+	Servisler ÅŸimdi read-only modunda.
 OPER_SET_READONLY_OFF
-	Servisler şimdi read-write modunda.
+	Servisler ÅŸimdi read-write modunda.
 OPER_SET_READONLY_ERROR
-	READONLY ayarı ON veya OFF şeklinde olmalıdır.
+	READONLY ayarÄ± ON veya OFF ÅŸeklinde olmalÄ±dÄ±r.
 OPER_SET_LOGCHAN_ON
 	Services is now reporting log messages to %s.
 OPER_SET_LOGCHAN_OFF
@@ -2904,44 +2904,44 @@ OPER_SET_LOGCHAN_OFF
 OPER_SET_LOGCHAN_ERROR
 	Setting for LOGCHAN must be ON or OFF and LogChannel must be defined.
 OPER_SET_DEBUG_ON
-	Servisler şimdi debug modunda.
+	Servisler ÅŸimdi debug modunda.
 OPER_SET_DEBUG_OFF
-	Servisler şimdi non-debug modunda.
+	Servisler ÅŸimdi non-debug modunda.
 OPER_SET_DEBUG_LEVEL
-	Servisler şimdi debug modunda (seviye %d).
+	Servisler ÅŸimdi debug modunda (seviye %d).
 OPER_SET_DEBUG_ERROR
-	DEBUG ayarı ON, OFF, veya pozitif bir sayı olmalıdır.
+	DEBUG ayarÄ± ON, OFF, veya pozitif bir sayÄ± olmalÄ±dÄ±r.
 OPER_SET_NOEXPIRE_ON
-	Servisler şimdi no expire modunda.
+	Servisler ÅŸimdi no expire modunda.
 OPER_SET_NOEXPIRE_OFF
-	Servisler şimdi expire modunda.
+	Servisler ÅŸimdi expire modunda.
 OPER_SET_NOEXPIRE_ERROR
-	NOEXPIRE ayarı ON yada OFF olmalıdır.
+	NOEXPIRE ayarÄ± ON yada OFF olmalÄ±dÄ±r.
 OPER_SET_UNKNOWN_OPTION
-	Varolmayan özellik %s.
+	Varolmayan Ã¶zellik %s.
 OPER_SET_SQL_ON
-	SQL code kullanılabilir.
+	SQL code kullanÄ±labilir.
 OPER_SET_SQL_OFF
-	SQL code kullanılamaz.
+	SQL code kullanÄ±lamaz.
 OPER_SET_SQL_ERROR
-	Sql özelliği sadece ON veya OFF olarak ayarlanabilir.
+	Sql Ã¶zelliÄŸi sadece ON veya OFF olarak ayarlanabilir.
 OPER_SET_SQL_ERROR_INIT
 	Error during init of SQL, check your logs to correct.
 OPER_SET_SQL_ERROR_DISABLED
-	SQL ayarları bu sunucu icin duzenlenmiş durumda degil. lütfen ayar dosyasını
+	SQL ayarlarÄ± bu sunucu icin duzenlenmiÅŸ durumda degil. lÃ¼tfen ayar dosyasÄ±nÄ±
 	(services.conf) duzenleyiniz.
 OPER_SET_LIST_OPTION_ON
-	%s acık
+	%s acÄ±k
 OPER_SET_LIST_OPTION_OFF
-	%s kapalı
+	%s kapalÄ±
 
 # NOOP responses
 OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} server
 OPER_NOOP_SET
-	%s serverındaki tüm O:line lar silindi.
+	%s serverÄ±ndaki tÃ¼m O:line lar silindi.
 OPER_NOOP_REVOKE
-	%s serverındaki tüm O:line lar resetlendi.
+	%s serverÄ±ndaki tÃ¼m O:line lar resetlendi.
 
 # JUPE responses
 OPER_JUPE_SYNTAX
@@ -2949,25 +2949,25 @@ OPER_JUPE_SYNTAX
 
 # RAW responses
 OPER_JUPE_HOST_ERROR
-	Gecerli bir sunucu adı giriniz
+	Gecerli bir sunucu adÄ± giriniz
 OPER_JUPE_INVALID_SERVER
-	Bağlı oldugunuz sunucuda bu uygulamayı yapamazsınız.
+	BaÄŸlÄ± oldugunuz sunucuda bu uygulamayÄ± yapamazsÄ±nÄ±z.
 	
 # RAW responses
 OPER_RAW_SYNTAX
-	RAW yazı
+	RAW yazÄ±
 
 # UPDATE responses
 OPER_UPDATING
-	Veritabanı güncelleniyor.
+	VeritabanÄ± gÃ¼ncelleniyor.
 
 # RELOAD responses
 OPER_RELOAD
-	Servislerin conf dosyası yeniden yüklendi.
+	Servislerin conf dosyasÄ± yeniden yÃ¼klendi.
 
 # RESTART responses
 OPER_CANNOT_RESTART
-	SERVICES_BIN tanımlanmamış; restart edilemiyor.  Yeniden \2configure\2 edin ve RESTART komutunu aktifleştirmek için Servisleri yeniden derleyin.
+	SERVICES_BIN tanÄ±mlanmamÄ±ÅŸ; restart edilemiyor.  Yeniden \2configure\2 edin ve RESTART komutunu aktifleÅŸtirmek iÃ§in Servisleri yeniden derleyin.
 
 # LISTIGNORE responses
 OPER_IGNORE_SYNTAX
@@ -2975,17 +2975,17 @@ OPER_IGNORE_SYNTAX
 OPER_IGNORE_VALID_TIME
 	Gecerli bir zaman giriniz.
 OPER_IGNORE_TIME_DONE
-	%s rumuzu %s saniyeligine servisler tarafından engellendi.
+	%s rumuzu %s saniyeligine servisler tarafÄ±ndan engellendi.
 OPER_IGNORE_PERM_DONE
-	%s rumuzunu engelledim. Artık beni kullanamaz.
+	%s rumuzunu engelledim. ArtÄ±k beni kullanamaz.
 OPER_IGNORE_DEL_DONE
-	%s rumuzu servis engellerinden kaldırıldı.
+	%s rumuzu servis engellerinden kaldÄ±rÄ±ldÄ±.
 OPER_IGNORE_LIST
 	Servisler ignore listesi:
 OPER_IGNORE_LIST_NOMATCH
-	%s rumuzu sunucunun engelledigi kişiler arasında bulunmuyor.
+	%s rumuzu sunucunun engelledigi kiÅŸiler arasÄ±nda bulunmuyor.
 OPER_IGNORE_LIST_EMPTY
-	Ignore listesi boş.
+	Ignore listesi boÅŸ.
 
 # KILLCLONES responses
 OPER_IGNORE_LIST_CLEARED
@@ -2995,15 +2995,15 @@ OPER_IGNORE_LIST_CLEARED
 OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 OPER_KILLCLONES_UNKNOWN_NICK
-	Kullanıcı %s bulunamadı.
+	KullanÄ±cÄ± %s bulunamadÄ±.
 	
 # CHANLIST responses
 OPER_CHANLIST_HEADER
 	Kanal listesi:
-	İsim              Kullanici Modlari  Konu
+	Ä°sim              Kullanici Modlari  Konu
 OPER_CHANLIST_HEADER_USER
 	%s kanal listesi:
-	İsim              Kullanici Modlari  Konu
+	Ä°sim              Kullanici Modlari  Konu
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
@@ -3011,23 +3011,23 @@ OPER_CHANLIST_END
 	
 # USERLIST responses
 OPER_USERLIST_HEADER
-	Kullanıcı listesi:
+	KullanÄ±cÄ± listesi:
 	Nick                 Mask
 OPER_USERLIST_HEADER_CHAN
-	%s kullanıcı listesi:
+	%s kullanÄ±cÄ± listesi:
 	Nick                 Mask
 OPER_USERLIST_RECORD
 	%-20s %s@%s
 OPER_USERLIST_END
-	Kullanıcı listesi sonu.
+	KullanÄ±cÄ± listesi sonu.
 
 # CACHE responses
 OPER_SUPER_ADMIN_ON
 	Su anda SuperAdminsiniz
 OPER_SUPER_ADMIN_OFF
-	SuperAdmin Kapatıldı
+	SuperAdmin KapatÄ±ldÄ±
 OPER_SUPER_ADMIN_SYNTAX
-	Bu özellik ON ve OFF olarak kullanılabilir.
+	Bu Ã¶zellik ON ve OFF olarak kullanÄ±labilir.
 OPER_SUPER_ADMIN_WALL_ON
 	%s Super-Admin
 OPER_SUPER_ADMIN_WALL_OFF
@@ -3041,7 +3041,7 @@ OPER_SUPER_ADMIN_WALL_OFF
 
 # EXCEPTION responses
 OPER_SUPER_ADMIN_ONLY
-	Sadece SuperAdmin kullanımına acıktır.
+	Sadece SuperAdmin kullanÄ±mÄ±na acÄ±ktÄ±r.
 
 ###########################################################################
 #
@@ -3065,13 +3065,13 @@ OPER_STAFF_AFORMAT
 OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 OPER_DEFCON_DENIED
-	Bu servis su anda kullanılamaz, daha sonra tekrar deneyiniz
+	Bu servis su anda kullanÄ±lamaz, daha sonra tekrar deneyiniz
 OPER_DEFCON_NO_CONF
-	DEFCON sistemi services.conf dosyasından acılabilir
+	DEFCON sistemi services.conf dosyasÄ±ndan acÄ±labilir
 OPER_DEFCON_CHANGED
-	Servislerin DEFCON girdigi artık %d
+	Servislerin DEFCON girdigi artÄ±k %d
 OPER_DEFCON_WALL
-	%s DEFCON seviyesi %d olarak degiştirildi
+	%s DEFCON seviyesi %d olarak degiÅŸtirildi
 DEFCON_GLOBAL
 	Defcon Seviyesi Su anda: %d
 
@@ -3080,13 +3080,13 @@ DEFCON_GLOBAL
 OPER_MODULE_LOADED
 	Eklenti %s yuklendi
 OPER_MODULE_UNLOADED
-	Eklenti %s kaldırıldı
+	Eklenti %s kaldÄ±rÄ±ldÄ±
 OPER_MODULE_LOAD_FAIL
 	Bilinmeyen eklenti %s
 OPER_MODULE_REMOVE_FAIL
-	Geçersiz eklenti %s
+	GeÃ§ersiz eklenti %s
 OPER_MODULE_NO_UNLOAD
-	Bu eklenti kaldırılamıyor.
+	Bu eklenti kaldÄ±rÄ±lamÄ±yor.
 OPER_MODULE_LOAD_SYNTAX
 	MODLOAD FileName
 OPER_MODULE_UNLOAD_SYNTAX
@@ -3096,13 +3096,13 @@ OPER_MODULE_LIST_HEADER
 OPER_MODULE_LIST
 	Module: %s [%s] [%s]
 OPER_MODULE_LIST_FOOTER
-	%d eklenti yüklü bulunuyor.
+	%d eklenti yÃ¼klÃ¼ bulunuyor.
 OPER_MODULE_INFO_LIST
-	Eklenti: %s Versiyon: %s Yapımcı: %s Yuklenme tarihi: %s
+	Eklenti: %s Versiyon: %s YapÄ±mcÄ±: %s Yuklenme tarihi: %s
 OPER_MODULE_CMD_LIST
 	Belirtilmis komut: %R%s %s
 OPER_MODULE_MSG_LIST
-	Belirtilmis IRCD bağlantısı: %s
+	Belirtilmis IRCD baÄŸlantÄ±sÄ±: %s
 OPER_MODULE_NO_LIST
 	Eklenti bulunmuyor
 OPER_MODULE_NO_INFO
@@ -3130,52 +3130,52 @@ MODULE_HELP_HEADER
 OPER_EXCEPTION_SYNTAX
 	EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [parametreler]
 OPER_EXCEPTION_ADD_SYNTAX
-	EXCEPTION ADD [+zamanaşımı] mask limit sebep
+	EXCEPTION ADD [+zamanaÅŸÄ±mÄ±] mask limit sebep
 OPER_EXCEPTION_DEL_SYNTAX
 	EXCEPTION DEL {mask | liste}
 OPER_EXCEPTION_MOVE_SYNTAX
 	EXCEPTION MOVE num pozisyon
 OPER_EXCEPTION_DISABLED
-	Session limit koyma devre dışı.
+	Session limit koyma devre dÄ±ÅŸÄ±.
 OPER_EXCEPTION_ALREADY_PRESENT
 	Mask %s zaten exception listesinde bulunuyor.
 OPER_EXCEPTION_TOO_MANY
 	Session-limit exception listesi dolu!
 OPER_EXCEPTION_ADDED
-	%s için session limit %d olarak değiştirildi.
+	%s iÃ§in session limit %d olarak deÄŸiÅŸtirildi.
 OPER_EXCEPTION_MOVED
-	%s (#%d) için exception %d pozisyonuyla değiştirildi.
+	%s (#%d) iÃ§in exception %d pozisyonuyla deÄŸiÅŸtirildi.
 OPER_EXCEPTION_NO_SUCH_ENTRY
-	(#%d) böyle bir kayıt yok. session-limit exception listesi.
+	(#%d) bÃ¶yle bir kayÄ±t yok. session-limit exception listesi.
 OPER_EXCEPTION_NOT_FOUND
-	%s session-limit exception listesinde bulunamadı.
+	%s session-limit exception listesinde bulunamadÄ±.
 OPER_EXCEPTION_NO_MATCH
-	session-limit exception listesinde uyuşan kayıt bulunamadı.
+	session-limit exception listesinde uyuÅŸan kayÄ±t bulunamadÄ±.
 OPER_EXCEPTION_DELETED
 	%s session-limit exception listesinden silindi.
 OPER_EXCEPTION_DELETED_ONE
-	Session-limit exception listesinden 1 kayıt silindi.
+	Session-limit exception listesinden 1 kayÄ±t silindi.
 OPER_EXCEPTION_DELETED_SEVERAL
-	Session-limit exception listesinden %d kayıt silindi.
+	Session-limit exception listesinden %d kayÄ±t silindi.
 OPER_EXCEPTION_LIST_HEADER
-	Şu anki Session Limit Exception listesi:
+	Åu anki Session Limit Exception listesi:
 # mask, limit
 OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
 OPER_EXCEPTION_LIST_COLHEAD
-	Sayı  Limit  Host
+	SayÄ±  Limit  Host
 # mask, set-by, set-time, expires, limit, reason
 OPER_EXCEPTION_VIEW_FORMAT
 	%3d.  %s  (by %s on %s; %s)
 	    Limit: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
-	Geçersiz session limiti. Sıfırdan büyük yada eşit ve %d den az bir geçerli tamsayı olmalıdır.
+	GeÃ§ersiz session limiti. SÄ±fÄ±rdan bÃ¼yÃ¼k yada eÅŸit ve %d den az bir geÃ§erli tamsayÄ± olmalÄ±dÄ±r.
 OPER_EXCEPTION_INVALID_HOSTMASK
-	Geçersiz hostmask. Sadece gerçek hostmasklar exception olarak geçerlidir.
+	GeÃ§ersiz hostmask. Sadece gerÃ§ek hostmasklar exception olarak geÃ§erlidir.
 OPER_EXCEPTION_EXISTS
 	%s Zaten listede bulunuyor.
 OPER_EXCEPTION_CHANGED
-	%s - %d olarak güncellendi.
+	%s - %d olarak gÃ¼ncellendi.
 
 # SESSION responses
 OPER_SESSION_SYNTAX
@@ -3185,13 +3185,13 @@ OPER_SESSION_LIST_SYNTAX
 OPER_SESSION_VIEW_SYNTAX
 	SESSION VIEW host
 OPER_SESSION_DISABLED
-	Session limit koyma devre dışı.
+	Session limit koyma devre dÄ±ÅŸÄ±.
 OPER_SESSION_INVALID_THRESHOLD
-	Geçersiz threshold değeri. 1 den büyük geçerli tamsayı olmalıdır.
+	GeÃ§ersiz threshold deÄŸeri. 1 den bÃ¼yÃ¼k geÃ§erli tamsayÄ± olmalÄ±dÄ±r.
 OPER_SESSION_NOT_FOUND
-	%s session listesinde bulunamadı.
+	%s session listesinde bulunamadÄ±.
 OPER_SESSION_LIST_HEADER
-	En az %d sessionlı hostlar:
+	En az %d sessionlÄ± hostlar:
 OPER_SESSION_LIST_COLHEAD
 	Sessionlar  Host
 # limit, host
@@ -3199,72 +3199,72 @@ OPER_SESSION_LIST_FORMAT
 	%6d    %s
 # host, sessions, limit
 OPER_SESSION_VIEW_FORMAT
-	Host %s şu anda %d session a sahip ve %d ile limitli.
+	Host %s ÅŸu anda %d session a sahip ve %d ile limitli.
 
 # EXCEPTION help
 
 OPER_HELP_EXCEPTION
-	Kullanımı: EXCEPTION ADD [+zamanaşımı] mask limit sebep
+	KullanÄ±mÄ±: EXCEPTION ADD [+zamanaÅŸÄ±mÄ±] mask limit sebep
 	           EXCEPTION DEL {mask | liste}
 	           EXCEPTION MOVE num pozisyon
 	           EXCEPTION LIST [mask | liste]
 	           EXCEPTION VIEW [mask | liste]
 	
-	Servis adminlerinin, belirli oturum limiti olan hostların 
-	listesini değiştirmesini sağlar. Shell server gibi bazı 
-	makinaların varsayılandan daha fazla kullanıcıyı aynı anda
-	taşımasını sağlar. Eğer bir host session(oturum) limitine
-	ulaşmışsa o hosttan bağlanmaya çalışan tüm kullanıcılar 
-	kill lenir. Kill lenmeden önce, %S'ün /NOTICE i ile
-	uyarılarak session limiti hakkında yardım verilir. Bu uyarının
-	içeriği ayar yapmayla ilgilidir.
+	Servis adminlerinin, belirli oturum limiti olan hostlarÄ±n 
+	listesini deÄŸiÅŸtirmesini saÄŸlar. Shell server gibi bazÄ± 
+	makinalarÄ±n varsayÄ±landan daha fazla kullanÄ±cÄ±yÄ± aynÄ± anda
+	taÅŸÄ±masÄ±nÄ± saÄŸlar. EÄŸer bir host session(oturum) limitine
+	ulaÅŸmÄ±ÅŸsa o hosttan baÄŸlanmaya Ã§alÄ±ÅŸan tÃ¼m kullanÄ±cÄ±lar 
+	kill lenir. Kill lenmeden Ã¶nce, %S'Ã¼n /NOTICE i ile
+	uyarÄ±larak session limiti hakkÄ±nda yardÄ±m verilir. Bu uyarÄ±nÄ±n
+	iÃ§eriÄŸi ayar yapmayla ilgilidir.
 	
-	EXCEPTION ADD exception(istisna) listesine belirtilen hostmaskı
-	ekler. nick!user@host ve user@host masklarının geçersiz 
-	olduğunu unutmayın! Sadece box.host.dom ve *.host.dom gibi 
-	gerçek hostmasklar kullanılabilinir, çünkü session limitleme 
-	nickleri ve username leri hesaba almaz. limit sıfırdan büyük 
-	yada eşit bir rakam olmalıdır. Bu o host un aynı anda kaç oturum
-	(session) kaldırabileceğini belirler. Sıfır değeri o host un
-	sınırsız oturum limiti olduğunu belirtir. Opsiyonel zamanaşımı 
-	parametresinin formatı ile ilgili yardım için AKILL in 
-	yardımına bakınız.
-	EXCEPTION DEL listesinden belirtilen mask ı çıkarır.
-	EXCEPTION MOVE exception numarasını(num) pozisyona (position)
-	çevirir. Aralarındaki exceptionların yeri aralığı doldurmak için 
-	yukarı yada aşşağı değiştirilecektir.
-	EXCEPTION LIST ve EXCEPTION VIEW tüm mevcut exceptionları 
-	gösterir; eğer opsiyonel olarak mask belirtilmişse, liste
-	bu masklarla uyuşan exceptionlarla sınırlandırılır. Aradaki fark
-	EXCEPTION VIEW daha gelismis bir komuttur ve exception ı ekleyenin 
-	nickini, o exceptionın session limitini, sebebi, host maskı ve zaman 
-	aşımı tarih ve zamanını gösterir.
+	EXCEPTION ADD exception(istisna) listesine belirtilen hostmaskÄ±
+	ekler. nick!user@host ve user@host masklarÄ±nÄ±n geÃ§ersiz 
+	olduÄŸunu unutmayÄ±n! Sadece box.host.dom ve *.host.dom gibi 
+	gerÃ§ek hostmasklar kullanÄ±labilinir, Ã§Ã¼nkÃ¼ session limitleme 
+	nickleri ve username leri hesaba almaz. limit sÄ±fÄ±rdan bÃ¼yÃ¼k 
+	yada eÅŸit bir rakam olmalÄ±dÄ±r. Bu o host un aynÄ± anda kaÃ§ oturum
+	(session) kaldÄ±rabileceÄŸini belirler. SÄ±fÄ±r deÄŸeri o host un
+	sÄ±nÄ±rsÄ±z oturum limiti olduÄŸunu belirtir. Opsiyonel zamanaÅŸÄ±mÄ± 
+	parametresinin formatÄ± ile ilgili yardÄ±m iÃ§in AKILL in 
+	yardÄ±mÄ±na bakÄ±nÄ±z.
+	EXCEPTION DEL listesinden belirtilen mask Ä± Ã§Ä±karÄ±r.
+	EXCEPTION MOVE exception numarasÄ±nÄ±(num) pozisyona (position)
+	Ã§evirir. AralarÄ±ndaki exceptionlarÄ±n yeri aralÄ±ÄŸÄ± doldurmak iÃ§in 
+	yukarÄ± yada aÅŸÅŸaÄŸÄ± deÄŸiÅŸtirilecektir.
+	EXCEPTION LIST ve EXCEPTION VIEW tÃ¼m mevcut exceptionlarÄ± 
+	gÃ¶sterir; eÄŸer opsiyonel olarak mask belirtilmiÅŸse, liste
+	bu masklarla uyuÅŸan exceptionlarla sÄ±nÄ±rlandÄ±rÄ±lÄ±r. Aradaki fark
+	EXCEPTION VIEW daha gelismis bir komuttur ve exception Ä± ekleyenin 
+	nickini, o exceptionÄ±n session limitini, sebebi, host maskÄ± ve zaman 
+	aÅŸÄ±mÄ± tarih ve zamanÄ±nÄ± gÃ¶sterir.
 	
-	Bağlanan kullanıcı, hostuyla uyuşan ilk exceptionı kullanır. Büyük 
-	exception listeleri ve geniş olarak uyuşan exception maskları 
-	servislerin performansını düşürür. 
+	BaÄŸlanan kullanÄ±cÄ±, hostuyla uyuÅŸan ilk exceptionÄ± kullanÄ±r. BÃ¼yÃ¼k 
+	exception listeleri ve geniÅŸ olarak uyuÅŸan exception masklarÄ± 
+	servislerin performansÄ±nÄ± dÃ¼ÅŸÃ¼rÃ¼r. 
 	
-	Servis adminleri tarafından kullanılabilir.
+	Servis adminleri tarafÄ±ndan kullanÄ±labilir.
 
 OPER_HELP_SESSION
-	Kullanımı: SESSION LIST threshold
+	KullanÄ±mÄ±: SESSION LIST threshold
 	           SESSION VIEW host
 	
-	Servis adminlerinin session listesini görüntülemesini sağlar.
+	Servis adminlerinin session listesini gÃ¶rÃ¼ntÃ¼lemesini saÄŸlar.
 	
-	SESSION LIST en az threshold sessionlardaki hostları listeler.
-	Threshold(eşik) 1 den büyük bir sayı olmalıdır. Bu büyük 
-	ölçüdeki tek session hostların yanlışlıkla listelenmelerini 
-	önlemek içindir.
-	SESSION VIEW belirli bir host hakkında ayrıntılı bilgileri 
-	görüntüler. Bu o anki session sayısını ve session limitinide
-	gösterir. host değeri wildcard(açık olarak yazılmalıdır) 
-	içermemelidir.
+	SESSION LIST en az threshold sessionlardaki hostlarÄ± listeler.
+	Threshold(eÅŸik) 1 den bÃ¼yÃ¼k bir sayÄ± olmalÄ±dÄ±r. Bu bÃ¼yÃ¼k 
+	Ã¶lÃ§Ã¼deki tek session hostlarÄ±n yanlÄ±ÅŸlÄ±kla listelenmelerini 
+	Ã¶nlemek iÃ§indir.
+	SESSION VIEW belirli bir host hakkÄ±nda ayrÄ±ntÄ±lÄ± bilgileri 
+	gÃ¶rÃ¼ntÃ¼ler. Bu o anki session sayÄ±sÄ±nÄ± ve session limitinide
+	gÃ¶sterir. host deÄŸeri wildcard(aÃ§Ä±k olarak yazÄ±lmalÄ±dÄ±r) 
+	iÃ§ermemelidir.
 	
-	Session limitleme ve belirli hostlara ve gruplara nasıl session 
-	limit koyulacağı hakkında yardım için EXCEPTION yardımına bakın.
+	Session limitleme ve belirli hostlara ve gruplara nasÄ±l session 
+	limit koyulacaÄŸÄ± hakkÄ±nda yardÄ±m iÃ§in EXCEPTION yardÄ±mÄ±na bakÄ±n.
 	
-	Servis adminleri tarafından kullanılabilir.
+	Servis adminleri tarafÄ±ndan kullanÄ±labilir.
 
 ###########################################################################
 #
@@ -3273,36 +3273,36 @@ OPER_HELP_SESSION
 ###########################################################################
 
 OPER_HELP_STAFF
-	Kullanımı: STAFF
+	KullanÄ±mÄ±: STAFF
 
-	Sunucu üzerinde yetkili bulunan nicklerin yetki seviyelerini
-	ve su anda bağlı olup olmadıklarını gösterir.
+	Sunucu Ã¼zerinde yetkili bulunan nicklerin yetki seviyelerini
+	ve su anda baÄŸlÄ± olup olmadÄ±klarÄ±nÄ± gÃ¶sterir.
 
 OPER_HELP_DEFCON
-	Kullanımı: DEFCON [1|2|3|4|5]
+	KullanÄ±mÄ±: DEFCON [1|2|3|4|5]
 
-	Defcon sistemı sunucu icin onceden tanımlanmıs ayarlardır
-	servislerin daha iyi calısmaları ve herhangi bir saldırı anında
-	servislerin mevcut durumunu korumak icin düzenlenmistir.
+	Defcon sistemÄ± sunucu icin onceden tanÄ±mlanmÄ±s ayarlardÄ±r
+	servislerin daha iyi calÄ±smalarÄ± ve herhangi bir saldÄ±rÄ± anÄ±nda
+	servislerin mevcut durumunu korumak icin dÃ¼zenlenmistir.
 
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
-	* Yeni kanal kayıt edilemez
+	* Yeni kanal kayÄ±t edilemez
 OPER_HELP_DEFCON_NO_NEW_NICKS
-	* Yeni rumuz kayıt edilemez
+	* Yeni rumuz kayÄ±t edilemez
 OPER_HELP_DEFCON_NO_MLOCK_CHANGE
-	* Mlock degiştirilemez
+	* Mlock degiÅŸtirilemez
 OPER_HELP_DEFCON_FORCE_CHAN_MODES
-	* (%s) tüm kanallar icin zorunlu mod olarak atandı
+	* (%s) tÃ¼m kanallar icin zorunlu mod olarak atandÄ±
 OPER_HELP_DEFCON_REDUCE_SESSION
-	* Bağlantı limiti azaltıldı %d
+	* BaÄŸlantÄ± limiti azaltÄ±ldÄ± %d
 OPER_HELP_DEFCON_NO_NEW_CLIENTS
-	* Yeni baglantılar kopartır
+	* Yeni baglantÄ±lar kopartÄ±r
 OPER_HELP_DEFCON_OPER_ONLY
-	* Operler haric servisleri diger kullanıcıları engeller
+	* Operler haric servisleri diger kullanÄ±cÄ±larÄ± engeller
 OPER_HELP_DEFCON_SILENT_OPER_ONLY
 	* Sessizleri engelle(operler haric)
 OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
-	* Yeni bağlantıları akill listesine ekle
+	* Yeni baÄŸlantÄ±larÄ± akill listesine ekle
 
 
 ###########################################################################
@@ -3314,11 +3314,11 @@ OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
 OPER_HELP_DEFCON_NO_NEW_MEMOS
 	* Yeni cevrimdisi mesaj gonderilemez
 OPER_HELP_CHANKILL
-	Kullanımı: CHANKILL [+expiry] channel reason
+	KullanÄ±mÄ±: CHANKILL [+expiry] channel reason
 
 	Belirtilmis kanaldaki herkezi akill listesine ekler.
-	Kullanımı sonucu ident@host seklinde tüm rumuzları akill listesine alır,
-	bu listeden yasak kaldırmak icin normal akill listesi kontrol edilmeli ve aynı yöntem kullanılmalıdır. 
+	KullanÄ±mÄ± sonucu ident@host seklinde tÃ¼m rumuzlarÄ± akill listesine alÄ±r,
+	bu listeden yasak kaldÄ±rmak icin normal akill listesi kontrol edilmeli ve aynÄ± yÃ¶ntem kullanÄ±lmalÄ±dÄ±r. 
 
 ###########################################################################
 #
@@ -3327,63 +3327,63 @@ OPER_HELP_CHANKILL
 ###########################################################################
 
 NEWS_LOGON_TEXT
-	[Bağlantı Haberleri - %s] %s
+	[BaÄŸlantÄ± Haberleri - %s] %s
 NEWS_OPER_TEXT
-	[Operatör Haberleri - %s] %s
+	[OperatÃ¶r Haberleri - %s] %s
 NEWS_RANDOM_TEXT
 	[Karisik Haberler - %s] %s
 
 NEWS_LOGON_SYNTAX
-	LOGONNEWS {ADD|DEL|LIST} [yazı|num]
+	LOGONNEWS {ADD|DEL|LIST} [yazÄ±|num]
 NEWS_LOGON_LIST_HEADER
-	Bağlantı haberleri:
+	BaÄŸlantÄ± haberleri:
 NEWS_LOGON_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_LOGON_LIST_NONE
-	Hiç bağlantı haberi yok.
+	HiÃ§ baÄŸlantÄ± haberi yok.
 NEWS_LOGON_ADD_SYNTAX
-	LOGONNEWS ADD yazı
+	LOGONNEWS ADD yazÄ±
 NEWS_LOGON_ADD_FULL
 	Haber listesi dolu!
 NEWS_LOGON_ADDED
-	Yeni bağlantı haberleri maddesi eklendi (#%d).
+	Yeni baÄŸlantÄ± haberleri maddesi eklendi (#%d).
 NEWS_LOGON_DEL_SYNTAX
 	LOGONNEWS DEL {num | ALL}
 NEWS_LOGON_DEL_NOT_FOUND
-	Bağlantı haberleri maddesi #%d bulunamadı!
+	BaÄŸlantÄ± haberleri maddesi #%d bulunamadÄ±!
 NEWS_LOGON_DELETED
-	Bağlantı haberleri maddesi #%d silindi.
+	BaÄŸlantÄ± haberleri maddesi #%d silindi.
 NEWS_LOGON_DEL_NONE
-	Silebileceğiniz bağlantı haberleri maddesi yok!
+	SilebileceÄŸiniz baÄŸlantÄ± haberleri maddesi yok!
 NEWS_LOGON_DELETED_ALL
-	Tüm bağlantı haberleri silindi.
+	TÃ¼m baÄŸlantÄ± haberleri silindi.
 
 NEWS_OPER_SYNTAX
-	Kullanımı: OPERNEWS {ADD|DEL|LIST} [yazı|num]
+	KullanÄ±mÄ±: OPERNEWS {ADD|DEL|LIST} [yazÄ±|num]
 NEWS_OPER_LIST_HEADER
-	Operatör haberleri:
+	OperatÃ¶r haberleri:
 NEWS_OPER_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_OPER_LIST_NONE
-	Hiç operatör haberi yok.
+	HiÃ§ operatÃ¶r haberi yok.
 NEWS_OPER_ADD_SYNTAX
-	Kullanımı: OPERNEWS ADD yazı
+	KullanÄ±mÄ±: OPERNEWS ADD yazÄ±
 NEWS_OPER_ADD_FULL
 	Haber listesi dolu!
 NEWS_OPER_ADDED
-	Yeni operatör haberleri maddesi eklendi (#%d).
+	Yeni operatÃ¶r haberleri maddesi eklendi (#%d).
 NEWS_OPER_DEL_SYNTAX
-	Kullanımı: OPERNEWS DEL {num | ALL}
+	KullanÄ±mÄ±: OPERNEWS DEL {num | ALL}
 NEWS_OPER_DEL_NOT_FOUND
-	Operatör haberleri maddesi #%d bulunamadı!
+	OperatÃ¶r haberleri maddesi #%d bulunamadÄ±!
 NEWS_OPER_DELETED
-	Operatör haberleri maddesi #%d silindi.
+	OperatÃ¶r haberleri maddesi #%d silindi.
 NEWS_OPER_DEL_NONE
-	Silebileceğiniz operatör haberleri maddesi yok!
+	SilebileceÄŸiniz operatÃ¶r haberleri maddesi yok!
 NEWS_OPER_DELETED_ALL
-	Tüm operatör haberleri maddeleri silindi.
+	TÃ¼m operatÃ¶r haberleri maddeleri silindi.
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [yazi|no]
@@ -3393,7 +3393,7 @@ NEWS_RANDOM_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_RANDOM_LIST_NONE
-	Hiç karisik haber yok.
+	HiÃ§ karisik haber yok.
 NEWS_RANDOM_ADD_SYNTAX
 	RANDOMNEWS ADD yazi
 NEWS_RANDOM_ADD_FULL
@@ -3409,33 +3409,33 @@ NEWS_RANDOM_DELETED
 NEWS_RANDOM_DEL_NONE
 	Silinecek karisik haber yok!
 NEWS_RANDOM_DELETED_ALL
-	Tüm karisik haberler silindi.
+	TÃ¼m karisik haberler silindi.
 
 NEWS_HELP_LOGON
-	Kullanımı: LOGONNEWS ADD yazı
+	KullanÄ±mÄ±: LOGONNEWS ADD yazÄ±
 	        LOGONNEWS DEL {num | ALL}
 	        LOGONNEWS LIST
 	
-	Giriş haberleri ve mesajlarını düzenlemek icin kullanılır. 
-	Kullanıcı sunucuya bağlantığı anda bu belirtilen mesajlar giris yapan kullanıcıya 
-	iletilir.  (Bununla beraber, %s adetten fazla mesaj kullanıcıya
-	gonderilmez.  Eğer cok fazla mesaj eklenmiş bulunuyor ise
-	bunlardan en yenileri kullanıcıya ulaştırılır.)
-	NewsCount(Giriş haberleri) Özellikleri services.conf'ta belirtilmiştir ve bu dosyadan ayarlanabilir.
+	GiriÅŸ haberleri ve mesajlarÄ±nÄ± dÃ¼zenlemek icin kullanÄ±lÄ±r. 
+	KullanÄ±cÄ± sunucuya baÄŸlantÄ±ÄŸÄ± anda bu belirtilen mesajlar giris yapan kullanÄ±cÄ±ya 
+	iletilir.  (Bununla beraber, %s adetten fazla mesaj kullanÄ±cÄ±ya
+	gonderilmez.  EÄŸer cok fazla mesaj eklenmiÅŸ bulunuyor ise
+	bunlardan en yenileri kullanÄ±cÄ±ya ulaÅŸtÄ±rÄ±lÄ±r.)
+	NewsCount(GiriÅŸ haberleri) Ã–zellikleri services.conf'ta belirtilmiÅŸtir ve bu dosyadan ayarlanabilir.
 	
 	LOGONNEWS may only be used by Services admins. 
 
 NEWS_HELP_OPER
-	Kullanımı: OPERNEWS ADD text
+	KullanÄ±mÄ±: OPERNEWS ADD text
 	        OPERNEWS DEL {num | ALL}
 	        OPERNEWS LIST
 	
-	Giriş haberleri ve mesajlarını düzenlemek icin kullanılır(Yönetici girişleri). 
-	Kullanıcı sunucu içerisinde yönetici konumuna gectiği anda bu belirtilen mesajlar giris yapan operatore 
-	iletilir.  (Bununla beraber, %s adetten fazla mesaj yöneticiye
-	gonderilmez.  Eğer cok fazla mesaj eklenmiş bulunuyor ise
-	bunlardan en yenileri kullanıcıya ulaştırılır.)
-	NewsCount(Giriş haberleri) Özellikleri services.conf'ta belirtilmiştir ve bu dosyadan ayarlanabilir.
+	GiriÅŸ haberleri ve mesajlarÄ±nÄ± dÃ¼zenlemek icin kullanÄ±lÄ±r(YÃ¶netici giriÅŸleri). 
+	KullanÄ±cÄ± sunucu iÃ§erisinde yÃ¶netici konumuna gectiÄŸi anda bu belirtilen mesajlar giris yapan operatore 
+	iletilir.  (Bununla beraber, %s adetten fazla mesaj yÃ¶neticiye
+	gonderilmez.  EÄŸer cok fazla mesaj eklenmiÅŸ bulunuyor ise
+	bunlardan en yenileri kullanÄ±cÄ±ya ulaÅŸtÄ±rÄ±lÄ±r.)
+	NewsCount(GiriÅŸ haberleri) Ã–zellikleri services.conf'ta belirtilmiÅŸtir ve bu dosyadan ayarlanabilir.
 	
 	OPERNEWS may only be used by Services admins. 
 
@@ -3444,9 +3444,9 @@ NEWS_HELP_RANDOM
 	           RANDOMNEWS DEL {no | ALL}
 	           RANDOMNEWS LIST
 	
-	Karisik haberleri düzenlemenizi saglar. Bir kullanici
+	Karisik haberleri dÃ¼zenlemenizi saglar. Bir kullanici
 	network e baglandigi zaman, karisik haberlerden bir tanesi
-	seçilerek kullaniciya gönderilir.
+	seÃ§ilerek kullaniciya gÃ¶nderilir.
 	
 	RANDOMNEWS may only be used by Services admins. 
 
@@ -3457,23 +3457,23 @@ NEWS_HELP_RANDOM
 ###########################################################################
 
 HELP_HELP
-	%S servisler hakkında bilgi vermek için tasarlanmıştır.
-	Yardım konularına diğer servislerin HELP komutuyla ulaşılır.
+	%S servisler hakkÄ±nda bilgi vermek iÃ§in tasarlanmÄ±ÅŸtÄ±r.
+	YardÄ±m konularÄ±na diÄŸer servislerin HELP komutuyla ulaÅŸÄ±lÄ±r.
 	
 	%R%s HELP
-	     nick kayıt hakkında bilgiler içerir.
+	     nick kayÄ±t hakkÄ±nda bilgiler iÃ§erir.
 	
 	%R%s HELP
-	     kanal kayıdı ve kontrolü hakkında bilgi içerir.
+	     kanal kayÄ±dÄ± ve kontrolÃ¼ hakkÄ±nda bilgi iÃ§erir.
 	
 	%R%s HELP
-	     kullanıcılara internette olmasalar bile mesaj göndermek
-	     için gerekli bilgileri içerir.
+	     kullanÄ±cÄ±lara internette olmasalar bile mesaj gÃ¶ndermek
+	     iÃ§in gerekli bilgileri iÃ§erir.
 
 HELP_HELP_BOT
 
 	%R%s HELP
-	     kanallara bot sokulması ve ayarları hakkında bilgi içerir.
+	     kanallara bot sokulmasÄ± ve ayarlarÄ± hakkÄ±nda bilgi iÃ§erir.
 
 HELP_HELP_HOST
 
@@ -3486,706 +3486,706 @@ HELP_HELP_HOST
 #
 ###########################################################################
 NICK_HELP_CMD_CONFIRM
-	    CONFIRM    Nick kayıt aktivasyonu için kullanılır. Aktivasyon kodunu tanıtma komutudur.
+	    CONFIRM    Nick kayÄ±t aktivasyonu iÃ§in kullanÄ±lÄ±r. Aktivasyon kodunu tanÄ±tma komutudur.
 NICK_HELP_CMD_RESEND
-	    RESEND     Nick Servisleri aktivasyon kodunu tekrar gönderir
+	    RESEND     Nick Servisleri aktivasyon kodunu tekrar gÃ¶nderir
 
 NICK_HELP_CMD_REGISTER
 	    REGISTER   Nickinizi kaydeder
 NICK_HELP_CMD_GROUP
 	    GROUP      Bir gruba dahil eder
 NICK_HELP_CMD_IDENTIFY
-	    IDENTIFY   Şifrenizle nickinizi tanıtır
+	    IDENTIFY   Åifrenizle nickinizi tanÄ±tÄ±r
 NICK_HELP_CMD_ACCESS
-	    ACCESS     İzinli adreslerin listesini düzenler
+	    ACCESS     Ä°zinli adreslerin listesini dÃ¼zenler
 NICK_HELP_CMD_SET
-	    SET        Ayarlar, kill korumasını içerir
+	    SET        Ayarlar, kill korumasÄ±nÄ± iÃ§erir
 NICK_HELP_CMD_SASET
-	    SASET      Başka bir rumuzun ayarlarını düzenlemede kullanılır
+	    SASET      BaÅŸka bir rumuzun ayarlarÄ±nÄ± dÃ¼zenlemede kullanÄ±lÄ±r
 NICK_HELP_CMD_DROP
-	    DROP       Nickin kaydını siler
+	    DROP       Nickin kaydÄ±nÄ± siler
 NICK_HELP_CMD_RECOVER
 	    RECOVER    Nickinizi kullanan birini kill ler
 NICK_HELP_CMD_RELEASE
 	    RELEASE    RECOVER komutundan sonra nickinizi serbest 
-	               bırakır
+	               bÄ±rakÄ±r
 NICK_HELP_CMD_SENDPASS
-	    SENDPASS   Şifrenizimi unuttunuz? Bunu deneyin
+	    SENDPASS   Åifrenizimi unuttunuz? Bunu deneyin
 NICK_HELP_CMD_GHOST
-	    GHOST      "askıda kalmış" bir rumuzu sunucudan atar 
+	    GHOST      "askÄ±da kalmÄ±ÅŸ" bir rumuzu sunucudan atar 
 NICK_HELP_CMD_ALIST
-	    ALIST      Yetkili olduğunuz kanallari listeler
+	    ALIST      Yetkili olduÄŸunuz kanallari listeler
 NICK_HELP_CMD_GLIST
 	    GLIST      Nick grubunuzdaki nickleri listeler
 NICK_HELP_CMD_INFO
-	    INFO       Belirlenen rumuza ait olan bilgileri gösterir
+	    INFO       Belirlenen rumuza ait olan bilgileri gÃ¶sterir
 NICK_HELP_CMD_LIST
-	    LIST       Kayıtlı olan nickleri seçilen parametrelere göre listeler
+	    LIST       KayÄ±tlÄ± olan nickleri seÃ§ilen parametrelere gÃ¶re listeler
 NICK_HELP_CMD_LOGOUT
-	    LOGOUT     Sisteme tanıttığınız(identify) rumuzun sistemden cıkışını sağlar.(Böylece yetkisiz konuma gecersiniz.)
+	    LOGOUT     Sisteme tanÄ±ttÄ±ÄŸÄ±nÄ±z(identify) rumuzun sistemden cÄ±kÄ±ÅŸÄ±nÄ± saÄŸlar.(BÃ¶ylece yetkisiz konuma gecersiniz.)
 NICK_HELP_CMD_STATUS
-	    STATUS     Seçilen rumuzun durum ve seviyesini gösterir
+	    STATUS     SeÃ§ilen rumuzun durum ve seviyesini gÃ¶sterir
 NICK_HELP_CMD_UPDATE
-	    UPDATE     Durumuzunu günceller, Örnekle. Cevrimdisi mesajlarınız, Vhost vs.
+	    UPDATE     Durumuzunu gÃ¼nceller, Ã–rnekle. Cevrimdisi mesajlarÄ±nÄ±z, Vhost vs.
 NICK_HELP_CMD_GETPASS
-	    GETPASS    Bir nickin şifresini öğrenmek içindir
-	               (Sadece şifreleme(encryption) devre dışıysa)
+	    GETPASS    Bir nickin ÅŸifresini Ã¶ÄŸrenmek iÃ§indir
+	               (Sadece ÅŸifreleme(encryption) devre dÄ±ÅŸÄ±ysa)
 NICK_HELP_CMD_GETEMAIL
-	    GETEMAIL   Girilen mail adresi ile o adresi kayıtta kullanan kisileri eşleştirir 
+	    GETEMAIL   Girilen mail adresi ile o adresi kayÄ±tta kullanan kisileri eÅŸleÅŸtirir 
 NICK_HELP_CMD_FORBID
-	    FORBID     Bir nickin kullanılmasını yasaklar
+	    FORBID     Bir nickin kullanÄ±lmasÄ±nÄ± yasaklar
 NICK_HELP_CMD_SUSPEND
-	    SUSPEND    Seçilen rumuzu askıya alır.
+	    SUSPEND    SeÃ§ilen rumuzu askÄ±ya alÄ±r.
 NICK_HELP_CMD_UNSUSPEND
-	    UNSUSPEND  Geçici olarak kullanıma kapatılmış rumuzu kullanıma açar.
+	    UNSUSPEND  GeÃ§ici olarak kullanÄ±ma kapatÄ±lmÄ±ÅŸ rumuzu kullanÄ±ma aÃ§ar.
 
 NICK_HELP
-	%S nickinizi "kayıt" etmenizi ve diğerlerinin nickinizi 
-	kullanmalarını engellemeyi sağlar. Aşağıdaki komutlar nicki
-	kayıt etmeye ve korumaya izin verir, kullanmak için, 
-	%R%S komut yazın. Belirli bir komut hakkında daha 
-	fazla bilgi için, %R%S HELP komut yazın.
+	%S nickinizi "kayÄ±t" etmenizi ve diÄŸerlerinin nickinizi 
+	kullanmalarÄ±nÄ± engellemeyi saÄŸlar. AÅŸaÄŸÄ±daki komutlar nicki
+	kayÄ±t etmeye ve korumaya izin verir, kullanmak iÃ§in, 
+	%R%S komut yazÄ±n. Belirli bir komut hakkÄ±nda daha 
+	fazla bilgi iÃ§in, %R%S HELP komut yazÄ±n.
 	
 NICK_HELP_FOOTER
-	NOT: Bu servis kullanıcıların kimliklerini tehlikeye 
-	atmayacak şekilde tasarlanmıştır. Bu nickleri "çalmayı" 
-	veya diğer kötü niyetli hareketleri kolaylaştırmayı sağlama
-	amaçlı değildir. %S 'ün kötüye Kullanımı kötüye 
-	kullanılan kişinin nickini kaybetmesiyle sonuçlanacaktır.
+	NOT: Bu servis kullanÄ±cÄ±larÄ±n kimliklerini tehlikeye 
+	atmayacak ÅŸekilde tasarlanmÄ±ÅŸtÄ±r. Bu nickleri "Ã§almayÄ±" 
+	veya diÄŸer kÃ¶tÃ¼ niyetli hareketleri kolaylaÅŸtÄ±rmayÄ± saÄŸlama
+	amaÃ§lÄ± deÄŸildir. %S 'Ã¼n kÃ¶tÃ¼ye KullanÄ±mÄ± kÃ¶tÃ¼ye 
+	kullanÄ±lan kiÅŸinin nickini kaybetmesiyle sonuÃ§lanacaktÄ±r.
 
 NICK_HELP_EXPIRES
 	
-	Daha fazla kullanılmayan nicklerin otomatik olarak
-	kaydının silinmesi söz konusudur, mesela kullanılmayan
-	nickler %d gün sonra silinirler.
+	Daha fazla kullanÄ±lmayan nicklerin otomatik olarak
+	kaydÄ±nÄ±n silinmesi sÃ¶z konusudur, mesela kullanÄ±lmayan
+	nickler %d gÃ¼n sonra silinirler.
 
 NICK_HELP_REGISTER
-	Kullanımı: REGISTER şifre [email]
+	KullanÄ±mÄ±: REGISTER ÅŸifre [email]
 	
-	%S 'ün veritabanına nickinizi kaydeder. Nickinizi 
-	bir kere kayıt ettikten sonra nickinizin özelliklerini 
-	istediğiniz gibi belirlemek için SET ve ACCESS 
-	komutlarını kullanabilirsiniz. Kayıtta kullandığınız şifrenin
-	hatırlanabilecek birşey olmasına dikkat edin - ilerde
-	nickinizin özelliklerinde değişiklik yaparken ve sunucuda
-	kullanabilmek için ihtiyacınız olacak. (Şifrelerin büyük
-	küçük harf hassasiyeti olduğunu unutmayın! İXİR, İxir, 
-	ve ixir şifreleri birbirinden farklıdır.)
+	%S 'Ã¼n veritabanÄ±na nickinizi kaydeder. Nickinizi 
+	bir kere kayÄ±t ettikten sonra nickinizin Ã¶zelliklerini 
+	istediÄŸiniz gibi belirlemek iÃ§in SET ve ACCESS 
+	komutlarÄ±nÄ± kullanabilirsiniz. KayÄ±tta kullandÄ±ÄŸÄ±nÄ±z ÅŸifrenin
+	hatÄ±rlanabilecek birÅŸey olmasÄ±na dikkat edin - ilerde
+	nickinizin Ã¶zelliklerinde deÄŸiÅŸiklik yaparken ve sunucuda
+	kullanabilmek iÃ§in ihtiyacÄ±nÄ±z olacak. (Åifrelerin bÃ¼yÃ¼k
+	kÃ¼Ã§Ã¼k harf hassasiyeti olduÄŸunu unutmayÄ±n! Ä°XÄ°R, Ä°xir, 
+	ve ixir ÅŸifreleri birbirinden farklÄ±dÄ±r.)
 	
-	Şifreleri seçme konusunda rehber:
+	Åifreleri seÃ§me konusunda rehber:
 	
-	Şifreler kolayca tahmin edilebilir olmamalıdır.  Örneğin,
-	gerçek isminizi şifre olarak kullanmak kötü bir fikirdir.
-	Nickinizi şifre olarak kullanmak daha kötü bir fikirdir :)
-	ve zaten %S buna izin vermez. Ayrıca kısa şifreler 
-	deneme yanılma yöntemiyle bulunabilirler, bu yüzden şifrenizin
-	en az 5 karakter olmasına dikkat edin. Son olarak şifrede
-	boşluk kullanmamanız gerekir.
+	Åifreler kolayca tahmin edilebilir olmamalÄ±dÄ±r.  Ã–rneÄŸin,
+	gerÃ§ek isminizi ÅŸifre olarak kullanmak kÃ¶tÃ¼ bir fikirdir.
+	Nickinizi ÅŸifre olarak kullanmak daha kÃ¶tÃ¼ bir fikirdir :)
+	ve zaten %S buna izin vermez. AyrÄ±ca kÄ±sa ÅŸifreler 
+	deneme yanÄ±lma yÃ¶ntemiyle bulunabilirler, bu yÃ¼zden ÅŸifrenizin
+	en az 5 karakter olmasÄ±na dikkat edin. Son olarak ÅŸifrede
+	boÅŸluk kullanmamanÄ±z gerekir.
 	
-	email parametresi opsiyoneldir ve nickiniz için bir 
-	email adresi belirler. Fakat bazı networklerde bu
-	parametrenin kullanılması zorunlu olabilir.(Unutmayın
-	email adresinizi doğru olarak vermeniz ilerde şifrenizi 
-	unutmanız halinde çok işe yarayacaktır)
-	Gizliliğinize saygı duyulacak ve mail adresiniz herhangi 
-	üçüncü şahıslara söylenmeyecektir.
+	email parametresi opsiyoneldir ve nickiniz iÃ§in bir 
+	email adresi belirler. Fakat bazÄ± networklerde bu
+	parametrenin kullanÄ±lmasÄ± zorunlu olabilir.(UnutmayÄ±n
+	email adresinizi doÄŸru olarak vermeniz ilerde ÅŸifrenizi 
+	unutmanÄ±z halinde Ã§ok iÅŸe yarayacaktÄ±r)
+	GizliliÄŸinize saygÄ± duyulacak ve mail adresiniz herhangi 
+	Ã¼Ã§Ã¼ncÃ¼ ÅŸahÄ±slara sÃ¶ylenmeyecektir.
 
-	Bu komut ayrıca nickiniz için yeni bir grup oluşturur ki bu
-	ilerde gruba kaydedeceğiniz nickler için aynı özellikleri, 
-	memo ayarlarını ve aynı kanal ayrıcalıklarını paylaşmanızı 
-	sağlar. Bu özellik hakkında daha fazla bilgi için, 
-	%R%S HELP GROUP yazın.
+	Bu komut ayrÄ±ca nickiniz iÃ§in yeni bir grup oluÅŸturur ki bu
+	ilerde gruba kaydedeceÄŸiniz nickler iÃ§in aynÄ± Ã¶zellikleri, 
+	memo ayarlarÄ±nÄ± ve aynÄ± kanal ayrÄ±calÄ±klarÄ±nÄ± paylaÅŸmanÄ±zÄ± 
+	saÄŸlar. Bu Ã¶zellik hakkÄ±nda daha fazla bilgi iÃ§in, 
+	%R%S HELP GROUP yazÄ±n.
 
 
 NICK_HELP_GROUP
-	Kullanımı: GROUP hedef şifre
+	KullanÄ±mÄ±: GROUP hedef ÅŸifre
 	
-	Bu komut nickinizin hedef gösterilen nickin grubuna katılmasını
-	sağlar. şifre hedef gösterilen nickin şifresidir.
+	Bu komut nickinizin hedef gÃ¶sterilen nickin grubuna katÄ±lmasÄ±nÄ±
+	saÄŸlar. ÅŸifre hedef gÃ¶sterilen nickin ÅŸifresidir.
 	
-	Bir gruba dahil olmak size o gruba dahil olan tüm nicklerinizin
-	ayarlarını, memolarını, ve kanal ayrıcalıklarını paylaşmanızı ve 
-	daha fazlasını sağlar!
+	Bir gruba dahil olmak size o gruba dahil olan tÃ¼m nicklerinizin
+	ayarlarÄ±nÄ±, memolarÄ±nÄ±, ve kanal ayrÄ±calÄ±klarÄ±nÄ± paylaÅŸmanÄ±zÄ± ve 
+	daha fazlasÄ±nÄ± saÄŸlar!
 	 
-	Bir grup kullanışlı olduğu sürece kalıcıdır. Bu demektirki eğer
-	gruba dahil nickleriniz kaydını silerseniz, grupta en az bir nick 
-	kalması kaydiyle yukarda açıklanan paylaşımları kaybetmezseniz.
+	Bir grup kullanÄ±ÅŸlÄ± olduÄŸu sÃ¼rece kalÄ±cÄ±dÄ±r. Bu demektirki eÄŸer
+	gruba dahil nickleriniz kaydÄ±nÄ± silerseniz, grupta en az bir nick 
+	kalmasÄ± kaydiyle yukarda aÃ§Ä±klanan paylaÅŸÄ±mlarÄ± kaybetmezseniz.
 	
-	Bu komutu nickinizi kaydetmemiş olsanız bile kullanabilirsiniz.
-	Eğer nickiniz zaten kayıtlı ise, bu komutu kullanmadan önce
-	nickinizi tanıtmanız gerekir, daha fazla bilgi için
-	%R%S HELP IDENTIFY yazın. Sizin IRC networkunuzda
-	bu mümkün olmayabilir.
+	Bu komutu nickinizi kaydetmemiÅŸ olsanÄ±z bile kullanabilirsiniz.
+	EÄŸer nickiniz zaten kayÄ±tlÄ± ise, bu komutu kullanmadan Ã¶nce
+	nickinizi tanÄ±tmanÄ±z gerekir, daha fazla bilgi iÃ§in
+	%R%S HELP IDENTIFY yazÄ±n. Sizin IRC networkunuzda
+	bu mÃ¼mkÃ¼n olmayabilir.
 	
-	Bu komutu kayıtlı olmayan bir nickle kullanmanız önerilir çünkü
-	bu komutu kullanıcı o nick otomatik olarak kaydedilir. Bunu
-	kayıtlı bir nicklede eğer network adminleri buna izin veriyorsa
+	Bu komutu kayÄ±tlÄ± olmayan bir nickle kullanmanÄ±z Ã¶nerilir Ã§Ã¼nkÃ¼
+	bu komutu kullanÄ±cÄ± o nick otomatik olarak kaydedilir. Bunu
+	kayÄ±tlÄ± bir nicklede eÄŸer network adminleri buna izin veriyorsa
 	kullanabilirsiniz.
 	
-	Bir seferde sadece bir grupta olabilirsiniz. Grup karıştırma
-	mümkün değildir.
+	Bir seferde sadece bir grupta olabilirsiniz. Grup karÄ±ÅŸtÄ±rma
+	mÃ¼mkÃ¼n deÄŸildir.
 	
-	Not: bir gruptaki tüm nickler bir şifreye sahip olurlar.
+	Not: bir gruptaki tÃ¼m nickler bir ÅŸifreye sahip olurlar.
 
 NICK_HELP_IDENTIFY
-	Kullanımı: IDENTIFY şifreniz
+	KullanÄ±mÄ±: IDENTIFY ÅŸifreniz
 	
-	%S 'e kullandığınız nickin gerçek sahibinin siz olduğunu
-	belirtir. Çoğu komut kullanılmadan önce bu komutla 
-	tanıtılmanızı gerektirir. Şifreniz nickinizi kayıt ederken 
-	REGISTER komutuyla beraber kullandığınızla aynıdır.
+	%S 'e kullandÄ±ÄŸÄ±nÄ±z nickin gerÃ§ek sahibinin siz olduÄŸunu
+	belirtir. Ã‡oÄŸu komut kullanÄ±lmadan Ã¶nce bu komutla 
+	tanÄ±tÄ±lmanÄ±zÄ± gerektirir. Åifreniz nickinizi kayÄ±t ederken 
+	REGISTER komutuyla beraber kullandÄ±ÄŸÄ±nÄ±zla aynÄ±dÄ±r.
 
 NICK_HELP_UPDATE
-	Kullanımı: UPDATE
+	KullanÄ±mÄ±: UPDATE
 
-	Durumunuzu günceller, Örneğin; Yeni cevrimdisi mesajlarınızı,
-	sahib oldugunuz kanal modlarını (ModeonID aktif olmalıdır), vhost'unuzu  ve
-	kişisel bilgilerinizi günceller (son görünme zamanı, vs.).
+	Durumunuzu gÃ¼nceller, Ã–rneÄŸin; Yeni cevrimdisi mesajlarÄ±nÄ±zÄ±,
+	sahib oldugunuz kanal modlarÄ±nÄ± (ModeonID aktif olmalÄ±dÄ±r), vhost'unuzu  ve
+	kiÅŸisel bilgilerinizi gÃ¼nceller (son gÃ¶rÃ¼nme zamanÄ±, vs.).
 	
 NICK_HELP_LOGOUT
-	Kullanımı: LOGOUT
+	KullanÄ±mÄ±: LOGOUT
 	
-	IDENTIFY komutunun yaptığı etkiyi tersine çevirir,
-	yani artık o nickin gerçek sahibi olarak tanınmamanızı
-	sağlar. Fakat sizden nickinizi tekrar identify etmeniz 
+	IDENTIFY komutunun yaptÄ±ÄŸÄ± etkiyi tersine Ã§evirir,
+	yani artÄ±k o nickin gerÃ§ek sahibi olarak tanÄ±nmamanÄ±zÄ±
+	saÄŸlar. Fakat sizden nickinizi tekrar identify etmeniz 
 	istenmez.
 
 NICK_HELP_DROP
-	Kullanımı: DROP [nick]
+	KullanÄ±mÄ±: DROP [nick]
 	
-	%S 'ün veritabanından nickinizi siler. Silinmiş bir nick
-	başkası tarafından kayıt edilebilir.
+	%S 'Ã¼n veritabanÄ±ndan nickinizi siler. SilinmiÅŸ bir nick
+	baÅŸkasÄ± tarafÄ±ndan kayÄ±t edilebilir.
 
-	nick parametresini kullanarak belirttiğiniz nicki
+	nick parametresini kullanarak belirttiÄŸiniz nicki
 	grubunuzdan silebilirsiniz.
 	
-	Bu komutu kullanmadan önce, şifrenizle kendinizi tanıtmanız
-	gereklidir (Daha fazla bilgi için %R%S HELP IDENTIFY 
-	yazın).
+	Bu komutu kullanmadan Ã¶nce, ÅŸifrenizle kendinizi tanÄ±tmanÄ±z
+	gereklidir (Daha fazla bilgi iÃ§in %R%S HELP IDENTIFY 
+	yazÄ±n).
 
 NICK_HELP_ACCESS
-	Kullanımı:  ACCESS ADD mask
+	KullanÄ±mÄ±:  ACCESS ADD mask
 	        ACCESS DEL mask
 	        ACCESS LIST
 	
-	Nickinizin access litesini görüntüler ve değişiklikler 
-	yapmanızı sağlar. Bu listede belirtilen adresler %S 
-	tarafından nickinizi kullanabilmek için otomatik olarak 
-	tanınacak adreslerdir. (böylece identify komutunu 
-	kullanmanıza gerek kalmaz.) Eğer belirtilenden farklı bir 
-	adresle bağlanmışsanız %S 'ün sizi tanıması için 
-	IDENTIFY komutunu kullanmanız gerekir.
+	Nickinizin access litesini gÃ¶rÃ¼ntÃ¼ler ve deÄŸiÅŸiklikler 
+	yapmanÄ±zÄ± saÄŸlar. Bu listede belirtilen adresler %S 
+	tarafÄ±ndan nickinizi kullanabilmek iÃ§in otomatik olarak 
+	tanÄ±nacak adreslerdir. (bÃ¶ylece identify komutunu 
+	kullanmanÄ±za gerek kalmaz.) EÄŸer belirtilenden farklÄ± bir 
+	adresle baÄŸlanmÄ±ÅŸsanÄ±z %S 'Ã¼n sizi tanÄ±masÄ± iÃ§in 
+	IDENTIFY komutunu kullanmanÄ±z gerekir.
 	
-	Örnekler:
+	Ã–rnekler:
 	
 	    ACCESS ADD birisi@*.ixir.com
-	        Kullanıcı birisi'ne ixir.com 
+	        KullanÄ±cÄ± birisi'ne ixir.com 
 	        domaininden herhangi bir makineden 
-	        erişim sağlar.
+	        eriÅŸim saÄŸlar.
 	
 	    ACCESS DEL birisi@*.ixir.com
-	        Önceki komutun tersini yapar(siler).
+	        Ã–nceki komutun tersini yapar(siler).
 	
 	    ACCESS LIST
-	        Mevcut access listesini görüntüler.
+	        Mevcut access listesini gÃ¶rÃ¼ntÃ¼ler.
 
 NICK_HELP_SET
-	Kullanımı: SET özellik parametre
+	KullanÄ±mÄ±: SET Ã¶zellik parametre
 	
-	Çeşitli nick özelliklerini ayarlar.  özellik şunlardan biri 
+	Ã‡eÅŸitli nick Ã¶zelliklerini ayarlar.  Ã¶zellik ÅŸunlardan biri 
 	olabilir:
 	
-	    DISPLAY    Grubunuzun servislerde nasıl görüneceğini ayarlar
-	    PASSWORD   Nickinize şifre belirtir
-	    LANGUAGE   Servislerin size hitap edeceği 
+	    DISPLAY    Grubunuzun servislerde nasÄ±l gÃ¶rÃ¼neceÄŸini ayarlar
+	    PASSWORD   Nickinize ÅŸifre belirtir
+	    LANGUAGE   Servislerin size hitap edeceÄŸi 
 	                  dili belirler
-	    URL        Nickinizle bir URL yi ilişkilendirir
-	    EMAIL      Nickinizle bir email adresini ilişkilendirir
-	    ICQ        Nickinizle bir ICQ numarasını ilişikilendirir
-	    GREET      Nickiniz için bir karşılama mesajı belirler
-	    KILL       Korumayı açar kapatır
-	    SECURE     Nick güvenliğini açar kapatır
-	    PRIVATE    Nickinizin %R%S LIST yazıldığında görünmesini
+	    URL        Nickinizle bir URL yi iliÅŸkilendirir
+	    EMAIL      Nickinizle bir email adresini iliÅŸkilendirir
+	    ICQ        Nickinizle bir ICQ numarasÄ±nÄ± iliÅŸikilendirir
+	    GREET      Nickiniz iÃ§in bir karÅŸÄ±lama mesajÄ± belirler
+	    KILL       KorumayÄ± aÃ§ar kapatÄ±r
+	    SECURE     Nick gÃ¼venliÄŸini aÃ§ar kapatÄ±r
+	    PRIVATE    Nickinizin %R%S LIST yazÄ±ldÄ±ÄŸÄ±nda gÃ¶rÃ¼nmesini
 	                  engeller
-	    HIDE       Nickinizle ilgili bazı bilgileri saklar
+	    HIDE       Nickinizle ilgili bazÄ± bilgileri saklar
 	    AUTOOP     Servisler sizi otomatik op yapar.    
 	
-	Bu komutu kullanabilmek için önce, şifrenizle 
-	kendinizi tanıtmanız gerekir (Daha fazla bilgi için 
-	%R%S HELP IDENTIFY yazın).
+	Bu komutu kullanabilmek iÃ§in Ã¶nce, ÅŸifrenizle 
+	kendinizi tanÄ±tmanÄ±z gerekir (Daha fazla bilgi iÃ§in 
+	%R%S HELP IDENTIFY yazÄ±n).
 	
-	Belirli bir özellik(option) hakkında bilgi almak için
-	%R%S HELP SET option yazın.
+	Belirli bir Ã¶zellik(option) hakkÄ±nda bilgi almak iÃ§in
+	%R%S HELP SET option yazÄ±n.
 
 NICK_HELP_SET_DISPLAY
-	Kullanımı: SET DISPLAY yeni-görünüm
+	KullanÄ±mÄ±: SET DISPLAY yeni-gÃ¶rÃ¼nÃ¼m
 	
-	Servislerde grubunuzdaki nicklerden hangisinin gözükeceğini
-	ayarlar. Yeni görünüm grubunuzda bulunan nicklerden biri 
-	olmalıdır.
+	Servislerde grubunuzdaki nicklerden hangisinin gÃ¶zÃ¼keceÄŸini
+	ayarlar. Yeni gÃ¶rÃ¼nÃ¼m grubunuzda bulunan nicklerden biri 
+	olmalÄ±dÄ±r.
 
 NICK_HELP_SET_PASSWORD
-	Kullanımı: SET PASSWORD yeni şifre
+	KullanÄ±mÄ±: SET PASSWORD yeni ÅŸifre
 	
-	Nickinizi tanıtmak için kullandığınız şifreyi
-	değiştirir.
+	Nickinizi tanÄ±tmak iÃ§in kullandÄ±ÄŸÄ±nÄ±z ÅŸifreyi
+	deÄŸiÅŸtirir.
 
 NICK_HELP_SET_LANGUAGE
-	Kullanımı: SET LANGUAGE numara
+	KullanÄ±mÄ±: SET LANGUAGE numara
 	
-	Servislerin size hitap edeceği dili belirlemenizi sağlar.
-	(örneğin, bir komut yazdığınızda gelecek cevabın dili gibi).
-	numara aşağıdaki listede desteklenen dillerden biri olarak 
+	Servislerin size hitap edeceÄŸi dili belirlemenizi saÄŸlar.
+	(Ã¶rneÄŸin, bir komut yazdÄ±ÄŸÄ±nÄ±zda gelecek cevabÄ±n dili gibi).
+	numara aÅŸaÄŸÄ±daki listede desteklenen dillerden biri olarak 
 	belirlenir:
 
 NICK_HELP_SET_URL
-	Kullanımı: SET URL url
+	KullanÄ±mÄ±: SET URL url
 	
-	Nickiniz için bir URL adresi belirtir. Bu URL adresi birisi
-	sizin hakkınızda bilgi almak için INFO komutunu 
-	kullandığında görünür.
+	Nickiniz iÃ§in bir URL adresi belirtir. Bu URL adresi birisi
+	sizin hakkÄ±nÄ±zda bilgi almak iÃ§in INFO komutunu 
+	kullandÄ±ÄŸÄ±nda gÃ¶rÃ¼nÃ¼r.
 
 NICK_HELP_SET_EMAIL
-	Kullanımı: SET EMAIL email adresiniz
+	KullanÄ±mÄ±: SET EMAIL email adresiniz
 	
-	Nickiniz için bir email adresi belirtir. Bu email adresi
-	birisi sizin hakkınızda bilgi almak için INFO komutunu 
-	kullandığında görünür.
+	Nickiniz iÃ§in bir email adresi belirtir. Bu email adresi
+	birisi sizin hakkÄ±nÄ±zda bilgi almak iÃ§in INFO komutunu 
+	kullandÄ±ÄŸÄ±nda gÃ¶rÃ¼nÃ¼r.
 
 NICK_HELP_SET_ICQ
-	Kullanımı: SET ICQ icqnumaranız
+	KullanÄ±mÄ±: SET ICQ icqnumaranÄ±z
 	
-	Nickiniz için bir ICQ numarası belirtir. Bu ICQ numarası
-	birisi sizin hakkınızda bilgi almak için INFO komutunu
-	kullandığında görünür.
+	Nickiniz iÃ§in bir ICQ numarasÄ± belirtir. Bu ICQ numarasÄ±
+	birisi sizin hakkÄ±nÄ±zda bilgi almak iÃ§in INFO komutunu
+	kullandÄ±ÄŸÄ±nda gÃ¶rÃ¼nÃ¼r.
 
 NICK_HELP_SET_GREET
-	Kullanımı: SET GREET mesaj
+	KullanÄ±mÄ±: SET GREET mesaj
 	
-	Yazdığınız mesajı nickinizin karşılama mesajı olarak
-	belirler, bu mesaj GREET özelliği aktif bir kanala 
-	girdiğinizde gönderilir, kanaldaki access seviyenize
-	bağlıdır.
+	YazdÄ±ÄŸÄ±nÄ±z mesajÄ± nickinizin karÅŸÄ±lama mesajÄ± olarak
+	belirler, bu mesaj GREET Ã¶zelliÄŸi aktif bir kanala 
+	girdiÄŸinizde gÃ¶nderilir, kanaldaki access seviyenize
+	baÄŸlÄ±dÄ±r.
 
 NICK_HELP_SET_KILL
-	Kullanımı: SET KILL {ON | QUICK | IMMED | OFF}
+	KullanÄ±mÄ±: SET KILL {ON | QUICK | IMMED | OFF}
 	
-	Nickiniz için otomatik koruma özelliğini açar ve kapatır.
-	Koruma açıkken eğer bir başkası sizin nickinizi kullanmaya 
-	kalkarsa, o kişiye nicki değiştirmesi için bir dakika süre 
-	verilir, eğer değiştirmezse %S tarafından otomatik olarak
-	değiştirilir.
+	Nickiniz iÃ§in otomatik koruma Ã¶zelliÄŸini aÃ§ar ve kapatÄ±r.
+	Koruma aÃ§Ä±kken eÄŸer bir baÅŸkasÄ± sizin nickinizi kullanmaya 
+	kalkarsa, o kiÅŸiye nicki deÄŸiÅŸtirmesi iÃ§in bir dakika sÃ¼re 
+	verilir, eÄŸer deÄŸiÅŸtirmezse %S tarafÄ±ndan otomatik olarak
+	deÄŸiÅŸtirilir.
 	
-	Eğer QUICK parametresini seçerseniz, kullanıcıya nickini
-	değiştirmesi için 60 saniye yerine sadece 20 saniye verilir.
-	Eğer IMMED parametresini seçerseniz kullanıcının nicki
-	uyarılmadan hemen değiştirilir; lütfen çok gerekmedikçe
-	bu özelliği kullanmayın. Hatta network yöneticileri bu
-	özelliği devre dışı bırakmış olabilirler.
+	EÄŸer QUICK parametresini seÃ§erseniz, kullanÄ±cÄ±ya nickini
+	deÄŸiÅŸtirmesi iÃ§in 60 saniye yerine sadece 20 saniye verilir.
+	EÄŸer IMMED parametresini seÃ§erseniz kullanÄ±cÄ±nÄ±n nicki
+	uyarÄ±lmadan hemen deÄŸiÅŸtirilir; lÃ¼tfen Ã§ok gerekmedikÃ§e
+	bu Ã¶zelliÄŸi kullanmayÄ±n. Hatta network yÃ¶neticileri bu
+	Ã¶zelliÄŸi devre dÄ±ÅŸÄ± bÄ±rakmÄ±ÅŸ olabilirler.
 
 NICK_HELP_SET_SECURE
-	Kullanımı: SET SECURE {ON | OFF}
+	KullanÄ±mÄ±: SET SECURE {ON | OFF}
 	
-	%S'ün güvenlik özelliklerini açar ve kapatır. SECURE 
-	ayarı ile, nickin sahibi olarak tanınmanız için önce şifreyle 
-	kendinizi tanıtmanız gerekir(adresinizin nickin access
-	listesinde olup olmamasına bağlı olarak). Fakat, eğer 
-	adresiniz nickin access listesindeyse KILL özelliği
-	kullanılmış olsa bile %S sizi otomatik olarak kill
+	%S'Ã¼n gÃ¼venlik Ã¶zelliklerini aÃ§ar ve kapatÄ±r. SECURE 
+	ayarÄ± ile, nickin sahibi olarak tanÄ±nmanÄ±z iÃ§in Ã¶nce ÅŸifreyle 
+	kendinizi tanÄ±tmanÄ±z gerekir(adresinizin nickin access
+	listesinde olup olmamasÄ±na baÄŸlÄ± olarak). Fakat, eÄŸer 
+	adresiniz nickin access listesindeyse KILL Ã¶zelliÄŸi
+	kullanÄ±lmÄ±ÅŸ olsa bile %S sizi otomatik olarak kill
 	lemeyecektir.
 
 NICK_HELP_SET_PRIVATE
-	Kullanımı: SET PRIVATE {ON | OFF}
+	KullanÄ±mÄ±: SET PRIVATE {ON | OFF}
 	
-	%S'ün özel nick özelliğini açar kapatır. PRIVATE ayarı
-	ile, %S'ün LIST komutu kullanıldığında nickiniz listede
-	gözükmeyecektir.(Buna rağmen, nickinizi bilen biri INFO 
-	komutunu kullanarak hakkınızda bilgi alabilir.)
+	%S'Ã¼n Ã¶zel nick Ã¶zelliÄŸini aÃ§ar kapatÄ±r. PRIVATE ayarÄ±
+	ile, %S'Ã¼n LIST komutu kullanÄ±ldÄ±ÄŸÄ±nda nickiniz listede
+	gÃ¶zÃ¼kmeyecektir.(Buna raÄŸmen, nickinizi bilen biri INFO 
+	komutunu kullanarak hakkÄ±nÄ±zda bilgi alabilir.)
 
 NICK_HELP_SET_HIDE
-	Kullanımı: SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
+	KullanÄ±mÄ±: SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 	
-	Birisi hakkınızda bilgi almak için %S INFO komutunu 
-	kullandığında bazı bilgilerin burada gözükmemesini sağlar.
-	E-mail adresinizi (EMAIL), son göründüğünüz user@host 
-	maskını (USERMASK), ve son çıkış mesajınızı (QUIT)
-	saklayabilirsiniz. İkinici parametre bilginin görünüp (OFF)
-	görünmeyeceğini (ON) belirtmenizi sağlar.
+	Birisi hakkÄ±nÄ±zda bilgi almak iÃ§in %S INFO komutunu 
+	kullandÄ±ÄŸÄ±nda bazÄ± bilgilerin burada gÃ¶zÃ¼kmemesini saÄŸlar.
+	E-mail adresinizi (EMAIL), son gÃ¶rÃ¼ndÃ¼ÄŸÃ¼nÃ¼z user@host 
+	maskÄ±nÄ± (USERMASK), ve son Ã§Ä±kÄ±ÅŸ mesajÄ±nÄ±zÄ± (QUIT)
+	saklayabilirsiniz. Ä°kinici parametre bilginin gÃ¶rÃ¼nÃ¼p (OFF)
+	gÃ¶rÃ¼nmeyeceÄŸini (ON) belirtmenizi saÄŸlar.
 
 NICK_HELP_SET_MSG
-	Kullanımı: SET MSG {ON | OFF}
+	KullanÄ±mÄ±: SET MSG {ON | OFF}
 	
-	Eğer bağlı bulunduğunuz sunucu bunu destekliyor ise servisler sizinle 
-	MSG(Düz mesajlar) ile konuşurlar, bu ayar aktif durumda olmazsa sizinle 
-	iletişimde duyuru(notice) kullanırız.
+	EÄŸer baÄŸlÄ± bulunduÄŸunuz sunucu bunu destekliyor ise servisler sizinle 
+	MSG(DÃ¼z mesajlar) ile konuÅŸurlar, bu ayar aktif durumda olmazsa sizinle 
+	iletiÅŸimde duyuru(notice) kullanÄ±rÄ±z.
 
 NICK_HELP_SET_AUTOOP
-	Kullanımı: SET AUTOOP {ON | OFF}
+	KullanÄ±mÄ±: SET AUTOOP {ON | OFF}
 	
-	Servislerin otomatik op vermesini sağlar. Eğer aktif duruma getirilir ise 
+	Servislerin otomatik op vermesini saÄŸlar. EÄŸer aktif duruma getirilir ise 
 	servisler kanala girdiginizde sizi otomatik operator konumuna getirirler.
 
 NICK_HELP_SASET
-	Kullanımı: SASET nickname option bilgi.
+	KullanÄ±mÄ±: SASET nickname option bilgi.
 	
-	Secilen rumuzun ayarlarını düzenler.  kullanılabilecek option(ayarlar) :
+	Secilen rumuzun ayarlarÄ±nÄ± dÃ¼zenler.  kullanÄ±labilecek option(ayarlar) :
 	
-	    DISPLAY    Nick Grubunu düzenler
-	    PASSWORD   Secilen rumuzun şifresini degiştirir
-	    URL        Secilen rumuzun kişisel sitesini degiştirir
-	    EMAIL      Secilen rumuzun e-posta adresini degiştirir
-	    ICQ        Secilen rumuzun icq numarasını degiştirir
-	    GREET      Secilen rumuzun karşılama mesajını degiştirir
-	    KILL       Rumuzun güvenligini acar veya kapatır
-	    SECURE     Rumuzun korumasını acar veya kapatır
-	    PRIVATE    Nick'i nick listesinden ayrıcalıklı konuma getirir
+	    DISPLAY    Nick Grubunu dÃ¼zenler
+	    PASSWORD   Secilen rumuzun ÅŸifresini degiÅŸtirir
+	    URL        Secilen rumuzun kiÅŸisel sitesini degiÅŸtirir
+	    EMAIL      Secilen rumuzun e-posta adresini degiÅŸtirir
+	    ICQ        Secilen rumuzun icq numarasÄ±nÄ± degiÅŸtirir
+	    GREET      Secilen rumuzun karÅŸÄ±lama mesajÄ±nÄ± degiÅŸtirir
+	    KILL       Rumuzun gÃ¼venligini acar veya kapatÄ±r
+	    SECURE     Rumuzun korumasÄ±nÄ± acar veya kapatÄ±r
+	    PRIVATE    Nick'i nick listesinden ayrÄ±calÄ±klÄ± konuma getirir
 	                   %R%S LIST
-	    HIDE       Rumuzun belirlenen bilgisini INFO'da gösterimden kaldırır
+	    HIDE       Rumuzun belirlenen bilgisini INFO'da gÃ¶sterimden kaldÄ±rÄ±r
 	    MSG        Servislerin geri cevap secenegini belirler
-	    NOEXPIRE   Nick zaman aşım süresini kaldırır
-	    LANGUAGE   Rumuzun servisleri kullanırken alacagı cevap
-	               ve yardimlarda kullanılacak olan dil'i belirler
+	    NOEXPIRE   Nick zaman aÅŸÄ±m sÃ¼resini kaldÄ±rÄ±r
+	    LANGUAGE   Rumuzun servisleri kullanÄ±rken alacagÄ± cevap
+	               ve yardimlarda kullanÄ±lacak olan dil'i belirler
 	
 	Daha fazla bilgiye %R%S HELP SASET option 
-	şeklinde parametrelerin yardımları ile ulasabilirsiniz. Secilen
-	nickname bilgilerini değiştir. 
+	ÅŸeklinde parametrelerin yardÄ±mlarÄ± ile ulasabilirsiniz. Secilen
+	nickname bilgilerini deÄŸiÅŸtir. 
 	
-	Services admins kullanımı ile sınırlıdır.
+	Services admins kullanÄ±mÄ± ile sÄ±nÄ±rlÄ±dÄ±r.
 
 NICK_HELP_SASET_DISPLAY
-	Kullanımı: SASET nickname DISPLAY new-display
+	KullanÄ±mÄ±: SASET nickname DISPLAY new-display
 	
-	Secilen rumuzun servisler icerisinde kullandıgı nick grubunu değiştirir 
-	Yeni grup kullanılan grup ile aynı olamaz.
+	Secilen rumuzun servisler icerisinde kullandÄ±gÄ± nick grubunu deÄŸiÅŸtirir 
+	Yeni grup kullanÄ±lan grup ile aynÄ± olamaz.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_PASSWORD
-	Kullanımı: SASET nickname PASSWORD new-password
+	KullanÄ±mÄ±: SASET nickname PASSWORD new-password
 	
-	Nick sahibinin sisteme nickini tanıtırken kullandıgı sifreyi degiştirir.
+	Nick sahibinin sisteme nickini tanÄ±tÄ±rken kullandÄ±gÄ± sifreyi degiÅŸtirir.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_URL
-	Kullanımı: SASET nickname URL url
+	KullanÄ±mÄ±: SASET nickname URL url
 	
-	Kişi bilgilerinde görülen Url'i degiştirir.  Bu URL
-	kişinin tercihi ile belirledigi bir bilgidir
-	ve INFO bilgilerinde gösterilebilir.
+	KiÅŸi bilgilerinde gÃ¶rÃ¼len Url'i degiÅŸtirir.  Bu URL
+	kiÅŸinin tercihi ile belirledigi bir bilgidir
+	ve INFO bilgilerinde gÃ¶sterilebilir.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_EMAIL
-	Kullanımı: SASET nickname EMAIL address
+	KullanÄ±mÄ±: SASET nickname EMAIL address
 	
-	Rumuzun e-posta olarak belirlediği adresi degiştirir.
+	Rumuzun e-posta olarak belirlediÄŸi adresi degiÅŸtirir.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 	
 NICK_HELP_SASET_ICQ
-	Kullanımı: SASET nickname ICQ number
+	KullanÄ±mÄ±: SASET nickname ICQ number
 	
-	Kişi bilgilerinde görülen ICQ numarasını degiştirir.  Bu 
-	ICQ numarası kişinin tercihi ile belirledigi bir bilgidir
-	ve INFO bilgilerinde gösterilebilir.
+	KiÅŸi bilgilerinde gÃ¶rÃ¼len ICQ numarasÄ±nÄ± degiÅŸtirir.  Bu 
+	ICQ numarasÄ± kiÅŸinin tercihi ile belirledigi bir bilgidir
+	ve INFO bilgilerinde gÃ¶sterilebilir.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 	
 NICK_HELP_SASET_GREET
-	Kullanımı: SASET nickname GREET message
+	KullanÄ±mÄ±: SASET nickname GREET message
 	
-	Secilen rumuza karsılama mesajı belirler, 
-	bu mesaj kişi kanala girdiginde servisler tarafından 
-	karşılama mesajı olarak gönderilir.  
-	GREET(karşılama) kişinin yetkili oldugu kanallarda gönderilir.
+	Secilen rumuza karsÄ±lama mesajÄ± belirler, 
+	bu mesaj kiÅŸi kanala girdiginde servisler tarafÄ±ndan 
+	karÅŸÄ±lama mesajÄ± olarak gÃ¶nderilir.  
+	GREET(karÅŸÄ±lama) kiÅŸinin yetkili oldugu kanallarda gÃ¶nderilir.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_KILL
-	Kullanımı: SASET nickname KILL {ON | QUICK | IMMED | OFF}
+	KullanÄ±mÄ±: SASET nickname KILL {ON | QUICK | IMMED | OFF}
 	
-	Nickin otomatik koruma özelliğini açar ve kapatır.
-	Koruma açıkken eğer bir başkası o rumuzu kullanmaya 
-	kalkarsa, o kişiye nicki değiştirmesi için bir dakika süre 
-	verilir, eğer değiştirmezse %S tarafından otomatik olarak
-	değiştirilir.
+	Nickin otomatik koruma Ã¶zelliÄŸini aÃ§ar ve kapatÄ±r.
+	Koruma aÃ§Ä±kken eÄŸer bir baÅŸkasÄ± o rumuzu kullanmaya 
+	kalkarsa, o kiÅŸiye nicki deÄŸiÅŸtirmesi iÃ§in bir dakika sÃ¼re 
+	verilir, eÄŸer deÄŸiÅŸtirmezse %S tarafÄ±ndan otomatik olarak
+	deÄŸiÅŸtirilir.
 	
-	Eğer QUICK parametresini seçerseniz, kullanıcıya nickini
-	değiştirmesi için 60 saniye yerine sadece 20 saniye verilir.
-	Eğer IMMED parametresini seçerseniz kullanıcının nicki
-	uyarılmadan hemen değiştirilir; lütfen çok gerekmedikçe
-	bu özelliği kullanmayın. Hatta bu
-	özellik devre dışı bırakılmış olabilirler.
+	EÄŸer QUICK parametresini seÃ§erseniz, kullanÄ±cÄ±ya nickini
+	deÄŸiÅŸtirmesi iÃ§in 60 saniye yerine sadece 20 saniye verilir.
+	EÄŸer IMMED parametresini seÃ§erseniz kullanÄ±cÄ±nÄ±n nicki
+	uyarÄ±lmadan hemen deÄŸiÅŸtirilir; lÃ¼tfen Ã§ok gerekmedikÃ§e
+	bu Ã¶zelliÄŸi kullanmayÄ±n. Hatta bu
+	Ã¶zellik devre dÄ±ÅŸÄ± bÄ±rakÄ±lmÄ±ÅŸ olabilirler.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_SECURE
-	Kullanımı: SASET nickname SECURE {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname SECURE {ON | OFF}
 	
-	%S'ün güvenlik özelliklerini açar ve kapatır. SECURE 
-	ayarı ile, nickin sahibi olarak tanınmasi için önce şifreyle 
-	kişinin kendini tanıtmasi gerekir(adresinin nickin access
-	listesinde olup olmamasına bağlı olarak). Fakat, eğer 
-	adresi nickin access listesindeyse KILL özelliği
-	kullanılmış olsa bile %S sizi otomatik olarak kill
+	%S'Ã¼n gÃ¼venlik Ã¶zelliklerini aÃ§ar ve kapatÄ±r. SECURE 
+	ayarÄ± ile, nickin sahibi olarak tanÄ±nmasi iÃ§in Ã¶nce ÅŸifreyle 
+	kiÅŸinin kendini tanÄ±tmasi gerekir(adresinin nickin access
+	listesinde olup olmamasÄ±na baÄŸlÄ± olarak). Fakat, eÄŸer 
+	adresi nickin access listesindeyse KILL Ã¶zelliÄŸi
+	kullanÄ±lmÄ±ÅŸ olsa bile %S sizi otomatik olarak kill
 	lemeyecektir..
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_PRIVATE
-	Kullanımı: SASET nickname PRIVATE {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname PRIVATE {ON | OFF}
 	
-	%S'ün özel nick özelliğini açar kapatır. PRIVATE ayarı
-	ile, %S'ün LIST komutu kullanıldığında nickin listede
-	gözükmemesi sağlanır.(Buna rağmen, nicki bilen biri INFO 
+	%S'Ã¼n Ã¶zel nick Ã¶zelliÄŸini aÃ§ar kapatÄ±r. PRIVATE ayarÄ±
+	ile, %S'Ã¼n LIST komutu kullanÄ±ldÄ±ÄŸÄ±nda nickin listede
+	gÃ¶zÃ¼kmemesi saÄŸlanÄ±r.(Buna raÄŸmen, nicki bilen biri INFO 
 	komutunu kullanarak 
-	nick hakkında bilgi alabilir.)
+	nick hakkÄ±nda bilgi alabilir.)
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_HIDE
-	Kullanımı: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
-	Birisi rumuz hakkında bilgi almak için %S INFO komutunu 
-	kullandığında bazı bilgilerin burada gözükmemesini sağlar.
-	E-mail adresini (EMAIL), son göründüğünü user@host 
-	maskını (USERMASK), ve son çıkış mesajını (QUIT)
-	görünmez şekle alabilirsiniz. İkinici parametre bilginin görünüp (OFF)
-	görünmeyeceğini 
-	(ON) belirtmenizi sağlar.
+	Birisi rumuz hakkÄ±nda bilgi almak iÃ§in %S INFO komutunu 
+	kullandÄ±ÄŸÄ±nda bazÄ± bilgilerin burada gÃ¶zÃ¼kmemesini saÄŸlar.
+	E-mail adresini (EMAIL), son gÃ¶rÃ¼ndÃ¼ÄŸÃ¼nÃ¼ user@host 
+	maskÄ±nÄ± (USERMASK), ve son Ã§Ä±kÄ±ÅŸ mesajÄ±nÄ± (QUIT)
+	gÃ¶rÃ¼nmez ÅŸekle alabilirsiniz. Ä°kinici parametre bilginin gÃ¶rÃ¼nÃ¼p (OFF)
+	gÃ¶rÃ¼nmeyeceÄŸini 
+	(ON) belirtmenizi saÄŸlar.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 	
 NICK_HELP_SASET_MSG
-	Kullanımı: SASET nickname MSG {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname MSG {ON | OFF}
 	
-	Servislerin kişiye cevapta kullanacağı yolu belirtir 
-	Eğer MSG özelliği aktif ise, servisler mesaj kullanır,
-	değilse uyarı kullanır.
+	Servislerin kiÅŸiye cevapta kullanacaÄŸÄ± yolu belirtir 
+	EÄŸer MSG Ã¶zelliÄŸi aktif ise, servisler mesaj kullanÄ±r,
+	deÄŸilse uyarÄ± kullanÄ±r.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_NOEXPIRE
-	Kullanımı: SASET nickname NOEXPIRE {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname NOEXPIRE {ON | OFF}
 	
-	Secilen nicki zaman aşımına kapatır.  Bu düzenleme 
-	ON şekline getirilir ise rumuz zaman aşımı yüzünden silinmez.
+	Secilen nicki zaman aÅŸÄ±mÄ±na kapatÄ±r.  Bu dÃ¼zenleme 
+	ON ÅŸekline getirilir ise rumuz zaman aÅŸÄ±mÄ± yÃ¼zÃ¼nden silinmez.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_HELP_SASET_AUTOOP
-	Kullanımı: SASET nickname AUTOOP {ON | OFF}
+	KullanÄ±mÄ±: SASET nickname AUTOOP {ON | OFF}
 	
-	rumuzun otomatik yetki almasını sağlar.
-	Eğer ON şekline getirlir ise nick kanala girişinde 
-	otomatik olarak operator konumuna geçer.
+	rumuzun otomatik yetki almasÄ±nÄ± saÄŸlar.
+	EÄŸer ON ÅŸekline getirlir ise nick kanala giriÅŸinde 
+	otomatik olarak operator konumuna geÃ§er.
 
 NICK_HELP_SASET_LANGUAGE
-	Kullanımı: SASET nickname LANGUAGE number
+	KullanÄ±mÄ±: SASET nickname LANGUAGE number
 	
-	Servislerin rumuza yolladıgı mesajlardaki dil secenegini ayarlamanıza yarar
-	(Örneğin kişi türkçe seçmiş ise, servisler türkçe metinleri kullanır).
-	Dilnumaralari hakkında bilgilere
+	Servislerin rumuza yolladÄ±gÄ± mesajlardaki dil secenegini ayarlamanÄ±za yarar
+	(Ã–rneÄŸin kiÅŸi tÃ¼rkÃ§e seÃ§miÅŸ ise, servisler tÃ¼rkÃ§e metinleri kullanÄ±r).
+	Dilnumaralari hakkÄ±nda bilgilere
 	%R%S HELP SET LANGUAGE komutu ile ulasabilirsiniz.
 
 NICK_HELP_RECOVER
-	Kullanımı: RECOVER nickname [password]
+	KullanÄ±mÄ±: RECOVER nickname [password]
 	
-	Rumuzunu başkasının kullandıgında kullanabileceginiz bir komuttur
-	%S otomatik olarak nickinizi kullanımdan kaldırır
-	Böylece rumuzunuza otomatik gecebilirsiniz.
+	Rumuzunu baÅŸkasÄ±nÄ±n kullandÄ±gÄ±nda kullanabileceginiz bir komuttur
+	%S otomatik olarak nickinizi kullanÄ±mdan kaldÄ±rÄ±r
+	BÃ¶ylece rumuzunuza otomatik gecebilirsiniz.
 	gecebilirsiniz.
 	
-	Bu komutu kullandıgınızda, %S sahte kullanıcıdan
-	nickinizi alır ve kişiyi sunucuda tutar
+	Bu komutu kullandÄ±gÄ±nÄ±zda, %S sahte kullanÄ±cÄ±dan
+	nickinizi alÄ±r ve kiÅŸiyi sunucuda tutar
 	ve rumuzunuzu geri alma sansi verir.  
-	Eğer girer kullanıcı tekrar bağlanır ve o rumuzu almaya kalkarsa
-	%s kullanımında olan rumuzu alamaz
-	bundan sonra rumuzunuzu isterseniz, kullanmak icin RELEASE komutunu uygulamanız 
+	EÄŸer girer kullanÄ±cÄ± tekrar baÄŸlanÄ±r ve o rumuzu almaya kalkarsa
+	%s kullanÄ±mÄ±nda olan rumuzu alamaz
+	bundan sonra rumuzunuzu isterseniz, kullanmak icin RELEASE komutunu uygulamanÄ±z 
 	gerekmektedir.
-	Bu komut hakkında (%R%S HELP RELEASE) 
+	Bu komut hakkÄ±nda (%R%S HELP RELEASE) 
 	.
 	
-	RECOVER komutunu kullandıktan sonra
-	rumuzu serbest bırakmalı ve nickinize geçiş yapmalısınız.
+	RECOVER komutunu kullandÄ±ktan sonra
+	rumuzu serbest bÄ±rakmalÄ± ve nickinize geÃ§iÅŸ yapmalÄ±sÄ±nÄ±z.
 	yetkilerinizi ancak bu sekilde kullanabilirsiniz
 	ancak bu sekilde
-	kullanabilirsiniz. RECOVER sonrası rumuzu kimin kullandıgını WHOIS komutu ile ogrenebilirsiniz
+	kullanabilirsiniz. RECOVER sonrasÄ± rumuzu kimin kullandÄ±gÄ±nÄ± WHOIS komutu ile ogrenebilirsiniz
 
 NICK_HELP_RELEASE
-	Kullanımı: RELEASE nickname [password]
+	KullanÄ±mÄ±: RELEASE nickname [password]
 	
-	%S belirli sebebler tarafından kullanılan rumuzları serbest bırakmak
-	icin kullanılır. Zaman korumalı rumuzlar veya RECOVER
-	komutu ile %s kullanımına gecen rumuzlar icin kullanılır;
-	boylece rumuzu kullanılabilir duruma getirirsiniz.
+	%S belirli sebebler tarafÄ±ndan kullanÄ±lan rumuzlarÄ± serbest bÄ±rakmak
+	icin kullanÄ±lÄ±r. Zaman korumalÄ± rumuzlar veya RECOVER
+	komutu ile %s kullanÄ±mÄ±na gecen rumuzlar icin kullanÄ±lÄ±r;
+	boylece rumuzu kullanÄ±labilir duruma getirirsiniz.
 	
-	RELEASE komutu ancak nickserv tarafından kullanılan nickler icin işe yarar
+	RELEASE komutu ancak nickserv tarafÄ±ndan kullanÄ±lan nickler icin iÅŸe yarar
 	/WHOIS komutu ile rumuzu kullanan adrese ulasabilirsiniz.
-	RELEASE kullanımı sonrası nick kullanıma acılır
-	bundan sonra u rumuza geçis yapılmalı ve 
+	RELEASE kullanÄ±mÄ± sonrasÄ± nick kullanÄ±ma acÄ±lÄ±r
+	bundan sonra u rumuza geÃ§is yapÄ±lmalÄ± ve 
 	ve nick sifresi girilmelidir.
 
 NICK_HELP_GHOST
-	Kullanımı: GHOST nick [şifre]
+	KullanÄ±mÄ±: GHOST nick [ÅŸifre]
 	
-	Asılı kalan nickinizin bağlantısını koparır. Asılı kalan nick 
-	aslında hayalet nicktir fakat IRC serverı bunun hala hatta
-	olduğunu sanar. Genellikle bu durum bilgisayarınızın çökmesi 
-	yada modem bağlantınızın serverdayken kopması durumunda 
-	gerçekleşir.
+	AsÄ±lÄ± kalan nickinizin baÄŸlantÄ±sÄ±nÄ± koparÄ±r. AsÄ±lÄ± kalan nick 
+	aslÄ±nda hayalet nicktir fakat IRC serverÄ± bunun hala hatta
+	olduÄŸunu sanar. Genellikle bu durum bilgisayarÄ±nÄ±zÄ±n Ã§Ã¶kmesi 
+	yada modem baÄŸlantÄ±nÄ±zÄ±n serverdayken kopmasÄ± durumunda 
+	gerÃ§ekleÅŸir.
 	
-	GHOST komutunu bir nick üzerinde kullanabilmek için o an
-	/WHOIS inizdeki adresin o nickin access listesinde olması, 
-	o nick için doğru şifrenin belirtilmiş olması yada o nickin
-	grubundaki başka bir nickin tanıtılmış olması gerekir.
+	GHOST komutunu bir nick Ã¼zerinde kullanabilmek iÃ§in o an
+	/WHOIS inizdeki adresin o nickin access listesinde olmasÄ±, 
+	o nick iÃ§in doÄŸru ÅŸifrenin belirtilmiÅŸ olmasÄ± yada o nickin
+	grubundaki baÅŸka bir nickin tanÄ±tÄ±lmÄ±ÅŸ olmasÄ± gerekir.
 
 NICK_HELP_INFO
-	Kullanımı: INFO nick [ALL]
+	KullanÄ±mÄ±: INFO nick [ALL]
 	
-	Belirtilen nick hakkında o nickin sahibi, son görüldüğü adres ve 
-	zaman, ve nickin özellikleri gibi bilgiler verir. Eğer nick 
-	hakkında bilgi alırken o nickin sahibi sizseniz ve tanıtmışsanız 
-	ALL parametresini kullandığınızda bilgiler gizli olsa bile o 
-	nick hakkındaki tüm bilgiler görünür.
+	Belirtilen nick hakkÄ±nda o nickin sahibi, son gÃ¶rÃ¼ldÃ¼ÄŸÃ¼ adres ve 
+	zaman, ve nickin Ã¶zellikleri gibi bilgiler verir. EÄŸer nick 
+	hakkÄ±nda bilgi alÄ±rken o nickin sahibi sizseniz ve tanÄ±tmÄ±ÅŸsanÄ±z 
+	ALL parametresini kullandÄ±ÄŸÄ±nÄ±zda bilgiler gizli olsa bile o 
+	nick hakkÄ±ndaki tÃ¼m bilgiler gÃ¶rÃ¼nÃ¼r.
 
 NICK_HELP_LIST
-	Kullanımı: LIST model
+	KullanÄ±mÄ±: LIST model
 	
-	nick!user@host formatında, belirtilen modeli içeren
-	tüm kayıtlı nickleri listeler. PRIVATE özelliği aktif olan
+	nick!user@host formatÄ±nda, belirtilen modeli iÃ§eren
+	tÃ¼m kayÄ±tlÄ± nickleri listeler. PRIVATE Ã¶zelliÄŸi aktif olan
 	nickler listelenmez.
 	
-	Örnekler:
+	Ã–rnekler:
 	
 	    LIST *!aliuser@ixir.com
-	        identi aliuser@ixir.com olan tüm kayıtlı nickleri 
+	        identi aliuser@ixir.com olan tÃ¼m kayÄ±tlÄ± nickleri 
 	        listeler.
 	
 	    LIST *Bot*!*@*
-	        Bot kelimesini içeren tüm kayıtlı nickleri listeler.
-	       (büyük küçük harf hassasiyeti vardır.)
+	        Bot kelimesini iÃ§eren tÃ¼m kayÄ±tlÄ± nickleri listeler.
+	       (bÃ¼yÃ¼k kÃ¼Ã§Ã¼k harf hassasiyeti vardÄ±r.)
 	
 	    LIST *!*@*.ixir.com
-	        ixir.com domainine sahip tüm kayıtlı nickleri listeler.
+	        ixir.com domainine sahip tÃ¼m kayÄ±tlÄ± nickleri listeler.
 
 NICK_HELP_ALIST
-	Kullanımı: ALIST [level]
+	KullanÄ±mÄ±: ALIST [level]
 	
-	Yetkili oldugunuz tüm kanalları ve seviyelerini listeler.
-	Listelemede xOP veya access seneceklerine göre tarama yapabilirsiniz. 
-	Bir secenek belirtilmez ise tüm yetkili bulundugunuz kanallari listeler.
+	Yetkili oldugunuz tÃ¼m kanallarÄ± ve seviyelerini listeler.
+	Listelemede xOP veya access seneceklerine gÃ¶re tarama yapabilirsiniz. 
+	Bir secenek belirtilmez ise tÃ¼m yetkili bulundugunuz kanallari listeler.
 
-	Örnekler:
+	Ã–rnekler:
 	    ALIST Founder
 	        Sahibi bulundugunuz kanallari
 	    listeler.
 
 	    ALIST AOP
-	        AOP yetkisine sahip oldugunuz kanalları listeler 
-	    ve daha buyuk yetkileride gösterir.
+	        AOP yetkisine sahip oldugunuz kanallarÄ± listeler 
+	    ve daha buyuk yetkileride gÃ¶sterir.
 
 	    ALIST 10
-	        10 seviyesinde yetkiye sahip oldugunuz kanalları listeler 
+	        10 seviyesinde yetkiye sahip oldugunuz kanallarÄ± listeler 
 	    ve daha buyuk seviyelerinizide kapsar.
 	
-	Kanallarda zaman aşımı kapalı ise yanı NOEXPIRE özelliği acık ise 
-	bunları işaretle belirtir.
+	Kanallarda zaman aÅŸÄ±mÄ± kapalÄ± ise yanÄ± NOEXPIRE Ã¶zelliÄŸi acÄ±k ise 
+	bunlarÄ± iÅŸaretle belirtir.
 	
 NICK_HELP_GLIST
-	Kullanımı: GLIST
+	KullanÄ±mÄ±: GLIST
 	
-	Grubunuzda bulunan tüm rumuzları listeler.
+	Grubunuzda bulunan tÃ¼m rumuzlarÄ± listeler.
 
 NICK_HELP_STATUS
-	Kullanımı: STATUS nick...
+	KullanÄ±mÄ±: STATUS nick...
 	
-	Nickin kullanıcı tarafından nickin sahibi olarak tanıtılıp 
-	tanıtılmadığını gösterir. Cevap şu formattadır:
+	Nickin kullanÄ±cÄ± tarafÄ±ndan nickin sahibi olarak tanÄ±tÄ±lÄ±p 
+	tanÄ±tÄ±lmadÄ±ÄŸÄ±nÄ± gÃ¶sterir. Cevap ÅŸu formattadÄ±r:
 	
 	    nick durum-kodu
 	
-	nick komutta yazılan nick, ve durum-kodu da
-	aşağıdakilerden biridir:
+	nick komutta yazÄ±lan nick, ve durum-kodu da
+	aÅŸaÄŸÄ±dakilerden biridir:
 	
-	    0 - Böyle bir kullanıcı bağlı değil veya nick 
-	           kayıtlı değil
-	    1 - Kullanıcı nickin sahibi olarak tanıtılmamış
-	    2 - Kullanıcı nickin sahibi olarak access listesinden 
-	           tanıtılmış
-	    3 - Kullanıcı nickin sahibi olarak şifreyle tanıtılmış
+	    0 - BÃ¶yle bir kullanÄ±cÄ± baÄŸlÄ± deÄŸil veya nick 
+	           kayÄ±tlÄ± deÄŸil
+	    1 - KullanÄ±cÄ± nickin sahibi olarak tanÄ±tÄ±lmamÄ±ÅŸ
+	    2 - KullanÄ±cÄ± nickin sahibi olarak access listesinden 
+	           tanÄ±tÄ±lmÄ±ÅŸ
+	    3 - KullanÄ±cÄ± nickin sahibi olarak ÅŸifreyle tanÄ±tÄ±lmÄ±ÅŸ
 	
-	Her komutta en fazla 16 nick için cevap verilir; gerisi 
-	yoksayılır. If no nickname is given, your status
+	Her komutta en fazla 16 nick iÃ§in cevap verilir; gerisi 
+	yoksayÄ±lÄ±r. If no nickname is given, your status
 	will be returned.
 
 NICK_HELP_SENDPASS
-	Kullanımı: SENDPASS nick
+	KullanÄ±mÄ±: SENDPASS nick
 	
-	Belirtilen nickin şifresini nickin kayıtlarında belirtilmiş 
-	email adresine gönderir.
+	Belirtilen nickin ÅŸifresini nickin kayÄ±tlarÄ±nda belirtilmiÅŸ 
+	email adresine gÃ¶nderir.
 	
-	Bazı networklerde sadece IRC operatörleri kullanabilir.
+	BazÄ± networklerde sadece IRC operatÃ¶rleri kullanabilir.
 	
-	Eğer şifreleme(encryption) aktifse bu komut devre dışı kalır.
+	EÄŸer ÅŸifreleme(encryption) aktifse bu komut devre dÄ±ÅŸÄ± kalÄ±r.
 
 NICK_HELP_CONFIRM
-	Kullanımı: CONFIRM aktivasyon-kodu
+	KullanÄ±mÄ±: CONFIRM aktivasyon-kodu
 	
-	Bu nick kayıt sırasındaki 2. adımdır.
-	Rumuzunuzu kayıt edebilmek icin daha önceden
-	%S (veya aktivasyon servisi) tarafından 
-	e-posta adresinize yollanan aktivasyon kodunuzu confirm komutu ile sisteme göndermelisiniz.
-	Eğer kodu bilmiyorsanız %R%S HELP RESEND ile tekrar edinme bilgilerine ulasabilirsiniz. Daha önceden
-	bir kayıt isteginiz yok ise: %R%S HELP REGISTER şeklinde kayıt işlemi hakkında yardım alabilirsiniz.
+	Bu nick kayÄ±t sÄ±rasÄ±ndaki 2. adÄ±mdÄ±r.
+	Rumuzunuzu kayÄ±t edebilmek icin daha Ã¶nceden
+	%S (veya aktivasyon servisi) tarafÄ±ndan 
+	e-posta adresinize yollanan aktivasyon kodunuzu confirm komutu ile sisteme gÃ¶ndermelisiniz.
+	EÄŸer kodu bilmiyorsanÄ±z %R%S HELP RESEND ile tekrar edinme bilgilerine ulasabilirsiniz. Daha Ã¶nceden
+	bir kayÄ±t isteginiz yok ise: %R%S HELP REGISTER ÅŸeklinde kayÄ±t iÅŸlemi hakkÄ±nda yardÄ±m alabilirsiniz.
 
 NICK_HELP_RESEND
-	Kullanımı: RESEND
+	KullanÄ±mÄ±: RESEND
 	
-	Bu komut ulaşmamış veya doğru olmayan aktivasyon kodunu
-	mail adresinize tekrar göndermek icin kullanılır.
+	Bu komut ulaÅŸmamÄ±ÅŸ veya doÄŸru olmayan aktivasyon kodunu
+	mail adresinize tekrar gÃ¶ndermek icin kullanÄ±lÄ±r.
 
 NICK_SERVADMIN_HELP
-	Servis adminleri herhangi bir nickin tanıtmasına gerek olmadan 
-	kaydını silebilir(drop) ve herhangi bir nickin access listesini 
-	görüntüleyebilir. (%R%S ACCESS LIST nick).
+	Servis adminleri herhangi bir nickin tanÄ±tmasÄ±na gerek olmadan 
+	kaydÄ±nÄ± silebilir(drop) ve herhangi bir nickin access listesini 
+	gÃ¶rÃ¼ntÃ¼leyebilir. (%R%S ACCESS LIST nick).
 
 NICK_SERVADMIN_HELP_LOGOUT
-	Kullanımı: LOGOUT [nick [REVALIDATE]]
+	KullanÄ±mÄ±: LOGOUT [nick [REVALIDATE]]
 	
-	Parametre kullanılmazsa, IDENTIFY komutunun yaptığı 
-	etkiyi tersine çevirir, yani artık o nickin gerçek sahibi
-	olarak tanınmamanızı sağlar. Fakat sizden nickinizi tekrar
+	Parametre kullanÄ±lmazsa, IDENTIFY komutunun yaptÄ±ÄŸÄ± 
+	etkiyi tersine Ã§evirir, yani artÄ±k o nickin gerÃ§ek sahibi
+	olarak tanÄ±nmamanÄ±zÄ± saÄŸlar. Fakat sizden nickinizi tekrar
 	identify etmeniz istenmez.
 	
-	Parametre kullanılırsada aynısını yapar ama buna ek olarak
-	REVALIDATE belirtilirse servisler o kişiye nickini yeniden 
-	identify etmesini söyler. Servis adminlerinin Kullanımıyla
-	sınırlıdır.
+	Parametre kullanÄ±lÄ±rsada aynÄ±sÄ±nÄ± yapar ama buna ek olarak
+	REVALIDATE belirtilirse servisler o kiÅŸiye nickini yeniden 
+	identify etmesini sÃ¶yler. Servis adminlerinin KullanÄ±mÄ±yla
+	sÄ±nÄ±rlÄ±dÄ±r.
 
 NICK_SERVADMIN_HELP_DROP
-	Kullanımı: DROP [nick]
+	KullanÄ±mÄ±: DROP [nick]
 	
-	Parametreye gerek olmadan, %S veritabanından nickinizi siler.
+	Parametreye gerek olmadan, %S veritabanÄ±ndan nickinizi siler.
 	
-	Parametreyle, belirtilen bir nicki veritabanından siler.
-	Grubunuzda bulunan herhangi bir nicki özel ayrıcalıklara
-	gerek olmadan silebilirsiniz. Bu işlemler Servis adminleri 
-	tarafından yapılabilir.
+	Parametreyle, belirtilen bir nicki veritabanÄ±ndan siler.
+	Grubunuzda bulunan herhangi bir nicki Ã¶zel ayrÄ±calÄ±klara
+	gerek olmadan silebilirsiniz. Bu iÅŸlemler Servis adminleri 
+	tarafÄ±ndan yapÄ±labilir.
 
 NICK_SERVADMIN_HELP_INFO
 	
-	Servis adminleri ALL parametresini herhangi bir nick için 
+	Servis adminleri ALL parametresini herhangi bir nick iÃ§in 
 	kullanabilirler.
 
 NICK_SERVADMIN_HELP_LIST
-	Kullanımı: LIST model [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+	KullanÄ±mÄ±: LIST model [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	
-	Belirtilen modele uyuşan tüm kayıtlı nickleri nick!user@host 
-	formatında listeler. PRIVATE özelliğ aktif olan kullanıcılar 
-	sadece servis adminleri tarafından görüntülenir. NOEXPIRE 
-	ayarı olan nicklerde servis adminleri için asılı bir ! bulunur.
+	Belirtilen modele uyuÅŸan tÃ¼m kayÄ±tlÄ± nickleri nick!user@host 
+	formatÄ±nda listeler. PRIVATE Ã¶zelliÄŸ aktif olan kullanÄ±cÄ±lar 
+	sadece servis adminleri tarafÄ±ndan gÃ¶rÃ¼ntÃ¼lenir. NOEXPIRE 
+	ayarÄ± olan nicklerde servis adminleri iÃ§in asÄ±lÄ± bir ! bulunur.
 	
 	If the FORBIDDEN, SUSPENDED, NOEXPIRE or UNCONFIRMED options are given, only
 	nicks which, respectively, are FORBIDDEN, SUSPENDED, UNCONFIRMED or have the
@@ -4193,69 +4193,69 @@ NICK_SERVADMIN_HELP_LIST
 	given, all nicks matching at least one option will be displayed.
 	These options are limited to Services admins.  
 	
-	Örnekler:
+	Ã–rnekler:
 	
 	    LIST *!aliuser@ixir.com
-	        identi aliuser@ixir.com olan tüm kayıtlı nickler 
+	        identi aliuser@ixir.com olan tÃ¼m kayÄ±tlÄ± nickler 
 	        listelenir.
 	
 	    LIST *Bot*!*@*
-	        İsimlerinde Bot yazan tüm kayıtlı nickler listelenir
-	        (küçük büyük harf hassasiyeti vardır).
+	        Ä°simlerinde Bot yazan tÃ¼m kayÄ±tlÄ± nickler listelenir
+	        (kÃ¼Ã§Ã¼k bÃ¼yÃ¼k harf hassasiyeti vardÄ±r).
 	
 	    LIST * NOEXPIRE
-	        Zaman asimi olmayan tüm kayıtlı nickler listelenir.
+	        Zaman asimi olmayan tÃ¼m kayÄ±tlÄ± nickler listelenir.
 
 NICK_SERVADMIN_HELP_ALIST
-	Kullanımı: ALIST [nickname] [level]
+	KullanÄ±mÄ±: ALIST [nickname] [level]
 	
-	Secilen rumuzun yetkiye sahip oldugu kanlları listeler.
-	Belirli parametreler ile daha dar bir alanda listeme yapılabilir 
-	Bu taramalarda rumuz için  
-	belirlenen seviye ve bunun üstündeki yetkiler gösterilir.
+	Secilen rumuzun yetkiye sahip oldugu kanllarÄ± listeler.
+	Belirli parametreler ile daha dar bir alanda listeme yapÄ±labilir 
+	Bu taramalarda rumuz iÃ§in  
+	belirlenen seviye ve bunun Ã¼stÃ¼ndeki yetkiler gÃ¶sterilir.
 
-	Sadece Servis adminleri tarafından kullanılır.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 
 NICK_SERVADMIN_HELP_GLIST
-	Kullanımı: GLIST [nickname]
+	KullanÄ±mÄ±: GLIST [nickname]
 	
-	Bir parametre eklenmeden de kullanılır. Secilen rumuzun nick grubunu ve o gruptakı
-	rumuzları gösterir .
+	Bir parametre eklenmeden de kullanÄ±lÄ±r. Secilen rumuzun nick grubunu ve o gruptakÄ±
+	rumuzlarÄ± gÃ¶sterir .
 	
-	Bir parametre ile kullanılır ise, grupta o parametre ile
-	eşleşen rumuzlar gösterilir.
-	Sadece Servis adminleri tarafından kullanılır.
+	Bir parametre ile kullanÄ±lÄ±r ise, grupta o parametre ile
+	eÅŸleÅŸen rumuzlar gÃ¶sterilir.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 
 NICK_SERVADMIN_HELP_GETPASS
-	Kullanımı: GETPASS nick
+	KullanÄ±mÄ±: GETPASS nick
 	
-	Belirtilen nickin şifresini söyler. Unutmayınki bu komutun
-	her kullanılışında , kullanılan nick ve komutu kullanan
-	kişi kaydedilerek WALLOPS/GLOBOPS olarak gönderilir.
+	Belirtilen nickin ÅŸifresini sÃ¶yler. UnutmayÄ±nki bu komutun
+	her kullanÄ±lÄ±ÅŸÄ±nda , kullanÄ±lan nick ve komutu kullanan
+	kiÅŸi kaydedilerek WALLOPS/GLOBOPS olarak gÃ¶nderilir.
 	
-	Sadece Servis adminleri tarafından kullanılır.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 	
-	(Bu komut şifreleme(encryption) aktif olduğu zaman devre dışıdır.)
+	(Bu komut ÅŸifreleme(encryption) aktif olduÄŸu zaman devre dÄ±ÅŸÄ±dÄ±r.)
 
 NICK_SERVADMIN_HELP_GETEMAIL
-	Kullanımı: GETEMAIL user@emailhost
+	KullanÄ±mÄ±: GETEMAIL user@emailhost
 
-	Secilen mail ile eşleşen rumuzu gösterir. Not
-	Başka rumuzlarin mail adresleri ile kullanmayınız.
-	Eşleşmeleri daha sonra paylaşmayınız.
-	Kişi bilgilerini kullanmayınız.
+	Secilen mail ile eÅŸleÅŸen rumuzu gÃ¶sterir. Not
+	BaÅŸka rumuzlarin mail adresleri ile kullanmayÄ±nÄ±z.
+	EÅŸleÅŸmeleri daha sonra paylaÅŸmayÄ±nÄ±z.
+	KiÅŸi bilgilerini kullanmayÄ±nÄ±z.
 
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 NICK_SERVADMIN_HELP_FORBID
-	Kullanımı: FORBID nick [sebep]
+	KullanÄ±mÄ±: FORBID nick [sebep]
 	
-	Belirtilen nickin kullanılmasını ve kayıt edilmesini engeller.
+	Belirtilen nickin kullanÄ±lmasÄ±nÄ± ve kayÄ±t edilmesini engeller.
 	Nick drop edilerek iptal edilebilir.
 	
-	Bazı networklerde, sebep yazılması gereklidir.
+	BazÄ± networklerde, sebep yazÄ±lmasÄ± gereklidir.
 	
-	Sadece Servis adminleri tarafından kullanılır.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 
 ###########################################################################
 #
@@ -4264,11 +4264,11 @@ NICK_SERVADMIN_HELP_FORBID
 ###########################################################################
 
 NICK_SERVADMIN_HELP_SUSPEND
-	Kullanımı: SUSPEND nickname sebeb / UNSUSPEND nickname
+	KullanÄ±mÄ±: SUSPEND nickname sebeb / UNSUSPEND nickname
 
-	SUSPENDs / UNSUSPENDs rumuzu kullanımını gecici olarak kapatır.
+	SUSPENDs / UNSUSPENDs rumuzu kullanÄ±mÄ±nÄ± gecici olarak kapatÄ±r.
 	
-	Sadece Servis adminleri tarafından kullanılır.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 
 ###########################################################################
 #
@@ -4277,11 +4277,11 @@ NICK_SERVADMIN_HELP_SUSPEND
 ###########################################################################
 
 NICK_SERVADMIN_HELP_UNSUSPEND
-	Kullanımı: UNSUSPEND nickname
+	KullanÄ±mÄ±: UNSUSPEND nickname
 
-	UNSUSPEND Rumuzu eski bilgileri ile kullanıma acar.
+	UNSUSPEND Rumuzu eski bilgileri ile kullanÄ±ma acar.
 
-	Sadece Servis adminleri tarafından kullanılır.
+	Sadece Servis adminleri tarafÄ±ndan kullanÄ±lÄ±r.
 
 ###########################################################################
 #
@@ -4289,427 +4289,427 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 #
 ###########################################################################
 CHAN_HELP_CMD_GETPASS
-	    GETPASS    Bir kanalın founder şifresini ister
+	    GETPASS    Bir kanalÄ±n founder ÅŸifresini ister
 CHAN_HELP_CMD_FORBID
-	    FORBID     Kanalı kullanıma kapatır
+	    FORBID     KanalÄ± kullanÄ±ma kapatÄ±r
 CHAN_HELP_CMD_SUSPEND
-	    SUSPEND    Kanalı bilgilerini silmeden gecici olarak
-	               kullanıma kapatır
+	    SUSPEND    KanalÄ± bilgilerini silmeden gecici olarak
+	               kullanÄ±ma kapatÄ±r
 CHAN_HELP_CMD_UNSUSPEND
-	    UNSUSPEND  Askıya alınmış kanalı kullanıma acçr
+	    UNSUSPEND  AskÄ±ya alÄ±nmÄ±ÅŸ kanalÄ± kullanÄ±ma acÃ§r
 CHAN_HELP_CMD_STATUS
-	    STATUS     Kullanıcının kanaldaki access seviyesini söyler
+	    STATUS     KullanÄ±cÄ±nÄ±n kanaldaki access seviyesini sÃ¶yler
 CHAN_HELP_CMD_REGISTER
-	    REGISTER   Kanalı kaydeder
+	    REGISTER   KanalÄ± kaydeder
 CHAN_HELP_CMD_IDENTIFY
-	    IDENTIFY   Şifreyle sizi kanalın sahibi olarak tanımlar
+	    IDENTIFY   Åifreyle sizi kanalÄ±n sahibi olarak tanÄ±mlar
 CHAN_HELP_CMD_SET
-	    SET        Kanal özelliklerini ve bilgisini ayarlar
+	    SET        Kanal Ã¶zelliklerini ve bilgisini ayarlar
 CHAN_HELP_CMD_AOP
-	    AOP        AOP listesini düzenler
+	    AOP        AOP listesini dÃ¼zenler
 CHAN_HELP_CMD_SOP
-	    SOP        SOP listesini düzenler
+	    SOP        SOP listesini dÃ¼zenler
 CHAN_HELP_CMD_ACCESS
-	    ACCESS     Ayrıcalıklı kullanıcıları belirler değiştirir
+	    ACCESS     AyrÄ±calÄ±klÄ± kullanÄ±cÄ±larÄ± belirler deÄŸiÅŸtirir
 CHAN_HELP_CMD_LEVELS
-	    LEVELS     Access seviyelerini isteğinize göre düzenler
+	    LEVELS     Access seviyelerini isteÄŸinize gÃ¶re dÃ¼zenler
 CHAN_HELP_CMD_AKICK
-	    AKICK      Autokick listesini düzenler
+	    AKICK      Autokick listesini dÃ¼zenler
 CHAN_HELP_CMD_DROP
-	    DROP       Kanal kaydını siler
+	    DROP       Kanal kaydÄ±nÄ± siler
 CHAN_HELP_CMD_SENDPASS
-	    SENDPASS   Kayıp şifrelerinizi söyler
+	    SENDPASS   KayÄ±p ÅŸifrelerinizi sÃ¶yler
 CHAN_HELP_CMD_BAN
 	    BAN        Belirtilen nicki kanalda yasaklar
 CHAN_HELP_CMD_CLEAR
-	    CLEAR      Kanal ayarlarını sıfırlar
+	    CLEAR      Kanal ayarlarÄ±nÄ± sÄ±fÄ±rlar
 CHAN_HELP_CMD_DEVOICE
-	    DEVOICE    Secilen rumuzdan Voice yetkisini geri alır
+	    DEVOICE    Secilen rumuzdan Voice yetkisini geri alÄ±r
 CHAN_HELP_CMD_GETKEY
-	    GETKEY     Secilen kanalın anahtar şifresini alır
+	    GETKEY     Secilen kanalÄ±n anahtar ÅŸifresini alÄ±r
 CHAN_HELP_CMD_INFO
-	    INFO       Kanal bilgilerini gösterir
+	    INFO       Kanal bilgilerini gÃ¶sterir
 CHAN_HELP_CMD_INVITE
 	    INVITE     Chanserv sizi kanala davet eder
 CHAN_HELP_CMD_KICK
 	    KICK       Rumuzu kanaldan atar
 CHAN_HELP_CMD_LIST
-	    LIST       Girilen parametreye göre listeme yapar
+	    LIST       Girilen parametreye gÃ¶re listeme yapar
 CHAN_HELP_CMD_LOGOUT
-	    LOGOUT     Kanaldan yetki cıkısı yapar
+	    LOGOUT     Kanaldan yetki cÄ±kÄ±sÄ± yapar
 CHAN_HELP_CMD_OP
 	    OP         Secilen rumuzu operator yapar
 CHAN_HELP_CMD_TOPIC
-	    TOPIC      Kanal baslığını ayarlar
+	    TOPIC      Kanal baslÄ±ÄŸÄ±nÄ± ayarlar
 CHAN_HELP_CMD_UNBAN
-	    UNBAN      Kanaldaki yasaklamaları kaldırır
+	    UNBAN      Kanaldaki yasaklamalarÄ± kaldÄ±rÄ±r
 CHAN_HELP_CMD_VOICE
 	    VOICE      Secilen rumuza voice verir
 CHAN_HELP_CMD_VOP
-	    VOP        Vop (Konuskan insanlar) listesini düzenler
+	    VOP        Vop (Konuskan insanlar) listesini dÃ¼zenler
 CHAN_HELP_CMD_DEHALFOP
-	    DEHALFOP   Secilen rumuzdan Yardımcı operator yetkisini alır 
+	    DEHALFOP   Secilen rumuzdan YardÄ±mcÄ± operator yetkisini alÄ±r 
 CHAN_HELP_CMD_DEOWNER
-	    DEOWNER    Kanal sahibi konumundan ayırmayı sağlar
+	    DEOWNER    Kanal sahibi konumundan ayÄ±rmayÄ± saÄŸlar
 CHAN_HELP_CMD_DEPROTECT
-	    DEPROTECT  Kanal yönetici konumundan ayırmayı sağlar
+	    DEPROTECT  Kanal yÃ¶netici konumundan ayÄ±rmayÄ± saÄŸlar
 CHAN_HELP_CMD_HALFOP
-	    HALFOP     Secilen rumuzu yardımcı operator yapar
+	    HALFOP     Secilen rumuzu yardÄ±mcÄ± operator yapar
 CHAN_HELP_CMD_HOP
 	    HOP        HOP listesini duzenler
 CHAN_HELP_CMD_OWNER
-	    OWNER      Kanal sahibi konumuna alır
+	    OWNER      Kanal sahibi konumuna alÄ±r
 CHAN_HELP_CMD_PROTECT
-	    PROTECT    Kanal Yöneticisi konumuna alır
+	    PROTECT    Kanal YÃ¶neticisi konumuna alÄ±r
 CHAN_HELP_CMD_ADMIN
 	    ADMIN      Kanal Admini konumuna alir
 CHAN_HELP_CMD_DEADMIN
 	    DEADMIN    Kanal Admini konumundan geri alir
 CHAN_HELP_CMD_DEOP
-	    DEOP       Kanal yöneticisi konumundan geri alır
+	    DEOP       Kanal yÃ¶neticisi konumundan geri alÄ±r
 
 CHAN_HELP
-	%S kanallarınızı kayıt etmenizi ve kontrol etmenizi
-	sağlar. %S kötü niyetli kullanıcıların kanalları ele 
-	geçirmelerini(takeover), kanalda kimlerin op olacağını sizin
-	tarafınızdan beliryerek engeller. Mevcut komutlar aşağıda 
-	listelenmiştir; onları kullanmak için %R%S komut
-	yazın. Belirli bir komut hakkında daha fazla bilgi için,
-	%R%S HELP komut yazın.
+	%S kanallarÄ±nÄ±zÄ± kayÄ±t etmenizi ve kontrol etmenizi
+	saÄŸlar. %S kÃ¶tÃ¼ niyetli kullanÄ±cÄ±larÄ±n kanallarÄ± ele 
+	geÃ§irmelerini(takeover), kanalda kimlerin op olacaÄŸÄ±nÄ± sizin
+	tarafÄ±nÄ±zdan beliryerek engeller. Mevcut komutlar aÅŸaÄŸÄ±da 
+	listelenmiÅŸtir; onlarÄ± kullanmak iÃ§in %R%S komut
+	yazÄ±n. Belirli bir komut hakkÄ±nda daha fazla bilgi iÃ§in,
+	%R%S HELP komut yazÄ±n.
 	 
 	
 CHAN_HELP_EXPIRES
 	
-	Unutmayın %d gün kullanılmayan kanalların
-	(kanalın access listesinde olan bir kimse o süre içinde 
-	kanala girmezse ) kaydı silinir.
+	UnutmayÄ±n %d gÃ¼n kullanÄ±lmayan kanallarÄ±n
+	(kanalÄ±n access listesinde olan bir kimse o sÃ¼re iÃ§inde 
+	kanala girmezse ) kaydÄ± silinir.
 
 CHAN_HELP_REGISTER
-	Kullanımı: REGISTER kanaladı şifre açıklama
+	KullanÄ±mÄ±: REGISTER kanaladÄ± ÅŸifre aÃ§Ä±klama
 	
-	%S veritabanına belirtilen kanalı ekler yani kaydeder.
-	Bu komutu kullanabilmek için kayıt etmek istediğiniz kanal
-	önceden kayıtlı olmamalı ve kanalda op olmalısınız. Şifre
-	kanal özelliklerinde değişiklikler yapmanız için ilerde
-	lazım olacaktır. Son parametre kanalın genel bir tanımıdır
+	%S veritabanÄ±na belirtilen kanalÄ± ekler yani kaydeder.
+	Bu komutu kullanabilmek iÃ§in kayÄ±t etmek istediÄŸiniz kanal
+	Ã¶nceden kayÄ±tlÄ± olmamalÄ± ve kanalda op olmalÄ±sÄ±nÄ±z. Åifre
+	kanal Ã¶zelliklerinde deÄŸiÅŸiklikler yapmanÄ±z iÃ§in ilerde
+	lazÄ±m olacaktÄ±r. Son parametre kanalÄ±n genel bir tanÄ±mÄ±dÄ±r
 	ve mutlaka belirtilmelidir.
 	
-	Kanalı kayıt ettiğiniz zaman, kanalın "founder" 'ı olursunuz.
-	Kanal founderı kanalın tüm özelliklerini değiştirme yetkisine 
-	sahip olan kişidir; %S kanala girdiğiniz zaman size
-	otomatik kanal opu hakkını verecektir. Kanal opu hakkını
-	başkalarınada vermek için gerekli bilgiyi ACCESS komutunun
-	yardımına bakarak alabilirsiniz (%R%S HELP ACCESS).
+	KanalÄ± kayÄ±t ettiÄŸiniz zaman, kanalÄ±n "founder" 'Ä± olursunuz.
+	Kanal founderÄ± kanalÄ±n tÃ¼m Ã¶zelliklerini deÄŸiÅŸtirme yetkisine 
+	sahip olan kiÅŸidir; %S kanala girdiÄŸiniz zaman size
+	otomatik kanal opu hakkÄ±nÄ± verecektir. Kanal opu hakkÄ±nÄ±
+	baÅŸkalarÄ±nada vermek iÃ§in gerekli bilgiyi ACCESS komutunun
+	yardÄ±mÄ±na bakarak alabilirsiniz (%R%S HELP ACCESS).
 	
-	NOT: Bir kanalı kaydedebilmek için, önce nickinizi kaydetmelisiniz.
-	Eğer kaydetmediyseniz %R%s HELP yazarak nasıl yapacağınız
-	hakkında bilgi alabilirsiniz.
+	NOT: Bir kanalÄ± kaydedebilmek iÃ§in, Ã¶nce nickinizi kaydetmelisiniz.
+	EÄŸer kaydetmediyseniz %R%s HELP yazarak nasÄ±l yapacaÄŸÄ±nÄ±z
+	hakkÄ±nda bilgi alabilirsiniz.
 
 CHAN_HELP_IDENTIFY
-	Kullanımı: IDENTIFY kanaladı şifre
+	KullanÄ±mÄ±: IDENTIFY kanaladÄ± ÅŸifre
 	
-	%S tarafından kanalın founderı olarak tanınmanızı sağlar.
-	Birçok komutu kullanabilmek için kendinizi kanalın sahibi
-	(founder) olarak bu komutu kullanarak tanıtmanız gerekir.
-	Şifre kanalı kaydederken  kullandığınız şifreyle aynıdır.
+	%S tarafÄ±ndan kanalÄ±n founderÄ± olarak tanÄ±nmanÄ±zÄ± saÄŸlar.
+	BirÃ§ok komutu kullanabilmek iÃ§in kendinizi kanalÄ±n sahibi
+	(founder) olarak bu komutu kullanarak tanÄ±tmanÄ±z gerekir.
+	Åifre kanalÄ± kaydederken  kullandÄ±ÄŸÄ±nÄ±z ÅŸifreyle aynÄ±dÄ±r.
 
 CHAN_HELP_LOGOUT
-	Kullanımı: LOGOUT kanaladı nick
+	KullanÄ±mÄ±: LOGOUT kanaladÄ± nick
 	
-	Bu komut belirtilen nickin artık belirtilen kanal için
-	tanımlanmamasını sağlar.
+	Bu komut belirtilen nickin artÄ±k belirtilen kanal iÃ§in
+	tanÄ±mlanmamasÄ±nÄ± saÄŸlar.
 	
-	Eğer kanalın founderı iseniz istediğiniz kişi üzerinde,
-	değilseniz kendi üzerinizde bu komutu kullanabilirsiniz.
+	EÄŸer kanalÄ±n founderÄ± iseniz istediÄŸiniz kiÅŸi Ã¼zerinde,
+	deÄŸilseniz kendi Ã¼zerinizde bu komutu kullanabilirsiniz.
 
 CHAN_HELP_DROP
-	Kullanımı: DROP kanaladı
+	KullanÄ±mÄ±: DROP kanaladÄ±
 	
-	Kanalın kaydını siler.  Sadece kanal founderı tarafından
-	kullanılabilir ve o kişinin önce IDENTIFY komutunu kullanarak
-	kanalın sahibi olduğunu belirtmesi gerekir.
+	KanalÄ±n kaydÄ±nÄ± siler.  Sadece kanal founderÄ± tarafÄ±ndan
+	kullanÄ±labilir ve o kiÅŸinin Ã¶nce IDENTIFY komutunu kullanarak
+	kanalÄ±n sahibi olduÄŸunu belirtmesi gerekir.
 
 CHAN_HELP_SET
-	Kullanımı: SET kanaladı özellik parametre
+	KullanÄ±mÄ±: SET kanaladÄ± Ã¶zellik parametre
 	
-	Kanal founderının çeşitli kanal özelliklerini ve diğer bilgileri
-	ayarlamasını sağlar.
+	Kanal founderÄ±nÄ±n Ã§eÅŸitli kanal Ã¶zelliklerini ve diÄŸer bilgileri
+	ayarlamasÄ±nÄ± saÄŸlar.
 	
-	Mevcut özellikler:
+	Mevcut Ã¶zellikler:
 	
-	    FOUNDER       Kanal founderını belirler
-	    SUCCESSOR     Kanal successorını belirler
-	    PASSWORD      Founder şifresini belirler
-	    DESC          Kanal açıklamasını belirler
-	    URL           Kanala bir URL adresini ilişkilendirir
-	    EMAIL         Kanala bir E-mail adresini ilişkilendirir
-	    ENTRYMSG      Kanala giren kullanıcılara gönderilecek mesajı
+	    FOUNDER       Kanal founderÄ±nÄ± belirler
+	    SUCCESSOR     Kanal successorÄ±nÄ± belirler
+	    PASSWORD      Founder ÅŸifresini belirler
+	    DESC          Kanal aÃ§Ä±klamasÄ±nÄ± belirler
+	    URL           Kanala bir URL adresini iliÅŸkilendirir
+	    EMAIL         Kanala bir E-mail adresini iliÅŸkilendirir
+	    ENTRYMSG      Kanala giren kullanÄ±cÄ±lara gÃ¶nderilecek mesajÄ±
 	                   belirler
-	    BANTYPE       Servislerin kanalda ne tip ban koyacağını belirler
-	    KEEPTOPIC     Kanalda kimse olmasa bile topiği hatırlar
-	    TOPICLOCK     Topic sadece SET TOPIC komutuyla değiştirilir
-	    MLOCK         Kanal modlarını kitler yada açar
+	    BANTYPE       Servislerin kanalda ne tip ban koyacaÄŸÄ±nÄ± belirler
+	    KEEPTOPIC     Kanalda kimse olmasa bile topiÄŸi hatÄ±rlar
+	    TOPICLOCK     Topic sadece SET TOPIC komutuyla deÄŸiÅŸtirilir
+	    MLOCK         Kanal modlarÄ±nÄ± kitler yada aÃ§ar
 	    PRIVATE       LIST komutuyla kanal listelenmez
-	    RESTRICTED    Kanala izinli giriş gerektirir
-	    SECURE        %S güvenlik özelliklerini aktifleştirir
-	    SECUREOPS     Kanal opu durumunun sıkı kontrolünü sağlar
-	    SECUREFOUNDER Kanal founderı durumunun sıkı kontrolünü sağlar
-	    SIGNKICK      KICK komutuyla yapılan atmaları işaretler
-	    OPNOTICE      OP/DEOP komutları kullanıldığında mesaj yollar
+	    RESTRICTED    Kanala izinli giriÅŸ gerektirir
+	    SECURE        %S gÃ¼venlik Ã¶zelliklerini aktifleÅŸtirir
+	    SECUREOPS     Kanal opu durumunun sÄ±kÄ± kontrolÃ¼nÃ¼ saÄŸlar
+	    SECUREFOUNDER Kanal founderÄ± durumunun sÄ±kÄ± kontrolÃ¼nÃ¼ saÄŸlar
+	    SIGNKICK      KICK komutuyla yapÄ±lan atmalarÄ± iÅŸaretler
+	    OPNOTICE      OP/DEOP komutlarÄ± kullanÄ±ldÄ±ÄŸÄ±nda mesaj yollar
 	    PEACE         kritik komutlarin kullanilmasini engeller
-	    XOP           Ayricalik sistemleri arasinda geçisi saglar
+	    XOP           Ayricalik sistemleri arasinda geÃ§isi saglar
 
 	
-	Belirli bir özellik hakkında daha fazla bilgi için
-	%R%S HELP özellik yazın.
+	Belirli bir Ã¶zellik hakkÄ±nda daha fazla bilgi iÃ§in
+	%R%S HELP Ã¶zellik yazÄ±n.
 
 CHAN_HELP_SET_FOUNDER
-	Kullanımı: SET kanaladı FOUNDER nick
+	KullanÄ±mÄ±: SET kanaladÄ± FOUNDER nick
 	
-	Kanal founderını değiştirir.  Yeni nickin kayıtlı 
-	olması gereklidir.
+	Kanal founderÄ±nÄ± deÄŸiÅŸtirir.  Yeni nickin kayÄ±tlÄ± 
+	olmasÄ± gereklidir.
 
 CHAN_HELP_SET_SUCCESSOR
-	Kullanımı: SET kanaladı SUCCESSOR nick
+	KullanÄ±mÄ±: SET kanaladÄ± SUCCESSOR nick
 	
-	Kanal successorını belirler, değiştirir. Eğer bir kanalın
-	founderının nicki zaman aşımına uğrayıp kaydı silinirse
-	yada kanal kayıtlıyken nickin kaydı bilerek silinirse(drop)
-	successor kanalın yeni founderı durumuna gelir. Fakat eğer
-	successorında çok fazla kayıtlı kanalı varsa(%d) veya kanal
-	için bir successor belirtilmemişse kanalın kaydı silinir(drop).
-	Komutta belirtilen nickin kayıtlı olması gereklidir.
+	Kanal successorÄ±nÄ± belirler, deÄŸiÅŸtirir. EÄŸer bir kanalÄ±n
+	founderÄ±nÄ±n nicki zaman aÅŸÄ±mÄ±na uÄŸrayÄ±p kaydÄ± silinirse
+	yada kanal kayÄ±tlÄ±yken nickin kaydÄ± bilerek silinirse(drop)
+	successor kanalÄ±n yeni founderÄ± durumuna gelir. Fakat eÄŸer
+	successorÄ±nda Ã§ok fazla kayÄ±tlÄ± kanalÄ± varsa(%d) veya kanal
+	iÃ§in bir successor belirtilmemiÅŸse kanalÄ±n kaydÄ± silinir(drop).
+	Komutta belirtilen nickin kayÄ±tlÄ± olmasÄ± gereklidir.
 
 CHAN_HELP_SET_PASSWORD
-	Kullanımı: SET kanaladı PASSWORD şifre
+	KullanÄ±mÄ±: SET kanaladÄ± PASSWORD ÅŸifre
 	
-	Kanal founderının şifresini değiştirir.
+	Kanal founderÄ±nÄ±n ÅŸifresini deÄŸiÅŸtirir.
 
 CHAN_HELP_SET_DESC
-	Kullanımı: SET kanaladı DESC açıklama
+	KullanÄ±mÄ±: SET kanaladÄ± DESC aÃ§Ä±klama
 	
-	LIST ve INFO komutları kullanıldığında gözükecek kanal 
-	açıklamasını belirler.
+	LIST ve INFO komutlarÄ± kullanÄ±ldÄ±ÄŸÄ±nda gÃ¶zÃ¼kecek kanal 
+	aÃ§Ä±klamasÄ±nÄ± belirler.
 
 CHAN_HELP_SET_URL
-	Kullanımı: SET kanaladı URL [urladresi]
+	KullanÄ±mÄ±: SET kanaladÄ± URL [urladresi]
 	
-	Belirtilen URL adresini kanal ile ilişkilendirir. Bu URL 
-	adresi birisi kanal hakkında bilgi almak için INFO 
-	komutunu kullandığında gözükür. Eğer urladresi parametresi
-	belirtilmezse kanal için önceden belirtilen URL adresi
+	Belirtilen URL adresini kanal ile iliÅŸkilendirir. Bu URL 
+	adresi birisi kanal hakkÄ±nda bilgi almak iÃ§in INFO 
+	komutunu kullandÄ±ÄŸÄ±nda gÃ¶zÃ¼kÃ¼r. EÄŸer urladresi parametresi
+	belirtilmezse kanal iÃ§in Ã¶nceden belirtilen URL adresi
 	silinir.
 
 CHAN_HELP_SET_EMAIL
-	Kullanımı: SET kanaladı EMAIL [emailadresi]
+	KullanÄ±mÄ±: SET kanaladÄ± EMAIL [emailadresi]
 	
-	Belirtilen E-mail adresini kanal ile ilişkilendirir.Bu E-mail 
-	adresi birisi kanal hakkında bilgi almak için INFO komutunu 
-	kullandığında gözükür. Eğer emailadresi parametresi
-	belirtilmezse kanal için önceden belirtilen E-mail adresi
+	Belirtilen E-mail adresini kanal ile iliÅŸkilendirir.Bu E-mail 
+	adresi birisi kanal hakkÄ±nda bilgi almak iÃ§in INFO komutunu 
+	kullandÄ±ÄŸÄ±nda gÃ¶zÃ¼kÃ¼r. EÄŸer emailadresi parametresi
+	belirtilmezse kanal iÃ§in Ã¶nceden belirtilen E-mail adresi
 	silinir.
 
 CHAN_HELP_SET_ENTRYMSG
-	Kullanımı: SET kanaladı ENTRYMSG [mesaj]
+	KullanÄ±mÄ±: SET kanaladÄ± ENTRYMSG [mesaj]
 	
-	Kanala giren kullanıcılara notice şeklinde gönderilecek
-	mesajı belirler.  Eğer mesaj parametresi belirtilmezse
-	giren kullanıcıya bir mesaj gönderilmez.
+	Kanala giren kullanÄ±cÄ±lara notice ÅŸeklinde gÃ¶nderilecek
+	mesajÄ± belirler.  EÄŸer mesaj parametresi belirtilmezse
+	giren kullanÄ±cÄ±ya bir mesaj gÃ¶nderilmez.
 
 CHAN_HELP_SET_BANTYPE
-	Kullanımı: SET kanaladı BANTYPE bantipi
+	KullanÄ±mÄ±: SET kanaladÄ± BANTYPE bantipi
 	
-	Servislerin birini kanaldan banlarken kullanacağı ban 
+	Servislerin birini kanaldan banlarken kullanacaÄŸÄ± ban 
 	tipini belirler.
 	
-	bantipi 0 ile 3 arasında bir sayıdır ve anlamları şudur:
+	bantipi 0 ile 3 arasÄ±nda bir sayÄ±dÄ±r ve anlamlarÄ± ÅŸudur:
 	
-	0: *!user@host formatında ban için
-	1: *!*user@host formatında ban için
-	2: *!*@host formatında ban için
-	3: *!*user@*.domain formatında ban için
+	0: *!user@host formatÄ±nda ban iÃ§in
+	1: *!*user@host formatÄ±nda ban iÃ§in
+	2: *!*@host formatÄ±nda ban iÃ§in
+	3: *!*user@*.domain formatÄ±nda ban iÃ§in
 
 CHAN_HELP_SET_KEEPTOPIC
-	Kullanımı: SET kanaladı KEEPTOPIC {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± KEEPTOPIC {ON | OFF}
 	
-	Bir kanal için topic hatırlamayı aktifleştirir yada kapatır.
-	topic hatırlama aktifse kanal kapansa bile kanal topic i
-	%S tarafından hatırlanır ve birisi kanala girdiğinde bu
-	topic geçerli olur.
+	Bir kanal iÃ§in topic hatÄ±rlamayÄ± aktifleÅŸtirir yada kapatÄ±r.
+	topic hatÄ±rlama aktifse kanal kapansa bile kanal topic i
+	%S tarafÄ±ndan hatÄ±rlanÄ±r ve birisi kanala girdiÄŸinde bu
+	topic geÃ§erli olur.
 
 CHAN_HELP_SET_TOPICLOCK
-	Kullanımı: SET kanaladı TOPICLOCK {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± TOPICLOCK {ON | OFF}
 	
-	Bir kanal için topic kilidini aktifleştirir yada kapatır.
+	Bir kanal iÃ§in topic kilidini aktifleÅŸtirir yada kapatÄ±r.
 	topic kilidi aktifse, %S SET TOPIC komutunun
-	dışında kanal topic inin değiştirilmesine izin vermez.
+	dÄ±ÅŸÄ±nda kanal topic inin deÄŸiÅŸtirilmesine izin vermez.
 
 CHAN_HELP_SET_MLOCK
-	Kullanımı: SET kanaladı MLOCK modlar
+	KullanÄ±mÄ±: SET kanaladÄ± MLOCK modlar
 	
-	Bir kanal için mod-kilidini aktifleştirir. %S belirlediğiniz
-	modların her zaman açık yada kapalı olacağını ayarlar.
+	Bir kanal iÃ§in mod-kilidini aktifleÅŸtirir. %S belirlediÄŸiniz
+	modlarÄ±n her zaman aÃ§Ä±k yada kapalÄ± olacaÄŸÄ±nÄ± ayarlar.
 
-	+ ile belirtilen modlar açik olarak, - ile belirtilen modlar
+	+ ile belirtilen modlar aÃ§ik olarak, - ile belirtilen modlar
 	kapali olarak kitlenir.
 	
-	Dikkat:  Eğer ikinci örnekteki gibi bir mod kilidi koyarsanız,
-	kanalın RESTRICTED özelliğinide aktifleştirmeniz gerekir
-	(HELP SET RESTRICTED e bakın), yoksa kanal boşken ilk
-	giren kişi kanal key ini(anahtar) görebilir!
+	Dikkat:  EÄŸer ikinci Ã¶rnekteki gibi bir mod kilidi koyarsanÄ±z,
+	kanalÄ±n RESTRICTED Ã¶zelliÄŸinide aktifleÅŸtirmeniz gerekir
+	(HELP SET RESTRICTED e bakÄ±n), yoksa kanal boÅŸken ilk
+	giren kiÅŸi kanal key ini(anahtar) gÃ¶rebilir!
 	
-	Örnekler:
+	Ã–rnekler:
 	
-	    SET #kanaladı MLOCK +nt-iklps
-	        n ve t modlarını hep açık, i, k, l, p, ve s modlarını hep
-	        açık olarak ayarlar. m modu ise istenildiği gibi ayarlanabilir
-	        açık yada kapalı.
+	    SET #kanaladÄ± MLOCK +nt-iklps
+	        n ve t modlarÄ±nÄ± hep aÃ§Ä±k, i, k, l, p, ve s modlarÄ±nÄ± hep
+	        aÃ§Ä±k olarak ayarlar. m modu ise istenildiÄŸi gibi ayarlanabilir
+	        aÃ§Ä±k yada kapalÄ±.
 	
-	    SET #kanaladı MLOCK +knst-ilmp anahtar
-	        k, n, s, ve t modları hep açık, ve i, l, m, ve p modları
-	        hep kapalı. Ayrıca kanal anahtarını belirler ve hep o 
-	        anahtar olmasını sağlar.
+	    SET #kanaladÄ± MLOCK +knst-ilmp anahtar
+	        k, n, s, ve t modlarÄ± hep aÃ§Ä±k, ve i, l, m, ve p modlarÄ±
+	        hep kapalÄ±. AyrÄ±ca kanal anahtarÄ±nÄ± belirler ve hep o 
+	        anahtar olmasÄ±nÄ± saÄŸlar.
 	
-	    SET #kanaladı MLOCK +
-	        Mod kilidini kaldırır; ve tüm kanal modlarını açılıp 
-	        kapanacak şekilde serbest bırakır.
+	    SET #kanaladÄ± MLOCK +
+	        Mod kilidini kaldÄ±rÄ±r; ve tÃ¼m kanal modlarÄ±nÄ± aÃ§Ä±lÄ±p 
+	        kapanacak ÅŸekilde serbest bÄ±rakÄ±r.
 
 CHAN_HELP_SET_PEACE
 	Kullanimi: SET kanaladi PEACE {ON | OFF}
 	
-	Bir kanalin peace özelligini açar veya kapatir.
-	peace özelligi ayarlandiginda, hic kimse seviyesi kendinden
-	yüksek veya esit olanlari atamaz, banlayamaz veya %S
+	Bir kanalin peace Ã¶zelligini aÃ§ar veya kapatir.
+	peace Ã¶zelligi ayarlandiginda, hic kimse seviyesi kendinden
+	yÃ¼ksek veya esit olanlari atamaz, banlayamaz veya %S
 	seviyesini degistiremez.
 
 CHAN_HELP_SET_PRIVATE
-	Kullanımı: SET kanaladı PRIVATE {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± PRIVATE {ON | OFF}
 	
-	Bir kanal için private özelliğini açar kapatır. private özelliği
+	Bir kanal iÃ§in private Ã¶zelliÄŸini aÃ§ar kapatÄ±r. private Ã¶zelliÄŸi
 	aktifse, %R%S LIST komutuyla kanal listelenemez.
 
 CHAN_HELP_SET_RESTRICTED
-	Kullanımı: SET kanaladı RESTRICTED {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± RESTRICTED {ON | OFF}
 	
 	Enables or disables the restricted access option for a
 	channel.  When restricted access is set, users not on
 	the access list will instead be kicked and banned from the channel.
 
 CHAN_HELP_SET_SECURE
-	Kullanımı: SET kanaladı SECURE {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± SECURE {ON | OFF}
 	
-	Bir kanal için %S'ün güvenlik özelliklerini açar veya 
-	kapatır. SECURE özelliği aktifse, sadece nicki kayıtlı
-	ve %s ile nickini tanıtmış kullanıcılar kanalda access 
-	alabilirler ve access listesindeki statülerini
+	Bir kanal iÃ§in %S'Ã¼n gÃ¼venlik Ã¶zelliklerini aÃ§ar veya 
+	kapatÄ±r. SECURE Ã¶zelliÄŸi aktifse, sadece nicki kayÄ±tlÄ±
+	ve %s ile nickini tanÄ±tmÄ±ÅŸ kullanÄ±cÄ±lar kanalda access 
+	alabilirler ve access listesindeki statÃ¼lerini
 	alabilirler.(mesela op olabilirler)
 
 CHAN_HELP_SET_SECUREOPS
-	Kullanımı: SET kanaladı SECUREOPS {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± SECUREOPS {ON | OFF}
 	
-	Bir kanal için güvenli op özelliğini açar veya kapatır.
-	güvenli op özelliği aktifse, access listesinde olmayan
-	kullanıcılar kanalda op olamazlar.
+	Bir kanal iÃ§in gÃ¼venli op Ã¶zelliÄŸini aÃ§ar veya kapatÄ±r.
+	gÃ¼venli op Ã¶zelliÄŸi aktifse, access listesinde olmayan
+	kullanÄ±cÄ±lar kanalda op olamazlar.
 
 CHAN_HELP_SET_SECUREFOUNDER
-	Kullanımı: SET kanaladı SECUREFOUNDER {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± SECUREFOUNDER {ON | OFF}
 	
-	Bir kanal için güvenli founder özelliğini açar yada kapatır.
-	güvenli founder özelliği aktifse, sadece gerçek founder 
-	kanalın kaydını silebilir, kanal şifresini değiştirebilir yada
-	kanal founderını ve successor ını değiştirebilir. Kanal 
-	şifresiyle kendilerini %S'e kanal founderı olarak tanıtan 
-	ama nicki founderın nicki olmayanlar bu komutları kullanamazlar.
+	Bir kanal iÃ§in gÃ¼venli founder Ã¶zelliÄŸini aÃ§ar yada kapatÄ±r.
+	gÃ¼venli founder Ã¶zelliÄŸi aktifse, sadece gerÃ§ek founder 
+	kanalÄ±n kaydÄ±nÄ± silebilir, kanal ÅŸifresini deÄŸiÅŸtirebilir yada
+	kanal founderÄ±nÄ± ve successor Ä±nÄ± deÄŸiÅŸtirebilir. Kanal 
+	ÅŸifresiyle kendilerini %S'e kanal founderÄ± olarak tanÄ±tan 
+	ama nicki founderÄ±n nicki olmayanlar bu komutlarÄ± kullanamazlar.
 
 CHAN_HELP_SET_SIGNKICK
-	Kullanımı: SET kanaladı SIGNKICK {ON | LEVEL | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± SIGNKICK {ON | LEVEL | OFF}
 	
-	Bir kanal için işaretli atmayı açar yada kapatır.
-	SIGNKICK ayarlandığı zaman, %S KICK
-	komutuyla yapılan atmalarda komutu kullanan kişinin
-	nicki atma sebebinde yer alır.
+	Bir kanal iÃ§in iÅŸaretli atmayÄ± aÃ§ar yada kapatÄ±r.
+	SIGNKICK ayarlandÄ±ÄŸÄ± zaman, %S KICK
+	komutuyla yapÄ±lan atmalarda komutu kullanan kiÅŸinin
+	nicki atma sebebinde yer alÄ±r.
 	
-	Eğer LEVEL parametresini kullanırsanız, seviyesi
-	SIGNKICK seviyesine eşit yada fazla olanların yaptığı
-	atmalarda atanın nicki sebepte gözükmez. Daha fazla
-	bilgi için %R%S HELP LEVELS yazın.
+	EÄŸer LEVEL parametresini kullanÄ±rsanÄ±z, seviyesi
+	SIGNKICK seviyesine eÅŸit yada fazla olanlarÄ±n yaptÄ±ÄŸÄ±
+	atmalarda atanÄ±n nicki sebepte gÃ¶zÃ¼kmez. Daha fazla
+	bilgi iÃ§in %R%S HELP LEVELS yazÄ±n.
 
 CHAN_HELP_SET_XOP
 	Kullanimi: SET kanaladi XOP {ON | OFF}
 	
-	Bir kanalin xOP sistemini açar veya kapatir. XOP
+	Bir kanalin xOP sistemini aÃ§ar veya kapatir. XOP
 	ayarlandigi zaman, AOP/SOP/VOP komutlariyla
-	yetkileri düzenlemelisiniz, aksi takdirde ACCESS
+	yetkileri dÃ¼zenlemelisiniz, aksi takdirde ACCESS
 	komutunu kullanmalisiniz.
 	
 	Teknik Not: Access sisteminden xOP sisteminde
-	geçtiginizde seviye ayarlariniz degistirilir, bu
-	yüzden tekrar access sistemine geçtiginizde ayni
+	geÃ§tiginizde seviye ayarlariniz degistirilir, bu
+	yÃ¼zden tekrar access sistemine geÃ§tiginizde ayni
 	ayarlari bulamazsiniz! 
 	
-	Access sisteminden xOP sistemine geçtiginizde listedeki
+	Access sisteminden xOP sistemine geÃ§tiginizde listedeki
 	ayricaliklari kontrol edip listenizdeki nicklerin dogru
-	xOP ayarlarinda bulundugunu kontrol edin, çünkü sistemin
+	xOP ayarlarinda bulundugunu kontrol edin, Ã§Ã¼nkÃ¼ sistemin
 	tahmin etmesi her zaman dogru olmayabilir... Eger LEVELS
 	komutuyla komut seviye ayarlarini degistirdiyseniz xOP
-	sistemini kullanmaniz önerilmez.
+	sistemini kullanmaniz Ã¶nerilmez.
 	
-	Bunlarin disinda xOP sisteminden access sistemine geçmek
-	bir problem çikarmaz.
+	Bunlarin disinda xOP sisteminden access sistemine geÃ§mek
+	bir problem Ã§ikarmaz.
 
 CHAN_HELP_SET_OPNOTICE
-	Kullanımı: SET kanaladı OPNOTICE {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± OPNOTICE {ON | OFF}
 	
-	Bir kanal için op-notu özelliğini açar yada kapatır.
-	op-notu özelliği aktifse, %S kanala bir kullanıcı 
-	üzerinde OP veya DEOP komutlarının kullanıldığını
-	belirten bir mesaj gönderir.
+	Bir kanal iÃ§in op-notu Ã¶zelliÄŸini aÃ§ar yada kapatÄ±r.
+	op-notu Ã¶zelliÄŸi aktifse, %S kanala bir kullanÄ±cÄ± 
+	Ã¼zerinde OP veya DEOP komutlarÄ±nÄ±n kullanÄ±ldÄ±ÄŸÄ±nÄ±
+	belirten bir mesaj gÃ¶nderir.
 
 CHAN_HELP_AOP
-	Kullanımı: AOP kanaladi ADD nick
+	KullanÄ±mÄ±: AOP kanaladi ADD nick
 	           AOP kanaladi DEL {nick | kayit-no | liste}
 	           AOP kanaladi LIST [mask | liste]
 	           AOP kanaladi CLEAR
 	
-	Bir kanalin AOP (otoop) listesini düzenler. AOP listesi
+	Bir kanalin AOP (otoop) listesini dÃ¼zenler. AOP listesi
 	o kanalda kullaniciya otomatik olarak op olma, gerekirse 
 	kendi banlarini kaldirma veya davet edilme, giriste karsilama
-	mesajlarini görüntüleme, vs yetkilerini verir.
+	mesajlarini gÃ¶rÃ¼ntÃ¼leme, vs yetkilerini verir.
 	
 	AOP ADD komutu belirtilen nicki AOP listesine ekler.
 	
 	AOP DEL komutu belirtilen nicki AOP listesinden siler.  
 	Eger kayit numaralari belirtilirse, o numaralara ait nickler
-	silinir. (Asagidaki örnegi inceleyin.)
+	silinir. (Asagidaki Ã¶rnegi inceleyin.)
 	
-	AOP LIST komutu AOP listesini gösterir. Eger bir hostmask
-	belirtilmisse, sadece onla uyusan kayitlari gösterir. Eger 
+	AOP LIST komutu AOP listesini gÃ¶sterir. Eger bir hostmask
+	belirtilmisse, sadece onla uyusan kayitlari gÃ¶sterir. Eger 
 	kayit numaralari belirtilmisse o numaralarla uyusan kayitlari
-	gösterir; örnegin:
+	gÃ¶sterir; Ã¶rnegin:
 
 	   AOP #kanal LIST 2-5,7-9
-	      2 den 5 e ve 7 den 9 a kadar olan kayitlari gösterir.
+	      2 den 5 e ve 7 den 9 a kadar olan kayitlari gÃ¶sterir.
 	      
-	AOP CLEAR komutu AOP listesindeki tüm kayitlari siler.
+	AOP CLEAR komutu AOP listesindeki tÃ¼m kayitlari siler.
 	
-	AOP ADD ve AOP DEL komutlarini kanal SOP lari veya üstü
+	AOP ADD ve AOP DEL komutlarini kanal SOP lari veya Ã¼stÃ¼
 	kullanabilir. AOP CLEAR komutunu ise sadece kanal founderi
 	kullanabilir. Ayrica, AOP listesindeki herhangi biri AOP LIST 
 	komutunu kullanabilir.
 	
-	Bu komutu kanaliniz için devre disi birakabilirsiniz. O zaman
+	Bu komutu kanaliniz iÃ§in devre disi birakabilirsiniz. O zaman
 	access komutlarini kullanmalisiniz. Access komutlari hakkinda
-	bilgi almak için  %R%S HELP ACCESS yazin. 
-	Access ile xOP arasinda geçis yapabilmek için gerekli bilgilere
+	bilgi almak iÃ§in  %R%S HELP ACCESS yazin. 
+	Access ile xOP arasinda geÃ§is yapabilmek iÃ§in gerekli bilgilere
 	%R%S HELP SET XOP yazarak ulasabilirsiniz.
 
 CHAN_HELP_HOP
-	Kullanımı: HOP kanaladi ADD nick
+	KullanÄ±mÄ±: HOP kanaladi ADD nick
 	           HOP kanaladi DEL {nick | kayit-no | liste}
 	           HOP kanaladi LIST [mask | liste]
 	           HOP kanaladi CLEAR
 	
-	Bir kanalin HOP (HalfOP) listesini düzenler. HOP
+	Bir kanalin HOP (HalfOP) listesini dÃ¼zenler. HOP
 	listesinde bulunan bir kisi kanalda otomatik olarak
 	halfop olur.
 	
@@ -4717,565 +4717,565 @@ CHAN_HELP_HOP
 	
 	HOP DEL komutu belirtilen nicki HOP listesinden siler.
 	Eger kayit numaralari listesi belirtilirse, bu kayitlar
-	silinir. (Asagidaki örnegi inceleyin.)
+	silinir. (Asagidaki Ã¶rnegi inceleyin.)
 	
-	HOP LIST komutu HOP listesini gösterir. Eger bir hostmask
-	belirtilmisse, o hostmask la uyusan kayitlar gösterilir.
+	HOP LIST komutu HOP listesini gÃ¶sterir. Eger bir hostmask
+	belirtilmisse, o hostmask la uyusan kayitlar gÃ¶sterilir.
 	Eger kayit numaralari listesi belirtilmisse, o numaralardaki
-	nickler gösterilir; örnegin:
+	nickler gÃ¶sterilir; Ã¶rnegin:
 
 	   HOP #kanaladi LIST 2-5,7-9
-	       2 den 5 e ve 7 den 9 a kadar olan kayitlari gösterir.
+	       2 den 5 e ve 7 den 9 a kadar olan kayitlari gÃ¶sterir.
 	      
-	HOP CLEAR komutu HOP listesindeki tüm kayitlari temziler.
+	HOP CLEAR komutu HOP listesindeki tÃ¼m kayitlari temziler.
 	
-	HOP ADD, HOP DEL ve HOP LIST komutlarini AOP lar ve üstü
+	HOP ADD, HOP DEL ve HOP LIST komutlarini AOP lar ve Ã¼stÃ¼
 	HOP CLEAR komutunu ise sadece founder kullanabilir.
 	
-	Bu komutu kanaliniz için devre disi birakabilirsiniz. O zaman
+	Bu komutu kanaliniz iÃ§in devre disi birakabilirsiniz. O zaman
 	access komutlarini kullanmalisiniz. Access komutlari hakkinda
-	bilgi almak için  %R%S HELP ACCESS yazin. 
-	Access ile xOP arasinda geçis yapabilmek için gerekli bilgilere
+	bilgi almak iÃ§in  %R%S HELP ACCESS yazin. 
+	Access ile xOP arasinda geÃ§is yapabilmek iÃ§in gerekli bilgilere
 	%R%S HELP SET XOP yazarak ulasabilirsiniz.
 
 CHAN_HELP_SOP
-	Kullanımı: SOP kanaladi ADD nick
+	KullanÄ±mÄ±: SOP kanaladi ADD nick
 	           SOP kanaladi DEL {nick | kayit-no | liste}
 	           SOP kanaladi LIST [mask | liste]
 	           SOP kanaladi CLEAR
 	
-	Bir kanalin SOP (SuperOP) listesini düzenler. SOP
-	listesindekiler AOP larin sahip oldugu tüm yetkilere 
+	Bir kanalin SOP (SuperOP) listesini dÃ¼zenler. SOP
+	listesindekiler AOP larin sahip oldugu tÃ¼m yetkilere 
 	sahiptir. Ayrica AutoKick ve BadWords listesini
-	düzenleyebilirler, kanal memolarini okuyabilirler, vs.
+	dÃ¼zenleyebilirler, kanal memolarini okuyabilirler, vs.
 	
 	SOP ADD komutu belirtilen nicki SOP listesine ekler.
 	
 	SOP DEL komutu belirtilen nicki SOP listesinden siler.
 	Eger kayit numaralari listesi belirtilmisse, bu kayitlar
-	silinir. (Asagidaki örnegi inceleyin.)
+	silinir. (Asagidaki Ã¶rnegi inceleyin.)
 	
-	SOP LIST komutu SOP listesini görüntüler. Eger bir
+	SOP LIST komutu SOP listesini gÃ¶rÃ¼ntÃ¼ler. Eger bir
 	hostmask belirtilmisse o hostmaskla uyusan kayitlar
-	gösterilir. Eger kayit numaralari listesi belirtilmisse
-	o numaralardaki nickler gösterilir; örnegin:
+	gÃ¶sterilir. Eger kayit numaralari listesi belirtilmisse
+	o numaralardaki nickler gÃ¶sterilir; Ã¶rnegin:
 
 	   SOP #kanaladi LIST 2-5,7-9
-	      2 den 5 e ve 7 den 9 a kadar olan kayitlar gösterilir.
+	      2 den 5 e ve 7 den 9 a kadar olan kayitlar gÃ¶sterilir.
 	      
-	SOP CLEAR komutu SOP listesindeki tüm kayitlari temizler.
+	SOP CLEAR komutu SOP listesindeki tÃ¼m kayitlari temizler.
 	
 	SOP ADD, SOP DEL ve SOP CLEAR komutlarini sadece kanal
 	founderi kullanabilir. Ama AOP listesindeki herhangi biri
 	SOP LIST komutunu kullanabilir.
 	
-	Bu komutu kanaliniz için devre disi birakabilirsiniz. O zaman
+	Bu komutu kanaliniz iÃ§in devre disi birakabilirsiniz. O zaman
 	access komutlarini kullanmalisiniz. Access komutlari hakkinda
-	bilgi almak için  %R%S HELP ACCESS yazin. 
-	Access ile xOP arasinda geçis yapabilmek için gerekli bilgilere
+	bilgi almak iÃ§in  %R%S HELP ACCESS yazin. 
+	Access ile xOP arasinda geÃ§is yapabilmek iÃ§in gerekli bilgilere
 	%R%S HELP SET XOP yazarak ulasabilirsiniz.
 
 CHAN_HELP_VOP
-	Kullanımı: VOP kanaladi ADD nick
+	KullanÄ±mÄ±: VOP kanaladi ADD nick
 	           VOP kanaladi DEL {nick | kayit-no | liste}
 	           VOP kanaladi LIST [mask | liste]
 	           VOP kanaladi CLEAR
 	
-	Bir kanalin VOP (otovoice) listesini düzenler. VOP
+	Bir kanalin VOP (otovoice) listesini dÃ¼zenler. VOP
 	listesindekiler kanalda otomatik olarak voice alirlar.
 	
 	VOP ADD komutu belirtilen nicki VOP listesine ekler.
 	
 	VOP DEL komutu belirtilen nicki VOP listesindene siler.
 	Eger kayit numaralari listesi belirtilmisse, o kayitlar
-	silinir. (Asagidaki örnegi inceleyin.)
+	silinir. (Asagidaki Ã¶rnegi inceleyin.)
 	
-	VOP LIST komutu VOP listesini görüntüler. Eger bir
+	VOP LIST komutu VOP listesini gÃ¶rÃ¼ntÃ¼ler. Eger bir
 	hostmask belirtilmisse o hostmaskla uyusan kayitlar
 	listelenir. Eger kayit numaralari listesi belirtilmisse
-	o numaralardaki nickler gösterilir; örnegin:
+	o numaralardaki nickler gÃ¶sterilir; Ã¶rnegin:
 
 	   VOP #kanaladi LIST 2-5,7-9
-	      2 den 5 e ve 7 den 9 a kadar olan kayitlar gösterilir.
+	      2 den 5 e ve 7 den 9 a kadar olan kayitlar gÃ¶sterilir.
 	      
-	VOP CLEAR komutu VOP listesindeki tüm kayitlari temizler.
+	VOP CLEAR komutu VOP listesindeki tÃ¼m kayitlari temizler.
 	
-	VOP ADD, VOP DEL ve VOP LIST komutlarini AOP lar ve üstü,
+	VOP ADD, VOP DEL ve VOP LIST komutlarini AOP lar ve Ã¼stÃ¼,
 	VOP CLEAR komutunu ise sadece founder kullanabilir.
 	
-	Bu komutu kanaliniz için devre disi birakabilirsiniz. O zaman
+	Bu komutu kanaliniz iÃ§in devre disi birakabilirsiniz. O zaman
 	access komutlarini kullanmalisiniz. Access komutlari hakkinda
-	bilgi almak için  %R%S HELP ACCESS yazin. 
-	Access ile xOP arasinda geçis yapabilmek için gerekli bilgilere
+	bilgi almak iÃ§in  %R%S HELP ACCESS yazin. 
+	Access ile xOP arasinda geÃ§is yapabilmek iÃ§in gerekli bilgilere
 	%R%S HELP SET XOP yazarak ulasabilirsiniz.
 
 CHAN_HELP_ACCESS
-	Kullanımı:  ACCESS kanaladı ADD nick seviye
-	            ACCESS kanaladı DEL {nick | kayıt-no | liste}
-	            ACCESS kanaladı LIST [mask | liste]
-	            ACCESS kanaladı CLEAR
+	KullanÄ±mÄ±:  ACCESS kanaladÄ± ADD nick seviye
+	            ACCESS kanaladÄ± DEL {nick | kayÄ±t-no | liste}
+	            ACCESS kanaladÄ± LIST [mask | liste]
+	            ACCESS kanaladÄ± CLEAR
 	
-	Bir kanal için access listesi oluşturur. Access listesi
-	kanalda kimlerin op olacağını ve %S komutlarına
-	kimlerin erişimi olacağını belirtir. Değişik access
-	seviyeleri değişik komutlara erişim sağlar. Ayrıntılı bilgi
-	için %R%S HELP ACCESS LEVELS yazın. Access
-	listesinde olmayan kullanıcıların seviyesi 0 dır.
+	Bir kanal iÃ§in access listesi oluÅŸturur. Access listesi
+	kanalda kimlerin op olacaÄŸÄ±nÄ± ve %S komutlarÄ±na
+	kimlerin eriÅŸimi olacaÄŸÄ±nÄ± belirtir. DeÄŸiÅŸik access
+	seviyeleri deÄŸiÅŸik komutlara eriÅŸim saÄŸlar. AyrÄ±ntÄ±lÄ± bilgi
+	iÃ§in %R%S HELP ACCESS LEVELS yazÄ±n. Access
+	listesinde olmayan kullanÄ±cÄ±larÄ±n seviyesi 0 dÄ±r.
 	
 	ACCESS ADD komutu belirtilen nicki belirtilen seviyeden
-	access listesine ekler; eğer o kişi zaten access listesindeyse
-	seviyesini belirtilen seviyeyle değiştirir. Belirtilen seviye 
-	komutu kullanan kişinin seviyesinden az olmalıdır, eğer 
+	access listesine ekler; eÄŸer o kiÅŸi zaten access listesindeyse
+	seviyesini belirtilen seviyeyle deÄŸiÅŸtirir. Belirtilen seviye 
+	komutu kullanan kiÅŸinin seviyesinden az olmalÄ±dÄ±r, eÄŸer 
 	belirtilen nick zaten access listesindeyse komutu kullanan 
-	kişinin access seviyesi onunkinden büyük olmalıdır.
+	kiÅŸinin access seviyesi onunkinden bÃ¼yÃ¼k olmalÄ±dÄ±r.
 	
 	ACCESS DEL komutu belirtilen nicki access listesinden siler.
-	eğer kayıt numarası belirtilmişse o kayıt numarası olan kişinin 
-	accessi silinir.(Aşağıdaki LIST için verilen örneğe bakın.)
+	eÄŸer kayÄ±t numarasÄ± belirtilmiÅŸse o kayÄ±t numarasÄ± olan kiÅŸinin 
+	accessi silinir.(AÅŸaÄŸÄ±daki LIST iÃ§in verilen Ã¶rneÄŸe bakÄ±n.)
 	
-	ACCESS LIST komutu access listesini görüntüler. Eğer * lı 
-	bir mask belirtilirse o maskla uyuşan kişiler listelenir. 
-	Eğer kayıt numarası listesi belirtilirse o kişiler listelenir.
-	Örneğin:
+	ACCESS LIST komutu access listesini gÃ¶rÃ¼ntÃ¼ler. EÄŸer * lÄ± 
+	bir mask belirtilirse o maskla uyuÅŸan kiÅŸiler listelenir. 
+	EÄŸer kayÄ±t numarasÄ± listesi belirtilirse o kiÅŸiler listelenir.
+	Ã–rneÄŸin:
 	
-	   ACCESS #kanaladı LIST 2-5,7-9
-	      2'den 5'e ve 7'den 9'a kadar olan access kayıtları
+	   ACCESS #kanaladÄ± LIST 2-5,7-9
+	      2'den 5'e ve 7'den 9'a kadar olan access kayÄ±tlarÄ±
 	      listelenir.
 	      
-	ACCESS CLEAR komutu tüm access listesini temizler.
+	ACCESS CLEAR komutu tÃ¼m access listesini temizler.
 
 CHAN_HELP_ACCESS_LEVELS
-	Kullanıcı access seviyeleri
+	KullanÄ±cÄ± access seviyeleri
 	
-	Varsayılan olarak, aşağıdaki access seviyeleri tanımlanmıştır:
+	VarsayÄ±lan olarak, aÅŸaÄŸÄ±daki access seviyeleri tanÄ±mlanmÄ±ÅŸtÄ±r:
 	
-	   Founder   %S fonksiyonlarına tam erişim hakkı vardır.
-	                     kanal girer girmez op olur. Unutmayınki
-	                     sadece bir kişi founder olma hakkına 
+	   Founder   %S fonksiyonlarÄ±na tam eriÅŸim hakkÄ± vardÄ±r.
+	                     kanal girer girmez op olur. UnutmayÄ±nki
+	                     sadece bir kiÅŸi founder olma hakkÄ±na 
 	                     sahiptir. (ACCESS komutuyla verilemez.)
-	        10   AKICK komutuna erişimi vardır; otomatik oplanır.
-	         5   Otomatik oplanır.
-	         3   Otomatik voice lanır.
-	         0   Bir özelliği yoktur; diğer oplar tarafından
-	                     oplanabilir (güvenli-op kapalıysa).
+	        10   AKICK komutuna eriÅŸimi vardÄ±r; otomatik oplanÄ±r.
+	         5   Otomatik oplanÄ±r.
+	         3   Otomatik voice lanÄ±r.
+	         0   Bir Ã¶zelliÄŸi yoktur; diÄŸer oplar tarafÄ±ndan
+	                     oplanabilir (gÃ¼venli-op kapalÄ±ysa).
 	        <0   Kanalda oplanamaz.
 	
-	Bu seviyeler LEVELS komutu kullanılarak değiştirilebilir, veya
-	yenileri eklenebilir, bilgi için %R%S HELP LEVELS 
-	yazın.
+	Bu seviyeler LEVELS komutu kullanÄ±larak deÄŸiÅŸtirilebilir, veya
+	yenileri eklenebilir, bilgi iÃ§in %R%S HELP LEVELS 
+	yazÄ±n.
 
 CHAN_HELP_AKICK
-	Kullanımı:  AKICK channel ADD {nick | mask} [reason]
+	KullanÄ±mÄ±:  AKICK channel ADD {nick | mask} [reason]
 	            AKICK channel STICK mask
 	            AKICK channel UNSTICK mask
 	            AKICK channel DEL {nick | mask | entry-num | list}
 	            AKICK channel LIST [mask | entry-num | list]
 	            AKICK channel VIEW [mask | entry-num | list]
-	            AKICK kanaladı ENFORCE
-	            AKICK kanaladı CLEAR
+	            AKICK kanaladÄ± ENFORCE
+	            AKICK kanaladÄ± CLEAR
 	
-	Bir kanal için AutoKick listesi oluşturur.  Eğer Akick 
-	listesindeki bir kullanıcı kanala girmeye çalışırsa, Bu
-	kişi %S tarafından banlanır ve kanaldan atılır.
+	Bir kanal iÃ§in AutoKick listesi oluÅŸturur.  EÄŸer Akick 
+	listesindeki bir kullanÄ±cÄ± kanala girmeye Ã§alÄ±ÅŸÄ±rsa, Bu
+	kiÅŸi %S tarafÄ±ndan banlanÄ±r ve kanaldan atÄ±lÄ±r.
 	
-	AKICK ADD komutu belirtilen nicki yada maskı Akick
-	listesine ekler. Eğer komutla beraber birde sebep
-	belirtilmişse bu sebep kullanıcı kanaldan atılırken
-	kullanılır; eğer kullanılmazsa geçerli sebep olan
-	"You have been banned from the channel" kullanılır.
+	AKICK ADD komutu belirtilen nicki yada maskÄ± Akick
+	listesine ekler. EÄŸer komutla beraber birde sebep
+	belirtilmiÅŸse bu sebep kullanÄ±cÄ± kanaldan atÄ±lÄ±rken
+	kullanÄ±lÄ±r; eÄŸer kullanÄ±lmazsa geÃ§erli sebep olan
+	"You have been banned from the channel" kullanÄ±lÄ±r.
 
 	AKICK STICK komutu belirtilen maski kalici olarak
-	banlar. Eger biri bani kaldirmaya çalisirsa, %S
+	banlar. Eger biri bani kaldirmaya Ã§alisirsa, %S
 	otomatik olarak yeniden banlar. Bunu kayitli nickler
-	için kullanamazsiniz.
+	iÃ§in kullanamazsiniz.
 	
 	AKICK UNSTICK komutu AKICK STICK komutunun etkilerini
-	iptal eder, böylece bani kaldirabilirsiniz.
+	iptal eder, bÃ¶ylece bani kaldirabilirsiniz.
 	
-	AKICK DEL komutu belirtilen nicki yada maskı Akick
-	listesinden siler. Fakat bu komutla önceden Akick 
-	listesindeyken banlanmış birinin banı manuel olarak
-	açılana kadar kalkmaz.
+	AKICK DEL komutu belirtilen nicki yada maskÄ± Akick
+	listesinden siler. Fakat bu komutla Ã¶nceden Akick 
+	listesindeyken banlanmÄ±ÅŸ birinin banÄ± manuel olarak
+	aÃ§Ä±lana kadar kalkmaz.
 	
-	AKICK LIST komutu Akick listesinde kimlerin olduğunu
-	listeler, yada opsiyonel olarak belirtilen maskla uyuşan 
-	Akick listesindeki kullanıcıları listeler.
+	AKICK LIST komutu Akick listesinde kimlerin olduÄŸunu
+	listeler, yada opsiyonel olarak belirtilen maskla uyuÅŸan 
+	Akick listesindeki kullanÄ±cÄ±larÄ± listeler.
 	
-	AKICK VIEW komutu AKICK LIST komutunun daha açıklayıcı
+	AKICK VIEW komutu AKICK LIST komutunun daha aÃ§Ä±klayÄ±cÄ±
 	versiyonudur.
 	
-	AKICK ENFORCE komutu %S'ün mevcut akick listesinde bulunan 
-	masklara sahip kullanıcıları kanaldan atmasını sağlar.
+	AKICK ENFORCE komutu %S'Ã¼n mevcut akick listesinde bulunan 
+	masklara sahip kullanÄ±cÄ±larÄ± kanaldan atmasÄ±nÄ± saÄŸlar.
 	
-	AKICK CLEAR komutu akick listesinde bulunan tüm kayıtları
+	AKICK CLEAR komutu akick listesinde bulunan tÃ¼m kayÄ±tlarÄ±
 	siler.
 
 CHAN_HELP_LEVELS
-	Kullanımı:  LEVELS kanaladı SET tip seviye
-	            LEVELS kanaladı {DIS | DISABLE} tip
-	            LEVELS kanaladı LIST
-	            LEVELS kanaladı RESET
+	KullanÄ±mÄ±:  LEVELS kanaladÄ± SET tip seviye
+	            LEVELS kanaladÄ± {DIS | DISABLE} tip
+	            LEVELS kanaladÄ± LIST
+	            LEVELS kanaladÄ± RESET
 	
 	LEVELS komutu bir kanaldaki access seviyelerinin iyi
-	kontrolünü sağlar. Bu komutla, %S'ün birçok
-	fonksiyonu için gereken access seviyelerini
+	kontrolÃ¼nÃ¼ saÄŸlar. Bu komutla, %S'Ã¼n birÃ§ok
+	fonksiyonu iÃ§in gereken access seviyelerini
 	belirleyebilirsiniz. (SET FOUNDER ve SET PASSWORD
-	komutları ve bu komut sadece kanal founderı tarafından
-	kullanılabilir.)
+	komutlarÄ± ve bu komut sadece kanal founderÄ± tarafÄ±ndan
+	kullanÄ±labilir.)
 	
-	LEVELS SET komutu bir fonksiyon yada fonksiyon grupları için
-	access seviyelerini değiştirmeye yarar. LEVELS DISABLE (veya
-	kısaca DIS) otomatik bir özelliği kapatır yada founderdan 
-	başkasının kullanmasını engeller. LEVELS LIST komutu 
-	fonksiyonlar yada fonksiyon grupları için mevcut seviyeleri 
-	gösterir. LEVELS RESET komutu seviyeleri varsayılan değerlerine
-	geri çevirir. (HELP ACCESS LEVELS e bakın).
+	LEVELS SET komutu bir fonksiyon yada fonksiyon gruplarÄ± iÃ§in
+	access seviyelerini deÄŸiÅŸtirmeye yarar. LEVELS DISABLE (veya
+	kÄ±saca DIS) otomatik bir Ã¶zelliÄŸi kapatÄ±r yada founderdan 
+	baÅŸkasÄ±nÄ±n kullanmasÄ±nÄ± engeller. LEVELS LIST komutu 
+	fonksiyonlar yada fonksiyon gruplarÄ± iÃ§in mevcut seviyeleri 
+	gÃ¶sterir. LEVELS RESET komutu seviyeleri varsayÄ±lan deÄŸerlerine
+	geri Ã§evirir. (HELP ACCESS LEVELS e bakÄ±n).
 	
-	Seviyeleri ayarlanabilecek fonksiyonlar için, HELP LEVELS DESC e 
-	bakın.
+	Seviyeleri ayarlanabilecek fonksiyonlar iÃ§in, HELP LEVELS DESC e 
+	bakÄ±n.
 
 CHAN_HELP_LEVELS_DESC
-	Aşağıda seviyeleri değiştirilebilecek  fonksiyonlar listelidir.
-	Dikkat edilirse AUTODEOP ve NOJOIN değerleri maximum, diğerleri
+	AÅŸaÄŸÄ±da seviyeleri deÄŸiÅŸtirilebilecek  fonksiyonlar listelidir.
+	Dikkat edilirse AUTODEOP ve NOJOIN deÄŸerleri maximum, diÄŸerleri
 	minimum seviyelerdir.
 
 CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
 
 CHAN_HELP_INFO
-	Kullanımı: INFO kanaladı [ALL]
+	KullanÄ±mÄ±: INFO kanaladÄ± [ALL]
 	
-	Belirtilen kayıtlı kanalla ilgili bilgiler sunar. Bu 
-	bilgilerin içeriğinde kanalın founderı, kayıt zamanı,
-	son kullanıldığı zaman, açıklaması, ve varsa mod kilidi
-	bulunur. Eğer kanalın founderı olarak kendinizi 
-	tanıtmışsanız ve ALL parametresini belirtmişseniz
-	giriş mesajı ve successor hakkındada bilgi alabilirsiniz.
+	Belirtilen kayÄ±tlÄ± kanalla ilgili bilgiler sunar. Bu 
+	bilgilerin iÃ§eriÄŸinde kanalÄ±n founderÄ±, kayÄ±t zamanÄ±,
+	son kullanÄ±ldÄ±ÄŸÄ± zaman, aÃ§Ä±klamasÄ±, ve varsa mod kilidi
+	bulunur. EÄŸer kanalÄ±n founderÄ± olarak kendinizi 
+	tanÄ±tmÄ±ÅŸsanÄ±z ve ALL parametresini belirtmiÅŸseniz
+	giriÅŸ mesajÄ± ve successor hakkÄ±ndada bilgi alabilirsiniz.
 
-	Varsayilan olarak, ALL seçenegini founderlar kullanabilir.
+	Varsayilan olarak, ALL seÃ§enegini founderlar kullanabilir.
 
 CHAN_HELP_LIST
-	Kullanımı: LIST model
+	KullanÄ±mÄ±: LIST model
 	
-	Belirtilen modelle uyuşan tüm kayıtlı kanalları listeler.
-	(PRIVATE özelliği aktif olan kanallar listelenmez.)
+	Belirtilen modelle uyuÅŸan tÃ¼m kayÄ±tlÄ± kanallarÄ± listeler.
+	(PRIVATE Ã¶zelliÄŸi aktif olan kanallar listelenmez.)
 
 CHAN_HELP_OP
-	Kullanımı: OP [#kanaladı [nick]]
+	KullanÄ±mÄ±: OP [#kanaladÄ± [nick]]
 	
-	Belirtilen nicki kanalda oplar. Eğer nick belirtilmemişse,
-	kendinizi oplarsınız. Eğer kanal ve nick belirtilmemişse,
-	bulunduğunuz tüm kanalda sizi oplar, tabi eğer op accessiniz
+	Belirtilen nicki kanalda oplar. EÄŸer nick belirtilmemiÅŸse,
+	kendinizi oplarsÄ±nÄ±z. EÄŸer kanal ve nick belirtilmemiÅŸse,
+	bulunduÄŸunuz tÃ¼m kanalda sizi oplar, tabi eÄŸer op accessiniz
 	ve bu komutu kullanmaya yetkiniz varsa.
 	
-	Varsayılan olarak, AOP lar ile access seviyesi 5 ve üzeri
+	VarsayÄ±lan olarak, AOP lar ile access seviyesi 5 ve Ã¼zeri
 	olanlar kullanabilir.
 
 CHAN_HELP_DEOP
-	Kullanımı: DEOP [#kanaladı [nick]]
+	KullanÄ±mÄ±: DEOP [#kanaladÄ± [nick]]
 	
-	Belirtilen nicki kanalda deoplar. Eğer nick belirtilmemişse,
-	kendinizi deoplarsınız. Eğer nick ve kanal belirtilmemişse,
-	bulunduğunuz tüm kanallarda sizi deoplar, tabi eğer bu komutu 
+	Belirtilen nicki kanalda deoplar. EÄŸer nick belirtilmemiÅŸse,
+	kendinizi deoplarsÄ±nÄ±z. EÄŸer nick ve kanal belirtilmemiÅŸse,
+	bulunduÄŸunuz tÃ¼m kanallarda sizi deoplar, tabi eÄŸer bu komutu 
 	kullanmaya yetkiniz varsa.
 	
-	Varsayılan olarak, AOP lar veya access seviyesi 5 ve üzeri
+	VarsayÄ±lan olarak, AOP lar veya access seviyesi 5 ve Ã¼zeri
 	olanlar kullanabilir.
 
 CHAN_HELP_VOICE
-	Kullanımı: VOICE [#kanaladı [nick]]
+	KullanÄ±mÄ±: VOICE [#kanaladÄ± [nick]]
 	
-	Belirtilen nicke kanalda voice verir. Eğer nick belirtilmemişse,
-	size voice verir. Eğer kanal ve nick belirtilmemişse, size
-	bulunduğunuz tüm kanallarda voice verir, tabi eğer accessiniz ve
+	Belirtilen nicke kanalda voice verir. EÄŸer nick belirtilmemiÅŸse,
+	size voice verir. EÄŸer kanal ve nick belirtilmemiÅŸse, size
+	bulunduÄŸunuz tÃ¼m kanallarda voice verir, tabi eÄŸer accessiniz ve
 	bu komutu kullanmaya izniniz varsa.
 	
-	Varsayılan olarak, AOP lar ile access seviyesi 5 ve üzeri olanlar
-	kullanabilir, veya VOP lar ile access seviyesi 3 ve yukarı olanlar
-	kendilerine voice vermek için kullanabilirler.
+	VarsayÄ±lan olarak, AOP lar ile access seviyesi 5 ve Ã¼zeri olanlar
+	kullanabilir, veya VOP lar ile access seviyesi 3 ve yukarÄ± olanlar
+	kendilerine voice vermek iÃ§in kullanabilirler.
 
 CHAN_HELP_DEVOICE
-	Kullanımı: DEVOICE [#kanaladı [nick]]
+	KullanÄ±mÄ±: DEVOICE [#kanaladÄ± [nick]]
 	
-	Belirtilen nicki kanalda devoice eder. Eğer nick belirtilmemişse,
-	sizi devoice eder. Eğer kanal ve nick belirtilmemişse sizi,
-	bulunduğunuz tüm kanallarda devoice eder, tabi eğer accessiniz
+	Belirtilen nicki kanalda devoice eder. EÄŸer nick belirtilmemiÅŸse,
+	sizi devoice eder. EÄŸer kanal ve nick belirtilmemiÅŸse sizi,
+	bulunduÄŸunuz tÃ¼m kanallarda devoice eder, tabi eÄŸer accessiniz
 	ve bu komutu kullanmaya izniniz varsa.
 	
-	Varsayılan olarak, AOP lar, access seviyesi 5 ve üzeri olanlar
-	kullanabilir, veya VOP lar ile access seviyesi 3 ve üzeri olanlar
-	kendilerini devoice etmek için kullanabilirler.
+	VarsayÄ±lan olarak, AOP lar, access seviyesi 5 ve Ã¼zeri olanlar
+	kullanabilir, veya VOP lar ile access seviyesi 3 ve Ã¼zeri olanlar
+	kendilerini devoice etmek iÃ§in kullanabilirler.
 
 CHAN_HELP_HALFOP
-	Kullanımı: HALFOP [#kanaladı [nick]]
+	KullanÄ±mÄ±: HALFOP [#kanaladÄ± [nick]]
 	
-	Belirtilen nicki kanalda halfop(yarımop) yapar. Eğer nick
-	belirtilmemişse, sizi halfop yapar. Eğer nick ve kanal
-	belirtilmemişse, sizi bulunduğunuz tüm kanallarda halfop yapar,
-	tabi eğer bu komutu kullanmaya izniniz varsa.
+	Belirtilen nicki kanalda halfop(yarÄ±mop) yapar. EÄŸer nick
+	belirtilmemiÅŸse, sizi halfop yapar. EÄŸer nick ve kanal
+	belirtilmemiÅŸse, sizi bulunduÄŸunuz tÃ¼m kanallarda halfop yapar,
+	tabi eÄŸer bu komutu kullanmaya izniniz varsa.
 	
-	Varsayılan olarak, AOP lar ile access seviyesi 5 ve üzeri
+	VarsayÄ±lan olarak, AOP lar ile access seviyesi 5 ve Ã¼zeri
 	olanlar kullanabilir, veya HOP lar ile access seviyesi 4 ve
-	üzeri olanlar kendilerini halfop yapmak için kullanabilir.
+	Ã¼zeri olanlar kendilerini halfop yapmak iÃ§in kullanabilir.
 
 CHAN_HELP_DEHALFOP
-	Kullanımı: DEHALFOP [#kanaladı [nick]]
+	KullanÄ±mÄ±: DEHALFOP [#kanaladÄ± [nick]]
 	
-	Belirtilen nickin halfopunu(yarımop) alır. Eğer nick
-	belirtilmemişse, sizin halfopunuz alır. Eğer kanal ve nick 
-	belirtilmemişse, bulunduğunuz tüm kanallardan halfopunuzu
-	alır, tabi eğer bu komutu kullanmaya izniniz varsa.
+	Belirtilen nickin halfopunu(yarÄ±mop) alÄ±r. EÄŸer nick
+	belirtilmemiÅŸse, sizin halfopunuz alÄ±r. EÄŸer kanal ve nick 
+	belirtilmemiÅŸse, bulunduÄŸunuz tÃ¼m kanallardan halfopunuzu
+	alÄ±r, tabi eÄŸer bu komutu kullanmaya izniniz varsa.
 	
-	Varsayılan olarak, AOP lar veya 5 ve üzeri access seviyesi
+	VarsayÄ±lan olarak, AOP lar veya 5 ve Ã¼zeri access seviyesi
 	olanlar kullanabilir, ayrica HOP lar veya access seviyesi
-	4 ve üzeri olanlar kendi halfoplarını alabilirler.
+	4 ve Ã¼zeri olanlar kendi halfoplarÄ±nÄ± alabilirler.
 
 CHAN_HELP_PROTECT
-	Kullanımı: PROTECT [#kanaladı [nick]]
+	KullanÄ±mÄ±: PROTECT [#kanaladÄ± [nick]]
 	
-	Belirtilen nicki kanalda korur. Eğer nick belirtilmezse,
-	sizi korur. Eğer nick ve kanal belirtilmezse sizi bulunduğunuz
-	tüm kanallarda koruyacaktır, tabi eğer bu komutu kullanmaya
+	Belirtilen nicki kanalda korur. EÄŸer nick belirtilmezse,
+	sizi korur. EÄŸer nick ve kanal belirtilmezse sizi bulunduÄŸunuz
+	tÃ¼m kanallarda koruyacaktÄ±r, tabi eÄŸer bu komutu kullanmaya
 	izniniz varsa.
 	
-	Varsayılan olarak, founder kullanabilir, veya SOP lar ile access
-	seviyesi 10 ve üzeri olanlar kendilerinde kullanabilirler.
+	VarsayÄ±lan olarak, founder kullanabilir, veya SOP lar ile access
+	seviyesi 10 ve Ã¼zeri olanlar kendilerinde kullanabilirler.
 
 CHAN_HELP_DEPROTECT
-	Kullanımı: DEPROTECT [#kanaladı [nick]]
+	KullanÄ±mÄ±: DEPROTECT [#kanaladÄ± [nick]]
 	
-	Belirtilen nickin korumasını kaldırır. Eğer nick belirtilmemişse,
-	sizin korumanızı kaldırır. Eğer kanal ve nick belirtilmezse, 
-	sizin bulunduğunuz tüm kanallardaki korumalarınız kaldırır, 
-	tabi eğer bu komutu kullanmaya izniniz varsa.
+	Belirtilen nickin korumasÄ±nÄ± kaldÄ±rÄ±r. EÄŸer nick belirtilmemiÅŸse,
+	sizin korumanÄ±zÄ± kaldÄ±rÄ±r. EÄŸer kanal ve nick belirtilmezse, 
+	sizin bulunduÄŸunuz tÃ¼m kanallardaki korumalarÄ±nÄ±z kaldÄ±rÄ±r, 
+	tabi eÄŸer bu komutu kullanmaya izniniz varsa.
 	
-	Varsayılan olarak, founder kullanabilir, veya SOP lar ile
-	access seviyesi 10 ve üzeri olanlar kendilerinde kullanabilir.
+	VarsayÄ±lan olarak, founder kullanabilir, veya SOP lar ile
+	access seviyesi 10 ve Ã¼zeri olanlar kendilerinde kullanabilir.
 
 CHAN_HELP_OWNER
-	Kullanımı: OWNER [#kanaladi]
+	KullanÄ±mÄ±: OWNER [#kanaladi]
 	
-	Belirtilen kanalda owner statüsü verilir. Eger kanal
-	belirtilmemisse bulundugunuz tüm kanallarda size owner
-	statüsü verilir. Tabi bu yetkinizin olup olmamasina
+	Belirtilen kanalda owner statÃ¼sÃ¼ verilir. Eger kanal
+	belirtilmemisse bulundugunuz tÃ¼m kanallarda size owner
+	statÃ¼sÃ¼ verilir. Tabi bu yetkinizin olup olmamasina
 	baglidir.
 	
 	Belirtilen kanal founderlarinin kullanma yetkisi vardir.
 
 CHAN_HELP_DEOWNER
-	Kullanımı: DEOWNER [#kanaladi]
+	KullanÄ±mÄ±: DEOWNER [#kanaladi]
 	
-	Belirtilen kanaldaki owner statünüzü kaldirir. Eger
-	kanal belirtilmezse bulundugunuz tüm kanallardaki owner
-	statünüzü kaldirir. Tabi bu yetkinizin olup olmamasina
+	Belirtilen kanaldaki owner statÃ¼nÃ¼zÃ¼ kaldirir. Eger
+	kanal belirtilmezse bulundugunuz tÃ¼m kanallardaki owner
+	statÃ¼nÃ¼zÃ¼ kaldirir. Tabi bu yetkinizin olup olmamasina
 	baglidir.
 	
 	Belirtilen kanal founderlarinin kullanma yetkisi vardir.
 
 CHAN_HELP_INVITE
-	Kullanımı: INVITE kanaladı
+	KullanÄ±mÄ±: INVITE kanaladÄ±
 	
-	%S'e sizi belirtilen kanala davet etmesini söyler.
+	%S'e sizi belirtilen kanala davet etmesini sÃ¶yler.
 
-	Varsayılan olarak AOP lar ile access seviyesi 5 veya
-	üzeri olanlar kullanabilir.
+	VarsayÄ±lan olarak AOP lar ile access seviyesi 5 veya
+	Ã¼zeri olanlar kullanabilir.
 
 CHAN_HELP_UNBAN
-	Kullanımı: UNBAN kanaladı
+	KullanÄ±mÄ±: UNBAN kanaladÄ±
 	
-	%S'e sizin kanala girmenizi engelleyen tüm banları kaldırmasını
-	söyler.
+	%S'e sizin kanala girmenizi engelleyen tÃ¼m banlarÄ± kaldÄ±rmasÄ±nÄ±
+	sÃ¶yler.
 
-	Varsayılan olarak, AOP lar ile 5 ve üzeri access seviyesi olanlar
+	VarsayÄ±lan olarak, AOP lar ile 5 ve Ã¼zeri access seviyesi olanlar
 	kullanabilir.
 
 CHAN_HELP_KICK
-	Kullanımı: KICK [#kanaladı [nick [sebep]]]
+	KullanÄ±mÄ±: KICK [#kanaladÄ± [nick [sebep]]]
 	
-	Belirtilen nicki kanaldan atar. Eğer nick belirtilmemişse
-	sizi atar. Eğer kanal ve nick belirtilmemişse, sizi 
-	bulunduğunuz tüm kanallardan atar.
+	Belirtilen nicki kanaldan atar. EÄŸer nick belirtilmemiÅŸse
+	sizi atar. EÄŸer kanal ve nick belirtilmemiÅŸse, sizi 
+	bulunduÄŸunuz tÃ¼m kanallardan atar.
 	
-	Varsayılan olarak, AOP lar ile access seviyesi 5 ve üzeri
+	VarsayÄ±lan olarak, AOP lar ile access seviyesi 5 ve Ã¼zeri
 	olanlar bu komutu kullanabilir.
 
 CHAN_HELP_BAN
-	Kullanımı: BAN [#kanaladi [nick [sebep]]]
+	KullanÄ±mÄ±: BAN [#kanaladi [nick [sebep]]]
 	
 	Belirtilen nicki kanaldan banlar. Eger nick belirtilmezse
 	sizi banlar. Eger nick ve kanal belirtilmezse sizi bulundugunuz
-	tüm kanallardan banlar.
+	tÃ¼m kanallardan banlar.
 	
 	Varsayilan olarak, AOP larin veya 5. seviyeden access i olanlarin
-	ve üstünün kullanma yetkisi vardir.
+	ve Ã¼stÃ¼nÃ¼n kullanma yetkisi vardir.
 
 CHAN_HELP_TOPIC
-	Kullanımı: TOPIC kanaladi [konu]
+	KullanÄ±mÄ±: TOPIC kanaladi [konu]
 	
 	%S belirtilen kanala belirtilen konuyu yazar.Eger
 	topic belirtilmemisse, bos bir konu yazilir. Bu
 	komut SET TOPICLOCK aktif oldugu zaman kullanislidir.
-	Daha fazla bilgi için %R%S HELP SET TOPICLOCK
+	Daha fazla bilgi iÃ§in %R%S HELP SET TOPICLOCK
 	yazin.
 	
 	Varsayilan olarak, founderin kullanma yetkisi vardir.
 
 CHAN_HELP_CLEAR
-	Kullanımı: CLEAR kanaladı neyi
+	KullanÄ±mÄ±: CLEAR kanaladÄ± neyi
 	
-	%S'e belirtilen ayarı kaldırmasını söyler. neyi
-	şunlardan biri olmalıdır:
+	%S'e belirtilen ayarÄ± kaldÄ±rmasÄ±nÄ± sÃ¶yler. neyi
+	ÅŸunlardan biri olmalÄ±dÄ±r:
 	
-	     MODES    Kanal modlarını temizler. (ör. i,k,l,m,n,p,s,t
-	                   modlarını temizler).
-	     BANS     Kanaldaki tüm banları kaldırır.
+	     MODES    Kanal modlarÄ±nÄ± temizler. (Ã¶r. i,k,l,m,n,p,s,t
+	                   modlarÄ±nÄ± temizler).
+	     BANS     Kanaldaki tÃ¼m banlarÄ± kaldÄ±rÄ±r.
 	     EXCEPTS  Clears all excepts on the channel.
 	     INVITES  Clears all invites on the channel.
-	     OPS      Kanal opu statüsünde olanların (mode +o)
-	                  oplarını alır.
+	     OPS      Kanal opu statÃ¼sÃ¼nde olanlarÄ±n (mode +o)
+	                  oplarÄ±nÄ± alÄ±r.
 	     HOPS     Removes channel-halfoperator status (mode +h) from
 	                  all channel halfoperators, if supported.
-	     VOICES   Voice statüsünde olanların (mode +v) voice larını
-	                  alır.
-	     USERS    Tüm kullanıcıları kanaldan atar.
+	     VOICES   Voice statÃ¼sÃ¼nde olanlarÄ±n (mode +v) voice larÄ±nÄ±
+	                  alÄ±r.
+	     USERS    TÃ¼m kullanÄ±cÄ±larÄ± kanaldan atar.
 	
-	Varsayılan olarak, founder tarafindan kullanilabilir.
+	VarsayÄ±lan olarak, founder tarafindan kullanilabilir.
 
 CHAN_HELP_GETKEY
-	Kullanımı: GETKEY kanaladı
+	KullanÄ±mÄ±: GETKEY kanaladÄ±
 	
-	Belirtilen kanalın anahtarını söyler. Bu komut botlar
-	veya scriptler tarafından kullanılmak üzere tasarlanmıştır,
-	ve çıktısı şu şekildedir:
+	Belirtilen kanalÄ±n anahtarÄ±nÄ± sÃ¶yler. Bu komut botlar
+	veya scriptler tarafÄ±ndan kullanÄ±lmak Ã¼zere tasarlanmÄ±ÅŸtÄ±r,
+	ve Ã§Ä±ktÄ±sÄ± ÅŸu ÅŸekildedir:
 	
-	KEY <kanaladı> <anahtar>
+	KEY <kanaladÄ±> <anahtar>
 	
-	Eğer bir anahtar yoksa anahtar kısmında "NO KEY" olacaktır.
+	EÄŸer bir anahtar yoksa anahtar kÄ±smÄ±nda "NO KEY" olacaktÄ±r.
 
 CHAN_HELP_SENDPASS
-	Kullanımı: SENDPASS kanaladı
+	KullanÄ±mÄ±: SENDPASS kanaladÄ±
 	
-	Kanalın şifresini founderın nick kayıtlarında belirtilen
-	e-mail adresine gönderir. Bu komut kanal şifresini 
-	unutanların çok işine yarayacaktır.
+	KanalÄ±n ÅŸifresini founderÄ±n nick kayÄ±tlarÄ±nda belirtilen
+	e-mail adresine gÃ¶nderir. Bu komut kanal ÅŸifresini 
+	unutanlarÄ±n Ã§ok iÅŸine yarayacaktÄ±r.
 	
-	Bazı networklerde IRC operatörlerinin Kullanımıyla 
-	sınırlandırılmış olabilir.
+	BazÄ± networklerde IRC operatÃ¶rlerinin KullanÄ±mÄ±yla 
+	sÄ±nÄ±rlandÄ±rÄ±lmÄ±ÅŸ olabilir.
 	
-	Bu komut şifreleme(encryption) aktifken devre dışıdır.
+	Bu komut ÅŸifreleme(encryption) aktifken devre dÄ±ÅŸÄ±dÄ±r.
 
 CHAN_SERVADMIN_HELP
 	
-	Servis adminleri kanalın kaydını şifreyle tanıtmadan silebilir,
-	ve access, Akick ve seviye ayarlarını görüntüleyebilirler.
+	Servis adminleri kanalÄ±n kaydÄ±nÄ± ÅŸifreyle tanÄ±tmadan silebilir,
+	ve access, Akick ve seviye ayarlarÄ±nÄ± gÃ¶rÃ¼ntÃ¼leyebilirler.
 
 CHAN_SERVADMIN_HELP_LOGOUT
-	Kullanımı: LOGOUT kanaladı [nick]
+	KullanÄ±mÄ±: LOGOUT kanaladÄ± [nick]
 	
-	Bu komut belirtilen nickin artık belirtilen kanalda
-	tanımlanmamasını sağlar.
+	Bu komut belirtilen nickin artÄ±k belirtilen kanalda
+	tanÄ±mlanmamasÄ±nÄ± saÄŸlar.
 	
-	Eğer kanal founderı iseniz, istediğiniz kişide, değilseniz
+	EÄŸer kanal founderÄ± iseniz, istediÄŸiniz kiÅŸide, deÄŸilseniz
 	sadece kendinizde bu komutu kullanabilirsiniz.
 	
-	Eğer Servis admini iseniz, kanal founderı olmanıza gerek
-	olmadan istediğiniz kişide bu komutu kullanabilirsiniz.
-	Hatta nick parametresini boş bırakarak o kanalda kendini
-	kanala tanıtmış herkesi tanımlanmamış yapabilirsiniz.
+	EÄŸer Servis admini iseniz, kanal founderÄ± olmanÄ±za gerek
+	olmadan istediÄŸiniz kiÅŸide bu komutu kullanabilirsiniz.
+	Hatta nick parametresini boÅŸ bÄ±rakarak o kanalda kendini
+	kanala tanÄ±tmÄ±ÅŸ herkesi tanÄ±mlanmamÄ±ÅŸ yapabilirsiniz.
 
 CHAN_SERVADMIN_HELP_DROP
-	Kullanımı: DROP kanaladı
+	KullanÄ±mÄ±: DROP kanaladÄ±
 	
-	Belirtilen kanalın kaydını siler. Sadece Servis adminleri
-	kanalı tanıtmadan kaydını silebilirler.
+	Belirtilen kanalÄ±n kaydÄ±nÄ± siler. Sadece Servis adminleri
+	kanalÄ± tanÄ±tmadan kaydÄ±nÄ± silebilirler.
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Servis adminleri NOEXPIRE özelliğini ayarlayarak istedikleri
-	kanalın zaman aşımına uğramasını engelleyebilirler.
-	Ek olarak, Servis adminleri şifreyle kanalı tanıtmaya gerek 
-	olmadan bir kanalın tüm özelliklerini ayarlayabilirler.
+	Servis adminleri NOEXPIRE Ã¶zelliÄŸini ayarlayarak istedikleri
+	kanalÄ±n zaman aÅŸÄ±mÄ±na uÄŸramasÄ±nÄ± engelleyebilirler.
+	Ek olarak, Servis adminleri ÅŸifreyle kanalÄ± tanÄ±tmaya gerek 
+	olmadan bir kanalÄ±n tÃ¼m Ã¶zelliklerini ayarlayabilirler.
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
-	Kullanımı: SET kanaladı NOEXPIRE {ON | OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± NOEXPIRE {ON | OFF}
 	
-	Belirtilen kanalın zaman asimina uğrayıp uğramayacağını 
-	belirler. Bunu ON olarak ayarlamak kanalın zaman aşımına 
-	uğramasını engelleyecektir.
+	Belirtilen kanalÄ±n zaman asimina uÄŸrayÄ±p uÄŸramayacaÄŸÄ±nÄ± 
+	belirler. Bunu ON olarak ayarlamak kanalÄ±n zaman aÅŸÄ±mÄ±na 
+	uÄŸramasÄ±nÄ± engelleyecektir.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Servis adminleri herhangi bir kanal için ALL parametresini
+	Servis adminleri herhangi bir kanal iÃ§in ALL parametresini
 	kullanabilirler.
 
 CHAN_SERVADMIN_HELP_LIST
-	Kullanımı: LIST model [FORBIDDEN] [NOEXPIRE]
+	KullanÄ±mÄ±: LIST model [FORBIDDEN] [NOEXPIRE]
 	
-	Belirtilen modelle uyuşan tüm kayıtlı kanalları listeler.
-	PRIVATE özelliği ayarlı kanallar sadece Servis adminleri
-	tarafından görüntülenir. NOEXPIRE özelliği olan kanalların
-	yanında Servis adminleri için ! işareti bulunur.
+	Belirtilen modelle uyuÅŸan tÃ¼m kayÄ±tlÄ± kanallarÄ± listeler.
+	PRIVATE Ã¶zelliÄŸi ayarlÄ± kanallar sadece Servis adminleri
+	tarafÄ±ndan gÃ¶rÃ¼ntÃ¼lenir. NOEXPIRE Ã¶zelliÄŸi olan kanallarÄ±n
+	yanÄ±nda Servis adminleri iÃ§in ! iÅŸareti bulunur.
 	
-	Eğer FORBIDDEN veya NOEXPIRE özellikleri belirtilmişse,
-	sadece yasaklı(FORBIDDEN) yada zaman aşımına(NOEXPIRE) 
-	uğramayacak kanallar listelenir. Eğer her iki özellikte 
-	belirtilmişse, her iki tip kanalda listelenir. Bu komutlar
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	EÄŸer FORBIDDEN veya NOEXPIRE Ã¶zellikleri belirtilmiÅŸse,
+	sadece yasaklÄ±(FORBIDDEN) yada zaman aÅŸÄ±mÄ±na(NOEXPIRE) 
+	uÄŸramayacak kanallar listelenir. EÄŸer her iki Ã¶zellikte 
+	belirtilmiÅŸse, her iki tip kanalda listelenir. Bu komutlar
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 CHAN_SERVADMIN_HELP_GETPASS
-	Kullanımı: GETPASS kanaladı
+	KullanÄ±mÄ±: GETPASS kanaladÄ±
 	
-	Belirtilen kanalın şifresini söyler. Unutmayınki bu
-	komut ne zaman kullanılsa, Komutu kullananın ve komutta
-	kullanılan kanalın adı kaydedilir ve WALLOPS/GLOBOPS olarak
-	gönderilir.
+	Belirtilen kanalÄ±n ÅŸifresini sÃ¶yler. UnutmayÄ±nki bu
+	komut ne zaman kullanÄ±lsa, Komutu kullananÄ±n ve komutta
+	kullanÄ±lan kanalÄ±n adÄ± kaydedilir ve WALLOPS/GLOBOPS olarak
+	gÃ¶nderilir.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 CHAN_SERVADMIN_HELP_FORBID
-	Kullanımı: FORBID kanaladı [sebep]
+	KullanÄ±mÄ±: FORBID kanaladÄ± [sebep]
 	
-	Belirtilen kanalın birisi tarafından kayıt edilmesini veya 
-	kullanılmasını önler. Kanal droplanarak iptal edilir.
+	Belirtilen kanalÄ±n birisi tarafÄ±ndan kayÄ±t edilmesini veya 
+	kullanÄ±lmasÄ±nÄ± Ã¶nler. Kanal droplanarak iptal edilir.
 	
-	Bazı networklerde sebep gereklidir.
+	BazÄ± networklerde sebep gereklidir.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 CHAN_SERVADMIN_HELP_SUSPEND
-	Kullanımı: SUSPEND channel [reason]
+	KullanÄ±mÄ±: SUSPEND channel [reason]
 	
-	Kanalın kullanımını yasaklar.
-	Kanalı tekrar açmak icin UNSUSPEND kullanıldıgında
-	kanal bilgi ve ayarlarını tekrar kullanıma acar.
+	KanalÄ±n kullanÄ±mÄ±nÄ± yasaklar.
+	KanalÄ± tekrar aÃ§mak icin UNSUSPEND kullanÄ±ldÄ±gÄ±nda
+	kanal bilgi ve ayarlarÄ±nÄ± tekrar kullanÄ±ma acar.
 	
-	Bir cok sunucuda ihtiyac duyulan bir uygulamadır.
+	Bir cok sunucuda ihtiyac duyulan bir uygulamadÄ±r.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 CHAN_SERVADMIN_HELP_UNSUSPEND
-	Kullanımı: UNSUSPEND channel
+	KullanÄ±mÄ±: UNSUSPEND channel
 	
-	Kanalı kullanıma açar. Tüm bilgi ve ayarları
-	yasaklanmadan önceki hali ile kullanıma sunar.
+	KanalÄ± kullanÄ±ma aÃ§ar. TÃ¼m bilgi ve ayarlarÄ±
+	yasaklanmadan Ã¶nceki hali ile kullanÄ±ma sunar.
 	
-	Services admins Kullanımı ile sınırlınır.
+	Services admins KullanÄ±mÄ± ile sÄ±nÄ±rlÄ±nÄ±r.
 
 CHAN_SERVADMIN_HELP_STATUS
-	Kullanımı: STATUS kanaladı nick
+	KullanÄ±mÄ±: STATUS kanaladÄ± nick
 	
 	Belirtilen nickin belirtilen kanaldaki access seviyesini
-	söyler. Cevabın formatı şu şekildedir:
+	sÃ¶yler. CevabÄ±n formatÄ± ÅŸu ÅŸekildedir:
 	
-	    STATUS kanaladı nick access-seviyesi
+	    STATUS kanaladÄ± nick access-seviyesi
 	
-	Eğer bir hata olursa, cevabun formatı şöyle olur:
+	EÄŸer bir hata olursa, cevabun formatÄ± ÅŸÃ¶yle olur:
 	
-	    STATUS ERROR hata-mesajı
+	    STATUS ERROR hata-mesajÄ±
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 ###########################################################################
 #
@@ -5284,182 +5284,182 @@ CHAN_SERVADMIN_HELP_STATUS
 ###########################################################################
 
 MEMO_HELP_CMD_SEND
-	    SEND   Nicke veya kanala mesaj gönderir
+	    SEND   Nicke veya kanala mesaj gÃ¶nderir
 MEMO_HELP_CMD_CANCEL
-	    CANCEL Son gönderilen mesajı iptal eder
+	    CANCEL Son gÃ¶nderilen mesajÄ± iptal eder
 MEMO_HELP_CMD_LIST
-	    LIST   Mesajlarınızı listeler
+	    LIST   MesajlarÄ±nÄ±zÄ± listeler
 MEMO_HELP_CMD_READ
-	    READ   Mesajları okumanızı sağlar
+	    READ   MesajlarÄ± okumanÄ±zÄ± saÄŸlar
 MEMO_HELP_CMD_DEL
-	    DEL    Mesajları silmenizi sağlar
+	    DEL    MesajlarÄ± silmenizi saÄŸlar
 MEMO_HELP_CMD_SET
-	    SET    Mesajlarla ilgili ayarları yapar
+	    SET    Mesajlarla ilgili ayarlarÄ± yapar
 MEMO_HELP_CMD_INFO
-	    INFO   Mesajlar Hakkında bilgi almanızı saglar
+	    INFO   Mesajlar HakkÄ±nda bilgi almanÄ±zÄ± saglar
 MEMO_HELP_CMD_RSEND
-	    RSEND  Taahhutlu mesaj yollamanızı sağlar:)
+	    RSEND  Taahhutlu mesaj yollamanÄ±zÄ± saÄŸlar:)
 MEMO_HELP_CMD_CHECK
-	    CHECK  Kişinin son mesajını okuyup okumadıgını kontrol eder
+	    CHECK  KiÅŸinin son mesajÄ±nÄ± okuyup okumadÄ±gÄ±nÄ± kontrol eder
 MEMO_HELP_CMD_SENDALL
-	    SENDALL  Tüm kayıtlı kullanıcılara mesaj yollamanizi saglar
+	    SENDALL  TÃ¼m kayÄ±tlÄ± kullanÄ±cÄ±lara mesaj yollamanizi saglar
 MEMO_HELP_CMD_STAFF
-	    STAFF      Tüm görevlilere mesaj yollamanizi saglar
+	    STAFF      TÃ¼m gÃ¶revlilere mesaj yollamanizi saglar
 
 MEMO_HELP_HEADER
-	%S kullanıcıların birbirlerine veya kanallara(*) online 
-	olmasalar bile mesaj göndermelerini sağlar. Mesaj gönderebilmek
-	için gönderenin nicki, gönderilenin nicki veya kanalın kayıtlı
-	olması gereklidir.
+	%S kullanÄ±cÄ±larÄ±n birbirlerine veya kanallara(*) online 
+	olmasalar bile mesaj gÃ¶ndermelerini saÄŸlar. Mesaj gÃ¶nderebilmek
+	iÃ§in gÃ¶nderenin nicki, gÃ¶nderilenin nicki veya kanalÄ±n kayÄ±tlÄ±
+	olmasÄ± gereklidir.
 	
-	%S'ün mevcut komutları:
+	%S'Ã¼n mevcut komutlarÄ±:
 	
 
 MEMO_HELP_ADMIN
-	Kullanılmıyor.
+	KullanÄ±lmÄ±yor.
 MEMO_HELP_OPER
-	Kullanılmıyor.
+	KullanÄ±lmÄ±yor.
 MEMO_HELP_FOOTER
 	
-	Yukardaki herhangi bir komut hakkında yardım için 
-	%R%S HELP komut yazın.
+	Yukardaki herhangi bir komut hakkÄ±nda yardÄ±m iÃ§in 
+	%R%S HELP komut yazÄ±n.
 	
-	(*) Varsayılan olarak, kanal mesajlarını o kanalda access
+	(*) VarsayÄ±lan olarak, kanal mesajlarÄ±nÄ± o kanalda access
 	    seviyesi en az 10 olanlar okuyabilir. Bu %s LEVELS 
-	    komutuyla değiştirebilir.
+	    komutuyla deÄŸiÅŸtirebilir.
 
 MEMO_HELP_SEND
-	Kullanımı: SEND {nick | kanaladı} mesaj
+	KullanÄ±mÄ±: SEND {nick | kanaladÄ±} mesaj
 	
-	Belirtilen nicke veya kanala yazılan mesajı gönderir.
-	Nicke gönderirken, gönderilen kişi yeni mesajı olduğuna dair
-	bir not alır. Mesaj gönderilen nick/kanal kayıtlı olmalıdır.
+	Belirtilen nicke veya kanala yazÄ±lan mesajÄ± gÃ¶nderir.
+	Nicke gÃ¶nderirken, gÃ¶nderilen kiÅŸi yeni mesajÄ± olduÄŸuna dair
+	bir not alÄ±r. Mesaj gÃ¶nderilen nick/kanal kayÄ±tlÄ± olmalÄ±dÄ±r.
 
 MEMO_HELP_CANCEL
-	Kullanımı: CANCEL {nick | kanaladı}
+	KullanÄ±mÄ±: CANCEL {nick | kanaladÄ±}
 	
-	Belirtilen kanala yada nicke gönderilen son mesajı iptal eder,
-	tabi eğer o mesaj siz komutu kullandığınız sırada okunmamışsa.
+	Belirtilen kanala yada nicke gÃ¶nderilen son mesajÄ± iptal eder,
+	tabi eÄŸer o mesaj siz komutu kullandÄ±ÄŸÄ±nÄ±z sÄ±rada okunmamÄ±ÅŸsa.
 
 MEMO_HELP_LIST
-	Kullanımı: LIST [kanaladı] [liste | NEW]
+	KullanÄ±mÄ±: LIST [kanaladÄ±] [liste | NEW]
 	
-	Mevcut mesajlarınızı listeler. NEW parametresi sadece yeni
-	okunmamış mesajları listeler. Okunmamış mesajlar mesaj 
-	numarasının solunda "*" ile işaretlidir. Aşağıdaki örnekte
-	olduğu gibi belirli numaralarıda listeleyebilirsiniz:
+	Mevcut mesajlarÄ±nÄ±zÄ± listeler. NEW parametresi sadece yeni
+	okunmamÄ±ÅŸ mesajlarÄ± listeler. OkunmamÄ±ÅŸ mesajlar mesaj 
+	numarasÄ±nÄ±n solunda "*" ile iÅŸaretlidir. AÅŸaÄŸÄ±daki Ã¶rnekte
+	olduÄŸu gibi belirli numaralarÄ±da listeleyebilirsiniz:
 	
 	   LIST 2-5,7-9
-	      2'den 5'e ve 7'den 9'a kadar olan mesajları listeler.
+	      2'den 5'e ve 7'den 9'a kadar olan mesajlarÄ± listeler.
 
 MEMO_HELP_READ
-	Kullanımı: READ [kanaladı] {num | liste | LAST | NEW}
+	KullanÄ±mÄ±: READ [kanaladÄ±] {num | liste | LAST | NEW}
 	
-	Belirtilen mesajları okumanızı sağlar. Eğer LAST belirtilmişse
-	en son gelen mesajınızı okursunuz. Eğer NEW belirtilmişse tüm 
-	yeni mesajlarını okursunuz. Eğer bir numara belirtirseniz (num)
-	o numaraya ait mesajı okursunuz. Aşağıdaki örnekteki gibi belirli
-	numaralarıda okuyabilirsiniz:
+	Belirtilen mesajlarÄ± okumanÄ±zÄ± saÄŸlar. EÄŸer LAST belirtilmiÅŸse
+	en son gelen mesajÄ±nÄ±zÄ± okursunuz. EÄŸer NEW belirtilmiÅŸse tÃ¼m 
+	yeni mesajlarÄ±nÄ± okursunuz. EÄŸer bir numara belirtirseniz (num)
+	o numaraya ait mesajÄ± okursunuz. AÅŸaÄŸÄ±daki Ã¶rnekteki gibi belirli
+	numaralarÄ±da okuyabilirsiniz:
 	
 	   READ 2-5,7-9
-	      2'den 5'e ve 7'den 9'a kadar olan mesajları gösterir.
+	      2'den 5'e ve 7'den 9'a kadar olan mesajlarÄ± gÃ¶sterir.
 
 MEMO_HELP_DEL
-	Kullanımı: DEL [kanaladı] {num | liste | LAST | ALL}
+	KullanÄ±mÄ±: DEL [kanaladÄ±] {num | liste | LAST | ALL}
 	
-	Belirtilen mesajları siler. Aşağıdaki örnekteki gibi birden
-	fazla mesajıda silebilirsiniz.
+	Belirtilen mesajlarÄ± siler. AÅŸaÄŸÄ±daki Ã¶rnekteki gibi birden
+	fazla mesajÄ±da silebilirsiniz.
 	
 	If LAST is given, the last memo will be deleted.
-	Eğer ALL parametresi belirtilmişse, tüm mesajlarınız silinir.
+	EÄŸer ALL parametresi belirtilmiÅŸse, tÃ¼m mesajlarÄ±nÄ±z silinir.
 	
-	Örnekler:
+	Ã–rnekler:
 	
 	   DEL 1
-	      İlk gelen mesajınızı siler.
+	      Ä°lk gelen mesajÄ±nÄ±zÄ± siler.
 	
 	   DEL 2-5,7-9
-	      2'den 5'e ve 7'den 9'a kadar olan mesajları siler.
+	      2'den 5'e ve 7'den 9'a kadar olan mesajlarÄ± siler.
 
 MEMO_HELP_SET
-	Kullanımı: SET özellik parametre
+	KullanÄ±mÄ±: SET Ã¶zellik parametre
 	
-	Çeşitli mesaj ayarlarını yapar. özellik aşağıdakilerden 
+	Ã‡eÅŸitli mesaj ayarlarÄ±nÄ± yapar. Ã¶zellik aÅŸaÄŸÄ±dakilerden 
 	biri olabilir:
 	
-	    NOTIFY      Yeni mesajlarda ne zaman uyarılacağınızı
-	                    belirler (sadece nickler içindir)
-	    LIMIT       Alabileceğiniz maksimum mesaj sayısını
+	    NOTIFY      Yeni mesajlarda ne zaman uyarÄ±lacaÄŸÄ±nÄ±zÄ±
+	                    belirler (sadece nickler iÃ§indir)
+	    LIMIT       AlabileceÄŸiniz maksimum mesaj sayÄ±sÄ±nÄ±
 	                    belirler
 	
-	Belirli bir özellik hakkında daha fazla bilgi için, 
-	%R%S HELP SET özellik yazın.
+	Belirli bir Ã¶zellik hakkÄ±nda daha fazla bilgi iÃ§in, 
+	%R%S HELP SET Ã¶zellik yazÄ±n.
 
 MEMO_HELP_SET_NOTIFY
-	Kullanımı: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
+	KullanÄ±mÄ±: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 	
-	Yeni mesajlarda ne zaman uyarılacağınızı belirler:
+	Yeni mesajlarda ne zaman uyarÄ±lacaÄŸÄ±nÄ±zÄ± belirler:
 	
-	    ON      Yeni mesajlar için bağlandığınızda, away den 
-	               dönüşte ve size gönderildikleri anda 
-	               uyarılırsınız.
-	    LOGON   Yeni mesajlar için bağlandığınızda ve away den
-	               dönüşte uyarılırsınız.
-	    NEW     Yeni mesajlar için sadece size gönderildikleri 
-	               anda uyarılırsınız.
+	    ON      Yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda, away den 
+	               dÃ¶nÃ¼ÅŸte ve size gÃ¶nderildikleri anda 
+	               uyarÄ±lÄ±rsÄ±nÄ±z.
+	    LOGON   Yeni mesajlar iÃ§in baÄŸlandÄ±ÄŸÄ±nÄ±zda ve away den
+	               dÃ¶nÃ¼ÅŸte uyarÄ±lÄ±rsÄ±nÄ±z.
+	    NEW     Yeni mesajlar iÃ§in sadece size gÃ¶nderildikleri 
+	               anda uyarÄ±lÄ±rsÄ±nÄ±z.
 	    MAIL    You will be notified of memos by email aswell as
 	                any other settings you have.
 	    NOMAIL  You will not be notified of memos by email.
-	    OFF     Yeni mesajlar için herhangi bir uyarı almazsınız.
+	    OFF     Yeni mesajlar iÃ§in herhangi bir uyarÄ± almazsÄ±nÄ±z.
 	
 	ON parametresi LOGON ve NEW 'in kombinasyonudur
 
 MEMO_HELP_SET_LIMIT
-	Kullanımı: SET LIMIT [kanaladı] limit
+	KullanÄ±mÄ±: SET LIMIT [kanaladÄ±] limit
 	
-	Sizin alabileceğiniz (yada belirtilen kanalın) maksimum mesaj
-	sayısını belirler. Eğer bunu 0 yaparsanız kimse size mesaj 
-	gönderemeyecektir. Ayrıca bu limiti %d den fazla yapamazsınız.
+	Sizin alabileceÄŸiniz (yada belirtilen kanalÄ±n) maksimum mesaj
+	sayÄ±sÄ±nÄ± belirler. EÄŸer bunu 0 yaparsanÄ±z kimse size mesaj 
+	gÃ¶nderemeyecektir. AyrÄ±ca bu limiti %d den fazla yapamazsÄ±nÄ±z.
 
 MEMO_HELP_INFO
-	Kullanımı: INFO [kanaladı]
+	KullanÄ±mÄ±: INFO [kanaladÄ±]
 	
-	Sahip olduğunuz mesaj sayısı, kaç tanesinin okunmadığı, ve 
-	alabileceğiniz maksimum mesaj sayısı gibi bilgiler verir.
-	Eğer kanaladı parametresi belirtilirse aynı bilgiyi o kanal
-	için gösterir.
+	Sahip olduÄŸunuz mesaj sayÄ±sÄ±, kaÃ§ tanesinin okunmadÄ±ÄŸÄ±, ve 
+	alabileceÄŸiniz maksimum mesaj sayÄ±sÄ± gibi bilgiler verir.
+	EÄŸer kanaladÄ± parametresi belirtilirse aynÄ± bilgiyi o kanal
+	iÃ§in gÃ¶sterir.
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
-	Kullanımı: SET LIMIT [kullanıcı | kanaladı] {limit | NONE} [HARD]
+	KullanÄ±mÄ±: SET LIMIT [kullanÄ±cÄ± | kanaladÄ±] {limit | NONE} [HARD]
 	
-	Bir kullanıcıcn yada kanalın alabileceği maksimum mesaj
-	sayısını belirler. Bunu 0 yapmak kullanıcının mesaj almasını 
-	engeller; NONE yapmaksa kullanıcının istediği kadar mesaj
-	alıp saklamasını sağlar. Eğer kanal veya nick belirtilmezse,
-	kendi limitinizi ayarlarsınız.
+	Bir kullanÄ±cÄ±cn yada kanalÄ±n alabileceÄŸi maksimum mesaj
+	sayÄ±sÄ±nÄ± belirler. Bunu 0 yapmak kullanÄ±cÄ±nÄ±n mesaj almasÄ±nÄ± 
+	engeller; NONE yapmaksa kullanÄ±cÄ±nÄ±n istediÄŸi kadar mesaj
+	alÄ±p saklamasÄ±nÄ± saÄŸlar. EÄŸer kanal veya nick belirtilmezse,
+	kendi limitinizi ayarlarsÄ±nÄ±z.
 	
-	HARD parametresini eklemek kullanıcının bu limiti değiştirmesini
-	engeller. Bunu eklememekde, kullanıcının limiti değiştirmesine izin
-	verir. (Bir önceki limit ayarında HARD kullanılmış olsa bile).
+	HARD parametresini eklemek kullanÄ±cÄ±nÄ±n bu limiti deÄŸiÅŸtirmesini
+	engeller. Bunu eklememekde, kullanÄ±cÄ±nÄ±n limiti deÄŸiÅŸtirmesine izin
+	verir. (Bir Ã¶nceki limit ayarÄ±nda HARD kullanÄ±lmÄ±ÅŸ olsa bile).
 	
-	SET LIMIT komutunun Kullanımı Servis adminleriyle sınırlıdır.
-	Diğer kullanıcılar limitlerini kaldıramaz, %d üzeri bir limit 
+	SET LIMIT komutunun KullanÄ±mÄ± Servis adminleriyle sÄ±nÄ±rlÄ±dÄ±r.
+	DiÄŸer kullanÄ±cÄ±lar limitlerini kaldÄ±ramaz, %d Ã¼zeri bir limit 
 	belirleyemez, ve hard limitini ayarlayamaz. Sadece gerekli 
-	ayrıcalıkları varsa bir kanalın mesaj limitini ve kendi mesaj
+	ayrÄ±calÄ±klarÄ± varsa bir kanalÄ±n mesaj limitini ve kendi mesaj
 	limitlerini ayarlayabilirler.
 
 MEMO_SERVADMIN_HELP_INFO
-	Kullanımı: INFO [nick | kanaladı]
+	KullanÄ±mÄ±: INFO [nick | kanaladÄ±]
 	
-	Parametre kullanılmazsa, sahip olduğunuz mesajları, kaç 
-	tanesinin okunmamış olduğunu, ve toplam kaç tane mesaj 
-	alabileceğiniz hakkında bilgiler verir.
+	Parametre kullanÄ±lmazsa, sahip olduÄŸunuz mesajlarÄ±, kaÃ§ 
+	tanesinin okunmamÄ±ÅŸ olduÄŸunu, ve toplam kaÃ§ tane mesaj 
+	alabileceÄŸiniz hakkÄ±nda bilgiler verir.
 	
-	Kanaladı parametresiyle, aynı bilgiyi belirtilen kanal
-	için verir.
+	KanaladÄ± parametresiyle, aynÄ± bilgiyi belirtilen kanal
+	iÃ§in verir.
 	
-	Nick parametresiyle, aynı bilgiyi belirtilen nick için
-	verir. Kullanımı Servis adminleriyle sınırlıdır.
+	Nick parametresiyle, aynÄ± bilgiyi belirtilen nick iÃ§in
+	verir. KullanÄ±mÄ± Servis adminleriyle sÄ±nÄ±rlÄ±dÄ±r.
 
 ###########################################################################
 #
@@ -5468,9 +5468,9 @@ MEMO_SERVADMIN_HELP_INFO
 ###########################################################################
 
 MEMO_HELP_STAFF
-	Kullanımı: STAFF memo-text
+	KullanÄ±mÄ±: STAFF memo-text
 
-	Tüm servis görevlilerine  memaj yollamanızı saglar.
+	TÃ¼m servis gÃ¶revlilerine  memaj yollamanÄ±zÄ± saglar.
 	Note: If you have opers on both the oper list and the
 	admin list they will recive the memo twice.  The same
 	applies for oper's on the Root list as well as other
@@ -5483,9 +5483,9 @@ MEMO_HELP_STAFF
 ###########################################################################
 
 MEMO_HELP_SENDALL
-	Kullanımı: SENDALL mesaj
+	KullanÄ±mÄ±: SENDALL mesaj
 
-	Tüm kayıtlı kullanıcılara mesaj yollamanızı saglar.
+	TÃ¼m kayÄ±tlÄ± kullanÄ±cÄ±lara mesaj yollamanÄ±zÄ± saglar.
 
 ###########################################################################
 #
@@ -5494,15 +5494,15 @@ MEMO_HELP_SENDALL
 ###########################################################################
 
 MEMO_HELP_RSEND
-	Kullanımı: RSEND {nick | channel} memo-text
+	KullanÄ±mÄ±: RSEND {nick | channel} memo-text
 	
 	Bir nick veya kanal mesaj yollayabilirsiniz
-	memo-text.  Bir rumuza yolladıgınız zaman 
-	Kişi yeni mesaj aldıgına dair uyarılır. Yollanan hedef
-	kayıtlı bir rumuz veya kanal olmalıdır.
-	Mesaj okundugu zaman yollayan kişiye, okuyan kişilerin okuduguna dair
+	memo-text.  Bir rumuza yolladÄ±gÄ±nÄ±z zaman 
+	KiÅŸi yeni mesaj aldÄ±gÄ±na dair uyarÄ±lÄ±r. Yollanan hedef
+	kayÄ±tlÄ± bir rumuz veya kanal olmalÄ±dÄ±r.
+	Mesaj okundugu zaman yollayan kiÅŸiye, okuyan kiÅŸilerin okuduguna dair
 	bir uyari bilgisi iletilir.
-	Bir baska deyiş ile iadeli taahhutlu mektup gibidir.:)
+	Bir baska deyiÅŸ ile iadeli taahhutlu mektup gibidir.:)
 
 ###########################################################################
 #
@@ -5511,10 +5511,10 @@ MEMO_HELP_RSEND
 ###########################################################################
 
 MEMO_HELP_CHECK
-	Kullanımı: CHECK nick
+	KullanÄ±mÄ±: CHECK nick
 	
-	Yollanan rumuzun son mesajı okudugunu veya okumadıgını gosterir
-	Not: Sadece rumuzlarda kullanılır, kanal mesajlarında geçerli degildir.
+	Yollanan rumuzun son mesajÄ± okudugunu veya okumadÄ±gÄ±nÄ± gosterir
+	Not: Sadece rumuzlarda kullanÄ±lÄ±r, kanal mesajlarÄ±nda geÃ§erli degildir.
 
 ###########################################################################
 #
@@ -5523,84 +5523,84 @@ MEMO_HELP_CHECK
 ###########################################################################
 
 OPER_HELP_CMD_GLOBAL
-	    GLOBAL      Tüm kullanıcılara mesaj gönderir
+	    GLOBAL      TÃ¼m kullanÄ±cÄ±lara mesaj gÃ¶nderir
 OPER_HELP_CMD_STATS
-	    STATS       Servislerin ve networkun durumunu gösterir
+	    STATS       Servislerin ve networkun durumunu gÃ¶sterir
 OPER_HELP_CMD_OPER
-	    OPER        Servis operatör listesini düzenler
+	    OPER        Servis operatÃ¶r listesini dÃ¼zenler
 OPER_HELP_CMD_ADMIN
-	    ADMIN       Servis adminleri listesini düzenler
+	    ADMIN       Servis adminleri listesini dÃ¼zenler
 OPER_HELP_CMD_STAFF
-	    STAFF       Sunucu görevlilerini durumlarına göre listeler
+	    STAFF       Sunucu gÃ¶revlilerini durumlarÄ±na gÃ¶re listeler
 OPER_HELP_CMD_MODE
-	    MODE        Bir kanalın modlarını değiştirir
+	    MODE        Bir kanalÄ±n modlarÄ±nÄ± deÄŸiÅŸtirir
 OPER_HELP_CMD_KICK
-	    KICK        Bir kullanıcıyı kanaldan atar
+	    KICK        Bir kullanÄ±cÄ±yÄ± kanaldan atar
 OPER_HELP_CMD_CLEARMODES
-	    CLEARMODES  Bir kanalın modlarını temizler
+	    CLEARMODES  Bir kanalÄ±n modlarÄ±nÄ± temizler
 OPER_HELP_CMD_KILLCLONES
 	    KILLCLONES  Ayni ip'deki tum kullanicilari kill'ler.
 OPER_HELP_CMD_AKILL
-	    AKILL       AKILL listesini düzenler
+	    AKILL       AKILL listesini dÃ¼zenler
 OPER_HELP_CMD_SGLINE
-	    SGLINE      SGLINE listesini düzenler
+	    SGLINE      SGLINE listesini dÃ¼zenler
 OPER_HELP_CMD_SQLINE
-	    SQLINE      SQLINE listesini düzenler
+	    SQLINE      SQLINE listesini dÃ¼zenler
 OPER_HELP_CMD_SZLINE
-	    SZLINE      SZLINE listesini düzenler
+	    SZLINE      SZLINE listesini dÃ¼zenler
 OPER_HELP_CMD_CHANLIST
-	    CHANLIST    Tüm kanal kayıtlarını listeler
+	    CHANLIST    TÃ¼m kanal kayÄ±tlarÄ±nÄ± listeler
 OPER_HELP_CMD_USERLIST
-	    USERLIST    Tüm kullanıcı kayıtlarını listeler
+	    USERLIST    TÃ¼m kullanÄ±cÄ± kayÄ±tlarÄ±nÄ± listeler
 OPER_HELP_CMD_LOGONNEWS
-	    LOGONNEWS   Bağlantı sırasında kullanıcının göreceği mesajı 
+	    LOGONNEWS   BaÄŸlantÄ± sÄ±rasÄ±nda kullanÄ±cÄ±nÄ±n gÃ¶receÄŸi mesajÄ± 
 	                belirler
 OPER_HELP_CMD_RANDOMNEWS
-	    RANDOMNEWS  Baglanti sirasina kullaniciya gönderilen karisik
+	    RANDOMNEWS  Baglanti sirasina kullaniciya gÃ¶nderilen karisik
 	                mesajlari belirler
 OPER_HELP_CMD_OPERNEWS
-	    OPERNEWS    Oper olan kullanıcıların görüntüleyeceği mesajı 
+	    OPERNEWS    Oper olan kullanÄ±cÄ±larÄ±n gÃ¶rÃ¼ntÃ¼leyeceÄŸi mesajÄ± 
 	                belirler
 OPER_HELP_CMD_SESSION
-	    SESSION     Host session(oturum) ların listesini gösterir
+	    SESSION     Host session(oturum) larÄ±n listesini gÃ¶sterir
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION   Session-limit exception listesini düzenler
+	    EXCEPTION   Session-limit exception listesini dÃ¼zenler
 OPER_HELP_CMD_NOOP
-	    NOOP        Geçici olarak tüm O:line ları kaldırır
+	    NOOP        GeÃ§ici olarak tÃ¼m O:line larÄ± kaldÄ±rÄ±r
 OPER_HELP_CMD_JUPE
-	    JUPE        Bir server'ı "Kullanılmaz" yapar
+	    JUPE        Bir server'Ä± "KullanÄ±lmaz" yapar
 OPER_HELP_CMD_IGNORE
-	    IGNORE      Servis engel listesini düzenler
+	    IGNORE      Servis engel listesini dÃ¼zenler
 OPER_HELP_CMD_SET
-	    SET         Çeşitli global servis özelliklerini ayarlar
+	    SET         Ã‡eÅŸitli global servis Ã¶zelliklerini ayarlar
 OPER_HELP_CMD_RELOAD
-	    RELOAD      Servislerin conf dosyasını yeniden yükler
+	    RELOAD      Servislerin conf dosyasÄ±nÄ± yeniden yÃ¼kler
 OPER_HELP_CMD_UPDATE
-	    UPDATE      Diskteki Servis veritabanının hemen
-	                güncellenmesini sağlar
+	    UPDATE      Diskteki Servis veritabanÄ±nÄ±n hemen
+	                gÃ¼ncellenmesini saÄŸlar
 
 OPER_HELP_CMD_RESTART
-	    RESTART     Veritabanını kaydeder ve servisleri yeniden 
-	                başlatır
+	    RESTART     VeritabanÄ±nÄ± kaydeder ve servisleri yeniden 
+	                baÅŸlatÄ±r
 
 OPER_HELP_CMD_QUIT
-	    QUIT        Servis programını kapatır
+	    QUIT        Servis programÄ±nÄ± kapatÄ±r
 OPER_HELP_CMD_SHUTDOWN
-	    SHUTDOWN    Servisler programını kayıt ederek kapatır
+	    SHUTDOWN    Servisler programÄ±nÄ± kayÄ±t ederek kapatÄ±r
 OPER_HELP_CMD_DEFCON
-	    DEFCON      DEFCON sistemini elle düzenlemenizi sağlar
+	    DEFCON      DEFCON sistemini elle dÃ¼zenlemenizi saÄŸlar
 OPER_HELP_CMD_CHANKILL
-	    CHANKILL    Secilen kanaldaki tüm kullanıcıları sunucudan atar
+	    CHANKILL    Secilen kanaldaki tÃ¼m kullanÄ±cÄ±larÄ± sunucudan atar
 OPER_HELP_CMD_OLINE
 	    OLINE       Eklenen rumuza oper yetkisi verir
 OPER_HELP_CMD_UMODE
-	    UMODE       Kullanıcının modlarını degiştirir
+	    UMODE       KullanÄ±cÄ±nÄ±n modlarÄ±nÄ± degiÅŸtirir
 OPER_HELP_CMD_SVSNICK
-	    SVSNICK     Kişi nickini zorla değiştirir
+	    SVSNICK     KiÅŸi nickini zorla deÄŸiÅŸtirir
 OPER_HELP_CMD_MODLOAD
-	    MODLOAD     Eklenti yükler
+	    MODLOAD     Eklenti yÃ¼kler
 OPER_HELP_CMD_MODUNLOAD
-	    MODUNLOAD   Eklenti kaldırır
+	    MODUNLOAD   Eklenti kaldÄ±rÄ±r
 OPER_HELP_CMD_MODINFO
 	    MODINFO     Eklentinin bilgilerini verir
 OPER_HELP_CMD_MODLIST
@@ -5610,254 +5610,254 @@ OPER_HELP
 	%S komutlar:
 
 OPER_HELP_LOGGED
-	Not: %S'e gönderilen tüm komutların kaydı tutulur!
+	Not: %S'e gÃ¶nderilen tÃ¼m komutlarÄ±n kaydÄ± tutulur!
 
 OPER_HELP_GLOBAL
-	Kullanımı: GLOBAL mesaj
+	KullanÄ±mÄ±: GLOBAL mesaj
 	
-	IRCopların networkteki tüm kullanıcılara mesaj yollamasını
-	sağlar. Mesajlar %s nickinden gönderilir.
+	IRCoplarÄ±n networkteki tÃ¼m kullanÄ±cÄ±lara mesaj yollamasÄ±nÄ±
+	saÄŸlar. Mesajlar %s nickinden gÃ¶nderilir.
 
 OPER_HELP_STATS
-	Kullanımı: STATS [AKILL | ALL | RESET]
+	KullanÄ±mÄ±: STATS [AKILL | ALL | RESET]
 	
-	Hiçbir parametre yokken, mevcut kullanıcı sayısını ve online
-	olan IRCopları(Servisler hariç), Servisler başlatıldığından 
-	beri bağlı olan en fazla kullanıcı sayısını, ve servislerin
-	çalışma süresini gösterir.
+	HiÃ§bir parametre yokken, mevcut kullanÄ±cÄ± sayÄ±sÄ±nÄ± ve online
+	olan IRCoplarÄ±(Servisler hariÃ§), Servisler baÅŸlatÄ±ldÄ±ÄŸÄ±ndan 
+	beri baÄŸlÄ± olan en fazla kullanÄ±cÄ± sayÄ±sÄ±nÄ±, ve servislerin
+	Ã§alÄ±ÅŸma sÃ¼resini gÃ¶sterir.
 	
 	AKILL parametresiyle, mevcut AKILL listesini ve o anki 
-	varsayılan zaman aşımı süresini gösterir.
+	varsayÄ±lan zaman aÅŸÄ±mÄ± sÃ¼resini gÃ¶sterir.
 	
-	ALL parametresi sadece Servis adminleri tarafından 
-	kullanılabilir, ve servislerin kullandığı hafıza(memory) 
-	hakkında bilgi verir. Büyük networklerde bu komutun kullanılması
-	servisleri kısa bir süre dondurabilir, bu yüzden tekrar kullanmaya
-	kalkmayın!
+	ALL parametresi sadece Servis adminleri tarafÄ±ndan 
+	kullanÄ±labilir, ve servislerin kullandÄ±ÄŸÄ± hafÄ±za(memory) 
+	hakkÄ±nda bilgi verir. BÃ¼yÃ¼k networklerde bu komutun kullanÄ±lmasÄ±
+	servisleri kÄ±sa bir sÃ¼re dondurabilir, bu yÃ¼zden tekrar kullanmaya
+	kalkmayÄ±n!
 	
-	RESET parametresi önceki maksimum kullanıcı sayısını o anda
-	networkte bulunan kullanıcı sayısıyla değiştirir.
+	RESET parametresi Ã¶nceki maksimum kullanÄ±cÄ± sayÄ±sÄ±nÄ± o anda
+	networkte bulunan kullanÄ±cÄ± sayÄ±sÄ±yla deÄŸiÅŸtirir.
 	
-	UPTIME komutu STATS komutunun alternatifi olarak kullanılabilir.
+	UPTIME komutu STATS komutunun alternatifi olarak kullanÄ±labilir.
 
 OPER_HELP_OPER
-	Kullanımı: OPER ADD nick
-	           OPER DEL {nick | kayıt-num | liste}
+	KullanÄ±mÄ±: OPER ADD nick
+	           OPER DEL {nick | kayÄ±t-num | liste}
 	           OPER LIST [mask | liste]
 	           OPER CLEAR
 	
-	Servis Root Servis operatörleri listesine belirtilen 
-	nicki ekleyip çıkarmasını sağlar. Nicki Servis operatörleri
-	listesinde olan ve kendini %s ile tanıtmış olan kullanıcılar
-	Servis operatörleri komutlarını kullanabilir.
+	Servis Root Servis operatÃ¶rleri listesine belirtilen 
+	nicki ekleyip Ã§Ä±karmasÄ±nÄ± saÄŸlar. Nicki Servis operatÃ¶rleri
+	listesinde olan ve kendini %s ile tanÄ±tmÄ±ÅŸ olan kullanÄ±cÄ±lar
+	Servis operatÃ¶rleri komutlarÄ±nÄ± kullanabilir.
 	
-	OPER ADD komutu belirtilen nicki servis operatörleri listesine
+	OPER ADD komutu belirtilen nicki servis operatÃ¶rleri listesine
 	ekler.
 	
-	OPER DEL komutu belirtilen nicki servis operatörleri listesinden
-	siler. Eğer bir kayıt numarası listesi verilmişse, bu kayıtlar
-	silinir. (Aşağıdaki LIST ile ilgili örneği inceleyin.)
+	OPER DEL komutu belirtilen nicki servis operatÃ¶rleri listesinden
+	siler. EÄŸer bir kayÄ±t numarasÄ± listesi verilmiÅŸse, bu kayÄ±tlar
+	silinir. (AÅŸaÄŸÄ±daki LIST ile ilgili Ã¶rneÄŸi inceleyin.)
 	
-	OPER LIST komutu servis operatörleri listesini görüntüler.
-	Eğer yıldızlı(wildcard) bir mask belirtilirse, sadece o maskla
-	uyuşan kayıtlar listelenir. Eğerbir kayıt numarası listesi 
-	belirtilirse, sadece o kayıtlar gösterilir; Örneğin:
+	OPER LIST komutu servis operatÃ¶rleri listesini gÃ¶rÃ¼ntÃ¼ler.
+	EÄŸer yÄ±ldÄ±zlÄ±(wildcard) bir mask belirtilirse, sadece o maskla
+	uyuÅŸan kayÄ±tlar listelenir. EÄŸerbir kayÄ±t numarasÄ± listesi 
+	belirtilirse, sadece o kayÄ±tlar gÃ¶sterilir; Ã–rneÄŸin:
 	
 	   OPER LIST 2-5,7-9
-	      Servis operatörlerinden kaydı 2 den 5 e ve 7 den 9 a
+	      Servis operatÃ¶rlerinden kaydÄ± 2 den 5 e ve 7 den 9 a
 	      kadar olanlar listelenir.
 	
-	OPER CLEAR komutu servis operatörleri listesindeki tüm kayıtları
+	OPER CLEAR komutu servis operatÃ¶rleri listesindeki tÃ¼m kayÄ±tlarÄ±
 	siler.
 	
-	Herhangi bir IRC operatörü OPER LIST komutunu kullanabilir.
+	Herhangi bir IRC operatÃ¶rÃ¼ OPER LIST komutunu kullanabilir.
 
 OPER_HELP_ADMIN
-	Kullanımı: ADMIN ADD nick
-	           ADMIN DEL {nick | kayıt-num | liste}
+	KullanÄ±mÄ±: ADMIN ADD nick
+	           ADMIN DEL {nick | kayÄ±t-num | liste}
 	           ADMIN LIST [mask | liste]
 	           ADMIN CLEAR
 	
 	Servis root unun Servis adminleri listesine 
-	belirtilen nicki ekleyip çıkarmasını sağlar. Nicki Servis 
-	adminleri listesinde olan ve kendini %s ile tanıtmış olan
-	kullanıcı Servis adminlerini komutlarını kullanabilir.
+	belirtilen nicki ekleyip Ã§Ä±karmasÄ±nÄ± saÄŸlar. Nicki Servis 
+	adminleri listesinde olan ve kendini %s ile tanÄ±tmÄ±ÅŸ olan
+	kullanÄ±cÄ± Servis adminlerini komutlarÄ±nÄ± kullanabilir.
 	
 	ADMIN ADD komutu servis adminleri listesine belirtilen nicki
 	ekler.
 	
 	ADMIN DEL komutu belirtilen nicki servis adminleri listesinden
-	siler. Eğer kayıt numaraları listesi verilmişse, bu kayıtlar 
-	silinir. (Aşağıdaki LIST örneğini inceleyin.)
+	siler. EÄŸer kayÄ±t numaralarÄ± listesi verilmiÅŸse, bu kayÄ±tlar 
+	silinir. (AÅŸaÄŸÄ±daki LIST Ã¶rneÄŸini inceleyin.)
 	
-	ADMIN LIST komutu servis adminleri listesini görüntüler.
-	Eğer yıldızlı(wildcard) bir mask belirtilmişse, sadece bu
-	maskla uyuşan kayıtlar görüntülenir. Eğer bir kayıt numarası 
-	listesi belirtilmişse, sadece o kayıtlar gösterilir; Örneğin:
+	ADMIN LIST komutu servis adminleri listesini gÃ¶rÃ¼ntÃ¼ler.
+	EÄŸer yÄ±ldÄ±zlÄ±(wildcard) bir mask belirtilmiÅŸse, sadece bu
+	maskla uyuÅŸan kayÄ±tlar gÃ¶rÃ¼ntÃ¼lenir. EÄŸer bir kayÄ±t numarasÄ± 
+	listesi belirtilmiÅŸse, sadece o kayÄ±tlar gÃ¶sterilir; Ã–rneÄŸin:
 	
 	   ADMIN LIST 2-5,7-9
-	      Servis adminleri kayıtlarından 2 den 5 e ve 7 den 9 a
+	      Servis adminleri kayÄ±tlarÄ±ndan 2 den 5 e ve 7 den 9 a
 	      kadar olanlar listelenir.
 	      
-	ADMIN CLEAR komutu tüm servis adminlerinin kayıtlarını siler.
+	ADMIN CLEAR komutu tÃ¼m servis adminlerinin kayÄ±tlarÄ±nÄ± siler.
 
-	Herhangi bir IRC operatörü ADMIN LIST komutunu kullanabilir.
-	Diğer tüm ADMIN komutlarını Servis rootları kullanabilir.
+	Herhangi bir IRC operatÃ¶rÃ¼ ADMIN LIST komutunu kullanabilir.
+	DiÄŸer tÃ¼m ADMIN komutlarÄ±nÄ± Servis rootlarÄ± kullanabilir.
 
 OPER_HELP_IGNORE
-	Kullanımı: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
+	KullanÄ±mÄ±: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
 	
-	Servis adminler tarafından kullanılır. 
-	Belirli bir süre veya servisler yeniden başlatılana kadar kişinin servisler tarafından
-	engellenmesini sağlar. Varsayılan zaman degeri saniyedir.
-	Eğer farklı zaman bicimleri istenir ise: saniye icin s,dakika icin m, 
-	saat icin h ve gün icin d kullanılabilir. 
-	Birleşik kombinasyonlar desteklenmez.
-	Kişiyi servislerden tamamen engellemek icin, 0 girdisi belirtilmelidir.
-	Eger mask kullanılacak ise, user@host
+	Servis adminler tarafÄ±ndan kullanÄ±lÄ±r. 
+	Belirli bir sÃ¼re veya servisler yeniden baÅŸlatÄ±lana kadar kiÅŸinin servisler tarafÄ±ndan
+	engellenmesini saÄŸlar. VarsayÄ±lan zaman degeri saniyedir.
+	EÄŸer farklÄ± zaman bicimleri istenir ise: saniye icin s,dakika icin m, 
+	saat icin h ve gÃ¼n icin d kullanÄ±labilir. 
+	BirleÅŸik kombinasyonlar desteklenmez.
+	KiÅŸiyi servislerden tamamen engellemek icin, 0 girdisi belirtilmelidir.
+	Eger mask kullanÄ±lacak ise, user@host
 	veya nick!user@host,.
-	kullanılmalıdır.
+	kullanÄ±lmalÄ±dÄ±r.
 	
-	Engelleme IRC Operatorleri tarafından kullanılamaz.
+	Engelleme IRC Operatorleri tarafÄ±ndan kullanÄ±lamaz.
 
 OPER_HELP_MODE
-	Kullanımı: MODE kanaladı modlar
+	KullanÄ±mÄ±: MODE kanaladÄ± modlar
 	
-	Servis operatörlerinin herhangi bir kanalın modlarını
-	ayarlamasını sağlar. Parametreler standart /MODE komutununkiyle
-	aynıdır.
+	Servis operatÃ¶rlerinin herhangi bir kanalÄ±n modlarÄ±nÄ±
+	ayarlamasÄ±nÄ± saÄŸlar. Parametreler standart /MODE komutununkiyle
+	aynÄ±dÄ±r.
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_UMODE
-	Kullanımı: UMODE user modes
+	KullanÄ±mÄ±: UMODE user modes
 	
-	Super Admins kullanımına acık olmakla beraber.
-	standart /MODE komutu gerine kullanılan komuttur.
-	Secilen kişinin modlarını degiştirmek icin kullanılır.
+	Super Admins kullanÄ±mÄ±na acÄ±k olmakla beraber.
+	standart /MODE komutu gerine kullanÄ±lan komuttur.
+	Secilen kiÅŸinin modlarÄ±nÄ± degiÅŸtirmek icin kullanÄ±lÄ±r.
 
 OPER_HELP_OLINE
-	Kullanımı: OLINE user flags
+	KullanÄ±mÄ±: OLINE user flags
 	
-	Super Admins kullanımına acıktır kişiye Oper yetkisi verir.
-	Seçilen parametreler "+" veya "-" şeklinde belirtilmelidir. 
-	tüm modları snomaskları kaldırmak icin  "-" kullanılabilir.
+	Super Admins kullanÄ±mÄ±na acÄ±ktÄ±r kiÅŸiye Oper yetkisi verir.
+	SeÃ§ilen parametreler "+" veya "-" ÅŸeklinde belirtilmelidir. 
+	tÃ¼m modlarÄ± snomasklarÄ± kaldÄ±rmak icin  "-" kullanÄ±labilir.
 
 OPER_HELP_CLEARMODES
-	Kullanımı: CLEARMODES kanaladı [ALL]
+	KullanÄ±mÄ±: CLEARMODES kanaladÄ± [ALL]
 	
-	Bir kanaldaki tüm modları (i,k,l,m,n,p,s,t) ve banları
-	temizler. Eğer ALL parametresi belirtilmişse, tüm
-	opları (+o) ve voiceları (+v) temizler.
+	Bir kanaldaki tÃ¼m modlarÄ± (i,k,l,m,n,p,s,t) ve banlarÄ±
+	temizler. EÄŸer ALL parametresi belirtilmiÅŸse, tÃ¼m
+	oplarÄ± (+o) ve voicelarÄ± (+v) temizler.
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_KICK
-	Kullanımı: KICK kanaladı kullanıcı sebep
+	KullanÄ±mÄ±: KICK kanaladÄ± kullanÄ±cÄ± sebep
 	
-	IRCopların herhangi bir kullanıcıyı kanaldan atmalarını
-	sağlar. Parametreler standart /KICK komutununkiyle aynıdır.
-	Kick mesajında komutu kullanan IRCop un nickide belirtilir.
-	Örneğin:
+	IRCoplarÄ±n herhangi bir kullanÄ±cÄ±yÄ± kanaldan atmalarÄ±nÄ±
+	saÄŸlar. Parametreler standart /KICK komutununkiyle aynÄ±dÄ±r.
+	Kick mesajÄ±nda komutu kullanan IRCop un nickide belirtilir.
+	Ã–rneÄŸin:
 	
 	*** SpamMan has been kicked off channel #my_channel by %S (MJJ (Flood))
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SVSNICK
-	Kullanımı: SVSNICK nick newnick
+	KullanÄ±mÄ±: SVSNICK nick newnick
 	
-	Kişinin rumuzunu degiştirmek icin kullanılır.
-	Super Admins kullanımı icindir.
+	KiÅŸinin rumuzunu degiÅŸtirmek icin kullanÄ±lÄ±r.
+	Super Admins kullanÄ±mÄ± icindir.
 
 OPER_HELP_AKILL
-	Kullanımı: AKILL ADD [+zamanaşımı] mask sebep
-	           AKILL DEL {mask | kayıt-no | liste}
+	KullanÄ±mÄ±: AKILL ADD [+zamanaÅŸÄ±mÄ±] mask sebep
+	           AKILL DEL {mask | kayÄ±t-no | liste}
 	           AKILL LIST [mask | liste]
 	           AKILL VIEW [mask | liste]
 	           AKILL CLEAR
 	
-	Servis operatörlerinin AKILL listesini işletmesini sağlar.
-	Eğer AKILL listesineki mask la uyuşan bir kullanıcı
-	bağlanmaya çalışırsa, Servisler o kullanıcıyı KILL ler ve,
-	destekleyen server tiplerinde, tüm serverların o maska K-line
-	koymasını sağlar.
+	Servis operatÃ¶rlerinin AKILL listesini iÅŸletmesini saÄŸlar.
+	EÄŸer AKILL listesineki mask la uyuÅŸan bir kullanÄ±cÄ±
+	baÄŸlanmaya Ã§alÄ±ÅŸÄ±rsa, Servisler o kullanÄ±cÄ±yÄ± KILL ler ve,
+	destekleyen server tiplerinde, tÃ¼m serverlarÄ±n o maska K-line
+	koymasÄ±nÄ± saÄŸlar.
 	
-	AKILL ADD belirtilen user@host maskını AKILL listesine
+	AKILL ADD belirtilen user@host maskÄ±nÄ± AKILL listesine
 	belirtilen sebeple(mutlaka belirtilmelidir) birlikte
-	ekler. AKILL DEL belirtilen maskı eğer listedeyse AKILL 
-	listesinden çıkarır. AKILL LIST mevcut tüm AKILL leri
-	gösterir; eğer opsiyonel olarak mask belirtilmişse, AKILL
-	listesi belirtilen maskla uyuşanlarla sınırlandırılır. 
+	ekler. AKILL DEL belirtilen maskÄ± eÄŸer listedeyse AKILL 
+	listesinden Ã§Ä±karÄ±r. AKILL LIST mevcut tÃ¼m AKILL leri
+	gÃ¶sterir; eÄŸer opsiyonel olarak mask belirtilmiÅŸse, AKILL
+	listesi belirtilen maskla uyuÅŸanlarla sÄ±nÄ±rlandÄ±rÄ±lÄ±r. 
 	
-	AKILL VIEW, AKILL LIST in daha açıklayıcı versiyonudur, 
-	ve AKILL i ekleyeni, eklenme tarihini, ne zaman sona ereceğini,
-	user@host maskıyla ve sebeple birlikte gösterir.
+	AKILL VIEW, AKILL LIST in daha aÃ§Ä±klayÄ±cÄ± versiyonudur, 
+	ve AKILL i ekleyeni, eklenme tarihini, ne zaman sona ereceÄŸini,
+	user@host maskÄ±yla ve sebeple birlikte gÃ¶sterir.
 	
-	Opsiyonel olarak, zaman aşımı süresi AKILL ADD komutuyla
-	birlikte belirtilebilir. Zaman aşımı süresi user@host maskından
-	önce gelir, ve bir tamsayı olarak şunlardan birinden önce gelir, 
-	d (gün), h (saat), veya m (dakika). 1h30m gibi kombinasyonlar 
-	kullanılamaz. Eğer birim belirleyici belirtilmemişse varsayılan 
-	olarak gün kullanılır (yani +30 un anlamı 30 gündür). Zaman 
-	aşımına uğramayacak bir AKILL eklemek için +0 kullanın. Eğer 
-	eklenecek mask + ile başlarsa zaman aşımı süresi belirtilmelidir. 
-	Mevcut varsayılan AKILL zaman aşımı süresi STATS AKILL komutuyla 
+	Opsiyonel olarak, zaman aÅŸÄ±mÄ± sÃ¼resi AKILL ADD komutuyla
+	birlikte belirtilebilir. Zaman aÅŸÄ±mÄ± sÃ¼resi user@host maskÄ±ndan
+	Ã¶nce gelir, ve bir tamsayÄ± olarak ÅŸunlardan birinden Ã¶nce gelir, 
+	d (gÃ¼n), h (saat), veya m (dakika). 1h30m gibi kombinasyonlar 
+	kullanÄ±lamaz. EÄŸer birim belirleyici belirtilmemiÅŸse varsayÄ±lan 
+	olarak gÃ¼n kullanÄ±lÄ±r (yani +30 un anlamÄ± 30 gÃ¼ndÃ¼r). Zaman 
+	aÅŸÄ±mÄ±na uÄŸramayacak bir AKILL eklemek iÃ§in +0 kullanÄ±n. EÄŸer 
+	eklenecek mask + ile baÅŸlarsa zaman aÅŸÄ±mÄ± sÃ¼resi belirtilmelidir. 
+	Mevcut varsayÄ±lan AKILL zaman aÅŸÄ±mÄ± sÃ¼resi STATS AKILL komutuyla 
 	bulunabilir.
 
-	AKILL CLEAR AKILL listesindeki tüm kayıtları siler.
+	AKILL CLEAR AKILL listesindeki tÃ¼m kayÄ±tlarÄ± siler.
 	
-	sebep sadece IRC operatörleri tarafından kullanılmak içindir,
-	ve kullanıcıların KILL mesajlarında gözükmez.
+	sebep sadece IRC operatÃ¶rleri tarafÄ±ndan kullanÄ±lmak iÃ§indir,
+	ve kullanÄ±cÄ±larÄ±n KILL mesajlarÄ±nda gÃ¶zÃ¼kmez.
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SGLINE
-	Kullanımı: SGLINE ADD [+zamanaşımı] mask:sebep
-	         SGLINE DEL {mask | kayıt-no | liste}
+	KullanÄ±mÄ±: SGLINE ADD [+zamanaÅŸÄ±mÄ±] mask:sebep
+	         SGLINE DEL {mask | kayÄ±t-no | liste}
 	           SGLINE LIST [mask | liste]
 	           SGLINE VIEW [mask | liste]
 	           SGLINE CLEAR
 	
-	Servis operatörlerinin SGLINE listesi oluşturmalarını sağlar.
-	Eğer SGLINE listesindeki bir kullanıcı gerçek ismi(realname)
-	servera bağlanmaya çalışan bir kullanıcınınkiyle uyuşuyorsa
-	o kullanıcının servera bağlanması engellenir.
+	Servis operatÃ¶rlerinin SGLINE listesi oluÅŸturmalarÄ±nÄ± saÄŸlar.
+	EÄŸer SGLINE listesindeki bir kullanÄ±cÄ± gerÃ§ek ismi(realname)
+	servera baÄŸlanmaya Ã§alÄ±ÅŸan bir kullanÄ±cÄ±nÄ±nkiyle uyuÅŸuyorsa
+	o kullanÄ±cÄ±nÄ±n servera baÄŸlanmasÄ± engellenir.
 	
-	SGLINE ADD komutu belirtilen realname(gerçek isim) mask ını
+	SGLINE ADD komutu belirtilen realname(gerÃ§ek isim) mask Ä±nÄ±
 	SGLINE listesine bir sebeple(belirtilmesi zorunludur) 
 	birlikte ekler.
-	zamanaşımı zaman belirleyici olarak tanımlanır ve şunlar birini
-	takip etmelidir: d (gün), h (saat), veya m (dakika). 1h30m
-	şeklindeki kombinasyonlar kullanılamaz. Eğer zaman tanımlayıcı öğe
-	konulmazsa varsayılan olarak gün kabul edilir (yani +30 un manası
-	30 gündür). Zaman aşımına uğramayacak bir SGLINE eklemek için +0
-	kullanın.  Eklenecek realname mask ı + ile başlıyorsa, o zaman
-	zaman aşımı süresi varsayılanla aynı olsa bile belirtilmelidir.
-	Mevcut SGLINE varsayılan zaman aşımı süresi STATS AKILL komutuyla
+	zamanaÅŸÄ±mÄ± zaman belirleyici olarak tanÄ±mlanÄ±r ve ÅŸunlar birini
+	takip etmelidir: d (gÃ¼n), h (saat), veya m (dakika). 1h30m
+	ÅŸeklindeki kombinasyonlar kullanÄ±lamaz. EÄŸer zaman tanÄ±mlayÄ±cÄ± Ã¶ÄŸe
+	konulmazsa varsayÄ±lan olarak gÃ¼n kabul edilir (yani +30 un manasÄ±
+	30 gÃ¼ndÃ¼r). Zaman aÅŸÄ±mÄ±na uÄŸramayacak bir SGLINE eklemek iÃ§in +0
+	kullanÄ±n.  Eklenecek realname mask Ä± + ile baÅŸlÄ±yorsa, o zaman
+	zaman aÅŸÄ±mÄ± sÃ¼resi varsayÄ±lanla aynÄ± olsa bile belirtilmelidir.
+	Mevcut SGLINE varsayÄ±lan zaman aÅŸÄ±mÄ± sÃ¼resi STATS AKILL komutuyla
 	bulunabilir.
-	Not: realname maskı boşluk içerebileceğinden bunla sebep arasında iki
-	nokta üstüste(:) kullanılmalıdır.
+	Not: realname maskÄ± boÅŸluk iÃ§erebileceÄŸinden bunla sebep arasÄ±nda iki
+	nokta Ã¼stÃ¼ste(:) kullanÄ±lmalÄ±dÄ±r.
 	
-	SGLINE DEL komutu belirtilen maskı(eğer listede mevcutsa) SGLINE 
-	listesinden siler. eğer bir kayıt numaraları listesi belirtilmişse
-	o kayıtlar silinir. (Aşağıdaki LIST için verilmiş örneği inceleyin.)
+	SGLINE DEL komutu belirtilen maskÄ±(eÄŸer listede mevcutsa) SGLINE 
+	listesinden siler. eÄŸer bir kayÄ±t numaralarÄ± listesi belirtilmiÅŸse
+	o kayÄ±tlar silinir. (AÅŸaÄŸÄ±daki LIST iÃ§in verilmiÅŸ Ã¶rneÄŸi inceleyin.)
 	
-	SGLINE LIST komutu SGLINE listesini görüntüler. Eğer bir yıldızlı
-	mask verilmişse, sadece o maskla uyuşan kayıtları içeren bir liste
-	görüntülenir.  Eğer bir kayıt numaraları listesi belirtilmişse,
-	sadece o kayıtlar görüntülenir; örneğin:
+	SGLINE LIST komutu SGLINE listesini gÃ¶rÃ¼ntÃ¼ler. EÄŸer bir yÄ±ldÄ±zlÄ±
+	mask verilmiÅŸse, sadece o maskla uyuÅŸan kayÄ±tlarÄ± iÃ§eren bir liste
+	gÃ¶rÃ¼ntÃ¼lenir.  EÄŸer bir kayÄ±t numaralarÄ± listesi belirtilmiÅŸse,
+	sadece o kayÄ±tlar gÃ¶rÃ¼ntÃ¼lenir; Ã¶rneÄŸin:
 	
 	   SGLINE LIST 2-5,7-9
-	      2 den 5 e 7 den 9 a kadar olan SGLINE kayıtlarını listeler.
+	      2 den 5 e 7 den 9 a kadar olan SGLINE kayÄ±tlarÄ±nÄ± listeler.
 	      
-	SGLINE VIEW komutu SGLINE LIST komutunun daha açıklayıcı bilgi 
-	veren şeklidir, ve SGLINE ı kimin eklediğini, eklendiği tarihi, ve
-	ne zaman sona ereceğini realname ve sebeple birlikte gösterir.
+	SGLINE VIEW komutu SGLINE LIST komutunun daha aÃ§Ä±klayÄ±cÄ± bilgi 
+	veren ÅŸeklidir, ve SGLINE Ä± kimin eklediÄŸini, eklendiÄŸi tarihi, ve
+	ne zaman sona ereceÄŸini realname ve sebeple birlikte gÃ¶sterir.
 	
-	SGLINE CLEAR komutu SGLINE listesindeki tüm kayıtları siler.
+	SGLINE CLEAR komutu SGLINE listesindeki tÃ¼m kayÄ±tlarÄ± siler.
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SQLINE
 	Kullanimi: SQLINE ADD [+zamanasimi] mask sebep
@@ -5866,319 +5866,319 @@ OPER_HELP_SQLINE
 	           SQLINE VIEW [mask | liste]
 	           SQLINE CLEAR
 	
-	Servis adminlerinin SQLINE listesini yönetmelerini saglar.
+	Servis adminlerinin SQLINE listesini yÃ¶netmelerini saglar.
 	Eger SQLINE listesindeki masklardan biriyle uyusan bir nick
-	servera baglanmaya çalisirsa, servisler buna izin vermezler.
+	servera baglanmaya Ã§alisirsa, servisler buna izin vermezler.
 	
 	eger maskin ilk karakteri # ise servisler onla uyusan 
 	kanallarin kullanilmasina izin vermezler. (destekleyen IRCd
-	yazilimlarinda geçerlidir).
+	yazilimlarinda geÃ§erlidir).
 	
 	SQLINE ADD belirtilen maski belirtilen sebeple (mutlaka
 	belirtilmelidir) birlikte SQLINE listesine ekler. zaman asimi
-	ardinda d (gün), h (saat), veya m (dakika) olan bir sayi
-	olmalidir..  1h30m seklindeki kombinasyonlar geçersizdir.
-	eger son ekleme harfi belirtilmemisse, varsayilan olarak gün
-	kullanilir. (yani +30 30 gün demektir). Zaman asimina ugramasini
-	istemediginiz bir SQLINE eklemek için +0 kullanin.  
-	Egegr eklenecek maskin basinda + varsa, zaman asimi süresi
-	belirtilmelidir, aksi halde zaman asimi süresi varsayilanla ayni
-	olacaktir. Mevcut SQLINE varsayilan zaman asimi süresi STATS AKILL
+	ardinda d (gÃ¼n), h (saat), veya m (dakika) olan bir sayi
+	olmalidir..  1h30m seklindeki kombinasyonlar geÃ§ersizdir.
+	eger son ekleme harfi belirtilmemisse, varsayilan olarak gÃ¼n
+	kullanilir. (yani +30 30 gÃ¼n demektir). Zaman asimina ugramasini
+	istemediginiz bir SQLINE eklemek iÃ§in +0 kullanin.  
+	Egegr eklenecek maskin basinda + varsa, zaman asimi sÃ¼resi
+	belirtilmelidir, aksi halde zaman asimi sÃ¼resi varsayilanla ayni
+	olacaktir. Mevcut SQLINE varsayilan zaman asimi sÃ¼resi STATS AKILL
 	komutuyla bulunabilir.
 	
 	SQLINE DEL komutu belirtilen maski SQLINE listesinden siler.
 	Eger kayit numaralari listesi belirtilmisse, o kayitlari siler.
-	(Asagidaki örnegi inceleyin.)
+	(Asagidaki Ã¶rnegi inceleyin.)
 	
-	SQLINE LIST komutu SQLINE listesini gösterir. Egegr bir mask
-	belirtilmisse, maskla uyusan kayitlar gösterilir. Egegr kayit
+	SQLINE LIST komutu SQLINE listesini gÃ¶sterir. Egegr bir mask
+	belirtilmisse, maskla uyusan kayitlar gÃ¶sterilir. Egegr kayit
 	numaralari listesi belirtilmisse, o numaralara karsilik olan
-	kayitlar gösterilir; örnegin:
+	kayitlar gÃ¶sterilir; Ã¶rnegin:
 
 	   SQLINE LIST 2-5,7-9
 	      2 den 5 e ve 7 den 9 a kadar olan SQLINE kayitlari
-	      gösterilir.
+	      gÃ¶sterilir.
 	      
 	SQLINE VIEW komutu SQLINE LIST komutunun daha gelismisidir,
-	ve SQLINE kaydini ekleyeni, eklendigi tarihi, süresinin ne zaman
-	bitecegini, mask ve sebeple beraber gösterir.
+	ve SQLINE kaydini ekleyeni, eklendigi tarihi, sÃ¼resinin ne zaman
+	bitecegini, mask ve sebeple beraber gÃ¶sterir.
 	
-	SQLINE CLEAR SQLINE listesindeki tüm kayitlari temizler.
+	SQLINE CLEAR SQLINE listesindeki tÃ¼m kayitlari temizler.
 	
-	Servis operatörlerinin kullanimiyla sinirlidir.
+	Servis operatÃ¶rlerinin kullanimiyla sinirlidir.
 
 OPER_HELP_SZLINE
-	Kullanımı: SZLINE ADD [+zamanaşımı] mask sebep
-	           SZLINE DEL {mask | kayıt-no | liste}
+	KullanÄ±mÄ±: SZLINE ADD [+zamanaÅŸÄ±mÄ±] mask sebep
+	           SZLINE DEL {mask | kayÄ±t-no | liste}
 	           SZLINE LIST [mask | liste]
 	           SZLINE VIEW [mask | liste]
 	           SZLINE CLEAR
 	
-	Servis operatörlerinin SZLINE listesi oluşturmalarını sağlar.
-	Eğer SZLINE listesindeki bir IP numarasıyla uyuşan bir kişi
-	servera bağlanmaya çalışırsa buna izin verilmez. (ve bu IP
-	numarası PTR RR olsada olmasada gerçekleştirilir).
+	Servis operatÃ¶rlerinin SZLINE listesi oluÅŸturmalarÄ±nÄ± saÄŸlar.
+	EÄŸer SZLINE listesindeki bir IP numarasÄ±yla uyuÅŸan bir kiÅŸi
+	servera baÄŸlanmaya Ã§alÄ±ÅŸÄ±rsa buna izin verilmez. (ve bu IP
+	numarasÄ± PTR RR olsada olmasada gerÃ§ekleÅŸtirilir).
 	
-	SZLINE ADD komutu belirtilen IP maskını SZLINE listesine
+	SZLINE ADD komutu belirtilen IP maskÄ±nÄ± SZLINE listesine
 	belirtilen bir sebeple(ki mutlaka belirtilmelidir) birlikte
-	ekler. zamanaşımı zaman belirleyici olarak tanımlanır ve 
-	şunlardan birini takip etmelidir: d (gün), h (saat), veya
-	m (dakika). 1h30m şeklindeki kombinasyonlar kullanılamaz.
-	Eğer zaman tanımlayıcı öğe belirtilmemişse, varsayılan olarak
-	gün kullanılır (yani +30 30 gün demektir).  Zaman aşımına 
-	uğramayacak bir SZLINE eklemek için +0 kullanın.  Eğer
-	eklenecek realname maskı + ile başlıyorsa, zaman aşımı süresi
-	varsayılanla aynı olsa bile belirtilmelidir. Mevcut SZLINE 
-	varsayılan zaman aşımı süresi STATS AKILL komutuyla öğrenilebilir.
+	ekler. zamanaÅŸÄ±mÄ± zaman belirleyici olarak tanÄ±mlanÄ±r ve 
+	ÅŸunlardan birini takip etmelidir: d (gÃ¼n), h (saat), veya
+	m (dakika). 1h30m ÅŸeklindeki kombinasyonlar kullanÄ±lamaz.
+	EÄŸer zaman tanÄ±mlayÄ±cÄ± Ã¶ÄŸe belirtilmemiÅŸse, varsayÄ±lan olarak
+	gÃ¼n kullanÄ±lÄ±r (yani +30 30 gÃ¼n demektir).  Zaman aÅŸÄ±mÄ±na 
+	uÄŸramayacak bir SZLINE eklemek iÃ§in +0 kullanÄ±n.  EÄŸer
+	eklenecek realname maskÄ± + ile baÅŸlÄ±yorsa, zaman aÅŸÄ±mÄ± sÃ¼resi
+	varsayÄ±lanla aynÄ± olsa bile belirtilmelidir. Mevcut SZLINE 
+	varsayÄ±lan zaman aÅŸÄ±mÄ± sÃ¼resi STATS AKILL komutuyla Ã¶ÄŸrenilebilir.
 	
-	SZLINE DEL komutu belirtilen maskı eğer mevcutsa SZLINE 
-	listesinden siler. Eğer kayıt numaraları listesi belirtilmişse,
-	bu kayıtlar silinir. (LIST için verilmiş aşağıdaki örneği inceleyin.)
+	SZLINE DEL komutu belirtilen maskÄ± eÄŸer mevcutsa SZLINE 
+	listesinden siler. EÄŸer kayÄ±t numaralarÄ± listesi belirtilmiÅŸse,
+	bu kayÄ±tlar silinir. (LIST iÃ§in verilmiÅŸ aÅŸaÄŸÄ±daki Ã¶rneÄŸi inceleyin.)
 	
-	SZLINE LIST komutu SZLINE listesini görüntüler. Eğer yıldızlı bir
-	mask belirtilmişse, sadece o maskla uyuşan kayıtlar görüntülenir.
-	Eğer kayıt numaraları listesi belirtilmişse, sadece o kayıtlar 
-	gösterilir;  örneğin:
+	SZLINE LIST komutu SZLINE listesini gÃ¶rÃ¼ntÃ¼ler. EÄŸer yÄ±ldÄ±zlÄ± bir
+	mask belirtilmiÅŸse, sadece o maskla uyuÅŸan kayÄ±tlar gÃ¶rÃ¼ntÃ¼lenir.
+	EÄŸer kayÄ±t numaralarÄ± listesi belirtilmiÅŸse, sadece o kayÄ±tlar 
+	gÃ¶sterilir;  Ã¶rneÄŸin:
 	
 	   SZLINE LIST 2-5,7-9
-	      2 den 5 e 7 den 9 a kadar olan kayıtları görüntüler.
+	      2 den 5 e 7 den 9 a kadar olan kayÄ±tlarÄ± gÃ¶rÃ¼ntÃ¼ler.
 	      
-	SZLINE VIEW komutu SZLINE LIST komutunun daha geniş bilgi veren 
-	bir şeklidir, ve SZLINE ı kimin eklediğini, eklendiği tarihi, ve ne
-	zaman sona ereceğini, IP maskı ve sebeple birlikte görüntüler.
+	SZLINE VIEW komutu SZLINE LIST komutunun daha geniÅŸ bilgi veren 
+	bir ÅŸeklidir, ve SZLINE Ä± kimin eklediÄŸini, eklendiÄŸi tarihi, ve ne
+	zaman sona ereceÄŸini, IP maskÄ± ve sebeple birlikte gÃ¶rÃ¼ntÃ¼ler.
 	
-	SZLINE CLEAR komutu SZLINE listesindeki tüm kayıtları siler.
+	SZLINE CLEAR komutu SZLINE listesindeki tÃ¼m kayÄ±tlarÄ± siler.
 	
-	Servis operatörlerinin Kullanımıyla sınırlıdır.
+	Servis operatÃ¶rlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SET
-	Kullanımı: SET özellik ayar
+	KullanÄ±mÄ±: SET Ã¶zellik ayar
 	
-	Çeşitli global servis özelliklerini ayarlar.  Özellikler
-	aşağıda tanımlanmıştır:
+	Ã‡eÅŸitli global servis Ã¶zelliklerini ayarlar.  Ã–zellikler
+	aÅŸaÄŸÄ±da tanÄ±mlanmÄ±ÅŸtÄ±r:
 	    READONLY   Read-only ve read-write modunu ayarlar
 	    LOGCHAN    Report log messages to a channel
-	    DEBUG      Debug modunu aktifleştirir yada kapatır
-	    NOEXPIRE   No expire modunu aktifleştirir yada kapatır
+	    DEBUG      Debug modunu aktifleÅŸtirir yada kapatÄ±r
+	    NOEXPIRE   No expire modunu aktifleÅŸtirir yada kapatÄ±r
 	    SUPERADMIN Activate or deactivate super-admin mode
 	    SQL   	 Activate or deactivate sql mode
 	    IGNORE     Activate or deactivate ignore mode
 	    LIST       List the options
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SET_READONLY
-	Kullanımı: SET READONLY {ON | OFF}
+	KullanÄ±mÄ±: SET READONLY {ON | OFF}
 	
-	Read-only modunu açar yada kapatır. Read-only modunda,
-	normal kullanıcılar herhangi bir servis verisini değiştiremezler,
-	bunun içinde kanal ve nick access listeleri v.s. vardır.
-	Yeterli ayrıcalıkları olan IRCoplar servislerin AKILL listesini
-	değiştirebilir, nicklerin ve kanalların kaydını silebilir yada 
-	yasaklayabilir, fakat değişiklikler servisler kapatılmadan yada
-	tekrar başlatılmadan önce read-only modu kapatılmazsa kaydedilmez.
+	Read-only modunu aÃ§ar yada kapatÄ±r. Read-only modunda,
+	normal kullanÄ±cÄ±lar herhangi bir servis verisini deÄŸiÅŸtiremezler,
+	bunun iÃ§inde kanal ve nick access listeleri v.s. vardÄ±r.
+	Yeterli ayrÄ±calÄ±klarÄ± olan IRCoplar servislerin AKILL listesini
+	deÄŸiÅŸtirebilir, nicklerin ve kanallarÄ±n kaydÄ±nÄ± silebilir yada 
+	yasaklayabilir, fakat deÄŸiÅŸiklikler servisler kapatÄ±lmadan yada
+	tekrar baÅŸlatÄ±lmadan Ã¶nce read-only modu kapatÄ±lmazsa kaydedilmez.
 	
-	-readonly komut satırı özelliğiyle aynıdır.
+	-readonly komut satÄ±rÄ± Ã¶zelliÄŸiyle aynÄ±dÄ±r.
 
 OPER_HELP_SET_LOGCHAN
-	Kullanımı: SET LOGCHAN {ON | OFF}
+	KullanÄ±mÄ±: SET LOGCHAN {ON | OFF}
 
-	Bu ayar servis kayıtlarnının bir kanala aktarılmasının baslatılması
-	icin kullanılır. Kayıtlar kayıt dosyasına işlenmesi istenilmis işlemlerdir. LogChannel 
-	Servis ayar dosyasi servies.conf'ta tanımlanır. Bir tanımlama 
-	Bulunmuyor ise bu özellik aktif edilemez.
+	Bu ayar servis kayÄ±tlarnÄ±nÄ±n bir kanala aktarÄ±lmasÄ±nÄ±n baslatÄ±lmasÄ±
+	icin kullanÄ±lÄ±r. KayÄ±tlar kayÄ±t dosyasÄ±na iÅŸlenmesi istenilmis iÅŸlemlerdir. LogChannel 
+	Servis ayar dosyasi servies.conf'ta tanÄ±mlanÄ±r. Bir tanÄ±mlama 
+	Bulunmuyor ise bu Ã¶zellik aktif edilemez.
 	
-	Bu ozellik -logchan seklındede kullanılabilir.
+	Bu ozellik -logchan seklÄ±ndede kullanÄ±labilir.
 
-	Not: Bu Özellik kanal iyi korunmaz ise cok büyük bir güvenlik açıgı ortaya cıkartır, 
-	kanalı yeterince iyi koruyamıyorsaniz aktif etmeyiniz. Unutmayın neredeyse tüm işlemler bu kanala yansitilacaktir.
+	Not: Bu Ã–zellik kanal iyi korunmaz ise cok bÃ¼yÃ¼k bir gÃ¼venlik aÃ§Ä±gÄ± ortaya cÄ±kartÄ±r, 
+	kanalÄ± yeterince iyi koruyamÄ±yorsaniz aktif etmeyiniz. UnutmayÄ±n neredeyse tÃ¼m iÅŸlemler bu kanala yansitilacaktir.
 
 OPER_HELP_SET_DEBUG
-	Kullanımı: SET DEBUG {ON | OFF | num}
+	KullanÄ±mÄ±: SET DEBUG {ON | OFF | num}
 	
-	Debug modunu açar yada kapatır. Debug modunda, servislere 
-	gönderilen ve alınan tüm veriler diğer bir kaç debug 
-	mesajlarıyla beraber bir kayıt dosyasına yazılır. Eğer num 
-	parametresi belirtilmişse, debug modu num a bağlı debug 
-	seviye ayarı ile aktifleştirilir.
+	Debug modunu aÃ§ar yada kapatÄ±r. Debug modunda, servislere 
+	gÃ¶nderilen ve alÄ±nan tÃ¼m veriler diÄŸer bir kaÃ§ debug 
+	mesajlarÄ±yla beraber bir kayÄ±t dosyasÄ±na yazÄ±lÄ±r. EÄŸer num 
+	parametresi belirtilmiÅŸse, debug modu num a baÄŸlÄ± debug 
+	seviye ayarÄ± ile aktifleÅŸtirilir.
 	
-	-debug komut satırı özelliğiyle aynıdır.
+	-debug komut satÄ±rÄ± Ã¶zelliÄŸiyle aynÄ±dÄ±r.
 
 OPER_HELP_SET_NOEXPIRE
-	Kullanımı: SET NOEXPIRE {ON | OFF}
+	KullanÄ±mÄ±: SET NOEXPIRE {ON | OFF}
 	
-	No expire modunu açar yada kapatır. No expire modunda,
+	No expire modunu aÃ§ar yada kapatÄ±r. No expire modunda,
 	nickler, kanallar, akiller, ve exceptionlar mod kapanana
-	kadar zaman aşımına uğramazlar.
+	kadar zaman aÅŸÄ±mÄ±na uÄŸramazlar.
 	
-	-noexpire komut satırı özelliğiyle aynıdır.
+	-noexpire komut satÄ±rÄ± Ã¶zelliÄŸiyle aynÄ±dÄ±r.
 
 OPER_HELP_SET_SUPERADMIN
-	Kullanımı: SET SUPERADMIN {ON | OFF}
+	KullanÄ±mÄ±: SET SUPERADMIN {ON | OFF}
 
-	Bu özellik ekstra yetkilendirme anlamına gelir
-	Süper admin olan kisi herşeyin "founder" (sahibi) konumuna gecer...
+	Bu Ã¶zellik ekstra yetkilendirme anlamÄ±na gelir
+	SÃ¼per admin olan kisi herÅŸeyin "founder" (sahibi) konumuna gecer...
 
-	Bu önerilen bir özellik degildir, Eğer yinede ihtiyaç duyarsaniz
-	isteginizi gerceklestirdikten sonra uzun süre bağlı kalmadan  cıkış yapmanizi öneririz.
+	Bu Ã¶nerilen bir Ã¶zellik degildir, EÄŸer yinede ihtiyaÃ§ duyarsaniz
+	isteginizi gerceklestirdikten sonra uzun sÃ¼re baÄŸlÄ± kalmadan  cÄ±kÄ±ÅŸ yapmanizi Ã¶neririz.
 
 OPER_HELP_SET_SQL
-	Kullanımı: SET SQL {ON | OFF}
+	KullanÄ±mÄ±: SET SQL {ON | OFF}
 
-	Bu ayar Anope ile Sql sunucunuzun birbirine baglanmasını saglar,
-	Bu özellik Sql sunucunun servisler açıkken düşmesi sonucu
-	tekrar bağlantı kurulması icin kullanılır.
+	Bu ayar Anope ile Sql sunucunuzun birbirine baglanmasÄ±nÄ± saglar,
+	Bu Ã¶zellik Sql sunucunun servisler aÃ§Ä±kken dÃ¼ÅŸmesi sonucu
+	tekrar baÄŸlantÄ± kurulmasÄ± icin kullanÄ±lÄ±r.
 
 OPER_HELP_SET_IGNORE
-	Kullanımı: SET IGNORE {ON | OFF}
+	KullanÄ±mÄ±: SET IGNORE {ON | OFF}
 
-	Anope ignore sisteminin aktif veya pasif konuma alınmasını 
-	sağlar.
+	Anope ignore sisteminin aktif veya pasif konuma alÄ±nmasÄ±nÄ± 
+	saÄŸlar.
 
 OPER_HELP_SET_LIST
-	Kullanımı: SET LIST
+	KullanÄ±mÄ±: SET LIST
 
-	Secilen %S parametresi ile ilgili yardim icin kullanılır
+	Secilen %S parametresi ile ilgili yardim icin kullanÄ±lÄ±r
 
 OPER_HELP_NOOP
-	Kullanımı: NOOP SET server
+	KullanÄ±mÄ±: NOOP SET server
 	           NOOP REVOKE server
 	
-	NOOP SET komutu belirtilen serverdaki tüm O:line ları
-	siler ve tüm ircopları rehash komutunu kullanıp komutun
-	etkisini yok etmemeleri için killer.
+	NOOP SET komutu belirtilen serverdaki tÃ¼m O:line larÄ±
+	siler ve tÃ¼m ircoplarÄ± rehash komutunu kullanÄ±p komutun
+	etkisini yok etmemeleri iÃ§in killer.
 	
-	NOOP REVOKE komutu belirtilen serverdaki tüm kaldırılmış
-	O:line ları yeniden oluşturur.
+	NOOP REVOKE komutu belirtilen serverdaki tÃ¼m kaldÄ±rÄ±lmÄ±ÅŸ
+	O:line larÄ± yeniden oluÅŸturur.
 	
-	Not: server parametresinin doğruluğu servisler tarafından
+	Not: server parametresinin doÄŸruluÄŸu servisler tarafÄ±ndan
 	kontrol edilmez.
 	
-	Services adminlerinin Kullanımıyla sınırlıdır.
+	Services adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_JUPE
-	Kullanımı: JUPE server [sebep]
+	KullanÄ±mÄ±: JUPE server [sebep]
 	
-	Servislere bir serverın Jupiter yapılmasını söyler. -- Bu,
-	servislere bir sahte server bağlayarak, gerçek serverın o 
-	isimden bağlanmasını engeller. JUPE modu standart SQUIT
-	kullanılarak kaldırılabilir. Eğer sebep belirtilmişse,
-	bu server bilgi satırına yazılır; belirtilmezse server bilgi
-	satırında "Jupitered by <nick>" yazısı yer alır, ve serverı 
-	jupiter edenin nicki yazılır.
+	Servislere bir serverÄ±n Jupiter yapÄ±lmasÄ±nÄ± sÃ¶yler. -- Bu,
+	servislere bir sahte server baÄŸlayarak, gerÃ§ek serverÄ±n o 
+	isimden baÄŸlanmasÄ±nÄ± engeller. JUPE modu standart SQUIT
+	kullanÄ±larak kaldÄ±rÄ±labilir. EÄŸer sebep belirtilmiÅŸse,
+	bu server bilgi satÄ±rÄ±na yazÄ±lÄ±r; belirtilmezse server bilgi
+	satÄ±rÄ±nda "Jupitered by <nick>" yazÄ±sÄ± yer alÄ±r, ve serverÄ± 
+	jupiter edenin nicki yazÄ±lÄ±r.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_RAW
-	Kullanımı: RAW yazı
+	KullanÄ±mÄ±: RAW yazÄ±
 	
-	Servislerin bağlı olduğu server a direk bir yazı gönderir.
-	Bu komutun kullanım alanları sınırlıdır, ve yanlış kullanılırsa
-	networkte çok büyük hasara yol açabilir. Tam olarak ne 
-	yaptığınızı bilmiyorsanız BU KOMUTU KULLANMAYIN!
+	Servislerin baÄŸlÄ± olduÄŸu server a direk bir yazÄ± gÃ¶nderir.
+	Bu komutun kullanÄ±m alanlarÄ± sÄ±nÄ±rlÄ±dÄ±r, ve yanlÄ±ÅŸ kullanÄ±lÄ±rsa
+	networkte Ã§ok bÃ¼yÃ¼k hasara yol aÃ§abilir. Tam olarak ne 
+	yaptÄ±ÄŸÄ±nÄ±zÄ± bilmiyorsanÄ±z BU KOMUTU KULLANMAYIN!
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_UPDATE
-	Kullanımı: UPDATE
+	KullanÄ±mÄ±: UPDATE
 	
-	Komutu gönderir gönderirmez servislerin tüm veri tabanı 
-	dosyalarını güncellemelerini sağlar.
+	Komutu gÃ¶nderir gÃ¶nderirmez servislerin tÃ¼m veri tabanÄ± 
+	dosyalarÄ±nÄ± gÃ¼ncellemelerini saÄŸlar.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_RELOAD
-	Kullanımı: RELOAD
+	KullanÄ±mÄ±: RELOAD
 	
-	Servislerin conf dosyasını yeniden yüklemesine neden olur.
-	Unutmayınki bazı direktifler hala servislerin yeniden 
-	başlatılmasını gerektirir. (Servislerin nickleri, session 
-	limitinin aktifleştirilmesi, etc.)
+	Servislerin conf dosyasÄ±nÄ± yeniden yÃ¼klemesine neden olur.
+	UnutmayÄ±nki bazÄ± direktifler hala servislerin yeniden 
+	baÅŸlatÄ±lmasÄ±nÄ± gerektirir. (Servislerin nickleri, session 
+	limitinin aktifleÅŸtirilmesi, etc.)
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_QUIT
-	Kullanımı: QUIT
+	KullanÄ±mÄ±: QUIT
 	
-	Servislerin birden kapanmasına neden olur; veritabanları
-	kaydedilmez. Bu komut veritabanlarının hafızadaki 
-	kopyalarına zarar gelmesinden korkuluyorsa ve 
-	yedeklenmemişlerse kullanılmamalıdır. Normal kapatmalar 
-	için, SHUTDOWN komutunu kullanın.
+	Servislerin birden kapanmasÄ±na neden olur; veritabanlarÄ±
+	kaydedilmez. Bu komut veritabanlarÄ±nÄ±n hafÄ±zadaki 
+	kopyalarÄ±na zarar gelmesinden korkuluyorsa ve 
+	yedeklenmemiÅŸlerse kullanÄ±lmamalÄ±dÄ±r. Normal kapatmalar 
+	iÃ§in, SHUTDOWN komutunu kullanÄ±n.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_SHUTDOWN
-	Kulanımı: SHUTDOWN
+	KulanÄ±mÄ±: SHUTDOWN
 	
-	Servislerin tüm veritabanlarını kaydederek kapanmasını sağlar.
+	Servislerin tÃ¼m veritabanlarÄ±nÄ± kaydederek kapanmasÄ±nÄ± saÄŸlar.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_RESTART
-	Kullanımı: RESTART
+	KullanÄ±mÄ±: RESTART
 	
-	Servislerin tüm veritabanlarını kaydederek yeniden 
-	başlamasını sağlar.
+	Servislerin tÃ¼m veritabanlarÄ±nÄ± kaydederek yeniden 
+	baÅŸlamasÄ±nÄ± saÄŸlar.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.	
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.	
 
 OPER_HELP_CHANLIST
-	Kullanımı: CHANLIST [{model | nick} [SECRET]]
+	KullanÄ±mÄ±: CHANLIST [{model | nick} [SECRET]]
 	
-	Networkte o an kullanılan kanalları kayıtlı olsun olmasın 
+	Networkte o an kullanÄ±lan kanallarÄ± kayÄ±tlÄ± olsun olmasÄ±n 
 	listeler.
 	
-	Eğer model belirtilmişse, onla uyuşan kanalları listeler. 
-	Eğer nickname belirtilmişse, o kullanıcının bulunduğu 
-	kanalları listeler. Eğer SECRET belirtilmişse, sadece model
-	le uyuşan ve +s veya +p modunda olan kanallar listelenir.
+	EÄŸer model belirtilmiÅŸse, onla uyuÅŸan kanallarÄ± listeler. 
+	EÄŸer nickname belirtilmiÅŸse, o kullanÄ±cÄ±nÄ±n bulunduÄŸu 
+	kanallarÄ± listeler. EÄŸer SECRET belirtilmiÅŸse, sadece model
+	le uyuÅŸan ve +s veya +p modunda olan kanallar listelenir.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_USERLIST
-	Kullanımı: USERLIST [{model | kanaladı} [INVISIBLE]]
+	KullanÄ±mÄ±: USERLIST [{model | kanaladÄ±} [INVISIBLE]]
 	
-	Networkte o an bulunan tüm kullanıcıları kayıtlı olsun olmasın 
+	Networkte o an bulunan tÃ¼m kullanÄ±cÄ±larÄ± kayÄ±tlÄ± olsun olmasÄ±n 
 	listeler.
 	
-	Eğer model belirtilmişse, onla uyuşan kullanıcıları listeler
-	(nick!user@host formatında olmalıdır). Eğer kanaladı 
-	belirtilmişse, sadece o kanalda bulunan kullanıcıları listeler.
-	Eğer INVISIBLE belirtilmişse, sadece +i modundaki kullanıcılar 
+	EÄŸer model belirtilmiÅŸse, onla uyuÅŸan kullanÄ±cÄ±larÄ± listeler
+	(nick!user@host formatÄ±nda olmalÄ±dÄ±r). EÄŸer kanaladÄ± 
+	belirtilmiÅŸse, sadece o kanalda bulunan kullanÄ±cÄ±larÄ± listeler.
+	EÄŸer INVISIBLE belirtilmiÅŸse, sadece +i modundaki kullanÄ±cÄ±lar 
 	listelenir.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 OPER_HELP_MODLOAD
-	Kullanımı: MODLOAD FileName
+	KullanÄ±mÄ±: MODLOAD FileName
 
-	Eklentileri yüklenemek icin eklenti ismi ile beraber
-	kullanılır.
+	Eklentileri yÃ¼klenemek icin eklenti ismi ile beraber
+	kullanÄ±lÄ±r.
 
-	Services Roots kullanımı icindir.
+	Services Roots kullanÄ±mÄ± icindir.
 
 OPER_HELP_MODUNLOAD
-	Kullanımı: MODUNLOAD FileName
+	KullanÄ±mÄ±: MODUNLOAD FileName
 
-	Yüklü olan bir eklentiyi kaldırmak icin eklenti adı belirtilerek
-	kullanılır.
+	YÃ¼klÃ¼ olan bir eklentiyi kaldÄ±rmak icin eklenti adÄ± belirtilerek
+	kullanÄ±lÄ±r.
 
-	Services Roots kullanımı icindir.
+	Services Roots kullanÄ±mÄ± icindir.
 
 OPER_HELP_MODINFO
-	Kullanımı: MODINFO FileName
+	KullanÄ±mÄ±: MODINFO FileName
 
-	Eklenti hakkında bilgi almak icin kullanılır
+	Eklenti hakkÄ±nda bilgi almak icin kullanÄ±lÄ±r
 
-	Services Roots kullanımı icindir.
+	Services Roots kullanÄ±mÄ± icindir.
 
 OPER_HELP_MODLIST
-	Kullanımı: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
+	KullanÄ±mÄ±: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
 
-	Eklentileri listelemek icin kullanılabilir.
+	Eklentileri listelemek icin kullanÄ±labilir.
 
-	Services Roots kullanımı icindir.
+	Services Roots kullanÄ±mÄ± icindir.
 
 
 ###########################################################################
@@ -6189,353 +6189,353 @@ OPER_HELP_MODLIST
 
 
 BOT_HELP_CMD_BOTLIST
-	BOTLIST            Mevcut botları listeler
+	BOTLIST            Mevcut botlarÄ± listeler
 BOT_HELP_CMD_ASSIGN
 	ASSIGN             Kanala bot sokar
 BOT_HELP_CMD_SET
-	SET                Bot özelliklerini ayarlar
+	SET                Bot Ã¶zelliklerini ayarlar
 BOT_HELP_CMD_KICK
-	KICK               Atma özelliklerini ayarlar
+	KICK               Atma Ã¶zelliklerini ayarlar
 BOT_HELP_CMD_BADWORDS
-	BADWORDS           Küfür listesi oluşturur
+	BADWORDS           KÃ¼fÃ¼r listesi oluÅŸturur
 BOT_HELP_CMD_ACT
-	ACT                Bota "/me" komutu şeklinde mesaj göndermek icin kullanılır
+	ACT                Bota "/me" komutu ÅŸeklinde mesaj gÃ¶ndermek icin kullanÄ±lÄ±r
 BOT_HELP_CMD_INFO
-	INFO               Bir kanal veya bot hakkında bilgi almak icin kullanılır
+	INFO               Bir kanal veya bot hakkÄ±nda bilgi almak icin kullanÄ±lÄ±r
 BOT_HELP_CMD_SAY
-	SAY                Botun yazılan yazıyı kanala yollamasını saglar
+	SAY                Botun yazÄ±lan yazÄ±yÄ± kanala yollamasÄ±nÄ± saglar
 BOT_HELP_CMD_UNASSIGN
-	UNASSIGN           botu kanaldan cıkartır
+	UNASSIGN           botu kanaldan cÄ±kartÄ±r
 BOT_HELP_CMD_BOT
-	BOT                Networkün bot listesini düzenler
+	BOT                NetworkÃ¼n bot listesini dÃ¼zenler
 
 BOT_HELP
-	%S kanalınızda bir botunuzun olmasını sağlar. Bu
-	servis bot konfigürasyonundan anlamayanlar yada
-	bota izin vermeyen networkler için geliştirilmiştir.
-	Mevcut komutlar aşağıda listelenmiştir. Kullanmak için
-	%R%S command yazın. Belirli bir komut hakkında
-	daha fazla bilgi için, %R%S HELP komut
-	yazın.
+	%S kanalÄ±nÄ±zda bir botunuzun olmasÄ±nÄ± saÄŸlar. Bu
+	servis bot konfigÃ¼rasyonundan anlamayanlar yada
+	bota izin vermeyen networkler iÃ§in geliÅŸtirilmiÅŸtir.
+	Mevcut komutlar aÅŸaÄŸÄ±da listelenmiÅŸtir. Kullanmak iÃ§in
+	%R%S command yazÄ±n. Belirli bir komut hakkÄ±nda
+	daha fazla bilgi iÃ§in, %R%S HELP komut
+	yazÄ±n.
 	
 BOT_HELP_FOOTER
-	Kanalda en az %d kullanıcı olduğu zaman bot kanala girer.
+	Kanalda en az %d kullanÄ±cÄ± olduÄŸu zaman bot kanala girer.
 
 BOT_HELP_BOTLIST
-	Kullanımı: BOTLIST
+	KullanÄ±mÄ±: BOTLIST
 	
-	Networkte mevcut olan tüm botları listeler.
+	Networkte mevcut olan tÃ¼m botlarÄ± listeler.
 
 BOT_HELP_ASSIGN
-	Kullanımı: ASSIGN kanaladı botunnicki
+	KullanÄ±mÄ±: ASSIGN kanaladÄ± botunnicki
 	
 	Belirtilen nickteki botu belirtilen kanala sokar. Bundan 
-	sonra botun ayarlarını ihtiyaçlarınıza uygun şekilde 
+	sonra botun ayarlarÄ±nÄ± ihtiyaÃ§larÄ±nÄ±za uygun ÅŸekilde 
 	yapabilirsiniz.
 
 BOT_HELP_UNASSIGN
-	Kullanımı: UNASSIGN kanaladı
+	KullanÄ±mÄ±: UNASSIGN kanaladÄ±
 	
-	Belirtilen kanaldan botu çıkarır. Bu komutu kullandıktan
-	sonra bot bir daha kanala girmeyecektir. Fakat yapılmış bot
-	ayarları saklanır, böylece istediğinz zaman tekrar ayar 
+	Belirtilen kanaldan botu Ã§Ä±karÄ±r. Bu komutu kullandÄ±ktan
+	sonra bot bir daha kanala girmeyecektir. Fakat yapÄ±lmÄ±ÅŸ bot
+	ayarlarÄ± saklanÄ±r, bÃ¶ylece istediÄŸinz zaman tekrar ayar 
 	yapmaya gerek olmadan kanala bot sokabilirsiniz.
 
 BOT_HELP_INFO
-	Kullanımı: INFO {kanaladı | botunnicki}
+	KullanÄ±mÄ±: INFO {kanaladÄ± | botunnicki}
 	
-	Bir kanal yada bot hakkında %S bilgisini gösterir. Eğer
-	parametre kanalsa, aktif atma özellikleri hakkında bilgi
-	alırsınız. Eğer parametre nickse, bot hakkında yaratılma 
-	zamanı veya bulunduğu kanal sayısı gibi bilgiler alırsınız.
+	Bir kanal yada bot hakkÄ±nda %S bilgisini gÃ¶sterir. EÄŸer
+	parametre kanalsa, aktif atma Ã¶zellikleri hakkÄ±nda bilgi
+	alÄ±rsÄ±nÄ±z. EÄŸer parametre nickse, bot hakkÄ±nda yaratÄ±lma 
+	zamanÄ± veya bulunduÄŸu kanal sayÄ±sÄ± gibi bilgiler alÄ±rsÄ±nÄ±z.
 
 BOT_HELP_SET
-	Kullanımı: SET kanaladı özellik parametre
+	KullanÄ±mÄ±: SET kanaladÄ± Ã¶zellik parametre
 	
-	Bot özelliklerini ayarlar. özellik şunlardan biri olabilir:
+	Bot Ã¶zelliklerini ayarlar. Ã¶zellik ÅŸunlardan biri olabilir:
 	
-	    DONTKICKOPS      Botun atmasına karşı opları korur
-	    DONTKICKVOICES   Botun atmasına karşı voice ları korur
-	    GREET            Greet mesajını aktifleştirir
-	    FANTASY          Fantazi komutlarını aktifleştirir
-	    SYMBIOSIS        Gerçek bot gibi davranmasını sağlar.
+	    DONTKICKOPS      Botun atmasÄ±na karÅŸÄ± oplarÄ± korur
+	    DONTKICKVOICES   Botun atmasÄ±na karÅŸÄ± voice larÄ± korur
+	    GREET            Greet mesajÄ±nÄ± aktifleÅŸtirir
+	    FANTASY          Fantazi komutlarÄ±nÄ± aktifleÅŸtirir
+	    SYMBIOSIS        GerÃ§ek bot gibi davranmasÄ±nÄ± saÄŸlar.
 	
-	Belirli bir komut hakkında daha fazla bilgi için 
-	%R%S HELP SET özellik yazın.
+	Belirli bir komut hakkÄ±nda daha fazla bilgi iÃ§in 
+	%R%S HELP SET Ã¶zellik yazÄ±n.
 	
-	Not: Bu komuta access erişimi seviye(level) ayarıyla sağlanır.
+	Not: Bu komuta access eriÅŸimi seviye(level) ayarÄ±yla saÄŸlanÄ±r.
 
 BOT_HELP_SET_DONTKICKOPS
-	Kullanımı: SET kanaladı DONTKICKOPS {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± DONTKICKOPS {ON|OFF}
 	
-	Kanalda op korumasını açar yada kapatır.
-	Aktifleştirildiği zaman, oplar bot tarafında NOKICK
-	seviyeleri olmasalar bile atılmazlar.
+	Kanalda op korumasÄ±nÄ± aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸi zaman, oplar bot tarafÄ±nda NOKICK
+	seviyeleri olmasalar bile atÄ±lmazlar.
 
 BOT_HELP_SET_DONTKICKVOICES
-	Kullanımı: SET kanaladı DONTKICKVOICES {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± DONTKICKVOICES {ON|OFF}
 	
-	Kanalda voice korumasını açar yada kapatır.
-	Aktifleştirildiği zaman, voice lar bot tarafından
-	NOKICK seviyeleri olmasalar bile atılmazlar.
+	Kanalda voice korumasÄ±nÄ± aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸi zaman, voice lar bot tarafÄ±ndan
+	NOKICK seviyeleri olmasalar bile atÄ±lmazlar.
 
 BOT_HELP_SET_FANTASY
-	Kullanımı: SET kanaladı FANTASY {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± FANTASY {ON|OFF}
 	
-	Kanalda fantazi modunu açar yada kapatır.
-	Aktifleştirildiği zaman, kulanıcılar kanalda
+	Kanalda fantazi modunu aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸi zaman, kulanÄ±cÄ±lar kanalda
 	!op, !deop, !voice, !devoice, !kick, !kb, 
-	!unban, !seen gibi komutları kullanabilirler. 
-	(nasıl kullanıldıklarını öğrenmek için; onları 
-	nickle ve nicksiz kullanın vede bazılarındada sebep 
+	!unban, !seen gibi komutlarÄ± kullanabilirler. 
+	(nasÄ±l kullanÄ±ldÄ±klarÄ±nÄ± Ã¶ÄŸrenmek iÃ§in; onlarÄ± 
+	nickle ve nicksiz kullanÄ±n vede bazÄ±larÄ±ndada sebep 
 	belirtin).
 	
-	Unutmayınki fantazi komutlarını kullanmak
-	isteyen kullanıcıların FANTASIA ve komutun 
-	gerektirdiği diğer seviyelere yeterli access
-	seviyesi olması gereklidir. (örneğin, !op
-	komutunu kullanmak için, kullanıcının OPDEOP
-	seviyesine yeterli access i olmalıdır).
+	UnutmayÄ±nki fantazi komutlarÄ±nÄ± kullanmak
+	isteyen kullanÄ±cÄ±larÄ±n FANTASIA ve komutun 
+	gerektirdiÄŸi diÄŸer seviyelere yeterli access
+	seviyesi olmasÄ± gereklidir. (Ã¶rneÄŸin, !op
+	komutunu kullanmak iÃ§in, kullanÄ±cÄ±nÄ±n OPDEOP
+	seviyesine yeterli access i olmalÄ±dÄ±r).
 
 BOT_HELP_SET_GREET
-	Kullanımı: SET kanaladı GREET {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± GREET {ON|OFF}
 	
-	Kanalda karşılama modunu açar yada kapatır.
-	Aktifleştirildiği zaman, bot kanala giren 
-	kullanıcılara bir karşılama mesajı gönderir,
-	tabi eğer bu kişilerin yeterli access leri varsa.
+	Kanalda karÅŸÄ±lama modunu aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸi zaman, bot kanala giren 
+	kullanÄ±cÄ±lara bir karÅŸÄ±lama mesajÄ± gÃ¶nderir,
+	tabi eÄŸer bu kiÅŸilerin yeterli access leri varsa.
 
 BOT_HELP_SET_SYMBIOSIS
-	Kullanımı: SET kanaladı SYMBIOSIS {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± SYMBIOSIS {ON|OFF}
 	
-	Kanalda simbiyoz modunu açar yada kapatır.
-	Aktifleştirildiği zaman bot %s'ün yaptığı herşeyi
-	kendisi yapar. Modelar, kickler, ve giriş mesajı gibi.
+	Kanalda simbiyoz modunu aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸi zaman bot %s'Ã¼n yaptÄ±ÄŸÄ± herÅŸeyi
+	kendisi yapar. Modelar, kickler, ve giriÅŸ mesajÄ± gibi.
 
 BOT_HELP_KICK
-	Kullanımı: KICK kanaladı özellik parametre
+	KullanÄ±mÄ±: KICK kanaladÄ± Ã¶zellik parametre
 	
-	Botun kick lerini ayarlar. özellik şunlardan biri olabilir:
+	Botun kick lerini ayarlar. Ã¶zellik ÅŸunlardan biri olabilir:
 	
-	    BOLDS         Kalın yazıda atar
-	    BADWORDS      Küfürde atar
-	    CAPS          Büyük yazıda atar
-	    COLORS        Renkli yazıda atar
+	    BOLDS         KalÄ±n yazÄ±da atar
+	    BADWORDS      KÃ¼fÃ¼rde atar
+	    CAPS          BÃ¼yÃ¼k yazÄ±da atar
+	    COLORS        Renkli yazÄ±da atar
 	    FLOOD         Flood da atar
 	    REPEAT        Kendini tekrar edenleri atar
-	    REVERSES      Ctrl+r nin kullanılmasında atar
-	    UNDERLINES    Altıçizgili yazıda atar
+	    REVERSES      Ctrl+r nin kullanÄ±lmasÄ±nda atar
+	    UNDERLINES    AltÄ±Ã§izgili yazÄ±da atar
 	
-	Belirli bir özellik hakkında daha fazla bilgi için
-	%R%S HELP KICK özellik yazın.
+	Belirli bir Ã¶zellik hakkÄ±nda daha fazla bilgi iÃ§in
+	%R%S HELP KICK Ã¶zellik yazÄ±n.
 	
-	Not: Bu komuta erişim seviye(level) ayarıyla yapılır.
+	Not: Bu komuta eriÅŸim seviye(level) ayarÄ±yla yapÄ±lÄ±r.
 
 BOT_HELP_KICK_BOLDS
-	Kullanımı: KICK kanaladı BOLDS {ON|OFF} [böas]
+	KullanÄ±mÄ±: KICK kanaladÄ± BOLDS {ON|OFF} [bÃ¶as]
 	
-	Kalın yazıda atmayı açar yada kapatır. 
-	Aktifleştirildiğinde bu özellik bota kalın yazı
-	kullananları atmasını söyler.
+	KalÄ±n yazÄ±da atmayÄ± aÃ§ar yada kapatÄ±r. 
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota kalÄ±n yazÄ±
+	kullananlarÄ± atmasÄ±nÄ± sÃ¶yler.
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_COLORS
-	Kullanımı: KICK kanaladı COLORS {ON|OFF} [böas]
+	KullanÄ±mÄ±: KICK kanaladÄ± COLORS {ON|OFF} [bÃ¶as]
 	
-	Renkli yazıda atmayı açar yada kapatır. 
-	Aktifleştirildiğinde bu özellik bota renkli yazı 
-	kullananları atmasını söyler.
+	Renkli yazÄ±da atmayÄ± aÃ§ar yada kapatÄ±r. 
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota renkli yazÄ± 
+	kullananlarÄ± atmasÄ±nÄ± sÃ¶yler.
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_REVERSES
-	Kullanımı: KICK kanaladı REVERSES {ON|OFF} [böas]
+	KullanÄ±mÄ±: KICK kanaladÄ± REVERSES {ON|OFF} [bÃ¶as]
 	
-	Ctrl+r nin kullanılmasında atmayı açar yada kapatır. 
-	Aktifleştirildiğinde bu özellik bota Ctrl+r yi 
-	kullananları atmasını söyler.
+	Ctrl+r nin kullanÄ±lmasÄ±nda atmayÄ± aÃ§ar yada kapatÄ±r. 
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota Ctrl+r yi 
+	kullananlarÄ± atmasÄ±nÄ± sÃ¶yler.
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_UNDERLINES
-	Kullanımı: KICK kanaladı UNDERLINES {ON|OFF} [böas]
+	KullanÄ±mÄ±: KICK kanaladÄ± UNDERLINES {ON|OFF} [bÃ¶as]
 	
-	Altıçizgili yazıda atmayı açar yada kapatır.
-	Aktifleştirildiğinde bu özellik bota altıçizgili
-	yazanları atmasını söyler.
+	AltÄ±Ã§izgili yazÄ±da atmayÄ± aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota altÄ±Ã§izgili
+	yazanlarÄ± atmasÄ±nÄ± sÃ¶yler.
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_CAPS
-	Kullanımı: KICK kanaladı CAPS {ON|OFF} [böas [min [yüzde]]]
+	KullanÄ±mÄ±: KICK kanaladÄ± CAPS {ON|OFF} [bÃ¶as [min [yÃ¼zde]]]
 	
-	Büyük yazıda atmayı açar yada kapatır.
-	Aktifleştirildiğinde bu özellik bota büyük yazı
-	kullananları atmasını söyler.
+	BÃ¼yÃ¼k yazÄ±da atmayÄ± aÃ§ar yada kapatÄ±r.
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota bÃ¼yÃ¼k yazÄ±
+	kullananlarÄ± atmasÄ±nÄ± sÃ¶yler.
 	
-	Bot belirtilen en az(min) büyük harfin toplam yazının
-	yüzdesine%% bağlı olarak atar. (Belirtilmemişse,
-	varsayılan olarak 10 karakter ve 25%% de atar).
+	Bot belirtilen en az(min) bÃ¼yÃ¼k harfin toplam yazÄ±nÄ±n
+	yÃ¼zdesine%% baÄŸlÄ± olarak atar. (BelirtilmemiÅŸse,
+	varsayÄ±lan olarak 10 karakter ve 25%% de atar).
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_FLOOD
-	Kullanımı: KICK kanaladı FLOOD {ON|OFF} [böas [sıra [sn]]]
+	KullanÄ±mÄ±: KICK kanaladÄ± FLOOD {ON|OFF} [bÃ¶as [sÄ±ra [sn]]]
 	
-	Flood da atmayı açar yada kapatır. Aktifleştirildiğinde
-	bu özellik bota sn saniyede enaz sıra sırada flood
-	yapanları atmasını söyler. (Belirtilmemişse varsayılan
-	olarak 10 saniyede 6 sıra da atar).
+	Flood da atmayÄ± aÃ§ar yada kapatÄ±r. AktifleÅŸtirildiÄŸinde
+	bu Ã¶zellik bota sn saniyede enaz sÄ±ra sÄ±rada flood
+	yapanlarÄ± atmasÄ±nÄ± sÃ¶yler. (BelirtilmemiÅŸse varsayÄ±lan
+	olarak 10 saniyede 6 sÄ±ra da atar).
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_REPEAT
-	Kullanımı: KICK #kanaladı REPEAT {ON|OFF} [böas [sayı]]
+	KullanÄ±mÄ±: KICK #kanaladÄ± REPEAT {ON|OFF} [bÃ¶as [sayÄ±]]
 	
-	Tekrar yazılan aynı yazıda atmayı açar yada kapar.
-	Aktifleştirildiğinde bu özellik bota kendilerini
-	sayı kez tekrar edenleri atmasını söyler. (Eğer
-	sayı belirtilmemişse, varsayılan olarak 3 tür).
+	Tekrar yazÄ±lan aynÄ± yazÄ±da atmayÄ± aÃ§ar yada kapar.
+	AktifleÅŸtirildiÄŸinde bu Ã¶zellik bota kendilerini
+	sayÄ± kez tekrar edenleri atmasÄ±nÄ± sÃ¶yler. (EÄŸer
+	sayÄ± belirtilmemiÅŸse, varsayÄ±lan olarak 3 tÃ¼r).
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_KICK_BADWORDS
-	Kullanımı: KICK #channel BADWORDS {ON|OFF} [böas]
+	KullanÄ±mÄ±: KICK #channel BADWORDS {ON|OFF} [bÃ¶as]
 	
-	Küfürde atmayı açar yada kapatır. Aktifleştirildiğinde
-	bu özellik bota küfür edenleri atmasını söyler.
+	KÃ¼fÃ¼rde atmayÄ± aÃ§ar yada kapatÄ±r. AktifleÅŸtirildiÄŸinde
+	bu Ã¶zellik bota kÃ¼fÃ¼r edenleri atmasÄ±nÄ± sÃ¶yler.
 	
-	Bir kanal için küfür belirlemek için BADWORDS komutunu
-	kullanabilirsiniz. Ayrıntılar için  %R%S HELP BADWORDS
-	yazın.
+	Bir kanal iÃ§in kÃ¼fÃ¼r belirlemek iÃ§in BADWORDS komutunu
+	kullanabilirsiniz. AyrÄ±ntÄ±lar iÃ§in  %R%S HELP BADWORDS
+	yazÄ±n.
 	
-	böas banlamadan önce kişinin kaç kez atılacağını 
-	belirler. Kaldırmak için komutta böas ı belirtmeyin.
+	bÃ¶as banlamadan Ã¶nce kiÅŸinin kaÃ§ kez atÄ±lacaÄŸÄ±nÄ± 
+	belirler. KaldÄ±rmak iÃ§in komutta bÃ¶as Ä± belirtmeyin.
 
 BOT_HELP_BADWORDS
-	Kullanımı:  BADWORDS kanaladı ADD kelime [SINGLE | START | END]
-	            BADWORDS kanaladı DEL {kelime | kayıt-no | liste}
-	            BADWORDS kanaladı LIST [mask | liste]
-	            BADWORDS kanaladı CLEAR
+	KullanÄ±mÄ±:  BADWORDS kanaladÄ± ADD kelime [SINGLE | START | END]
+	            BADWORDS kanaladÄ± DEL {kelime | kayÄ±t-no | liste}
+	            BADWORDS kanaladÄ± LIST [mask | liste]
+	            BADWORDS kanaladÄ± CLEAR
 	
-	Bir kanal için küfür listesi düzenler. Küfür listesi
-	küfürde atma aktifleştirildiği zaman hangi kelimelerde
-	atılacağını belirler. Daha fazla bilgi için 
-	%R%S HELP KICK BADWORDS yazın.
+	Bir kanal iÃ§in kÃ¼fÃ¼r listesi dÃ¼zenler. KÃ¼fÃ¼r listesi
+	kÃ¼fÃ¼rde atma aktifleÅŸtirildiÄŸi zaman hangi kelimelerde
+	atÄ±lacaÄŸÄ±nÄ± belirler. Daha fazla bilgi iÃ§in 
+	%R%S HELP KICK BADWORDS yazÄ±n.
 	
-	BADWORDS ADD komutu belirtilen kelimeyi küfür listesine
-	ekler. Eğer SINGLE parametresi belirtilmişse, atma işlemi
-	kullanıcı o kelimenin tamamını söylerse yapılır. Eğer START
-	parametresi belirtilmişse, kullanıcı o kelimeyle başlayan 
-	birşey söylediğinde atılır. Eğer END parametresi belirtilmişse
-	kullanıcı o kelimeyle biten birşey söylediğinde atılır.
-	Eğer bir parametre kullanmazsanız, atma işlemi kullanıcı o 
-	kelimeyi her kullandığında yapılır.
+	BADWORDS ADD komutu belirtilen kelimeyi kÃ¼fÃ¼r listesine
+	ekler. EÄŸer SINGLE parametresi belirtilmiÅŸse, atma iÅŸlemi
+	kullanÄ±cÄ± o kelimenin tamamÄ±nÄ± sÃ¶ylerse yapÄ±lÄ±r. EÄŸer START
+	parametresi belirtilmiÅŸse, kullanÄ±cÄ± o kelimeyle baÅŸlayan 
+	birÅŸey sÃ¶ylediÄŸinde atÄ±lÄ±r. EÄŸer END parametresi belirtilmiÅŸse
+	kullanÄ±cÄ± o kelimeyle biten birÅŸey sÃ¶ylediÄŸinde atÄ±lÄ±r.
+	EÄŸer bir parametre kullanmazsanÄ±z, atma iÅŸlemi kullanÄ±cÄ± o 
+	kelimeyi her kullandÄ±ÄŸÄ±nda yapÄ±lÄ±r.
 	
-	BADWORDS DEL komutu belirtilen kelimeyi küfür listesinden 
-	siler. Eğer kayıt numarası listesi verilirse, o kelimeler
-	silinir. (LIST için aşağıdaki örneği inceleyin) 
+	BADWORDS DEL komutu belirtilen kelimeyi kÃ¼fÃ¼r listesinden 
+	siler. EÄŸer kayÄ±t numarasÄ± listesi verilirse, o kelimeler
+	silinir. (LIST iÃ§in aÅŸaÄŸÄ±daki Ã¶rneÄŸi inceleyin) 
 	
-	BADWORDS LIST komutu küfür listesini görüntüler. Eğer
-	bir küfürün bir kısmı belirtilmişse, o kısma uyan küfürler
-	listelenir. Eğer bir kayıt numarası listesi belirtilmişse,
-	sadece o küfürler listelenir; örneğin:
+	BADWORDS LIST komutu kÃ¼fÃ¼r listesini gÃ¶rÃ¼ntÃ¼ler. EÄŸer
+	bir kÃ¼fÃ¼rÃ¼n bir kÄ±smÄ± belirtilmiÅŸse, o kÄ±sma uyan kÃ¼fÃ¼rler
+	listelenir. EÄŸer bir kayÄ±t numarasÄ± listesi belirtilmiÅŸse,
+	sadece o kÃ¼fÃ¼rler listelenir; Ã¶rneÄŸin:
 	
-	   BADWORDS #kanaladı LIST 2-5,7-9
-	      2'den 5'e ve 7'den 9'a kadar olan küfürler 
+	   BADWORDS #kanaladÄ± LIST 2-5,7-9
+	      2'den 5'e ve 7'den 9'a kadar olan kÃ¼fÃ¼rler 
 	      listelenir.
 	      
-	BADWORDS CLEAR komutu tüm küfür listesini temizler.
+	BADWORDS CLEAR komutu tÃ¼m kÃ¼fÃ¼r listesini temizler.
 
 BOT_HELP_SAY
-	Kullanımı: SAY kanaladı yazı
+	KullanÄ±mÄ±: SAY kanaladÄ± yazÄ±
 	
-	Botun belirtilen yazıyı belirtilen kanalda söylemesini sağlar.
+	Botun belirtilen yazÄ±yÄ± belirtilen kanalda sÃ¶ylemesini saÄŸlar.
 
 BOT_HELP_ACT
-	Kullanımı: ACT kanaladı yazı
+	KullanÄ±mÄ±: ACT kanaladÄ± yazÄ±
 	
-	Botun belirtilen yazıyla belirtilen kanalda "/me" komutunun 
-	yaptığını kendi üzerinde yapmasını sağlar.
+	Botun belirtilen yazÄ±yla belirtilen kanalda "/me" komutunun 
+	yaptÄ±ÄŸÄ±nÄ± kendi Ã¼zerinde yapmasÄ±nÄ± saÄŸlar.
 
 BOT_SERVADMIN_HELP_BOT
-	Kullanımı: BOT ADD nick user host gerçekismi
-	        BOT CHANGE eskinick yeninick [user [host [gerçekismi]]]
+	KullanÄ±mÄ±: BOT ADD nick user host gerÃ§ekismi
+	        BOT CHANGE eskinick yeninick [user [host [gerÃ§ekismi]]]
 	        BOT DEL nick
 	
-	Servis adminlerinin kullanıcıların kanallarında kullanması 
-	için botları yaratmasını, değiştirmesini ve silmesini sağlar.
+	Servis adminlerinin kullanÄ±cÄ±larÄ±n kanallarÄ±nda kullanmasÄ± 
+	iÃ§in botlarÄ± yaratmasÄ±nÄ±, deÄŸiÅŸtirmesini ve silmesini saÄŸlar.
 	
-	BOT ADD belirtilen nickte, username, hostname ve gerçek 
-	isimde bir bot ekler. Doğruluk sınaması yapılmadığında komutu
-	kullanırken çok dikkatli olun.
+	BOT ADD belirtilen nickte, username, hostname ve gerÃ§ek 
+	isimde bir bot ekler. DoÄŸruluk sÄ±namasÄ± yapÄ±lmadÄ±ÄŸÄ±nda komutu
+	kullanÄ±rken Ã§ok dikkatli olun.
 	BOT CHANGE botun nickini, username ini, hostname ini veya
-	gerçek ismini silmeye gerek kalmadan değiştirmeyi sağlar.
+	gerÃ§ek ismini silmeye gerek kalmadan deÄŸiÅŸtirmeyi saÄŸlar.
 	BOT DEL belirtilen botu bot listesinden siler.
 	
-	Not: Eğer botun nicki olarak, kayıtlı bir nick
-	kullanırsanız o nickin kaydı silinir(drop). Ayrıca
-	o an bir kuulanıcı bu nicki kullanıyorsa kill lenir.
+	Not: EÄŸer botun nicki olarak, kayÄ±tlÄ± bir nick
+	kullanÄ±rsanÄ±z o nickin kaydÄ± silinir(drop). AyrÄ±ca
+	o an bir kuulanÄ±cÄ± bu nicki kullanÄ±yorsa kill lenir.
 
 BOT_SERVADMIN_HELP_SET
 	
-	Bu özellikleri servis adminlerini kullanabilir:
+	Bu Ã¶zellikleri servis adminlerini kullanabilir:
 	
 	    NOBOT            Bir kanala bot girmesini engeller.
-	    PRIVATE          Botun IRC operatörleri haricinde kanallara
+	    PRIVATE          Botun IRC operatÃ¶rleri haricinde kanallara
 	                        sokulmasini engeller
 
 	                        
 BOT_SERVADMIN_HELP_SET_NOBOT
-	Kullanımı: SET kanaladı NOBOT {ON|OFF}
+	KullanÄ±mÄ±: SET kanaladÄ± NOBOT {ON|OFF}
 	
-	Bu özellik bir kanalı bot sokulamaz hale getirir. Eğer
-	kanala zaten bir bot sokulmuşsa otomatik olarak o bot
-	kanaldan çıkarılır.
+	Bu Ã¶zellik bir kanalÄ± bot sokulamaz hale getirir. EÄŸer
+	kanala zaten bir bot sokulmuÅŸsa otomatik olarak o bot
+	kanaldan Ã§Ä±karÄ±lÄ±r.
 	
-	Servis adminlerinin Kullanımıyla sınırlıdır.
+	Servis adminlerinin KullanÄ±mÄ±yla sÄ±nÄ±rlÄ±dÄ±r.
 
 BOT_SERVADMIN_HELP_SET_PRIVATE
-	Kullanımı: SET botun-nicki PRIVATE {ON|OFF}
+	KullanÄ±mÄ±: SET botun-nicki PRIVATE {ON|OFF}
 	
-	Bu özellik IRC Operatörleri disindaki userlarin bu
+	Bu Ã¶zellik IRC OperatÃ¶rleri disindaki userlarin bu
 	botlari kanallara sokmalarini engeller.
 	
 	Bu komutu Servis Adminleri kullanabilir.
 HOST_EMPTY
-	vhost listesi boş.
+	vhost listesi boÅŸ.
 HOST_ENTRY
 	#%d Nick:%s, vhost:%s (%s - %s)
 HOST_IDENT_ENTRY
 	#%d Nick:%s, vhost:%s@%s (%s - %s)
 HOST_SET
-	%s icin vhost %s olarak ayarlandı.
+	%s icin vhost %s olarak ayarlandÄ±.
 HOST_IDENT_SET
-	%s icin ident %s@%s olarak ayarlandı.
+	%s icin ident %s@%s olarak ayarlandÄ±.
 HOST_SETALL
-	%s icin vhost %s olarak ayarlandı.
+	%s icin vhost %s olarak ayarlandÄ±.
 HOST_DELALL
-	%s icin vhost kaldırıldı.
+	%s icin vhost kaldÄ±rÄ±ldÄ±.
 HOST_DELALL_SYNTAX
 	DELALL <nick>.
 HOST_IDENT_SETALL
-	%s icin ident %s@%s olarak ayarlandı.
+	%s icin ident %s@%s olarak ayarlandÄ±.
 HOST_SET_ERROR
 	Hata! bir vhost sadece A-Z, a-z, 0-9, '.' ve '-' karakterlerini icermelidir.
 HOST_SET_IDENT_ERROR
-	vhost ident gecerli karakterlerden oluşmalıdır
+	vhost ident gecerli karakterlerden oluÅŸmalÄ±dÄ±r
 HOST_SET_TOOLONG
-	HATA! Vhost cok uzun, %d karakterden kısa bir host olusturunuz.
+	HATA! Vhost cok uzun, %d karakterden kÄ±sa bir host olusturunuz.
 HOST_SET_IDENTTOOLONG
-	HATA! kimlik cok uzun, %d karakterden kısa bir kimlik olusturunuz..
+	HATA! kimlik cok uzun, %d karakterden kÄ±sa bir kimlik olusturunuz..
 HOST_NOREG
 	%s nickserv veribankasinda bulunmuyor.
 HOST_SET_SYNTAX
@@ -6551,9 +6551,9 @@ HOST_ACTIVATED
 HOST_IDENT_ACTIVATED
 	%s@%s vhost ve identiniz aktif.
 HOST_ID
-	Önce servislerimize kendinizi tanıtmalısınız.
+	Ã–nce servislerimize kendinizi tanÄ±tmalÄ±sÄ±nÄ±z.
 HOST_NOT_REGED
-	Vhost istegi icin öncelikle kayıtlı bir rumuza sahip olmalısınız
+	Vhost istegi icin Ã¶ncelikle kayÄ±tlÄ± bir rumuza sahip olmalÄ±sÄ±nÄ±z
 HOST_DEL
 	%s vhostu silindi.
 HOST_DEL_SYNTAX
@@ -6565,11 +6565,11 @@ HOST_DEL_SYNTAX
 #
 ###########################################################################
 HOST_OFF
-	Vhost silindi ve sifrelemiş hostunuz kullanılıyor.
+	Vhost silindi ve sifrelemiÅŸ hostunuz kullanÄ±lÄ±yor.
 HOST_OFF_UNREAL
-	Vhost silindi fakat şifreleme yapılamadi lütfen tekrar bağlantı kurunuz veya /mode %s +%s komutunu deneyiniz
+	Vhost silindi fakat ÅŸifreleme yapÄ±lamadi lÃ¼tfen tekrar baÄŸlantÄ± kurunuz veya /mode %s +%s komutunu deneyiniz
 HOST_NO_VIDENT
-	IRCD sisteminiz vIdent'i desteklemiyor. Eğer bu doğru değilse sorunu bize iletiniz
+	IRCD sisteminiz vIdent'i desteklemiyor. EÄŸer bu doÄŸru deÄŸilse sorunu bize iletiniz
 
 ###########################################################################
 #
@@ -6587,11 +6587,11 @@ HOST_IDENT_GROUP
 #
 ###########################################################################
 HOST_LIST_FOOTER
-	Tüm kayıtlar gösteriliyor (Veri: %d)
+	TÃ¼m kayÄ±tlar gÃ¶steriliyor (Veri: %d)
 HOST_LIST_RANGE_FOOTER
-	gösterilen kayıtlar %d - %d
+	gÃ¶sterilen kayÄ±tlar %d - %d
 HOST_LIST_KEY_FOOTER
-	Eşleşen veriler verilen %s (Veri: %d)
+	EÅŸleÅŸen veriler verilen %s (Veri: %d)
 
 ###########################################################################
 #
@@ -6605,15 +6605,15 @@ HOST_HELP_CMD_OFF
 HOST_HELP_CMD_GROUP
 	    GROUP       Grubunuza vhost atar
 HOST_HELP_CMD_SET
-	    SET         Baska bir kullanının vhostunu düzenlemenize yarar
+	    SET         Baska bir kullanÄ±nÄ±n vhostunu dÃ¼zenlemenize yarar
 HOST_HELP_CMD_SETALL
-	    SETALL      Bir gruptaki tüm nicklere o vhost'u atar
+	    SETALL      Bir gruptaki tÃ¼m nicklere o vhost'u atar
 HOST_HELP_CMD_DEL
-	    DEL         Kullanıcının vhostunu siler
+	    DEL         KullanÄ±cÄ±nÄ±n vhostunu siler
 HOST_HELP_CMD_DELALL
-	    DELALL      Gruptaki tüm vhostları siler
+	    DELALL      Gruptaki tÃ¼m vhostlarÄ± siler
 HOST_HELP_CMD_LIST
-	    LIST        Vhostlar hakkında bilgi verir.
+	    LIST        Vhostlar hakkÄ±nda bilgi verir.
 HOST_OPER_HELP
 	n/a
 HOST_ADMIN_HELP
@@ -6623,94 +6623,94 @@ HOST_HELP
 	%S Komutlar:
 
 HOST_HELP_ON
-	Kullanımı: ON
+	KullanÄ±mÄ±: ON
 
 	Belirlenmis vhostu aktif duruma getirir.
-	Bu komut kullanıldıgında /WHOIS komutunda bu adresiniz gorunuz
-	gerçek IP adresinizi sadece siz gorursunuz.
+	Bu komut kullanÄ±ldÄ±gÄ±nda /WHOIS komutunda bu adresiniz gorunuz
+	gerÃ§ek IP adresinizi sadece siz gorursunuz.
 
 HOST_HELP_SET
-	Kullanımı: SET <nick> <hostmask>.
+	KullanÄ±mÄ±: SET <nick> <hostmask>.
 
-	Secilen rumuza vhost atamanızı sağlar
-	Eğer IRCD sisteminiz Idents'i destekliyor ise,
+	Secilen rumuza vhost atamanÄ±zÄ± saÄŸlar
+	EÄŸer IRCD sisteminiz Idents'i destekliyor ise,
 	SET <nick> <ident>@<hostmask> komutu ile 
 	vhost atayabilirsiniz.
 
-	Services operatorleri kullanımına acıktır.
+	Services operatorleri kullanÄ±mÄ±na acÄ±ktÄ±r.
 
 HOST_HELP_DELALL
-	Kullanımı: DELALL <nick>.
+	KullanÄ±mÄ±: DELALL <nick>.
 
-	Secilen rumuzun grubundaki tüm nicklerin vhostlarıno
-	silmek icin kullanılır.
+	Secilen rumuzun grubundaki tÃ¼m nicklerin vhostlarÄ±no
+	silmek icin kullanÄ±lÄ±r.
 
-	Host Düzenleyici Kullanımına acıktır.
+	Host DÃ¼zenleyici KullanÄ±mÄ±na acÄ±ktÄ±r.
 
 
 HOST_HELP_SETALL
-	Kullanımı: SETALL <nick> <hostmask>.
+	KullanÄ±mÄ±: SETALL <nick> <hostmask>.
 
-	Secilen rumuza ait grubtaki nicklere vhost atamanızı sağlar
-	Eğer IRCD sisteminiz Idents'i destekliyor ise,
+	Secilen rumuza ait grubtaki nicklere vhost atamanÄ±zÄ± saÄŸlar
+	EÄŸer IRCD sisteminiz Idents'i destekliyor ise,
 	SETALL <nick> <ident>@<hostmask> komutu ile 
 	vhost atayabilirsiniz.
 
-	* NOT, Bu komut daha sonradan gruba katılan nicklere
+	* NOT, Bu komut daha sonradan gruba katÄ±lan nicklere
 	vhost atamaz.
 
-	Services operatorleri kullanımına acıktır.
+	Services operatorleri kullanÄ±mÄ±na acÄ±ktÄ±r.
 
 HOST_HELP_OFF
-	Kullanımı: OFF
+	KullanÄ±mÄ±: OFF
 
 	Vhost'u pasif konuma getirir.
-	Bu komutu kullandıktan sonra herhangi birisi size /whois
-	cektiginde sizin gercek IP adresinizi görür.
+	Bu komutu kullandÄ±ktan sonra herhangi birisi size /whois
+	cektiginde sizin gercek IP adresinizi gÃ¶rÃ¼r.
 
 HOST_HELP_DEL
-	Kullanımı: DEL <nick>
+	KullanÄ±mÄ±: DEL <nick>
 
-	Veritabanından rumuza ait olan vhostu kaldırmak icin
-	kullanılır.
+	VeritabanÄ±ndan rumuza ait olan vhostu kaldÄ±rmak icin
+	kullanÄ±lÄ±r.
 
-	Services operatorleri kullanımına acıktır.
+	Services operatorleri kullanÄ±mÄ±na acÄ±ktÄ±r.
 
 HOST_HELP_LIST
-	Kullanımı: LIST [<key>|<#X-Y>]
+	KullanÄ±mÄ±: LIST [<key>|<#X-Y>]
 
-	Bu komut vhostları irc operatorlarine listelemed kullanılır
-	Eğer bir anahtar secilir ise ona eşlecen ve hostlar gosterilir
-	Örneklemek gerekir ise - Rob* - şeklinde bir girdide
+	Bu komut vhostlarÄ± irc operatorlarine listelemed kullanÄ±lÄ±r
+	EÄŸer bir anahtar secilir ise ona eÅŸlecen ve hostlar gosterilir
+	Ã–rneklemek gerekir ise - Rob* - ÅŸeklinde bir girdide
 	"Rob" ile baslayan bilgiler gosterilir
 
-	Eğer #X-Y şeklinde bir girdi verilir ise, sadece X
-	ve Y aralıgı gösterilir, örnek. #1-3 kullanılır ise sadece ilk 3
+	EÄŸer #X-Y ÅŸeklinde bir girdi verilir ise, sadece X
+	ve Y aralÄ±gÄ± gÃ¶sterilir, Ã¶rnek. #1-3 kullanÄ±lÄ±r ise sadece ilk 3
 	nick/vhost gosterilir.
 
-	En fazla gosterilecek bilgi sayısı NSListMax belirtilmiştir.
-	Cok fazla eşleşme olması durumunda liste 1 defada gosterilemeyebilir.
+	En fazla gosterilecek bilgi sayÄ±sÄ± NSListMax belirtilmiÅŸtir.
+	Cok fazla eÅŸleÅŸme olmasÄ± durumunda liste 1 defada gosterilemeyebilir.
 
-	Services operatorleri kullanımına acıktır.
+	Services operatorleri kullanÄ±mÄ±na acÄ±ktÄ±r.
 
 HOST_HELP_GROUP
-	Kullanımı: GROUP
+	KullanÄ±mÄ±: GROUP
 	
 	Bu komut belirtilmis grup icin vhost atar
-	Bazı grublardaki herkezin aynı vhostu almasını
-	sağlar.
+	BazÄ± grublardaki herkezin aynÄ± vhostu almasÄ±nÄ±
+	saÄŸlar.
 
 OPER_SVSNICK_UNSUPPORTED
-	ÜZGÜNÜZ, SVSNICK Bu sunucuda desteklenmiyor.
+	ÃœZGÃœNÃœZ, SVSNICK Bu sunucuda desteklenmiyor.
 
 OPER_SQLINE_UNSUPPORTED
-	ÜZGÜNÜZ, SQLINE Bu sunucuda desteklenmiyor.
+	ÃœZGÃœNÃœZ, SQLINE Bu sunucuda desteklenmiyor.
 
 OPER_SVSO_UNSUPPORTED
-	ÜZGÜNÜZ, OLINE Bu sunucuda desteklenmiyor.
+	ÃœZGÃœNÃœZ, OLINE Bu sunucuda desteklenmiyor.
 
 OPER_UMODE_UNSUPPORTED
-	ÜZGÜNÜZ, UMODE Bu sunucuda desteklenmiyor.
+	ÃœZGÃœNÃœZ, UMODE Bu sunucuda desteklenmiyor.
 
 OPER_SUPER_ADMIN_NOT_ENABLED
 	SuperAdmin services.conf'ta aktif durumda degil

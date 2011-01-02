@@ -6,8 +6,8 @@
 # Translated by:                                      
 # ==============                                      
 # Janos Kapitany 'Sarkanyka' (chates@freemail.hu)
-# CJB CHAT Magyarorsz·g, http://cjbchat.hu     
-# Ez a fordÌt·s a CJB Chat megrendelÈsÈre kÈsz¸lt. 
+# CJB CHAT Magyarorsz√°g, http://cjbchat.hu     
+# Ez a ford√≠t√°s a CJB Chat megrendel√©s√©re k√©sz√ºlt. 
 #
 # Please read COPYING and README for furhter details.
 #     
@@ -50,72 +50,72 @@
 ###########################################################
 
 
-# AngoltÛl (English) eltÈro nyelvek esetÈn a stringnek a kˆvetkezo
-# form·tumban kell lennie:
+# Angolt√≥l (English) elt√©ro nyelvek eset√©n a stringnek a k√∂vetkezo
+# form√°tumban kell lennie:
 #     nyelvezet-neve-a-nyelvben (nyelvezet-neve-angolul)
-# PÈld·ul, "Spanyol (Spanish)" vagy "Francia (French)".
+# P√©ld√°ul, "Spanyol (Spanish)" vagy "Francia (French)".
 
 LANG_NAME
 	Magyar (Hungarian)
 
 ###########################################################
 #
-# ¡ltal·nos ¸zenetek
+# √Åltal√°nos √ºzenetek
 #
 ###########################################################
 	
-# strftime() be·llit·si sorai. 3 strfidı inform·ciÛ form·tumban adhatÛ
-# meg a be·llit·sokban.  Rˆvid, hossz˙ Ès teljes verziÛ:
-#	%a = Nap neve (rˆvid)		%H = Ûra
-#	%b = HÛnap neve (rˆvid)	%M = perc
-#	%d = nap a hÛnapban		%S = m·sodperc
-#	%Y = Èv			%Z = idı zÛne
+# strftime() be√°llit√°si sorai. 3 strfid≈ë inform√°ci√≥ form√°tumban adhat√≥
+# meg a be√°llit√°sokban.  R√∂vid, hossz√∫ √©s teljes verzi√≥:
+#	%a = Nap neve (r√∂vid)		%H = √≥ra
+#	%b = H√≥nap neve (r√∂vid)	%M = perc
+#	%d = nap a h√≥napban		%S = m√°sodperc
+#	%Y = √©v			%Z = id≈ë z√≥ne
 
-# ezt a form·t haszn·ld az strftime() mikor a d·tum Ès idı
-# egy¸tt sz¸ksÈges.
+# ezt a form√°t haszn√°ld az strftime() mikor a d√°tum √©s id≈ë
+# egy√ºtt sz√ºks√©ges.
 STRFTIME_DATE_TIME_FORMAT
 	%Z %Y %B %d %H:%M:%S
-# ezt a form·t haszn·ld az strftime() mikor a d·tumnak hossz˙
-# form·tum kell (Angol: a nap neve is).
+# ezt a form√°t haszn√°ld az strftime() mikor a d√°tumnak hossz√∫
+# form√°tum kell (Angol: a nap neve is).
 STRFTIME_LONG_DATE_FORMAT
 	%Y %B %d %A
-# ezt a form·t haszn·ld az strftime() mikor a d·tumnak elÈg
-# a rˆvig forma (Angol:: nap neve is).
+# ezt a form√°t haszn√°ld az strftime() mikor a d√°tumnak el√©g
+# a r√∂vig forma (Angol:: nap neve is).
 STRFTIME_SHORT_DATE_FORMAT
 	%b %d %Y
 
-# Ez megadja az strftime() ·ltal haszn·lt hÛnap Ès nap neveket.  Ha nem
-# haszn·lsz %a, %A, %b, vagy %B v·ltozÛt az strftime() stringben feljebb, akkor
-# nyugodtan szabadon hagyhatod. Ha beÌrsz neveket, akkor azoknak sorban kell lenni¸k,
-# Ès csak egy lehet soronkÈnt, a list·nak teljesnek KELL lennie!
+# Ez megadja az strftime() √°ltal haszn√°lt h√≥nap √©s nap neveket.  Ha nem
+# haszn√°lsz %a, %A, %b, vagy %B v√°ltoz√≥t az strftime() stringben feljebb, akkor
+# nyugodtan szabadon hagyhatod. Ha be√≠rsz neveket, akkor azoknak sorban kell lenni√ºk,
+# √©s csak egy lehet soronk√©nt, a list√°nak teljesnek KELL lennie!
 	
 # %a
 STRFTIME_DAYS_SHORT
 	Vas
-	HÈt
+	H√©t
 	Ke
 	Sze
-	Cs¸
-	PÈn
+	Cs√º
+	P√©n
 	Szo
 # %A
 STRFTIME_DAYS_LONG
-	Vas·rnap
-	HÈtfı
+	Vas√°rnap
+	H√©tf≈ë
 	Kedd
 	Szerda
-	Cs¸tˆrtˆk
-	PÈntek
+	Cs√ºt√∂rt√∂k
+	P√©ntek
 	Szombat
 # %b
 STRFTIME_MONTHS_SHORT
 	Jan
 	Feb
-	M·rc
-	¡pr
-	M·j
-	J˙n
-	J˙l
+	M√°rc
+	√Åpr
+	M√°j
+	J√∫n
+	J√∫l
 	Aug
 	Szept
 	Okt
@@ -123,131 +123,131 @@ STRFTIME_MONTHS_SHORT
 	Dec
 # %B
 STRFTIME_MONTHS_LONG
-	Janu·r
-	Febru·r
-	M·rcius
-	¡prilis
-	M·jus
-	J˙nius
-	J˙lius
+	Janu√°r
+	Febru√°r
+	M√°rcius
+	√Åprilis
+	M√°jus
+	J√∫nius
+	J√∫lius
 	Augusztus
 	Szeptember
-	OktÛber
+	Okt√≥ber
 	November
 	December
 
 
 
-# Ezt a ChanServ/NickServ INFO megjelenÌtÈseknÈl haszn·lja.
+# Ezt a ChanServ/NickServ INFO megjelen√≠t√©sekn√©l haszn√°lja.
 COMMA_SPACE
 	,
 
 
-# K¸lˆnbˆzı hiba ¸zenetek.
+# K√ºl√∂nb√∂z≈ë hiba √ºzenetek.
 USER_RECORD_NOT_FOUND
-	Belsı hiba - nem teljesÌthetı kÈrÈs.
+	Bels≈ë hiba - nem teljes√≠thet≈ë k√©r√©s.
 UNKNOWN_COMMAND
 	Ismeretlen Parancs %s.
 UNKNOWN_COMMAND_HELP
-	Ismeretlen parancs %s. Õrd be: "%R%s HELP".
+	Ismeretlen parancs %s. √çrd be: "%R%s HELP".
 SYNTAX_ERROR
 	Szintaktika: %s
 MORE_INFO
-	%R%s HELP %s bıvebb inform·ciÛÈrt.
+	%R%s HELP %s b≈ëvebb inform√°ci√≥√©rt.
 NO_HELP_AVAILABLE
-	Nincs ezzel kapcsolatban segÌtsÈg: %s.
+	Nincs ezzel kapcsolatban seg√≠ts√©g: %s.
 OBSOLETE_COMMAND
-	Nem haszn·lhatÛ parancs; haszn·ld a %s parancsot helyette.
+	Nem haszn√°lhat√≥ parancs; haszn√°ld a %s parancsot helyette.
 
 BAD_USERHOST_MASK
-	A maszknak ilyen form·tum˙nak kell lennie: user@host.
+	A maszknak ilyen form√°tum√∫nak kell lennie: user@host.
 BAD_EXPIRY_TIME
-	…rvÈnytelen elÈv¸lÈsi idı.
+	√ârv√©nytelen el√©v√ºl√©si id≈ë.
 USERHOST_MASK_TOO_WIDE
-	%s t˙l t·g tartom·nyra vonatkozik.
+	%s t√∫l t√°g tartom√°nyra vonatkozik.
 
 SERVICE_OFFLINE
 	%s jelenleg offline.
 READ_ONLY_MODE
-	MegjegyzÈs: A SzervÌz csak olvas·s mÛdban fut!
+	Megjegyz√©s: A Szerv√≠z csak olvas√°s m√≥dban fut!
 PASSWORD_INCORRECT
-	Hib·s jelszÛ.
+	Hib√°s jelsz√≥.
 INVALID_TARGET
 	"/msg %s" is no longer supported.  Use "/msg %s@%s" or "/%s" instead.
 
-# Mi a k¸lˆnbsÈg a "Hozz·fÈrÈs megtagadva" Ès az "EngedÈly letiltva" kˆzˆtt?
-# Nagyon kicsi; ha ugyanazt az ¸zenetet Ìrod mindkettıre, nem igaz·n veszÌt
-# a jelentÈsbıl. Ha k¸lˆnbsÈget akarsz tenni, akkor a "Hozz·fÈrÈs megtagadva"
-# ·ltal·nosabb Èrtelemben haszn·latos, pÈld·ul, ha egy nem oper prÛb·l 
-# hozz·fÈrni az OperServhez, akkor azt kapja, hogy "Hozz·fÈrÈs megtagadva",
-# amikor egy nem SzervÌz admin prÛb·lja haszn·lni a NickServ SET NOEXPIRE
-# opciÛt, akkor ı azt kapja, hogy "EndegÈly letiltva".
+# Mi a k√ºl√∂nbs√©g a "Hozz√°f√©r√©s megtagadva" √©s az "Enged√©ly letiltva" k√∂z√∂tt?
+# Nagyon kicsi; ha ugyanazt az √ºzenetet √≠rod mindkett≈ëre, nem igaz√°n vesz√≠t
+# a jelent√©sb≈ël. Ha k√ºl√∂nbs√©get akarsz tenni, akkor a "Hozz√°f√©r√©s megtagadva"
+# √°ltal√°nosabb √©rtelemben haszn√°latos, p√©ld√°ul, ha egy nem oper pr√≥b√°l 
+# hozz√°f√©rni az OperServhez, akkor azt kapja, hogy "Hozz√°f√©r√©s megtagadva",
+# amikor egy nem Szerv√≠z admin pr√≥b√°lja haszn√°lni a NickServ SET NOEXPIRE
+# opci√≥t, akkor ≈ë azt kapja, hogy "Endeg√©ly letiltva".
 ACCESS_DENIED
-	Hozz·fÈrÈs megtagadva.
+	Hozz√°f√©r√©s megtagadva.
 PERMISSION_DENIED
-	EngedÈly megtagadva.
+	Enged√©ly megtagadva.
 RAW_DISABLED
-	A RAW opcÛ nem haszn·lhatÛ. Ha  haszn·lnod kell, ·llitsd
-	akkor be a DisableRaw be·llit·st  a Szerviz be·llÌt·sn·l.
+	A RAW opc√≥ nem haszn√°lhat√≥. Ha  haszn√°lnod kell, √°llitsd
+	akkor be a DisableRaw be√°llit√°st  a Szerviz be√°ll√≠t√°sn√°l.
 MORE_OBSCURE_PASSWORD
-	PrÛb·lj nehezebb jelszÛt haszn·lni .Jelszavad  min. ˆt
-	karakter legyen,	Ès nem kital·lhatÛ legyen, (ne a
-	nickneved/valÛsneved),  ne legyen benne Ìr·sjel.
+	Pr√≥b√°lj nehezebb jelsz√≥t haszn√°lni .Jelszavad  min. √∂t
+	karakter legyen,	√©s nem kital√°lhat√≥ legyen, (ne a
+	nickneved/val√≥sneved),  ne legyen benne √≠r√°sjel.
 PASSWORD_TOO_LONG
 	Your password is too long. Please try again with a shorter password.
 NICK_NOT_REGISTERED
-	A neved mÈg nem regisztr·lt.
+	A neved m√©g nem regisztr√°lt.
 NICK_NOT_REGISTERED_HELP
-	A neved mÈg nem regisztr·lt.  SegÌtsÈg: %R%s HELP.
+	A neved m√©g nem regisztr√°lt.  Seg√≠ts√©g: %R%s HELP.
 NICK_X_IS_SERVICES
-	A %s nick a H·lÛzat SzervÌzÈnek egysÈge.
+	A %s nick a H√°l√≥zat Szerv√≠z√©nek egys√©ge.
 NICK_X_NOT_REGISTERED
-	Ez a nick: %s nem regisztr·lt.
+	Ez a nick: %s nem regisztr√°lt.
 NICK_X_IN_USE
-	Ez a nick: %s jelenleg haszn·latban van.
+	Ez a nick: %s jelenleg haszn√°latban van.
 NICK_X_NOT_IN_USE
-	Ez a nick: %s nincs jelenleg haszn·latban.
+	Ez a nick: %s nincs jelenleg haszn√°latban.
 NICK_X_NOT_ON_CHAN
-	%s jelenleg nincs a %s szob·ban .
+	%s jelenleg nincs a %s szob√°ban .
 NICK_X_FORBIDDEN
-	 %snicket  nem lehet regisztr·lni vagy haszn·lni.
+	 %snicket  nem lehet regisztr√°lni vagy haszn√°lni.
 NICK_X_FORBIDDEN_OPER
 	Ezt a nicket: %s %s forbidolta:
 	%s
 NICK_X_ILLEGAL
-	 %snick illeg·lis nicknÈv vagy nem haszn·lhatÛ.
+	 %snick illeg√°lis nickn√©v vagy nem haszn√°lhat√≥.
 NICK_X_TRUNCATED
-	A nicked %s meg lett csonkÌtva %d karakter hossz˙s·g˙ra.
+	A nicked %s meg lett csonk√≠tva %d karakter hossz√∫s√°g√∫ra.
 NICK_X_SUSPENDED
 	Nick %s is currently suspended.
 CHAN_X_NOT_REGISTERED
-	 %s szoba nem regisztr·lt.
+	 %s szoba nem regisztr√°lt.
 CHAN_X_NOT_IN_USE
-	%scsatorna nem lÈtezik.
+	%scsatorna nem l√©tezik.
 CHAN_X_FORBIDDEN
-	%scsatorn·t nem lehet regisztr·lni vagy haszn·lni.
+	%scsatorn√°t nem lehet regisztr√°lni vagy haszn√°lni.
 CHAN_X_FORBIDDEN_OPER
-	%scsatorn·t %s forbidolta:
+	%scsatorn√°t %s forbidolta:
 	%s
 CHAN_X_SUSPENDED
-	 Felf¸ggesztve: [%s] %s
+	 Felf√ºggesztve: [%s] %s
 NICK_IDENTIFY_REQUIRED
-	Jelszavas azonosit·s sz¸ksÈges ehhez a parancshoz.
-	PrÛb·ld ˙jra miut·n beÌrtad: %R%s IDENTIFY jelszÛ.
+	Jelszavas azonosit√°s sz√ºks√©ges ehhez a parancshoz.
+	Pr√≥b√°ld √∫jra miut√°n be√≠rtad: %R%s IDENTIFY jelsz√≥.
 CHAN_IDENTIFY_REQUIRED
-	Jelszavas azonosit·s sz¸ksÈges ehhez a parancshoz.
-	PrÛb·ld ˙jra miut·n beÌrtad: %R%s IDENTIFY %s jelszÛ.
+	Jelszavas azonosit√°s sz√ºks√©ges ehhez a parancshoz.
+	Pr√≥b√°ld √∫jra miut√°n be√≠rtad: %R%s IDENTIFY %s jelsz√≥.
 	
 MAIL_DISABLED
-	A SzervÌz ˙gy van be·llÌtva, hogy nem k¸ld mailt.
+	A Szerv√≠z √∫gy van be√°ll√≠tva, hogy nem k√ºld mailt.
 MAIL_INVALID
-	%sEmail cÌme nem ÈrvÈnyes.
+	%sEmail c√≠me nem √©rv√©nyes.
 MAIL_X_INVALID
-	%s nem ÈrvÈnyes e-mail cÌm.
+	%s nem √©rv√©nyes e-mail c√≠m.
 MAIL_LATER
-	Nem lehet most levelet k¸ldeni;  prÛb·ld ˙jra kÈsıbb.
+	Nem lehet most levelet k√ºldeni;  pr√≥b√°ld √∫jra k√©s≈ëbb.
 MAIL_DELAYED
-	KÈrlek v·rj %d m·sodpercet Ès prÛb·ld ˙jra.
+	K√©rlek v√°rj %d m√°sodpercet √©s pr√≥b√°ld √∫jra.
 	
 NO_REASON
 	Nincs indok
@@ -260,51 +260,51 @@ DURATION_DAY
 DURATION_DAYS
 	%d nap
 DURATION_HOUR
-	1 Ûra
+	1 √≥ra
 DURATION_HOURS
-	%d Ûra
+	%d √≥ra
 DURATION_MINUTE
 	1 perc
 DURATION_MINUTES
 	%d perc
 DURATION_SECOND
-	1 m·sodperc
+	1 m√°sodperc
 DURATION_SECONDS
-	%d m·sodperc
+	%d m√°sodperc
 
-# Emberi olvashatÛ elÈv¸lÈsek
+# Emberi olvashat√≥ el√©v√ºl√©sek
 NO_EXPIRE
-	nem fog elÈv¸lni
+	nem fog el√©v√ºlni
 EXPIRES_SOON
-	elÈv¸l a kˆvetkezı adatb·zis mentÈsnÈl
+	el√©v√ºl a k√∂vetkez≈ë adatb√°zis ment√©sn√©l
 EXPIRES_M
-	elÈv¸l %d perc m˙lva
+	el√©v√ºl %d perc m√∫lva
 EXPIRES_1M
-	elÈv¸l %d perc m˙lva
+	el√©v√ºl %d perc m√∫lva
 EXPIRES_HM
-	elÈv¸l %d Ûra, %d perc m˙lva
+	el√©v√ºl %d √≥ra, %d perc m√∫lva
 EXPIRES_H1M
-	elÈv¸l %d Ûra, %d perc m˙lva
+	el√©v√ºl %d √≥ra, %d perc m√∫lva
 EXPIRES_1HM
-	elÈv¸l %d Ûra, %d perc m˙lva
+	el√©v√ºl %d √≥ra, %d perc m√∫lva
 EXPIRES_1H1M
-	elÈv¸l %d Ûra, %d perc m˙lva
+	el√©v√ºl %d √≥ra, %d perc m√∫lva
 EXPIRES_D
-	elÈv¸l %d nap m˙lva
+	el√©v√ºl %d nap m√∫lva
 EXPIRES_1D
-	elÈv¸l %d nap m˙lva
+	el√©v√ºl %d nap m√∫lva
 	
-# ¡ltal·nos l·bjegyzet ¸zenet
+# √Åltal√°nos l√°bjegyzet √ºzenet
 END_OF_ANY_LIST
-	%s lista vÈge.
+	%s lista v√©ge.
 
 ##########################################################
 #
-# NickServ ¸zenetek
+# NickServ √ºzenetek
 #
 ##########################################################
 	
-# Automatikus ¸zenetek
+# Automatikus √ºzenetek
 LIST_INCORRECT_RANGE
 	Incorrect range specified. The correct syntax is #from-to.
 CS_LIST_INCORRECT_RANGE
@@ -340,87 +340,87 @@ HELP_LIMIT_HOST_REMOVER
 
 # Automatic messages
 NICK_IS_REGISTERED
-	Ez a nick m·r regisztr·lt.  KÈrlek v·lassz m·sikat.
-	Ha ez a te nicked, akkor %R%s IDENTIFY jelszÛ! 
+	Ez a nick m√°r regisztr√°lt.  K√©rlek v√°lassz m√°sikat.
+	Ha ez a te nicked, akkor %R%s IDENTIFY jelsz√≥! 
 NICK_IS_SECURE
-	Ez a nick regisztr·lt Ès vÈdett.  Ha ez a te nicked,
-	akkor %R%s IDENTIFY jelszÛ!
-	K¸lˆnben v·lassz m·sik nicknevet!
+	Ez a nick regisztr√°lt √©s v√©dett.  Ha ez a te nicked,
+	akkor %R%s IDENTIFY jelsz√≥!
+	K√ºl√∂nben v√°lassz m√°sik nicknevet!
 NICK_MAY_NOT_BE_USED
-	Ez a nicknÈv nem haszn·lhatÛ. KÈrlek v·lassz m·sikat!
+	Ez a nickn√©v nem haszn√°lhat√≥. K√©rlek v√°lassz m√°sikat!
 FORCENICKCHANGE_IN_1_MINUTE
-	Ha nem v·ltasz nevet 1 percen bel¸l, Èn megv·ltoztatom.
+	Ha nem v√°ltasz nevet 1 percen bel√ºl, √©n megv√°ltoztatom.
 FORCENICKCHANGE_IN_20_SECONDS
-	Ha nem v·ltasz nevet 20 sec.-en bel¸l, Èn megv·ltoztatom.
+	Ha nem v√°ltasz nevet 20 sec.-en bel√ºl, √©n megv√°ltoztatom.
 FORCENICKCHANGE_NOW
-	Ez a nicknÈv regisztr·lt; te nem haszn·lhatod.
+	Ez a nickn√©v regisztr√°lt; te nem haszn√°lhatod.
 FORCENICKCHANGE_CHANGING
-	A nickneved most meg lesz v·ltoztatva: %s.
+	A nickneved most meg lesz v√°ltoztatva: %s.
 
-# REGISTER v·laszok
+# REGISTER v√°laszok
 NICK_REGISTER_SYNTAX
-	REGISTER jelszÛ [email]
+	REGISTER jelsz√≥ [email]
 NICK_REGISTER_SYNTAX_EMAIL
-	REGISTER jelszÛ email
+	REGISTER jelsz√≥ email
 NICK_REGISTRATION_DISABLED
-	Sajn·lom, a nickregisztr·ciÛ jelenleg nem m˚kˆdik.
+	Sajn√°lom, a nickregisztr√°ci√≥ jelenleg nem m≈±k√∂dik.
 NICK_REGISTRATION_FAILED
-	Sajn·lom, a regisztr·ciÛ sikertelen.
+	Sajn√°lom, a regisztr√°ci√≥ sikertelen.
 NICK_REG_PLEASE_WAIT
-	 V·rj %d m·sodpercet mielıtt  haszn·ln·d ezt a parancsot!
+	 V√°rj %d m√°sodpercet miel≈ëtt  haszn√°ln√°d ezt a parancsot!
 NICK_CANNOT_BE_REGISTERED
-	Ez a nicknÈv: %s nem regisztr·lhatÛ.
+	Ez a nickn√©v: %s nem regisztr√°lhat√≥.
 NICK_ALREADY_REGISTERED
-	Ez a nicknÈv: %s m·r regisztr·lt!
+	Ez a nickn√©v: %s m√°r regisztr√°lt!
 NICK_REGISTERED
-	Ez a nicknÈv: %s sz·modra lett regisztr·lva: %s
+	Ez a nickn√©v: %s sz√°modra lett regisztr√°lva: %s
 NICK_REGISTERED_NO_MASK
 	Nickname %s registered.
 NICK_PASSWORD_IS
-	Jelszavad: %s - jegyezd meg a kÈsıbbi haszn·lathoz!
+	Jelszavad: %s - jegyezd meg a k√©s≈ëbbi haszn√°lathoz!
 NICK_REG_DELAY
-	A nicked regisztr·l·s·hoz %d m·sodpercnÈl rÈgebben kell csatlakozva lenned.
+	A nicked regisztr√°l√°s√°hoz %d m√°sodpercn√©l r√©gebben kell csatlakozva lenned.
 	
-# GROUP v·laszok
+# GROUP v√°laszok
 NICK_GROUP_SYNTAX
-	GROUP cÈlnick jelszÛ
+	GROUP c√©lnick jelsz√≥
 NICK_GROUP_DISABLED
-	Sajn·lom, a csoportok haszn·lata ideiglenesen le van tiltva.
+	Sajn√°lom, a csoportok haszn√°lata ideiglenesen le van tiltva.
 NICK_GROUP_FAILED
-	Sajn·lom, a group parancs haszn·lata sikertelen.
+	Sajn√°lom, a group parancs haszn√°lata sikertelen.
 NICK_GROUP_PLEASE_WAIT
-	KÈrlek v·rj %d m·sodpercet, mielıtt ismÈt haszn·lod a GROUP parancsot.
+	K√©rlek v√°rj %d m√°sodpercet, miel≈ëtt ism√©t haszn√°lod a GROUP parancsot.
 NICK_GROUP_CHANGE_DISABLED
-	A nicked m·r regisztr·lt; Ìrd be %R%s DROP elıszˆr.
+	A nicked m√°r regisztr√°lt; √≠rd be %R%s DROP el≈ësz√∂r.
 NICK_GROUP_SAME
-	M·r tagja vagy ennek a csoportnak: %s.
+	M√°r tagja vagy ennek a csoportnak: %s.
 NICK_GROUP_TOO_MANY
-	T˙l sok nick van a %s csoportban; list·zd  Ès dropolj p·rat.
-	Õrd: %R%s HELP GLIST Ès %R%s HELP DROP
-	bıvebb inform·ciÛkÈrt.
+	T√∫l sok nick van a %s csoportban; list√°zd  √©s dropolj p√°rat.
+	√çrd: %R%s HELP GLIST √©s %R%s HELP DROP
+	b≈ëvebb inform√°ci√≥k√©rt.
 NICK_GROUP_JOINED
-	MostantÛl tagja vagy a %scsoportnak.
+	Mostant√≥l tagja vagy a %scsoportnak.
 
-# IDENTIFY v·laszok
+# IDENTIFY v√°laszok
 NICK_IDENTIFY_SYNTAX
-	IDENTIFY jelszÛ
+	IDENTIFY jelsz√≥
 NICK_IDENTIFY_FAILED
-	Sajn·lom, azonosÌt·s sikertelen.
+	Sajn√°lom, azonos√≠t√°s sikertelen.
 NICK_IDENTIFY_SUCCEEDED
-	Jelszavad elfogadva - azonosÌt·s sikeres.
+	Jelszavad elfogadva - azonos√≠t√°s sikeres.
 NICK_IDENTIFY_EMAIL_REQUIRED
-	Be kell ·llÌtanod egy E-mail cÌmet a nicknevedhez.
+	Be kell √°ll√≠tanod egy E-mail c√≠met a nicknevedhez.
 NICK_IDENTIFY_EMAIL_HOWTO
-	Õrd be: %R%S SET EMAIL e-mail 
-	Az email cÌmed nem lesz kiadva harmadik szemÈlynek.
+	√çrd be: %R%S SET EMAIL e-mail 
+	Az email c√≠med nem lesz kiadva harmadik szem√©lynek.
 NICK_ALREADY_IDENTIFIED
-	M·r be vagy azonosÌtva. :-)
+	M√°r be vagy azonos√≠tva. :-)
 
-# UPDATE v·laszok
+# UPDATE v√°laszok
 NICK_UPDATE_SUCCESS
-	St·tusz frissÌtve (memok, vhost, chmodok, flagek).
+	St√°tusz friss√≠tve (memok, vhost, chmodok, flagek).
 	
-# LOGOUT v·laszok
+# LOGOUT v√°laszok
 NICK_LOGOUT_SYNTAX
 	LOGOUT
 NICK_LOGOUT_SUCCEEDED
@@ -428,137 +428,137 @@ NICK_LOGOUT_SUCCEEDED
 NICK_LOGOUT_X_SUCCEEDED
 	 %s nick sikeresen kijelentkezett.
 NICK_LOGOUT_SERVICESADMIN
-	%s nem tud kijelentkezni, mert ı egy services admin.
+	%s nem tud kijelentkezni, mert ≈ë egy services admin.
 	
-# DROP v·laszok
+# DROP v√°laszok
 NICK_DROP_DISABLED
-	Sajn·lom,  a nicknevek regisztr·ciÛj·nak tˆrlÈse  sz¸netel.
+	Sajn√°lom,  a nicknevek regisztr√°ci√≥j√°nak t√∂rl√©se  sz√ºnetel.
 NICK_DROPPED
 	A nickneved dropolva lett,
 NICK_X_DROPPED
 	A %s nicknevet dropoltad.
 	
-# SET v·laszok
+# SET v√°laszok
 NICK_SET_SYNTAX
-	SET opciÛ paramÈterek
+	SET opci√≥ param√©terek
 NICK_SET_SERVADMIN_SYNTAX
-	SET [nick] opciÛ paramÈterek
+	SET [nick] opci√≥ param√©terek
 NICK_SET_DISABLED
-	Sajn·lom,  a nicknÈv opciÛ be·llÌt·s jelenleg sz¸netel.
+	Sajn√°lom,  a nickn√©v opci√≥ be√°ll√≠t√°s jelenleg sz√ºnetel.
 NICK_SET_UNKNOWN_OPTION
-	Ismeretlen SET opciÛ: %s.
+	Ismeretlen SET opci√≥: %s.
 NICK_SET_OPTION_DISABLED
-	Ez az opciÛ: %snem ·llÌthatÛ be ezen a h·lÛzaton.
+	Ez az opci√≥: %snem √°ll√≠that√≥ be ezen a h√°l√≥zaton.
 
-# SET DISPLAY v·laszok
+# SET DISPLAY v√°laszok
 NICK_SET_DISPLAY_INVALID
-	Az ˙j megjelenÌtÈshez KELL az ˙j becenÈv Ès a csoport!
+	Az √∫j megjelen√≠t√©shez KELL az √∫j becen√©v √©s a csoport!
 NICK_SET_DISPLAY_CHANGED
-	Az ˙j megjelenÌtÈs: %s.
+	Az √∫j megjelen√≠t√©s: %s.
 	
-# SET PASSWORD v·laszok
+# SET PASSWORD v√°laszok
 NICK_SET_PASSWORD_FAILED
-	Sajn·lom, a jelszavad nem siker¸lt megv·ltoztatni.
+	Sajn√°lom, a jelszavad nem siker√ºlt megv√°ltoztatni.
 NICK_SET_PASSWORD_CHANGED
-	Jelszavad megv·ltoztatva.
+	Jelszavad megv√°ltoztatva.
 NICK_SET_PASSWORD_CHANGED_TO
-	Jelszavad megv·ltoztatva a kˆvetkezıre: %s.
+	Jelszavad megv√°ltoztatva a k√∂vetkez≈ëre: %s.
 	
-# SET LANGUAGE v·laszok
+# SET LANGUAGE v√°laszok
 NICK_SET_LANGUAGE_SYNTAX
-	SET LANGUAGE sz·m
+	SET LANGUAGE sz√°m
 NICK_SET_LANGUAGE_UNKNOWN
-	Ismeretlen nyelvi sorsz·m %d %R%s HELP SET LANGUAGE
+	Ismeretlen nyelvi sorsz√°m %d %R%s HELP SET LANGUAGE
 NICK_SET_LANGUAGE_CHANGED
-	⁄j nyelvezet: Magyar.
+	√öj nyelvezet: Magyar.
 
-# SET URL v·laszok
+# SET URL v√°laszok
 NICK_SET_URL_CHANGED
-	URL megv·ltoztatva: %s.
+	URL megv√°ltoztatva: %s.
 NICK_SET_URL_UNSET
-	URL tˆrˆlve.
+	URL t√∂r√∂lve.
 
-# SET EMAIL v·laszok
+# SET EMAIL v√°laszok
 NICK_SET_EMAIL_CHANGED
-	E-mail cÌm megv·ltoztatva: %s.
+	E-mail c√≠m megv√°ltoztatva: %s.
 NICK_SET_EMAIL_UNSET
-	E-mail cÌm tˆrˆlve.
+	E-mail c√≠m t√∂r√∂lve.
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
-	Nem tˆrˆlheted ezen a h·lÛzaton az e-mail cÌmed.
+	Nem t√∂r√∂lheted ezen a h√°l√≥zaton az e-mail c√≠med.
 	
-# SET ICQ v·laszok
+# SET ICQ v√°laszok
 NICK_SET_ICQ_CHANGED
-	ICQ sz·mod megv·ltoztatva: %s.
+	ICQ sz√°mod megv√°ltoztatva: %s.
 NICK_SET_ICQ_UNSET
-	ICQ sz·m tˆrˆlve.
+	ICQ sz√°m t√∂r√∂lve.
 NICK_SET_ICQ_INVALID
-	%s nem ÈrvÈnyes sz·m.
+	%s nem √©rv√©nyes sz√°m.
 	
-# SET GREET v·laszok
+# SET GREET v√°laszok
 NICK_SET_GREET_CHANGED
-	Kˆszˆntı ¸zenet megv·ltoztatva: %s.
+	K√∂sz√∂nt≈ë √ºzenet megv√°ltoztatva: %s.
 NICK_SET_GREET_UNSET
-	Kˆszˆntı ¸zeneted tˆrˆlve.
+	K√∂sz√∂nt≈ë √ºzeneted t√∂r√∂lve.
 
-# SET PROTECT v·laszok
+# SET PROTECT v√°laszok
 NICK_SET_KILL_SYNTAX
 	SET KILL {ON | QUICK | OFF}
 NICK_SET_KILL_IMMED_SYNTAX
 	SET KILL {ON | QUICK | IMMED | OFF}
 NICK_SET_KILL_ON
-	A Kill vÈdelem opciÛ most m·r ON.
+	A Kill v√©delem opci√≥ most m√°r ON.
 NICK_SET_KILL_QUICK
-	A Kill vÈdelem opciÛ most m·r ON, csˆkkentet idıvel.
+	A Kill v√©delem opci√≥ most m√°r ON, cs√∂kkentet id≈ëvel.
 NICK_SET_KILL_IMMED
-	A Kill vÈdelem opciÛ most m·r ON, kÈsleltetÈs nÈlk¸l.
+	A Kill v√©delem opci√≥ most m√°r ON, k√©sleltet√©s n√©lk√ºl.
 NICK_SET_KILL_IMMED_DISABLED
-	Az  IMMED opciÛ nem elÈrhetı ezen a h·lÛzaton.
+	Az  IMMED opci√≥ nem el√©rhet≈ë ezen a h√°l√≥zaton.
 NICK_SET_KILL_OFF
-	A Kill vÈdelem opciÛ most m·r OFF.
+	A Kill v√©delem opci√≥ most m√°r OFF.
 
-# SET SECURE v·laszok
+# SET SECURE v√°laszok
 NICK_SET_SECURE_SYNTAX
 	SET SECURE {ON | OFF}
 NICK_SET_SECURE_ON
-	A Secure opciÛ most m·r ON.
+	A Secure opci√≥ most m√°r ON.
 NICK_SET_SECURE_OFF
-	A Secure opciÛ most m·r OFF.
+	A Secure opci√≥ most m√°r OFF.
 
-# SET PRIVATE v·laszok
+# SET PRIVATE v√°laszok
 NICK_SET_PRIVATE_SYNTAX
 	SET PRIVATE {ON | OFF}
 NICK_SET_PRIVATE_ON
-	A Private opciÛ most m·r ON.
+	A Private opci√≥ most m√°r ON.
 NICK_SET_PRIVATE_OFF
-	A Private opciÛ most m·r OFF.
+	A Private opci√≥ most m√°r OFF.
 
-# SET HIDE v·laszok
+# SET HIDE v√°laszok
 NICK_SET_HIDE_SYNTAX
 	SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SET_HIDE_EMAIL_ON
-	 E-mail cÌmed most rejtve lesz a %s INFO kiÌr·sn·l.
+	 E-mail c√≠med most rejtve lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_EMAIL_OFF
-	E-mail cÌmed most l·thatÛ lesz a %s INFO kiÌr·sn·l.
+	E-mail c√≠med most l√°that√≥ lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_MASK_ON
-	UtolsÛ user@host maszkod rejtve lesz a %s INFO kiÌr·sn·l.
+	Utols√≥ user@host maszkod rejtve lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_MASK_OFF
-	UtolsÛ user@host maszkod l·thatÛ lesz a %s INFO kiÌr·sn·l.
+	Utols√≥ user@host maszkod l√°that√≥ lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_QUIT_ON
-	UtolsÛ kilÈpı ¸zeneted rejtve lesz a %s INFO kiÌr·sn·l
+	Utols√≥ kil√©p≈ë √ºzeneted rejtve lesz a %s INFO ki√≠r√°sn√°l
 NICK_SET_HIDE_QUIT_OFF
-	UtolsÛ kilÈpı ¸zeneted l·thatÛ lesz a %s INFO kiÌr·sn·l.
+	Utols√≥ kil√©p≈ë √ºzeneted l√°that√≥ lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_STATUS_ON
-	A szervÌz hozz·fÈrÈsi st·tuszod rejtve lesz a %s INFO kiÌr·sn·l.
+	A szerv√≠z hozz√°f√©r√©si st√°tuszod rejtve lesz a %s INFO ki√≠r√°sn√°l.
 NICK_SET_HIDE_STATUS_OFF
-	A szervÌz hozz·fÈrÈsi st·tuszod l·thatÛ lesz a %s INFO kiÌr·sn·l.
+	A szerv√≠z hozz√°f√©r√©si st√°tuszod l√°that√≥ lesz a %s INFO ki√≠r√°sn√°l.
 
-# SET MSG v·laszok
+# SET MSG v√°laszok
 NICK_SET_MSG_SYNTAX
 	SET MSG {ON | OFF}
 NICK_SET_MSG_ON
-	A szervÌz mostantÛl  priv·t ¸zenetekbenv·laszol.
+	A szerv√≠z mostant√≥l  priv√°t √ºzenetekbenv√°laszol.
 NICK_SET_MSG_OFF
-	A szervÌz ˙jra notice-t k¸ld a v·laszokn·l.
+	A szerv√≠z √∫jra notice-t k√ºld a v√°laszokn√°l.
 
 # SET AUTOOP responses
 NICK_SET_AUTOOP_SYNTAX
@@ -568,7 +568,7 @@ NICK_SET_AUTOOP_ON
 NICK_SET_AUTOOP_OFF
 	Services will no longer autoop you in channels.
 
-# SET NOEXPIRE v·laszok
+# SET NOEXPIRE v√°laszok
 NICK_SASET_SYNTAX
 	SASET nickname option parameters
 NICK_SASET_DISABLED
@@ -711,19 +711,19 @@ NICK_SASET_LANGUAGE_CHANGED
 NICK_ACCESS_SYNTAX
 	ACCESS {ADD | DEL | LIST} [maszk]
 NICK_ACCESS_ALREADY_PRESENT
-	Ez a maszk: %s m·r szerepel a hozz·fÈrÈsi list·don.
+	Ez a maszk: %s m√°r szerepel a hozz√°f√©r√©si list√°don.
 NICK_ACCESS_REACHED_LIMIT
-	Neked csak %d bejegyzÈsed lehet a hozz·fÈrÈsi list·n.
+	Neked csak %d bejegyz√©sed lehet a hozz√°f√©r√©si list√°n.
 NICK_ACCESS_ADDED
-	%s hozz·adva a hozz·fÈrÈsi list·dhoz.
+	%s hozz√°adva a hozz√°f√©r√©si list√°dhoz.
 NICK_ACCESS_NOT_FOUND
-	%s nem tal·lhatÛ a hozz·fÈrÈsi list·don.
+	%s nem tal√°lhat√≥ a hozz√°f√©r√©si list√°don.
 NICK_ACCESS_DELETED
-	%s tˆrˆlve a hozz·fÈrÈsi list·drÛl.
+	%s t√∂r√∂lve a hozz√°f√©r√©si list√°dr√≥l.
 NICK_ACCESS_LIST
-	Hozz·fÈrÈsi lista:
+	Hozz√°f√©r√©si lista:
 NICK_ACCESS_LIST_X
-	%s hozz·fÈrÈsi list·ja:
+	%s hozz√°f√©r√©si list√°ja:
 NICK_ACCESS_LIST_EMPTY
 	Your access list is empty.
 NICK_ACCESS_LIST_X_EMPTY
@@ -739,33 +739,33 @@ NICK_STATUS_2
 NICK_STATUS_3
 	STATUS %s 3
 
-# INFO V·laszok
+# INFO V√°laszok
 NICK_INFO_SYNTAX
 	INFO nick [ALL]
 NICK_INFO_REALNAME
 	%s az %s
 NICK_INFO_SERVICES_OPER
-	%s egy szervÌz oper·tor.
+	%s egy szerv√≠z oper√°tor.
 NICK_INFO_SERVICES_ADMIN
-	%s egy szervÌz adminisztr·tor.
+	%s egy szerv√≠z adminisztr√°tor.
 NICK_INFO_SERVICES_ROOT
-	%s egy szervÌz root adminisztr·tor.
+	%s egy szerv√≠z root adminisztr√°tor.
 NICK_INFO_ADDRESS
-	Utolj·ra l·tott cÌm: %s
+	Utolj√°ra l√°tott c√≠m: %s
 NICK_INFO_ADDRESS_ONLINE
-	Jelenleg online errıl a cÌmrıl: %s
+	Jelenleg online err≈ël a c√≠mr≈ël: %s
 NICK_INFO_ADDRESS_ONLINE_NOHOST
 	%s jelenleg online.
 NICK_INFO_TIME_REGGED
-	Regisztr·l·s ideje: %s
+	Regisztr√°l√°s ideje: %s
 NICK_INFO_LAST_SEEN
-	Utolj·ra ekkor volt: %s
+	Utolj√°ra ekkor volt: %s
 NICK_INFO_LAST_QUIT
-	UtolsÛ kilÈpı ¸zenet: %s
+	Utols√≥ kil√©p≈ë √ºzenet: %s
 NICK_INFO_URL
 	URL: %s
 NICK_INFO_EMAIL
-	E-mail cÌm: %s
+	E-mail c√≠m: %s
 NICK_INFO_VHOST
 	vhost: %s
 NICK_INFO_VHOST2
@@ -773,30 +773,30 @@ NICK_INFO_VHOST2
 NICK_INFO_ICQ
 	ICQ #: %d
 NICK_INFO_GREET
-	Kˆszˆntı ¸zenet: %s
+	K√∂sz√∂nt≈ë √ºzenet: %s
 NICK_INFO_OPTIONS
-	OpciÛk: %s
+	Opci√≥k: %s
 NICK_INFO_EXPIRE
 	Expires in: %s
-# Ezek a stringek NEM LEHETNEK ¸resek
+# Ezek a stringek NEM LEHETNEK √ºresek
 NICK_INFO_OPT_KILL
-	Kill vÈdelem
+	Kill v√©delem
 NICK_INFO_OPT_SECURE
-	Biztons·g
+	Biztons√°g
 NICK_INFO_OPT_PRIVATE
-	Priv·t
+	Priv√°t
 NICK_INFO_OPT_MSG
-	‹zenet mÛd
+	√úzenet m√≥d
 NICK_INFO_OPT_AUTOOP
 	Auto-op
 NICK_INFO_OPT_NONE
 	Nincs
 NICK_INFO_NO_EXPIRE
-	Ez a nicknÈv nem fog elÈv¸lni.
+	Ez a nickn√©v nem fog el√©v√ºlni.
 NICK_INFO_FOR_MORE
-	Bıvebb inform·ciÛkÈrt, Ìrd be: %R%s INFO %s ALL.
+	B≈ëvebb inform√°ci√≥k√©rt, √≠rd be: %R%s INFO %s ALL.
 
-# LIST v·laszok
+# LIST v√°laszok
 NICK_INFO_SUSPENDED
 	This nickname is currently suspended, reason: %s
 NICK_INFO_SUSPENDED_NO_REASON
@@ -808,102 +808,102 @@ NICK_LIST_SYNTAX
 NICK_LIST_SERVADMIN_SYNTAX
 	LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 NICK_LIST_HEADER
-	Azon bejegyzÈsek list·ja, melyek egyeznek ezzel, %s:
+	Azon bejegyz√©sek list√°ja, melyek egyeznek ezzel, %s:
 NICK_LIST_RESULTS
-	Lista vÈge - %d / %d tal·lat megjelenÌtve.
+	Lista v√©ge - %d / %d tal√°lat megjelen√≠tve.
 	
-# ALIST v·laszok
+# ALIST v√°laszok
 NICK_ALIST_SYNTAX
-	ALIST nicknÈv
+	ALIST nickn√©v
 NICK_ALIST_HEADER
-	Azon csatorn·k, ahol hozz·fÈrÈsed van:
-	  Sorsz·m  Csatorna           Szint    Meghat·roz·s 
+	Azon csatorn√°k, ahol hozz√°f√©r√©sed van:
+	  Sorsz√°m  Csatorna           Szint    Meghat√°roz√°s 
 NICK_ALIST_HEADER_X
-	Azon csatorn·k, ahol %s nicknek hozz·fÈrÈse van:
-	  Sorsz·m  Csatorna              Szint    Meghat·roz·s
+	Azon csatorn√°k, ahol %s nicknek hozz√°f√©r√©se van:
+	  Sorsz√°m  Csatorna              Szint    Meghat√°roz√°s
 NICK_ALIST_XOP_FORMAT
 	  %3d %c %-20s %-8s  %s
 NICK_ALIST_ACCESS_FORMAT
 	  %3d %c %-20s %-8d %s
 NICK_ALIST_FOOTER
-	Lista vÈge - %d / %d csatorna megjelenÌtve.
+	Lista v√©ge - %d / %d csatorna megjelen√≠tve.
 
-# GLIST v·laszok
+# GLIST v√°laszok
 NICK_GLIST_HEADER
-	A csoportodba tartozÛ nickek list·ja:
+	A csoportodba tartoz√≥ nickek list√°ja:
 NICK_GLIST_HEADER_X
-	%s csoportj·ba tartozÛ nickek list·ja:
+	%s csoportj√°ba tartoz√≥ nickek list√°ja:
 NICK_GLIST_FOOTER
-	%d nicknÈv van a csoportban.
+	%d nickn√©v van a csoportban.
 NICK_GLIST_REPLY
 	   %c%s
 NICK_GLIST_REPLY_ADMIN
 	   %c%s (expires in %s)
 
-# RECOVER v·laszok
+# RECOVER v√°laszok
 NICK_RECOVER_SYNTAX
-	RECOVER nicknÈv [jelszÛ]
+	RECOVER nickn√©v [jelsz√≥]
 NICK_NO_RECOVER_SELF
-	Nem haszn·lhatod az aktiv nickedre!
+	Nem haszn√°lhatod az aktiv nickedre!
 NICK_RECOVERED
 	User claiming your nick has been killed.
 	%R%s RELEASE %s to get it back before %s timeout.
 
-# RELEASE v·laszok
+# RELEASE v√°laszok
 NICK_RELEASE_SYNTAX
-	RELEASE nicknÈv [jelszÛ]
+	RELEASE nickn√©v [jelsz√≥]
 NICK_RELEASE_NOT_HELD
 	Ezt a nicket %s nem fogja a services.
 NICK_RELEASED
-	A Services rendelkezÈsedre bocs·jtotta a nicket.
+	A Services rendelkez√©sedre bocs√°jtotta a nicket.
 
-# GHOST v·laszok
+# GHOST v√°laszok
 NICK_GHOST_SYNTAX
-	GHOST nicknÈv [jelszÛ]
+	GHOST nickn√©v [jelsz√≥]
 NICK_NO_GHOST_SELF
 	Nem ghostolhatod ki magad!
 NICK_GHOST_KILLED
 	A befagyott kliens killelve.
 
-# GETPASS v·laszok
+# GETPASS v√°laszok
 NICK_GETPASS_SYNTAX
-	GETPASS nicknÈv
+	GETPASS nickn√©v
 NICK_GETPASS_UNAVAILABLE
-	GETPASS  nem elÈrhetı, amÌg az encryption haszn·latban van
+	GETPASS  nem el√©rhet≈ë, am√≠g az encryption haszn√°latban van
 NICK_GETPASS_PASSWORD_IS
 	%s jelszava: %s.
 
-# GETEMAIL v·laszok
+# GETEMAIL v√°laszok
 NICK_GETEMAIL_SYNTAX
 	GETEMAIL user@email-host Nincs * karakter!!
 NICK_GETEMAIL_EMAILS_ARE
-	Egyezı emailek %s ehhez: %s.
+	Egyez≈ë emailek %s ehhez: %s.
 NICK_GETEMAIL_NOT_USED
-	Nincs Email list·zva ehhez: %s.
+	Nincs Email list√°zva ehhez: %s.
 
-# SENDPASS v·laszok
+# SENDPASS v√°laszok
 NICK_SENDPASS_SYNTAX
-	SENDPASS nicknÈv
+	SENDPASS nickn√©v
 NICK_SENDPASS_UNAVAILABLE
-	SENDPASS nem elÈrhetı, amÌg az encryption haszn·latban van.
+	SENDPASS nem el√©rhet≈ë, am√≠g az encryption haszn√°latban van.
 NICK_SENDPASS_SUBJECT
-	NicknÈv jelszÛ (%s)
+	Nickn√©v jelsz√≥ (%s)
 NICK_SENDPASS_HEAD
 	Hi,
 NICK_SENDPASS_LINE_1
-	Azt kÈrted, hogy a %s nicknÈv jelszav·t k¸ldj¸k el e-mailben.
+	Azt k√©rted, hogy a %s nickn√©v jelszav√°t k√ºldj√ºk el e-mailben.
 NICK_SENDPASS_LINE_2
-	A jelszavad %s Ezt a biztosn·g miatt meg kell v·ltÛztatni,	miut·n megkaptad ezt a levelet.
+	A jelszavad %s Ezt a biztosn√°g miatt meg kell v√°lt√≥ztatni,	miut√°n megkaptad ezt a levelet.
 NICK_SENDPASS_LINE_3
-	Ha nem tudod miÈrt kaptad ezt a levelet, akkor kÈrlek hagyd figyelmen kiv¸l!
+	Ha nem tudod mi√©rt kaptad ezt a levelet, akkor k√©rlek hagyd figyelmen kiv√ºl!
 NICK_SENDPASS_LINE_4
-	ERRE A LEV…LRE NE V¡LASZOLJ!!!
+	ERRE A LEV√âLRE NE V√ÅLASZOLJ!!!
 NICK_SENDPASS_LINE_5
-	%s adminisztr·torok.
+	%s adminisztr√°torok.
 NICK_SENDPASS_OK
-	%s nick jelszava elk¸ldve.
+	%s nick jelszava elk√ºldve.
 
-# FORBID v·laszok
+# FORBID v√°laszok
 NICK_SUSPEND_SYNTAX
 	SUSPEND nickname reason
 NICK_SUSPEND_SUCCEEDED
@@ -921,275 +921,275 @@ NICK_UNSUSPEND_FAILED
 
 # FORBID responses
 NICK_FORBID_SYNTAX
-	FORBID nicknÈv [indok]
+	FORBID nickn√©v [indok]
 NICK_FORBID_SYNTAX_REASON
-	FORBID nicknÈv indok
+	FORBID nickn√©v indok
 NICK_FORBID_SUCCEEDED
-	%s nick most m·r forbidolt.
+	%s nick most m√°r forbidolt.
 NICK_FORBID_FAILED
-	Nem forbidolhatÛ: %s!
+	Nem forbidolhat√≥: %s!
 
-# Nick Registraion v·laszok
+# Nick Registraion v√°laszok
 NICK_REQUESTED
-	Ezt a nicket m·r kÈrelmeztÈk, ellenırizd az e-mail cimed, egy levÈlben van a kÛdod.
+	Ezt a nicket m√°r k√©relmezt√©k, ellen≈ërizd az e-mail cimed, egy lev√©lben van a k√≥dod.
 NICK_REG_RESENT
-	A kÛd ˙jra el lett k¸ldve erre a cÌmre: %s.
+	A k√≥d √∫jra el lett k√ºldve erre a c√≠mre: %s.
 NICK_REG_UNABLE
-	Nick NEM regisztr·lt, prÛb·ld kÈsıbb.
+	Nick NEM regisztr√°lt, pr√≥b√°ld k√©s≈ëbb.
 NICK_IS_PREREG
-	A nick az emailben elk¸ldˆtt kÛddal valÛ aktÌv·l·sra v·r a regisztr·ciÛ befejezÈsÈhez.
+	A nick az emailben elk√ºld√∂tt k√≥ddal val√≥ akt√≠v√°l√°sra v√°r a regisztr√°ci√≥ befejez√©s√©hez.
 NICK_ENTER_REG_CODE
-	A kÛd a %s cÌmre lett k¸ldve, Ìrd be %R%s confirm <kÛd> a regisztr·ciÛ befejezÈsÈhez.
+	A k√≥d a %s c√≠mre lett k√ºldve, √≠rd be %R%s confirm <k√≥d> a regisztr√°ci√≥ befejez√©s√©hez.
 NICK_CONFIRM_NOT_FOUND
-	Regisztr·ciÛ 1 lÈpÈse lehet, hogy elÈv¸lt, Ìrd be: "%R%s register <jelszÛ> <email>".
+	Regisztr√°ci√≥ 1 l√©p√©se lehet, hogy el√©v√ºlt, √≠rd be: "%R%s register <jelsz√≥> <email>".
 NICK_CONFIRM_INVALID
-	…rvÈnytelen kÛd, ellenırizze az e-mailben, majd prÛb·lja ˙jra.
+	√ârv√©nytelen k√≥d, ellen≈ërizze az e-mailben, majd pr√≥b√°lja √∫jra.
 NICK_REG_MAIL_SUBJECT
-	NicknÈv Regisztr·ciÛ (%s)
+	Nickn√©v Regisztr√°ci√≥ (%s)
 NICK_REG_MAIL_HEAD
 	Hi,
 NICK_REG_MAIL_LINE_1
-	Te kÈrelmeztad a %s nick regisztr·l·s·t.
+	Te k√©relmeztad a %s nick regisztr√°l√°s√°t.
 NICK_REG_MAIL_LINE_2
-	Õrd be: " %R%s confirm %s ", hogy befejezd a regisztr·ciÛt.
+	√çrd be: " %R%s confirm %s ", hogy befejezd a regisztr√°ci√≥t.
 NICK_REG_MAIL_LINE_3
-	Ha nem tudod miÈrt kaptad a levelet, kÈrlek hagyd figyelmen kÌv¸l!
+	Ha nem tudod mi√©rt kaptad a levelet, k√©rlek hagyd figyelmen k√≠v√ºl!
 NICK_REG_MAIL_LINE_4
-	NE V¡LASZOLJ A LEV…LRE!
+	NE V√ÅLASZOLJ A LEV√âLRE!
 NICK_REG_MAIL_LINE_5
-	%s adminisztr·torok.
+	%s adminisztr√°torok.
 NICK_GETPASS_PASSCODE_IS
-	KÛd a %s nickhez:  %s.
+	K√≥d a %s nickhez:  %s.
 NICK_FORCE_REG
-	A %s nicknÈv ÈrvÈnyesÌtve. 
+	A %s nickn√©v √©rv√©nyes√≠tve. 
 
 ###########################################################
 #
-# ChanServ ¸zenetek
+# ChanServ √ºzenetek
 #
 ###########################################################
 	
-# Access level leÌr·sok
+# Access level le√≠r√°sok
 CHAN_LEVEL_AUTOOP
-	Automatikus oper·tor (+o) st·tusz
+	Automatikus oper√°tor (+o) st√°tusz
 CHAN_LEVEL_AUTOVOICE
-	Automatikus voice (+v) st·tusz (hangad·s)
+	Automatikus voice (+v) st√°tusz (hangad√°s)
 CHAN_LEVEL_AUTOHALFOP
-	Automatikus halfop (+h) st·tusz (fÈlop)
+	Automatikus halfop (+h) st√°tusz (f√©lop)
 CHAN_LEVEL_AUTOPROTECT
-	Automatikus protect (+a) mÛd. 
+	Automatikus protect (+a) m√≥d. 
 CHAN_LEVEL_AUTODEOP
-	Csatorna oper·tori st·tusz tilt·sa.
+	Csatorna oper√°tori st√°tusz tilt√°sa.
 CHAN_LEVEL_NOJOIN
-	Nem lÈphet a csatorn·ra, ha a RESTRICTED haszn·latban.
+	Nem l√©phet a csatorn√°ra, ha a RESTRICTED haszn√°latban.
 CHAN_LEVEL_INVITE
-	Haszn·lhatja az INVITE parancsot.
+	Haszn√°lhatja az INVITE parancsot.
 CHAN_LEVEL_AKICK
-	Haszn·lhatja az AKICK parancsot.
+	Haszn√°lhatja az AKICK parancsot.
 CHAN_LEVEL_SET
-	Haszn·lhatja a SET parancsot (kivÈve FOUNDER/PASSWORD).
+	Haszn√°lhatja a SET parancsot (kiv√©ve FOUNDER/PASSWORD).
 CHAN_LEVEL_CLEAR
-	Haszn·lhatja a CLEAR parancsot.
+	Haszn√°lhatja a CLEAR parancsot.
 CHAN_LEVEL_UNBAN
-	Haszn·lhatja az UNBAN parancsot.
+	Haszn√°lhatja az UNBAN parancsot.
 CHAN_LEVEL_OPDEOP
-	Haszn·lhatja az OP/DEOP parancsot.
+	Haszn√°lhatja az OP/DEOP parancsot.
 CHAN_LEVEL_ACCESS_LIST
-	Megtekintheti a hozz·fÈrÈsi list·t.
+	Megtekintheti a hozz√°f√©r√©si list√°t.
 CHAN_LEVEL_ACCESS_CHANGE
-	MÛdosÌthatja a hozz·fÈrÈsi list·t.
+	M√≥dos√≠thatja a hozz√°f√©r√©si list√°t.
 CHAN_LEVEL_MEMO
-	Õrhat/olvashat csatorna memo ¸zeneteket
+	√çrhat/olvashat csatorna memo √ºzeneteket
 CHAN_LEVEL_ASSIGN
-	T·rsÌthat/elt·volÌthat services botot
+	T√°rs√≠that/elt√°vol√≠that services botot
 CHAN_LEVEL_BADWORDS
-	Haszn·lhatja a BADWORDS parancsot
+	Haszn√°lhatja a BADWORDS parancsot
 CHAN_LEVEL_NOKICK
-	Nem lesz kir˙gva a bot automatikus funkciÛival.
+	Nem lesz kir√∫gva a bot automatikus funkci√≥ival.
 CHAN_LEVEL_FANTASIA
-	Haszn·lhatja a fantasia parancsokat.
+	Haszn√°lhatja a fantasia parancsokat.
 CHAN_LEVEL_SAY
-	Haszn·lhatja az ACT Ès SAY parancsokat.
+	Haszn√°lhatja az ACT √©s SAY parancsokat.
 CHAN_LEVEL_GREET
-	NickServ-es kˆszˆntı ¸zenet megjelenik.
+	NickServ-es k√∂sz√∂nt≈ë √ºzenet megjelenik.
 CHAN_LEVEL_VOICEME
-	Haszn·lhatja a (de)voiceme parancsokat
+	Haszn√°lhatja a (de)voiceme parancsokat
 CHAN_LEVEL_VOICE
-	Haszn·lhatja a VOICE/DEVOICE parancsokat.
+	Haszn√°lhatja a VOICE/DEVOICE parancsokat.
 CHAN_LEVEL_GETKEY
-	Haszn·lhatja a GETKEY parancsot.
+	Haszn√°lhatja a GETKEY parancsot.
 CHAN_LEVEL_OPDEOPME
-	Haszn·lhatja a (de)opme parancsot.
+	Haszn√°lhatja a (de)opme parancsot.
 CHAN_LEVEL_HALFOPME
-	Haszn·lhatja a (de)halfopme parancsot.
+	Haszn√°lhatja a (de)halfopme parancsot.
 CHAN_LEVEL_HALFOP
-	Haszn·lhatja a HALFOP/DEHALFOP parancsokat
+	Haszn√°lhatja a HALFOP/DEHALFOP parancsokat
 CHAN_LEVEL_PROTECTME
-	Haszn·lhatja a (de)protectme parancsot
+	Haszn√°lhatja a (de)protectme parancsot
 CHAN_LEVEL_PROTECT
-	Haszn·lhatja a PROTECT/DEPROTECT parancsokat
+	Haszn√°lhatja a PROTECT/DEPROTECT parancsokat
 CHAN_LEVEL_KICKME
-	Haszn·lhatja a kickme parancsot
+	Haszn√°lhatja a kickme parancsot
 CHAN_LEVEL_KICK
-	Haszn·lhatja a KICK parancsot
+	Haszn√°lhatja a KICK parancsot
 CHAN_LEVEL_SIGNKICK
-	Nincs signkick, ha a SIGNKICK LEVEL haszn·latban van.
+	Nincs signkick, ha a SIGNKICK LEVEL haszn√°latban van.
 CHAN_LEVEL_BANME
-	Haszn·lhatja a banme parancsot
+	Haszn√°lhatja a banme parancsot
 CHAN_LEVEL_BAN
-	Haszn·lhatja a BAN parancsot
+	Haszn√°lhatja a BAN parancsot
 CHAN_LEVEL_TOPIC
-	Haszn·lhatja a TOPIC parancsot
+	Haszn√°lhatja a TOPIC parancsot
 CHAN_LEVEL_INFO
-	Haszn·lhatja az INFO parancsot az ALL opciÛval
+	Haszn√°lhatja az INFO parancsot az ALL opci√≥val
 
-# Automatikus v·laszok
+# Automatikus v√°laszok
 CHAN_IS_REGISTERED
-	Ez a szoba a %s adatb·zis·ban regisztr·lt.
+	Ez a szoba a %s adatb√°zis√°ban regisztr√°lt.
 CHAN_NOT_ALLOWED_OP
-	Nem lehetsz szobaop ezen a csatorn·n: %s.
+	Nem lehetsz szobaop ezen a csatorn√°n: %s.
 CHAN_MAY_NOT_BE_USED
-	Ez a csatorna nem haszn·lhatÛ.
+	Ez a csatorna nem haszn√°lhat√≥.
 CHAN_NOT_ALLOWED_TO_JOIN
-	Nem tartÛzkodhatsz ezen a csatorn·n.
+	Nem tart√≥zkodhatsz ezen a csatorn√°n.
 
-# REGISTER v·laszok
+# REGISTER v√°laszok
 CHAN_X_INVALID
 	Channel %s is not a valid channel.
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
-	REGISTER #szoba jelszÛ leÌr·s
+	REGISTER #szoba jelsz√≥ le√≠r√°s
 CHAN_REGISTER_DISABLED
-	Sajn·lom,  a csatorna regisztr·ciÛ jelenleg sz¸netel.
+	Sajn√°lom,  a csatorna regisztr√°ci√≥ jelenleg sz√ºnetel.
 CHAN_REGISTER_NOT_LOCAL
-	Helyi csatorn·k nem regisztr·lhatÛk.
+	Helyi csatorn√°k nem regisztr√°lhat√≥k.
 CHAN_MUST_REGISTER_NICK
-	Elıszˆr regisztr·lnod kell a nevedet. %R%s help
+	El≈ësz√∂r regisztr√°lnod kell a nevedet. %R%s help
 CHAN_MUST_IDENTIFY_NICK
-	KÈrlek azonosÌts a %s-be, haszn·ld ezt a parancsot:
-	%R%s IDENTIFY jelszÛ
+	K√©rlek azonos√≠ts a %s-be, haszn√°ld ezt a parancsot:
+	%R%s IDENTIFY jelsz√≥
 CHAN_MAY_NOT_BE_REGISTERED
-	Ez a csatorna %s nem regisztr·lhatÛ. 
+	Ez a csatorna %s nem regisztr√°lhat√≥. 
 CHAN_ALREADY_REGISTERED
-	A megadott csatorna %s m·r regisztr·lt!
+	A megadott csatorna %s m√°r regisztr√°lt!
 CHAN_MUST_BE_CHANOP
-	A csatorn·n oper·tornak kell lenned, hogy regisztr·lhasd.
+	A csatorn√°n oper√°tornak kell lenned, hogy regisztr√°lhasd.
 CHAN_REACHED_CHANNEL_LIMIT
-	M·r elÈrted a felsı korl·tot (%d) csatorn·k sz·m·ban.
+	M√°r el√©rted a fels≈ë korl√°tot (%d) csatorn√°k sz√°m√°ban.
 CHAN_EXCEEDED_CHANNEL_LIMIT
-	M·r t˙llÈpted a felsı korl·tot (%d) a csatorn·n.
+	M√°r t√∫ll√©pted a fels≈ë korl√°tot (%d) a csatorn√°n.
 CHAN_REGISTRATION_FAILED
-	Sajn·lom,  regisztr·ciÛ sikertelen.
+	Sajn√°lom,  regisztr√°ci√≥ sikertelen.
 CHAN_REGISTERED
-	Regisztr·ltam a %s csatorn·t a (%s) nickre.
+	Regisztr√°ltam a %s csatorn√°t a (%s) nickre.
 CHAN_PASSWORD_IS
-	Csatorna jelszava: %s - Jegyezd fel a kÈsıbbi haszn·lathoz.
+	Csatorna jelszava: %s - Jegyezd fel a k√©s≈ëbbi haszn√°lathoz.
 CHAN_REGISTER_NONE_CHANNEL
 	You have attempted to register a nonexistent channel %s
 CHAN_SYMBOL_REQUIRED
 	Please use the symbol of # when attempting to register
 
 
-# IDENTIFY v·laszok
+# IDENTIFY v√°laszok
 CHAN_IDENTIFY_SYNTAX
-	IDENTIFY   #szoba   jelszÛ
+	IDENTIFY   #szoba   jelsz√≥
 CHAN_IDENTIFY_FAILED
-	Sajn·lom,  azonosÌt·s sikertelen.
+	Sajn√°lom,  azonos√≠t√°s sikertelen.
 CHAN_IDENTIFY_SUCCEEDED
-	Jelszavad elfogadva - founder szint˚ a hozz·fÈrÈsed a %s csatorn·n.
+	Jelszavad elfogadva - founder szint≈± a hozz√°f√©r√©sed a %s csatorn√°n.
 
-# LOGOUT v·laszok
+# LOGOUT v√°laszok
 CHAN_LOGOUT_SYNTAX
-	LOGOUT #szoba nicknÈv
+	LOGOUT #szoba nickn√©v
 CHAN_LOGOUT_SERVADMIN_SYNTAX
-	LOGOUT #szoba  [nicknÈv]
+	LOGOUT #szoba  [nickn√©v]
 CHAN_LOGOUT_SUCCEEDED
-	%s felhaszn·lÛ kijelentkezett a %s csatorn·rÛl.
+	%s felhaszn√°l√≥ kijelentkezett a %s csatorn√°r√≥l.
 CHAN_LOGOUT_ALL_SUCCEEDED
-	Minden felhaszn·lÛ kijelentkezett a %s csatorn·rÛl (except the channel founder).
+	Minden felhaszn√°l√≥ kijelentkezett a %s csatorn√°r√≥l (except the channel founder).
 CHAN_LOGOUT_FOUNDER_FAILED
 	You may not log out of %s (you are founder).
 
-# DROP v·laszok
+# DROP v√°laszok
 CHAN_DROP_SYNTAX
 	DROP #szoba
 CHAN_DROP_DISABLED
-	A csatorn·k regisztr·ciÛj·nak tˆrlÈse jelenleg sz¸netel.
+	A csatorn√°k regisztr√°ci√≥j√°nak t√∂rl√©se jelenleg sz√ºnetel.
 CHAN_DROPPED
-	%s csatorna regisztr·ciÛj·nak tˆrlÈse siker¸lt.
+	%s csatorna regisztr√°ci√≥j√°nak t√∂rl√©se siker√ºlt.
 
-# SET v·laszok
+# SET v√°laszok
 CHAN_SET_SYNTAX
-	SET #szoba opciÛ paramÈterek
+	SET #szoba opci√≥ param√©terek
 CHAN_SET_DISABLED
-	A csatorn·k opciÛinak be·llit·sa jelenleg sz¸netel.
+	A csatorn√°k opci√≥inak be√°llit√°sa jelenleg sz√ºnetel.
 CHAN_SET_UNKNOWN_OPTION
-	Ismeretlen SET opciÛ %s.
+	Ismeretlen SET opci√≥ %s.
 
-# SET FOUNDER v·laszok
+# SET FOUNDER v√°laszok
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
-	%s rÈszÈre t˙l sok csatorna van regisztr·lva.
+	%s r√©sz√©re t√∫l sok csatorna van regisztr√°lva.
 CHAN_FOUNDER_CHANGED
-	A megadott csatorna (%s) ˙j foundere: %s.
+	A megadott csatorna (%s) √∫j foundere: %s.
 
-# SET SUCCESSOR v·laszok
+# SET SUCCESSOR v√°laszok
 CHAN_SUCCESSOR_CHANGED
-	A megadott csatorna (%s) ˙j successora: %s.
+	A megadott csatorna (%s) √∫j successora: %s.
 CHAN_SUCCESSOR_UNSET
-	A megadott csatorna %s successora tˆrˆlve.
+	A megadott csatorna %s successora t√∂r√∂lve.
 CHAN_SUCCESSOR_IS_FOUNDER
-	%s nem lehet a %s csatorna successora, mert ı a founder is.
+	%s nem lehet a %s csatorna successora, mert ≈ë a founder is.
 
-# SET PASSWORD v·laszok
+# SET PASSWORD v√°laszok
 CHAN_SET_PASSWORD_FAILED
-	A jelszÛ be·llÌt·sa sikertelen.
+	A jelsz√≥ be√°ll√≠t√°sa sikertelen.
 CHAN_PASSWORD_CHANGED
-	%s csatorna jelszava megv·ltozott.
+	%s csatorna jelszava megv√°ltozott.
 CHAN_PASSWORD_CHANGED_TO
-	%s csatorna ˙j jelszava: %s.
+	%s csatorna √∫j jelszava: %s.
 
-# SET DESC v·laszok
+# SET DESC v√°laszok
 CHAN_DESC_CHANGED
-	%s csatorna leÌr·s megv·ltoztatva: %s.
+	%s csatorna le√≠r√°s megv√°ltoztatva: %s.
 
-# SET URL v·laszok
+# SET URL v√°laszok
 CHAN_URL_CHANGED
-	A megadott csatorna (%s) ˙j URL cÌme: %s.
+	A megadott csatorna (%s) √∫j URL c√≠me: %s.
 CHAN_URL_UNSET
-	A megadott csatorna %s URL cÌme tˆrˆlve.
+	A megadott csatorna %s URL c√≠me t√∂r√∂lve.
 
-# SET EMAIL v·laszok
+# SET EMAIL v√°laszok
 CHAN_EMAIL_CHANGED
-	A megadott csatorna (%s) ˙j E-mail cÌme: %s.
+	A megadott csatorna (%s) √∫j E-mail c√≠me: %s.
 CHAN_EMAIL_UNSET
-	A megadott csatorna (%s) E-mail cÌme tˆrˆlve.
+	A megadott csatorna (%s) E-mail c√≠me t√∂r√∂lve.
 
-# SET ENTRYMSG v·laszok
+# SET ENTRYMSG v√°laszok
 CHAN_ENTRY_MSG_CHANGED
-	%s csatorna belÈpı ¸zenete megv·ltozott.
+	%s csatorna bel√©p≈ë √ºzenete megv√°ltozott.
 CHAN_ENTRY_MSG_UNSET
-	%s csatorna belÈpı ¸zenete tˆrˆlve.
+	%s csatorna bel√©p≈ë √ºzenete t√∂r√∂lve.
 
-# SET BANTYPE v·laszok
+# SET BANTYPE v√°laszok
 CHAN_SET_BANTYPE_INVALID
-	%s nem ÈrvÈnyes ban tÌpus.
+	%s nem √©rv√©nyes ban t√≠pus.
 CHAN_SET_BANTYPE_CHANGED
-	A megadott csatorna (%s) ˙j ban tÌpusa: #%d.
+	A megadott csatorna (%s) √∫j ban t√≠pusa: #%d.
 
-# SET MLOCK v·laszok
+# SET MLOCK v√°laszok
 CHAN_SET_MLOCK_UNKNOWN_CHAR
-	Ismeretlen mÛd karakter: %c figyelmen kÌv¸l hagyva.
+	Ismeretlen m√≥d karakter: %c figyelmen k√≠v√ºl hagyva.
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
-	%c mÛd figyelmen kÌv¸l hagyva, mert nem rˆgzÌtheted.
+	%c m√≥d figyelmen k√≠v√ºl hagyva, mert nem r√∂gz√≠theted.
 CHAN_SET_MLOCK_L_REQUIRED
-	RˆgzÌtened kell a +l mÛdot is, ha a +L mÛdot rˆgzited.
+	R√∂gz√≠tened kell a +l m√≥dot is, ha a +L m√≥dot r√∂gzited.
 CHAN_SET_MLOCK_K_REQUIRED
-	RˆgzÌtened kell a +i mÛdot is, ha a +K mÛdot rˆgzÌted.
+	R√∂gz√≠tened kell a +i m√≥dot is, ha a +K m√≥dot r√∂gz√≠ted.
 CHAN_MLOCK_CHANGED
-	A megadott csatorn·n (%s) az ˙j Mode lock: %s.
+	A megadott csatorn√°n (%s) az √∫j Mode lock: %s.
 
-# SET KEEPTOPIC v·laszok
+# SET KEEPTOPIC v√°laszok
 CHAN_SET_KEEPTOPIC_SYNTAX
 	SET #szoba KEEPTOPIC {ON | OFF}
 CHAN_SET_KEEPTOPIC_ON
@@ -1197,7 +1197,7 @@ CHAN_SET_KEEPTOPIC_ON
 CHAN_SET_KEEPTOPIC_OFF
 	Topic retention option for %s is now OFF.
 
-# SET TOPICLOCK v·laszok
+# SET TOPICLOCK v√°laszok
 CHAN_SET_TOPICLOCK_SYNTAX
 	SET #szoba TOPICLOCK {ON | OFF}
 CHAN_SET_TOPICLOCK_ON
@@ -1205,7 +1205,7 @@ CHAN_SET_TOPICLOCK_ON
 CHAN_SET_TOPICLOCK_OFF
 	Topic lock option for %s is now OFF.
 
-# SET PEACE v·laszok
+# SET PEACE v√°laszok
 CHAN_SET_PEACE_SYNTAX
 	SET #szoba PEACE {ON | OFF}
 CHAN_SET_PEACE_ON
@@ -1213,7 +1213,7 @@ CHAN_SET_PEACE_ON
 CHAN_SET_PEACE_OFF
 	Peace option for %s is now OFF.
 
-# SET PRIVATE v·laszok
+# SET PRIVATE v√°laszok
 CHAN_SET_PRIVATE_SYNTAX
 	SET #szoba PRIVATE {ON | OFF}
 CHAN_SET_PRIVATE_ON
@@ -1221,7 +1221,7 @@ CHAN_SET_PRIVATE_ON
 CHAN_SET_PRIVATE_OFF
 	Private option for %s is now OFF.
 
-# SET SECUREOPS v·laszok
+# SET SECUREOPS v√°laszok
 CHAN_SET_SECUREOPS_SYNTAX
 	SET #szoba SECUREOPS {ON | OFF}
 CHAN_SET_SECUREOPS_ON
@@ -1229,7 +1229,7 @@ CHAN_SET_SECUREOPS_ON
 CHAN_SET_SECUREOPS_OFF
 	Secure ops option for %s is now OFF.
 
-# SET SECUREFOUNDER v·laszok
+# SET SECUREFOUNDER v√°laszok
 CHAN_SET_SECUREFOUNDER_SYNTAX
 	SET #szoba SECUREFOUNDER {ON | OFF}
 CHAN_SET_SECUREFOUNDER_ON
@@ -1237,7 +1237,7 @@ CHAN_SET_SECUREFOUNDER_ON
 CHAN_SET_SECUREFOUNDER_OFF
 	Secure founder option for %s is now OFF.
 
-# SET RESTRICTED v·laszok
+# SET RESTRICTED v√°laszok
 CHAN_SET_RESTRICTED_SYNTAX
 	SET #szoba RESTRICTED {ON | OFF}
 CHAN_SET_RESTRICTED_ON
@@ -1245,7 +1245,7 @@ CHAN_SET_RESTRICTED_ON
 CHAN_SET_RESTRICTED_OFF
 	Restricted access option for %s is now OFF.
 
-# SET SECURE v·laszok
+# SET SECURE v√°laszok
 CHAN_SET_SECURE_SYNTAX
 	SET #szoba SECURE {ON | OFF}
 CHAN_SET_SECURE_ON
@@ -1253,7 +1253,7 @@ CHAN_SET_SECURE_ON
 CHAN_SET_SECURE_OFF
 	Secure option for %s is now OFF.
 
-# SET SIGNKICK v·laszok
+# SET SIGNKICK v√°laszok
 CHAN_SET_SIGNKICK_SYNTAX
 	SET #szoba SIGNKICK {ON | LEVEL | OFF}
 CHAN_SET_SIGNKICK_ON
@@ -1264,7 +1264,7 @@ CHAN_SET_SIGNKICK_LEVEL
 CHAN_SET_SIGNKICK_OFF
 	Signed kick option for %s is now OFF.
 
-# SET OPNOTICE v·laszok
+# SET OPNOTICE v√°laszok
 CHAN_SET_OPNOTICE_SYNTAX
 	SET #szoba OPNOTICE {ON | OFF}
 CHAN_SET_OPNOTICE_ON
@@ -1272,7 +1272,7 @@ CHAN_SET_OPNOTICE_ON
 CHAN_SET_OPNOTICE_OFF
 	Op-notice option for %s is now OFF.
 
-# SET XOP v·laszok
+# SET XOP v√°laszok
 CHAN_SET_XOP_SYNTAX
 	SET #szoba XOP {ON | OFF}
 CHAN_SET_XOP_ON
@@ -1280,119 +1280,119 @@ CHAN_SET_XOP_ON
 CHAN_SET_XOP_OFF
 	xOP lists system for %s is now OFF.
 
-# SET NOEXPIRE v·laszok
+# SET NOEXPIRE v√°laszok
 CHAN_SET_NOEXPIRE_SYNTAX
 	SET #szoba NOEXPIRE {ON | OFF}
 CHAN_SET_NOEXPIRE_ON
-	A megadott csatorna (%s) nem fog elÈv¸lni.
+	A megadott csatorna (%s) nem fog el√©v√ºlni.
 CHAN_SET_NOEXPIRE_OFF
-	A megadott csatorna (%s) el fog Èv¸lni.
+	A megadott csatorna (%s) el fog √©v√ºlni.
 
-# xOP ¸zenetek
+# xOP √ºzenetek
 CHAN_XOP_REACHED_LIMIT
-	Csak %d sz·m˙ helyed van a csatorna VOP/AOP/SOP list·n.
+	Csak %d sz√°m√∫ helyed van a csatorna VOP/AOP/SOP list√°n.
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
-	Nem haszn·lhatod a parancsot. Haszn·ld az ACCESS parancsot.
-	Bıvebb inform·ciÛ: %R%s HELP ACCESS
+	Nem haszn√°lhatod a parancsot. Haszn√°ld az ACCESS parancsot.
+	B≈ëvebb inform√°ci√≥: %R%s HELP ACCESS
 CHAN_XOP_NOT_AVAILABLE
 	xOP system is not available.
 
-# AOP ¸zenetek
+# AOP √ºzenetek
 CHAN_AOP_SYNTAX
-	AOP #szoba { ADD | DEL | LIST | CLEAR } [ nick | sorsz·m ]
+	AOP #szoba { ADD | DEL | LIST | CLEAR } [ nick | sorsz√°m ]
 CHAN_AOP_DISABLED
-	Csatorna AOP lista mÛdosÌt·s sz¸netel.
+	Csatorna AOP lista m√≥dos√≠t√°s sz√ºnetel.
 CHAN_AOP_NICKS_ONLY
-	Csatorna AOP list·ja csak regisztr·lt nevet tartalmazhat.
+	Csatorna AOP list√°ja csak regisztr√°lt nevet tartalmazhat.
 CHAN_AOP_ADDED
-	%s hozz·adva %s AOP list·hoz.
+	%s hozz√°adva %s AOP list√°hoz.
 CHAN_AOP_MOVED
-	%s  ·thelyezve a %s AOP list·ra.
+	%s  √°thelyezve a %s AOP list√°ra.
 CHAN_AOP_NO_SUCH_ENTRY
-	Nem tal·lhatÛ (#%d) a %s AOP list·n.
+	Nem tal√°lhat√≥ (#%d) a %s AOP list√°n.
 CHAN_AOP_NOT_FOUND
-	%s nem tal·lathatÛ a %s AOP list·n.
+	%s nem tal√°lathat√≥ a %s AOP list√°n.
 CHAN_AOP_NO_MATCH
-	Nincs ilyen bejegyzÈs a %s AOP list·n.
+	Nincs ilyen bejegyz√©s a %s AOP list√°n.
 CHAN_AOP_DELETED
-	%s tˆrˆlve lett a %s AOP list·rÛl.
+	%s t√∂r√∂lve lett a %s AOP list√°r√≥l.
 CHAN_AOP_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a %s AOP list·rÛl.
+	1 bejegyz√©s t√∂r√∂lve a %s AOP list√°r√≥l.
 CHAN_AOP_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve a %s AOP list·rÛl.
+	%d bejegyz√©s t√∂r√∂lve a %s AOP list√°r√≥l.
 CHAN_AOP_LIST_EMPTY
-	%s AOP list·ja ¸res.
+	%s AOP list√°ja √ºres.
 CHAN_AOP_LIST_HEADER
-	%s AOP list·ja:
-	  Sorsz·m  NicknÈv
+	%s AOP list√°ja:
+	  Sorsz√°m  Nickn√©v
 
-# HOP ¸zenetek
+# HOP √ºzenetek
 CHAN_AOP_CLEAR
 	Channel %s AOP list has been cleared.
 
 # HOP messages
 CHAN_HOP_SYNTAX
-	HOP #szoba { ADD | DEL | LIST | CLEAR } [ nick | sorsz·m ]
+	HOP #szoba { ADD | DEL | LIST | CLEAR } [ nick | sorsz√°m ]
 CHAN_HOP_DISABLED
-	Csatorna HOP lista mÛdosÌt·s sz¸netel.
+	Csatorna HOP lista m√≥dos√≠t√°s sz√ºnetel.
 CHAN_HOP_NICKS_ONLY
-	Csatorna HOP list·ja csak regisztr·lt nevet tartalmazhat.
+	Csatorna HOP list√°ja csak regisztr√°lt nevet tartalmazhat.
 CHAN_HOP_ADDED
-	%s hozz·adva %s HOP list·hoz.
+	%s hozz√°adva %s HOP list√°hoz.
 CHAN_HOP_MOVED
-	%s  ·thelyezve a %s HOP list·ra.
+	%s  √°thelyezve a %s HOP list√°ra.
 CHAN_HOP_NO_SUCH_ENTRY
-	Nem tal·lhatÛ (#%d) a %s HOP list·n.
+	Nem tal√°lhat√≥ (#%d) a %s HOP list√°n.
 CHAN_HOP_NOT_FOUND
-	%s nem tal·lathatÛ a %s HOP list·n.
+	%s nem tal√°lathat√≥ a %s HOP list√°n.
 CHAN_HOP_NO_MATCH
-	Nincs ilyen bejegyzÈs a %s HOP list·n.
+	Nincs ilyen bejegyz√©s a %s HOP list√°n.
 CHAN_HOP_DELETED
-	%s tˆrˆlve lett a %s HOP list·rÛl.
+	%s t√∂r√∂lve lett a %s HOP list√°r√≥l.
 CHAN_HOP_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a %s HOP list·rÛl.
+	1 bejegyz√©s t√∂r√∂lve a %s HOP list√°r√≥l.
 CHAN_HOP_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve a %s HOP list·rÛl.
+	%d bejegyz√©s t√∂r√∂lve a %s HOP list√°r√≥l.
 CHAN_HOP_LIST_EMPTY
-	%s HOP list·ja ¸res.
+	%s HOP list√°ja √ºres.
 CHAN_HOP_LIST_HEADER
-	%s HOP list·ja:
-	  Sorsz·m  NicknÈv
+	%s HOP list√°ja:
+	  Sorsz√°m  Nickn√©v
 
-# SOP ¸zenetek
+# SOP √ºzenetek
 CHAN_HOP_CLEAR
 	Channel %s HOP list has been cleared.
 
 # SOP messages
 CHAN_SOP_SYNTAX
-	SOP #szoba { ADD | DEL | LIST | CLEAR }[ nick | sorsz·m]
+	SOP #szoba { ADD | DEL | LIST | CLEAR }[ nick | sorsz√°m]
 CHAN_SOP_DISABLED
-	Csatorna SOP lista mÛdosÌt·s sz¸netel.
+	Csatorna SOP lista m√≥dos√≠t√°s sz√ºnetel.
 CHAN_SOP_NICKS_ONLY
-	Csatorna SOP list·ja csak regisztr·lt nevet tartalmazhat.
+	Csatorna SOP list√°ja csak regisztr√°lt nevet tartalmazhat.
 CHAN_SOP_ADDED
-	%s hozz·adva %s SOP list·hoz.
+	%s hozz√°adva %s SOP list√°hoz.
 CHAN_SOP_MOVED
-	%s  ·thelyezve a %s SOP list·ra.
+	%s  √°thelyezve a %s SOP list√°ra.
 CHAN_SOP_NO_SUCH_ENTRY
-	Nem tal·lhatÛ (#%d) a %s SOP list·n.
+	Nem tal√°lhat√≥ (#%d) a %s SOP list√°n.
 CHAN_SOP_NOT_FOUND
-	%s nem tal·lathatÛ a %s SOP list·n.
+	%s nem tal√°lathat√≥ a %s SOP list√°n.
 CHAN_SOP_NO_MATCH
-	Nincs ilyen bejegyzÈs a %s SOP list·n.
+	Nincs ilyen bejegyz√©s a %s SOP list√°n.
 CHAN_SOP_DELETED
-	%s tˆrˆlve lett a %s SOP list·rÛl.
+	%s t√∂r√∂lve lett a %s SOP list√°r√≥l.
 CHAN_SOP_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a %s SOP list·rÛl.
+	1 bejegyz√©s t√∂r√∂lve a %s SOP list√°r√≥l.
 CHAN_SOP_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve a %s SOP list·rÛl.
+	%d bejegyz√©s t√∂r√∂lve a %s SOP list√°r√≥l.
 CHAN_SOP_LIST_EMPTY
-	%s SOP list·ja ¸res.
+	%s SOP list√°ja √ºres.
 CHAN_SOP_LIST_HEADER
-	%s SOP list·ja:
-	  Sorsz·m  NicknÈv
+	%s SOP list√°ja:
+	  Sorsz√°m  Nickn√©v
 
 # VOP messages
 CHAN_SOP_CLEAR
@@ -1400,90 +1400,90 @@ CHAN_SOP_CLEAR
 
 # VOP messages
 CHAN_VOP_SYNTAX
-	VOP #csatorna { ADD | DEL | LIST | CLEAR } [ nick | sorsz·m ]
+	VOP #csatorna { ADD | DEL | LIST | CLEAR } [ nick | sorsz√°m ]
 CHAN_VOP_DISABLED
-	Csatorna VOP lista mÛdosÌt·s sz¸netel.
+	Csatorna VOP lista m√≥dos√≠t√°s sz√ºnetel.
 CHAN_VOP_NICKS_ONLY
-	Csatorna VOP list·ja csak regisztr·lt nevet tartalmazhat.
+	Csatorna VOP list√°ja csak regisztr√°lt nevet tartalmazhat.
 CHAN_VOP_ADDED
-	%s hozz·adva %s VOP list·hoz.
+	%s hozz√°adva %s VOP list√°hoz.
 CHAN_VOP_MOVED
-	%s  ·thelyezve a %s VOP list·ra.
+	%s  √°thelyezve a %s VOP list√°ra.
 CHAN_VOP_NO_SUCH_ENTRY
-	Nem tal·lhatÛ (#%d) a %s VOP list·n.
+	Nem tal√°lhat√≥ (#%d) a %s VOP list√°n.
 CHAN_VOP_NOT_FOUND
-	%s nem tal·lathatÛ a %s VOP list·n.
+	%s nem tal√°lathat√≥ a %s VOP list√°n.
 CHAN_VOP_NO_MATCH
-	Nincs ilyen bejegyzÈs a %s VOP list·n.
+	Nincs ilyen bejegyz√©s a %s VOP list√°n.
 CHAN_VOP_DELETED
-	%s tˆrˆlve lett a %s VOP list·rÛl.
+	%s t√∂r√∂lve lett a %s VOP list√°r√≥l.
 CHAN_VOP_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a %s VOP list·rÛl.
+	1 bejegyz√©s t√∂r√∂lve a %s VOP list√°r√≥l.
 CHAN_VOP_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve a %s VOP list·rÛl.
+	%d bejegyz√©s t√∂r√∂lve a %s VOP list√°r√≥l.
 CHAN_VOP_LIST_EMPTY
-	%s VOP list·ja ¸res.
+	%s VOP list√°ja √ºres.
 CHAN_VOP_LIST_HEADER
-	%s VOP list·ja:
-	  Sorsz·m  NicknÈv
+	%s VOP list√°ja:
+	  Sorsz√°m  Nickn√©v
 
-# ACCESS ¸zenetek
+# ACCESS √ºzenetek
 CHAN_VOP_CLEAR
 	Channel %s VOP list has been cleared.
 
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
-	ACCESS#szoba{ ADD | DEL | LIST | CLEAR } [ nick [ szint ] | sorsz·m ]
+	ACCESS#szoba{ ADD | DEL | LIST | CLEAR } [ nick [ szint ] | sorsz√°m ]
 CHAN_ACCESS_XOP
-	Nem haszn·lhatod ezt a parancsot. 
-	Haszn·ld az AOP, SOP Ès VOP parancsokat helyette.
-	Õrd be: %R%s HELP parancs bıvebb inform·ciÛÈrt.
+	Nem haszn√°lhatod ezt a parancsot. 
+	Haszn√°ld az AOP, SOP √©s VOP parancsokat helyette.
+	√çrd be: %R%s HELP parancs b≈ëvebb inform√°ci√≥√©rt.
 CHAN_ACCESS_XOP_HOP
 	You can't use this command. 
 	Use the AOP, SOP, HOP and VOP commands instead.
 	Type %R%s HELP command for more information.
 CHAN_ACCESS_DISABLED
-	A csatorna hozz·fÈrÈsi list·j·nak mÛdosÌt·sa sz¸netel.
+	A csatorna hozz√°f√©r√©si list√°j√°nak m√≥dos√≠t√°sa sz√ºnetel.
 CHAN_ACCESS_LEVEL_NONZERO
-	A hozz·fÈrÈsi szint nem lehet nulla.
+	A hozz√°f√©r√©si szint nem lehet nulla.
 CHAN_ACCESS_LEVEL_RANGE
-	A hozz·fÈrÈsi szintnek %d Ès %d kˆzˆtt kell lennie.
+	A hozz√°f√©r√©si szintnek %d √©s %d k√∂z√∂tt kell lennie.
 CHAN_ACCESS_NICKS_ONLY
-	Csatorna list·ja csak regisztr·lt nickeket tartalmazhat.
+	Csatorna list√°ja csak regisztr√°lt nickeket tartalmazhat.
 CHAN_ACCESS_REACHED_LIMIT
-	Neked csak %d  helyed van a csatorna list·j·n.
+	Neked csak %d  helyed van a csatorna list√°j√°n.
 CHAN_ACCESS_LEVEL_UNCHANGED
-	%s hozz·fÈrÈsi szintje a (%s) csatorn·n : %d
+	%s hozz√°f√©r√©si szintje a (%s) csatorn√°n : %d
 CHAN_ACCESS_LEVEL_CHANGED
-	%s hozz·fÈrÈse a (%s) csatorn·n v·ltozott: %d.
+	%s hozz√°f√©r√©se a (%s) csatorn√°n v√°ltozott: %d.
 CHAN_ACCESS_ADDED
-	%s hozz·adva a %s hozz·fÈrÈsi list·j·hoz.
-	A hozz·fÈrÈsi szintje a ChanServ parancsokhoz:  %d.
+	%s hozz√°adva a %s hozz√°f√©r√©si list√°j√°hoz.
+	A hozz√°f√©r√©si szintje a ChanServ parancsokhoz:  %d.
 CHAN_ACCESS_NO_SUCH_ENTRY
-	A bejegyzÈs (#%d) nem tal·lhatÛ %s hozz·fÈrÈsi list·j·n.
+	A bejegyz√©s (#%d) nem tal√°lhat√≥ %s hozz√°f√©r√©si list√°j√°n.
 CHAN_ACCESS_NOT_FOUND
-	%s nem tal·lhatÛ a (%s) csatorna hozz·fÈrÈsi list·j·n.
+	%s nem tal√°lhat√≥ a (%s) csatorna hozz√°f√©r√©si list√°j√°n.
 CHAN_ACCESS_NO_MATCH
-	Nincs ilyen bejegyzÈs a (%s) csatorna hozz·fÈrÈsi list·j·n.
+	Nincs ilyen bejegyz√©s a (%s) csatorna hozz√°f√©r√©si list√°j√°n.
 CHAN_ACCESS_DELETED
-	%s tˆrˆlve lett a (%s) csatorna hozz·fÈrÈsi list·j·rÛl.
+	%s t√∂r√∂lve lett a (%s) csatorna hozz√°f√©r√©si list√°j√°r√≥l.
 CHAN_ACCESS_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a (%s) csatorna hozz·fÈrÈsi list·j·rÛl
+	1 bejegyz√©s t√∂r√∂lve a (%s) csatorna hozz√°f√©r√©si list√°j√°r√≥l
 CHAN_ACCESS_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve (%s) csatorna hozz·fÈrÈsi list·j·rÛl.
+	%d bejegyz√©s t√∂r√∂lve (%s) csatorna hozz√°f√©r√©si list√°j√°r√≥l.
 CHAN_ACCESS_LIST_EMPTY
-	%s hozz·fÈrÈsi list·ja ¸res.
+	%s hozz√°f√©r√©si list√°ja √ºres.
 CHAN_ACCESS_LIST_HEADER
-	%s hozz·fÈrÈsi list·ja:
-	  Sorsz·m   Szint  Nick
+	%s hozz√°f√©r√©si list√°ja:
+	  Sorsz√°m   Szint  Nick
 CHAN_ACCESS_LIST_FOOTER
-	Hozz·fÈrÈsi lista vÈge.
+	Hozz√°f√©r√©si lista v√©ge.
 CHAN_ACCESS_LIST_XOP_FORMAT
 	  %3d   %s  %s
 CHAN_ACCESS_LIST_AXS_FORMAT
 	  %3d  %4d  %s
 	
-# AKICK v·laszok
+# AKICK v√°laszok
 CHAN_ACCESS_CLEAR
 	Channel %s access list has been cleared.
 
@@ -1491,65 +1491,65 @@ CHAN_ACCESS_CLEAR
 CHAN_AKICK_SYNTAX
 	AKICK #szoba {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR}[ nick-maszk ] [ indok ]
 CHAN_AKICK_DISABLED
-	Csatorna autokick list·j·nak mÛdosÌt·sa sz¸netel.
+	Csatorna autokick list√°j√°nak m√≥dos√≠t√°sa sz√ºnetel.
 CHAN_AKICK_ALREADY_EXISTS
-	%s m·r szerepel a (%s) csatorna autokick list·j·n.
+	%s m√°r szerepel a (%s) csatorna autokick list√°j√°n.
 CHAN_AKICK_REACHED_LIMIT
-	%d bejegyzÈsnÈl nem lehet tˆbb a list·n.
+	%d bejegyz√©sn√©l nem lehet t√∂bb a list√°n.
 CHAN_AKICK_ADDED
-	%s hozz·adva a (%s) csatorna autokick list·j·hoz
+	%s hozz√°adva a (%s) csatorna autokick list√°j√°hoz
 CHAN_AKICK_NO_SUCH_ENTRY
-	A bejegyzÈs (#%d) nincs a (%s) csatorna autokick list·j·n.
+	A bejegyz√©s (#%d) nincs a (%s) csatorna autokick list√°j√°n.
 CHAN_AKICK_NOT_FOUND
-	%s nem szerepel a (%s) csatorna autokick list·j·n.
+	%s nem szerepel a (%s) csatorna autokick list√°j√°n.
 CHAN_AKICK_NO_MATCH
-	Nincs ilyen bejegyzÈs a (%s) csatorna autokick list·j·n.
+	Nincs ilyen bejegyz√©s a (%s) csatorna autokick list√°j√°n.
 CHAN_AKICK_STUCK
-	%s most m·r mindig aktÌv a (%s) csatorn·n.
+	%s most m√°r mindig akt√≠v a (%s) csatorn√°n.
 CHAN_AKICK_UNSTUCK
-	%s tˆbbÈ m·r nem aktÌv a (%s) csatorn·n.
+	%s t√∂bb√© m√°r nem akt√≠v a (%s) csatorn√°n.
 CHAN_AKICK_DELETED
-	%s tˆrˆlve a (%s) csatorna autokick list·j·rÛl.
+	%s t√∂r√∂lve a (%s) csatorna autokick list√°j√°r√≥l.
 CHAN_AKICK_DELETED_ONE
-	1 bejegyzÈs tˆrˆlve a (%s) csatorna autokick list·j·rÛl.
+	1 bejegyz√©s t√∂r√∂lve a (%s) csatorna autokick list√°j√°r√≥l.
 CHAN_AKICK_DELETED_SEVERAL
-	%d bejegyzÈs tˆrˆlve a (%s) csatorna autokick list·j·rÛl.
+	%d bejegyz√©s t√∂r√∂lve a (%s) csatorna autokick list√°j√°r√≥l.
 CHAN_AKICK_LIST_EMPTY
-	%s autokick list·ja ¸res.
+	%s autokick list√°ja √ºres.
 CHAN_AKICK_LIST_HEADER
-	%s autokick list·ja:
+	%s autokick list√°ja:
 CHAN_AKICK_LIST_FORMAT
 	  %3d %s (%s)
 CHAN_AKICK_VIEW_FORMAT
-	%3d %s (%s ·ltal, ekkor: %s)
+	%3d %s (%s √°ltal, ekkor: %s)
 	    %s
 CHAN_AKICK_VIEW_FORMAT_STUCK
-	%3d %s (stuck) (%s ·ltal, ekkor: %s)
+	%3d %s (stuck) (%s √°ltal, ekkor: %s)
 	    %s
 CHAN_AKICK_ENFORCE_DONE
-	Az AKICK ENFORCE a(z) %s csatorn·n teljesÌtve;
-	%d user elt·volÌtva.
+	Az AKICK ENFORCE a(z) %s csatorn√°n teljes√≠tve;
+	%d user elt√°vol√≠tva.
 
-# LEVELS v·laszok
+# LEVELS v√°laszok
 CHAN_AKICK_CLEAR
 	Channel %s akick list has been cleared.
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
-	LEVELS #szoba{SET | DIS[ABLE] | LIST | RESET }[ opciÛ [szint]]
+	LEVELS #szoba{SET | DIS[ABLE] | LIST | RESET }[ opci√≥ [szint]]
 CHAN_LEVELS_XOP
-	Ez a parancs haszn·lhatatlan ebben a mÛdban. (xOP)
+	Ez a parancs haszn√°lhatatlan ebben a m√≥dban. (xOP)
 CHAN_LEVELS_RANGE
-	A szintnek kiz·rÛlag %d Ès %d kˆzˆtt kell lennie.
+	A szintnek kiz√°r√≥lag %d √©s %d k√∂z√∂tt kell lennie.
 CHAN_LEVELS_CHANGED
-	%s szintjÈnek ˙j ÈrtÈke a (%s) csatorn·n: %d.
+	%s szintj√©nek √∫j √©rt√©ke a (%s) csatorn√°n: %d.
 CHAN_LEVELS_UNKNOWN
-	%s be·llÌt·s nem ismert. Õrd be %R%s HELP LEVELS DESC
-	az ÈrvÈnyes be·llÌt·sok list·j·nak megtekintÈsÈhez.  
+	%s be√°ll√≠t√°s nem ismert. √çrd be %R%s HELP LEVELS DESC
+	az √©rv√©nyes be√°ll√≠t√°sok list√°j√°nak megtekint√©s√©hez.  
 CHAN_LEVELS_DISABLED
-	%s letiltva a (%s) csatorn·n.
+	%s letiltva a (%s) csatorn√°n.
 CHAN_LEVELS_LIST_HEADER
-	%s hozz·fÈrÈsi szintjeinek be·llÌt·sai:
+	%s hozz√°f√©r√©si szintjeinek be√°ll√≠t√°sai:
 CHAN_LEVELS_LIST_DISABLED
 	    %-*s  (letiltva)
 CHAN_LEVELS_LIST_FOUNDER
@@ -1557,7 +1557,7 @@ CHAN_LEVELS_LIST_FOUNDER
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 CHAN_LEVELS_RESET
-	%s szintjei vissza·llÌtva az alapÈrtÈkekre.
+	%s szintjei vissza√°ll√≠tva az alap√©rt√©kekre.
 
 # Status Messages
 CHAN_STATUS_SYNTAX
@@ -1571,125 +1571,125 @@ CHAN_STATUS_NOTONLINE
 CHAN_STATUS_INFO
 	STATUS %s %s %d
 
-# INFO v·laszok
+# INFO v√°laszok
 CHAN_INFO_SYNTAX
 	INFO #szoba [ALL]
 CHAN_INFO_HEADER
-	%s inform·ciÛi:
+	%s inform√°ci√≥i:
 CHAN_INFO_FOUNDER
 	    Tulajdonos: %s (%s)
 CHAN_INFO_NO_FOUNDER
 	    Tulajdonos: %s
 CHAN_INFO_SUCCESSOR
-	    JogutÛd: %s (%s)
+	    Jogut√≥d: %s (%s)
 CHAN_INFO_NO_SUCCESSOR
-	    JogutÛd: %s
+	    Jogut√≥d: %s
 CHAN_INFO_DESCRIPTION
-	    LeÌr·s: %s
+	    Le√≠r√°s: %s
 CHAN_INFO_ENTRYMSG
-	    Kˆszˆntı ¸zenet: %s
+	    K√∂sz√∂nt≈ë √ºzenet: %s
 CHAN_INFO_TIME_REGGED
-	    Regisztr·l·s ideje: %s
+	    Regisztr√°l√°s ideje: %s
 CHAN_INFO_LAST_USED
-	    Utolj·ra haszn·lva: %s
+	    Utolj√°ra haszn√°lva: %s
 CHAN_INFO_LAST_TOPIC
-	    UtolsÛ topic: %s
+	    Utols√≥ topic: %s
 CHAN_INFO_TOPIC_SET_BY
-	    A tÈm·t be·llÌtotta: %s
+	    A t√©m√°t be√°ll√≠totta: %s
 CHAN_INFO_URL
 	    URL: %s
 CHAN_INFO_EMAIL
-	    E-mail cÌm: %s
+	    E-mail c√≠m: %s
 CHAN_INFO_BANTYPE
-	    Ban tÌpus: %d
+	    Ban t√≠pus: %d
 CHAN_INFO_OPTIONS
-	    OpciÛk: %s
+	    Opci√≥k: %s
 CHAN_INFO_OPT_KEEPTOPIC
-	TÈmamegırzÈs
+	T√©mameg≈ërz√©s
 CHAN_INFO_OPT_OPNOTICE
-	Opok ÈrtesÌtÈse
+	Opok √©rtes√≠t√©se
 CHAN_INFO_OPT_PEACE
-	BÈkessÈg
+	B√©kess√©g
 CHAN_INFO_OPT_PRIVATE
-	Priv·t
+	Priv√°t
 CHAN_INFO_OPT_RESTRICTED
-	Korl·tozott hozz·fÈrÈs
+	Korl√°tozott hozz√°f√©r√©s
 CHAN_INFO_OPT_SECURE
 	Secure
 CHAN_INFO_OPT_SECUREOPS
-	Opjog vÈdelme
+	Opjog v√©delme
 CHAN_INFO_OPT_SECUREFOUNDER
-	Founderjog vÈdelme
+	Founderjog v√©delme
 CHAN_INFO_OPT_SIGNKICK
 	Signed kicks
 CHAN_INFO_OPT_TOPICLOCK
-	TÈmav·lt·s lez·r·sa
+	T√©mav√°lt√°s lez√°r√°sa
 CHAN_INFO_OPT_XOP
 	xOP lista rendszer
 CHAN_INFO_OPT_NONE
 	Nincs
 CHAN_INFO_MODE_LOCK
-		RˆgzÌtett mÛdok: %s
+		R√∂gz√≠tett m√≥dok: %s
 CHAN_INFO_EXPIRE
 	      Expires in: %s
 CHAN_INFO_NO_EXPIRE
-	Ez a csatorna nem fog elÈv¸lni.
+	Ez a csatorna nem fog el√©v√ºlni.
 
-# LIST v·laszok
+# LIST v√°laszok
 CHAN_LIST_SYNTAX
 	LIST pattern
 CHAN_LIST_SERVADMIN_SYNTAX
 	LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 CHAN_LIST_HEADER
-	%s list·j·nak egyezı bejegyzÈsei
+	%s list√°j√°nak egyez≈ë bejegyz√©sei
 CHAN_LIST_FORMAT
 		%-20s  %s
 CHAN_LIST_END
-	Lista vÈge - %d/%d tal·lat megjelenÌtve.
+	Lista v√©ge - %d/%d tal√°lat megjelen√≠tve.
 
-# INVITE v·laszok
+# INVITE v√°laszok
 CHAN_INVITE_SYNTAX
 	INVITE #szoba
 
-# UNBAN v·laszok
+# UNBAN v√°laszok
 CHAN_UNBAN_SYNTAX
 	UNBAN #szoba
 CHAN_UNBANNED
-	%s csatorn·n a tilt·st levetetted magadrÛl.
+	%s csatorn√°n a tilt√°st levetetted magadr√≥l.
 
-# TOPIC v·laszok
+# TOPIC v√°laszok
 CHAN_TOPIC_SYNTAX
 	TOPIC #szoba [topic]
 
-# CLEAR v·laszok
+# CLEAR v√°laszok
 CHAN_CLEAR_SYNTAX
 	CLEAR #szoba mit?
 CHAN_CLEARED_BANS
-	A (%s) csatorn·rÛl minden kitilt·s levÈve.
+	A (%s) csatorn√°r√≥l minden kitilt√°s lev√©ve.
 CHAN_CLEARED_EXCEPTS
-	A (%s) csatorn·rÛl minden kivÈtel levÈve.
+	A (%s) csatorn√°r√≥l minden kiv√©tel lev√©ve.
 CHAN_CLEARED_MODES
-	A (%s) csatorn·rÛl minden mÛd el levÈve.
+	A (%s) csatorn√°r√≥l minden m√≥d el lev√©ve.
 CHAN_CLEARED_OPS
-	A (%s) csatorn·n minden +o mÛd levÈve.
+	A (%s) csatorn√°n minden +o m√≥d lev√©ve.
 CHAN_CLEARED_HOPS
-	A (%s) csatorn·n minden +h mÛd levÈve.
+	A (%s) csatorn√°n minden +h m√≥d lev√©ve.
 CHAN_CLEARED_VOICES
-	A (%s) csatorn·n minden +v mÛd levÈve.
+	A (%s) csatorn√°n minden +v m√≥d lev√©ve.
 CHAN_CLEARED_USERS
-	A (%s) csatorn·rÛl minden felhaszn·lÛ ki lett r˙gva.
+	A (%s) csatorn√°r√≥l minden felhaszn√°l√≥ ki lett r√∫gva.
 CHAN_CLEARED_INVITES
 	All invites on channel %s have been removed.
 
-# GETPASS v·laszok
+# GETPASS v√°laszok
 CHAN_GETPASS_SYNTAX
 	GETPASS #szoba
 CHAN_GETPASS_UNAVAILABLE
-	GETPASS elÈrhetetlen, mig az encryption haszn·latban van.
+	GETPASS el√©rhetetlen, mig az encryption haszn√°latban van.
 CHAN_GETPASS_PASSWORD_IS
 	A (%s) csatorna  jelszava: %s.
 
-# SENDPASS v·laszok
+# SENDPASS v√°laszok
 CHAN_GETKEY_SYNTAX
 	GETKEY channel
 CHAN_GETKEY_NOKEY
@@ -1701,25 +1701,25 @@ CHAN_GETKEY_KEY
 CHAN_SENDPASS_SYNTAX
 	SENDPASS #szoba
 CHAN_SENDPASS_UNAVAILABLE
-	SENDPASS elÈrhetetlen, amÌg az encryption haszn·latban van
+	SENDPASS el√©rhetetlen, am√≠g az encryption haszn√°latban van
 CHAN_SENDPASS_SUBJECT
 	Csatorna jelszava: (%s)
 CHAN_SENDPASS_HEAD
 	Hi,
 CHAN_SENDPASS_LINE_1
-	KÈrted a szoba jelszav·nak megk¸ldÈsÈt %s cÌmre.
+	K√©rted a szoba jelszav√°nak megk√ºld√©s√©t %s c√≠mre.
 CHAN_SENDPASS_LINE_2
-	%s a szobajeszÛ.Biztons·g kedvÈÈrt v·ltÛztasd meg olvas·s ut·n
+	%s a szobajesz√≥.Biztons√°g kedv√©√©rt v√°lt√≥ztasd meg olvas√°s ut√°n
 CHAN_SENDPASS_LINE_3
-	Ha nem te kÈrted a levelet akkor tˆrÈld Ès feljts el
+	Ha nem te k√©rted a levelet akkor t√∂r√©ld √©s feljts el
 CHAN_SENDPASS_LINE_4
-	K…RLEN NE V¡LASZOLJ A LEV…LRE!
+	K√âRLEN NE V√ÅLASZOLJ A LEV√âLRE!
 CHAN_SENDPASS_LINE_5
 	%s administrators.
 CHAN_SENDPASS_OK
-	JelszÛ %s elk¸ldve.
+	Jelsz√≥ %s elk√ºldve.
 	
-# FORBID v·laszok
+# FORBID v√°laszok
 CHAN_FORBID_SYNTAX
 	FORBID #szoba [indok]
 CHAN_FORBID_SYNTAX_REASON
@@ -1727,320 +1727,320 @@ CHAN_FORBID_SYNTAX_REASON
 CHAN_FORBID_SUCCEEDED
 	A (%s) szoba letiltva.
 CHAN_FORBID_FAILED
-	%s szob·t nem siker¸lt letiltani!
+	%s szob√°t nem siker√ºlt letiltani!
 CHAN_FORBID_REASON
 	Ez a szoba forbidolva lett.
 	
-# SUSPEND v·laszok
+# SUSPEND v√°laszok
 CHAN_SUSPEND_SYNTAX
 	SUSPEND #szoba [indok]
 CHAN_SUSPEND_SYNTAX_REASON
 	SUSPEND #szoba indok
 CHAN_SUSPEND_SUCCEEDED
-	(%s) szoba haszn·lata felf¸ggesztve.
+	(%s) szoba haszn√°lata felf√ºggesztve.
 CHAN_SUSPEND_FAILED
-	%s szob·t nem siker¸lt felf¸ggeszteni!
+	%s szob√°t nem siker√ºlt felf√ºggeszteni!
 CHAN_SUSPEND_REASON
-	A szoba haszn·lata felf¸ggesztve.
+	A szoba haszn√°lata felf√ºggesztve.
 
-# UNSUSPEND v·laszok
+# UNSUSPEND v√°laszok
 CHAN_UNSUSPEND_SYNTAX
 	UNSUSPEND #szoba
 CHAN_UNSUSPEND_ERROR
-	Nincs # a szoba neve elıtt.
+	Nincs # a szoba neve el≈ëtt.
 CHAN_UNSUSPEND_SUCCEEDED
-	(%s) szoba ˙jra haszn·lhatÛ.
+	(%s) szoba √∫jra haszn√°lhat√≥.
 CHAN_UNSUSPEND_FAILED
-	%s szob·t nem siker¸lt haszn·lhatÛv· tenni!
+	%s szob√°t nem siker√ºlt haszn√°lhat√≥v√° tenni!
 
-# Misc v·laszok
+# Misc v√°laszok
 CHAN_EXCEPTED
-	%s megegyezik egy kivÈtellel (%s) nem tilthatÛ, amÌg a kivÈtel Èl.
+	%s megegyezik egy kiv√©tellel (%s) nem tilthat√≥, am√≠g a kiv√©tel √©l.
 
 ###########################################################
 #
-# MemoServ ¸zenetek
+# MemoServ √ºzenetek
 #
 ###########################################################
 	
-# Automatikus ¸zenetek
+# Automatikus √ºzenetek
 MEMO_HAVE_NEW_MEMO
-	Van egy ˙j ¸zeneted.
+	Van egy √∫j √ºzeneted.
 MEMO_HAVE_NEW_MEMOS
-	%d darab ˙j ¸zeneted van.
+	%d darab √∫j √ºzeneted van.
 MEMO_TYPE_READ_LAST
-	Haszn·ld a %R%s READ LAST parancsot.
+	Haszn√°ld a %R%s READ LAST parancsot.
 MEMO_TYPE_READ_NUM
-	Haszn·ld a %R%s READ %d parancsot.
+	Haszn√°ld a %R%s READ %d parancsot.
 MEMO_TYPE_LIST_NEW
-	Haszn·ld a: %R%s LIST NEW parancsot
+	Haszn√°ld a: %R%s LIST NEW parancsot
 MEMO_AT_LIMIT
-	Figyelem: FogadhatÛ ¸zenetek maxim·lis sz·ma (%d).
-	Nem fogadhatsz tˆbb ¸zenetet, amÌg nem tˆrˆlsz nÈh·nyat.
+	Figyelem: Fogadhat√≥ √ºzenetek maxim√°lis sz√°ma (%d).
+	Nem fogadhatsz t√∂bb √ºzenetet, am√≠g nem t√∂r√∂lsz n√©h√°nyat.
 MEMO_OVER_LIMIT
-	Figyelem: FogadhatÛ ¸zenetek maxim·lis sz·m·t (%d).
-	Nem fogadhatsz tˆbb ¸zenetet, amÌg tˆrˆlsz nÈh·nyat.
+	Figyelem: Fogadhat√≥ √ºzenetek maxim√°lis sz√°m√°t (%d).
+	Nem fogadhatsz t√∂bb √ºzenetet, am√≠g t√∂r√∂lsz n√©h√°nyat.
 MEMO_X_MANY_NOTICE
-	÷sszesen %d ¸zenet van a %s csatorn·n.
+	√ñsszesen %d √ºzenet van a %s csatorn√°n.
 MEMO_X_ONE_NOTICE
-	%d ¸zenete van a %s szob·nak.
+	%d √ºzenete van a %s szob√°nak.
 MEMO_NEW_X_MEMO_ARRIVED
-	⁄j ¸zenete Èrkezett a %s szob·nak.
-	Ha szeretnÈd elolvasni, Ìrd be: %R%s READ %s %d.
+	√öj √ºzenete √©rkezett a %s szob√°nak.
+	Ha szeretn√©d elolvasni, √≠rd be: %R%s READ %s %d.
 MEMO_NEW_MEMO_ARRIVED
-	%s k¸ldˆtt egy ˙j ¸zenetet.
-	Ha szeretnÈd elolvasni, Ìrd be: %R%s READ %d.
+	%s k√ºld√∂tt egy √∫j √ºzenetet.
+	Ha szeretn√©d elolvasni, √≠rd be: %R%s READ %d.
 
-# Multi-use v·laszok
+# Multi-use v√°laszok
 MEMO_HAVE_NO_MEMOS
-	Nincs ¸zeneted.
+	Nincs √ºzeneted.
 MEMO_X_HAS_NO_MEMOS
-	%s ¸zenetlist·ja ¸res.
+	%s √ºzenetlist√°ja √ºres.
 MEMO_DOES_NOT_EXIST
-	A (%d.) sz·m˙ ¸zenet nem szerepel az ¸zenetlist·n!
+	A (%d.) sz√°m√∫ √ºzenet nem szerepel az √ºzenetlist√°n!
 MEMO_LIST_NOT_FOUND
-	A megadott ¸zenetek nem szerepelnek az ¸zenetlist·n.
+	A megadott √ºzenetek nem szerepelnek az √ºzenetlist√°n.
 
-# SEND v·laszok
+# SEND v√°laszok
 MEMO_SEND_SYNTAX
-	SEND {nick | #szoba} memo-szˆveg
+	SEND {nick | #szoba} memo-sz√∂veg
 MEMO_SEND_DISABLED
-	Sajn·lom, az ¸zenetk¸ldÈs sz¸netel.
+	Sajn√°lom, az √ºzenetk√ºld√©s sz√ºnetel.
 MEMO_SEND_PLEASE_WAIT
-	KÈrlek, v·rj %d m·sodpercet mielıtt SEND parancsot ˙jra haszn·lod!
+	K√©rlek, v√°rj %d m√°sodpercet miel≈ëtt SEND parancsot √∫jra haszn√°lod!
 MEMO_X_GETS_NO_MEMOS
-	%s nem fogadhat ¸zeneteket.
+	%s nem fogadhat √ºzeneteket.
 MEMO_X_HAS_TOO_MANY_MEMOS
-	%s t˙l sok ¸zenettel rendelkezik, Ès nem fogadhat tˆbbet.
+	%s t√∫l sok √ºzenettel rendelkezik, √©s nem fogadhat t√∂bbet.
 MEMO_SENT
-	‹zenet elk¸ldve %s rÈszÈre.
+	√úzenet elk√ºldve %s r√©sz√©re.
 MEMO_MASS_SENT
-	Egy massmemo elk¸ldve minden regisztr·lt felhaszn·lÛnak.
+	Egy massmemo elk√ºldve minden regisztr√°lt felhaszn√°l√≥nak.
 
-# CANCEL v·laszok
+# CANCEL v√°laszok
 MEMO_CANCEL_SYNTAX
 	CANCEL {nick | #szoba}
 MEMO_CANCEL_DISABLED
-	Sajn·lom, a memo visszavon·s jelenleg sz¸netel.
+	Sajn√°lom, a memo visszavon√°s jelenleg sz√ºnetel.
 MEMO_CANCEL_NONE
-	Nincs visszavont memo ¸zenet.
+	Nincs visszavont memo √ºzenet.
 MEMO_CANCELLED
-	%s rÈszÈre k¸ldˆtt utolsÛ memo ¸zenet visszavonva.
+	%s r√©sz√©re k√ºld√∂tt utols√≥ memo √ºzenet visszavonva.
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
 	STAFF memo-text
 
-# LIST v·laszok
+# LIST v√°laszok
 MEMO_LIST_SYNTAX
 	LIST [#szoba] [list | NEW ]
 MEMO_HAVE_NO_NEW_MEMOS
-	Nem kapt·l ˙j ¸zenetet.
+	Nem kapt√°l √∫j √ºzenetet.
 MEMO_X_HAS_NO_NEW_MEMOS
-	%s nem kapott ˙j ¸zenetet.
+	%s nem kapott √∫j √ºzenetet.
 MEMO_LIST_MEMOS
-	%s ¸zenetei. Olvas·shoz Ìrd be: %R%s READ sz·m
+	%s √ºzenetei. Olvas√°shoz √≠rd be: %R%s READ sz√°m
 MEMO_LIST_NEW_MEMOS
-	⁄j ¸zenet %s rÈszÈre. Olvas·shoz: %R%s READ sz·m
+	√öj √ºzenet %s r√©sz√©re. Olvas√°shoz: %R%s READ sz√°m
 MEMO_LIST_CHAN_MEMOS
-	%s ¸zenetei.  Olvas·shoz : %R%s READ %s sz·m
+	%s √ºzenetei.  Olvas√°shoz : %R%s READ %s sz√°m
 MEMO_LIST_CHAN_NEW_MEMOS
-	%s ˙j ¸zenetei.  Olvas·shoz,: %R%s READ %s sz·m
+	%s √∫j √ºzenetei.  Olvas√°shoz,: %R%s READ %s sz√°m
 MEMO_LIST_HEADER
-	 Sorsz·m  K¸ldı            D·tum/Idı
+	 Sorsz√°m  K√ºld≈ë            D√°tum/Id≈ë
 MEMO_LIST_FORMAT
 	%c %3d  %-16s  %s
 
-# READ v·laszok
+# READ v√°laszok
 MEMO_READ_SYNTAX
 	READ [#szoba] {list | LAST | NEW }
 MEMO_HEADER
-	‹zenet sz·m: %d; feladÛ: %s (%s). TˆrlÈshez: %R%s DEL %d
+	√úzenet sz√°m: %d; felad√≥: %s (%s). T√∂rl√©shez: %R%s DEL %d
 MEMO_CHAN_HEADER
-	‹zenet sz·m: %d; feladÛ.: %s (%s). TˆrlÈshez: %R%s DEL %s %d
+	√úzenet sz√°m: %d; felad√≥.: %s (%s). T√∂rl√©shez: %R%s DEL %s %d
 MEMO_TEXT
 	%s
 
-# DEL v·laszok
+# DEL v√°laszok
 MEMO_DEL_SYNTAX
-	DEL [#szoba] { sz·m | list | ALL}
+	DEL [#szoba] { sz√°m | list | ALL}
 MEMO_DELETED_NONE
-	Nem tˆrˆltem egy ¸zenetet sem.
+	Nem t√∂r√∂ltem egy √ºzenetet sem.
 MEMO_DELETED_ONE
-	A megadott ¸zenetet (%d) tˆrˆltem.
+	A megadott √ºzenetet (%d) t√∂r√∂ltem.
 MEMO_DELETED_SEVERAL
-	A megadott ¸zeneteket %s tˆrˆltem.
+	A megadott √ºzeneteket %s t√∂r√∂ltem.
 MEMO_DELETED_ALL
-	Minden ¸zenetet tˆrˆltem.
+	Minden √ºzenetet t√∂r√∂ltem.
 MEMO_CHAN_DELETED_ALL
-	Minden ¸zenetet tˆrˆltem a %s csatorn·n.
+	Minden √ºzenetet t√∂r√∂ltem a %s csatorn√°n.
 
-# SET v·laszok
+# SET v√°laszok
 MEMO_SET_SYNTAX
-	SET opciÛ paramÈterek
+	SET opci√≥ param√©terek
 MEMO_SET_DISABLED
-	‹zenet opciÛinak be·llÌt·sa sz¸netel.
+	√úzenet opci√≥inak be√°ll√≠t√°sa sz√ºnetel.
 MEMO_SET_UNKNOWN_OPTION
-	Ismeretlen SET opciÛ: %s
+	Ismeretlen SET opci√≥: %s
 
-# SET NOTIFY v·laszok
+# SET NOTIFY v√°laszok
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-	%s ÈrtesÌteni fog az ¸zenetekrıl csatlakoz·skor.
+	%s √©rtes√≠teni fog az √ºzenetekr≈ël csatlakoz√°skor.
 MEMO_SET_NOTIFY_LOGON
-	%s ÈrtesÌt az ¸zenetekrıl csatlakoz·skor/AWAY OFF-kor.
+	%s √©rtes√≠t az √ºzenetekr≈ël csatlakoz√°skor/AWAY OFF-kor.
 MEMO_SET_NOTIFY_NEW
-	%s mostm·r ÈrtesÌteni fog, ha ˙j ¸zeneted Èrkezik.
+	%s mostm√°r √©rtes√≠teni fog, ha √∫j √ºzeneted √©rkezik.
 MEMO_SET_NOTIFY_OFF
-	%s mostm·r nem fog ÈrtestÌteni, ha ˙j ¸zeneted Èrkezik.
+	%s mostm√°r nem fog √©rtest√≠teni, ha √∫j √ºzeneted √©rkezik.
 MEMO_SET_NOTIFY_MAIL
-	Az ˙j memo ¸zeneteidrıl emailben kapsz ÈrtesÌtÈst.
+	Az √∫j memo √ºzeneteidr≈ël emailben kapsz √©rtes√≠t√©st.
 MEMO_SET_NOTIFY_NOMAIL
-	M·r nem kapsz ÈrtesÌtÈst emailben.
+	M√°r nem kapsz √©rtes√≠t√©st emailben.
 MEMO_SET_NOTIFY_INVALIDMAIL
-	Nincs be·llÌtva email cÌm a nevedhez.
+	Nincs be√°ll√≠tva email c√≠m a nevedhez.
 
 
-# SET LIMIT v·laszok
+# SET LIMIT v√°laszok
 MEMO_SET_LIMIT_SYNTAX
 	SET LIMIT [#szoba] limit
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
 	SET LIMIT [user | #szoba] {limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	Nem v·ltoztathatod meg a max. fogadhatÛ ¸zenetek sz·m·t.
+	Nem v√°ltoztathatod meg a max. fogadhat√≥ √ºzenetek sz√°m√°t.
 MEMO_SET_LIMIT_FORBIDDEN
-	Nem v·ltoztathatod meg %s ¸zeneteinek sz·m·t.
+	Nem v√°ltoztathatod meg %s √ºzeneteinek sz√°m√°t.
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	A max. bejˆvı ¸zenetek sz·ma nem lehet tˆbb, mint %d.
+	A max. bej√∂v≈ë √ºzenetek sz√°ma nem lehet t√∂bb, mint %d.
 MEMO_SET_LIMIT_TOO_HIGH
-	%s max. bejˆvı ¸zenetek sz·ma nem lehet tˆbb, mint %d.
+	%s max. bej√∂v≈ë √ºzenetek sz√°ma nem lehet t√∂bb, mint %d.
 MEMO_SET_LIMIT_OVERFLOW
-	T˙l nagy ÈrtÈk a max.bejˆv’ ¸zenetnek,%d az ˙j ÈrtÈke.
+	T√∫l nagy √©rt√©k a max.bej√∂v≈ê √ºzenetnek,%d az √∫j √©rt√©ke.
 MEMO_SET_YOUR_LIMIT
-	A max. bejˆvı ¸zenetek sz·manak ˙j ÈrtÈke: %d.
+	A max. bej√∂v≈ë √ºzenetek sz√°manak √∫j √©rt√©ke: %d.
 MEMO_SET_YOUR_LIMIT_ZERO
-	Ezent˙l nem tudsz ¸zeneteket fogadni.
+	Ezent√∫l nem tudsz √ºzeneteket fogadni.
 MEMO_UNSET_YOUR_LIMIT
-	Ezent˙l korl·tlan sz·m˙ ¸zenetet fogadhatsz.
+	Ezent√∫l korl√°tlan sz√°m√∫ √ºzenetet fogadhatsz.
 MEMO_SET_LIMIT
-	%s maxim·lisan fogadhatÛ ¸zeneteinek sz·ma: %d.
+	%s maxim√°lisan fogadhat√≥ √ºzeneteinek sz√°ma: %d.
 MEMO_SET_LIMIT_ZERO
-	%s ezent˙l nem fogadhat ¸zeneteket.
+	%s ezent√∫l nem fogadhat √ºzeneteket.
 MEMO_UNSET_LIMIT
-	%s ezent˙l korl·tlan sz·m˙ ¸zenetet fogadhat.
+	%s ezent√∫l korl√°tlan sz√°m√∫ √ºzenetet fogadhat.
 
 
-# INFO v·laszok
+# INFO v√°laszok
 MEMO_INFO_SYNTAX
 	INFO [#szoba]
 MEMO_INFO_SERVADMIN_SYNTAX
 	INFO [nick | #szoba]
 MEMO_INFO_NO_MEMOS
-	Jelenleg nincs ¸zeneted.
+	Jelenleg nincs √ºzeneted.
 MEMO_INFO_MEMO
-	Van 1 ¸zeneted.
+	Van 1 √ºzeneted.
 MEMO_INFO_MEMO_UNREAD
-	Van 1 olvasatlan ¸zeneted.
+	Van 1 olvasatlan √ºzeneted.
 MEMO_INFO_MEMOS
-	Van %d ¸zeneted.
+	Van %d √ºzeneted.
 MEMO_INFO_MEMOS_ONE_UNREAD
-	Van %d ¸zeneted, ebbıl 1 olvasatlan.
+	Van %d √ºzeneted, ebb≈ël 1 olvasatlan.
 MEMO_INFO_MEMOS_SOME_UNREAD
-	Van %d ¸zeneted, ebbıl %d olvasatlan.
+	Van %d √ºzeneted, ebb≈ël %d olvasatlan.
 MEMO_INFO_MEMOS_ALL_UNREAD
-	Van %d ¸zeneted; Ès mind olvasatlan.
+	Van %d √ºzeneted; √©s mind olvasatlan.
 MEMO_INFO_LIMIT
-	A maxim·lisan fogadhatÛ ¸zentek sz·ma:  %d.
+	A maxim√°lisan fogadhat√≥ √ºzentek sz√°ma:  %d.
 MEMO_INFO_HARD_LIMIT
-	A max. bejˆvı ¸zentek sz·ma: %d,ez fix ÈrtÈk.
+	A max. bej√∂v≈ë √ºzentek sz√°ma: %d,ez fix √©rt√©k.
 MEMO_INFO_LIMIT_ZERO
-	A max. bejˆvı ¸zentek sz·ma: 0; Ès tˆbb nem jˆhet.
+	A max. bej√∂v≈ë √ºzentek sz√°ma: 0; √©s t√∂bb nem j√∂het.
 MEMO_INFO_HARD_LIMIT_ZERO
-	A max. bejˆvı ¸zentek sz·ma: 0; Ès nem kˆhet tˆbb. 
-	Ez nem v·ltoztathatÛ meg.
+	A max. bej√∂v≈ë √ºzentek sz√°ma: 0; √©s nem k√∂het t√∂bb. 
+	Ez nem v√°ltoztathat√≥ meg.
 MEMO_INFO_NO_LIMIT
-	Korl·tlan sz·m˙ ¸zenetet fogadhatsz.
+	Korl√°tlan sz√°m√∫ √ºzenetet fogadhatsz.
 MEMO_INFO_NOTIFY_OFF
-	Nem kapsz ÈrtesÌtÈst az ˙j ¸zeneteidrıl.
+	Nem kapsz √©rtes√≠t√©st az √∫j √ºzeneteidr≈ël.
 MEMO_INFO_NOTIFY_ON
-	…rtesÌtÈst kapsz ˙j ¸zenetek ÈrkezÈsÈrıl csatlakoz·skor.
+	√ârtes√≠t√©st kapsz √∫j √ºzenetek √©rkez√©s√©r≈ël csatlakoz√°skor.
 MEMO_INFO_NOTIFY_RECEIVE
-	…rtesÌtÈst kapsz ˙j ¸zenetek ÈrkezÈsekor.
+	√ârtes√≠t√©st kapsz √∫j √ºzenetek √©rkez√©sekor.
 MEMO_INFO_NOTIFY_SIGNON
-	…rtesÌtÈst kapsz az ˙j ¸zeneteidrıl,ha fellÈpsz az IRC-re.
+	√ârtes√≠t√©st kapsz az √∫j √ºzeneteidr≈ël,ha fell√©psz az IRC-re.
 MEMO_INFO_X_NO_MEMOS
-	%s ¸zenetlist·ja ¸res.
+	%s √ºzenetlist√°ja √ºres.
 MEMO_INFO_X_MEMO
-	%s list·j·n van 1 ¸zenet.
+	%s list√°j√°n van 1 √ºzenet.
 MEMO_INFO_X_MEMO_UNREAD
-	%s list·j·n van 1 olvasatlan ¸zenet.
+	%s list√°j√°n van 1 olvasatlan √ºzenet.
 MEMO_INFO_X_MEMOS
-	%s sz·m·ra %d ¸zenet Èrkezett.
+	%s sz√°m√°ra %d √ºzenet √©rkezett.
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-	%s sz·m·ra %d ¸zenet Èrkezett, ebbıl 1 olvasatlan.
+	%s sz√°m√°ra %d √ºzenet √©rkezett, ebb≈ël 1 olvasatlan.
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-	%s sz·m·ra %d ¸zenet Èrkezett, ebbıl %d olvasatlan.
+	%s sz√°m√°ra %d √ºzenet √©rkezett, ebb≈ël %d olvasatlan.
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-	%s sz·m·ra %d ¸zenet Èrkezett, Ès mind olvasatlan.
+	%s sz√°m√°ra %d √ºzenet √©rkezett, √©s mind olvasatlan.
 MEMO_INFO_X_LIMIT
-	%s maxim·lisan fogadhatÛ ¸zeneteinek sz·ma: %d.
+	%s maxim√°lisan fogadhat√≥ √ºzeneteinek sz√°ma: %d.
 MEMO_INFO_X_HARD_LIMIT
-	%s max. fogadhatÛ ¸zenteinek sz·ma: %d, Ès ez fix ÈrtÈk.
+	%s max. fogadhat√≥ √ºzenteinek sz√°ma: %d, √©s ez fix √©rt√©k.
 MEMO_INFO_X_NO_LIMIT
-	%s korl·tlan sz·m˙ ¸zenetet fogadhat.
+	%s korl√°tlan sz√°m√∫ √ºzenetet fogadhat.
 MEMO_INFO_X_NOTIFY_OFF
-	%s nem kÈrt ÈrtesÌtÈst az ¸zeneteirıl.
+	%s nem k√©rt √©rtes√≠t√©st az √ºzeneteir≈ël.
 MEMO_INFO_X_NOTIFY_ON
-	%s ÈrtesÌtÈst kÈrt csatlakoz·skor,Ès ha ˙j ¸zenete van,
+	%s √©rtes√≠t√©st k√©rt csatlakoz√°skor,√©s ha √∫j √ºzenete van,
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s ÈrtesÌtÈst kÈrt, ha ˙j ¸zenete Èrkezik.
+	%s √©rtes√≠t√©st k√©rt, ha √∫j √ºzenete √©rkezik.
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s kÈrte, csatlakoz·skor ÈrtesÌtÈst kapjon,¸zeneteirıl.
+	%s k√©rte, csatlakoz√°skor √©rtes√≠t√©st kapjon,√ºzeneteir≈ël.
 
-# Memo2Mail v·laszok
+# Memo2Mail v√°laszok
 MEMO_MAIL_SUBJECT
-	⁄j memo
+	√öj memo
 MEMO_MAIL_TEXT1
 	Hi %s
 MEMO_MAIL_TEXT2
-	Kapt·l egy ˙j memo ¸zenetet %s nicktıl. Ez a memo a %d sorsz·m˙.
+	Kapt√°l egy √∫j memo √ºzenetet %s nickt≈ël. Ez a memo a %d sorsz√°m√∫.
 MEMO_MAIL_TEXT3
-	Memo Szˆveg:
+	Memo Sz√∂veg:
 
-# RSEND v·laszok
+# RSEND v√°laszok
 MEMO_RSEND_PLEASE_WAIT
-	KÈrlek v·rj %d m·sodpercet mielıtt ˙jra haszn·lod az RSEND parancsot.
+	K√©rlek v√°rj %d m√°sodpercet miel≈ëtt √∫jra haszn√°lod az RSEND parancsot.
 MEMO_RSEND_DISABLED
-	Sajn·lom, az RSEND haszn·lata le van tiltva ezen a h·lÛzaton.
+	Sajn√°lom, az RSEND haszn√°lata le van tiltva ezen a h√°l√≥zaton.
 MEMO_RSEND_SYNTAX
-	RSEND {nick | #szoba} memo-szˆveg
+	RSEND {nick | #szoba} memo-sz√∂veg
 MEMO_RSEND_NICK_MEMO_TEXT
-	[auto-memo] A memo, amit k¸ldtÈl meg lett tekintve.
+	[auto-memo] A memo, amit k√ºldt√©l meg lett tekintve.
 MEMO_RSEND_CHAN_MEMO_TEXT
-	[auto-memo] A memo, amit %s sz·m·ra k¸ldtÈl meg lett tekintve.
+	[auto-memo] A memo, amit %s sz√°m√°ra k√ºldt√©l meg lett tekintve.
 MEMO_RSEND_USER_NOTIFICATION
-	Az ÈrtesÌtı ¸zenet %s rÈszÈre el lett k¸ldve, inform·lva
-	ıt arrÛl, hogy elolvastad a memoj·t.
+	Az √©rtes√≠t≈ë √ºzenet %s r√©sz√©re el lett k√ºldve, inform√°lva
+	≈ët arr√≥l, hogy elolvastad a memoj√°t.
 
-# CHECK v·laszok
+# CHECK v√°laszok
 MEMO_CHECK_SYNTAX
-	CHECK nicknÈv 
+	CHECK nickn√©v 
 MEMO_CHECK_NOT_READ
-	Az utolsÛ memo, amit %s rÈszÈre (%s idıpontban) k¸ldtÈl mÈg olvasatlan.
+	Az utols√≥ memo, amit %s r√©sz√©re (%s id≈ëpontban) k√ºldt√©l m√©g olvasatlan.
 MEMO_CHECK_READ
-	Az utolsÛ memo, amit %s rÈszÈre (%s idıpontban) k¸ldtÈl m·r olvasott.
+	Az utols√≥ memo, amit %s r√©sz√©re (%s id≈ëpontban) k√ºldt√©l m√°r olvasott.
 MEMO_CHECK_NO_MEMO
-	%s nickre nem Èrkezett memo ¸zenet tıled.
+	%s nickre nem √©rkezett memo √ºzenet t≈ëled.
 
 	
 ###########################################################
 #
-# BotServ ¸zenetek
+# BotServ √ºzenetek
 #
 ###########################################################
 	
-# Standard v·laszok
+# Standard v√°laszok
 MEMO_NO_RSEND_SELF
 	You can not request a receipt when sending a memo to yourself.
 
@@ -2052,369 +2052,369 @@ MEMO_NO_RSEND_SELF
 	
 # Standard responses
 BOT_DOES_NOT_EXIST
-	%s nev˚ bot nem lÈtezik.
+	%s nev≈± bot nem l√©tezik.
 BOT_NOT_ASSIGNED
-	T·rsÌtanod kellene egy botot a csatorn·ra mielıtt haszn·lod
-	ezt a parancsot, Ìrd be %R%S HELP ASSIGN bıvebb infÛkÈrt.
+	T√°rs√≠tanod kellene egy botot a csatorn√°ra miel≈ëtt haszn√°lod
+	ezt a parancsot, √≠rd be %R%S HELP ASSIGN b≈ëvebb inf√≥k√©rt.
 BOT_NOT_ON_CHANNEL
-	A Bot nincs a %s csatorn·n.
+	A Bot nincs a %s csatorn√°n.
 
-# Kick v·laszok (kell egy sor)
+# Kick v√°laszok (kell egy sor)
 BOT_REASON_BADWORD
-	Nem haszn·lhatÛ ez a szÛ: %s!
+	Nem haszn√°lhat√≥ ez a sz√≥: %s!
 BOT_REASON_BADWORD_GENTLE
-	Figyelj a stÌlusra kiskom·m!
+	Figyelj a st√≠lusra kiskom√°m!
 BOT_REASON_BOLD
-	Nem haszn·lhatÛ kiemelt bet˚ ezen a csatorn·n!
+	Nem haszn√°lhat√≥ kiemelt bet≈± ezen a csatorn√°n!
 BOT_REASON_CAPS
 	Kapcsold ki a caps lockod!
 BOT_REASON_COLOR
-	Nem szinezhetsz ezen a csatorn·n!
+	Nem szinezhetsz ezen a csatorn√°n!
 BOT_REASON_FLOOD
 	Ne floodolj!
 BOT_REASON_REPEAT
-	Ne ismÈteld magad!
+	Ne ism√©teld magad!
 BOT_REASON_REVERSE
-	Nem Ìrj visszafelÈ ezen a csatorn·n!
+	Nem √≠rj visszafel√© ezen a csatorn√°n!
 BOT_REASON_UNDERLINE
-	Nem haszn·lj al·h˙z·sokat ezen a csatorn·n!
+	Nem haszn√°lj al√°h√∫z√°sokat ezen a csatorn√°n!
 
-# !seen v·laszok
+# !seen v√°laszok
 BOT_SEEN_BOT
-	Megtal·lt·l, %s!
+	Megtal√°lt√°l, %s!
 BOT_SEEN_YOU
-	Magadat kÈrdezed le %s, eh?
+	Magadat k√©rdezed le %s, eh?
 BOT_SEEN_ON_CHANNEL
-	%s a szob·ban van!
+	%s a szob√°ban van!
 BOT_SEEN_ON_CHANNEL_AS
-	%s a szob·ban van (%s nÈven) ! 
+	%s a szob√°ban van (%s n√©ven) ! 
 BOT_SEEN_ON
-	%s utolj·ra %s ideje j·rt erre.
+	%s utolj√°ra %s ideje j√°rt erre.
 BOT_SEEN_NEVER
-	Sosem l·ttam %s nicket ebben a szob·ban.
+	Sosem l√°ttam %s nicket ebben a szob√°ban.
 BOT_SEEN_UNKNOWN
-	…n nem tudom, hogy %s kicsoda.:-(((
+	√ân nem tudom, hogy %s kicsoda.:-(((
 
-# BOT v·laszok
+# BOT v√°laszok
 BOT_BOT_SYNTAX
-	BOT ADD nick user hoszt valÛsnÈv
-	BOT CHANGE rÈginick˙jnick [user [hoszt [valÛsnÈv]]]
+	BOT ADD nick user hoszt val√≥sn√©v
+	BOT CHANGE r√©ginick√∫jnick [user [hoszt [val√≥sn√©v]]]
 	BOT DEL nick
 BOT_BOT_ALREADY_EXISTS
-	%s nev˚ bot m·r lÈtezik.
+	%s nev≈± bot m√°r l√©tezik.
 BOT_BOT_CREATION_FAILED
-	A bot lÈtrehoz·sa sikertelen.
+	A bot l√©trehoz√°sa sikertelen.
 BOT_BOT_READONLY
-	A bot mÛdosÌt·s ideiglenesen sz¸netel.
+	A bot m√≥dos√≠t√°s ideiglenesen sz√ºnetel.
 BOT_BOT_ADDED
-	%s!%s@%s (%s) hozz·adva a bot list·hoz.
+	%s!%s@%s (%s) hozz√°adva a bot list√°hoz.
 BOT_BOT_ANY_CHANGES
-	A rÈgi info megegyezik az ˙jjal.
+	A r√©gi info megegyezik az √∫jjal.
 BOT_BOT_CHANGED
-	A %s nev˚ bot megv·ltoztatva %s!%s@%s (%s)
+	A %s nev≈± bot megv√°ltoztatva %s!%s@%s (%s)
 BOT_BOT_DELETED
-	A %s nev˚ bot tˆrˆlve.
+	A %s nev≈± bot t√∂r√∂lve.
 
-# BOTLIST v·laszok
+# BOTLIST v√°laszok
 BOT_BOTLIST_HEADER
-	Botok list·ja:
+	Botok list√°ja:
 BOT_BOTLIST_PRIVATE_HEADER
-	Botok melyeket csak IRC oper·torok t·rsÌthatnak:
+	Botok melyeket csak IRC oper√°torok t√°rs√≠thatnak:
 BOT_BOTLIST_FOOTER
-	%d botok rendelkezÈsre ·llnak.
+	%d botok rendelkez√©sre √°llnak.
 BOT_BOTLIST_EMPTY
-	Nem ·ll rendelkezÈsre bot.
-	KÈrj meg egy szervÌz admint, hogy csin·ljon!
+	Nem √°ll rendelkez√©sre bot.
+	K√©rj meg egy szerv√≠z admint, hogy csin√°ljon!
 
-# ASSIGN v·laszok
+# ASSIGN v√°laszok
 BOT_ASSIGN_SYNTAX
 	ASSIGN #szoba nick
 BOT_ASSIGN_READONLY
-	Bot t·rsÌt·s ideiglenesen nem m˚kˆdik.
+	Bot t√°rs√≠t√°s ideiglenesen nem m≈±k√∂dik.
 BOT_ASSIGN_ALREADY
-	A %s nev˚ bot m·r t·rsÌtva van a %s szob·hoz.
+	A %s nev≈± bot m√°r t√°rs√≠tva van a %s szob√°hoz.
 BOT_ASSIGN_ASSIGNED
-	A %s nev˚ bot t·rsÌtva a %s szob·hoz.
+	A %s nev≈± bot t√°rs√≠tva a %s szob√°hoz.
 	
-# UNASSIGN v·laszok
+# UNASSIGN v√°laszok
 BOT_UNASSIGN_SYNTAX
 	UNASSIGN #szoba
 BOT_UNASSIGN_UNASSIGNED
-	Nincsen bot kijelˆlve %s szob·ban tˆbbet.
+	Nincsen bot kijel√∂lve %s szob√°ban t√∂bbet.
 
-# INFO v·laszok
+# INFO v√°laszok
 BOT_INFO_SYNTAX
 	INFO {#szoba | nick}
 BOT_INFO_NOT_FOUND
-	%s nem ÈrvÈnyes bot vagy regisztr·lt szoba.
+	%s nem √©rv√©nyes bot vagy regisztr√°lt szoba.
 BOT_INFO_BOT_HEADER
-	Inform·ciÛk a %s nev˚ botrÛl:
+	Inform√°ci√≥k a %s nev≈± botr√≥l:
 BOT_INFO_BOT_MASK
 	Maszk : %s@%s
 BOT_INFO_BOT_REALNAME
-	ValÛdi neve: %s
+	Val√≥di neve: %s
 BOT_INFO_BOT_CREATED
-	Sz¸letett: %s
+	Sz√ºletett: %s
 BOT_INFO_BOT_USAGE
-	Haszn·lva: %d szob·ban
+	Haszn√°lva: %d szob√°ban
 BOT_INFO_BOT_OPTIONS
-	Be·llÌt·sai: %s
+	Be√°ll√≠t√°sai: %s
 BOT_INFO_OPT_PRIVATE
-	Priv·t
+	Priv√°t
 BOT_INFO_CHAN_HEADER
-	Inform·ciÛ a %s szob·rÛl:
+	Inform√°ci√≥ a %s szob√°r√≥l:
 BOT_INFO_CHAN_BOT
-	Bot nÈv: %s
+	Bot n√©v: %s
 BOT_INFO_CHAN_BOT_NONE
-	Bot nÈv: nincs t·rsÌtva mÈg.
+	Bot n√©v: nincs t√°rs√≠tva m√©g.
 BOT_INFO_CHAN_KICK_BADWORDS
-		Cs˙nya szavakÈrt kir˙g·s: %s
+		Cs√∫nya szavak√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_BADWORDS_BAN
-		Cs˙nya szavakÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s)
+		Cs√∫nya szavak√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s)
 BOT_INFO_CHAN_KICK_BOLDS
-		FÈlkˆvÈr bet˚kÈrt kir˙g·s: %s
+		F√©lk√∂v√©r bet≈±k√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_BOLDS_BAN
-		FÈlkˆvÈr bet˚kÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s)
+		F√©lk√∂v√©r bet≈±k√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s)
 BOT_INFO_CHAN_KICK_CAPS_ON
-		Caps LockÈrt kir˙g·s: %s (minimum %d/%d%%)
+		Caps Lock√©rt kir√∫g√°s: %s (minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_BAN
-		Caps LockÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s; min. %d/%d%%)
+		Caps Lock√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s; min. %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_OFF
-		Caps LockÈrt kir˙g·s : %s
+		Caps Lock√©rt kir√∫g√°s : %s
 BOT_INFO_CHAN_KICK_COLORS
-		SzinezÈsÈrt kir˙g·s: %s
+		Szinez√©s√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_COLORS_BAN
-		SzinezÈsÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s)
+		Szinez√©s√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s)
 BOT_INFO_CHAN_KICK_FLOOD_ON
-		FloodÈrt kir˙g·s: %s (%d sor %ds mp alatt)
+		Flood√©rt kir√∫g√°s: %s (%d sor %ds mp alatt)
 BOT_INFO_CHAN_KICK_FLOOD_BAN
-		FloodÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s; %d sor %ds mp alatt)
+		Flood√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s; %d sor %ds mp alatt)
 BOT_INFO_CHAN_KICK_FLOOD_OFF
-		FloodÈrt kir˙g·s: %s
+		Flood√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_REPEAT_ON
-		IsmÈtlÈsÈrt kir˙g·s : %s (%d alkalommal)
+		Ism√©tl√©s√©rt kir√∫g√°s : %s (%d alkalommal)
 BOT_INFO_CHAN_KICK_REPEAT_BAN
-		IsmÈtlÈsÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s; %d idıre)
+		Ism√©tl√©s√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s; %d id≈ëre)
 BOT_INFO_CHAN_KICK_REPEAT_OFF
-		IsmÈtlÈsÈrt kir˙g·s: %s
+		Ism√©tl√©s√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_REVERSES
-		VisszafelÈ Ìr·sÈrt kir˙g·s: %s
+		Visszafel√© √≠r√°s√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_REVERSES_BAN
-		VisszafelÈ Ìr·sÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s)
+		Visszafel√© √≠r√°s√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s)
 BOT_INFO_CHAN_KICK_UNDERLINES
-		Al·h˙z·sÈrt kir˙g·s: %s
+		Al√°h√∫z√°s√©rt kir√∫g√°s: %s
 BOT_INFO_CHAN_KICK_UNDERLINES_BAN
-		Al·h˙z·sÈrt kir˙g·s: %s (%d kir˙g·s ut·n kitilt·s)
+		Al√°h√∫z√°s√©rt kir√∫g√°s: %s (%d kir√∫g√°s ut√°n kitilt√°s)
 BOT_INFO_ACTIVE
-	engedÈlyezve
+	enged√©lyezve
 BOT_INFO_INACTIVE
 	letiltva
 BOT_INFO_CHAN_OPTIONS
-		Be·llÌt·sok: %s
+		Be√°ll√≠t√°sok: %s
 BOT_INFO_OPT_DONTKICKOPS
-	Opok vÈdelme
+	Opok v√©delme
 BOT_INFO_OPT_DONTKICKVOICES
-	Voices vÈdelme
+	Voices v√©delme
 BOT_INFO_OPT_FANTASY
 	Fantasy
 BOT_INFO_OPT_GREET
-	‹dvˆzlÈs
+	√údv√∂zl√©s
 BOT_INFO_OPT_NOBOT
 	Nincs bot
 BOT_INFO_OPT_SYMBIOSIS
-	Egy¸ttÈlÈs
+	Egy√ºtt√©l√©s
 BOT_INFO_OPT_NONE
 	Nincsen
 
-# SET v·laszok
+# SET v√°laszok
 BOT_SET_SYNTAX
-	SET #szoba opciÛ be·llÌt·sok
+	SET #szoba opci√≥ be√°ll√≠t√°sok
 BOT_SET_DISABLED
-	Bot be·llÌt·s idılegesen sz¸netel.
+	Bot be√°ll√≠t√°s id≈ëlegesen sz√ºnetel.
 BOT_SET_UNKNOWN
-	Ismeretlen opciÛ: %s.
-	Haszn·ld %R%S HELP SET inform·ciÛÈrt.
+	Ismeretlen opci√≥: %s.
+	Haszn√°ld %R%S HELP SET inform√°ci√≥√©rt.
 
-# SET DONTKICKOPS ¸zenetek
+# SET DONTKICKOPS √ºzenetek
 BOT_SET_DONTKICKOPS_SYNTAX
 	SET #szoba DONTKICKOPS {ON|OFF}
 BOT_SET_DONTKICKOPS_ON
-	A Bot nem fog opot kir˙gni a %s szob·bÛl.
+	A Bot nem fog opot kir√∫gni a %s szob√°b√≥l.
 BOT_SET_DONTKICKOPS_OFF
-	A Bot most m·r opot is kir˙g a %s szob·bÛl.
+	A Bot most m√°r opot is kir√∫g a %s szob√°b√≥l.
 
-# SET DONTKICKVOICES ¸zenetek
+# SET DONTKICKVOICES √ºzenetek
 BOT_SET_DONTKICKVOICES_SYNTAX
 	SET #szoba DONTKICKVOICES {ON|OFF}
 BOT_SET_DONTKICKVOICES_ON
-	A Bot nem fogja a hangadÛkat kir˙gni a %s szob·ban.
+	A Bot nem fogja a hangad√≥kat kir√∫gni a %s szob√°ban.
 BOT_SET_DONTKICKVOICES_OFF
-	A Bot most m·r a hangadÛkat is kir˙gja a %s szob·ban.
+	A Bot most m√°r a hangad√≥kat is kir√∫gja a %s szob√°ban.
 
-# SET FANTASY ¸zenetek
+# SET FANTASY √ºzenetek
 BOT_SET_FANTASY_SYNTAX
 	SET #szoba FANTASY {ON|OFF}
 BOT_SET_FANTASY_ON
-	Fantasy mÛd most ON a %s csatorn·n.
+	Fantasy m√≥d most ON a %s csatorn√°n.
 BOT_SET_FANTASY_OFF
-	Fantasy mÛd most OFF a %s csatorn·n.
+	Fantasy m√≥d most OFF a %s csatorn√°n.
 
-# SET GREET ¸zenetek
+# SET GREET √ºzenetek
 BOT_SET_GREET_SYNTAX
 	SET szoba GREET {ON|OFF}
 BOT_SET_GREET_ON
-	‹dvˆzlı mÛd most ON a %s szob·n.
+	√údv√∂zl≈ë m√≥d most ON a %s szob√°n.
 BOT_SET_GREET_OFF
-	‹dvˆzlı mÛd most OFF a %s szob·n.
+	√údv√∂zl≈ë m√≥d most OFF a %s szob√°n.
 
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
 	SET botname NOBOT {ON|OFF}
 BOT_SET_NOBOT_ON
-	Nincs Bot mÛd most ONa %s szob·n.
+	Nincs Bot m√≥d most ONa %s szob√°n.
 BOT_SET_NOBOT_OFF
-	Nincs Bot mÛd most OFFa %s szob·n.
+	Nincs Bot m√≥d most OFFa %s szob√°n.
 
 # SET PRIVATE
 BOT_SET_PRIVATE_SYNTAX
-	SET botnÈv PRIVATE {ON|OFF}
+	SET botn√©v PRIVATE {ON|OFF}
 BOT_SET_PRIVATE_ON
-	Private mÛd a %s botban most ON.
+	Private m√≥d a %s botban most ON.
 BOT_SET_PRIVATE_OFF
-	Private mÛd a %s botban most OFF.
+	Private m√≥d a %s botban most OFF.
 
 # SET SYMBIOSIS
 BOT_SET_SYMBIOSIS_SYNTAX
 	SET szoba SYMBIOSIS {ON|OFF}
 BOT_SET_SYMBIOSIS_ON
-	Egy¸ttÈlÈs mÛd most ONa %s szob·n.
+	Egy√ºtt√©l√©s m√≥d most ONa %s szob√°n.
 BOT_SET_SYMBIOSIS_OFF
-	Egy¸ttÈlÈs mÛd most OFFa %s szob·n.
+	Egy√ºtt√©l√©s m√≥d most OFFa %s szob√°n.
 
-# KICK v·laszok
+# KICK v√°laszok
 BOT_KICK_SYNTAX
-	KICK #szoba opciÛ {ON|OFF} [be·llÌt·sok]
+	KICK #szoba opci√≥ {ON|OFF} [be√°ll√≠t√°sok]
 BOT_KICK_DISABLED
-	Kir˙g·s haszn·lata ideiglenesen letiltva.
+	Kir√∫g√°s haszn√°lata ideiglenesen letiltva.
 BOT_KICK_UNKNOWN
-	Ismeretlen opciÛ: %s.
-	Tov·bbi inform·ciÛÈrt Ìrd be: %R%S HELP KICK 
+	Ismeretlen opci√≥: %s.
+	Tov√°bbi inform√°ci√≥√©rt √≠rd be: %R%S HELP KICK 
 BOT_KICK_BAD_TTB
-	%s nem fogadhatÛ el banol·si idınek.
+	%s nem fogadhat√≥ el banol√°si id≈ënek.
 
 BOT_KICK_BADWORDS_ON
-	Bot kir˙gja tiltott szÛ haszn·lat·Èrt. Haszn·ld a BADWORDS
-	parancsot hogy hozz·adj vagy tˆrˆlj tiltott szavakat a list·bÛl.
+	Bot kir√∫gja tiltott sz√≥ haszn√°lat√°√©rt. Haszn√°ld a BADWORDS
+	parancsot hogy hozz√°adj vagy t√∂r√∂lj tiltott szavakat a list√°b√≥l.
 BOT_KICK_BADWORDS_ON_BAN
-	Bot kir˙gja tiltott szÛ haszn·lat·Èrt, Ès kitiltja 
-	%d kir˙g·s ut·n a usert. Haszn·ld a BADWORDS parancsot
-	hogy hozz·adj vagy tˆrˆlj tiltott szavakat a list·bÛl.
+	Bot kir√∫gja tiltott sz√≥ haszn√°lat√°√©rt, √©s kitiltja 
+	%d kir√∫g√°s ut√°n a usert. Haszn√°ld a BADWORDS parancsot
+	hogy hozz√°adj vagy t√∂r√∂lj tiltott szavakat a list√°b√≥l.
 BOT_KICK_BADWORDS_OFF
-	A Bot most m·r nem fog kir˙gni tiltott szÛ miatt.
+	A Bot most m√°r nem fog kir√∫gni tiltott sz√≥ miatt.
 BOT_KICK_BOLDS_ON
-	A Bot kir˙gja fÈlkˆvÈr bet˚ haszn·lat miatt a usert.
+	A Bot kir√∫gja f√©lk√∂v√©r bet≈± haszn√°lat miatt a usert.
 BOT_KICK_BOLDS_ON_BAN
-	A Bot kir˙gja fÈlkˆvÈr bet˚ haszn·lat miatt, Ès 
-	kitiltja %d kir˙g·s ut·n a usert.
+	A Bot kir√∫gja f√©lk√∂v√©r bet≈± haszn√°lat miatt, √©s 
+	kitiltja %d kir√∫g√°s ut√°n a usert.
 BOT_KICK_BOLDS_OFF
-	A Bot nem fog kir˙gni fÈlkˆvÈr bet˚ haszn·lat miatt.
+	A Bot nem fog kir√∫gni f√©lk√∂v√©r bet≈± haszn√°lat miatt.
 BOT_KICK_CAPS_ON
-	Bot most m·r kir˙gja caps lock miatt a usert (legal·bb
-	%d karakter Ès ennek %d%%-a nagybet˚).
+	Bot most m√°r kir√∫gja caps lock miatt a usert (legal√°bb
+	%d karakter √©s ennek %d%%-a nagybet≈±).
 BOT_KICK_CAPS_ON_BAN
-	Bot most m·r kir˙gja caps lock miatt, (legal·bb
-	%d karakter Ès ennek %d%%-a nagybet˚), kitiltja 
-	%d kir˙g·s ut·n a usert.
+	Bot most m√°r kir√∫gja caps lock miatt, (legal√°bb
+	%d karakter √©s ennek %d%%-a nagybet≈±), kitiltja 
+	%d kir√∫g√°s ut√°n a usert.
 BOT_KICK_CAPS_OFF
-	Bot nem fog kir˙gni caps lock miatt.
+	Bot nem fog kir√∫gni caps lock miatt.
 BOT_KICK_COLORS_ON
-	A Bot kir˙gja szines Ìr·s miatt a usert.
+	A Bot kir√∫gja szines √≠r√°s miatt a usert.
 BOT_KICK_COLORS_ON_BAN
-	A Bot kir˙gja szines Ìr·s miatt, Ès kitiltja 
-	%d kir˙g·s ut·n a usert.
+	A Bot kir√∫gja szines √≠r√°s miatt, √©s kitiltja 
+	%d kir√∫g√°s ut√°n a usert.
 BOT_KICK_COLORS_OFF
-	Bot nem fog kir˙gni szines Ìr·s miatt.
+	Bot nem fog kir√∫gni szines √≠r√°s miatt.
 BOT_KICK_FLOOD_ON
-	Bot kir˙gja flood miatt a usert. (%d sor %d mp alatt)
+	Bot kir√∫gja flood miatt a usert. (%d sor %d mp alatt)
 BOT_KICK_FLOOD_ON_BAN
-	A Bot kir˙gja flood miatt (%d sor %d mp alatt),
-	Ès kitiltja %d kir˙g·s ut·n a usert.
+	A Bot kir√∫gja flood miatt (%d sor %d mp alatt),
+	√©s kitiltja %d kir√∫g√°s ut√°n a usert.
 BOT_KICK_FLOOD_OFF
-	A Bot nem fog kir˙gni flood miatt.
+	A Bot nem fog kir√∫gni flood miatt.
 BOT_KICK_REPEAT_ON
-	A Bot kir˙gja ismÈtlÈs miatt a usert (ha %d alkalommal
-	ismÈtli ugyanazt a sort).
+	A Bot kir√∫gja ism√©tl√©s miatt a usert (ha %d alkalommal
+	ism√©tli ugyanazt a sort).
 BOT_KICK_REPEAT_ON_BAN
-	A Bot kir˙gja ismÈtlÈs miatt (ha %d alkalommal ismÈtli
-	ugyanazt a sort), Ès kitiltja %d kir˙g·s ut·n a usert.
+	A Bot kir√∫gja ism√©tl√©s miatt (ha %d alkalommal ism√©tli
+	ugyanazt a sort), √©s kitiltja %d kir√∫g√°s ut√°n a usert.
 BOT_KICK_REPEAT_OFF
-	A Bot nem fog kir˙gni ismÈtlÈs miatt.
+	A Bot nem fog kir√∫gni ism√©tl√©s miatt.
 BOT_KICK_REVERSES_ON
-	A Bot kir˙g fordÌtott Ìr·s miatt.
+	A Bot kir√∫g ford√≠tott √≠r√°s miatt.
 BOT_KICK_REVERSES_ON_BAN
-	A Bot kir˙gja fordÌtott Ìr·s miatt, Ès kitiltja %d
-	kir˙g·s ut·n a usert.
+	A Bot kir√∫gja ford√≠tott √≠r√°s miatt, √©s kitiltja %d
+	kir√∫g√°s ut√°n a usert.
 BOT_KICK_REVERSES_OFF
-	A Bot nem fog r˙gni fordÌtott Ìr·s miatt.
+	A Bot nem fog r√∫gni ford√≠tott √≠r√°s miatt.
 BOT_KICK_UNDERLINES_ON
-	A Bot kir˙gja al·h˙z·sos Ìr·s miatt a usert.
+	A Bot kir√∫gja al√°h√∫z√°sos √≠r√°s miatt a usert.
 BOT_KICK_UNDERLINES_ON_BAN
-	A Bot kir˙gja al·h˙z·sos Ìr·s miatt, Ès kitiltja
-	%d kir˙g·s ut·n a usert.
+	A Bot kir√∫gja al√°h√∫z√°sos √≠r√°s miatt, √©s kitiltja
+	%d kir√∫g√°s ut√°n a usert.
 BOT_KICK_UNDERLINES_OFF
-	Bot nem fog kir˙gni al·h˙z·sos Ìr·s miatt.
+	Bot nem fog kir√∫gni al√°h√∫z√°sos √≠r√°s miatt.
 
-# BADWORDS ¸zenetek
+# BADWORDS √ºzenetek
 BOT_BADWORDS_SYNTAX
-	BADWORDS #szoba{ADD|DEL|LIST|CLEAR}[szÛ|sorsz·m]
+	BADWORDS #szoba{ADD|DEL|LIST|CLEAR}[sz√≥|sorsz√°m]
 	[SINGLE|START|END]
 BOT_BADWORDS_DISABLED
-	Csatorn·n tiltott szaval list·j·nak v·ltoztat·sa letiltva.
+	Csatorn√°n tiltott szaval list√°j√°nak v√°ltoztat√°sa letiltva.
 BOT_BADWORDS_REACHED_LIMIT
-	Csak %d tiltott szÛ lehet a csatorn·n.
+	Csak %d tiltott sz√≥ lehet a csatorn√°n.
 BOT_BADWORDS_ALREADY_EXISTS
-	A %s szÛt m·r tartalmazza a %s tiltott szavak list·ja
+	A %s sz√≥t m√°r tartalmazza a %s tiltott szavak list√°ja
 BOT_BADWORDS_ADDED
-	A %s szÛ hozz·adva a %s tiltott szavak list·j·hoz.
+	A %s sz√≥ hozz√°adva a %s tiltott szavak list√°j√°hoz.
 BOT_BADWORDS_NO_SUCH_ENTRY
-	Nincs (#%d) ilyen szÛ a %s tiltott szavak list·j·n.
+	Nincs (#%d) ilyen sz√≥ a %s tiltott szavak list√°j√°n.
 BOT_BADWORDS_NOT_FOUND
-	A %s szÛ nem tal·lhatÛ a %s tiltott szavak list·j·n.
+	A %s sz√≥ nem tal√°lhat√≥ a %s tiltott szavak list√°j√°n.
 BOT_BADWORDS_NO_MATCH
-	Nincs ilyen szÛ %s a tiltott szavak list·j·n.
+	Nincs ilyen sz√≥ %s a tiltott szavak list√°j√°n.
 BOT_BADWORDS_DELETED
-	A %s szÛ tˆrˆlve %s tiltott szavak list·j·bÛl.
+	A %s sz√≥ t√∂r√∂lve %s tiltott szavak list√°j√°b√≥l.
 BOT_BADWORDS_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs %s tiltott szavak list·j·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s %s tiltott szavak list√°j√°r√≥l.
 BOT_BADWORDS_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs %s tiltott szavak list·j·rÛl.
+	T√∂r√∂lve %d bejegyz√©s %s tiltott szavak list√°j√°r√≥l.
 BOT_BADWORDS_LIST_EMPTY
-	%s tiltott szavak list·ja ¸res.
+	%s tiltott szavak list√°ja √ºres.
 BOT_BADWORDS_LIST_HEADER
-	%s tiltott szavak list·ja:
-	  Sz·m   szÛ                           tipus
+	%s tiltott szavak list√°ja:
+	  Sz√°m   sz√≥                           tipus
 BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 BOT_BADWORDS_CLEAR
-	Tiltott szÛ lista ¸res.
+	Tiltott sz√≥ lista √ºres.
 
-# SAY v·laszok
+# SAY v√°laszok
 BOT_SAY_SYNTAX
-	SAY #szoba szˆveg
+	SAY #szoba sz√∂veg
 
-# ACT v·laszok
+# ACT v√°laszok
 BOT_ACT_SYNTAX
-	ACT #szoba szˆveg
+	ACT #szoba sz√∂veg
 
-# Hib·k
+# Hib√°k
 BOT_EXCEPT
-	Fehaszn·lÛ t·rsÌt·sa szob·val kivÈtel.
+	Fehaszn√°l√≥ t√°rs√≠t√°sa szob√°val kiv√©tel.
 BOT_BAD_NICK
-	Bot Nick csak ÈrvÈnyes karaktereket tartalmazhat.
+	Bot Nick csak √©rv√©nyes karaktereket tartalmazhat.
 BOT_BAD_HOST
-	Bot Hoszt csak ÈrvÈnyes karaktereket tartalmazhat.
+	Bot Hoszt csak √©rv√©nyes karaktereket tartalmazhat.
 BOT_BAD_IDENT
-	Bot Ident csak ÈrvÈnyes karaktereket tartalmazhat.
+	Bot Ident csak √©rv√©nyes karaktereket tartalmazhat.
 BOT_LONG_IDENT
 	Bot Idents may only contain %d characters.
 BOT_LONG_HOST
@@ -2422,151 +2422,151 @@ BOT_LONG_HOST
 
 ###########################################################
 #
-# OperServ ¸zenetek
+# OperServ √ºzenetek
 #
 ###########################################################
 	
-# ¡ltal·nos ¸zenetek
+# √Åltal√°nos √ºzenetek
 OPER_BOUNCY_MODES
-	SzervÌz nem tudja v·ltoztatni a mÛdokat.
-	A szervereid jÛl vannak be·llÌtva?
+	Szerv√≠z nem tudja v√°ltoztatni a m√≥dokat.
+	A szervereid j√≥l vannak be√°ll√≠tva?
 OPER_BOUNCY_MODES_U_LINE
-	SzervÌz nem tudja v·ltoztatni a mÛdokat.
-	A szerverek U:lines be·llit·sa helyes?
+	Szerv√≠z nem tudja v√°ltoztatni a m√≥dokat.
+	A szerverek U:lines be√°llit√°sa helyes?
 
-# GLOBAL v·laszok
+# GLOBAL v√°laszok
 OPER_GLOBAL_SYNTAX
-	GLOBAL ¸zenet
+	GLOBAL √ºzenet
 
-# STATS v·laszok
+# STATS v√°laszok
 OPER_STATS_UNKNOWN_OPTION
-	Ismeretlen STATS opciÛ: %s.
+	Ismeretlen STATS opci√≥: %s.
 OPER_STATS_CURRENT_USERS
-	Aktu·lis felhaszn·lÛk: %d (%d op)
+	Aktu√°lis felhaszn√°l√≥k: %d (%d op)
 OPER_STATS_MAX_USERS
-	Legtˆbb felhaszn·lÛ: %d (%s)
+	Legt√∂bb felhaszn√°l√≥: %d (%s)
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
 # or more, but just add a %d to get seconds as well.
 OPER_STATS_UPTIME_DHMS
-	SzervÌz fent van %d nap, %02d:%02d
+	Szerv√≠z fent van %d nap, %02d:%02d
 OPER_STATS_UPTIME_1DHMS
-	SzervÌz fent van %d nap, %02d:%02d
+	Szerv√≠z fent van %d nap, %02d:%02d
 OPER_STATS_UPTIME_HMS
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_HM1S
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_H1MS
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_H1M1S
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_1HMS
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_1HM1S
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_1H1MS
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_1H1M1S
-	SzervÌz fent van %d Ûra, %d perce
+	Szerv√≠z fent van %d √≥ra, %d perce
 OPER_STATS_UPTIME_MS
-	SzervÌz fent van %d perc, %d m·sodperce.
+	Szerv√≠z fent van %d perc, %d m√°sodperce.
 OPER_STATS_UPTIME_M1S
-	SzervÌz fent van %d perc, %d m·sodperce.
+	Szerv√≠z fent van %d perc, %d m√°sodperce.
 OPER_STATS_UPTIME_1MS
-	SzervÌz fent van %d perc, %d m·sodperce.
+	Szerv√≠z fent van %d perc, %d m√°sodperce.
 OPER_STATS_UPTIME_1M1S
-	SzervÌz fent van %d perc, %d m·sodperce.
+	Szerv√≠z fent van %d perc, %d m√°sodperce.
 OPER_STATS_BYTES_READ
 	Olvasott Byteok : %5d kB
 OPER_STATS_BYTES_WRITTEN
-	Õrott Byteok : %5d kB
+	√çrott Byteok : %5d kB
 OPER_STATS_USER_MEM
-	Felhaszn·lÛ	 : %6d bejegyzÈs, %5d kB
+	Felhaszn√°l√≥	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_CHANNEL_MEM
-	Szoba	       : %6d bejegyzÈs, %5d kB
+	Szoba	       : %6d bejegyz√©s, %5d kB
 OPER_STATS_GROUPS_MEM
-	NS Csoport	 : %6d bejegyzÈs, %5d kB
+	NS Csoport	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_ALIASES_MEM
-	NS Aliases	 : %6d bejegyzÈs, %5d kB
+	NS Aliases	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_CHANSERV_MEM
-	ChanServ	 : %6d bejegyzÈs, %5d kB
+	ChanServ	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_BOTSERV_MEM
-	BotServ	 : %6d bejegyzÈs, %5d kB
+	BotServ	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_HOSTSERV_MEM
 	HostServ      : %6d records, %5d kB
 OPER_STATS_OPERSERV_MEM
-	OperServ	 : %6d bejegyzÈs, %5d kB
+	OperServ	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_SESSIONS_MEM
-	Session	 : %6d bejegyzÈs, %5d kB
+	Session	 : %6d bejegyz√©s, %5d kB
 OPER_STATS_AKILL_COUNT
-	Aktu·lis AKILLek sz·ma: %d
+	Aktu√°lis AKILLek sz√°ma: %d
 OPER_STATS_AKILL_EXPIRE_DAYS
-	Alap AKILL lej·rati idı: %d nap
+	Alap AKILL lej√°rati id≈ë: %d nap
 OPER_STATS_AKILL_EXPIRE_DAY
-	Alap AKILL lej·rati idı: 1 nap
+	Alap AKILL lej√°rati id≈ë: 1 nap
 OPER_STATS_AKILL_EXPIRE_HOURS
-	Alap AKILL lej·rati idı: %d Ûra
+	Alap AKILL lej√°rati id≈ë: %d √≥ra
 OPER_STATS_AKILL_EXPIRE_HOUR
-	Alap AKILL lej·rati idı: 1 Ûra
+	Alap AKILL lej√°rati id≈ë: 1 √≥ra
 OPER_STATS_AKILL_EXPIRE_MINS
-	Alap AKILL lej·rati idı: %d perc
+	Alap AKILL lej√°rati id≈ë: %d perc
 OPER_STATS_AKILL_EXPIRE_MIN
-	Alap AKILL lej·rati idı: 1 perc
+	Alap AKILL lej√°rati id≈ë: 1 perc
 OPER_STATS_AKILL_EXPIRE_NONE
-	Alap AKILL lej·rati idı: Nem elÈv¸lı
+	Alap AKILL lej√°rati id≈ë: Nem el√©v√ºl≈ë
 OPER_STATS_SGLINE_COUNT
-	Aktu·lis SGLINEok sz·ma: %d
+	Aktu√°lis SGLINEok sz√°ma: %d
 OPER_STATS_SGLINE_EXPIRE_DAYS
-	Alap SGLINE lej·rati idı: %d nap
+	Alap SGLINE lej√°rati id≈ë: %d nap
 OPER_STATS_SGLINE_EXPIRE_DAY
-	Alap SGLINE lej·rati idı: 1 nap
+	Alap SGLINE lej√°rati id≈ë: 1 nap
 OPER_STATS_SGLINE_EXPIRE_HOURS
-	Alap SGLINE lej·rati idı: %d Ûra
+	Alap SGLINE lej√°rati id≈ë: %d √≥ra
 OPER_STATS_SGLINE_EXPIRE_HOUR
-	Alap SGLINE lej·rati idı: 1 Ûra
+	Alap SGLINE lej√°rati id≈ë: 1 √≥ra
 OPER_STATS_SGLINE_EXPIRE_MINS
-	Alap SGLINE lej·rati idı: %d perc
+	Alap SGLINE lej√°rati id≈ë: %d perc
 OPER_STATS_SGLINE_EXPIRE_MIN
-	Alap SGLINE lej·rati idı: 1 perc
+	Alap SGLINE lej√°rati id≈ë: 1 perc
 OPER_STATS_SGLINE_EXPIRE_NONE
-	Alap SGLINE lej·rati ido: Nem elÈv¸lı
+	Alap SGLINE lej√°rati ido: Nem el√©v√ºl≈ë
 OPER_STATS_SQLINE_COUNT
-	Aktu·lis SQLINEok sz·ma : %d
+	Aktu√°lis SQLINEok sz√°ma : %d
 OPER_STATS_SQLINE_EXPIRE_DAYS
-	Alap SQLINE lej·rati idı: %d nap
+	Alap SQLINE lej√°rati id≈ë: %d nap
 OPER_STATS_SQLINE_EXPIRE_DAY
-	Alap SQLINE lej·rati idı: 1 nap
+	Alap SQLINE lej√°rati id≈ë: 1 nap
 OPER_STATS_SQLINE_EXPIRE_HOURS
-	Alap SQLINE lej·rati idı: %d Ûra
+	Alap SQLINE lej√°rati id≈ë: %d √≥ra
 OPER_STATS_SQLINE_EXPIRE_HOUR
-	Alap SQLINE lej·rati idı: 1 Ûra
+	Alap SQLINE lej√°rati id≈ë: 1 √≥ra
 OPER_STATS_SQLINE_EXPIRE_MINS
-	Alap SQLINE lej·rati idı: %d perc
+	Alap SQLINE lej√°rati id≈ë: %d perc
 OPER_STATS_SQLINE_EXPIRE_MIN
-	Alap SQLINE lej·rati idı: 1 perc
+	Alap SQLINE lej√°rati id≈ë: 1 perc
 OPER_STATS_SQLINE_EXPIRE_NONE
-	Alap SQLINE lej·rati idı Nem elÈv¸lı
+	Alap SQLINE lej√°rati id≈ë Nem el√©v√ºl≈ë
 OPER_STATS_SZLINE_COUNT
-	Aktu·lis SZLINEok sz·ma: %d
+	Aktu√°lis SZLINEok sz√°ma: %d
 OPER_STATS_SZLINE_EXPIRE_DAYS
-	Alap SZLINE lej·rati idı: %d nap
+	Alap SZLINE lej√°rati id≈ë: %d nap
 OPER_STATS_SZLINE_EXPIRE_DAY
-	Alap SZLINE lej·rati idı: 1 nap
+	Alap SZLINE lej√°rati id≈ë: 1 nap
 OPER_STATS_SZLINE_EXPIRE_HOURS
-	Alap SZLINE lej·rati idı: %d Ûra
+	Alap SZLINE lej√°rati id≈ë: %d √≥ra
 OPER_STATS_SZLINE_EXPIRE_HOUR
-	Alap SZLINE lej·rati idı: 1 Ûra
+	Alap SZLINE lej√°rati id≈ë: 1 √≥ra
 OPER_STATS_SZLINE_EXPIRE_MINS
-	Alap SZLINE lej·rati idı: %d perc
+	Alap SZLINE lej√°rati id≈ë: %d perc
 OPER_STATS_SZLINE_EXPIRE_MIN
-	Alap SZLINE lej·rati idı: 1 perc
+	Alap SZLINE lej√°rati id≈ë: 1 perc
 OPER_STATS_SZLINE_EXPIRE_NONE
-	Alap SZLINE lej·rati idı: Nem elÈv¸lı
+	Alap SZLINE lej√°rati id≈ë: Nem el√©v√ºl≈ë
 OPER_STATS_RESET
-	Statisztika null·zva.
+	Statisztika null√°zva.
 
-# MODE v·laszok
+# MODE v√°laszok
 OPER_STATS_UPLINK_SERVER
 	Uplink server: %s
 OPER_STATS_UPLINK_CAPAB
@@ -2576,316 +2576,316 @@ OPER_STATS_UPLINK_SERVER_COUNT
 
 # MODE responses
 OPER_MODE_SYNTAX
-	MODE szoba mÛd
+	MODE szoba m√≥d
 
-# UMODE reag·l·sok
+# UMODE reag√°l√°sok
 OPER_UMODE_SYNTAX
-	UMODE nick mÛd
+	UMODE nick m√≥d
 OPER_UMODE_SUCCESS
-	%s usermÛdjai megv·ltoztatva.
+	%s userm√≥djai megv√°ltoztatva.
 OPER_UMODE_CHANGED
-	%s v·ltÛztatott a mÛdodon.
+	%s v√°lt√≥ztatott a m√≥dodon.
 
-# OLINE v·laszok
+# OLINE v√°laszok
 OPER_OLINE_SYNTAX
 	OLINE nick flagek
 OPER_OLINE_SUCCESS
 	%s operflagek megadva a %s nicknek.
 OPER_OLINE_IRCOP
-	Most m·r IRC Oper·tor vagy!
+	Most m√°r IRC Oper√°tor vagy!
 
-# CLEARMODES v·laszok
+# CLEARMODES v√°laszok
 OPER_CLEARMODES_SYNTAX
 	CLEARMODES #szoba [ALL]
 OPER_CLEARMODES_DONE
-	Bin·ris mÛdok Ès kitilt·sok tˆrˆlve a %s csatorn·rÛl.
+	Bin√°ris m√≥dok √©s kitilt√°sok t√∂r√∂lve a %s csatorn√°r√≥l.
 OPER_CLEARMODES_ALL_DONE
-	÷sszes mÛd tˆrˆlve a %s csatorn·rÛl.
+	√ñsszes m√≥d t√∂r√∂lve a %s csatorn√°r√≥l.
 	
-# KICK v·laszok
+# KICK v√°laszok
 OPER_KICK_SYNTAX
 	KICK #szoba user indok
 
-# SVSNICK v·laszok
+# SVSNICK v√°laszok
 OPER_SVSNICK_SYNTAX
-	SVSNICK nick ˙jnick 
+	SVSNICK nick √∫jnick 
 OPER_SVSNICK_NEWNICK
-	A nicked %s meg lett v·ltoztatva erre: %s.
+	A nicked %s meg lett v√°ltoztatva erre: %s.
 
-# ADMIN v·laszok
+# ADMIN v√°laszok
 OPER_ADMIN_SYNTAX
-	ADMIN {ADD|DEL|LIST|CLEAR} [nick | bejegyzÈsek]
+	ADMIN {ADD|DEL|LIST|CLEAR} [nick | bejegyz√©sek]
 OPER_ADMIN_SKELETON
-	SzervÌz most skeleton mÛdban fut, az ADMIN parancs nem elÈrhetı
+	Szerv√≠z most skeleton m√≥dban fut, az ADMIN parancs nem el√©rhet≈ë
 OPER_ADMIN_EXISTS
-	%s m·r szerepel a szervÌz admin lit·ban.
+	%s m√°r szerepel a szerv√≠z admin lit√°ban.
 OPER_ADMIN_REACHED_LIMIT
-	Csak %d szervÌz admin lehet a list·n.
+	Csak %d szerv√≠z admin lehet a list√°n.
 OPER_ADMIN_ADDED
-	%s hozz·adva szervÌz admin list·hoz.
+	%s hozz√°adva szerv√≠z admin list√°hoz.
 OPER_ADMIN_NOT_FOUND
-	%s nem tal·lhatÛ szervÌz admin list·n.
+	%s nem tal√°lhat√≥ szerv√≠z admin list√°n.
 OPER_ADMIN_NO_MATCH
-	Nincs ilyen a szervÌz admin list·n.
+	Nincs ilyen a szerv√≠z admin list√°n.
 OPER_ADMIN_DELETED
-	%s tˆrˆlve a szervÌz admin list·rÛl.
+	%s t√∂r√∂lve a szerv√≠z admin list√°r√≥l.
 OPER_ADMIN_DELETED_ONE
-	Tˆrˆltve 1 bejegyzÈs a szervÌz admin list·rÛl.
+	T√∂r√∂ltve 1 bejegyz√©s a szerv√≠z admin list√°r√≥l.
 OPER_ADMIN_DELETED_SEVERAL
-	Tˆrˆltve %d bejegyzÈs a szervÌz admin list·rÛl.
+	T√∂r√∂ltve %d bejegyz√©s a szerv√≠z admin list√°r√≥l.
 OPER_ADMIN_LIST_EMPTY
-	SzervÌz admin lista ¸res.
+	Szerv√≠z admin lista √ºres.
 OPER_ADMIN_LIST_HEADER
 	Szerviz admin lista:
-	  Sz·m   Nick
+	  Sz√°m   Nick
 OPER_ADMIN_LIST_FORMAT
 	  %3d   %s
 OPER_ADMIN_CLEAR
-	SzervÌz admin lista tˆrˆlve.
+	Szerv√≠z admin lista t√∂r√∂lve.
 OPER_ADMIN_MOVED
 	%s has been moved to Services Administrators list.
 
-# OPER v·laszok
+# OPER v√°laszok
 OPER_OPER_SYNTAX
-	OPER {ADD|DEL|LIST|CLEAR} [nick | bejegyzÈsek]
+	OPER {ADD|DEL|LIST|CLEAR} [nick | bejegyz√©sek]
 OPER_OPER_SKELETON
-	SzervÌz most skeleton mÛdban fut, az OPER parancs nem elÈrhetı.
+	Szerv√≠z most skeleton m√≥dban fut, az OPER parancs nem el√©rhet≈ë.
 OPER_OPER_EXISTS
-	%s m·r szerepel a szervÌz oper·tor list·n.
+	%s m√°r szerepel a szerv√≠z oper√°tor list√°n.
 OPER_OPER_REACHED_LIMIT
-	Csak %d szervÌz oper·tor lehet a list·n.
+	Csak %d szerv√≠z oper√°tor lehet a list√°n.
 OPER_OPER_ADDED
-	%s hozz·adva a szervÌz oper·tor list·hoz.
+	%s hozz√°adva a szerv√≠z oper√°tor list√°hoz.
 OPER_OPER_NOT_FOUND
-	%s nem tal·lhatÛ a szervÌz oper·tor list·n.
+	%s nem tal√°lhat√≥ a szerv√≠z oper√°tor list√°n.
 OPER_OPER_NO_MATCH
-	Nincs ilyen bejegyzÈs a szervÌz oper·tor list·n.
+	Nincs ilyen bejegyz√©s a szerv√≠z oper√°tor list√°n.
 OPER_OPER_DELETED
-	%s tˆrˆlve szervÌz oper·tor list·rÛl.
+	%s t√∂r√∂lve szerv√≠z oper√°tor list√°r√≥l.
 OPER_OPER_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs a szervÌz oper·tor list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s a szerv√≠z oper√°tor list√°r√≥l.
 OPER_OPER_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs a szervÌz oper·tor list·tÛl.
+	T√∂r√∂lve %d bejegyz√©s a szerv√≠z oper√°tor list√°t√≥l.
 OPER_OPER_LIST_EMPTY
-	SzervÌz oper·tor lista ¸res.
+	Szerv√≠z oper√°tor lista √ºres.
 OPER_OPER_LIST_HEADER
-	SzervÌz oper·tor lista:
-	  Sz·m   Nick
+	Szerv√≠z oper√°tor lista:
+	  Sz√°m   Nick
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 OPER_OPER_CLEAR
-	SzervÌz oper·tor lista tˆrˆlve.
+	Szerv√≠z oper√°tor lista t√∂r√∂lve.
 OPER_OPER_MOVED
 	%s has been moved to Services Operators list.
 
-# AKILL v·laszok
+# AKILL v√°laszok
 OPER_AKILL_SYNTAX
-	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+lej·rat] {maszk | sorsz·m} [indok]]
+	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+lej√°rat] {maszk | sorsz√°m} [indok]]
 OPER_AKILL_EXISTS
-	%s m·r bekapcsolva az AKILL lista.
+	%s m√°r bekapcsolva az AKILL lista.
 OPER_AKILL_ALREADY_COVERED
-	%s van m·r %s ilyen bejegyzÈs.
+	%s van m√°r %s ilyen bejegyz√©s.
 OPER_AKILL_REACHED_LIMIT
 	Te csak %d AKILL-t jegyezhetsz.
 OPER_AKILL_NO_NICK
-	EmlÈkeztetı: AKILL maszk nem tartalmazhat nicknevet;
-	ellenırizd, hogy nem tartalmazhat nick rÈszt a maszk.
+	Eml√©keztet≈ë: AKILL maszk nem tartalmazhat nicknevet;
+	ellen≈ërizd, hogy nem tartalmazhat nick r√©szt a maszk.
 OPER_AKILL_ADDED
-	%s hozz·adva az AKILL list·hoz.
+	%s hozz√°adva az AKILL list√°hoz.
 OPER_AKILL_CHANGED
-	Lej·rati idı megv·ltozott: %s.
+	Lej√°rati id≈ë megv√°ltozott: %s.
 OPER_AKILL_NOT_FOUND
-	%s nem tal·lhatÛ az AKILL list·n.
+	%s nem tal√°lhat√≥ az AKILL list√°n.
 OPER_AKILL_NO_MATCH
-	Nincs ilyen bejegyzÈs az AKILL list·n.
+	Nincs ilyen bejegyz√©s az AKILL list√°n.
 OPER_AKILL_DELETED
-	%s tˆrˆlve az AKILL list·rÛl.
+	%s t√∂r√∂lve az AKILL list√°r√≥l.
 OPER_AKILL_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs az AKILL list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s az AKILL list√°r√≥l.
 OPER_AKILL_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs az AKILL list·rÛl.
+	T√∂r√∂lve %d bejegyz√©s az AKILL list√°r√≥l.
 OPER_AKILL_LIST_EMPTY
-	AKILL lista ¸res.
+	AKILL lista √ºres.
 OPER_AKILL_LIST_HEADER
-	Aktu·lis AKILL lista:
-	  Sz·m   Maszk                              Indok
+	Aktu√°lis AKILL lista:
+	  Sz√°m   Maszk                              Indok
 OPER_AKILL_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_AKILL_VIEW_HEADER
-	Aktu·lis AKILL lista:
-# sz·m, mask, set-by, set-idı, lej·rat, indok
+	Aktu√°lis AKILL lista:
+# sz√°m, mask, set-by, set-id≈ë, lej√°rat, indok
 OPER_AKILL_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
 	      %s
 OPER_AKILL_CLEAR
-	Az AKILL lista tˆrˆlve.
+	Az AKILL lista t√∂r√∂lve.
 OPER_CHANKILL_SYNTAX
-	CHANKILL [+lej·rat] {#szoba} [indok]
+	CHANKILL [+lej√°rat] {#szoba} [indok]
 
-# SGLINE v·laszok
+# SGLINE v√°laszok
 OPER_SGLINE_SYNTAX
-	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[ +lej·rat] {maszk| sorsz·m }[:Indok]]
+	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[ +lej√°rat] {maszk| sorsz√°m }[:Indok]]
 OPER_SGLINE_UNSUPPORTED
-	SGLINE nem haszn·lhatÛ ezen a h·lÛzaton.
+	SGLINE nem haszn√°lhat√≥ ezen a h√°l√≥zaton.
 OPER_SGLINE_EXISTS
-	%s m·r szerepel az SGLINE list·n.
+	%s m√°r szerepel az SGLINE list√°n.
 OPER_SGLINE_ALREADY_COVERED
-	%s t·rsÌtva van %s ·ltal.
+	%s t√°rs√≠tva van %s √°ltal.
 OPER_SGLINE_REACHED_LIMIT
-	Te csak %d sz·m˙ SGLINE-t jegyezhetsz.
+	Te csak %d sz√°m√∫ SGLINE-t jegyezhetsz.
 OPER_SGLINE_ADDED
-	%s hozz·adva a SGLINE list·hoz.
+	%s hozz√°adva a SGLINE list√°hoz.
 OPER_SGLINE_CHANGED
-	Lej·rati idı megv·ltozott: %s .
+	Lej√°rati id≈ë megv√°ltozott: %s .
 OPER_SGLINE_NOT_FOUND
-	%s nincs a SGLINE list·n.
+	%s nincs a SGLINE list√°n.
 OPER_SGLINE_NO_MATCH
-	Nincs ilyen bejegyzÈs az SGLINE list·n.
+	Nincs ilyen bejegyz√©s az SGLINE list√°n.
 OPER_SGLINE_DELETED
-	%s tˆrˆlve az SGLINE list·rÛl.
+	%s t√∂r√∂lve az SGLINE list√°r√≥l.
 OPER_SGLINE_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs a SGLINE list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s a SGLINE list√°r√≥l.
 OPER_SGLINE_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs a SGLINE list·rÛl.
+	T√∂r√∂lve %d bejegyz√©s a SGLINE list√°r√≥l.
 OPER_SGLINE_LIST_EMPTY
-	SGLINE lista ¸res.
+	SGLINE lista √ºres.
 OPER_SGLINE_LIST_HEADER
-	Aktu·lis SGLINE lista:
-	  Sz·m   Maszk                              Indok
+	Aktu√°lis SGLINE lista:
+	  Sz√°m   Maszk                              Indok
 OPER_SGLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SGLINE_VIEW_HEADER
-	Aktu·lis SGLINE lista:
-# sz·m, mask, set-by, set-idı, lej·rat, indok
+	Aktu√°lis SGLINE lista:
+# sz√°m, mask, set-by, set-id≈ë, lej√°rat, indok
 OPER_SGLINE_VIEW_FORMAT
-	%3d  %s (%s ·ltal, ekkor: %s; %s)
+	%3d  %s (%s √°ltal, ekkor: %s; %s)
 	      %s
 OPER_SGLINE_CLEAR
-	Az SGLINE lista tˆrˆlve.
+	Az SGLINE lista t√∂r√∂lve.
 
-# SQLINE v·laszok
+# SQLINE v√°laszok
 OPER_SQLINE_SYNTAX
-	SQLINE {ADD|DEL|LIST|VIEW|CLEAR}[ [ +lej·rat ] { maszk | sorsz·m }[ indok ]]
+	SQLINE {ADD|DEL|LIST|VIEW|CLEAR}[ [ +lej√°rat ] { maszk | sorsz√°m }[ indok ]]
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	Szoba SQLINE-ok nem t·mogatottak ezen az IRCd-n,ezÈrt
-	nem tudod haszn·lni.
+	Szoba SQLINE-ok nem t√°mogatottak ezen az IRCd-n,ez√©rt
+	nem tudod haszn√°lni.
 OPER_SQLINE_EXISTS
-	%s m·r szerpel az SQLINE list·n.
+	%s m√°r szerpel az SQLINE list√°n.
 OPER_SQLINE_ALREADY_COVERED
-	%s t·rsÌtva van %s ·ltal.
+	%s t√°rs√≠tva van %s √°ltal.
 OPER_SQLINE_REACHED_LIMIT
 	Te csak %d SQLINE-t jegyezhetsz.
 OPER_SQLINE_ADDED
-	%s hozz·adva az SQLINE list·hoz.
+	%s hozz√°adva az SQLINE list√°hoz.
 OPER_SQLINE_CHANGED
-	Lej·rati idı %s megv·lzott.
+	Lej√°rati id≈ë %s megv√°lzott.
 OPER_SQLINE_NOT_FOUND
-	%s nnem tal·lhatÛ az SQLINE list·n.
+	%s nnem tal√°lhat√≥ az SQLINE list√°n.
 OPER_SQLINE_NO_MATCH
-	Nincs ilyen bejegyzÈs az SQLINE list·n.
+	Nincs ilyen bejegyz√©s az SQLINE list√°n.
 OPER_SQLINE_DELETED
-	%s tˆrˆlve az SQLINE list·rÛl.
+	%s t√∂r√∂lve az SQLINE list√°r√≥l.
 OPER_SQLINE_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs az SQLINE list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s az SQLINE list√°r√≥l.
 OPER_SQLINE_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs az SQLINE list·rÛl.
+	T√∂r√∂lve %d bejegyz√©s az SQLINE list√°r√≥l.
 OPER_SQLINE_LIST_EMPTY
-	SQLINE lista ¸res.
+	SQLINE lista √ºres.
 OPER_SQLINE_LIST_HEADER
-	Aktu·lis SQLINE lista:
-	  Sz·m   Mask                              Indok
+	Aktu√°lis SQLINE lista:
+	  Sz√°m   Mask                              Indok
 OPER_SQLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SQLINE_VIEW_HEADER
-	Aktu·lis SQLINE lista:
-# Sz·m, mask, set-by, set-Idı, lej·rat, indok
+	Aktu√°lis SQLINE lista:
+# Sz√°m, mask, set-by, set-Id≈ë, lej√°rat, indok
 OPER_SQLINE_VIEW_FORMAT
-	%3d  %s (%s ·ltal, ekkor: %s; %s)
+	%3d  %s (%s √°ltal, ekkor: %s; %s)
 	      %s
 OPER_SQLINE_CLEAR
-	Az SQLINE lista tˆrˆlve.
+	Az SQLINE lista t√∂r√∂lve.
 
-# SZLINE v·laszok
+# SZLINE v√°laszok
 OPER_SZLINE_SYNTAX
-	SZLINE {ADD | DEL | LIST | VIEW | CLEAR }[[ +lej·rat ] { maszk | sorsz·m } [ indok ]]
+	SZLINE {ADD | DEL | LIST | VIEW | CLEAR }[[ +lej√°rat ] { maszk | sorsz√°m } [ indok ]]
 OPER_SZLINE_UNSUPPORTED
-	SZLINE nem haszn·lhatÛ ezen a h·lÛzaton.
+	SZLINE nem haszn√°lhat√≥ ezen a h√°l√≥zaton.
 OPER_SZLINE_EXISTS
-	%s m·r szerepel az SZLINE list·n.
+	%s m√°r szerepel az SZLINE list√°n.
 OPER_SZLINE_ALREADY_COVERED
-	%s t·rsÌtva %s ·ltal.
+	%s t√°rs√≠tva %s √°ltal.
 OPER_SZLINE_REACHED_LIMIT
 	Te csak %d SZLINE-t jegyezhetsz.
 OPER_SZLINE_ONLY_IPS
-	EmlÈkeztetı:Te hozz·adhatsz IP maszkot SZLINE list·hoz.
+	Eml√©keztet≈ë:Te hozz√°adhatsz IP maszkot SZLINE list√°hoz.
 OPER_SZLINE_ADDED
-	%s hozz·adva az SZLINE list·hoz.
+	%s hozz√°adva az SZLINE list√°hoz.
 OPER_SZLINE_CHANGED
-	Lej·rati idı megv·ltozott: %s.
+	Lej√°rati id≈ë megv√°ltozott: %s.
 OPER_SZLINE_NOT_FOUND
-	%s nem tal·lhatÛ az SZLINE list·n.
+	%s nem tal√°lhat√≥ az SZLINE list√°n.
 OPER_SZLINE_NO_MATCH
-	Nincs ilyen bejegyzÈs az SZLINE list·n.
+	Nincs ilyen bejegyz√©s az SZLINE list√°n.
 OPER_SZLINE_DELETED
-	%s tˆrˆlve az SZLINE list·rÛl.
+	%s t√∂r√∂lve az SZLINE list√°r√≥l.
 OPER_SZLINE_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs az SZLINE list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s az SZLINE list√°r√≥l.
 OPER_SZLINE_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs az SZLINE list·rÛl.
+	T√∂r√∂lve %d bejegyz√©s az SZLINE list√°r√≥l.
 OPER_SZLINE_LIST_EMPTY
-	SZLINE lista ¸res.
+	SZLINE lista √ºres.
 OPER_SZLINE_LIST_HEADER
-	Aktu·lis SZLINE lista:
-	Sz·m	Mask					Indok
+	Aktu√°lis SZLINE lista:
+	Sz√°m	Mask					Indok
 OPER_SZLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SZLINE_VIEW_HEADER
-	Aktu·lis SZLINE lista:
-# Ssz·m, maszk, set-by, set-idı, lej·rat,Indok
+	Aktu√°lis SZLINE lista:
+# Ssz√°m, maszk, set-by, set-id≈ë, lej√°rat,Indok
 OPER_SZLINE_VIEW_FORMAT
-	%3d  %s (%s ·ltal, ekkor: %s; %s)
+	%3d  %s (%s √°ltal, ekkor: %s; %s)
 	      %s
 OPER_SZLINE_CLEAR
-	Az SZLINE lista tˆrˆlve
+	Az SZLINE lista t√∂r√∂lve
 
-# SET v·laszok
+# SET v√°laszok
 OPER_SET_SYNTAX
-	SET opciÛ be·llÌt·s
+	SET opci√≥ be√°ll√≠t√°s
 OPER_SET_IGNORE_ON
-	MellızÈs kÛd lessz haszn·lva.
+	Mell≈ëz√©s k√≥d lessz haszn√°lva.
 OPER_SET_IGNORE_OFF
-	MellızÈs kÛd nem lessz haszn·lva.
+	Mell≈ëz√©s k√≥d nem lessz haszn√°lva.
 OPER_SET_IGNORE_ERROR
-	MellızÈs be·llit·snak kell lenni ON vagy OFF.
+	Mell≈ëz√©s be√°llit√°snak kell lenni ON vagy OFF.
 OPER_SET_READONLY_ON
-	SzervÌz most  csak olvas mÛdban.
+	Szerv√≠z most  csak olvas m√≥dban.
 OPER_SET_READONLY_OFF
-	SzervÌz most olvas Ìr mÛdban.
+	Szerv√≠z most olvas √≠r m√≥dban.
 OPER_SET_READONLY_ERROR
-	READONLY be·llit·shoz kell lenni ON vagy OFF.
+	READONLY be√°llit√°shoz kell lenni ON vagy OFF.
 OPER_SET_LOGCHAN_ON
-	SzervÌz most kiegÈszÌti log ¸zeneteket %s -hoz.
+	Szerv√≠z most kieg√©sz√≠ti log √ºzeneteket %s -hoz.
 OPER_SET_LOGCHAN_OFF
-	A SzervÌz nem Ìrja ki a naplÛ ¸zeneteket a csatorn·ra.
+	A Szerv√≠z nem √≠rja ki a napl√≥ √ºzeneteket a csatorn√°ra.
 OPER_SET_LOGCHAN_ERROR
-	LOGCHAN be·llÌt·s·hoz kell ONvagy OFFÈs 
-	LogCsatorn·t kell be·llÌtani.
+	LOGCHAN be√°ll√≠t√°s√°hoz kell ONvagy OFF√©s 
+	LogCsatorn√°t kell be√°ll√≠tani.
 OPER_SET_DEBUG_ON
-	SzervÌz most debug mÛdban fut.
+	Szerv√≠z most debug m√≥dban fut.
 OPER_SET_DEBUG_OFF
-	SzervÌz most m·r nem fut debug mÛdban.
+	Szerv√≠z most m√°r nem fut debug m√≥dban.
 OPER_SET_DEBUG_LEVEL
-	SzervÌz most debug mÛdban (szint: %d).
+	Szerv√≠z most debug m√≥dban (szint: %d).
 OPER_SET_DEBUG_ERROR
-	A DEBUG be·llÌt·shoz kell ON,/OFF,/ pozitÌv sz·m.
+	A DEBUG be√°ll√≠t√°shoz kell ON,/OFF,/ pozit√≠v sz√°m.
 OPER_SET_NOEXPIRE_ON
-	SzervÌz nem elÈv¸lı mÛdban van.
+	Szerv√≠z nem el√©v√ºl≈ë m√≥dban van.
 OPER_SET_NOEXPIRE_OFF
-	SzervÌz elÈv¸lı mÛdban van.
+	Szerv√≠z el√©v√ºl≈ë m√≥dban van.
 OPER_SET_NOEXPIRE_ERROR
-	Az NOEXPIRE be·llÌt·shoz kell ON vagy OFF.
+	Az NOEXPIRE be√°ll√≠t√°shoz kell ON vagy OFF.
 OPER_SET_UNKNOWN_OPTION
-	Ismeretlen be·llÌt·s %s.
+	Ismeretlen be√°ll√≠t√°s %s.
 OPER_SET_SQL_ON
 	SQL code will be used.
 OPER_SET_SQL_OFF
@@ -2902,105 +2902,105 @@ OPER_SET_LIST_OPTION_ON
 OPER_SET_LIST_OPTION_OFF
 	%s is disabled
 
-# NOOP v·laszok
+# NOOP v√°laszok
 OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} szerver
 OPER_NOOP_SET
-	÷sszes O:lines %s mÛdosÌtva.
+	√ñsszes O:lines %s m√≥dos√≠tva.
 OPER_NOOP_REVOKE
-	÷sszes O:lines %s ˙jra aktÌv.
+	√ñsszes O:lines %s √∫jra akt√≠v.
 
-# JUPE v·laszok
+# JUPE v√°laszok
 OPER_JUPE_SYNTAX
-	JUPE szervernÈv [leÌr·s]
+	JUPE szervern√©v [le√≠r√°s]
 OPER_JUPE_HOST_ERROR
-	KÈrlek haszn·lj ÈrvÈnyes szerver nevet amikor jupolsz!
+	K√©rlek haszn√°lj √©rv√©nyes szerver nevet amikor jupolsz!
 OPER_JUPE_INVALID_SERVER
 	You can not jupe your services server or your uplink server.
 
-# RAW v·laszok
+# RAW v√°laszok
 OPER_RAW_SYNTAX
 	RAW text
 
-# UPDATE v·laszok
+# UPDATE v√°laszok
 OPER_UPDATING
-	Adatb·zis mentve.
+	Adatb√°zis mentve.
 
-# RELOAD v·laszok
+# RELOAD v√°laszok
 OPER_RELOAD
-	SzervÌz konfigur·ciÛs f·jl ˙jratˆltve.
+	Szerv√≠z konfigur√°ci√≥s f√°jl √∫jrat√∂ltve.
 
-# RESTART v·laszok
+# RESTART v√°laszok
 OPER_CANNOT_RESTART
-	SERVICES_BIN nincs meghat·rozva; nem tud ˙jraindulni.
-	TÈrj vissza a \2configure\2 scripthez Ès kez ˙jra a forgat·st. 
-	SzervÌzhez engedÈlyezd a RESTART parancsot.
+	SERVICES_BIN nincs meghat√°rozva; nem tud √∫jraindulni.
+	T√©rj vissza a \2configure\2 scripthez √©s kez √∫jra a forgat√°st. 
+	Szerv√≠zhez enged√©lyezd a RESTART parancsot.
 
-# IGNORE v·laszok
+# IGNORE v√°laszok
 OPER_IGNORE_SYNTAX
-	IGNORE {ADD|DEL|LIST|CLEAR} [idı] [nick | mask]
+	IGNORE {ADD|DEL|LIST|CLEAR} [id≈ë] [nick | mask]
 OPER_IGNORE_VALID_TIME
-	Haszn·lj ÈrvÈnyes sz·mot idınek. 
-	(Adj meg ÈrvÈnyes sz·mot az idıhˆz.)
+	Haszn√°lj √©rv√©nyes sz√°mot id≈ënek. 
+	(Adj meg √©rv√©nyes sz√°mot az id≈ëh√∂z.)
 OPER_IGNORE_TIME_DONE
-	%s nick most mellızte %s nicket.
+	%s nick most mell≈ëzte %s nicket.
 OPER_IGNORE_PERM_DONE
-	%s nick most vÈglegesen mellızve van.
+	%s nick most v√©glegesen mell≈ëzve van.
 OPER_IGNORE_DEL_DONE
-	%s nick most m·r nics mellızve.
+	%s nick most m√°r nics mell≈ëzve.
 OPER_IGNORE_LIST
-	SzervÌz mellızÈs lista:
+	Szerv√≠z mell≈ëz√©s lista:
 OPER_IGNORE_LIST_NOMATCH
-	%s nick nem tal·lhatÛ a mellızˆttek list·j·n.
+	%s nick nem tal√°lhat√≥ a mell≈ëz√∂ttek list√°j√°n.
 OPER_IGNORE_LIST_EMPTY
-	Mellızˆttek lista ¸res.
+	Mell≈ëz√∂ttek lista √ºres.
 OPER_IGNORE_LIST_CLEARED
-	Mellızˆttek lista tˆrˆlve.
+	Mell≈ëz√∂ttek lista t√∂r√∂lve.
 
-# KILLCLONES v·laszok
+# KILLCLONES v√°laszok
 OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 OPER_KILLCLONES_UNKNOWN_NICK
-	Nem tal·lt ilyen felhaszn·lÛt %s.
+	Nem tal√°lt ilyen felhaszn√°l√≥t %s.
 
-# CHANLIST v·laszok
+# CHANLIST v√°laszok
 OPER_CHANLIST_HEADER
 	Szoba lista:
-	NÈv			User MÛd   Topic
+	N√©v			User M√≥d   Topic
 OPER_CHANLIST_HEADER_USER
-	%s szoba list·ja:
-	NÈv 			User MÛd   Topic
+	%s szoba list√°ja:
+	N√©v 			User M√≥d   Topic
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
-	VÈge a szoba list·nak.
+	V√©ge a szoba list√°nak.
 
-# USERLIST v·laszok
+# USERLIST v√°laszok
 OPER_USERLIST_HEADER
-	Felhaszn·lÛ lista:
+	Felhaszn√°l√≥ lista:
 	Nick                 Maszk
 OPER_USERLIST_HEADER_CHAN
-	%s felhaszn·lÛ lista:
+	%s felhaszn√°l√≥ lista:
 	Nick                 Maszk
 OPER_USERLIST_RECORD
 	%-20s %s@%s
 OPER_USERLIST_END
-	VÈge a felhaszn·lÛ list·nak.
+	V√©ge a felhaszn√°l√≥ list√°nak.
 
-# CACHE v·laszok
+# CACHE v√°laszok
 OPER_SUPER_ADMIN_ON
-	Most m·r Szuper-Admin vagy
+	Most m√°r Szuper-Admin vagy
 OPER_SUPER_ADMIN_OFF
-	Te nem vagy m·r Szuper-Admin
+	Te nem vagy m√°r Szuper-Admin
 OPER_SUPER_ADMIN_SYNTAX
 	SET SuperAdmin  ON vagy OFF 
-	(engedÈlyezni kell a services.conf-ban)
+	(enged√©lyezni kell a services.conf-ban)
 OPER_SUPER_ADMIN_WALL_ON
-	%s most m·r Szuper-Admin
+	%s most m√°r Szuper-Admin
 OPER_SUPER_ADMIN_WALL_OFF
-	%s m·r nem Szuper-Admin
+	%s m√°r nem Szuper-Admin
 OPER_SUPER_ADMIN_ONLY
-	Csak Szuper-Admin haszn·lhatja a parancsot.
+	Csak Szuper-Admin haszn√°lhatja a parancsot.
 OPER_STAFF_LIST_HEADER
 	On Szint Nick
 OPER_STAFF_FORMAT
@@ -3008,339 +3008,339 @@ OPER_STAFF_FORMAT
 OPER_STAFF_AFORMAT
 	 %c %s  %s [%s]
 
-# DefCon ‹zenet
+# DefCon √úzenet
 
 OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 OPER_DEFCON_DENIED
-	SzervÌz Defcon mÛdban fut, prÛb·ld kÈsıbb.
+	Szerv√≠z Defcon m√≥dban fut, pr√≥b√°ld k√©s≈ëbb.
 OPER_DEFCON_NO_CONF
-	A Defcon rendszert engedÈlyezni kell a services.conf-ban
+	A Defcon rendszert enged√©lyezni kell a services.conf-ban
 OPER_DEFCON_CHANGED
-	SzervÌz ˙j DEFCON szintje %d
+	Szerv√≠z √∫j DEFCON szintje %d
 OPER_DEFCON_WALL
-	%s mÛdosÌtotta DEFCON a szintet erre: %d
+	%s m√≥dos√≠totta DEFCON a szintet erre: %d
 DEFCON_GLOBAL
 	A Defcon szint most: %d
 
-# Module szÛl·nc
+# Module sz√≥l√°nc
 OPER_MODULE_LOADED
-	%s modul betˆltve
+	%s modul bet√∂ltve
 OPER_MODULE_UNLOADED
-	%s modul kitˆltve
+	%s modul kit√∂ltve
 OPER_MODULE_LOAD_FAIL
-	Nem siker¸lt a betˆlteni a %s modult
+	Nem siker√ºlt a bet√∂lteni a %s modult
 OPER_MODULE_REMOVE_FAIL
-	Nem siker¸lt elt·volÌtani a %s modult
+	Nem siker√ºlt elt√°vol√≠tani a %s modult
 OPER_MODULE_NO_UNLOAD
 	This module can not be unloaded.
 OPER_MODULE_LOAD_SYNTAX
-	MODLOAD F·jlnÈv
+	MODLOAD F√°jln√©v
 OPER_MODULE_UNLOAD_SYNTAX
-	MODUNLOAD F·jlnÈv
+	MODUNLOAD F√°jln√©v
 OPER_MODULE_LIST_HEADER
 	Jelenlegi Modul lista:
 OPER_MODULE_LIST
 	Modul: %s [%s] [%s]
 OPER_MODULE_LIST_FOOTER
-	%d Modul betˆltve.
+	%d Modul bet√∂ltve.
 OPER_MODULE_INFO_LIST
-	Modul: %s VerziÛ: %s Szerzı: %s Betˆltve: %s
+	Modul: %s Verzi√≥: %s Szerz≈ë: %s Bet√∂ltve: %s
 OPER_MODULE_CMD_LIST
 	Modul parancsai: %R%s %s
 OPER_MODULE_MSG_LIST
-	IRCD kezelÈs: %s
+	IRCD kezel√©s: %s
 OPER_MODULE_NO_LIST
-	Jelenleg nincs modul betˆltve.
+	Jelenleg nincs modul bet√∂ltve.
 OPER_MODULE_NO_INFO
-	Nincs elÈrhetı inform·ciÛ a  %s modulrÛl
+	Nincs el√©rhet≈ë inform√°ci√≥ a  %s modulr√≥l
 OPER_MODULE_INFO_SYNTAX
-	MODINFO F·jlnÈv
+	MODINFO F√°jln√©v
 MODULE_HELP_HEADER
-	A kˆvetkezı parancsokat a modulok tartalmazz·k:
+	A k√∂vetkez≈ë parancsokat a modulok tartalmazz√°k:
 
 ###########################################################
 #
-# Session korl·toz·s Ès kivÈtel ¸zenetek
+# Session korl√°toz√°s √©s kiv√©tel √ºzenetek
 #
 ###########################################################
 	
-# EXCEPTION v·laszok
+# EXCEPTION v√°laszok
 OPER_EXCEPTION_SYNTAX
-	EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [paramÈterek]
+	EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [param√©terek]
 OPER_EXCEPTION_ADD_SYNTAX
-	EXCEPTION ADD [+elÈv¸lÈs] maszk korl·t indok
+	EXCEPTION ADD [+el√©v√ºl√©s] maszk korl√°t indok
 OPER_EXCEPTION_DEL_SYNTAX
 	EXCEPTION DEL {maszk | list}
 OPER_EXCEPTION_MOVE_SYNTAX
-	EXCEPTION MOVE Sz·m helyzet
+	EXCEPTION MOVE Sz√°m helyzet
 OPER_EXCEPTION_DISABLED
-	Session korl·toz·s tiltva.
+	Session korl√°toz√°s tiltva.
 OPER_EXCEPTION_ALREADY_PRESENT
-	Maszk %s m·r szerepel a kivÈtel list·n.
+	Maszk %s m√°r szerepel a kiv√©tel list√°n.
 OPER_EXCEPTION_TOO_MANY
-	Session-korl·t lista megtelt!
+	Session-korl√°t lista megtelt!
 OPER_EXCEPTION_ADDED
-	Session korl·t %s rÈszÈre %d-re ·llÌtva.
+	Session korl√°t %s r√©sz√©re %d-re √°ll√≠tva.
 OPER_EXCEPTION_MOVED
-	%s kivÈtel (#%d) ·thelyezve a %d pozicÌÛba.
+	%s kiv√©tel (#%d) √°thelyezve a %d pozic√≠√≥ba.
 OPER_EXCEPTION_NO_SUCH_ENTRY
-	Nincs bejegyezve (#%d) session-korl·t a kivÈtel list·n.
+	Nincs bejegyezve (#%d) session-korl√°t a kiv√©tel list√°n.
 OPER_EXCEPTION_NOT_FOUND
-	%s nem tal·lhatÛ a session-korl·t kivÈtel list·n.
+	%s nem tal√°lhat√≥ a session-korl√°t kiv√©tel list√°n.
 OPER_EXCEPTION_NO_MATCH
-	Nincs ilyen bejegyzÈs a session-korl·t kivÈtel list·n.
+	Nincs ilyen bejegyz√©s a session-korl√°t kiv√©tel list√°n.
 OPER_EXCEPTION_DELETED
-	%s tˆrˆlve a session-korl·t kivÈtel list·rÛl.
+	%s t√∂r√∂lve a session-korl√°t kiv√©tel list√°r√≥l.
 OPER_EXCEPTION_DELETED_ONE
-	Tˆrˆlve 1 bejegyzÈs a session-korl·t kivÈtel list·rÛl.
+	T√∂r√∂lve 1 bejegyz√©s a session-korl√°t kiv√©tel list√°r√≥l.
 OPER_EXCEPTION_DELETED_SEVERAL
-	Tˆrˆlve %d bejegyzÈs a session-korl·t kivÈtel list·rÛl.
+	T√∂r√∂lve %d bejegyz√©s a session-korl√°t kiv√©tel list√°r√≥l.
 OPER_EXCEPTION_LIST_HEADER
-	Aktu·lis Session korl·t kivÈtel lista:
-# mask, korl·t
+	Aktu√°lis Session korl√°t kiv√©tel lista:
+# mask, korl√°t
 OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
 OPER_EXCEPTION_LIST_COLHEAD
-	Sz·m  Korl·t  Host
-# maszk, set-by, set-idı,lej·rat, korl·t, Indok
+	Sz√°m  Korl√°t  Host
+# maszk, set-by, set-id≈ë,lej√°rat, korl√°t, Indok
 OPER_EXCEPTION_VIEW_FORMAT
-	%3d.  %s  (%s ·ltal, ekkor: %s; %s)
-	    Korl·t: %-4d  - %s
+	%3d.  %s  (%s √°ltal, ekkor: %s; %s)
+	    Korl√°t: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
-	…rvÈnytelen session korl·t. …rvÈnyes sz·mnak kell lennie
-	Ès nagyobbnak vagy egyenlınek mint zÈrÛ Ès kissebbnek 
+	√ârv√©nytelen session korl√°t. √ârv√©nyes sz√°mnak kell lennie
+	√©s nagyobbnak vagy egyenl≈ënek mint z√©r√≥ √©s kissebbnek 
 	mint %d.
 OPER_EXCEPTION_INVALID_HOSTMASK
-	…rvÈnytelen hosztmaszk. Csak ÈrvÈnyes hosztmaszk lehet,
-	a kivÈtel nem lehet nick vagy usernÈv.
+	√ârv√©nytelen hosztmaszk. Csak √©rv√©nyes hosztmaszk lehet,
+	a kiv√©tel nem lehet nick vagy usern√©v.
 OPER_EXCEPTION_EXISTS
 	%s already exists on the EXCEPTION list.
 OPER_EXCEPTION_CHANGED
 	Exception for %s has been updated to %d.
 
-# SESSION v·laszok
+# SESSION v√°laszok
 OPER_SESSION_SYNTAX
-	SESSION {LIST korl·t | VIEW hoszt}
+	SESSION {LIST korl√°t | VIEW hoszt}
 OPER_SESSION_LIST_SYNTAX
-	SESSION LIST korl·t
+	SESSION LIST korl√°t
 OPER_SESSION_VIEW_SYNTAX
 	SESSION VIEW hoszt
 OPER_SESSION_DISABLED
-	Session korl·toz·s tiltva.
+	Session korl√°toz√°s tiltva.
 OPER_SESSION_INVALID_THRESHOLD
-	…rvÈnytelen k¸szˆb ÈrtÈk. 1-nÈl nagyobb egÈsz sz·mnak
+	√ârv√©nytelen k√ºsz√∂b √©rt√©k. 1-n√©l nagyobb eg√©sz sz√°mnak
 	kell lennie.
 OPER_SESSION_NOT_FOUND
-	%s nincs a session list·n.
+	%s nincs a session list√°n.
 OPER_SESSION_LIST_HEADER
-	Hosztok legal·bb %d sessionnel:
+	Hosztok legal√°bb %d sessionnel:
 OPER_SESSION_LIST_COLHEAD
 	Sessions  Host
-# korl·t, hoszt
+# korl√°t, hoszt
 OPER_SESSION_LIST_FORMAT
 	%6d    %s
-# hoszt, sessions, korl·t
+# hoszt, sessions, korl√°t
 OPER_SESSION_VIEW_FORMAT
-	A %s hoszt aktu·lisan %d sessiont haszn·l, a hat·rÈrtÈke %d.
+	A %s hoszt aktu√°lisan %d sessiont haszn√°l, a hat√°r√©rt√©ke %d.
 
 # EXCEPTION help
 OPER_HELP_EXCEPTION
-	Syntax: EXCEPTION ADD [+lej·rat] maszkkorl·tindok
+	Syntax: EXCEPTION ADD [+lej√°rat] maszkkorl√°tindok
 	        EXCEPTION DEL {maszk| list}
-	        EXCEPTION MOVE sz·m helyzet
+	        EXCEPTION MOVE sz√°m helyzet
 	        EXCEPTION LIST [maszk | lista]
 	        EXCEPTION VIEW [maszk | lista]
 	
-	LehetısÈget ny˙jt a szervÌz adminnak, hogy karbantarts·k
-	azon hostok list·j·t, amelyeknek korl·toz·suk van,
-	engedÈlyezve bizonyos gÈpeket,˙gymint a shell szervereket,
-	hogy egyidıben felvigyenek klienseket alapÈrtelmezettnÈl
-	nagyobb sz·mban. Amennyiben a gÈp elÈri a korl·tot, minden
-	csatlakozni prÛb·lÛ kliens killelve lesz.Mielıtt a kill
-	megtˆrtÈnne, figyelmeztetÈst kapnak %S /NOTICE ¸zeneten 
-	kereszt¸l. Az ¸zenet tartalma a konfigur·ciÛtÛl f¸gg.
+	Lehet≈ës√©get ny√∫jt a szerv√≠z adminnak, hogy karbantarts√°k
+	azon hostok list√°j√°t, amelyeknek korl√°toz√°suk van,
+	enged√©lyezve bizonyos g√©peket,√∫gymint a shell szervereket,
+	hogy egyid≈ëben felvigyenek klienseket alap√©rtelmezettn√©l
+	nagyobb sz√°mban. Amennyiben a g√©p el√©ri a korl√°tot, minden
+	csatlakozni pr√≥b√°l√≥ kliens killelve lesz.Miel≈ëtt a kill
+	megt√∂rt√©nne, figyelmeztet√©st kapnak %S /NOTICE √ºzeneten 
+	kereszt√ºl. Az √ºzenet tartalma a konfigur√°ci√≥t√≥l f√ºgg.
 	
-	EXCEPTION ADD hozz·adja a hostmaszkot a kivÈtellist·hoz.
-	Vedd figyelembe, hogy a nick!user@host Ès user@host
-	maszkok ÈrvÈnytelenek! Csak valÛs hostmaszkok, mint pl.
-	box.host.dom Ès *.host.dom, megengedettek, a session
-	korl·toz·smaszkja nem vesz fel nicknevet/felhaszn·lÛnevet.
-	A korl·tlegyen egy null·val egyenlı vagy nagyobb sz·m.
-	Ez hat·rozza meg, hogy h·ny sessiont vihet mag·val a host
-	egyidıben. A nulla azt jelenti, hogy a hostnak korl·tlan
-	sz·m˙ sessionja lehet. L·sd az AKILL helpet a rÈszletek
-	felˆl a form·rÛl a sz¸ksÈges lej·rati parameterrıl.
-	EXCEPTION DEL Tˆrli a megadott maszkot a kivÈtel lit·rÛl	
-	EXCEPTION MOVE mÛdisÌtja a kivÈtel poziciÛsz·m·t. A 
-	kivÈtelek fel-le mozgatja, az ¸res helyekre is.
-	EXCEPTION LIST Ès EXCEPTION VIEW Mutatja az ˆsszes
-	aktu·lis kivÈtelt; ha megadsz egy tetszıleges maszkot,
-	korl·tozza azokat a kivÈteleket, melyekre r·illik a maszk.
-	A k¸lˆnbsÈg a kÈt parancs kˆzˆtt az, hogy az
-	EXCEPTION VIEW sokkal rÈszletesebb, megjelenÌti a
-	kivÈtelt felrakÛ nevÈt a session korl·tot, indokot, 
-	hostmaszkot Ès a lej·rati idıt,Èa a kivÈtel legutolsÛ
-	"haszn·lati" idejÈt.
+	EXCEPTION ADD hozz√°adja a hostmaszkot a kiv√©tellist√°hoz.
+	Vedd figyelembe, hogy a nick!user@host √©s user@host
+	maszkok √©rv√©nytelenek! Csak val√≥s hostmaszkok, mint pl.
+	box.host.dom √©s *.host.dom, megengedettek, a session
+	korl√°toz√°smaszkja nem vesz fel nicknevet/felhaszn√°l√≥nevet.
+	A korl√°tlegyen egy null√°val egyenl≈ë vagy nagyobb sz√°m.
+	Ez hat√°rozza meg, hogy h√°ny sessiont vihet mag√°val a host
+	egyid≈ëben. A nulla azt jelenti, hogy a hostnak korl√°tlan
+	sz√°m√∫ sessionja lehet. L√°sd az AKILL helpet a r√©szletek
+	fel√∂l a form√°r√≥l a sz√ºks√©ges lej√°rati parameterr≈ël.
+	EXCEPTION DEL T√∂rli a megadott maszkot a kiv√©tel lit√°r√≥l	
+	EXCEPTION MOVE m√≥dis√≠tja a kiv√©tel pozici√≥sz√°m√°t. A 
+	kiv√©telek fel-le mozgatja, az √ºres helyekre is.
+	EXCEPTION LIST √©s EXCEPTION VIEW Mutatja az √∂sszes
+	aktu√°lis kiv√©telt; ha megadsz egy tetsz≈ëleges maszkot,
+	korl√°tozza azokat a kiv√©teleket, melyekre r√°illik a maszk.
+	A k√ºl√∂nbs√©g a k√©t parancs k√∂z√∂tt az, hogy az
+	EXCEPTION VIEW sokkal r√©szletesebb, megjelen√≠ti a
+	kiv√©telt felrak√≥ nev√©t a session korl√°tot, indokot, 
+	hostmaszkot √©s a lej√°rati id≈ët,√©a a kiv√©tel legutols√≥
+	"haszn√°lati" idej√©t.
 	
-	Vedd figyelembe, a csatlakozÛ kliens a r·illı kivÈtelek
-	kˆz¸l mindig az elsıt haszn·lja. Hatalmas kivÈtellist·k
-	Ès szÈleskˆr˚ kivÈtelmaszkok csˆkkenthetik a SzervÌz 
-	teljesÌtmÈnyÈt.
+	Vedd figyelembe, a csatlakoz√≥ kliens a r√°ill≈ë kiv√©telek
+	k√∂z√ºl mindig az els≈ët haszn√°lja. Hatalmas kiv√©tellist√°k
+	√©s sz√©lesk√∂r≈± kiv√©telmaszkok cs√∂kkenthetik a Szerv√≠z 
+	teljes√≠tm√©ny√©t.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 
 OPER_HELP_SESSION
 	Syntax: SESSION LIST threshold
 	        SESSION VIEW host
 	
-	Megengedi a SzervÌz adminoknak, hogy megtekintsÈk a 
-	session list·t.
+	Megengedi a Szerv√≠z adminoknak, hogy megtekints√©k a 
+	session list√°t.
 
-	SESSION LIST  kilist·zza azokat a hostokat, amelyeknek
-	legal·bb hat·rÈrtÈksessionjuk van. …rtÈk legyen 1-nÈl
-	nagyobb sz·m,hogy megelızze az egy session˙ak kilist·z·s·t
-	SESSION VIEWmegjelenÌti a host rÈszletes inform·ciÛit,
-	tartalmazva a jelenlegi session sz·mot, session korl·tot.
-	A host ÈrtÈke nem tartalmazhat maszkkaraktereket.
+	SESSION LIST  kilist√°zza azokat a hostokat, amelyeknek
+	legal√°bb hat√°r√©rt√©ksessionjuk van. √ârt√©k legyen 1-n√©l
+	nagyobb sz√°m,hogy megel≈ëzze az egy session√∫ak kilist√°z√°s√°t
+	SESSION VIEWmegjelen√≠ti a host r√©szletes inform√°ci√≥it,
+	tartalmazva a jelenlegi session sz√°mot, session korl√°tot.
+	A host √©rt√©ke nem tartalmazhat maszkkaraktereket.
 	
-	L·sd az EXCEPTION helpjÈt tov·bbi inform·ciÛÈrt a 
-	session-korl·toz·ssal Ès azzal kapcsolatban,hogyan ·llÌts
-	be k¸lˆnleges korl·tokat bizonyos hostokra Ès csoportokra.
+	L√°sd az EXCEPTION helpj√©t tov√°bbi inform√°ci√≥√©rt a 
+	session-korl√°toz√°ssal √©s azzal kapcsolatban,hogyan √°ll√≠ts
+	be k√ºl√∂nleges korl√°tokat bizonyos hostokra √©s csoportokra.
 	
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 
 OPER_HELP_STAFF
 	Syntax: STAFF
 
-	Kijelzi az ˆsszes szervÌz rÈsztvevı nickjÈt, szintjÈt Ès 
-	on-line helyzetÈt.
+	Kijelzi az √∂sszes szerv√≠z r√©sztvev≈ë nickj√©t, szintj√©t √©s 
+	on-line helyzet√©t.
 
 OPER_HELP_DEFCON
 	Syntax: DEFCON [1|2|3|4|5]
 
-	A defcon rendszer kÈpes haszn·lni elıre be·llÌtott
-	korl·toz·st a szervÌz haszn·latban egy t·mad·s alkalm·val
-	a h·lÛzaton.
+	A defcon rendszer k√©pes haszn√°lni el≈ëre be√°ll√≠tott
+	korl√°toz√°st a szerv√≠z haszn√°latban egy t√°mad√°s alkalm√°val
+	a h√°l√≥zaton.
 
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
-	* Nem lehet ˙j csatorn·t regisztr·lni.
+	* Nem lehet √∫j csatorn√°t regisztr√°lni.
 OPER_HELP_DEFCON_NO_NEW_NICKS
-	* Nem lehet ˙j nicket regisztr·lni.
+	* Nem lehet √∫j nicket regisztr√°lni.
 OPER_HELP_DEFCON_NO_MLOCK_CHANGE
-	* Nincs MLOCK mÛdosÌt·s
+	* Nincs MLOCK m√≥dos√≠t√°s
 OPER_HELP_DEFCON_FORCE_CHAN_MODES
-	* Be·llÌtja a kˆvetkezı mÛdokat: (%s) az ˆsszes csatorn·n.
+	* Be√°ll√≠tja a k√∂vetkez≈ë m√≥dokat: (%s) az √∂sszes csatorn√°n.
 OPER_HELP_DEFCON_REDUCE_SESSION
-	* Haszn·lva a csˆkkentett session korl·t: %d.
+	* Haszn√°lva a cs√∂kkentett session korl√°t: %d.
 OPER_HELP_DEFCON_NO_NEW_CLIENTS
-	* Killelve lesz minden ˙j felhaszn·lÛ csatlakoz·sn·l. 
+	* Killelve lesz minden √∫j felhaszn√°l√≥ csatlakoz√°sn√°l. 
 OPER_HELP_DEFCON_OPER_ONLY
-	* Mellızve minden nem oper·tortÛl jˆvı ¸zenet
+	* Mell≈ëzve minden nem oper√°tort√≥l j√∂v≈ë √ºzenet
 OPER_HELP_DEFCON_SILENT_OPER_ONLY
-	* Csendes mellızÈs, csak oper·torok
+	* Csendes mell≈ëz√©s, csak oper√°torok
 OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
-	* AKILL minden ˙j kliensre csatlakoz·skor.
+	* AKILL minden √∫j kliensre csatlakoz√°skor.
 OPER_HELP_DEFCON_NO_NEW_MEMOS
-	* Nem lehet ˙j memot k¸ldeni
+	* Nem lehet √∫j memot k√ºldeni
 OPER_HELP_CHANKILL
-	Syntax: CHANKILL [+lej·rat] #szobaindok
+	Syntax: CHANKILL [+lej√°rat] #szobaindok
 
-	Akillre tesz minden nicket az adott csatorn·n. Ez a lÈtezo
-	Ès teljesen valÛs ident@host maszkot haszn·lja, minden 
-	nick esetÈben vÈgrehajtja az AKILLt.
+	Akillre tesz minden nicket az adott csatorn√°n. Ez a l√©tezo
+	√©s teljesen val√≥s ident@host maszkot haszn√°lja, minden 
+	nick eset√©ben v√©grehajtja az AKILLt.
 
 ###########################################################################
 #
-# HÌr rendszer ¸zenetek
+# H√≠r rendszer √ºzenetek
 #
 ###########################################################################
 
 NEWS_LOGON_TEXT
-	[FellÈpÈsi HÌr] - %s %s
+	[Fell√©p√©si H√≠r] - %s %s
 NEWS_OPER_TEXT
-	[Oper HÌr] - %s %s
+	[Oper H√≠r] - %s %s
 NEWS_RANDOM_TEXT
-	[VÈletlenszer˚ HÌr] - %s %s
+	[V√©letlenszer≈± H√≠r] - %s %s
 
 NEWS_LOGON_SYNTAX
-	LOGONNEWS { ADD | DEL | LIST } [szˆveg|sz·m]
+	LOGONNEWS { ADD | DEL | LIST } [sz√∂veg|sz√°m]
 NEWS_LOGON_LIST_HEADER
-	FellÈpÈsi hÌrek:
+	Fell√©p√©si h√≠rek:
 NEWS_LOGON_LIST_ENTRY
-	%5d (%s %s ·ltal)
+	%5d (%s %s √°ltal)
 	    %s
 NEWS_LOGON_LIST_NONE
-	Nincs fellÈpı ¸zenet.
+	Nincs fell√©p≈ë √ºzenet.
 NEWS_LOGON_ADD_SYNTAX
-	LOGONNEWS ADD szˆveg
+	LOGONNEWS ADD sz√∂veg
 NEWS_LOGON_ADD_FULL
-	A HÌrlista tele!
+	A H√≠rlista tele!
 NEWS_LOGON_ADDED
-	Hozz·adva az ˙j fellÈpÈsi hÌr: (#%d).
+	Hozz√°adva az √∫j fell√©p√©si h√≠r: (#%d).
 NEWS_LOGON_DEL_SYNTAX
-	LOGONNEWS DEL {sz·m | ALL}
+	LOGONNEWS DEL {sz√°m | ALL}
 NEWS_LOGON_DEL_NOT_FOUND
-	Logon news tÈtel #%d nem tal·lhatÛ!
+	Logon news t√©tel #%d nem tal√°lhat√≥!
 NEWS_LOGON_DELETED
-	Logon news tÈtel #%d tˆrˆlve.
+	Logon news t√©tel #%d t√∂r√∂lve.
 NEWS_LOGON_DEL_NONE
-	Nincs tˆrˆlhetı fellÈpÈsi hÌr!
+	Nincs t√∂r√∂lhet≈ë fell√©p√©si h√≠r!
 NEWS_LOGON_DELETED_ALL
-	÷sszes fellÈpÈsi hÌr tÈtel tˆrˆlve.
+	√ñsszes fell√©p√©si h√≠r t√©tel t√∂r√∂lve.
 
 NEWS_OPER_SYNTAX
-	Syntax: OPERNEWS { ADD | DEL |LIST } [ szˆveg | sz·m ]
+	Syntax: OPERNEWS { ADD | DEL |LIST } [ sz√∂veg | sz√°m ]
 NEWS_OPER_LIST_HEADER
-	Oper hÌrek list·ja:
+	Oper h√≠rek list√°ja:
 NEWS_OPER_LIST_ENTRY
-	%5d (%s %s ·ltal)
+	%5d (%s %s √°ltal)
 	    %s
 NEWS_OPER_LIST_NONE
 	Nincs oper news.
 NEWS_OPER_ADD_SYNTAX
-	Syntax: OPERNEWS ADD szˆveg
+	Syntax: OPERNEWS ADD sz√∂veg
 NEWS_OPER_ADD_FULL
-	Az Oper hÌrek list·ja tele van!
+	Az Oper h√≠rek list√°ja tele van!
 NEWS_OPER_ADDED
-	Hozz·adva az ˙j oper hÌr:(#%d).
+	Hozz√°adva az √∫j oper h√≠r:(#%d).
 NEWS_OPER_DEL_SYNTAX
-	Syntax: OPERNEWS DEL {sz·m | ALL}
+	Syntax: OPERNEWS DEL {sz√°m | ALL}
 NEWS_OPER_DEL_NOT_FOUND
-	Oper news tÈtel #%d nem tal·lhatÛ!
+	Oper news t√©tel #%d nem tal√°lhat√≥!
 NEWS_OPER_DELETED
-	Oper news tÈtel #%d tˆrˆlve.
+	Oper news t√©tel #%d t√∂r√∂lve.
 NEWS_OPER_DEL_NONE
-	Nincs tˆrˆlhetı opernews tÈtel!
+	Nincs t√∂r√∂lhet≈ë opernews t√©tel!
 NEWS_OPER_DELETED_ALL
-	÷sszes oper hÌr tˆrˆlve.
+	√ñsszes oper h√≠r t√∂r√∂lve.
 
 NEWS_RANDOM_SYNTAX
-	RANDOMNEWS { ADD | DEL | LIST } [ szˆveg | sz·m ]
+	RANDOMNEWS { ADD | DEL | LIST } [ sz√∂veg | sz√°m ]
 NEWS_RANDOM_LIST_HEADER
-	VÈletlenszer˚ hÌrek list·ja:
+	V√©letlenszer≈± h√≠rek list√°ja:
 NEWS_RANDOM_LIST_ENTRY
-	%5d (%s %s ·ltal)
+	%5d (%s %s √°ltal)
 	    %s
 NEWS_RANDOM_LIST_NONE
-	Nincs vÈletlenszer˚ hÌr.
+	Nincs v√©letlenszer≈± h√≠r.
 NEWS_RANDOM_ADD_SYNTAX
-	RANDOMNEWS ADD szˆveg
+	RANDOMNEWS ADD sz√∂veg
 NEWS_RANDOM_ADD_FULL
 	News lista tele!
 NEWS_RANDOM_ADDED
-	Hozz·adva az ˙j random news tÈtel (#%d).
+	Hozz√°adva az √∫j random news t√©tel (#%d).
 NEWS_RANDOM_DEL_SYNTAX
-	RANDOMNEWS DEL {sz·m | ALL}
+	RANDOMNEWS DEL {sz√°m | ALL}
 NEWS_RANDOM_DEL_NOT_FOUND
-	Random news tÈtel #%d nem tal·lhatÛ!
+	Random news t√©tel #%d nem tal√°lhat√≥!
 NEWS_RANDOM_DELETED
-	Random news tÈtel #%d tˆrˆlve.
+	Random news t√©tel #%d t√∂r√∂lve.
 NEWS_RANDOM_DEL_NONE
-	Nincs tˆrˆlhetı random news tÈtel!
+	Nincs t√∂r√∂lhet≈ë random news t√©tel!
 NEWS_RANDOM_DELETED_ALL
-	÷sszes random news tÈtel tˆrˆlve.
+	√ñsszes random news t√©tel t√∂r√∂lve.
 
 NEWS_HELP_LOGON
 	Syntax: LOGONNEWS ADD text
@@ -3371,50 +3371,50 @@ NEWS_HELP_OPER
 	OPERNEWS may only be used by Services admins. 
 
 NEWS_HELP_RANDOM
-	Syntax: RANDOMNEWS ADD szˆveg
-	        RANDOMNEWS DEL {sorsz·m | ALL}
+	Syntax: RANDOMNEWS ADD sz√∂veg
+	        RANDOMNEWS DEL {sorsz√°m | ALL}
 	        RANDOMNEWS LIST
 	
-	Szerkeszti Ès list·zza a random news ¸zeneteket. Amikor
-	egy felhaszn·lÛ csatlakozik a h·lÛzathoz, egy (csak egy)
-	random newst fog vÈletlenszer˚en elk¸ldeni rÈszÈre.
+	Szerkeszti √©s list√°zza a random news √ºzeneteket. Amikor
+	egy felhaszn√°l√≥ csatlakozik a h√°l√≥zathoz, egy (csak egy)
+	random newst fog v√©letlenszer≈±en elk√ºldeni r√©sz√©re.
 	
 	RANDOMNEWS may only be used by Services admins. 
 	
 ###########################################################
 #
-# HelpSzerv segÌtsÈg ¸zenetei
+# HelpSzerv seg√≠ts√©g √ºzenetei
 #
 ###########################################################
 
 HELP_HELP
-	%S egy szolg·ltat·s melynek a feladata, hogy eligazÌt·st
-	adjon a SzervÌzzel kapcsolatos inform·ciÛkban.
-	A kˆvetkezı tÈmakˆrˆk Èrhetık el m·s Services kliensekrıl:
+	%S egy szolg√°ltat√°s melynek a feladata, hogy eligaz√≠t√°st
+	adjon a Szerv√≠zzel kapcsolatos inform√°ci√≥kban.
+	A k√∂vetkez≈ë t√©mak√∂r√∂k √©rhet≈ëk el m√°s Services kliensekr≈ël:
 
 	%R%s HELP
-	     A nicknÈv regisztr·ciÛval kapcsolatos inform·ciÛkrÛl.
+	     A nickn√©v regisztr√°ci√≥val kapcsolatos inform√°ci√≥kr√≥l.
 
 	%R%s HELP
-	     A szoba regisztr·ciÛval Ès karbantart·ssal 
-	     kapcsolatos inform·ciÛkrÛl
+	     A szoba regisztr√°ci√≥val √©s karbantart√°ssal 
+	     kapcsolatos inform√°ci√≥kr√≥l
 
 	%R%s HELP
-	     ‹zenetek k¸ldÈse offline (regisztr·lt) usereknek.
+	     √úzenetek k√ºld√©se offline (regisztr√°lt) usereknek.
 
 HELP_HELP_BOT
 
 	%R%s HELP
-	     SzervÌz bot fel·llÌt·s·hoz a csatorn·dra.
+	     Szerv√≠z bot fel√°ll√≠t√°s√°hoz a csatorn√°dra.
 
 HELP_HELP_HOST
 
 	%R%s HELP
-	     Vhost igÈnylÈsrıl bıvebb inform·ciÛkÈrt.
+	     Vhost ig√©nyl√©sr≈ël b≈ëvebb inform√°ci√≥k√©rt.
 	
 ###########################################################
 #
-# NickServ segÌtsÈg ¸zenetei
+# NickServ seg√≠ts√©g √ºzenetei
 #
 ###########################################################
 NICK_HELP_CMD_CONFIRM
@@ -3423,25 +3423,25 @@ NICK_HELP_CMD_RESEND
 	    RESEND     Resend a nickserv auth code
 
 NICK_HELP_CMD_REGISTER
-	    REGISTER   NicknÈv regisztr·ciÛ
+	    REGISTER   Nickn√©v regisztr√°ci√≥
 NICK_HELP_CMD_GROUP
-	    GROUP      Csatlakoz·s egy csoporthoz
+	    GROUP      Csatlakoz√°s egy csoporthoz
 NICK_HELP_CMD_IDENTIFY
-	    IDENTIFY   Jelszavas azonosÌt·s
+	    IDENTIFY   Jelszavas azonos√≠t√°s
 NICK_HELP_CMD_ACCESS
-	    ACCESS     A hozz·fÈrÈsi lista mÛdosÌt·sa
+	    ACCESS     A hozz√°f√©r√©si lista m√≥dos√≠t√°sa
 NICK_HELP_CMD_SET
-	    SET        OpciÛk be·llÌt·sa, pÈld·ul kill vÈdelem
+	    SET        Opci√≥k be√°ll√≠t√°sa, p√©ld√°ul kill v√©delem
 NICK_HELP_CMD_SASET
 	    SASET      Set SET-options on another nickname
 NICK_HELP_CMD_DROP
-	    DROP       NicknÈv regisztr·ciÛj·nak tˆrlÈse
+	    DROP       Nickn√©v regisztr√°ci√≥j√°nak t√∂rl√©se
 NICK_HELP_CMD_RECOVER
-	    RECOVER    Killeli a nickedet haszn·lÛ usert
+	    RECOVER    Killeli a nickedet haszn√°l√≥ usert
 NICK_HELP_CMD_RELEASE
-	    RELEASE    Visszaadja a neved a RECOVER ut·n
+	    RELEASE    Visszaadja a neved a RECOVER ut√°n
 NICK_HELP_CMD_SENDPASS
-	    SENDPASS   Elfelejtetted a jelszavad? PrÛb·ld ezt
+	    SENDPASS   Elfelejtetted a jelszavad? Pr√≥b√°ld ezt
 NICK_HELP_CMD_GHOST
 	    GHOST      Disconnects a "ghost" IRC session using your nick
 NICK_HELP_CMD_ALIST
@@ -3459,290 +3459,290 @@ NICK_HELP_CMD_STATUS
 NICK_HELP_CMD_UPDATE
 	    UPDATE     Updates your current status, i.e. it checks for new memos
 NICK_HELP_CMD_GETPASS
-	    GETPASS    Kiirja a jeszav·t a nicknÈvnek
-	               (encryption esetÈn nem haszn·lhatÛ)
+	    GETPASS    Kiirja a jeszav√°t a nickn√©vnek
+	               (encryption eset√©n nem haszn√°lhat√≥)
 NICK_HELP_CMD_GETEMAIL
-	    GETEMAIL   KiÌrja az ilyen e-mail cÌmmel regisztr·lt
-	               felhaszn·lÛkat
+	    GETEMAIL   Ki√≠rja az ilyen e-mail c√≠mmel regisztr√°lt
+	               felhaszn√°l√≥kat
 NICK_HELP_CMD_FORBID
-	    FORBID     Megelızi, hogy a nicknÈv regisztr·lt legyen
+	    FORBID     Megel≈ëzi, hogy a nickn√©v regisztr√°lt legyen
 NICK_HELP_CMD_SUSPEND
 	    SUSPEND    Suspend a given nick
 NICK_HELP_CMD_UNSUSPEND
 	    UNSUSPEND  Unsuspend a given nick
 
 NICK_HELP
-	%S lehetısÈget ny˙jt a "register" parancs haszn·lat·val
-	a nickneved regisztr·l·s·ra, ezzel megelızi, hogy m·s is
-	haszn·lhassa a nicked. A NickServ parancsokkal
-	Ìr·nyÌthatÛ. Az adott parancs szintaktik·j·t megkapod, ha
-	beÌrod, hogy: %R%S parancs, l·sd mÈg a
+	%S lehet≈ës√©get ny√∫jt a "register" parancs haszn√°lat√°val
+	a nickneved regisztr√°l√°s√°ra, ezzel megel≈ëzi, hogy m√°s is
+	haszn√°lhassa a nicked. A NickServ parancsokkal
+	√≠r√°ny√≠that√≥. Az adott parancs szintaktik√°j√°t megkapod, ha
+	be√≠rod, hogy: %R%S parancs, l√°sd m√©g a
 	%R%S HELP parancs.
 	
 NICK_HELP_FOOTER
-	MegjegyzÈs: Ez a szolg·ltat·s szeretnÈ biztosÌtani az 
-	IRC felhaszn·lok sz·m·ra hogy a kilÈt¸ket ne lehessen 
-	kompromit·lni. Egy·ltal·n NEM azt szolg·lja, hogy 
-	lehetısÈget ny˙jtson nicknevek "lop·s·ra" vagy m·s
-	erkˆlcstelen akciÛkra. A %S segÌtsÈgÈvel elkˆvetett
-	visszaÈlÈs jutalma minimum az visszaÈlı nickjÈnek
-	elvesztÈse.
+	Megjegyz√©s: Ez a szolg√°ltat√°s szeretn√© biztos√≠tani az 
+	IRC felhaszn√°lok sz√°m√°ra hogy a kil√©t√ºket ne lehessen 
+	kompromit√°lni. Egy√°ltal√°n NEM azt szolg√°lja, hogy 
+	lehet≈ës√©get ny√∫jtson nicknevek "lop√°s√°ra" vagy m√°s
+	erk√∂lcstelen akci√≥kra. A %S seg√≠ts√©g√©vel elk√∂vetett
+	vissza√©l√©s jutalma minimum az vissza√©l≈ë nickj√©nek
+	elveszt√©se.
 	
 NICK_HELP_EXPIRES
-	Ha egy regisztr·lt nicknevet %d napig nem haszn·lnak, akkor
-	a regisztr·ciÛja elÈv¸l, a nicknevet b·rki regisztr·lhatja,
-	Ès haszn·lhatja.
+	Ha egy regisztr√°lt nicknevet %d napig nem haszn√°lnak, akkor
+	a regisztr√°ci√≥ja el√©v√ºl, a nicknevet b√°rki regisztr√°lhatja,
+	√©s haszn√°lhatja.
 
 NICK_HELP_REGISTER
-	Syntax: REGISTER jelszÛ [email]
+	Syntax: REGISTER jelsz√≥ [email]
 	
-	Regisztr·lja a nickneved a %S adatb·zis·ba. Amint a nicked
-	regisztr·ltad, haszn·lhatod a SET Ès ACCESS parancsokat,
-	hogy konfigur·ljad a nicked be·llÌt·sait. Olyan jelszÛt 
-	v·lassz, amire emlÈkezni fogsz, hogy haszn·lni tudd a neved
-	Ès a be·llÌt·sokat eszkˆzˆlhesd. KÈsıbb sz¸ksÈged lehet a
-	nickeddel kapcsolatos be·llÌt·sok vÈgrehajt·s·ra.
-	(Jegyzet: PROBL…M¡T OKOZHAT FIDO, Fido, Ès fido
-	mind k¸lˆnbˆzı jelszavak!)
+	Regisztr√°lja a nickneved a %S adatb√°zis√°ba. Amint a nicked
+	regisztr√°ltad, haszn√°lhatod a SET √©s ACCESS parancsokat,
+	hogy konfigur√°ljad a nicked be√°ll√≠t√°sait. Olyan jelsz√≥t 
+	v√°lassz, amire eml√©kezni fogsz, hogy haszn√°lni tudd a neved
+	√©s a be√°ll√≠t√°sokat eszk√∂z√∂lhesd. K√©s≈ëbb sz√ºks√©ged lehet a
+	nickeddel kapcsolatos be√°ll√≠t√°sok v√©grehajt√°s√°ra.
+	(Jegyzet: PROBL√âM√ÅT OKOZHAT FIDO, Fido, √©s fido
+	mind k√ºl√∂nb√∂z≈ë jelszavak!)
 
-	⁄tikala˙z jelszÛ v·laszt·shoz:
+	√ötikala√∫z jelsz√≥ v√°laszt√°shoz:
 	
-	A jelszavad ne legyen kˆnnyen kital·lhatÛ. PÈld·ul az
-	·ltalad haszn·lt valÛsnevet megadni jelszÛnak rossz ˆtlet.
-	A nickneved haszn·lni jelszÛnak mÈg rosszabb ˆtlet ;) Ès
-	a %S nem is engedi. A rˆvid jelszavak is rosszak a vÈdelem
-	szempontj·bÛl, ezÈrt v·lassz legal·bb 5 karakter hossz˙t.
-	VÈgezet¸l ne haszn·lhatsz szÛkˆzt a jelszÛban.
+	A jelszavad ne legyen k√∂nnyen kital√°lhat√≥. P√©ld√°ul az
+	√°ltalad haszn√°lt val√≥snevet megadni jelsz√≥nak rossz √∂tlet.
+	A nickneved haszn√°lni jelsz√≥nak m√©g rosszabb √∂tlet ;) √©s
+	a %S nem is engedi. A r√∂vid jelszavak is rosszak a v√©delem
+	szempontj√°b√≥l, ez√©rt v√°lassz legal√°bb 5 karakter hossz√∫t.
+	V√©gezet√ºl ne haszn√°lhatsz sz√≥k√∂zt a jelsz√≥ban.
 	
-	Aze-mail paramÈter megad·s lehetsÈges, megad·sakor
-	be·llÌtja a nickedhez. Megad·sa a legtˆbb h·lÛzaton
-	sz¸ksÈges. Az e-mail cÌmed nem ker¸l harmadik szemÈly
-	tudt·ra, bizalmasan kezelj¸k.
+	Aze-mail param√©ter megad√°s lehets√©ges, megad√°sakor
+	be√°ll√≠tja a nickedhez. Megad√°sa a legt√∂bb h√°l√≥zaton
+	sz√ºks√©ges. Az e-mail c√≠med nem ker√ºl harmadik szem√©ly
+	tudt√°ra, bizalmasan kezelj√ºk.
 	
-	Ez a parancs lÈtrehoz egy ˙j csoportot a nickeddel, ami
-	lehetıvÈ teszi sz·modra, hogy m·sik nickeket regisztr·lva
-	megoszthasd a hozz·fÈrÈseidet Ès be·llÌt·saidat a nickjeid
-	kˆzˆtt. Bıvebb inform·ciÛkÈrt Ìrd be: %R%S HELP GROUP
+	Ez a parancs l√©trehoz egy √∫j csoportot a nickeddel, ami
+	lehet≈ëv√© teszi sz√°modra, hogy m√°sik nickeket regisztr√°lva
+	megoszthasd a hozz√°f√©r√©seidet √©s be√°ll√≠t√°saidat a nickjeid
+	k√∂z√∂tt. B≈ëvebb inform√°ci√≥k√©rt √≠rd be: %R%S HELP GROUP
 
 NICK_HELP_GROUP
-	Syntax: GROUP cÈlnicknÈv jelszÛ
+	Syntax: GROUP c√©lnickn√©v jelsz√≥
 	
-	A parancs belÈpteti a nickneved a cÈlnicknÈv csoportj·ba.
-	A jelszÛ a cÈlnicknÈv jelszav·nak kell lennie.
+	A parancs bel√©pteti a nickneved a c√©lnickn√©v csoportj√°ba.
+	A jelsz√≥ a c√©lnickn√©v jelszav√°nak kell lennie.
 	
-	A csoportba valÛ belÈpÈs lehetıvÈ teszi, hogy megoszd a
-	konfigur·ciÛt, memo ¸zeneteket, szoba hozz·fÈrÈseket
-	a nicknevekkel a csoportban, Ès sok m·s lehetısÈget ny˙jt!
+	A csoportba val√≥ bel√©p√©s lehet≈ëv√© teszi, hogy megoszd a
+	konfigur√°ci√≥t, memo √ºzeneteket, szoba hozz√°f√©r√©seket
+	a nicknevekkel a csoportban, √©s sok m√°s lehet≈ës√©get ny√∫jt!
 	 
-	A csoport addig lÈtezik, amig haszn·latban van.
-	Ez azt jelenti, ha egy nicknevet dropolnak a csoportbÛl,
-	nem fogod elveszteni a megosztott dolgokat, egÈszen addig,
-	amig legal·bb egy nick van a csoportban.
+	A csoport addig l√©tezik, amig haszn√°latban van.
+	Ez azt jelenti, ha egy nicknevet dropolnak a csoportb√≥l,
+	nem fogod elveszteni a megosztott dolgokat, eg√©szen addig,
+	amig legal√°bb egy nick van a csoportban.
 	
-	Akkor is haszn·lhatod a parancsot, ha mÈg nem regisztr·lt
-	a nicked. Ha a nicked regisztr·lt, akkor elıbb azonosÌtani
-	kell a jelszavaddal, mielıtt ezt a parancsot haszn·lod.
-	Õrd be:%R%S HELP IDENTIFY bıvebb inform·ciÛÈrt.
+	Akkor is haszn√°lhatod a parancsot, ha m√©g nem regisztr√°lt
+	a nicked. Ha a nicked regisztr√°lt, akkor el≈ëbb azonos√≠tani
+	kell a jelszavaddal, miel≈ëtt ezt a parancsot haszn√°lod.
+	√çrd be:%R%S HELP IDENTIFY b≈ëvebb inform√°ci√≥√©rt.
 	
-	Aj·nlott, hogy ink·bb nem regisztr·lt nÈvvel haszn·ld
-	ezt a parancsot, mert ezzel automatikusan regisztr·lÛdik.
-	Ha regiszt·lt nickrıl haszn·lod (hogy megv·ltoztasd a
-	csoportod) csak akkor m˚kˆdik, ha a network adminok ezt
-	engedÈlyezik.
+	Aj√°nlott, hogy ink√°bb nem regisztr√°lt n√©vvel haszn√°ld
+	ezt a parancsot, mert ezzel automatikusan regisztr√°l√≥dik.
+	Ha regiszt√°lt nickr≈ël haszn√°lod (hogy megv√°ltoztasd a
+	csoportod) csak akkor m≈±k√∂dik, ha a network adminok ezt
+	enged√©lyezik.
 	
 	Egyszerre egy csoportban lehetsz. 
 	
-	MegjegyzÈs: minden nicknÈvnek a csoportban ugyanaz
+	Megjegyz√©s: minden nickn√©vnek a csoportban ugyanaz
 			 a jelszava.
 
 NICK_HELP_IDENTIFY
-	Syntax: IDENTIFY jelszÛ
+	Syntax: IDENTIFY jelsz√≥
 	
 	Tudatja a %S-vel, hogy te vagy a tulajdonosa ennek a 
-	nicknek. JelszÛnak ugyanannak kell lennie amit a 
-	regisztr·ciÛn·l megadt·l, vagy amire mÛdosÌtottad.
+	nicknek. Jelsz√≥nak ugyanannak kell lennie amit a 
+	regisztr√°ci√≥n√°l megadt√°l, vagy amire m√≥dos√≠tottad.
 
 NICK_HELP_UPDATE
 	Syntax: UPDATE
 
-	FrissÌti a jelenlegi st·tuszod, vagyis ellenırzi, hogy 
-	jˆtt-e ˙j memo ¸zenet, be·llÌtja a sz¸ksÈges szoba 
-	mÛdokat, (ModeonID)Ès frissÌti a vhostod, az userflagjeid
-	(utolsÛ fellÈpÈs, stb.)
+	Friss√≠ti a jelenlegi st√°tuszod, vagyis ellen≈ërzi, hogy 
+	j√∂tt-e √∫j memo √ºzenet, be√°ll√≠tja a sz√ºks√©ges szoba 
+	m√≥dokat, (ModeonID)√©s friss√≠ti a vhostod, az userflagjeid
+	(utols√≥ fell√©p√©s, stb.)
 	
 NICK_HELP_LOGOUT
 	Syntax: LOGOUT
 	
-	Ezzel az IDENTIFY parancs hat·s·nak fordÌtottj·t Èred el.
-	Nem fog a NickServ egy adott nick tulajdonos·nak tekinteni.
+	Ezzel az IDENTIFY parancs hat√°s√°nak ford√≠tottj√°t √©red el.
+	Nem fog a NickServ egy adott nick tulajdonos√°nak tekinteni.
 	
 NICK_HELP_DROP
-	Syntax: DROP [nicknÈv]
+	Syntax: DROP [nickn√©v]
 	
-	Regisztr·ciÛ tˆrlÈse (dropolja) a nickneved a %S
-	adatb·zis·bÛl. A droppol·s ut·n a nicknÈv m·r szabadon
-	hszn·lhatÛ b·rki ·ltal, ˙jra regisztr·lhatÛ lesz.
+	Regisztr√°ci√≥ t√∂rl√©se (dropolja) a nickneved a %S
+	adatb√°zis√°b√≥l. A droppol√°s ut√°n a nickn√©v m√°r szabadon
+	hszn√°lhat√≥ b√°rki √°ltal, √∫jra regisztr√°lhat√≥ lesz.
 	
-	⁄gy dropolhatsz nevet a csoportodbÛl, ha megadod a 
-	nicknÈv paramÈtert.
+	√ögy dropolhatsz nevet a csoportodb√≥l, ha megadod a 
+	nickn√©v param√©tert.
 
-	Ezen parancs kiad·sa elıtt, azonositanod kell magad,
-	mint a nick tulajdonosa, haszn·lva az IDENTIFY parancsot,
-	Ìrd be: %R%S HELP IDENTIFY bıvebb inform·ciÛÈrt. 
+	Ezen parancs kiad√°sa el≈ëtt, azonositanod kell magad,
+	mint a nick tulajdonosa, haszn√°lva az IDENTIFY parancsot,
+	√≠rd be: %R%S HELP IDENTIFY b≈ëvebb inform√°ci√≥√©rt. 
 
 NICK_HELP_ACCESS
 	Syntax: ACCESS ADD maszk
 	        ACCESS DEL maszk
 	        ACCESS LIST
 	
-	MÛdosÌtja vagy kiirja a hozz·fÈrÈsi list·t a nickedhez.
-	Ez azon cÌmeknek a list·ja, amelyek automatikusan ˙gy 
-	tekintıdnek a %S-ben, hogy engedÈly¸k van a nicket 
-	haszn·lni. Ha a nicked m·s cÌmekrıl akarod haszn·lni,
-	akkor nem kell IDENTIFY parancsot k¸ldened, hogy ˙gy
-	legyÈl tekintve, a %S-ben, mint a nick tulajdonosa.
+	M√≥dos√≠tja vagy kiirja a hozz√°f√©r√©si list√°t a nickedhez.
+	Ez azon c√≠meknek a list√°ja, amelyek automatikusan √∫gy 
+	tekint≈ëdnek a %S-ben, hogy enged√©ly√ºk van a nicket 
+	haszn√°lni. Ha a nicked m√°s c√≠mekr≈ël akarod haszn√°lni,
+	akkor nem kell IDENTIFY parancsot k√ºldened, hogy √∫gy
+	legy√©l tekintve, a %S-ben, mint a nick tulajdonosa.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 	    ACCESS ADD anyone@*.bepeg.com
-	          Hozz·fÈrÈst engedÈlyez az anyone identnek b·rmely
-	          gÈprıl aminek a bepeg.com a domainje.
+	          Hozz√°f√©r√©st enged√©lyez az anyone identnek b√°rmely
+	          g√©pr≈ël aminek a bepeg.com a domainje.
 	
 	    ACCESS DEL anyone@*.bepeg.com
-	          Tˆrli az elˆzı parancsot.
+	          T√∂rli az el√∂z≈ë parancsot.
 	
 	    ACCESS LIST
-	          Megmutatja a hozz·fÈrÈsi list·t.
+	          Megmutatja a hozz√°f√©r√©si list√°t.
 
 NICK_HELP_SET
-	Syntax: SET opciÛ paramÈterek
+	Syntax: SET opci√≥ param√©terek
 	
-	Be·llÌthatÛ nicknÈv opciÛk. Az opciÛ ezek egyike lehet:
+	Be√°ll√≠that√≥ nickn√©v opci√≥k. Az opci√≥ ezek egyike lehet:
 	
 	    DISPLAY    Set the display of your group in Services
 	    PASSWORD   Set your nickname password
-	    LANGUAGE   A szervÌz nyelvezetÈnek megv·laszt·sa
-	    URL        Egy URL t·rsÌt·sa a nicknevedhez
-	    EMAIL      Egy E-mail cÌm t·rsÌt·sa a nicknevedhez
-	    ICQ        ICQ sz·m t·rsÌt·sa a nicknevedhez
-	    GREET      Kˆszˆntı ¸zenet t·rsÌt·sa a nicknevedhez
-	    KILL       A kill vÈdelem be-,kikapcsol·sa
-	    SECURE     A nickneved vÈdelmÈnek be-,kikapcsol·sa
-	    PRIVATE    A nickneved %R%S LIST -bÛl valÛ elrejtÈse
-	    HIDE       A nicknÈvhez tartozÛ inform·ciÛk elrejtÈse
-	    MSG        Megv·ltoztatja a szervÌzzel valÛ kommunik·ciÛt
+	    LANGUAGE   A szerv√≠z nyelvezet√©nek megv√°laszt√°sa
+	    URL        Egy URL t√°rs√≠t√°sa a nicknevedhez
+	    EMAIL      Egy E-mail c√≠m t√°rs√≠t√°sa a nicknevedhez
+	    ICQ        ICQ sz√°m t√°rs√≠t√°sa a nicknevedhez
+	    GREET      K√∂sz√∂nt≈ë √ºzenet t√°rs√≠t√°sa a nicknevedhez
+	    KILL       A kill v√©delem be-,kikapcsol√°sa
+	    SECURE     A nickneved v√©delm√©nek be-,kikapcsol√°sa
+	    PRIVATE    A nickneved %R%S LIST -b√≥l val√≥ elrejt√©se
+	    HIDE       A nickn√©vhez tartoz√≥ inform√°ci√≥k elrejt√©se
+	    MSG        Megv√°ltoztatja a szerv√≠zzel val√≥ kommunik√°ci√≥t
 	    AUTOOP     Should services op you automatically.    
 	    
-	Ezen parancs kiad·sa elıtt, azonositanod kell magad, mint
-	a nick tulajdonosa az IDENTIFY parancsot haszn·lva, Ìrd
-	be: %R%S HELP IDENTIFY bıvebb inform·ciÛÈrt. 
+	Ezen parancs kiad√°sa el≈ëtt, azonositanod kell magad, mint
+	a nick tulajdonosa az IDENTIFY parancsot haszn√°lva, √≠rd
+	be: %R%S HELP IDENTIFY b≈ëvebb inform√°ci√≥√©rt. 
 	
-	Õrd be: %R%S HELP SET opciÛ bıvebb inform·ciÛÈrt.
+	√çrd be: %R%S HELP SET opci√≥ b≈ëvebb inform√°ci√≥√©rt.
 	
 	
 NICK_HELP_SET_DISPLAY
-	Syntax: SET DISPLAY ˙j-megjelenÌtÈs
+	Syntax: SET DISPLAY √∫j-megjelen√≠t√©s
 	
-	Megv·ltoztatja a nicknÈv csoportod megjelenÌtÈsÈt a 
-	szervÌzben.	Az ˙j megjelenÌtÈsnek a csoport egyik
-	nickjÈnek KELL lennie.
+	Megv√°ltoztatja a nickn√©v csoportod megjelen√≠t√©s√©t a 
+	szerv√≠zben.	Az √∫j megjelen√≠t√©snek a csoport egyik
+	nickj√©nek KELL lennie.
 
 NICK_HELP_SET_PASSWORD
-	Syntax: SET PASSWORD ˙j-jelszÛ
+	Syntax: SET PASSWORD √∫j-jelsz√≥
 	
-	Megv·ltoztatja a nicknÈv tulajdonos·nak jelszav·t.
+	Megv√°ltoztatja a nickn√©v tulajdonos√°nak jelszav√°t.
 
 NICK_HELP_SET_LANGUAGE
-	Syntax: SET LANGUAGE sorsz·m
+	Syntax: SET LANGUAGE sorsz√°m
 
-	Megv·ltoztatja a SERVICES nyelvezetÈt, amin az ¸zenteket
-	Ìrja.(PÈld·ul: amikor v·laszol egy parancsra, amit te 
-	adt·l ki). A sorsz·m alapj·n v·laszd ki a nyelvezetet:
+	Megv√°ltoztatja a SERVICES nyelvezet√©t, amin az √ºzenteket
+	√≠rja.(P√©ld√°ul: amikor v√°laszol egy parancsra, amit te 
+	adt√°l ki). A sorsz√°m alapj√°n v√°laszd ki a nyelvezetet:
 	
 NICK_HELP_SET_URL
 	Syntax: SET URL url
 	
-	Egy URL t·rsÌt·sa a nicknevedhez. Ez az URL szerepelni fog
-	az INFO-idban, amit b·rki lekÈrhet az INFO paranccsal.
+	Egy URL t√°rs√≠t√°sa a nicknevedhez. Ez az URL szerepelni fog
+	az INFO-idban, amit b√°rki lek√©rhet az INFO paranccsal.
 
 NICK_HELP_SET_EMAIL
-	Syntax: SET EMAIL cÌm
+	Syntax: SET EMAIL c√≠m
 	
-	Egy E-mail cÌm t·rsÌt·sa a nicknevedhez.
-	Ez az E-mail cÌm szerepelni fog az INFO-id kˆzˆtt,
-	amit b·rki lekÈrhet az INFO paranccsal.
+	Egy E-mail c√≠m t√°rs√≠t√°sa a nicknevedhez.
+	Ez az E-mail c√≠m szerepelni fog az INFO-id k√∂z√∂tt,
+	amit b√°rki lek√©rhet az INFO paranccsal.
 	
 NICK_HELP_SET_ICQ
-	Syntax: SET ICQ sz·m
+	Syntax: SET ICQ sz√°m
 	
-	Az ICQ  sz·mod t·rsÌt·sa a nicknevedhez.
-	Ez a sz·m szerepelni fog az INFO-id kˆzˆtt,
-	amit b·rki lekÈrhet az INFO paranccsal.
+	Az ICQ  sz√°mod t√°rs√≠t√°sa a nicknevedhez.
+	Ez a sz√°m szerepelni fog az INFO-id k√∂z√∂tt,
+	amit b√°rki lek√©rhet az INFO paranccsal.
 	
 NICK_HELP_SET_GREET
-	Syntax: SET GREET ¸zenet
+	Syntax: SET GREET √ºzenet
 	
-	Ez az opciÛ t·rsÌt egy ¸zenetet a nicknevedhez,
-	ami akkor fog megjelenni belÈpÈskor, ha a csatorn·n
-	a GREET opciÛ engedÈlyezve van Ès te rendelkezel a
-	megfelelı szinttel, ami az ¸zenet megjelenitÈsÈhez
-	sz¸ksÈges a csatorn·n.
+	Ez az opci√≥ t√°rs√≠t egy √ºzenetet a nicknevedhez,
+	ami akkor fog megjelenni bel√©p√©skor, ha a csatorn√°n
+	a GREET opci√≥ enged√©lyezve van √©s te rendelkezel a
+	megfelel≈ë szinttel, ami az √ºzenet megjelenit√©s√©hez
+	sz√ºks√©ges a csatorn√°n.
 
 NICK_HELP_SET_KILL
 	Syntax: SET KILL {ON | QUICK | IMMED | OFF}
 	
-	Be/kikapcsolja az automatikus kill vÈdelmet a nickedhez.
-	A kill vÈdelem bekapcsol·sakor, ha m·s user megprÛb·lja
-	haszn·lni a nicked, kap egy percet mialatt meg kell
-	v·ltoztatnia a nickjÈt, ha letelt az idı akkor a %S 
-	megv·ltÛztatja a nickjÈt pl: VendÈg-000001-re.
+	Be/kikapcsolja az automatikus kill v√©delmet a nickedhez.
+	A kill v√©delem bekapcsol√°sakor, ha m√°s user megpr√≥b√°lja
+	haszn√°lni a nicked, kap egy percet mialatt meg kell
+	v√°ltoztatnia a nickj√©t, ha letelt az id≈ë akkor a %S 
+	megv√°lt√≥ztatja a nickj√©t pl: Vend√©g-000001-re.
 	
-	Ha a QUICK -et v·lasztod, a user csak 20 m·sodpercet kap
-	a nickv·lt·sra eltÈrıen az ·ltal·nos 60 m·sodperctıl.
-	Ha az IMMED-et v·lasztod akkor azonnal megv·ltÛztatja.
-	FigyelmeztetÈs nÈlk¸l,nem kap esÈlyt a nickv·lt·sra;
-	kÈrlek ne haszn·ld ezt az opciÛt csak ha nagyon indokolt.
-	A network adminisztr·torok letilthatj·k ezt.
+	Ha a QUICK -et v√°lasztod, a user csak 20 m√°sodpercet kap
+	a nickv√°lt√°sra elt√©r≈ëen az √°ltal√°nos 60 m√°sodperct≈ël.
+	Ha az IMMED-et v√°lasztod akkor azonnal megv√°lt√≥ztatja.
+	Figyelmeztet√©s n√©lk√ºl,nem kap es√©lyt a nickv√°lt√°sra;
+	k√©rlek ne haszn√°ld ezt az opci√≥t csak ha nagyon indokolt.
+	A network adminisztr√°torok letilthatj√°k ezt.
 	
 NICK_HELP_SET_SECURE
 	Syntax: SET SECURE {ON | OFF}
 	
-	Be/kikapcsolja a %S a biztons·gi be·llÌt·sokat a nickhez.
-	A SECURE be·llÌt·ssal, be kell Ìrnod a jelszavadat
-	mielıtt a nicknÈv tulajdonsakÈnt leszel tekintve,
-	kivÈve, ha a hosztod szerepel az access list·n.
-	Hab·r, ha az access list·n szerepel a hosztod, akkor
-	nem fog automatikusan nevet v·ltÛztatni a %S, hacsak
-	nincs bekapcsolva a KILL opciÛ.
+	Be/kikapcsolja a %S a biztons√°gi be√°ll√≠t√°sokat a nickhez.
+	A SECURE be√°ll√≠t√°ssal, be kell √≠rnod a jelszavadat
+	miel≈ëtt a nickn√©v tulajdonsak√©nt leszel tekintve,
+	kiv√©ve, ha a hosztod szerepel az access list√°n.
+	Hab√°r, ha az access list√°n szerepel a hosztod, akkor
+	nem fog automatikusan nevet v√°lt√≥ztatni a %S, hacsak
+	nincs bekapcsolva a KILL opci√≥.
 
 NICK_HELP_SET_PRIVATE
 	Syntax: SET PRIVATE {ON | OFF}
 	
-	Be/kikapcsolja a %S a priv·t opciÛt a nicknevedhez.
-	A PRIVATE be·llÌt·ssal, be·llÌthatod azt, hogy
-	a nickneved ne szerepeljen a nicknÈv list·ban ami 
-	lekÈrhetı a %S LIST paranccsal.
-	(M·sk¸lˆnben, b·rki kaphat inform·ciÛt a nicknevedrıl
-	haszn·lva az INFO parancsot.)
+	Be/kikapcsolja a %S a priv√°t opci√≥t a nicknevedhez.
+	A PRIVATE be√°ll√≠t√°ssal, be√°ll√≠thatod azt, hogy
+	a nickneved ne szerepeljen a nickn√©v list√°ban ami 
+	lek√©rhet≈ë a %S LIST paranccsal.
+	(M√°sk√ºl√∂nben, b√°rki kaphat inform√°ci√≥t a nicknevedr≈ël
+	haszn√°lva az INFO parancsot.)
 
 NICK_HELP_SET_HIDE
 	Syntax: SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 	
-	LehetısÈget ny˙jt arra, hogy megelızd nÈh·ny adatnak a
-	szerepelÈsÈt a %S INFO parancs haszn·latakor .
-	Elrejtheted az E-mail cÌmed (EMAIL), az utolj·ra haszn·lt
-	user@host maszkod (USERMASK), Ès az utolsÛ kilÈpı 
-	¸zeneted(QUIT).	A m·sodik paramÈter meghat·rozza, hogy 
-	az opciÛ ki legyen kapcsolva(OFF)	vagy el legyen rejtve
-	az inform·ciÛ(ON).
+	Lehet≈ës√©get ny√∫jt arra, hogy megel≈ëzd n√©h√°ny adatnak a
+	szerepel√©s√©t a %S INFO parancs haszn√°latakor .
+	Elrejtheted az E-mail c√≠med (EMAIL), az utolj√°ra haszn√°lt
+	user@host maszkod (USERMASK), √©s az utols√≥ kil√©p≈ë 
+	√ºzeneted(QUIT).	A m√°sodik param√©ter meghat√°rozza, hogy 
+	az opci√≥ ki legyen kapcsolva(OFF)	vagy el legyen rejtve
+	az inform√°ci√≥(ON).
 
 NICK_HELP_SET_MSG
 	Syntax: SET MSG {ON | OFF}
 	
-	LehetısÈget ny˙jt arra, hogy megv·laszd azt, hogy a szervÌz
-	hogyan kommunik·ljon veled.
-	Az MSG be·llÌt·ssal, a szervÌz, priv·t ¸zeneteket fog
-	haszn·lni, egyÈbkÈnt pedig noticeokat.
+	Lehet≈ës√©get ny√∫jt arra, hogy megv√°laszd azt, hogy a szerv√≠z
+	hogyan kommunik√°ljon veled.
+	Az MSG be√°ll√≠t√°ssal, a szerv√≠z, priv√°t √ºzeneteket fog
+	haszn√°lni, egy√©bk√©nt pedig noticeokat.
 
 NICK_HELP_SET_AUTOOP
 	Syntax: SET AUTOOP {ON | OFF}
@@ -3955,102 +3955,102 @@ NICK_HELP_RELEASE
 	the nickname.
 
 NICK_HELP_GHOST
-	Syntax: GHOST nickÈv [jelszÛ]
+	Syntax: GHOST nick√©v [jelsz√≥]
 	
-	Ezt a parancsot akkor haszn·lhatod, ha a nicked beragad, 
-	befagy pÈld·ul lefagy a gÈped vagy a kapcsolatod.
-	A beragadt nicked killelheted, ha ismered a jelszÛt .
+	Ezt a parancsot akkor haszn√°lhatod, ha a nicked beragad, 
+	befagy p√©ld√°ul lefagy a g√©ped vagy a kapcsolatod.
+	A beragadt nicked killelheted, ha ismered a jelsz√≥t .
 	
 NICK_HELP_INFO
-	Syntax: INFO nicknÈv [ALL]
+	Syntax: INFO nickn√©v [ALL]
 	
-	Megmutatja a nicknÈvvel kapcsolatos inform·ciÛkat, mint a
-	nick tulajdonosa, utolj·ra l·tott cÌme, regisztr·l·s ideje,
-	a nick opciÛkat. Ha beazonosÌtasz egy nickre, akkor minden 
-	informaciÛt megkaphatsz az ALL paramÈter haszn·lat·val 
-	Ès  Ìgy l·tni fogod a rejtett inform·ciÛkat is.
+	Megmutatja a nickn√©vvel kapcsolatos inform√°ci√≥kat, mint a
+	nick tulajdonosa, utolj√°ra l√°tott c√≠me, regisztr√°l√°s ideje,
+	a nick opci√≥kat. Ha beazonos√≠tasz egy nickre, akkor minden 
+	informaci√≥t megkaphatsz az ALL param√©ter haszn√°lat√°val 
+	√©s  √≠gy l√°tni fogod a rejtett inform√°ci√≥kat is.
 	
 NICK_HELP_LIST
-	Syntax: LIST paramÈter
+	Syntax: LIST param√©ter
 	
-	List·zza az ˆsszes regisztr·lt nicknevet, amely
-	megegyezik a mint·ban kiadott nick!user@host form·tummal.
-	Azok a nevek, amelyeken fent van PRIVATE opciÛ be·llÌt·s
-	NEM fognak megjelenni a list·ban.
+	List√°zza az √∂sszes regisztr√°lt nicknevet, amely
+	megegyezik a mint√°ban kiadott nick!user@host form√°tummal.
+	Azok a nevek, amelyeken fent van PRIVATE opci√≥ be√°ll√≠t√°s
+	NEM fognak megjelenni a list√°ban.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 	    LIST joeuser@foo.com
-	          List·z minden regisztr·lt nicknevet, amelyet utolj·ra:
-	           joeuser@foo.com cÌmrıl haszn·ltak.
+	          List√°z minden regisztr√°lt nicknevet, amelyet utolj√°ra:
+	           joeuser@foo.com c√≠mr≈ël haszn√°ltak.
 	
 	    LIST *Bot*
-	          List·z minden nicket amelyben szerepelt a Bot
+	          List√°z minden nicket amelyben szerepelt a Bot
 	
 	    LIST *@*.bar.org
-	          List·z minden nicket, amit utolj·ra olyan user haszn·lt,
+	          List√°z minden nicket, amit utolj√°ra olyan user haszn√°lt,
 	          akinek a bar.org volt a domain-je.
 	
 NICK_HELP_ALIST
 	Syntax: ALIST [szint]
 	
-	List·z minden csatorn·t, ahol hozz·fÈrÈsed van. 
-	Opcion·lisan megadhatod a szintet XOP vagy ACCESS
-	form·tumban is. Az eredmÈny csak azon szob·kat fogja 
-	megjeleniteni, ahol a megadott hozz·fÈrÈsi szinted van.
+	List√°z minden csatorn√°t, ahol hozz√°f√©r√©sed van. 
+	Opcion√°lisan megadhatod a szintet XOP vagy ACCESS
+	form√°tumban is. Az eredm√©ny csak azon szob√°kat fogja 
+	megjeleniteni, ahol a megadott hozz√°f√©r√©si szinted van.
 	
-	PÈld·k:
+	P√©ld√°k:
 	    ALIST Founder
-	          List·z minden csatorn·t, ahol Founder hozz·fÈrÈsed van.
+	          List√°z minden csatorn√°t, ahol Founder hozz√°f√©r√©sed van.
 	    ALIST AOP
-	          List·z minden csatorn·t, ahol AOP hozz·fÈrÈsed
+	          List√°z minden csatorn√°t, ahol AOP hozz√°f√©r√©sed
 	          vagy magasabb szinted van.
 	    ALIST 10
-	          List·z minden csatorn·t, ahol 10-es hozz·fÈrÈsed
+	          List√°z minden csatorn√°t, ahol 10-es hozz√°f√©r√©sed
 	          vagy magasabb szinted van.
 
-	Azok a csatorn·k melyeken a NOEXPIREopciÛ be van ·llÌtva,
-	prefixel lesznek megjelˆlve a list·ban.
+	Azok a csatorn√°k melyeken a NOEXPIREopci√≥ be van √°ll√≠tva,
+	prefixel lesznek megjel√∂lve a list√°ban.
 
 NICK_HELP_GLIST
 	Syntax: GLIST
 	
-	List·z minden nicket a csoportodbÛl.
+	List√°z minden nicket a csoportodb√≥l.
 
 NICK_HELP_STATUS
-	Syntax: STATUS nicknÈv...
+	Syntax: STATUS nickn√©v...
 	
-	A kˆvetkezıket kapod, ha a nicknÈvre, amit a felhaszn·lÛ 
-	haszn·l azonosÌtotta mag·t, mint tulajdonos. 
-	Az eredmÈny form·ja a kˆvetkezı:
+	A k√∂vetkez≈ëket kapod, ha a nickn√©vre, amit a felhaszn√°l√≥ 
+	haszn√°l azonos√≠totta mag√°t, mint tulajdonos. 
+	Az eredm√©ny form√°ja a k√∂vetkez≈ë:
 	
-		nicknÈv st·tusz-kÛd
+		nickn√©v st√°tusz-k√≥d
 	
-	ahol a nicknÈvaz a nicknÈv amit k¸ldtÈl a parancsban, Ès
-	a st·tusz-kÛda kˆvetkezı lehet:
+	ahol a nickn√©vaz a nickn√©v amit k√ºldt√©l a parancsban, √©s
+	a st√°tusz-k√≥da k√∂vetkez≈ë lehet:
 	
-	    0 - Nincs ilyen user online vagy a nick nem regisztr·lt
-	    1 - A felhaszn·lÛ nem azonosÌtott be, mint a nick tulajdonosa
-	    2 - A felhaszn·lÛ beazonosÌtott, mint tulajdonos de csak a 
-	        hozz·fÈrÈsi lista alapj·n
-	    3 - A felhaszn·lÛ beazonosÌtott tulajdonoskÈnt a jelszav·val
+	    0 - Nincs ilyen user online vagy a nick nem regisztr√°lt
+	    1 - A felhaszn√°l√≥ nem azonos√≠tott be, mint a nick tulajdonosa
+	    2 - A felhaszn√°l√≥ beazonos√≠tott, mint tulajdonos de csak a 
+	        hozz√°f√©r√©si lista alapj√°n
+	    3 - A felhaszn√°l√≥ beazonos√≠tott tulajdonosk√©nt a jelszav√°val
 	        
-	Tizenhat nicknÈv k¸ldhetı el parancsonkÈnt; a tˆbbit 
-	figyelmen kÌv¸l hagyja. If no nickname is given, your status
+	Tizenhat nickn√©v k√ºldhet≈ë el parancsonk√©nt; a t√∂bbit 
+	figyelmen k√≠v√ºl hagyja. If no nickname is given, your status
 	will be returned.
 
 NICK_HELP_SENDPASS
-	Syntax: SENDPASS nicknÈv
+	Syntax: SENDPASS nickn√©v
 	
-	K¸ld sz·modra egy E-mail ¸zentet, ami tartalmazza a 
-	megadott nicknÈv jelszav·t, arra az E-mail cÌmre, amit
-	a regisztr·ciÛn·l vagy a set email paranccsal megadt·l,
-	vagy amire v·ltÛztattad. Ez igen hasznos, ha elfelejted
+	K√ºld sz√°modra egy E-mail √ºzentet, ami tartalmazza a 
+	megadott nickn√©v jelszav√°t, arra az E-mail c√≠mre, amit
+	a regisztr√°ci√≥n√°l vagy a set email paranccsal megadt√°l,
+	vagy amire v√°lt√≥ztattad. Ez igen hasznos, ha elfelejted
 	a jelszavadat.
 	
-	Korl·tozni lehet IRC oper·torokra egyes h·lÛzatokon.
+	Korl√°tozni lehet IRC oper√°torokra egyes h√°l√≥zatokon.
 	
-	Parancs nem elÈrhetı, ha az encryption haszn·latban van.
+	Parancs nem el√©rhet≈ë, ha az encryption haszn√°latban van.
 
 NICK_HELP_CONFIRM
 	Syntax: CONFIRM passcodE
@@ -4069,122 +4069,122 @@ NICK_HELP_RESEND
 	to the e-mail address of the user whom is performing it.
 	
 NICK_SERVADMIN_HELP
-	SzervÌz adminok is droppolhatnak nickeket, akkor ha
-	beazonosÌttotak a nicknev¸kre, Ès megnÈzhetik a nickek
-	hozz·fÈrÈsi list·j·t. (%R%S ACCESS LIST nick)
+	Szerv√≠z adminok is droppolhatnak nickeket, akkor ha
+	beazonos√≠ttotak a nicknev√ºkre, √©s megn√©zhetik a nickek
+	hozz√°f√©r√©si list√°j√°t. (%R%S ACCESS LIST nick)
 
 NICK_SERVADMIN_HELP_LOGOUT
-	Syntax: LOGOUT [nicknÈv [REVALIDATE]]
+	Syntax: LOGOUT [nickn√©v [REVALIDATE]]
 	
-	KilÈpÈsi paramÈter, megfordÌtja az IDENTIFY parancs
-	hat·s·t, azaz nem leszel beazonosÌtva a nickedre, mint a 
-	valÛdi tulajdonosa a nickednek.
+	Kil√©p√©si param√©ter, megford√≠tja az IDENTIFY parancs
+	hat√°s√°t, azaz nem leszel beazonos√≠tva a nickedre, mint a 
+	val√≥di tulajdonosa a nickednek.
 	
-	A paramÈter ugyanezt teszi a megadott nickkel.
-	Ha megadod a REVALIDATE opciÛt, akkor a nicktıl
-	a szerviz ˙jraazonosÌt·st fog kÈrni. 
+	A param√©ter ugyanezt teszi a megadott nickkel.
+	Ha megadod a REVALIDATE opci√≥t, akkor a nickt≈ël
+	a szerviz √∫jraazonos√≠t√°st fog k√©rni. 
 	
-	Haszn·lat korl·tozva SzervÌz adminoknak.
+	Haszn√°lat korl√°tozva Szerv√≠z adminoknak.
 
 NICK_SERVADMIN_HELP_DROP
-	Syntax: DROP [nicknÈv]
+	Syntax: DROP [nickn√©v]
 	
-	ParamÈter nÈlk¸l, droppolja a neved a %S adatb·zisbÛl.
+	Param√©ter n√©lk√ºl, droppolja a neved a %S adatb√°zisb√≥l.
 	
-	ParamÈterrel dropolva a nicknÈv tˆrlıdik az adatb·zisbÛl.
-	Dropolhatsz egy nicket a csoportodban, kivÈve, ha van 
-	k¸lˆnleges kiv·lts·ga.
+	Param√©terrel dropolva a nickn√©v t√∂rl≈ëdik az adatb√°zisb√≥l.
+	Dropolhatsz egy nicket a csoportodban, kiv√©ve, ha van 
+	k√ºl√∂nleges kiv√°lts√°ga.
 	
-	Haszn·lat korl·tozva SzervÌz adminoknak.
+	Haszn√°lat korl√°tozva Szerv√≠z adminoknak.
 	
 NICK_SERVADMIN_HELP_INFO
 	
-	SzervÌz adminok haszn·lhatj·k az ALL paramÈtert.
+	Szerv√≠z adminok haszn√°lhatj√°k az ALL param√©tert.
 
 NICK_SERVADMIN_HELP_LIST
 	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 	
-	List·z minden regisztr·lt nicknevet, amely vagy nicknÈv
-	vagy az utolj·ra l·tott cÌm (user@hostform·ban), amely
-	azonos a megadott sablonnal. Nickek PRIVATE opciÛval
-	be·llÌtva csak szervÌz adminoknak jelennek meg. A nickek
-	NOEXPIRE opciÛval be·llÌtva !prefixel jelennek meg
-	a szervÌz adminoknak.
+	List√°z minden regisztr√°lt nicknevet, amely vagy nickn√©v
+	vagy az utolj√°ra l√°tott c√≠m (user@hostform√°ban), amely
+	azonos a megadott sablonnal. Nickek PRIVATE opci√≥val
+	be√°ll√≠tva csak szerv√≠z adminoknak jelennek meg. A nickek
+	NOEXPIRE opci√≥val be√°ll√≠tva !prefixel jelennek meg
+	a szerv√≠z adminoknak.
 	
-	Ha a FORBIDDEN, SUSPENDED vagy NOEXPIRE opciÛ meg van adva, csak azok
-	a nickek amelyek vagy forbidoltak vagy NOEXPIRE flegj¸k van
-	fognak  megjelenik. Ha mindkÈt opciÛ meg van adva mindkÈt
-	tipus megjelenik. Az opciÛk korl·tozva Services adminoknak.
+	Ha a FORBIDDEN, SUSPENDED vagy NOEXPIRE opci√≥ meg van adva, csak azok
+	a nickek amelyek vagy forbidoltak vagy NOEXPIRE flegj√ºk van
+	fognak  megjelenik. Ha mindk√©t opci√≥ meg van adva mindk√©t
+	tipus megjelenik. Az opci√≥k korl√°tozva Services adminoknak.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		LIST *!joeuser@foo.com
-	            KiÌrja a felhaszn·lÛkat, akiknek a hosztja joeuser@foo.com
+	            Ki√≠rja a felhaszn√°l√≥kat, akiknek a hosztja joeuser@foo.com
 	
 		LIST *Bot*!*@*
-	            KiÌrja az ˆsszes regisztr·lt nicket, melyek nevÈben 
-	            szerepel a Bot (bet˚ ÈrzÈketlen).
+	            Ki√≠rja az √∂sszes regisztr√°lt nicket, melyek nev√©ben 
+	            szerepel a Bot (bet≈± √©rz√©ketlen).
 	
 	    LIST * NOEXPIRE
-	            List·zza az ˆsszes felhaszn·lÛt, akinek a be·llÌt·sa
-	            nem elÈv¸lı.
+	            List√°zza az √∂sszes felhaszn√°l√≥t, akinek a be√°ll√≠t√°sa
+	            nem el√©v√ºl≈ë.
 
 NICK_SERVADMIN_HELP_ALIST
-	Syntax: ALIST [nicknÈv] [szint]
+	Syntax: ALIST [nickn√©v] [szint]
 	
-	ParamÈter nÈlk¸l list·zza azokat a csatorn·kat, ahol 
-	hozz·fÈrÈsed van.	Egy paramÈterrel azokat a szob·kat 
-	list·zza, ahol hozz·fÈrÈse van a nicknnÈv-nek. KÈt 
-	paramÈterrel azokat a csatorn·kat list·zza, ahol megadott
-	szint˚ vagy magasabb a hozz·fÈrÈse a nicknÈv-nek.  
+	Param√©ter n√©lk√ºl list√°zza azokat a csatorn√°kat, ahol 
+	hozz√°f√©r√©sed van.	Egy param√©terrel azokat a szob√°kat 
+	list√°zza, ahol hozz√°f√©r√©se van a nicknn√©v-nek. K√©t 
+	param√©terrel azokat a csatorn√°kat list√°zza, ahol megadott
+	szint≈± vagy magasabb a hozz√°f√©r√©se a nickn√©v-nek.  
 	
-	Ennek a haszn·lata korl·tozva SzervÌz adminra.
+	Ennek a haszn√°lata korl√°tozva Szerv√≠z adminra.
 	
 NICK_SERVADMIN_HELP_GLIST
-	Syntax: GLIST [nicknÈv]
+	Syntax: GLIST [nickn√©v]
 	
-	ParamÈter nÈlk¸l, list·zza az ˆsszes nicknevet 
+	Param√©ter n√©lk√ºl, list√°zza az √∂sszes nicknevet 
 	a csoportodban.
-	ParamÈterrel list·zza az ˆsszes nicknevet, abbÛl a 
-	csoportbÛl ahol az adott nicknÈv van.	
+	Param√©terrel list√°zza az √∂sszes nicknevet, abb√≥l a 
+	csoportb√≥l ahol az adott nickn√©v van.	
 	
-	Ennek a haszn·lata korl·tozva SzervÌz adminra.
+	Ennek a haszn√°lata korl√°tozva Szerv√≠z adminra.
 
 NICK_SERVADMIN_HELP_GETPASS
-	Syntax: GETPASS nicknÈv
+	Syntax: GETPASS nickn√©v
 	
-	Visszadja a megadott nicknÈv jelszav·t. Jegyzet Ezt 
-	a parancsot amaikor haszn·lod, ¸zenetet k¸ld arrÛl 
-	hogy ki haszn·lta Ès kinek a jelszav·t kÈrte le. 
-	NaplÛzva lesz Ès WALLOPS/GLOBOPS ¸zenetben is megjelenik.
+	Visszadja a megadott nickn√©v jelszav√°t. Jegyzet Ezt 
+	a parancsot amaikor haszn√°lod, √ºzenetet k√ºld arr√≥l 
+	hogy ki haszn√°lta √©s kinek a jelszav√°t k√©rte le. 
+	Napl√≥zva lesz √©s WALLOPS/GLOBOPS √ºzenetben is megjelenik.
 		
-	Korl·tozva SzervÌz adminokra.
+	Korl√°tozva Szerv√≠z adminokra.
 	
-	A parancs nem elÈrhetı, ha az encryption haszn·latban van.
+	A parancs nem el√©rhet≈ë, ha az encryption haszn√°latban van.
 	
 NICK_SERVADMIN_HELP_GETEMAIL
 	Syntax: GETEMAIL user@emailhoszt
 
-	Visszaadja a megadott emaillel regisztr·lt nickeket.
-	MegjegyzÈs: haszn·lhatsz * karaktert mind a user,
-	mind az emailhost esetÈben. A parancs kiad·sakor a
-	lekÈrt email cÌm Ès az azt lekÈrı szemÈly naplÛzva lesz.
+	Visszaadja a megadott emaillel regisztr√°lt nickeket.
+	Megjegyz√©s: haszn√°lhatsz * karaktert mind a user,
+	mind az emailhost eset√©ben. A parancs kiad√°sakor a
+	lek√©rt email c√≠m √©s az azt lek√©r≈ë szem√©ly napl√≥zva lesz.
 
-	Korl·tozva SzervÌz adminra.
+	Korl√°tozva Szerv√≠z adminra.
 
 NICK_SERVADMIN_HELP_FORBID
-	Syntax: FORBID nicknÈv [indok]
+	Syntax: FORBID nickn√©v [indok]
 	
-	Nem engedÈlyezi, hogy b·rki regisztr·lja a nicknevet 
-	Akkor tˆrˆlhetı, ha droppolod a nicket.
+	Nem enged√©lyezi, hogy b√°rki regisztr√°lja a nicknevet 
+	Akkor t√∂r√∂lhet≈ë, ha droppolod a nicket.
 	
-	Egyes h·lÛzatok indokot igÈnyelnek.
+	Egyes h√°l√≥zatok indokot ig√©nyelnek.
 	
-	Korl·tozva SzervÌz adminra.
+	Korl√°tozva Szerv√≠z adminra.
 	
 ###########################################################
 #
-# ChanServ help ¸zenetek
+# ChanServ help √ºzenetek
 #
 ###########################################################
 	
@@ -4214,37 +4214,37 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 #
 ###########################################################################
 CHAN_HELP_CMD_GETPASS
-	    GETPASS    Megadja a founder jelszÛt a csatorn·n
+	    GETPASS    Megadja a founder jelsz√≥t a csatorn√°n
 CHAN_HELP_CMD_FORBID
-	    FORBID     Megakad·lyozza a szoba haszn·lat·t
+	    FORBID     Megakad√°lyozza a szoba haszn√°lat√°t
 CHAN_HELP_CMD_SUSPEND
-	    SUSPEND    Felf¸ggeszti a szoba haszn·lat·t de
-	               megırzi az adatokat Ès be·llÌt·sokat.
+	    SUSPEND    Felf√ºggeszti a szoba haszn√°lat√°t de
+	               meg≈ërzi az adatokat √©s be√°ll√≠t√°sokat.
 CHAN_HELP_CMD_UNSUSPEND
-	    UNSUSPEND  Tˆrli a suspendet a csatorn·rÛl.
+	    UNSUSPEND  T√∂rli a suspendet a csatorn√°r√≥l.
 CHAN_HELP_CMD_STATUS
-	    STATUS     KiÌrja a felhaszn·lÛ aktu·lis hozz·fÈrÈsi
-	               szintjÈt a megadott csatorn·n
+	    STATUS     Ki√≠rja a felhaszn√°l√≥ aktu√°lis hozz√°f√©r√©si
+	               szintj√©t a megadott csatorn√°n
 CHAN_HELP_CMD_REGISTER
-	    REGISTER   Szoba regisztr·l·sa
+	    REGISTER   Szoba regisztr√°l√°sa
 CHAN_HELP_CMD_IDENTIFY
-	    IDENTIFY   AzonosÌthatod magad a jelszavaddal
+	    IDENTIFY   Azonos√≠thatod magad a jelszavaddal
 CHAN_HELP_CMD_SET
-	    SET        Be·llÌthatod a csatorn·d opciÛit
+	    SET        Be√°ll√≠thatod a csatorn√°d opci√≥it
 CHAN_HELP_CMD_AOP
-	    AOP        AutoOper·tor lista be·llÌt·sa
+	    AOP        AutoOper√°tor lista be√°ll√≠t√°sa
 CHAN_HELP_CMD_SOP
-	    SOP        SzuperOper·tor lista be·llÌt·sa
+	    SOP        SzuperOper√°tor lista be√°ll√≠t√°sa
 CHAN_HELP_CMD_ACCESS
-	    ACCESS     A szoba hozz·fÈrÈsi list·j·nak be·llÌt·sa
+	    ACCESS     A szoba hozz√°f√©r√©si list√°j√°nak be√°ll√≠t√°sa
 CHAN_HELP_CMD_LEVELS
-	    LEVELS     ¡t·llÌthatod a szoba hozz·fÈrÈsi szintjeit
+	    LEVELS     √Åt√°ll√≠thatod a szoba hozz√°f√©r√©si szintjeit
 CHAN_HELP_CMD_AKICK
-	    AKICK      AutoKir˙g·s list·ra teheted a "rossz" usereket
+	    AKICK      AutoKir√∫g√°s list√°ra teheted a "rossz" usereket
 CHAN_HELP_CMD_DROP
-	    DROP       Tˆrˆlheted a csatorn·d regisztr·ciÛj·t
+	    DROP       T√∂r√∂lheted a csatorn√°d regisztr√°ci√≥j√°t
 CHAN_HELP_CMD_SENDPASS
-	    SENDPASS   Elveszett a jelszavad? JelszÛ k¸ldÈs.
+	    SENDPASS   Elveszett a jelszavad? Jelsz√≥ k√ºld√©s.
 CHAN_HELP_CMD_BAN
 	    BAN        Bans a selected nick on a channel
 CHAN_HELP_CMD_CLEAR
@@ -4296,231 +4296,231 @@ CHAN_HELP_CMD_DEOP
 
 CHAN_HELP
 	
-	%S lehetısÈget ad arra, hogy regisztr·ld a csatorn·dat.
-	%S haszn·lat·val elker¸lhetı a "take over" jelensÈg,
-	amit az opjoggal visszaÈlı userek okozhatnak. MÈg pedig
-	˙gy, hogy meghat·rozhatÛ az, hogy ki kapjon a csatorn·n
-	oper·tori kiv·lts·gokat. A parancsok haszn·lat·hoz Ìrd be:
-	%R%S parancs, ha tˆbb inform·ciÛ kell a paranccsal
-	kapcsolatban, akkor Ìrd be: %R%S HELP parancs.
+	%S lehet≈ës√©get ad arra, hogy regisztr√°ld a csatorn√°dat.
+	%S haszn√°lat√°val elker√ºlhet≈ë a "take over" jelens√©g,
+	amit az opjoggal vissza√©l≈ë userek okozhatnak. M√©g pedig
+	√∫gy, hogy meghat√°rozhat√≥ az, hogy ki kapjon a csatorn√°n
+	oper√°tori kiv√°lts√°gokat. A parancsok haszn√°lat√°hoz √≠rd be:
+	%R%S parancs, ha t√∂bb inform√°ci√≥ kell a paranccsal
+	kapcsolatban, akkor √≠rd be: %R%S HELP parancs.
 	 
 	
 CHAN_HELP_EXPIRES
 	
-	MegjegyzÈs: azok a csatorn·k, amelyeket nem haszn·lnak %d
-	napig, automatikusan elvesztik regisztr·ciÛjukat.
-	Automatikusan dropol·sra ker¸lnek.
+	Megjegyz√©s: azok a csatorn√°k, amelyeket nem haszn√°lnak %d
+	napig, automatikusan elvesztik regisztr√°ci√≥jukat.
+	Automatikusan dropol√°sra ker√ºlnek.
 	
 CHAN_HELP_REGISTER
-	Syntax: REGISTER #szoba jelszÛ leÌr·s
+	Syntax: REGISTER #szoba jelsz√≥ le√≠r√°s
 	
-	A csatorn·dat regisztr·lja a %S adatb·zis·ba.
-	Hogy kiadhasd ezt a paracsot oper·tornak kell lenned
-	az adott csatorn·n.
-	A jelszÛt haszn·lhatod az IDENTIFY parancs segitsÈgÈvel
-	azonosÌt·sra, mielıtt be·llÌt·sokat eszkˆzˆlsz a 
-	kÈsˆbbiekben az adott csaton·n.
+	A csatorn√°dat regisztr√°lja a %S adatb√°zis√°ba.
+	Hogy kiadhasd ezt a paracsot oper√°tornak kell lenned
+	az adott csatorn√°n.
+	A jelsz√≥t haszn√°lhatod az IDENTIFY parancs segits√©g√©vel
+	azonos√≠t√°sra, miel≈ëtt be√°ll√≠t√°sokat eszk√∂z√∂lsz a 
+	k√©s√∂bbiekben az adott csaton√°n.
 	
-	Az utolsÛ paramÈternek, tartalmaznia kell
-	a szoba ·ltal·nos leÌr·s·t.
+	Az utols√≥ param√©ternek, tartalmaznia kell
+	a szoba √°ltal√°nos le√≠r√°s√°t.
 	
-	Amikor regisztr·lsz egy csatorn·t, te leszel a "founder".
-	szoba founderjÈnek van lehetısÈge a szoba be·llÌt·sait,
-	a hozz·fÈrÈsi list·j·t, az autÛkir˙g·s list·t, az infÛkat
-	megv·ltoztatni; a %S automatikusan megadja belÈpÈskor a
-	founder hozz·fÈrÈsi jogot Ès szoba oper·tori jogokat.
-	NÈzd meg az ACCESS parancsot (%R%S HELP ACCESS),
-	hogy infom·lÛdj a k¸lˆnbˆzı szint˚ kiv·lts·gok ad·s·rÛl
-	(a szoba tˆbbi felhaszn·lÛja rÈszÈre).
+	Amikor regisztr√°lsz egy csatorn√°t, te leszel a "founder".
+	szoba founderj√©nek van lehet≈ës√©ge a szoba be√°ll√≠t√°sait,
+	a hozz√°f√©r√©si list√°j√°t, az aut√≥kir√∫g√°s list√°t, az inf√≥kat
+	megv√°ltoztatni; a %S automatikusan megadja bel√©p√©skor a
+	founder hozz√°f√©r√©si jogot √©s szoba oper√°tori jogokat.
+	N√©zd meg az ACCESS parancsot (%R%S HELP ACCESS),
+	hogy infom√°l√≥dj a k√ºl√∂nb√∂z≈ë szint≈± kiv√°lts√°gok ad√°s√°r√≥l
+	(a szoba t√∂bbi felhaszn√°l√≥ja r√©sz√©re).
 	
-	MegjegyzÈs: Ha regisztr·lsz egy csatorn·t, elıszˆr 
-	regisztr·lnod kell a nickneved Ès azonosÌtanod kell
-	magad. (NickServ identify jelszÛ)
-	Ha mÈg nem nÈzted meg, akkor l·sd mÈg: %R%s HELP.
+	Megjegyz√©s: Ha regisztr√°lsz egy csatorn√°t, el≈ësz√∂r 
+	regisztr√°lnod kell a nickneved √©s azonos√≠tanod kell
+	magad. (NickServ identify jelsz√≥)
+	Ha m√©g nem n√©zted meg, akkor l√°sd m√©g: %R%s HELP.
 	
 CHAN_HELP_IDENTIFY
-	Syntax: IDENTIFY #szoba jelszÛ
+	Syntax: IDENTIFY #szoba jelsz√≥
 	
-	%S a parancs beÌr·sa ut·n founder szintet ad a csatorn·n.
-	Tˆbb parancs kiad·sa elıtt sz¸ksÈges, hogy haszn·ld ezt.
-	A jelszÛnak egyeznie kell a megadott jelszÛval.
+	%S a parancs be√≠r√°sa ut√°n founder szintet ad a csatorn√°n.
+	T√∂bb parancs kiad√°sa el≈ëtt sz√ºks√©ges, hogy haszn√°ld ezt.
+	A jelsz√≥nak egyeznie kell a megadott jelsz√≥val.
 	
 CHAN_HELP_LOGOUT
-	Syntax: LOGOUT #szoba nicknÈv
+	Syntax: LOGOUT #szoba nickn√©v
 	
-	Ez a parancs kijelentkezÈsre birja a nicket, vagyis ˙jra
-	kell azonosÌtania, hogy ˙jra megkapja a hozz·fÈrÈst.
+	Ez a parancs kijelentkez√©sre birja a nicket, vagyis √∫jra
+	kell azonos√≠tania, hogy √∫jra megkapja a hozz√°f√©r√©st.
 	
-	Ha te vagy a szoba founderje, akkor b·rkit ki tudsz
-	jelentkeztetni, vagy ki tudsz jelentkezni ak·r te is.
+	Ha te vagy a szoba founderje, akkor b√°rkit ki tudsz
+	jelentkeztetni, vagy ki tudsz jelentkezni ak√°r te is.
 
 CHAN_HELP_DROP
 	Syntax: DROP #szoba
 	
-	Tˆrli a megnevezett szoba regisztr·ciÛj·t.
-	Csak a szoba founder haszn·lhatja, akinek
-	elıbb haszn·lnia kell az IDENTIFY parancsot.
+	T√∂rli a megnevezett szoba regisztr√°ci√≥j√°t.
+	Csak a szoba founder haszn√°lhatja, akinek
+	el≈ëbb haszn√°lnia kell az IDENTIFY parancsot.
 
 CHAN_HELP_SET
-	Syntax: SET #szoba opciÛ paramÈterek
+	Syntax: SET #szoba opci√≥ param√©terek
 	
-	LehetısÈget ad a foundernek, hogy a be·llÌt·sokat
-	Ès inform·ciÛkat megv·ltoztassa.
+	Lehet≈ës√©get ad a foundernek, hogy a be√°ll√≠t√°sokat
+	√©s inform√°ci√≥kat megv√°ltoztassa.
 	
-	ElÈrhetı opciÛk:
+	El√©rhet≈ë opci√≥k:
 	
-	    FOUNDER       A founder megv·ltoztat·sa
-	    SUCCESSOR     A successor megad·sa
-	    PASSWORD      A founder jelszÛ v·ltoztat·sa
-	    DESC          A szobameghat·roz·s ·llÌt·s
-	    URL           Egy URL t·rsÌt·sa a szob·hoz
-	    EMAIL         Egy E-mail cÌm t·rsÌt·sa a szob·hoz
-	    ENTRYMSG      A szoba belÈpo ¸zenetÈnek 
-	                  ·llÌt·sa
-	    BANTYPE       A banol·s tipus·nak be·llÌt·sa
-	    MLOCK         Szoba mÛdok lez·r·sa (+flag -flag)
-	    KEEPTOPIC     Topic megtart·sa ha a szoba nincs haszn·latban
-	    OPNOTICE      ‹zenetet k¸ld az OP/VOICE parancsok haszn·lt·rÛl
-	    PEACE         Szab·lyozza a kritikus parancsok haszn·lat·t
-	    PRIVATE       A szoba elrejtÈse a list·bÛl
-	    SECURE        Aktiv·lja a %S biztons·gi lehetısÈgeit
-	    SECUREOPS     A csatorn·n az op st·tusz szigor˙ kezelÈse
-	    SECUREFOUNDER Csatorn·n a founder st·tusz szigor˙ kezelÈse
-	    SIGNKICK      Sign kickek, melyek a KICK paranccsal tˆrtÈnnek
-	    TOPICLOCK     TÈmav·lt·s letilt·sa 
-	    XOP           Xop (Sop, Aop, Hop, Vop) lista rendszer bekapcsol·sa
+	    FOUNDER       A founder megv√°ltoztat√°sa
+	    SUCCESSOR     A successor megad√°sa
+	    PASSWORD      A founder jelsz√≥ v√°ltoztat√°sa
+	    DESC          A szobameghat√°roz√°s √°ll√≠t√°s
+	    URL           Egy URL t√°rs√≠t√°sa a szob√°hoz
+	    EMAIL         Egy E-mail c√≠m t√°rs√≠t√°sa a szob√°hoz
+	    ENTRYMSG      A szoba bel√©po √ºzenet√©nek 
+	                  √°ll√≠t√°sa
+	    BANTYPE       A banol√°s tipus√°nak be√°ll√≠t√°sa
+	    MLOCK         Szoba m√≥dok lez√°r√°sa (+flag -flag)
+	    KEEPTOPIC     Topic megtart√°sa ha a szoba nincs haszn√°latban
+	    OPNOTICE      √úzenetet k√ºld az OP/VOICE parancsok haszn√°lt√°r√≥l
+	    PEACE         Szab√°lyozza a kritikus parancsok haszn√°lat√°t
+	    PRIVATE       A szoba elrejt√©se a list√°b√≥l
+	    SECURE        Aktiv√°lja a %S biztons√°gi lehet≈ës√©geit
+	    SECUREOPS     A csatorn√°n az op st√°tusz szigor√∫ kezel√©se
+	    SECUREFOUNDER Csatorn√°n a founder st√°tusz szigor√∫ kezel√©se
+	    SIGNKICK      Sign kickek, melyek a KICK paranccsal t√∂rt√©nnek
+	    TOPICLOCK     T√©mav√°lt√°s letilt√°sa 
+	    XOP           Xop (Sop, Aop, Hop, Vop) lista rendszer bekapcsol√°sa
 	
-	Õrd be: %R%S HELP SET opciÛ bıvebb inform·ciÛÈrt az
-	adott opciÛrÛl.
+	√çrd be: %R%S HELP SET opci√≥ b≈ëvebb inform√°ci√≥√©rt az
+	adott opci√≥r√≥l.
 
 CHAN_HELP_SET_FOUNDER
 	Syntax: SET #szoba FOUNDER nick
 	
-	Megv·ltoztatja a szoba founderjÈt.
-	Az ˙j nicknÈv regisztr·lt kell hogy legyen!
+	Megv√°ltoztatja a szoba founderj√©t.
+	Az √∫j nickn√©v regisztr√°lt kell hogy legyen!
 
 CHAN_HELP_SET_SUCCESSOR
 	Syntax: SET #szoba SUCCESSOR nick
 	
-	Megv·ltoztatja a successort a csatorn·n. Ha a founder neve
-	elÈv¸l vagy tˆrlıdik, de a szoba mÈg regisztr·lt, akkor
-	a successor lesz a szoba ˙j founderje.
-	Ha, a successornak m·r t˙l sok regisztr·lt csatorn·ja van 
-	(%d), a csatorn·nak megsz˚nik a regisztr·ciÛja, akkor
-	is ez tˆrtÈnik, ha nem volt megadva successor.
-	A nicknek regisztr·lnak kell lennie.
+	Megv√°ltoztatja a successort a csatorn√°n. Ha a founder neve
+	el√©v√ºl vagy t√∂rl≈ëdik, de a szoba m√©g regisztr√°lt, akkor
+	a successor lesz a szoba √∫j founderje.
+	Ha, a successornak m√°r t√∫l sok regisztr√°lt csatorn√°ja van 
+	(%d), a csatorn√°nak megsz≈±nik a regisztr√°ci√≥ja, akkor
+	is ez t√∂rt√©nik, ha nem volt megadva successor.
+	A nicknek regisztr√°lnak kell lennie.
 
 CHAN_HELP_SET_PASSWORD
-	Syntax: SET #szoba PASSWORD  jelszÛ
+	Syntax: SET #szoba PASSWORD  jelsz√≥
 	
-	Be·llÌtja a founder jelszÛt a csatorn·ra, amivel
-	a founder azonosÌthatja mag·t.
+	Be√°ll√≠tja a founder jelsz√≥t a csatorn√°ra, amivel
+	a founder azonos√≠thatja mag√°t.
 
 CHAN_HELP_SET_DESC
-	Syntax: SET #szoba DESC leÌr·s
+	Syntax: SET #szoba DESC le√≠r√°s
 	
-	Be·llÌthatÛ a szoba ·ltal·nos meghat·roz·sa, ami l·tszÛdni
-	fog a  LIST Ès INFO parancs haszn·lata esetÈn.
+	Be√°ll√≠that√≥ a szoba √°ltal√°nos meghat√°roz√°sa, ami l√°tsz√≥dni
+	fog a  LIST √©s INFO parancs haszn√°lata eset√©n.
 
 CHAN_HELP_SET_URL
 	Syntax: SET #szoba URL [url]
 	
-	Egy URL t·rsÌt·sa a szob·hoz. Ha van honlapja a szob·nak,
-	akkor b·rki megtudhatja, ha lekÈrte a szob·rÛl az INFO-t.
-	Ha nincs megadva paramÈter, akkor tˆrli a meglÈvı URL-t.
+	Egy URL t√°rs√≠t√°sa a szob√°hoz. Ha van honlapja a szob√°nak,
+	akkor b√°rki megtudhatja, ha lek√©rte a szob√°r√≥l az INFO-t.
+	Ha nincs megadva param√©ter, akkor t√∂rli a megl√©v≈ë URL-t.
 
 CHAN_HELP_SET_EMAIL
-	Syntax: SET #szoba EMAIL [emailcÌm]
+	Syntax: SET #szoba EMAIL [emailc√≠m]
 	
-	Egy E-mail cÌm t·rsÌt·sa a szob·hoz. Ha van E-mail cÌme
-	a szob·nak; akkor azt b·rki megtudhatja, ha lekÈrte
-	a szob·rÛl az INFO-t. Ha nincs megadva paramÈter akkor
-	tˆrli a meglÈvı e-mail cÌmet.
+	Egy E-mail c√≠m t√°rs√≠t√°sa a szob√°hoz. Ha van E-mail c√≠me
+	a szob√°nak; akkor azt b√°rki megtudhatja, ha lek√©rte
+	a szob√°r√≥l az INFO-t. Ha nincs megadva param√©ter akkor
+	t√∂rli a megl√©v≈ë e-mail c√≠met.
 
 CHAN_HELP_SET_ENTRYMSG
-	Syntax: SET #szoba ENTRYMSG [¸zenet]
+	Syntax: SET #szoba ENTRYMSG [√ºzenet]
 	
-	Be·llÌt egy ¸zenetet, amit /notice form·ban fognak
-	a szob·ba belÈpı userek megkapni. Ha nincs paramÈter
-	megadva akkor a szoba belÈpı ¸zenete tˆrlıdik.
+	Be√°ll√≠t egy √ºzenetet, amit /notice form√°ban fognak
+	a szob√°ba bel√©p≈ë userek megkapni. Ha nincs param√©ter
+	megadva akkor a szoba bel√©p≈ë √ºzenete t√∂rl≈ëdik.
 
 CHAN_HELP_SET_BANTYPE
-	Syntax: SET #szoba BANTYPE bantÌpus
+	Syntax: SET #szoba BANTYPE bant√≠pus
 	
-	A banol·s tÌpus·nak be·llÌt·sa, amit a Services akkor fog
-	haszn·lni, ha valakit banolni kell a csatorn·rÛl.
+	A banol√°s t√≠pus√°nak be√°ll√≠t√°sa, amit a Services akkor fog
+	haszn√°lni, ha valakit banolni kell a csatorn√°r√≥l.
 	
-	A bantÌpus egy sz·m 0 Ès 3 kˆzˆtt a jelentÈse:
+	A bant√≠pus egy sz√°m 0 √©s 3 k√∂z√∂tt a jelent√©se:
 	
-	0: *!user@host form·tum˙ tilt·s
-	1: *!*user@host form·tum˙ tilt·s
-	2: *!*@host form·tum˙ tilt·s
-	3: *!*user@*.domain form·tum˙ tilt·s
+	0: *!user@host form√°tum√∫ tilt√°s
+	1: *!*user@host form√°tum√∫ tilt√°s
+	2: *!*@host form√°tum√∫ tilt√°s
+	3: *!*user@*.domain form√°tum√∫ tilt√°s
 
 CHAN_HELP_SET_KEEPTOPIC
 	Syntax: SET #szoba KEEPTOPIC {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja a topic megtart·sa opciÛt a
-	szoba rÈszÈre.  Ha a topic megtart·sa be van ·llÌtva,
-	a topicot a %S megjegyzi miut·n az utolsÛ user elhagyja a
-	szob·t, Ès vissza·llÌtja a kˆvetkezı megnyit·skor.
+	Enged√©lyezi vagy letiltja a topic megtart√°sa opci√≥t a
+	szoba r√©sz√©re.  Ha a topic megtart√°sa be van √°ll√≠tva,
+	a topicot a %S megjegyzi miut√°n az utols√≥ user elhagyja a
+	szob√°t, √©s vissza√°ll√≠tja a k√∂vetkez≈ë megnyit√°skor.
 
 CHAN_HELP_SET_TOPICLOCK
 	Syntax: SET #szoba TOPICLOCK {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja a topic lez·r·sa opciÛt a 
-	csatorn·n. Ha a topic lez·r·sa be van kapcsolva,a %S nem
-	engedÈlyezi a csatorn·n a topic v·ltoztat·s·t a TOPIC
+	Enged√©lyezi vagy letiltja a topic lez√°r√°sa opci√≥t a 
+	csatorn√°n. Ha a topic lez√°r√°sa be van kapcsolva,a %S nem
+	enged√©lyezi a csatorn√°n a topic v√°ltoztat√°s√°t a TOPIC
 	paranccsal.
 	
 CHAN_HELP_SET_MLOCK
-	Syntax: SET #szoba  MLOCK mÛdok
+	Syntax: SET #szoba  MLOCK m√≥dok
 	
-	Be·llÌthatod a mode-lock opciÛt a csatorn·n. A  %S
-	lehetısÈget ny˙jt arra, hogy meghat·rozd azokat a mÛdokat
+	Be√°ll√≠thatod a mode-lock opci√≥t a csatorn√°n. A  %S
+	lehet≈ës√©get ny√∫jt arra, hogy meghat√°rozd azokat a m√≥dokat
 	amelyek mindig be (vagy ki) lesznek kapcsolva. 
 		
-	A mÛdok felrakhatÛak a /MODE paranccsal is; 
-	azok a mÛdok amelyek a + jel ut·n vannak lockolÛdnak,
-	Ès azok a mÛdok amelyek a - jel ut·n vannak nem
-	rakhatÛak fel a szob·ra.
+	A m√≥dok felrakhat√≥ak a /MODE paranccsal is; 
+	azok a m√≥dok amelyek a + jel ut√°n vannak lockol√≥dnak,
+	√©s azok a m√≥dok amelyek a - jel ut√°n vannak nem
+	rakhat√≥ak fel a szob√°ra.
 	
-	FigyelmeztetÈs:  Ha be·llÌtasz egy mode-lock alatti 
-	kulcsot, mint azt a m·sodik pÈld·ban l·tod, akkor be kell
-	·llÌtanod a RESTRICTED opciÛt a csatorn·n (l·sd 
-	HELP	SET RESTRICTED) vagy b·rki belÈphet a szob·ba,
-	amikor ¸res Ès lehetısÈge lesz megl·tni a kulcsot!
+	Figyelmeztet√©s:  Ha be√°ll√≠tasz egy mode-lock alatti 
+	kulcsot, mint azt a m√°sodik p√©ld√°ban l√°tod, akkor be kell
+	√°ll√≠tanod a RESTRICTED opci√≥t a csatorn√°n (l√°sd 
+	HELP	SET RESTRICTED) vagy b√°rki bel√©phet a szob√°ba,
+	amikor √ºres √©s lehet≈ës√©ge lesz megl√°tni a kulcsot!
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 	    SET #szoba MLOCK +nt-ikl
-	         Az  "n" Ès a "t" ·llandÛan fent van, Ès az "i", "k", Ès
-	         "l" ·llandÛan ki lesz kapcsolva. Minden m·s mÛd 
-	         felrak·sa-levÈtele szabad.
+	         Az  "n" √©s a "t" √°lland√≥an fent van, √©s az "i", "k", √©s
+	         "l" √°lland√≥an ki lesz kapcsolva. Minden m√°s m√≥d 
+	         felrak√°sa-lev√©tele szabad.
 	
 	    SET #szoba MLOCK +knst-ilmp my-key
-	         A "k", "n", "s", Ès "t" ·llandÛan fent van, Ès az "i",
-	         "l", "m", Ès a "p" ki lesz kapcsolva. A szob·ba valÛ
-	         belÈpÈshez szk¸sÈges jelszÛ:	"my-key".
+	         A "k", "n", "s", √©s "t" √°lland√≥an fent van, √©s az "i",
+	         "l", "m", √©s a "p" ki lesz kapcsolva. A szob√°ba val√≥
+	         bel√©p√©shez szk√ºs√©ges jelsz√≥:	"my-key".
 	
 	    SET #szoba MLOCK +
-	         Elt·volÌtja az ˆsszes lockolt mÛdot.
-	         Minden mÛd szabadon ki/bekapcsolhatÛ.
+	         Elt√°vol√≠tja az √∂sszes lockolt m√≥dot.
+	         Minden m√≥d szabadon ki/bekapcsolhat√≥.
 	
 CHAN_HELP_SET_PEACE
 	Syntax: SET #szoba PEACE {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja a peace opciÛt.
-	Amikor a peace be van ·llÌtva, akkor a userek nem,
-	r˙ghatnak ki, tilthatnak ki olyan usert akinek az ˆvÈkkel
-	egyenlı vagy magasabb szintje van a %S parancsokhoz.
+	Enged√©lyezi vagy letiltja a peace opci√≥t.
+	Amikor a peace be van √°ll√≠tva, akkor a userek nem,
+	r√∫ghatnak ki, tilthatnak ki olyan usert akinek az √∂v√©kkel
+	egyenl≈ë vagy magasabb szintje van a %S parancsokhoz.
 	
 CHAN_HELP_SET_PRIVATE
 	Syntax: SET #szoba PRIVATE {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja a private opciÛt a csatorn·n.
+	Enged√©lyezi vagy letiltja a private opci√≥t a csatorn√°n.
 	Amikor a private be van kapcsolva, a %R%S LIST 
-	parancs ·ltal kilist·zott csatorn·k kˆzˆtt nem szerepel 
+	parancs √°ltal kilist√°zott csatorn√°k k√∂z√∂tt nem szerepel 
 	a szoba.
 
 CHAN_HELP_SET_RESTRICTED
@@ -4533,289 +4533,289 @@ CHAN_HELP_SET_RESTRICTED
 CHAN_HELP_SET_SECURE
 	Syntax: SET #szoba SECURE {ON | OFF}
 	
-	EngedÈlyezi vagy letitlja a %S biztons·gi lehetısÈgeit
-	a szob·ban. Ha SECURE m˚kˆdik, csak azok a felhaszn·lÛk
-	akik regisztr·ltak Ès beazonosÌtottak a %s-be a	
-	jelszavukkal (haszn·lv·n az IDENTIFY parancsot) kaphatnak
-	a szob·ban jogokat, ha szerepelnek a hozz·fÈrÈsi list·n.
+	Enged√©lyezi vagy letitlja a %S biztons√°gi lehet≈ës√©geit
+	a szob√°ban. Ha SECURE m≈±k√∂dik, csak azok a felhaszn√°l√≥k
+	akik regisztr√°ltak √©s beazonos√≠tottak a %s-be a	
+	jelszavukkal (haszn√°lv√°n az IDENTIFY parancsot) kaphatnak
+	a szob√°ban jogokat, ha szerepelnek a hozz√°f√©r√©si list√°n.
 	
 CHAN_HELP_SET_SECUREOPS
 	Syntax: SET #szoba SECUREOPS {ON | OFF}
 	
-	Bekapcsolja vagy letiltja a secure ops opciÛt.
+	Bekapcsolja vagy letiltja a secure ops opci√≥t.
 	Amikor a secure ops be van kapcsolva, akkor azok, akik 
-	nem szerepelnek a hozz·fÈrÈsi list·n nem kaphatnak szoba
-	oper·tori st·tuszt.
+	nem szerepelnek a hozz√°f√©r√©si list√°n nem kaphatnak szoba
+	oper√°tori st√°tuszt.
 	
 CHAN_HELP_SET_SECUREFOUNDER
 	Syntax: SET #szoba SECUREFOUNDER {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja a secure founder opciÛt a 
-	csatorn·n. Amikor a secure founder be van ·llÌtva, csak
-	a valÛdi founder tudja dropolni a csatorn·t, ·tÌrni a 
-	szoba jelszav·t, founderÈt, jogutÛdj·t, de azok nem,
-	akik csak az IDENTIFY parancsot haszn·lt·k a %S-ben.
+	Enged√©lyezi vagy letiltja a secure founder opci√≥t a 
+	csatorn√°n. Amikor a secure founder be van √°ll√≠tva, csak
+	a val√≥di founder tudja dropolni a csatorn√°t, √°t√≠rni a 
+	szoba jelszav√°t, founder√©t, jogut√≥dj√°t, de azok nem,
+	akik csak az IDENTIFY parancsot haszn√°lt√°k a %S-ben.
 	
 CHAN_HELP_SET_SIGNKICK
 	Syntax: SET #szoba SIGNKICK {ON | SZINT | OFF}
 	
-	EngedÈlyezi vagy letiltja a signed kick opciÛt a csatorn·n
-	Amikor a SIGNKICK be van ·llÌtva, a %S KICK parancs·val
-	vÈgrehajtott kir˙g·sokban az indokban szerepel az op neve.
+	Enged√©lyezi vagy letiltja a signed kick opci√≥t a csatorn√°n
+	Amikor a SIGNKICK be van √°ll√≠tva, a %S KICK parancs√°val
+	v√©grehajtott kir√∫g√°sokban az indokban szerepel az op neve.
 	
-	Ha haszn·lod a LEVEL-t, akkor azok, akiknek a szintje
+	Ha haszn√°lod a LEVEL-t, akkor azok, akiknek a szintje
 	megegyezik vagy magasabb, mint a signkick szintje, azoknak
-	a neve nem fog szerepelni a kick indokj·ban.
-	L·sd mÈg: %R%S HELP LEVELS bıvebb inform·ciÛkÈrt. 
+	a neve nem fog szerepelni a kick indokj√°ban.
+	L√°sd m√©g: %R%S HELP LEVELS b≈ëvebb inform√°ci√≥k√©rt. 
 	
 CHAN_HELP_SET_XOP
 	Syntax: SET #szoba XOP {ON | OFF}
 	
-	EngedÈlyezi vagy letiltja az xOP lista rendszert.
+	Enged√©lyezi vagy letiltja az xOP lista rendszert.
 	Ha az XOP be van kapcsolva, akkor AOP/SOP/VOP
-	parancsokkal osztogathatod a csatorn·n a privilÈgiumokat
-	a usereknek, m·sk¸lˆnben az ACCESS parancsot haszn·lod.
+	parancsokkal osztogathatod a csatorn√°n a privil√©giumokat
+	a usereknek, m√°sk√ºl√∂nben az ACCESS parancsot haszn√°lod.
 	
-	Az xOP lista rendszerrıl az access lista rendszerre valÛ 
-	·ttÈrÈs nem okoz gondot.
+	Az xOP lista rendszerr≈ël az access lista rendszerre val√≥ 
+	√°tt√©r√©s nem okoz gondot.
 	
 CHAN_HELP_SET_OPNOTICE
 	Syntax: SET #szoba OPNOTICE {ON | OFF}
 	
-	Be/kikapcsolja az opnotice opciÛt a csatorn·n.
-	Amikor az op-notice be van kapcsolva, a %S megjegyzÈst
-	fog k¸ldeni a csatorn·ra, amikor a felhaszn·lÛk haszn·lj·k
-	az OP, VOICE, vagy a hozz·juk kapcsolÛdÛ parancsokat a
+	Be/kikapcsolja az opnotice opci√≥t a csatorn√°n.
+	Amikor az op-notice be van kapcsolva, a %S megjegyz√©st
+	fog k√ºldeni a csatorn√°ra, amikor a felhaszn√°l√≥k haszn√°lj√°k
+	az OP, VOICE, vagy a hozz√°juk kapcsol√≥d√≥ parancsokat a
 	szoban.
 	
 CHAN_HELP_AOP
 	Syntax: AOP #szoba ADD nick
-	        AOP #szoba  DEL {nick  |  sorsz·m  |  lista }
+	        AOP #szoba  DEL {nick  |  sorsz√°m  |  lista }
 	        AOP #szoba LIST [ maszk  |  lista ]
 	        AOP #szoba CLEAR
 	
-	Karbantartja az AOP(AutoOP) list·t a csatorn·n. Az AOP 
-	list·n szereplı userek automatikusan megkapj·k belÈpÈskor 
-	az oper·tor st·tuszt, unbanhatj·k magukat, meghÌvhatj·k 
-	magukat a csatorn·ra,megjelenithetik a kˆszˆntı ¸zenet¸ket
+	Karbantartja az AOP(AutoOP) list√°t a csatorn√°n. Az AOP 
+	list√°n szerepl≈ë userek automatikusan megkapj√°k bel√©p√©skor 
+	az oper√°tor st√°tuszt, unbanhatj√°k magukat, megh√≠vhatj√°k 
+	magukat a csatorn√°ra,megjelenithetik a k√∂sz√∂nt≈ë √ºzenet√ºket
 	stb.
 	
-	Az AOP ADD paranccsal hozz·adhatsz egy nickenevet a 
-	csatorn·d AOP list·j·hoz.
+	Az AOP ADD paranccsal hozz√°adhatsz egy nickenevet a 
+	csatorn√°d AOP list√°j√°hoz.
 	
-	Az AOP DEL paranccsal elt·volÌthatsz egy megadott 
-	nicknevet a csatorn·d AOP list·j·rÛl. Ha sorsz·mokat 
-	intervallumban adunk meg (l·sd a list·z·sn·l), akkor a 
-	megadott bejegyzÈsek ker¸lnek tˆrlÈsre.
+	Az AOP DEL paranccsal elt√°vol√≠thatsz egy megadott 
+	nicknevet a csatorn√°d AOP list√°j√°r√≥l. Ha sorsz√°mokat 
+	intervallumban adunk meg (l√°sd a list√°z√°sn√°l), akkor a 
+	megadott bejegyz√©sek ker√ºlnek t√∂rl√©sre.
 	
-	Az  AOP LIST parancs megadja az AOP list·t.
-	Ha nem vagyunk kiv·ncsiak a teljes list·ra akkor a 
-	list·ban szereplı Aop sorsz·m·t megadva is megtudhatjuk a
-	nevÈt, megadhatunk intervallumot is.
+	Az  AOP LIST parancs megadja az AOP list√°t.
+	Ha nem vagyunk kiv√°ncsiak a teljes list√°ra akkor a 
+	list√°ban szerepl≈ë Aop sorsz√°m√°t megadva is megtudhatjuk a
+	nev√©t, megadhatunk intervallumot is.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		AOP #szoba LIST 2-5,7-9
-			List·zza az AOP-okat 2 Ès 5 kˆzˆtt Ès
+			List√°zza az AOP-okat 2 √©s 5 k√∂z√∂tt √©s
 			7-tol  9-ig.
 	      
-	Az AOP CLEAR parancs ki¸riti a szoba AOP list·j·t.
+	Az AOP CLEAR parancs ki√ºriti a szoba AOP list√°j√°t.
 	
-	Az AOP ADD Ès AOP DEL parancsokat csak SOP vagy 
-	magasabb szinttel rendelkezo userek haszn·lhatj·k, de az
+	Az AOP ADD √©s AOP DEL parancsokat csak SOP vagy 
+	magasabb szinttel rendelkezo userek haszn√°lhatj√°k, de az
 	AOP CLEAR parancsot csak a szoba foundere adhatja ki.
-	Hab·r, minden AOP list·n szereplo user haszn·lhatja az
+	Hab√°r, minden AOP list√°n szereplo user haszn√°lhatja az
 	AOP LIST parancsot.
 	
-	Ezt a parancsot letilthatod a csatorn·don, Ès helyette 
-	haszn·lhatod az access lista rendszert. NÈzd meg: %R
-	%S HELP ACCESSbıvebb inform·ciÛÈrt az access list·rÛl, Ès
-	Ìrd be: %R%S HELP SET XOP hogy megnÈzd, hogyan tudsz 
-	v·ltani az xOP rendszerrol az access lista rendszerre.
+	Ezt a parancsot letilthatod a csatorn√°don, √©s helyette 
+	haszn√°lhatod az access lista rendszert. N√©zd meg: %R
+	%S HELP ACCESSb≈ëvebb inform√°ci√≥√©rt az access list√°r√≥l, √©s
+	√≠rd be: %R%S HELP SET XOP hogy megn√©zd, hogyan tudsz 
+	v√°ltani az xOP rendszerrol az access lista rendszerre.
 	
 CHAN_HELP_HOP
 	Syntax: HOP  #szoba ADD nick
-	        HOP #szoba DEL { nick  |  sorsz·m  |  lista}
+	        HOP #szoba DEL { nick  |  sorsz√°m  |  lista}
 	        HOP #szoba LIST [ maszk | lista ]
 	        HOP #szoba CLEAR
 	
-	Karbantartja az HOP (HALFOP) list·t a csatorn·n. A HOP
-	list·n szereplı userek automatikusan megkapj·k belÈpÈskor
-	a fÈloper·tor st·tuszt.
+	Karbantartja az HOP (HALFOP) list√°t a csatorn√°n. A HOP
+	list√°n szerepl≈ë userek automatikusan megkapj√°k bel√©p√©skor
+	a f√©loper√°tor st√°tuszt.
 	
-	HOP ADD paranccsal hozz·adhatsz egy nickenevet csatorn·d
-	HOP list·j·hoz.
+	HOP ADD paranccsal hozz√°adhatsz egy nickenevet csatorn√°d
+	HOP list√°j√°hoz.
 	
-	HOP DEL paranccsal elt·volÌthatsz egy megadott nicknevet
-	a csatorn·d HOP list·j·rÛl. Ha sorsz·mokat intervallumban
-	adunk meg (l·sd a list·z·sn·l),akkor a megadott bejegyzÈsek
-	ker¸lnek tˆrlÈsre.
+	HOP DEL paranccsal elt√°vol√≠thatsz egy megadott nicknevet
+	a csatorn√°d HOP list√°j√°r√≥l. Ha sorsz√°mokat intervallumban
+	adunk meg (l√°sd a list√°z√°sn√°l),akkor a megadott bejegyz√©sek
+	ker√ºlnek t√∂rl√©sre.
 	
-	Az  HOP LIST parancs megadja az HOP list·t. Ha nem vagy 
-	kiv·ncsi a teljes list·ra akkor a list·ban szereplı HOP 
-	sorsz·m·t megadva is megtudhatjuk a nevÈt, megadhatunk 
+	Az  HOP LIST parancs megadja az HOP list√°t. Ha nem vagy 
+	kiv√°ncsi a teljes list√°ra akkor a list√°ban szerepl≈ë HOP 
+	sorsz√°m√°t megadva is megtudhatjuk a nev√©t, megadhatunk 
 	intervallumot is.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		HOP #szoba LIST 2-5,7-9
-		List·zza az HOP-okat 2 Ès 5 kˆzˆtt Ès
+		List√°zza az HOP-okat 2 √©s 5 k√∂z√∂tt √©s
 		7-tol  9-ig.
 	      
-	Az HOP CLEAR parancs ki¸riti a szoba HOP list·j·t.
+	Az HOP CLEAR parancs ki√ºriti a szoba HOP list√°j√°t.
 	
-	Az HOP ADD Ès HOP DEL parancsokat csak AOP / magasabb
-	szinttel rendelkezı userek haszn·lhatj·k,de az HOP CLEAR
+	Az HOP ADD √©s HOP DEL parancsokat csak AOP / magasabb
+	szinttel rendelkez≈ë userek haszn√°lhatj√°k,de az HOP CLEAR
 	parancsot csak a szoba foundere adhatja ki.
-	Hab·r, minden HOP list·n szereplo user haszn·lhatja az
+	Hab√°r, minden HOP list√°n szereplo user haszn√°lhatja az
 	HOP LIST parancsot.
 	
-	Ezt a parancsot letilthatod a csatorn·don, Ès helyette 
-	haszn·lhatod az access lista rendszert. NÈzd meg: %R
-	%S HELP ACCESS bıvebb inform·ciÛÈrt az access list·rÛl,
-	Ès Ìrd be: %R%S HELP SET XOP hogy megnÈzd, hogyan 
-	tudsz v·ltani az xOP rendszerrıl access lista rendszerre.
+	Ezt a parancsot letilthatod a csatorn√°don, √©s helyette 
+	haszn√°lhatod az access lista rendszert. N√©zd meg: %R
+	%S HELP ACCESS b≈ëvebb inform√°ci√≥√©rt az access list√°r√≥l,
+	√©s √≠rd be: %R%S HELP SET XOP hogy megn√©zd, hogyan 
+	tudsz v√°ltani az xOP rendszerr≈ël access lista rendszerre.
 	
 CHAN_HELP_SOP
 	Syntax: SOP #szoba ADD nick
-	        SOP #szoba DEL { nick  |  sorsz·m  |  lista }
+	        SOP #szoba DEL { nick  |  sorsz√°m  |  lista }
 	        SOP #szoba LIST [ maszk | lista ]
 	        SOP #szoba CLEAR
 	
-	Karbantartja az SOP(SuperOP)list·t a csatorn·n. Az SOP
-	list·n szereplo userek automatikusan megkapj·k ugyanazokat
-	amiket az AOP list·n szereplok,Ès emellett lehetısÈg¸k van
-	AKICK list·t mÛdosÌtani, szoba memo ¸zeneteket olvasni 
-	Ès k¸ldeni, BadWords list·t szerkeszteni, stb.
+	Karbantartja az SOP(SuperOP)list√°t a csatorn√°n. Az SOP
+	list√°n szereplo userek automatikusan megkapj√°k ugyanazokat
+	amiket az AOP list√°n szereplok,√©s emellett lehet≈ës√©g√ºk van
+	AKICK list√°t m√≥dos√≠tani, szoba memo √ºzeneteket olvasni 
+	√©s k√ºldeni, BadWords list√°t szerkeszteni, stb.
 	
-	Az SOP ADD paranccsal hozz·adhatsz egy nickenevet a 
-	csatorn·d SOP list·j·hoz.
+	Az SOP ADD paranccsal hozz√°adhatsz egy nickenevet a 
+	csatorn√°d SOP list√°j√°hoz.
 	
-	Az SOP DEL paranccsal elt·volÌthatsz egy megadott 
-	nicknevet a csatorn·d SOP list·j·rÛl. Ha sorsz·mokat 
-	intervallumban adunk meg (l·sd a list·z·sn·l), akkor a
-	megadott bejegyzÈsek ker¸lnek tˆrlÈsre.
+	Az SOP DEL paranccsal elt√°vol√≠thatsz egy megadott 
+	nicknevet a csatorn√°d SOP list√°j√°r√≥l. Ha sorsz√°mokat 
+	intervallumban adunk meg (l√°sd a list√°z√°sn√°l), akkor a
+	megadott bejegyz√©sek ker√ºlnek t√∂rl√©sre.
 	
-	Az  SOP LIST parancs megadja az SOP list·t. Ha nem 
-	vagy kiv·ncsi a teljes list·ra akkor a list·ban szereplı
-	SOP sorsz·m·t megadva is megtudhatjuk a nevÈt, megadhatunk
+	Az  SOP LIST parancs megadja az SOP list√°t. Ha nem 
+	vagy kiv√°ncsi a teljes list√°ra akkor a list√°ban szerepl≈ë
+	SOP sorsz√°m√°t megadva is megtudhatjuk a nev√©t, megadhatunk
 	intervallumot is.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		SOP #szoba LIST 2-5,7-9
-			List·zza az SOP-okat 2 Ès 5 kˆzˆtt Ès
-			7-tıl  9-ig.
+			List√°zza az SOP-okat 2 √©s 5 k√∂z√∂tt √©s
+			7-t≈ël  9-ig.
 	
-	Az SOP CLEAR parancs ki¸riti a szoba SOP list·j·t.
+	Az SOP CLEAR parancs ki√ºriti a szoba SOP list√°j√°t.
 	
-	Az SOP ADD, SOP DEL Ès SOP CLEAR parancsokat csak a
-	founder szintu userek haszn·lhatj·k. Hab·r, minden SOP 
-	list·n szereplo user haszn·lhatja az SOP LIST parancsot.
+	Az SOP ADD, SOP DEL √©s SOP CLEAR parancsokat csak a
+	founder szintu userek haszn√°lhatj√°k. Hab√°r, minden SOP 
+	list√°n szereplo user haszn√°lhatja az SOP LIST parancsot.
 
 
 	
-	Ezt a parancsot letilthatod a csatorn·don, Ès helyette 
-	haszn·lhatod az access lista rendszert. NÈzd meg: %R
-	%S HELP ACCESS bıvebb inform·ciÛÈrt az access list·rÛl,
-	Ès Ìrd be: %R%S HELP SET XOP hogy megnÈzd, hogyan 
-	tudsz v·ltani az xOP rendszerrıl access lista rendszerre.
+	Ezt a parancsot letilthatod a csatorn√°don, √©s helyette 
+	haszn√°lhatod az access lista rendszert. N√©zd meg: %R
+	%S HELP ACCESS b≈ëvebb inform√°ci√≥√©rt az access list√°r√≥l,
+	√©s √≠rd be: %R%S HELP SET XOP hogy megn√©zd, hogyan 
+	tudsz v√°ltani az xOP rendszerr≈ël access lista rendszerre.
 	
 CHAN_HELP_VOP
 	Syntax: VOP #szoba ADD nick
-	        VOP #szoba DEL {nick | sorsz·m| lista}
+	        VOP #szoba DEL {nick | sorsz√°m| lista}
 	        VOP #szoba LIST [maszk | lista]
 	        VOP #szoba CLEAR
 	
-	Karbantartja az VOP (VoiceOP) list·t a csatorn·n. VOP 
-	list·n szereplı userek belÈpÈskor automatikusan hangadÛi 
-	jogot (+v) kapnak, haszn·lhatj·k a voiceme parancsot. 
+	Karbantartja az VOP (VoiceOP) list√°t a csatorn√°n. VOP 
+	list√°n szerepl≈ë userek bel√©p√©skor automatikusan hangad√≥i 
+	jogot (+v) kapnak, haszn√°lhatj√°k a voiceme parancsot. 
 	
-	Az VOP ADD paranccsal hozz·adhatsz egy nickenevet a 
-	csatorn·d VOP list·j·hoz.
+	Az VOP ADD paranccsal hozz√°adhatsz egy nickenevet a 
+	csatorn√°d VOP list√°j√°hoz.
 	
-	A VOP DEL paranccsal elt·volÌthatsz egy nicknevet a 
-	csatorn·d VOP list·j·rÛl. Ha sorsz·mokat intervallumban
-	adunk meg (l·sd a list·z·sn·l), akkor a megadott 
-	bejegyzÈsek ker¸lnek tˆrlÈsre.
+	A VOP DEL paranccsal elt√°vol√≠thatsz egy nicknevet a 
+	csatorn√°d VOP list√°j√°r√≥l. Ha sorsz√°mokat intervallumban
+	adunk meg (l√°sd a list√°z√°sn√°l), akkor a megadott 
+	bejegyz√©sek ker√ºlnek t√∂rl√©sre.
 	
-	Az  VOP LIST parancs megadja az VOP list·t. Ha nem 
-	vagyunk kiv·ncsiak a teljes list·ra akkor a list·ban
-	szereplı VOP sorsz·m·t megadva is megtudhatjuk a nevÈt,
+	Az  VOP LIST parancs megadja az VOP list√°t. Ha nem 
+	vagyunk kiv√°ncsiak a teljes list√°ra akkor a list√°ban
+	szerepl≈ë VOP sorsz√°m√°t megadva is megtudhatjuk a nev√©t,
 	megadhatunk intervallumot is.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		VOP #szoba LIST 2-5,7-9
-			List·zza az VOP-okat 2 Ès 5 kˆzˆtt Ès
-			7-tıl  9-ig.
+			List√°zza az VOP-okat 2 √©s 5 k√∂z√∂tt √©s
+			7-t≈ël  9-ig.
 	      
-	Az VOP CLEAR parancs ki¸riti a szoba VOP list·j·t.
+	Az VOP CLEAR parancs ki√ºriti a szoba VOP list√°j√°t.
 	
-	Az VOP ADD, VOP DEL Ès VOP LIST parancsokat csak az
-	AOP vagy magasabb szintu userek haszn·lhatj·k.
-	A VOP CLEAR parancsot csak a founder haszn·lhatja.
+	Az VOP ADD, VOP DEL √©s VOP LIST parancsokat csak az
+	AOP vagy magasabb szintu userek haszn√°lhatj√°k.
+	A VOP CLEAR parancsot csak a founder haszn√°lhatja.
 	
-	Ezt a parancsot letilthatod a csatorn·don, Ès helyette 
-	haszn·lhatod az access list·t. NÈzd meg: %R%S HELP 
-	ACCESS bıvebb inform·ciÛÈrt az access list·rÛl, Ès Ìrd
-	be: %R%S HELP SET XOP hogy megnÈzd, hogyan tudsz 
-	v·ltani az xOP rendszerrol az access lista rendszerre.
+	Ezt a parancsot letilthatod a csatorn√°don, √©s helyette 
+	haszn√°lhatod az access list√°t. N√©zd meg: %R%S HELP 
+	ACCESS b≈ëvebb inform√°ci√≥√©rt az access list√°r√≥l, √©s √≠rd
+	be: %R%S HELP SET XOP hogy megn√©zd, hogyan tudsz 
+	v√°ltani az xOP rendszerrol az access lista rendszerre.
 	
 CHAN_HELP_ACCESS
 	Syntax:	ACCESS #szoba ADD nick szint
-			ACCESS #szoba DEL {nick | sorsz·m | lista}
+			ACCESS #szoba DEL {nick | sorsz√°m | lista}
 			ACCESS #szoba LIST [maszk | lista]
 			ACCESS #szoba CLEAR
 	
-	Access lista a csatorn·n. A hozz·fÈrÈsi lista (access)
-	meghat·rozza, hogy mely userek kaphatnak op st·tuszt vagy
-	hozz·fÈrÈst a %S parancsokhoz a csatorn·n. K¸lˆnbˆzı
-	user szintek lehetısÈget adnak arra, hogy eltÈrı jogokat 
-	kaphassanak; inform·ciÛÈrt %R%S HELP ACCESS LEVELS.
-	A nick, amely nem szerepel az access list·n 0-·s szint˚.
+	Access lista a csatorn√°n. A hozz√°f√©r√©si lista (access)
+	meghat√°rozza, hogy mely userek kaphatnak op st√°tuszt vagy
+	hozz√°f√©r√©st a %S parancsokhoz a csatorn√°n. K√ºl√∂nb√∂z≈ë
+	user szintek lehet≈ës√©get adnak arra, hogy elt√©r≈ë jogokat 
+	kaphassanak; inform√°ci√≥√©rt %R%S HELP ACCESS LEVELS.
+	A nick, amely nem szerepel az access list√°n 0-√°s szint≈±.
 	
-	Az ACCESS ADD paranccsal hozz·adhatÛ a nicknÈv az
-	access list·hoz a megadott szinttel; ha a nick szerepel
-	a list·n,akkor a szintje v·ltozik csak meg. A szintamit
-	meghat·rozol, kisebb kell, hogy legyen a te szintednÈl Ès
-	ha a nick m·r szerepel a list·n, akkor a jelenlegi 
-	szintj·nek a tiÈdnÈl alacsonyabbnak kell lennie.
+	Az ACCESS ADD paranccsal hozz√°adhat√≥ a nickn√©v az
+	access list√°hoz a megadott szinttel; ha a nick szerepel
+	a list√°n,akkor a szintje v√°ltozik csak meg. A szintamit
+	meghat√°rozol, kisebb kell, hogy legyen a te szintedn√©l √©s
+	ha a nick m√°r szerepel a list√°n, akkor a jelenlegi 
+	szintj√°nek a ti√©dn√©l alacsonyabbnak kell lennie.
 	
-	Az ACCESS DEL tˆrli a nicknevet az access list·rÛl.
-	Ha intervallumot adsz meg, akkor minden benne szereplı
-	nicknevet tˆrˆlsz.
+	Az ACCESS DEL t√∂rli a nicknevet az access list√°r√≥l.
+	Ha intervallumot adsz meg, akkor minden benne szerepl≈ë
+	nicknevet t√∂r√∂lsz.
 	
 	Az ACCESS LIST paranccsal megtekintheto az access lista.
 	Ha intervallumot is megadsz, akkor abban az intervallumban
-	szereplı nicknevek list·z·sa fog megtˆrtÈnni.
+	szerepl≈ë nicknevek list√°z√°sa fog megt√∂rt√©nni.
 	
 	ACCESS #szoba LIST 2-5,7-9
-		List·zza azokat a usereket, akik 2 Ès 5 kˆzˆtt illetve
-		7-tıl 9-ig szerepelnek a list·n.
+		List√°zza azokat a usereket, akik 2 √©s 5 k√∂z√∂tt illetve
+		7-t≈ël 9-ig szerepelnek a list√°n.
 	
-	Az ACCESS CLEAR parancs tˆrˆl minden bejegyzÈs a szoba
-	hozz·fÈrÈsi list·j·rÛl.
+	Az ACCESS CLEAR parancs t√∂r√∂l minden bejegyz√©s a szoba
+	hozz√°f√©r√©si list√°j√°r√≥l.
 	
 CHAN_HELP_ACCESS_LEVELS
-	Felhaszn·lÛi hozz·fÈrÈsi szintek
+	Felhaszn√°l√≥i hozz√°f√©r√©si szintek
 	
-	AlapbÛl, a kˆvetkezı hozz·fÈrÈsi szintek ÈrvÈnyesek:
+	Alapb√≥l, a k√∂vetkez≈ë hozz√°f√©r√©si szintek √©rv√©nyesek:
 	   
-	   Founder   Teljes hozz·fÈrÈs a %S funkciÛkhoz; automatikus
-	                     opjog a csatorn·ra valÛ belÈpÈskor.
-	                     MegjegyzÈs, csak egy embernek lehet founder st·tusza
-	                     (nem adhatÛ az ACCESS paranccsal).
-	        10   Hozz·fÈrÈs az AKICK parancshoz; automatikus op.
-	         5   Automatikus op st·tusz.
-	         3   Automatikus voice st·tusz.
-	         0   Nincs k¸lˆnleges privilÈgiuma; opolhatÛ m·s
-	                     opok ·ltal(ha a secure-ops ki van kapcsolva).
-	        <0   Nem opolhatÛ.
+	   Founder   Teljes hozz√°f√©r√©s a %S funkci√≥khoz; automatikus
+	                     opjog a csatorn√°ra val√≥ bel√©p√©skor.
+	                     Megjegyz√©s, csak egy embernek lehet founder st√°tusza
+	                     (nem adhat√≥ az ACCESS paranccsal).
+	        10   Hozz√°f√©r√©s az AKICK parancshoz; automatikus op.
+	         5   Automatikus op st√°tusz.
+	         3   Automatikus voice st√°tusz.
+	         0   Nincs k√ºl√∂nleges privil√©giuma; opolhat√≥ m√°s
+	                     opok √°ltal(ha a secure-ops ki van kapcsolva).
+	        <0   Nem opolhat√≥.
 	
-	Ezek a szintek v·ltozhatnak, vagy ˙jakat adhatsz hozz·, a
-	LEVELS paranccsal; Ìrd be: %R%S HELP LEVELS bıvebb
-	inform·ciÛÈrt.
+	Ezek a szintek v√°ltozhatnak, vagy √∫jakat adhatsz hozz√°, a
+	LEVELS paranccsal; √≠rd be: %R%S HELP LEVELS b≈ëvebb
+	inform√°ci√≥√©rt.
 	
 CHAN_HELP_AKICK
 	Syntax: AKICK #szoba ADD {nick | maszk} [indok]
@@ -4827,78 +4827,78 @@ CHAN_HELP_AKICK
 	        AKICK #szoba ENFORCE
 	        AKICK #szoba CLEAR
 	
-	Karbantarthatod a csatorn·hoz tartozÛ autokir˙g·s list·t
-	Ha egy olyan felhaszn·lÛ, akinek a maszkja megegyezik egy 
-	az akick list·n szerepelı maszkkal megprob·l belÈpni a 
-	csatorn·ra,	akkor a %S kitiltja Ès azt·n kir˙gja.
+	Karbantarthatod a csatorn√°hoz tartoz√≥ autokir√∫g√°s list√°t
+	Ha egy olyan felhaszn√°l√≥, akinek a maszkja megegyezik egy 
+	az akick list√°n szerepel≈ë maszkkal megprob√°l bel√©pni a 
+	csatorn√°ra,	akkor a %S kitiltja √©s azt√°n kir√∫gja.
 		
-	Az AKICK ADD parancs hozz·adja a megadott nicket
-	vagy usermaszkot az AutoKick list·hoz. Ha megadsz 
+	Az AKICK ADD parancs hozz√°adja a megadott nicket
+	vagy usermaszkot az AutoKick list√°hoz. Ha megadsz 
 	indokot is a parancsban, akkor ezzel az indokkal
-	fogja kir˙gni a ChanServ az illetıt, ha nincs 
-	megadva, akkor az alapbe·llÌt·s szerinti indok:
+	fogja kir√∫gni a ChanServ az illet≈ët, ha nincs 
+	megadva, akkor az alapbe√°ll√≠t√°s szerinti indok:
 	"You have been banned from the channel".
 	
-	Az AKICK STICK paranccsal vÈglegesen kitiltod az
-	adott maszkot a csatorn·rÛl. Ha valaki megprÛb·lja 
+	Az AKICK STICK paranccsal v√©glegesen kitiltod az
+	adott maszkot a csatorn√°r√≥l. Ha valaki megpr√≥b√°lja 
 	levenni a bant, a %S automatikusan visszateszi.
-	Ezt nem haszn·lhatod regisztr·lt nevekre.
+	Ezt nem haszn√°lhatod regisztr√°lt nevekre.
 	
-	Az AKICK UNSTICK parancs tˆrli a hat·s·t az
-	AKICK STICK parancsnak, teh·t ismÈt lehetısÈged
-	lesz levenni a tilt·st a csatorn·drÛl.
+	Az AKICK UNSTICK parancs t√∂rli a hat√°s√°t az
+	AKICK STICK parancsnak, teh√°t ism√©t lehet≈ës√©ged
+	lesz levenni a tilt√°st a csatorn√°dr√≥l.
 	
-	Az AKICK DEL parancs elt·volÌtja a megadott maszkot az
-	autokir˙g·s list·rÛl.
-	Ez nem m¸kˆdik, hacsak nem t·volÌtunk el minden az adott
-	nickre, identre, hostra szolÛ tilt·st, ami az autÛkirug·s
-	list·n szerepel; mindegyiket egyenkÈnt kell tˆrˆlni.
+	Az AKICK DEL parancs elt√°vol√≠tja a megadott maszkot az
+	autokir√∫g√°s list√°r√≥l.
+	Ez nem m√ºk√∂dik, hacsak nem t√°vol√≠tunk el minden az adott
+	nickre, identre, hostra szol√≥ tilt√°st, ami az aut√≥kirug√°s
+	list√°n szerepel; mindegyiket egyenk√©nt kell t√∂r√∂lni.
 	
-	Az AKICK LIST parancs megjelenÌti az autÛkir˙g·s list·t,
-	vagy option·lis esetben csak azokat jeleniti meg, amelyek
+	Az AKICK LIST parancs megjelen√≠ti az aut√≥kir√∫g√°s list√°t,
+	vagy option√°lis esetben csak azokat jeleniti meg, amelyek
 	egyeznek a megadott maszkkal.
 	
-	Az AKICK VIEW ugyanaz, mint a AKICK LIST, de tˆbb
-	rÈszletet jelenÌt meg.
+	Az AKICK VIEW ugyanaz, mint a AKICK LIST, de t√∂bb
+	r√©szletet jelen√≠t meg.
 	
-	AKICK ENFORCE hat·s·ra a %S ellenˆrzi az akick list·t
-	Ès elt·volÌt minden usert, aki szerepel a list·n.
+	AKICK ENFORCE hat√°s√°ra a %S ellen√∂rzi az akick list√°t
+	√©s elt√°vol√≠t minden usert, aki szerepel a list√°n.
 	
-	AKICK CLEAR paranccsal az ˆsszes akick lista bejegyzÈs 
-	tˆrˆlhetı.
+	AKICK CLEAR paranccsal az √∂sszes akick lista bejegyz√©s 
+	t√∂r√∂lhet≈ë.
 	
 CHAN_HELP_LEVELS
-	Syntax:	LEVELS #szoba SET tÌpus szint
-			LEVELS #szoba {DIS | DISABLE} tÌpus
+	Syntax:	LEVELS #szoba SET t√≠pus szint
+			LEVELS #szoba {DIS | DISABLE} t√≠pus
 			LEVELS #szoba LIST
 			LEVELS #szoba RESET
 	
-	A LEVELS segÌtsÈgÈvel a sz·mokkal defini·lt hozz·fÈrÈsi
-	szintek mÛdosÌthatÛk.
-	Ezzel a paranccsal,  defini·lhatsz hozz·fÈrÈsi szinteket, 
-	melyek sz¸ksÈgesek a  %S funkciÛihoz.
-	Ezt a parancsot csak a founder haszn·lhatja.
+	A LEVELS seg√≠ts√©g√©vel a sz√°mokkal defini√°lt hozz√°f√©r√©si
+	szintek m√≥dos√≠that√≥k.
+	Ezzel a paranccsal,  defini√°lhatsz hozz√°f√©r√©si szinteket, 
+	melyek sz√ºks√©gesek a  %S funkci√≥ihoz.
+	Ezt a parancsot csak a founder haszn√°lhatja.
 	
-	LEVELS SET biztosÌtja, hogy megv·ltoztasd a hozz·fÈrÈsi
-	szintjÈt egy adott funkciÛnak vagy funkciÛk csoportj·nak.
+	LEVELS SET biztos√≠tja, hogy megv√°ltoztasd a hozz√°f√©r√©si
+	szintj√©t egy adott funkci√≥nak vagy funkci√≥k csoportj√°nak.
 	
-	A LEVELS DISABLE (vagy DIS rˆviden) letiltja
-	az automatikus lehetısÈgeket, vagy megtiltja a hozz·fÈrÈst
-	bizonyos funkciÛkhoz, ezeket csak a founder v·ltoztathatja
+	A LEVELS DISABLE (vagy DIS r√∂viden) letiltja
+	az automatikus lehet≈ës√©geket, vagy megtiltja a hozz√°f√©r√©st
+	bizonyos funkci√≥khoz, ezeket csak a founder v√°ltoztathatja
 	
-	LEVELS LIST kiÌrja a jelenlegi hozz·fÈrÈsi szintjeit
-	a k¸lˆnbˆzı funkciÛknak.
+	LEVELS LIST ki√≠rja a jelenlegi hozz√°f√©r√©si szintjeit
+	a k√ºl√∂nb√∂z≈ë funkci√≥knak.
 	
-	LEVELS RESET vissza·llÌtja az alapÈrtelmezett ÈrtÈkeket.
-	L·sd mÈg: HELP ACCESS LEVELS.
+	LEVELS RESET vissza√°ll√≠tja az alap√©rtelmezett √©rt√©keket.
+	L√°sd m√©g: HELP ACCESS LEVELS.
 	
-	Ha szeretnÈd megnÈzni a funkciÛk Ès lehetısÈgek list·j·t.
-	akkor lesd meg a HELP LEVELS DESC leÌr·st is.
+	Ha szeretn√©d megn√©zni a funkci√≥k √©s lehet≈ës√©gek list√°j√°t.
+	akkor lesd meg a HELP LEVELS DESC le√≠r√°st is.
 	
 CHAN_HELP_LEVELS_DESC
-	A kˆvetkezı lehetısÈgek/funkciÛk elÈrthetıek.
-	MegjegyzÈs: az AUTODEOP Ès NOJOIN esetÈn maximum szintrıl
-	az ˆsszes tˆbbi esetÈn minimum szintrıl van szÛ.
+	A k√∂vetkez≈ë lehet≈ës√©gek/funkci√≥k el√©rthet≈ëek.
+	Megjegyz√©s: az AUTODEOP √©s NOJOIN eset√©n maximum szintr≈ël
+	az √∂sszes t√∂bbi eset√©n minimum szintr≈ël van sz√≥.
 	
 CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
@@ -4906,285 +4906,285 @@ CHAN_HELP_LEVELS_DESC_FORMAT
 CHAN_HELP_INFO
 	Syntax: INFO #szoba [ALL]
 	
-	List·zza az ˆsszes inform·ciÛt a megnevezett regisztr·lt
-	csatorn·rÛl, pl a foundert, a regisztr·l·s idıpontj·t,
-	az utolsÛ haszn·lat idejÈt, a leÌr·st, az mlock-ot.  
-	Ha beazonosÌtottad magad a szoba founderjÈnek, akkor
-	teljes inform·ciÛt az ALL paramÈterrel kaphatsz, az 
-	entrymessage, a successor Ès a rejtett infÛk is l·tszÛdnak
+	List√°zza az √∂sszes inform√°ci√≥t a megnevezett regisztr√°lt
+	csatorn√°r√≥l, pl a foundert, a regisztr√°l√°s id≈ëpontj√°t,
+	az utols√≥ haszn√°lat idej√©t, a le√≠r√°st, az mlock-ot.  
+	Ha beazonos√≠tottad magad a szoba founderj√©nek, akkor
+	teljes inform√°ci√≥t az ALL param√©terrel kaphatsz, az 
+	entrymessage, a successor √©s a rejtett inf√≥k is l√°tsz√≥dnak
 	
-	AlapbÛl az ALL opciÛ csak a foundernek engedÈlyezett.
+	Alapb√≥l az ALL opci√≥ csak a foundernek enged√©lyezett.
 
 CHAN_HELP_LIST
 	Syntax: LIST pattern
 	
-	List·zza a regisztr·lt csatorn·kat.
-	(Ahol a PRIVATE opciÛ be van kapcsolva nem fog
-	 megjelenni a list·ban.)
+	List√°zza a regisztr√°lt csatorn√°kat.
+	(Ahol a PRIVATE opci√≥ be van kapcsolva nem fog
+	 megjelenni a list√°ban.)
 
 CHAN_HELP_OP
 	Syntax: OP [#szoba [nick]]
 	
-	Opolja a megadott nicket a megadott csatorn·n.
+	Opolja a megadott nicket a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadat opolod.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) opolod magad,
-	ahol meg van hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) opolod magad,
+	ahol meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n
-	vagy 5-ˆs accessen szereplo userek haszn·lhatj·k.
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n
+	vagy 5-√∂s accessen szereplo userek haszn√°lhatj√°k.
 	
 CHAN_HELP_DEOP
 	Syntax: DEOP [#szoba [nick]]
 	
-	Deopolja a megadott nicket a megadott csatorn·n.
+	Deopolja a megadott nicket a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadat deopolod.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) deopolod magad,
-	ahol meg van hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) deopolod magad,
+	ahol meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n
-	vagy 5-ˆs access szinten szereplo userek haszn·lhatj·k.
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n
+	vagy 5-√∂s access szinten szereplo userek haszn√°lhatj√°k.
 	
 CHAN_HELP_VOICE
 	Syntax: VOICE [#szoba [nick]]
 	
-	Voiceolja a megadott nicket a megadott csatorn·n.
+	Voiceolja a megadott nicket a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadat voiceolod.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) voiceolod magad, ahol megvan
-	hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) voiceolod magad, ahol megvan
+	hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n
-	vagy 5-ˆs accessen szereplo userek haszn·lhatj·k vagy min.
-	a VOP list·n vagy 3-as access szinten szereplo userek
-	haszn·lhatj·k saj·t maguk voiceol·s·ra.
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n
+	vagy 5-√∂s accessen szereplo userek haszn√°lhatj√°k vagy min.
+	a VOP list√°n vagy 3-as access szinten szereplo userek
+	haszn√°lhatj√°k saj√°t maguk voiceol√°s√°ra.
 	
 CHAN_HELP_DEVOICE
 	Syntax: DEVOICE [#szoba [nick]]
 	
-	Elveszi a voiceot a megadott nicktıl a megadott csatorn·n.
-	Ha nem adsz meg nicket, magadatÛl veszed el.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) elveszed magadtÛl, ahol
-	meg van hozz· a jogod.
+	Elveszi a voiceot a megadott nickt≈ël a megadott csatorn√°n.
+	Ha nem adsz meg nicket, magadat√≥l veszed el.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) elveszed magadt√≥l, ahol
+	meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n vagy
-	5-ˆs accessen szereplı userek haszn·lhatj·k vagy min.
-	a VOP list·n vagy 3-as access szinten szereplo userek
-	haszn·lhatj·k saj·t maguktÛl elvenni voiceot.
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n vagy
+	5-√∂s accessen szerepl≈ë userek haszn√°lhatj√°k vagy min.
+	a VOP list√°n vagy 3-as access szinten szereplo userek
+	haszn√°lhatj√°k saj√°t magukt√≥l elvenni voiceot.
 	
 CHAN_HELP_HALFOP
 	Syntax: HALFOP [#szoba [nick]]
 	
-	FÈlopot ad a megadott nicknek a megadott csatorn·n.
+	F√©lopot ad a megadott nicknek a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadnak adsz.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) magadnak adsz fÈlopot, ahol
-	meg van hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) magadnak adsz f√©lopot, ahol
+	meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n vagy
-	5-ˆs accessen szereplo userek haszn·lhatj·k vagy min.
-	a HOP list·n vagy 4-es access szinten szereplı userek
-	haszn·lhatj·k saj·t maguknak fÈlop ad·s·ra.
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n vagy
+	5-√∂s accessen szereplo userek haszn√°lhatj√°k vagy min.
+	a HOP list√°n vagy 4-es access szinten szerepl≈ë userek
+	haszn√°lhatj√°k saj√°t maguknak f√©lop ad√°s√°ra.
 	
 CHAN_HELP_DEHALFOP
 	Syntax: DEHALFOP [#szoba [nick]]
 	
-	Elveszi a fÈlopot a megadott nicktıl a megadott csatorn·n.
-	Ha nem adsz meg nicket, magadatÛl veszed el.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) elveszed magadtÛl a fÈlopot,
-	ahol meg van hozz· a jogod.
+	Elveszi a f√©lopot a megadott nickt≈ël a megadott csatorn√°n.
+	Ha nem adsz meg nicket, magadat√≥l veszed el.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) elveszed magadt√≥l a f√©lopot,
+	ahol meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a minimum AOP list·n vagy
-	5-ˆs accessen szereplo userek haszn·lhatj·k vagy min.
-	a HOP list·n vagy 4-es access szinten szereplı userek
-	haszn·lhatj·k, hogy saj·t maguktÛl elvegyÈk a fÈlopot
+	Alap be√°ll√≠t√°s szerint csak a minimum AOP list√°n vagy
+	5-√∂s accessen szereplo userek haszn√°lhatj√°k vagy min.
+	a HOP list√°n vagy 4-es access szinten szerepl≈ë userek
+	haszn√°lhatj√°k, hogy saj√°t magukt√≥l elvegy√©k a f√©lopot
 	
 CHAN_HELP_PROTECT
 	Syntax: PROTECT [#szoba [nick]]
 	
-	Protectet ad a megadott nicknek a megadott csatorn·n.
+	Protectet ad a megadott nicknek a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadat protecteled.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) protectet adsz magadnak,
-	ahol meg van hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) protectet adsz magadnak,
+	ahol meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a founder tudja haszn·lni,
-	vagy minimum a SOP list·n vagy 10-es access szinten
-	szereplı userek haszn·lhatj·k saj·t maguk protectol·s·ra.
+	Alap be√°ll√≠t√°s szerint csak a founder tudja haszn√°lni,
+	vagy minimum a SOP list√°n vagy 10-es access szinten
+	szerepl≈ë userek haszn√°lhatj√°k saj√°t maguk protectol√°s√°ra.
 
 CHAN_HELP_DEPROTECT
 	Syntax: DEPROTECT [#szoba [nick]]
 	
-	Elveszi a protectet a nicktıl a megadott csatorn·n.
+	Elveszi a protectet a nickt≈ël a megadott csatorn√°n.
 	Ha nem adsz meg nicket, magadat deprotecteled.
-	Ha nem adsz meg csatorn·t Ès nicket se, akkor minden
-	csatorn·n (ahol bent vagy) elveszed a protectet magadtÛl,
-	ahol meg van hozz· a jogod.
+	Ha nem adsz meg csatorn√°t √©s nicket se, akkor minden
+	csatorn√°n (ahol bent vagy) elveszed a protectet magadt√≥l,
+	ahol meg van hozz√° a jogod.
 	
-	Alap be·llÌt·s szerint csak a founder tudja haszn·lni,
-	vagy min. az SOP list·n vagy 10-es access szinten
-	szereplı userek haszn·lhatj·k maguk deprotectol·s·ra.
+	Alap be√°ll√≠t√°s szerint csak a founder tudja haszn√°lni,
+	vagy min. az SOP list√°n vagy 10-es access szinten
+	szerepl≈ë userek haszn√°lhatj√°k maguk deprotectol√°s√°ra.
 	
 CHAN_HELP_OWNER
 	Syntax: OWNER [#szoba]
 	
-	Tulajdonosi st·tuszt ad a csatorn·n. Ha a szoba nincs
-	megadva, akkor minden csatorn·n, ahol bent vagy ownert 
+	Tulajdonosi st√°tuszt ad a csatorn√°n. Ha a szoba nincs
+	megadva, akkor minden csatorn√°n, ahol bent vagy ownert 
 	kapsz, ahol meg van ehhez van jogod is.
 	
-	Csak founder szint˚ user haszn·lhatja.
+	Csak founder szint≈± user haszn√°lhatja.
 	
 CHAN_HELP_DEOWNER
 	Syntax: DEOWNER [#szoba]
 	
-	Elveszi a tulajdonosi st·tuszt a csatorn·n.Ha a szoba
+	Elveszi a tulajdonosi st√°tuszt a csatorn√°n.Ha a szoba
 	nincs megadva, akkor mindenhol, ahol bent vagy elveszed
-	magadtÛl az ownert, ahol meg van ehhez van jogod is.
+	magadt√≥l az ownert, ahol meg van ehhez van jogod is.
 	
-	Csak founder szintu user haszn·lhatja.
+	Csak founder szintu user haszn√°lhatja.
 	
 CHAN_HELP_INVITE
 	Syntax: INVITE #szoba
 		
-	UtasÌtja a %S-et, hogy hÌvjon meg a megadott csatorn·ra.
+	Utas√≠tja a %S-et, hogy h√≠vjon meg a megadott csatorn√°ra.
 	
-	Alapbe·llÌt·s szerint, min. AOP vagy 5-ˆs access szinttel
-	kell rendelkezned a csatorn·n, hogy haszn·lhasd.
+	Alapbe√°ll√≠t√°s szerint, min. AOP vagy 5-√∂s access szinttel
+	kell rendelkezned a csatorn√°n, hogy haszn√°lhasd.
 	
 CHAN_HELP_UNBAN
 	Syntax: UNBAN #szoba
 	
-	A %S leveszi rÛlad a kitilt·st Ès szabadon
-	belÈphetsz a csaton·ra.
+	A %S leveszi r√≥lad a kitilt√°st √©s szabadon
+	bel√©phetsz a csaton√°ra.
 	
-	Alapbe·llÌt·s szerint, min. AOP vagy 5-ˆs access szinttel
-	kell rendelkezned, hogy haszn·lhasd.	
+	Alapbe√°ll√≠t√°s szerint, min. AOP vagy 5-√∂s access szinttel
+	kell rendelkezned, hogy haszn√°lhasd.	
 	
 CHAN_HELP_KICK
 	Syntax: KICK [#szoba [nick [indok]]]
 	
-	A ChanServ kir˙gja a megadott nicknevet a csatorn·rÛl.
-	Ha nem adsz meg nicket, akkor tÈged fog kir˙gni.
-	Ha nem adsz meg szob·t Ès nicket sem, akkor tÈged
-	fog minden csatorn·rÛl, ahol bent vagy kir˙gni, ha
-	meg van a parancs haszn·lat·hoz a sz¸ksÈges szinted.
+	A ChanServ kir√∫gja a megadott nicknevet a csatorn√°r√≥l.
+	Ha nem adsz meg nicket, akkor t√©ged fog kir√∫gni.
+	Ha nem adsz meg szob√°t √©s nicket sem, akkor t√©ged
+	fog minden csatorn√°r√≥l, ahol bent vagy kir√∫gni, ha
+	meg van a parancs haszn√°lat√°hoz a sz√ºks√©ges szinted.
 	
-	Alapbe·llÌt·s szerint, min. AOP vagy 5-ˆs access szinttel
-	kell rendelkezned a csatorn·n, hogy haszn·lhasd.
+	Alapbe√°ll√≠t√°s szerint, min. AOP vagy 5-√∂s access szinttel
+	kell rendelkezned a csatorn√°n, hogy haszn√°lhasd.
 	
 CHAN_HELP_BAN
 	Syntax: BAN [#szoba [nick [indok]]]
 	
-	Kitilt egy kiv·laszott nicket a csatorn·rÛl.
-	Ha nem adsz meg nevet akkor tÈged tilt ki, ha
-	nem adsz meg csatit Ès nicket, akkor minden csatorn·rÛl
-	ahol bent vagy Ès van jogod r·, onnan kitilt.
+	Kitilt egy kiv√°laszott nicket a csatorn√°r√≥l.
+	Ha nem adsz meg nevet akkor t√©ged tilt ki, ha
+	nem adsz meg csatit √©s nicket, akkor minden csatorn√°r√≥l
+	ahol bent vagy √©s van jogod r√°, onnan kitilt.
 	
-	Alapbe·llÌt·s szerint, minimum AOP vagy 5-ˆs access 
-	szinttel kell rendelkezned a csatorn·n, hogy haszn·lhasd.
+	Alapbe√°ll√≠t√°s szerint, minimum AOP vagy 5-√∂s access 
+	szinttel kell rendelkezned a csatorn√°n, hogy haszn√°lhasd.
 	
 CHAN_HELP_TOPIC
-	Syntax: TOPIC #szoba [tÈma]
+	Syntax: TOPIC #szoba [t√©ma]
 	
-	A %S megv·ltoztatja a szoba tÈm·j·t arra amit
-	megadt·l. Ha a tÈma nincs megadva, akkor egy ¸res
-	topicot ·llÌt be. Ez a parancs hasznos, akkor ha a 
-	SET TOPICLOCK be van ·llÌtva. Haszn·ld a %R%S HELP
-	SET TOPICLOCK parancsot bıvebb inform·ciÛÈrt.
+	A %S megv√°ltoztatja a szoba t√©m√°j√°t arra amit
+	megadt√°l. Ha a t√©ma nincs megadva, akkor egy √ºres
+	topicot √°ll√≠t be. Ez a parancs hasznos, akkor ha a 
+	SET TOPICLOCK be van √°ll√≠tva. Haszn√°ld a %R%S HELP
+	SET TOPICLOCK parancsot b≈ëvebb inform√°ci√≥√©rt.
 	
-	AlapbÛl a szoba founder szint˚ userei haszn·lhatj·k
-	csak a csatorn·n. 
+	Alapb√≥l a szoba founder szint≈± userei haszn√°lhatj√°k
+	csak a csatorn√°n. 
 	
 CHAN_HELP_CLEAR
 	Syntax: CLEAR #szoba mit?
 	
-	A %S elt·volÌtja a be·llÌt·sokat a csatorn·n. 
-	A kˆvetkezı opciÛk lehetsÈgesek:
+	A %S elt√°vol√≠tja a be√°ll√≠t√°sokat a csatorn√°n. 
+	A k√∂vetkez≈ë opci√≥k lehets√©gesek:
 	
-	    MODES    Tˆrli az ˆsszes mÛdot ami nem szerepel a szoba
-	             mode lockj·ban.
-	    BANS     Tˆrli az ˆsszes tilt·st a csatorn·n.
-	    EXCEPTS  Tˆrli az ˆsszes kivÈtelt a csatorn·n.
+	    MODES    T√∂rli az √∂sszes m√≥dot ami nem szerepel a szoba
+	             mode lockj√°ban.
+	    BANS     T√∂rli az √∂sszes tilt√°st a csatorn√°n.
+	    EXCEPTS  T√∂rli az √∂sszes kiv√©telt a csatorn√°n.
 	    INVITES  Clears all invites on the channel.
-	    OPS      Elvesz minden opot a csatorn·n
-	    HOPS     Elt·volÌt minden fÈlop csatorna st·tuszt (+h mÛd)
-	             az ˆsszes csatorn·n lÈvı fÈloper·tortÛl, ha t·mogatott.
-	    VOICES   Elvesz minden "voice"-t (mode +v) a csatorn·n.
-	    USERS    Elt·volÌt minden usert a csatorn·rÛl (kir˙g·s).
+	    OPS      Elvesz minden opot a csatorn√°n
+	    HOPS     Elt√°vol√≠t minden f√©lop csatorna st√°tuszt (+h m√≥d)
+	             az √∂sszes csatorn√°n l√©v≈ë f√©loper√°tort√≥l, ha t√°mogatott.
+	    VOICES   Elvesz minden "voice"-t (mode +v) a csatorn√°n.
+	    USERS    Elt√°vol√≠t minden usert a csatorn√°r√≥l (kir√∫g√°s).
 		
-	Alapbe·llÌt·sban, a founder szint˚ userek haszn·lhatj·k.
+	Alapbe√°ll√≠t√°sban, a founder szint≈± userek haszn√°lhatj√°k.
 	
 CHAN_HELP_GETKEY
 	Syntax: GETKEY #szoba 
 	
 	Megadja a szoba kulcsot. Ez a parancs kimondottan hasznos
-	botok Ès/vagy scriptek sz·m·ra, teh·t a kimeneti rÈsz
-	a kˆvetkezıkÈppen nÈz ki:
+	botok √©s/vagy scriptek sz√°m√°ra, teh√°t a kimeneti r√©sz
+	a k√∂vetkez≈ëk√©ppen n√©z ki:
 	
 	KEY <szoba> <kulcs>
 	
-	A kulcs "NO KEY", ha nincs kulcs be·llÌtva.
+	A kulcs "NO KEY", ha nincs kulcs be√°ll√≠tva.
 	
 CHAN_HELP_SENDPASS
 	Syntax: SENDPASS #szoba
 	
-	Elk¸ldi E-mailben a csatorn·dra be·llÌtott jelszÛt. Neked
-	a szoba founderjÈnek kell lenned, hogy haszn·lhasd ezt
-	a parancsot Ès elıszˆr azonosÌtanod kell magadat.
+	Elk√ºldi E-mailben a csatorn√°dra be√°ll√≠tott jelsz√≥t. Neked
+	a szoba founderj√©nek kell lenned, hogy haszn√°lhasd ezt
+	a parancsot √©s el≈ësz√∂r azonos√≠tanod kell magadat.
 	
-	Lehet korl·tozni IRC operatorok rÈszÈre a h·lÛzaton.
+	Lehet korl√°tozni IRC operatorok r√©sz√©re a h√°l√≥zaton.
 	
-	A parancs nem haszn·lhatÛ ha az encryption engedÈlyezett.
+	A parancs nem haszn√°lhat√≥ ha az encryption enged√©lyezett.
 	
 CHAN_SERVADMIN_HELP
 	
-	SzervÌz adminok tudj·k droppolni a csatorn·kat anÈlk¸l, 
-	hogy a szoba jelszÛt haszn·ln·nak, Ès megnÈzhetika az
-	access, AKICK, Ès be·llit·si szint list·t a csatorn·n.
+	Szerv√≠z adminok tudj√°k droppolni a csatorn√°kat an√©lk√ºl, 
+	hogy a szoba jelsz√≥t haszn√°ln√°nak, √©s megn√©zhetika az
+	access, AKICK, √©s be√°llit√°si szint list√°t a csatorn√°n.
 	
 CHAN_SERVADMIN_HELP_LOGOUT
-	Syntax: LOGOUT #szoba [nicknÈv]
+	Syntax: LOGOUT #szoba [nickn√©v]
 	
-	A parancs naplÛzza a kijelentekeztetÈst, neki Ûjra kell
-	azonosÌtani magukat,hogy visszakapj·k a hozz·fÈrÈseiket.	
+	A parancs napl√≥zza a kijelentekeztet√©st, neki √≥jra kell
+	azonos√≠tani magukat,hogy visszakapj√°k a hozz√°f√©r√©seiket.	
 	
-	Ha ta  vagy a csatˆrna alpÌtÛ, kÈpes vagy kijelentkeztetni
-	m·st, te kÈpes vagy magad is.	
+	Ha ta  vagy a csat√∂rna alp√≠t√≥, k√©pes vagy kijelentkeztetni
+	m√°st, te k√©pes vagy magad is.	
 	
-	Ha szervÌz admin vagy akkor kijelentekeztethetsz valakit a 
-	csatorn·rÛl anÈlk¸l, hogy te lenneÈl a founder.Elhagyhatod
-	a nincnÈv paramÈtert, Ès akkor az ˆsszes bejelentkezett 
-	felhaszn·lÛt kijelentkezteted a csatorn·rÛl.	
+	Ha szerv√≠z admin vagy akkor kijelentekeztethetsz valakit a 
+	csatorn√°r√≥l an√©lk√ºl, hogy te lenne√©l a founder.Elhagyhatod
+	a nincn√©v param√©tert, √©s akkor az √∂sszes bejelentkezett 
+	felhaszn√°l√≥t kijelentkezteted a csatorn√°r√≥l.	
 
 CHAN_SERVADMIN_HELP_DROP
 	Syntax: DROP #szoba
 	
-	Tˆrli a regisztr·ciÛt a csatorn·rÛl.Csak Services admins
-	droppolhat csatorn·t,˙gy hogy nem haszn·lja a szoba
-	jelszav·t.
+	T√∂rli a regisztr√°ci√≥t a csatorn√°r√≥l.Csak Services admins
+	droppolhat csatorn√°t,√∫gy hogy nem haszn√°lja a szoba
+	jelszav√°t.
 	
 CHAN_SERVADMIN_HELP_SET
 	
-	SzervÌz admin be·llÌthatja a csatorn·t NEMEL…V‹L’ -re,
-	ekkor a sorban megelızi az elÈv¸lıket. A szervÌz 
-	adminisztr·tor be·llÌthatja anÈlk¸l, hogy szoba
-	jelszÛt haszn·ln·.	
+	Szerv√≠z admin be√°ll√≠thatja a csatorn√°t NEMEL√âV√úL≈ê -re,
+	ekkor a sorban megel≈ëzi az el√©v√ºl≈ëket. A szerv√≠z 
+	adminisztr√°tor be√°ll√≠thatja an√©lk√ºl, hogy szoba
+	jelsz√≥t haszn√°ln√°.	
 	
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 	Syntax: SET #szoba NOEXPIRE {ON | OFF}
 	
-	Be·llÌtja a szoba elÈv¸lÈsÈt.  Be·llitva az
-	ON paranmÈtert megelızi az elÈv¸lı csatorn·kat.
+	Be√°ll√≠tja a szoba el√©v√ºl√©s√©t.  Be√°llitva az
+	ON paranm√©tert megel≈ëzi az el√©v√ºl≈ë csatorn√°kat.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	SzervÌz adminok haszn·lhatj·k az ALL paramÈtert.
+	Szerv√≠z adminok haszn√°lhatj√°k az ALL param√©tert.
 	
 CHAN_SERVADMIN_HELP_LIST
 	Syntax: LIST pattern[FORBIDDEN] [SUSPENDED] [NOEXPIRE]
@@ -5198,96 +5198,96 @@ CHAN_SERVADMIN_HELP_LIST
 	channels which, respectively, are FORBIDden, SUSPENDed or have 
 	the NOEXPIRE flag set will be displayed.  If both options are 
 	given, both types of channels will be displayed. These options are 
-	korl·tozva szervÌz adminnak.
+	korl√°tozva szerv√≠z adminnak.
 	
 CHAN_SERVADMIN_HELP_GETPASS
 	Syntax: GETPASS #szoba
 	
-	Kiirja a szoba jelszav·t.  Jegyzet b·rmikor haszn·lj·k a
-	parancsot, egy ¸zenetet kap aki kiadta a parancsot Ès a szoba
-	is ahol volt haszn·lva k¸ld egy WALLOPS/GLOBOPS ¸zenetet.
+	Kiirja a szoba jelszav√°t.  Jegyzet b√°rmikor haszn√°lj√°k a
+	parancsot, egy √ºzenetet kap aki kiadta a parancsot √©s a szoba
+	is ahol volt haszn√°lva k√ºld egy WALLOPS/GLOBOPS √ºzenetet.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 CHAN_SERVADMIN_HELP_FORBID
 	Syntax: FORBID #szoba [indok]
 	
-	Letiltja a szoba haszn·lat·t.
-	Csak droppol·s ut·n lehet a csatorn·t haszn·lni.
+	Letiltja a szoba haszn√°lat√°t.
+	Csak droppol√°s ut√°n lehet a csatorn√°t haszn√°lni.
 	
-	Indokl·st sz¸ksÈges egyes h·lÛzatokon.
+	Indokl√°st sz√ºks√©ges egyes h√°l√≥zatokon.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 CHAN_SERVADMIN_HELP_SUSPEND
 	Syntax: SUSPEND #szoba [indok]
 
-	ElutasÌt minden szobahaszn·latot. Lehet tˆrˆlni a
-	UNSUSPEND paranccsal Ès akkor haszn·lhatÛ az ˆ¸sszes 
-	megˆrzˆtt szoba adat/be·llÌt·s.
+	Elutas√≠t minden szobahaszn√°latot. Lehet t√∂r√∂lni a
+	UNSUSPEND paranccsal √©s akkor haszn√°lhat√≥ az √∂√ºsszes 
+	meg√∂rz√∂tt szoba adat/be√°ll√≠t√°s.
 	
-	Indokl·st kÈr nÈmelyik h·lÛzat.
+	Indokl√°st k√©r n√©melyik h√°l√≥zat.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 CHAN_SERVADMIN_HELP_UNSUSPEND
 	Syntax: UNSUSPEND #szoba
 	
-	Tˆrli a suspendet a csatorn·rÛl. ÷sszes adat Ès be·llÌt·s
-	megırizve a suspend haszn·lat elıttrˆl.
+	T√∂rli a suspendet a csatorn√°r√≥l. √ñsszes adat √©s be√°ll√≠t√°s
+	meg≈ërizve a suspend haszn√°lat el≈ëttr√∂l.
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 CHAN_SERVADMIN_HELP_STATUS
-	Syntax: STATUS  #szoba nicknÈv
+	Syntax: STATUS  #szoba nickn√©v
 	
-	Kiirja a nicknÈv aktu·lis hozz·fÈrÈsi szintjÈt a megadott
-	csatorn·n. 	V·lasz a kˆvetkezı form·ban::
+	Kiirja a nickn√©v aktu√°lis hozz√°f√©r√©si szintj√©t a megadott
+	csatorn√°n. 	V√°lasz a k√∂vetkez≈ë form√°ban::
 	
-	    STATUS szoba nicknÈv access-szint
+	    STATUS szoba nickn√©v access-szint
 	
-	Ha hiba tˆrtÈnik akkor a v·lasz a kˆvetkezı form·tun˙:
+	Ha hiba t√∂rt√©nik akkor a v√°lasz a k√∂vetkez≈ë form√°tun√∫:
 	
-	    STATUS ERROR Hiba - ¸zenet
+	    STATUS ERROR Hiba - √ºzenet
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 ###########################################################
 #
-# MemoServ help ¸zenetek
+# MemoServ help √ºzenetek
 #
 ###########################################################
 MEMO_HELP_CMD_SEND
-	    SEND   ‹zenetet k¸ld egy nicknek vagy csatorn·ra
+	    SEND   √úzenetet k√ºld egy nicknek vagy csatorn√°ra
 MEMO_HELP_CMD_CANCEL
-	    CANCEL Visszavonja az utolj·ra k¸ldˆtt memot
+	    CANCEL Visszavonja az utolj√°ra k√ºld√∂tt memot
 MEMO_HELP_CMD_LIST
-	    LIST   MegjelenÌti az ¸zenetek list·j·t
+	    LIST   Megjelen√≠ti az √ºzenetek list√°j√°t
 MEMO_HELP_CMD_READ
-	    READ   Elolvassa a megadott ¸zenete(ke)t
+	    READ   Elolvassa a megadott √ºzenete(ke)t
 MEMO_HELP_CMD_DEL
-	    DEL    Tˆrli a megadott ¸zenete(ke)t
+	    DEL    T√∂rli a megadott √ºzenete(ke)t
 MEMO_HELP_CMD_SET
-	    SET    ‹zenetekkel kapcsolatos be·llÌt·sokat hajt vÈgre
+	    SET    √úzenetekkel kapcsolatos be√°ll√≠t√°sokat hajt v√©gre
 MEMO_HELP_CMD_INFO
-	    INFO   KiÌrja az ¸zenetekkel kapcsolatos inform·ciÛkat
+	    INFO   Ki√≠rja az √ºzenetekkel kapcsolatos inform√°ci√≥kat
 MEMO_HELP_CMD_RSEND
-	    RSEND  Memo ¸zenetet k¸ld Ès olvas·si visszaigazol·st kÈr
+	    RSEND  Memo √ºzenetet k√ºld √©s olvas√°si visszaigazol√°st k√©r
 MEMO_HELP_CMD_CHECK
-	    CHECK  Ellenırzi, hogy a cÌmzett elolvasta-e m·r az ¸zit
+	    CHECK  Ellen≈ërzi, hogy a c√≠mzett elolvasta-e m√°r az √ºzit
 MEMO_HELP_CMD_SENDALL
-	    SENDALL Memo k¸ldÈse minden regisztr·lt felhaszn·lÛnak.
+	    SENDALL Memo k√ºld√©se minden regisztr√°lt felhaszn√°l√≥nak.
 MEMO_HELP_CMD_STAFF
-	    STAFF Memo k¸ldÈse minden opernek/adminnak.
+	    STAFF Memo k√ºld√©se minden opernek/adminnak.
 
 MEMO_HELP_HEADER
-	%S lehetısÈget ny˙jt az IRC felhaszn·lÛkank, hogy rˆvid
-	¸zeneteket k¸ldjenek m·s IRC felhaszn·lÛk rÈszÈre,
-	akkor is, ha a fogadÛ fÈl nem online, Ès csatorn·kra (*).
-	Ahhoz, hogy ¸zenetet lehessen k¸ldeni, mind a k¸ldı Ès a
-	fogadÛ fÈl nicknevÈnek regisztr·ltnak kell lennie.
+	%S lehet≈ës√©get ny√∫jt az IRC felhaszn√°l√≥kank, hogy r√∂vid
+	√ºzeneteket k√ºldjenek m√°s IRC felhaszn√°l√≥k r√©sz√©re,
+	akkor is, ha a fogad√≥ f√©l nem online, √©s csatorn√°kra (*).
+	Ahhoz, hogy √ºzenetet lehessen k√ºldeni, mind a k√ºld≈ë √©s a
+	fogad√≥ f√©l nicknev√©nek regisztr√°ltnak kell lennie.
 		
-	%S parancsok a kˆvetkezıket tartalmazz·k:
+	%S parancsok a k√∂vetkez≈ëket tartalmazz√°k:
 	
 	
 MEMO_HELP_ADMIN
@@ -5296,368 +5296,368 @@ MEMO_HELP_OPER
 	not used.
 MEMO_HELP_FOOTER
 	
-	A parancsokkal kapcsolatos tov·bbi segÌtsÈgÈrt
-	Ìrd be: %R%S HELP parancs.
+	A parancsokkal kapcsolatos tov√°bbi seg√≠ts√©g√©rt
+	√≠rd be: %R%S HELP parancs.
 	
-	(*) AlapbÛl, b·rmelyik user, minimum 10-es szinttel
-	olvashatja a szoba memo ¸zeneit. Ez megv·ltoztathatÛ a
+	(*) Alapb√≥l, b√°rmelyik user, minimum 10-es szinttel
+	olvashatja a szoba memo √ºzeneit. Ez megv√°ltoztathat√≥ a
 	%s LEVELS paranccsal.
 	
 MEMO_HELP_SEND
-	Syntax: SEND { nick  |  #szoba } memo-szˆveg
+	Syntax: SEND { nick  |  #szoba } memo-sz√∂veg
 	
-	‹zenetet k¸ld a megnevezett nicknek vagy csatorn·ra
-	a ¸zenet-szˆvegÈt tartalmazva. Amikor nicknÈvnek k¸ldesz
-	a cÌmzett kap egy ¸zenetet az ˙j ¸zenet ÈrkezÈsÈrıl
-	A cÌmzett csatorn·nak vagy nicknÈvnek regisztr·ltnak kell
+	√úzenetet k√ºld a megnevezett nicknek vagy csatorn√°ra
+	a √ºzenet-sz√∂veg√©t tartalmazva. Amikor nickn√©vnek k√ºldesz
+	a c√≠mzett kap egy √ºzenetet az √∫j √ºzenet √©rkez√©s√©r≈ël
+	A c√≠mzett csatorn√°nak vagy nickn√©vnek regisztr√°ltnak kell
 	lennie.
 	
 MEMO_HELP_CANCEL
 	Syntax: CANCEL { nick  |  #szoba }
 	
-	Visszavonja az utolsÛ memo ¸zenetet, amit a nicknek
-	vagy csatorn·nak k¸ldtÈl.
+	Visszavonja az utols√≥ memo √ºzenetet, amit a nicknek
+	vagy csatorn√°nak k√ºldt√©l.
 	
 MEMO_HELP_LIST
 	Syntax: LIST [#szoba] [list | NEW]
 	
-	MegjelenÌt egy list·t a jelenlegi ¸zenteteidrol. A NEW
-	opciÛval csak az ˙j (olvasatlan) ¸zenteket list·zza.
-	list·zza. Az olvasatlan ¸zeneteket jelˆli egy "*" jellel
-	az ¸zenetsz·mtÛl balra. Megadhatsz sz·mlist·t is, mint
-	ahogy az al·bbi pÈlda mutatja:
+	Megjelen√≠t egy list√°t a jelenlegi √ºzenteteidrol. A NEW
+	opci√≥val csak az √∫j (olvasatlan) √ºzenteket list√°zza.
+	list√°zza. Az olvasatlan √ºzeneteket jel√∂li egy "*" jellel
+	az √ºzenetsz√°mt√≥l balra. Megadhatsz sz√°mlist√°t is, mint
+	ahogy az al√°bbi p√©lda mutatja:
 	
 		LIST 2-5,7-9
-			List·zza az ¸zeneteket 2 Ès 5, illetve 7 Ès 9 kˆzˆtt.
+			List√°zza az √ºzeneteket 2 √©s 5, illetve 7 √©s 9 k√∂z√∂tt.
 	
 MEMO_HELP_READ
-	Syntax: READ [#szoba] {sorsz·m| list| LAST | NEW}
+	Syntax: READ [#szoba] {sorsz√°m| list| LAST | NEW}
 	
-	Elk¸ldi a megadott ¸zenetek tartalm·t. A LAST opciÛval
-	megjelenÌti a legutolsÛ ¸zenetet. A NEW opciÛval
-	minden ˙j ¸zenetet. EgyÈbkÈnt a megadott sz·m˙ ¸zenetet.
-	Megadhatsz sz·mlist·t is, mint a LIST parancsn·l.
+	Elk√ºldi a megadott √ºzenetek tartalm√°t. A LAST opci√≥val
+	megjelen√≠ti a legutols√≥ √ºzenetet. A NEW opci√≥val
+	minden √∫j √ºzenetet. Egy√©bk√©nt a megadott sz√°m√∫ √ºzenetet.
+	Megadhatsz sz√°mlist√°t is, mint a LIST parancsn√°l.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		READ 2-5,7-9
-			MegjelenÌti 2 Ès 5, a 7 Ès 9 kˆzˆtt a memo ¸zeneteket
+			Megjelen√≠ti 2 √©s 5, a 7 √©s 9 k√∂z√∂tt a memo √ºzeneteket
 	
 MEMO_HELP_DEL
-	Syntax: DEL [#szoba] {sorsz·m | list | LAST | ALL}
+	Syntax: DEL [#szoba] {sorsz√°m | list | LAST | ALL}
 	
-	Tˆrli a megadott memo ¸zenete(ke)t. 
-	Tˆbb sz·mot is megadhatsz, intervallumot is haszn·lhatsz,
-	az egyszer˚ sorsz·m helyett.
+	T√∂rli a megadott memo √ºzenete(ke)t. 
+	T√∂bb sz√°mot is megadhatsz, intervallumot is haszn√°lhatsz,
+	az egyszer≈± sorsz√°m helyett.
 	
-	Ha a LAST meg van adva, az utolsÛ memo ¸zenetet tˆrli
-	Ha az ALL van megadve, akkor minden memo ¸zenetet tˆrˆl.
+	Ha a LAST meg van adva, az utols√≥ memo √ºzenetet t√∂rli
+	Ha az ALL van megadve, akkor minden memo √ºzenetet t√∂r√∂l.
 	
-	PÈld·k:
+	P√©ld√°k:
 	
 		DEL 1
-			Tˆrli az elsı memo ¸zenetet.
+			T√∂rli az els≈ë memo √ºzenetet.
 	
 		DEL 2-5,7-9
-			Tˆrli a memo ¸zeneteket 2 Ès 5, illetve 7 Ès 9 kˆzˆtt.
+			T√∂rli a memo √ºzeneteket 2 √©s 5, illetve 7 √©s 9 k√∂z√∂tt.
 	
 MEMO_HELP_SET
-	Syntax: SET opciÛ paramÈterek
+	Syntax: SET opci√≥ param√©terek
 	
-	Be·llÌt k¸lˆnbˆzo memo opciÛkat. 
-	Az opciÛ lehet az al·bbiak egyike:
+	Be√°ll√≠t k√ºl√∂nb√∂zo memo opci√≥kat. 
+	Az opci√≥ lehet az al√°bbiak egyike:
 	
-	    NOTIFY     Itt ·llÌthatod be, ha figyelmeztetÈst szeretnÈl
-	               kapni az ˙j ¸zenetekrol (csak nicknevehez)
-	    LIMIT      Be·llÌtja a maxim·lis ¸zenetek sz·m·t
+	    NOTIFY     Itt √°ll√≠thatod be, ha figyelmeztet√©st szeretn√©l
+	               kapni az √∫j √ºzenetekrol (csak nicknevehez)
+	    LIMIT      Be√°ll√≠tja a maxim√°lis √ºzenetek sz√°m√°t
 	
-	Tov·bbi inform·ciÛÈrt Ìrd be: %R%S HELP SET opciÛ
+	Tov√°bbi inform√°ci√≥√©rt √≠rd be: %R%S HELP SET opci√≥
 	
 MEMO_HELP_SET_NOTIFY
 	Syntax: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 	
-	Itt tudod be·llÌtani, ha ÈrtesÌtÈst szeretnÈl kapni
-	az ˙j ¸zenetekrıl:
+	Itt tudod be√°ll√≠tani, ha √©rtes√≠t√©st szeretn√©l kapni
+	az √∫j √ºzenetekr≈ël:
 	
-	    ON      …rtesÌtÈst kapsz az ˙j ¸zenetrıl csatlakoz·skor,
-	            amikor visszajˆssz /AWAY-bÛl, vagy ha k¸ldenek neked.
-	    LOGON   …rtesÌtÈst kapsz az ˙j ¸zenetekrıl csatlakoz·skor
-	            vagy ha visszajˆssz /AWAY-bÛl.
-	    NEW     Csak akkor kapsz ÈrtesÌtÈst, ha ˙j ¸zenet Èrkezett.
+	    ON      √ârtes√≠t√©st kapsz az √∫j √ºzenetr≈ël csatlakoz√°skor,
+	            amikor visszaj√∂ssz /AWAY-b√≥l, vagy ha k√ºldenek neked.
+	    LOGON   √ârtes√≠t√©st kapsz az √∫j √ºzenetekr≈ël csatlakoz√°skor
+	            vagy ha visszaj√∂ssz /AWAY-b√≥l.
+	    NEW     Csak akkor kapsz √©rtes√≠t√©st, ha √∫j √ºzenet √©rkezett.
 	    MAIL    You will be notified of memos by email aswell as
 	            any other settings you have.
 	    NOMAIL  You will not be notified of memos by email.
-	    OFF     Nem kapsz ÈrtesÌtÈst az ¸zeneteidrıl.
+	    OFF     Nem kapsz √©rtes√≠t√©st az √ºzeneteidr≈ël.
 	
-	Az ON ekvivalens a LOGON Ès a NEW kombin·l·s·val.
+	Az ON ekvivalens a LOGON √©s a NEW kombin√°l√°s√°val.
 	
 MEMO_HELP_SET_LIMIT
 	Syntax: SET LIMIT [#szoba] limit
 	
-	Be·llÌtja, hogy max. h·ny ¸zenetet fogadhatsz a nickedre
-	(vagy a csatorn·ra). Ha 0-ra ·llÌtod, senki nem
-	k¸ldhet ¸zenetet a nickedre/csatorn·ra. Mindamellett,
-	nem ·llÌthatod ezt a sz·mot tˆbbre, mint %d.
+	Be√°ll√≠tja, hogy max. h√°ny √ºzenetet fogadhatsz a nickedre
+	(vagy a csatorn√°ra). Ha 0-ra √°ll√≠tod, senki nem
+	k√ºldhet √ºzenetet a nickedre/csatorn√°ra. Mindamellett,
+	nem √°ll√≠thatod ezt a sz√°mot t√∂bbre, mint %d.
 	
 MEMO_HELP_INFO
 	Syntax: INFO [#szoba]
 	
-	Inform·ciÛt jelenÌt meg arrÛl, hogy mennyi ¸zeneted van,
-	ebbıl mennyi olvasatlan, mennyi ¸zenetet fogadhatsz,
-	Ès azt is megmondja, hogy kapsz-e ¸zenetet az ˙j ¸zenetek
-	ÈrkezÈsekor. ParamÈter megad·sa esetÈn az inform·ciÛt
-	csatorn·ra vonatkozÛan jelenÌti meg.
+	Inform√°ci√≥t jelen√≠t meg arr√≥l, hogy mennyi √ºzeneted van,
+	ebb≈ël mennyi olvasatlan, mennyi √ºzenetet fogadhatsz,
+	√©s azt is megmondja, hogy kapsz-e √ºzenetet az √∫j √ºzenetek
+	√©rkez√©sekor. Param√©ter megad√°sa eset√©n az inform√°ci√≥t
+	csatorn√°ra vonatkoz√≥an jelen√≠ti meg.
 	
 MEMO_SERVADMIN_HELP_SET_LIMIT
-	Syntax: SET LIMIT [user | #szoba]{korl·t|NONE}[HARD]
+	Syntax: SET LIMIT [user | #szoba]{korl√°t|NONE}[HARD]
 	
-	Be·llÌtja egy felhaszn·lÛ vagy szoba max.fogadhatÛ
-	memo ¸zenetienek sz·m·t, ha a limitet 0-ra ·llitod 
-	akkor a felhaszn·lÛ nem fogadhat ¸zeneteket.Ha a 
-	NONE-vel ·llÌtod be akkor annyit fogadhat Ès tarthat
-	meg amennyit akar.Ha nem adsz meg nicknevet, vagy csatorn·t
-	akkor a saj·t korl·taidat ·llitja.
+	Be√°ll√≠tja egy felhaszn√°l√≥ vagy szoba max.fogadhat√≥
+	memo √ºzenetienek sz√°m√°t, ha a limitet 0-ra √°llitod 
+	akkor a felhaszn√°l√≥ nem fogadhat √ºzeneteket.Ha a 
+	NONE-vel √°ll√≠tod be akkor annyit fogadhat √©s tarthat
+	meg amennyit akar.Ha nem adsz meg nicknevet, vagy csatorn√°t
+	akkor a saj√°t korl√°taidat √°llitja.
 	
-	HARD-al hozz·adva nem ·llÌthatja a felhaszn·lÛ a korl·t 
-	ÈrtÈkÈt Ha nem adod hozz· a HARD-ot akkor a felhaszn·lÛ 
-	kedve szerint v·ltÛztathatja a korl·t ÈrtÈkÈt (akkor is ha
-	az elızı ÈrtÈket a HARD-al adtad meg)
+	HARD-al hozz√°adva nem √°ll√≠thatja a felhaszn√°l√≥ a korl√°t 
+	√©rt√©k√©t Ha nem adod hozz√° a HARD-ot akkor a felhaszn√°l√≥ 
+	kedve szerint v√°lt√≥ztathatja a korl√°t √©rt√©k√©t (akkor is ha
+	az el≈ëz≈ë √©rt√©ket a HARD-al adtad meg)
 	
-	SET LIMIT parancs haszn·lata korl·tozhatÛ SzervÌz
-	adminokra. EgyÈb felhaszn·lÛk csak saj·t maguknak Ès a 
-	csatorn·knak ahol megfelelı hozz·fÈrÈs¸k van ·llÌthatnak
-	korl·tot de nem tˆrˆlhetik, Ès nem ·llÌthatnak %d ÈrtÈk 
-	felett valamint HARD korl·tot.
+	SET LIMIT parancs haszn√°lata korl√°tozhat√≥ Szerv√≠z
+	adminokra. Egy√©b felhaszn√°l√≥k csak saj√°t maguknak √©s a 
+	csatorn√°knak ahol megfelel≈ë hozz√°f√©r√©s√ºk van √°ll√≠thatnak
+	korl√°tot de nem t√∂r√∂lhetik, √©s nem √°ll√≠thatnak %d √©rt√©k 
+	felett valamint HARD korl√°tot.
 	
 	
 MEMO_SERVADMIN_HELP_INFO
 	Syntax: INFO [nick| #szoba]
 	
-	ParamÈter nÈlk¸l kiirja az inform·ciÛt, hogy h·ny
-	¸zeneted van, ebbˆl h·ny olvasatlan, Ès ˆsszesen
-	h·ny ¸zenetet fogadhatsz.
+	Param√©ter n√©lk√ºl kiirja az inform√°ci√≥t, hogy h√°ny
+	√ºzeneted van, ebb√∂l h√°ny olvasatlan, √©s √∂sszesen
+	h√°ny √ºzenetet fogadhatsz.
 	
-	A szoba paramÈterrel, a csatorn·rÛl kapod meg  
-	ezeket az inform·ciÛkat	
+	A szoba param√©terrel, a csatorn√°r√≥l kapod meg  
+	ezeket az inform√°ci√≥kat	
 
-	A nicknÈv paramÈterrel a megadott nicknÈvrˆl jelÈenÌti
-	meg ezeket az inform·ciÛkat.Enek haszn·lat korl·tozva 
-	SzervÌz adminra.
+	A nickn√©v param√©terrel a megadott nickn√©vr√∂l jel√©en√≠ti
+	meg ezeket az inform√°ci√≥kat.Enek haszn√°lat korl√°tozva 
+	Szerv√≠z adminra.
 	
 	
 MEMO_HELP_STAFF
-	Syntax: STAFF memo-¸zenet
+	Syntax: STAFF memo-√ºzenet
 	
-	Memo ¸zenet k¸ldÈse az opereknek/adminoknak.
-	MegjegyzÈs: Ha valamelyik nick szerepel az oper
-	Ès admin list·n is, akkor a memot kÈtszer kapja meg.
-	HasonlÛ a helyzet a root Ès m·s list·kkal.
+	Memo √ºzenet k√ºld√©se az opereknek/adminoknak.
+	Megjegyz√©s: Ha valamelyik nick szerepel az oper
+	√©s admin list√°n is, akkor a memot k√©tszer kapja meg.
+	Hasonl√≥ a helyzet a root √©s m√°s list√°kkal.
 	
 MEMO_HELP_SENDALL
-	Syntax: SENDALL memo-¸zenet
+	Syntax: SENDALL memo-√ºzenet
 	
-	Memo ¸zenet k¸ldÈse minden regisztr·lt felhaszn·lÛnak.
+	Memo √ºzenet k√ºld√©se minden regisztr√°lt felhaszn√°l√≥nak.
 
 MEMO_HELP_RSEND
-	Syntax: RSEND {nick | #szoba} memo-¸zenet
+	Syntax: RSEND {nick | #szoba} memo-√ºzenet
 	
-	Memot k¸ld a megadott nÈvnek, szob·nak a memo-¸zenet
-	tartalm·val. Ha nicknÈvnek k¸ldˆd, akkor ÈrtesÌtÈst fog
-	kapni, hogy ˙j ¸zenete Èrkezett. A cÈl nicknÈvnek vagy
-	csatorn·nak regisztr·ltnak kell lennie.
-	Amint a cÌmzett elolvasta a memot, egy automatikus ÈrtesÌtÈst
-	fog kapni a feladÛ arrÛl, hogy az ¸zenetÈt elolvast·k.
+	Memot k√ºld a megadott n√©vnek, szob√°nak a memo-√ºzenet
+	tartalm√°val. Ha nickn√©vnek k√ºld√∂d, akkor √©rtes√≠t√©st fog
+	kapni, hogy √∫j √ºzenete √©rkezett. A c√©l nickn√©vnek vagy
+	csatorn√°nak regisztr√°ltnak kell lennie.
+	Amint a c√≠mzett elolvasta a memot, egy automatikus √©rtes√≠t√©st
+	fog kapni a felad√≥ arr√≥l, hogy az √ºzenet√©t elolvast√°k.
 
 MEMO_HELP_CHECK
 	Syntax: CHECK nick
 	
-	Ellenırzi, hogy az _utolsÛ_ ¸zenet, amit a nick sz·m·ra
-	k¸ldtÈl m·r olvasott-e vagy mÈg olvasatlan.
-	MegjegyzÈs, ez csak nickekkel m˚kˆdik szob·kkal nem.
+	Ellen≈ërzi, hogy az _utols√≥_ √ºzenet, amit a nick sz√°m√°ra
+	k√ºldt√©l m√°r olvasott-e vagy m√©g olvasatlan.
+	Megjegyz√©s, ez csak nickekkel m≈±k√∂dik szob√°kkal nem.
 
 ###########################################################
 #
-# OperServ help ¸zenetek
+# OperServ help √ºzenetek
 #
 ###########################################################
 
 OPER_HELP_CMD_GLOBAL
-	    GLOBAL      ‹zenetet k¸ld ˆsszes felhaszn·lÛnak
+	    GLOBAL      √úzenetet k√ºld √∂sszes felhaszn√°l√≥nak
 OPER_HELP_CMD_STATS
-	    STATS       Mutatja a SzervÌt Ès h·lÛzat ·llapot·t
+	    STATS       Mutatja a Szerv√≠t √©s h√°l√≥zat √°llapot√°t
 OPER_HELP_CMD_OPER
-	    OPER        MÛdosÌtja a SzervÌz oper·torok list·j·t
+	    OPER        M√≥dos√≠tja a Szerv√≠z oper√°torok list√°j√°t
 OPER_HELP_CMD_ADMIN
-	    ADMIN       MÛdosÌtja a SzervÌz admin list·t
+	    ADMIN       M√≥dos√≠tja a Szerv√≠z admin list√°t
 OPER_HELP_CMD_STAFF
-	    STAFF       Kijelzi a szervÌzt Ès aktÌv ·llapot·t
+	    STAFF       Kijelzi a szerv√≠zt √©s akt√≠v √°llapot√°t
 OPER_HELP_CMD_MODE
-	    MODE        V·ltÛztatja a szoba mÛdot
+	    MODE        V√°lt√≥ztatja a szoba m√≥dot
 OPER_HELP_CMD_KICK
-	    KICK        Kir˙gja a felhaszn·lÛt csatorn·rÛl
+	    KICK        Kir√∫gja a felhaszn√°l√≥t csatorn√°r√≥l
 OPER_HELP_CMD_CLEARMODES
-	    CLEARMODES  Tˆrli a szoba mÛdot
+	    CLEARMODES  T√∂rli a szoba m√≥dot
 OPER_HELP_CMD_KILLCLONES
-	    KILLCLONES  Killeli az ˆsszes klÛnt a hosztrÛl
+	    KILLCLONES  Killeli az √∂sszes kl√≥nt a hosztr√≥l
 OPER_HELP_CMD_AKILL
-	    AKILL       Szerkeszti az AKILL list·t
+	    AKILL       Szerkeszti az AKILL list√°t
 OPER_HELP_CMD_SGLINE
-	    SGLINE      Szerkeszti az SGLINE list·t
+	    SGLINE      Szerkeszti az SGLINE list√°t
 OPER_HELP_CMD_SQLINE
-	    SQLINE      Szerkeszti az SQLINE list·t
+	    SQLINE      Szerkeszti az SQLINE list√°t
 OPER_HELP_CMD_SZLINE
-	    SZLINE      Szerkeszti az SZLINE list·t
+	    SZLINE      Szerkeszti az SZLINE list√°t
 OPER_HELP_CMD_CHANLIST
-	    CHANLIST    List·zza az ˆsszes csatorn·t 
+	    CHANLIST    List√°zza az √∂sszes csatorn√°t 
 OPER_HELP_CMD_USERLIST
-	    USERLIST    List·zza az ˆsszes felhaszn·lÛt  
+	    USERLIST    List√°zza az √∂sszes felhaszn√°l√≥t  
 OPER_HELP_CMD_LOGONNEWS
-	    LOGONNEWS   FellÈpı ¸zenetek be·llÌt·sa
+	    LOGONNEWS   Fell√©p≈ë √ºzenetek be√°ll√≠t√°sa
 OPER_HELP_CMD_RANDOMNEWS
-	    RANDOMNEWS  VÈletlenszer˚en megjelenı ¸zenetet ·llÌt be 
-	                a felhaszn·lÛk rÈszÈre
+	    RANDOMNEWS  V√©letlenszer≈±en megjelen≈ë √ºzenetet √°ll√≠t be 
+	                a felhaszn√°l√≥k r√©sz√©re
 OPER_HELP_CMD_OPERNEWS
-	    OPERNEWS    Operek rÈszÈre megjelenı ¸zenetet ·llÌt be
+	    OPERNEWS    Operek r√©sz√©re megjelen≈ë √ºzenetet √°ll√≠t be
 OPER_HELP_CMD_SESSION
-	    SESSION     Olvassa a sessionok hoszt list·j·t
+	    SESSION     Olvassa a sessionok hoszt list√°j√°t
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION   MÛdosÌtja a session-korl·t/kivÈtel list·t
+	    EXCEPTION   M√≥dos√≠tja a session-korl√°t/kiv√©tel list√°t
 OPER_HELP_CMD_NOOP
-	    NOOP        Ideiglenesen tˆrli az ˆsszes O:line-t a szerver
-	                t·vollÈtÈben
+	    NOOP        Ideiglenesen t√∂rli az √∂sszes O:line-t a szerver
+	                t√°voll√©t√©ben
 OPER_HELP_CMD_JUPE
-	    JUPE        LÈtrehoz egy "Jupiter" ·lszervert.
+	    JUPE        L√©trehoz egy "Jupiter" √°lszervert.
 OPER_HELP_CMD_IGNORE
-	    IGNORE      MÛdosÌtja a SzervÌz mellızÈsi list·j·t
+	    IGNORE      M√≥dos√≠tja a Szerv√≠z mell≈ëz√©si list√°j√°t
 OPER_HELP_CMD_SET
-	    SET         Be·llÌtja szervÌz ·ltal·nos v·ltozÛit
+	    SET         Be√°ll√≠tja szerv√≠z √°ltal√°nos v√°ltoz√≥it
 OPER_HELP_CMD_RELOAD
-	    RELOAD      ⁄jratˆlti a szervÌz Konfigur·ciÛs f·jlj·t
+	    RELOAD      √öjrat√∂lti a szerv√≠z Konfigur√°ci√≥s f√°jlj√°t
 OPER_HELP_CMD_UPDATE
-	    UPDATE      A SzervÌz adatb·zist frissÌti, fel¸lÌrja
-	                lemezre kˆzvetlen¸l
+	    UPDATE      A Szerv√≠z adatb√°zist friss√≠ti, fel√ºl√≠rja
+	                lemezre k√∂zvetlen√ºl
 OPER_HELP_CMD_RESTART
-	    RESTART     Menti az adatb·zist, Ès ˙jraindÌtja a szervÌzt
+	    RESTART     Menti az adatb√°zist, √©s √∫jraind√≠tja a szerv√≠zt
 OPER_HELP_CMD_QUIT
-	    QUIT        Le·llÌtja a szervÌz programot mentÈs nÈlk¸l
+	    QUIT        Le√°ll√≠tja a szerv√≠z programot ment√©s n√©lk√ºl
 OPER_HELP_CMD_SHUTDOWN
-	    SHUTDOWN    Le·llÌtja a szervÌz programot mentÈssel
+	    SHUTDOWN    Le√°ll√≠tja a szerv√≠z programot ment√©ssel
 OPER_HELP_CMD_DEFCON
-	    DEFCON      Manipul·lja a DefCon rendszert
+	    DEFCON      Manipul√°lja a DefCon rendszert
 OPER_HELP_CMD_CHANKILL
-	    CHANKILL    AKILL az ˆsszes usert a csatorn·rÛl
+	    CHANKILL    AKILL az √∂sszes usert a csatorn√°r√≥l
 OPER_HELP_CMD_OLINE
-	    OLINE       Operflaget ad a biztos felhaszn·lÛnak
+	    OLINE       Operflaget ad a biztos felhaszn√°l√≥nak
 OPER_HELP_CMD_UMODE
-	    UMODE       Felhaszn·lÛ mÛdok ·llÌt·sa
+	    UMODE       Felhaszn√°l√≥ m√≥dok √°ll√≠t√°sa
 OPER_HELP_CMD_SVSNICK
-	    SVSNICK     Megv·ltoztatja a felhaszn·lÛ nicknevÈt
+	    SVSNICK     Megv√°ltoztatja a felhaszn√°l√≥ nicknev√©t
 OPER_HELP_CMD_MODLOAD
-	    MODLOAD     Betˆlti a modult
+	    MODLOAD     Bet√∂lti a modult
 OPER_HELP_CMD_MODUNLOAD
-	    MODUNLOAD   Kitˆlti a modult
+	    MODUNLOAD   Kit√∂lti a modult
 OPER_HELP_CMD_MODINFO
-	    MODINFO     Inform·ciÛ a betˆltˆtt modulokrÛl
+	    MODINFO     Inform√°ci√≥ a bet√∂lt√∂tt modulokr√≥l
 OPER_HELP_CMD_MODLIST
-	    MODLIST     List·zza a betˆltˆtt modulokat
+	    MODLIST     List√°zza a bet√∂lt√∂tt modulokat
 	
 OPER_HELP
 	%S parancsok:
 	
 OPER_HELP_LOGGED
-	‹zenet:Minden %S-nek k¸ldˆtt parancs naplÛzva van.
+	√úzenet:Minden %S-nek k√ºld√∂tt parancs napl√≥zva van.
 	
 OPER_HELP_GLOBAL
-	Syntax: GLOBAL ¸zenet
+	Syntax: GLOBAL √ºzenet
 	
-	Megengedi, hogy az IRCopok ¸zenetet k¸ldjenek az ˆsszes 
-	felhaszn·lÛnak a h·lÛzaton. ‹zenetet a %s nickrıl k¸ldi.
+	Megengedi, hogy az IRCopok √ºzenetet k√ºldjenek az √∂sszes 
+	felhaszn√°l√≥nak a h√°l√≥zaton. √úzenetet a %s nickr≈ël k√ºldi.
 	
 OPER_HELP_STATS
 	Syntax: STATS [AKILL | ALL | RESET]
 	
-	Ha v·lasztasz valamit, megmutatja az aktu·lis
-	felhaszn·lÛk sz·m·t, a bejelentkezett IRCopokat (szervizek
-	nÈlk¸l), legmagasabb felhaszn·lÛsz·mot a szervÌz indul·sa
-	Ûta, Ès az idıt amiÛta fut a szerver.	
+	Ha v√°lasztasz valamit, megmutatja az aktu√°lis
+	felhaszn√°l√≥k sz√°m√°t, a bejelentkezett IRCopokat (szervizek
+	n√©lk√ºl), legmagasabb felhaszn√°l√≥sz√°mot a szerv√≠z indul√°sa
+	√≥ta, √©s az id≈ët ami√≥ta fut a szerver.	
 
-	Az  AKILL be·llÌt·ssal, kijelzi az aktu·lis maxot az
-	AKILL list·n Ès az aktu·lis lej·rati idıt.
+	Az  AKILL be√°ll√≠t√°ssal, kijelzi az aktu√°lis maxot az
+	AKILL list√°n √©s az aktu√°lis lej√°rati id≈ët.
 	
-	Az ALL be·llÌt·st csak szervÌz adminok haszn·lhatj·k Ès
-	kiÌrja a szervÌz memÛria haszn·lat·nak inform·ciÛj·t. Ez a
-	be·llÌt·s lefagyaszthatja a szervÌzt egy rˆvid idıre nagy
-	h·lÛzat esetÈn, Ìgy nem lehet haszn·lni azt.	
+	Az ALL be√°ll√≠t√°st csak szerv√≠z adminok haszn√°lhatj√°k √©s
+	ki√≠rja a szerv√≠z mem√≥ria haszn√°lat√°nak inform√°ci√≥j√°t. Ez a
+	be√°ll√≠t√°s lefagyaszthatja a szerv√≠zt egy r√∂vid id≈ëre nagy
+	h√°l√≥zat eset√©n, √≠gy nem lehet haszn√°lni azt.	
 	
-	A RESET be·llÌt·s null·zza az aktu·lis felhaszn·lÛk max.
-	sz·m·t ·tÌrja a jelenlegi felhaszn·lÛ sz·mra	
+	A RESET be√°ll√≠t√°s null√°zza az aktu√°lis felhaszn√°l√≥k max.
+	sz√°m√°t √°t√≠rja a jelenlegi felhaszn√°l√≥ sz√°mra	
 	
-	UPTIME, a STATS helyett haszn·lhatÛ.
+	UPTIME, a STATS helyett haszn√°lhat√≥.
 	
 OPER_HELP_OPER
 	Syntax:	OPER ADD nick
-			OPER DEL {nick | sorsz·m | lista}
+			OPER DEL {nick | sorsz√°m | lista}
 			OPER LIST [maszk | lista]
 			OPER CLEAR
 
-	Megengedi a szervÌz root, hogy hozz·adjon/tˆrˆljˆn
-	nicknevet a szervÌz oper·tor list·rÛl. A nick haszn·lÛja
-	aki a szervÌz oper·tor list·j·n van Ès be van jelentkezve
-	%s -hoz haszn·lni tudja az oper·tor parancsokat	
+	Megengedi a szerv√≠z root, hogy hozz√°adjon/t√∂r√∂lj√∂n
+	nicknevet a szerv√≠z oper√°tor list√°r√≥l. A nick haszn√°l√≥ja
+	aki a szerv√≠z oper√°tor list√°j√°n van √©s be van jelentkezve
+	%s -hoz haszn√°lni tudja az oper√°tor parancsokat	
 
-	Az  OPER ADD parancs hozz·ad nicknevet a szervÌz
-	oper·tor list·hoz.
+	Az  OPER ADD parancs hozz√°ad nicknevet a szerv√≠z
+	oper√°tor list√°hoz.
 
-	A OPER DEL parancs tˆrli a nicknevet aszervÌz oper·tor
-	list·rÛl. Ha listasz·mot ad meg akkor azt a sz·m˙ 
-	felhaszn·lÛt tˆrli.( l·sd a pÈlda list·t alul).
+	A OPER DEL parancs t√∂rli a nicknevet aszerv√≠z oper√°tor
+	list√°r√≥l. Ha listasz√°mot ad meg akkor azt a sz√°m√∫ 
+	felhaszn√°l√≥t t√∂rli.( l√°sd a p√©lda list√°t alul).
 	
-	Az  OPER LIST kiirja a szervÌz oper·torok list·j·t. Ha
-	egy helyettesÌtı lej van a maszkban megadva akkor csak
-	az annak megfelelıt Ìrja ki. Ha listasz·mot ad meg csak
-	azokat fogja mutatni:pÈld·ban.	
+	Az  OPER LIST kiirja a szerv√≠z oper√°torok list√°j√°t. Ha
+	egy helyettes√≠t≈ë lej van a maszkban megadva akkor csak
+	az annak megfelel≈ët √≠rja ki. Ha listasz√°mot ad meg csak
+	azokat fogja mutatni:p√©ld√°ban.	
 	
 		OPER LIST 2-5,7-9
-			Lista a szervÌz oper·torokrÛl 2 -tˆl 5-ig Ès
-			7 -tıl 9-ig lÈvık.
+			Lista a szerv√≠z oper√°torokr√≥l 2 -t√∂l 5-ig √©s
+			7 -t≈ël 9-ig l√©v≈ëk.
 	      
-	Az OPER CLEAR parancs tˆ¸rli az ˆszzes nicket a
-	SzervÌz oper·tor list·rÛl.
+	Az OPER CLEAR parancs t√∂√ºrli az √∂szzes nicket a
+	Szerv√≠z oper√°tor list√°r√≥l.
 	
-	Valamennyi IRC oper·tor haszn·lhat OPER LIST parancsot.
+	Valamennyi IRC oper√°tor haszn√°lhat OPER LIST parancsot.
 	
 OPER_HELP_ADMIN
 	Syntax:	ADMIN  ADD nick
-			ADMIN  DEL { nick  |  sorsz·m  |  lista }
+			ADMIN  DEL { nick  |  sorsz√°m  |  lista }
 			ADMIN  LIST [ maszk  |  lista ]
 			ADMIN  CLEAR
 	
-	LehetısÈget ny˙jt a Services rootnak, hogy hozz·adjon,
-	tˆrˆljˆn nickneveket a Services adminok list·j·n. Az
-	a felhaszn·lÛ, aki szerepel a SzervÌz adminok list·j·n,
-	beazonosÌtott a %s-be hozz·fÈrhet az Admin parancsokhoz.
+	Lehet≈ës√©get ny√∫jt a Services rootnak, hogy hozz√°adjon,
+	t√∂r√∂lj√∂n nickneveket a Services adminok list√°j√°n. Az
+	a felhaszn√°l√≥, aki szerepel a Szerv√≠z adminok list√°j√°n,
+	beazonos√≠tott a %s-be hozz√°f√©rhet az Admin parancsokhoz.
 	
-	ADMIN ADD parancs hozz·ad egy felhaszn·lÛt szervÌz
-	admin list·hoz.
+	ADMIN ADD parancs hozz√°ad egy felhaszn√°l√≥t szerv√≠z
+	admin list√°hoz.
 	
-	ADMIN DEL parancs tˆrli a felhaszn·lÛt a szervÌz admin
-	list·rÛl. Ha egy sorozatot adsz meg, akkor azok a
-	bejegyzÈsek lesznek tˆrˆlve. (l·sd az al·bbiakban)
+	ADMIN DEL parancs t√∂rli a felhaszn√°l√≥t a szerv√≠z admin
+	list√°r√≥l. Ha egy sorozatot adsz meg, akkor azok a
+	bejegyz√©sek lesznek t√∂r√∂lve. (l√°sd az al√°bbiakban)
 	
-	ADMIN LIST parancs kiÌratja a szervÌz adminok list·j·t.  
-	Ha maszk van megadva, csak a megegyezı maszkot haszn·lÛ
-	bejegyzÈsek lesznek kiÌrva. Ha a list·bÛl bejegyzÈs 
-	sorsz·mok vannak megadva csak azokat Ìrja ki. PÈlda:
+	ADMIN LIST parancs ki√≠ratja a szerv√≠z adminok list√°j√°t.  
+	Ha maszk van megadva, csak a megegyez≈ë maszkot haszn√°l√≥
+	bejegyz√©sek lesznek ki√≠rva. Ha a list√°b√≥l bejegyz√©s 
+	sorsz√°mok vannak megadva csak azokat √≠rja ki. P√©lda:
 	
 		ADMIN LIST 2-5,7-9
-			List·zza a szervÌz adminokat 2-tıl 5-ig Ès 7-tıl 
+			List√°zza a szerv√≠z adminokat 2-t≈ël 5-ig √©s 7-t≈ël 
 			9-ig.
 	      
-	ADMIN CLEAR parancs tˆrli az ˆsszes bejegyzÈsz a szervÌz
-	adminok list·j·bÛl.
+	ADMIN CLEAR parancs t√∂rli az √∂sszes bejegyz√©sz a szerv√≠z
+	adminok list√°j√°b√≥l.
 	
-	Az IRC oper·torok haszn·lhatj·k az ADMIN LIST parancsot.
-	÷sszes egyÈbb parancs korl·tozva SzervÌz root rÈszÈre.
+	Az IRC oper√°torok haszn√°lhatj√°k az ADMIN LIST parancsot.
+	√ñsszes egy√©bb parancs korl√°tozva Szerv√≠z root r√©sz√©re.
 	
 OPER_HELP_IGNORE
 	Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
@@ -5676,306 +5676,306 @@ OPER_HELP_IGNORE
 	Ignores will not be enforced on IRC Operators.
 		
 OPER_HELP_MODE
-	Syntax: MODE #szoba mÛdok
+	Syntax: MODE #szoba m√≥dok
 	
-	Megengedi a szervÌz oper·tornak, hogy szoba mÛdokat 
-	·llÌtson. Parameterek ugyanazok mint a szabv·ny
-	/MODE parancsn·l
+	Megengedi a szerv√≠z oper√°tornak, hogy szoba m√≥dokat 
+	√°ll√≠tson. Parameterek ugyanazok mint a szabv√°ny
+	/MODE parancsn√°l
 		
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_UMODE
-	Syntax: UMODE user mÛdok
+	Syntax: UMODE user m√≥dok
 	
-	Megengedi a szervÌz adminoknak, hogy egy user felhaszn·lÛi
-	mÛdjait megv·ltoztassa. Parameterek ugyanazok mint a
-	szabv·ny /MODE parancsn·l.
+	Megengedi a szerv√≠z adminoknak, hogy egy user felhaszn√°l√≥i
+	m√≥djait megv√°ltoztassa. Parameterek ugyanazok mint a
+	szabv√°ny /MODE parancsn√°l.
 		
-	Korl·tozva Szuper adminnak.
+	Korl√°tozva Szuper adminnak.
 	
 OPER_HELP_OLINE
 	Syntax: OLINE user flagek
 	
-	LehetısÈget ad a szervÌz adminnak, hogy egy usernek 
-	operflaget adjon. ElıjelkÈnt "+" vagy "-" adhatÛ meg.
-	Ha csak a "-" paramÈter adod meg akkor mindent elt·volÌt.
+	Lehet≈ës√©get ad a szerv√≠z adminnak, hogy egy usernek 
+	operflaget adjon. El≈ëjelk√©nt "+" vagy "-" adhat√≥ meg.
+	Ha csak a "-" param√©ter adod meg akkor mindent elt√°vol√≠t.
 	
-	Korl·tozva Szuper adminnak.
+	Korl√°tozva Szuper adminnak.
 	
 OPER_HELP_CLEARMODES
 	Syntax: CLEARMODES szoba [ALL]
 	
-	Tˆrˆl minden mÛdot (i,k,l,m,n,p,s,t)Ès kitilt·st a 
-	csatorn·rÛl. Ha az ALL-t megadod akkor elt·volÌtja
-	az op Ès voice jogokat (+o Ès +v mÛdot) a csatorn·n. 
+	T√∂r√∂l minden m√≥dot (i,k,l,m,n,p,s,t)√©s kitilt√°st a 
+	csatorn√°r√≥l. Ha az ALL-t megadod akkor elt√°vol√≠tja
+	az op √©s voice jogokat (+o √©s +v m√≥dot) a csatorn√°n. 
 		
-	Korl·tozva SzervÌz oper·tornak.
+	Korl√°tozva Szerv√≠z oper√°tornak.
 	
 OPER_HELP_KICK
 	Syntax: KICK #szoba user indok
 	
-	LehetosÈget ny˙jt az IRCopoknak, hogy b·rmelyik szob·bÛl
-	kir˙gjanak egy felhaszn·lÛt. A paramÈterek ugyanazok,
-	mint a szabv·nyos /KICK parancsn·l. A kir˙g·si ¸zenetben
-	benne lesz a KIK parancsot k¸ldı IRCop nickneve;  pÈld·ul:
+	Lehetos√©get ny√∫jt az IRCopoknak, hogy b√°rmelyik szob√°b√≥l
+	kir√∫gjanak egy felhaszn√°l√≥t. A param√©terek ugyanazok,
+	mint a szabv√°nyos /KICK parancsn√°l. A kir√∫g√°si √ºzenetben
+	benne lesz a KIK parancsot k√ºld≈ë IRCop nickneve;  p√©ld√°ul:
 	
-	***xy ki lett r˙gva a #csatorn·rÛl %S ·ltal.(op(csak))
+	***xy ki lett r√∫gva a #csatorn√°r√≥l %S √°ltal.(op(csak))
 	
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_SVSNICK
-	Syntax: SVSNICK nick ˙jnick
+	Syntax: SVSNICK nick √∫jnick
 	
-	Erıszakkal mev·ltÛztatja a user nickevÈt ˙jnicknÈvre.
+	Er≈ëszakkal mev√°lt√≥ztatja a user nickev√©t √∫jnickn√©vre.
 	Limited to Super Admins.
 	
 OPER_HELP_AKILL
-	Syntax: AKILL  ADD [ +lej·rat] maszk indok
-	        AKILL  DEL {maszk | sor-sz·m | list}
+	Syntax: AKILL  ADD [ +lej√°rat] maszk indok
+	        AKILL  DEL {maszk | sor-sz√°m | list}
 	        AKILL  LIST [maszk | list]
 	        AKILL  VIEW [maszk | list]
 	        AKILL  CLEAR
 	
-	LehetısÈget ad a szervÌz opoknak, hogy karbantarts·k az
-	AKILL list·t.  Ha egy felhaszn·lÛ az AKILL maszkkal egyezı
-	cimrıl prÛb·l csatlakozni , akkor szervÌz kiad egy KILL 
-	parancsot a nickre, Ès a t·mogatott szervertÌpusokon arra
-	utasÌt minden szervert, hogy adjon K-linet a maszknak.
+	Lehet≈ës√©get ad a szerv√≠z opoknak, hogy karbantarts√°k az
+	AKILL list√°t.  Ha egy felhaszn√°l√≥ az AKILL maszkkal egyez≈ë
+	cimr≈ël pr√≥b√°l csatlakozni , akkor szerv√≠z kiad egy KILL 
+	parancsot a nickre, √©s a t√°mogatott szervert√≠pusokon arra
+	utas√≠t minden szervert, hogy adjon K-linet a maszknak.
 	
-	AKILL ADD hozz·adja a megadott user@host/ip maszkot az
-	AKILL list·ra a megadott indokkal (amit meg kell adnod).
-	Az elÈv¸lÈst egÈsz sz·mmot kovet egy idıparamÈter d (nap),
-	h (Ûra), m (perc).Ezek kombin·l·sa nem lehetsÈges(1h30m).
-	ha nem adsz meg idıegysÈget akkor ˆnmag·ban napot jelent.
-	(+30 az 30 napot jelent).Ha +0-·t adsz meg akkor nem 
-	elÈv¸lı lesz.Ha a usermaszk + -al kezdıdik akkor elÈv¸lÈst
-	meg kell adni akkor is ha megegyezik az alapÈrtelmezÈssel.
-	Az AKILL jelenlegi alapÈrtelmezett elÈv¸ÛlÈsi ideje 
-	megnÈzhetı a STATS AKILL paranccsal.
+	AKILL ADD hozz√°adja a megadott user@host/ip maszkot az
+	AKILL list√°ra a megadott indokkal (amit meg kell adnod).
+	Az el√©v√ºl√©st eg√©sz sz√°mmot kovet egy id≈ëparam√©ter d (nap),
+	h (√≥ra), m (perc).Ezek kombin√°l√°sa nem lehets√©ges(1h30m).
+	ha nem adsz meg id≈ëegys√©get akkor √∂nmag√°ban napot jelent.
+	(+30 az 30 napot jelent).Ha +0-√°t adsz meg akkor nem 
+	el√©v√ºl≈ë lesz.Ha a usermaszk + -al kezd≈ëdik akkor el√©v√ºl√©st
+	meg kell adni akkor is ha megegyezik az alap√©rtelmez√©ssel.
+	Az AKILL jelenlegi alap√©rtelmezett el√©v√º√≥l√©si ideje 
+	megn√©zhet≈ë a STATS AKILL paranccsal.
 
-	AKILL DEL tˆrli a maszkot az AKILL list·rÛl, ha rajta
-	van. Ha bejegyzÈs sorsz·mot adsz meg akkor azok fognak
-	tˆrlıdni.(l·sd a pÈld·t al·bb)
-	AKILL LIST kiirja a jelenlegi AKILL list·t. Ha egy 
+	AKILL DEL t√∂rli a maszkot az AKILL list√°r√≥l, ha rajta
+	van. Ha bejegyz√©s sorsz√°mot adsz meg akkor azok fognak
+	t√∂rl≈ëdni.(l√°sd a p√©ld√°t al√°bb)
+	AKILL LIST kiirja a jelenlegi AKILL list√°t. Ha egy 
 	"*" karakteres maszk van megadva, akkor csak azokat az
-	AKILL-eket list·zza, amelyek r·illenek a megadott maszkra.
-	Ha sorsz·mot adsz meg akkor azok fognak tˆrlıdni. PÈlda:
+	AKILL-eket list√°zza, amelyek r√°illenek a megadott maszkra.
+	Ha sorsz√°mot adsz meg akkor azok fognak t√∂rl≈ëdni. P√©lda:
 
 		AKILL LIST 2-5,7-9
-	      List·zza az AKILL-en lÈvoket 2-tıl 5-ig Ès 7-tıl 9-ig
-	      az AKILL list·bÛl
+	      List√°zza az AKILL-en l√©voket 2-t≈ël 5-ig √©s 7-t≈ël 9-ig
+	      az AKILL list√°b√≥l
 
-	AKILL VIEW rÈszletesebb verziÛja az AKILL LIST-nek,
+	AKILL VIEW r√©szletesebb verzi√≥ja az AKILL LIST-nek,
 	amely megmutatja, hogy ki vette fel az AKILL-t,	mikor lett
-	felvÈve Ès mikor j·r le, Èpp˙gy, felhaszn·lÛ@gazdanÈv 
-	maszkot Ès indokot.
+	felv√©ve √©s mikor j√°r le, √©pp√∫gy, felhaszn√°l√≥@gazdan√©v 
+	maszkot √©s indokot.
 		
-	AKILL CLEAR tˆrˆli az ˆsszes AKILL bejegyzÈst.
+	AKILL CLEAR t√∂r√∂li az √∂sszes AKILL bejegyz√©st.
 	
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_SGLINE
-	Syntax: SGLINE ADD [+lej·rat] maszk:indok
-	    SGLINE DEL {maszk | sor-sz·m | list}
+	Syntax: SGLINE ADD [+lej√°rat] maszk:indok
+	    SGLINE DEL {maszk | sor-sz√°m | list}
 	        SGLINE LIST [maszk | list]
 	        SGLINE VIEW [maszk | list]
 	        SGLINE CLEAR
 	
-	LehetısÈget ad a szervÌz opoknak, hogy karbantarts·k az
-	SGLINE list·t.  Ha egy felhaszn·lÛ egy valÛs nÈvvel akar
-	csatlakozni , ami szerepel az SGLINE list·n akkor szervÌz
-	nem fogja engedÈlyezni rÈszÈre a csatlakoz·st. 
+	Lehet≈ës√©get ad a szerv√≠z opoknak, hogy karbantarts√°k az
+	SGLINE list√°t.  Ha egy felhaszn√°l√≥ egy val√≥s n√©vvel akar
+	csatlakozni , ami szerepel az SGLINE list√°n akkor szerv√≠z
+	nem fogja enged√©lyezni r√©sz√©re a csatlakoz√°st. 
 	
-	SGLINE ADD hozz·adja a valÛsnÈvmaszkot az SGLINE list·ra
+	SGLINE ADD hozz√°adja a val√≥sn√©vmaszkot az SGLINE list√°ra
 	a megadott indokkal (amit meg is kell adni).	
-	Az elÈv¸lÈst egÈsz sz·mmot kovet egy idoparamÈter d (nap),
-	h (Ûra), m (perc).Ezek kombin·l·sa nem lehetsÈges(1h30m).
-	ha nem adsz meg idoegysÈget akkor ˆnmag·ban napot jelent.
-	(+30 az 30 napot jelent).Ha +0-·t adsz meg akkor nem 
-	elÈv¸lo lesz.Ha a usermaszk + -al kezdodik akkor elÈv¸lÈst
-	meg kell adni akkor is ha megegyezik az alapÈrtelmezÈssel.
-	Az SGLINE jelenlegi alapÈrtelmezett elÈv¸lÈsi ideje 
-	megnÈzheto a STATS AKILL paranccsal.
-	Jegyzet: a valÛsnÈv maszkja tartalmazhat szÛkˆzt ezÈrt
-	kˆzte Ès az indok kˆzˆtt az elv·lasztÛ karakter a vesszı.
-	SGLINE DEL elt·volÌtja a megadott maszkot az SGLINE list·rÛl,
-	ha jelen van.Ha bejegyzÈs sorsz·mot adsz meg akkor azok fognak
-	tˆrlodni.	(L·sd a pÈlda al·bb)
-	SGLINE LIST kiirja az ˆsszes SGLINE bejegyzÈst; ha
-	egy tetszıleges maszk meg van adva, a lista korl·tozva lesz
-	azokra a bejegyzÈsekre, amelyekre r·illik a maszk. PÈlda:
+	Az el√©v√ºl√©st eg√©sz sz√°mmot kovet egy idoparam√©ter d (nap),
+	h (√≥ra), m (perc).Ezek kombin√°l√°sa nem lehets√©ges(1h30m).
+	ha nem adsz meg idoegys√©get akkor √∂nmag√°ban napot jelent.
+	(+30 az 30 napot jelent).Ha +0-√°t adsz meg akkor nem 
+	el√©v√ºlo lesz.Ha a usermaszk + -al kezdodik akkor el√©v√ºl√©st
+	meg kell adni akkor is ha megegyezik az alap√©rtelmez√©ssel.
+	Az SGLINE jelenlegi alap√©rtelmezett el√©v√ºl√©si ideje 
+	megn√©zheto a STATS AKILL paranccsal.
+	Jegyzet: a val√≥sn√©v maszkja tartalmazhat sz√≥k√∂zt ez√©rt
+	k√∂zte √©s az indok k√∂z√∂tt az elv√°laszt√≥ karakter a vessz≈ë.
+	SGLINE DEL elt√°vol√≠tja a megadott maszkot az SGLINE list√°r√≥l,
+	ha jelen van.Ha bejegyz√©s sorsz√°mot adsz meg akkor azok fognak
+	t√∂rlodni.	(L√°sd a p√©lda al√°bb)
+	SGLINE LIST kiirja az √∂sszes SGLINE bejegyz√©st; ha
+	egy tetsz≈ëleges maszk meg van adva, a lista korl√°tozva lesz
+	azokra a bejegyz√©sekre, amelyekre r√°illik a maszk. P√©lda:
 		
 	   SGLINE LIST 2-5,7-9
-	      List·zza a SGLINE-okat 2-tˆl 5-ig Ès 7-tıl 9-ig az 
-	      SGLINE list·rÛl
+	      List√°zza a SGLINE-okat 2-t√∂l 5-ig √©s 7-t≈ël 9-ig az 
+	      SGLINE list√°r√≥l
 	      
-	SGLINE VIEW rÈszletesebb verziÛja a SGLINE LIST-nek,
-	Ès megmutatja, ki kÈszÌtette a SGLINE bejegyzÈseket,
-	Ès mikor j·r le, mint a maszkot Ès az indokot.
-	SGLINE CLEAR tˆrli az SGLINE bejegyzÈseket.
+	SGLINE VIEW r√©szletesebb verzi√≥ja a SGLINE LIST-nek,
+	√©s megmutatja, ki k√©sz√≠tette a SGLINE bejegyz√©seket,
+	√©s mikor j√°r le, mint a maszkot √©s az indokot.
+	SGLINE CLEAR t√∂rli az SGLINE bejegyz√©seket.
 	
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_SQLINE
-	Syntax: SQLINE ADD [+lej·rat] maszk indok
-	        SQLINE DEL {maszk | sor-sz·m | list}
+	Syntax: SQLINE ADD [+lej√°rat] maszk indok
+	        SQLINE DEL {maszk | sor-sz√°m | list}
 	        SQLINE LIST [maszk | list]
 	        SQLINE VIEW [maszk | list]
 	        SQLINE CLEAR
 	
-	EngedÈlyezi a oper·toroknak, hogy karbantarts·k az SQLINE
-	list·t. Ha egy felhaszn·lÛ "nick-je" r·illik egy SQLINe
-	maszkra, megprÛb·l csatlakozni, a szervÌz nem fogja engedni
-	az egÈsz irc-n.
+	Enged√©lyezi a oper√°toroknak, hogy karbantarts√°k az SQLINE
+	list√°t. Ha egy felhaszn√°l√≥ "nick-je" r√°illik egy SQLINe
+	maszkra, megpr√≥b√°l csatlakozni, a szerv√≠z nem fogja engedni
+	az eg√©sz irc-n.
 	
-	Ha az elsı karakter a maszkban #, szervÌz meg fogja elızni 
-	a haszn·lat·t Az ilyen csatorn·knak (az IRCD-k ezt 
-	t·mogatj·k).
+	Ha az els≈ë karakter a maszkban #, szerv√≠z meg fogja el≈ëzni 
+	a haszn√°lat√°t Az ilyen csatorn√°knak (az IRCD-k ezt 
+	t√°mogatj√°k).
 
-	SQLINE ADD hozz·adja az adott maszkot az SQLINE list·hoz
-	a megadott indokkal (amit meg kell adni).Az elÈv¸lÈst is,
-	egÈsz sz·mmot kˆvet egy idˆparamÈter d (nap),h (Ûra), 
-	m (perc).Ezek kombin·l·sa nem lehetsÈges(1h30m).
-	Ha nem adsz meg idˆegysÈget akkor ˆnmag·ban napot jelent.
-	(+30 az 30 napot jelent).Ha +0-·t adsz meg akkor nem 
-	elÈv¸lo lesz.Ha a usermaszk + -al kezdodik akkor elÈv¸lÈst
-	meg kell adni akkor is ha megegyezik az alapÈrtelmezÈssel.
-	Az SQLINE jelenlegi alapÈrtelmezett elÈv¸lÈsi ideje 
-	megnÈzheto a STATS AKILL paranccsal.
-	SQLINE DEL elt·volÌtja a maszkot az SQLINE list·rÛl,
-	ha jelen van.Ha bejegyzÈs sorsz·mot adsz meg akkor azok
-	fognak tˆrlıdni.	(L·sd a pÈlda al·bb)
-	SQLINE LIST kiirja az ˆsszes SQLINE bejegyzÈst; ha
-	egy tetszˆleges maszk meg van adva, a lista korl·tozva lesz
-	azokra a bejegyzÈsekre, amelyekre r·illik a maszk. PÈlda:
+	SQLINE ADD hozz√°adja az adott maszkot az SQLINE list√°hoz
+	a megadott indokkal (amit meg kell adni).Az el√©v√ºl√©st is,
+	eg√©sz sz√°mmot k√∂vet egy id√∂param√©ter d (nap),h (√≥ra), 
+	m (perc).Ezek kombin√°l√°sa nem lehets√©ges(1h30m).
+	Ha nem adsz meg id√∂egys√©get akkor √∂nmag√°ban napot jelent.
+	(+30 az 30 napot jelent).Ha +0-√°t adsz meg akkor nem 
+	el√©v√ºlo lesz.Ha a usermaszk + -al kezdodik akkor el√©v√ºl√©st
+	meg kell adni akkor is ha megegyezik az alap√©rtelmez√©ssel.
+	Az SQLINE jelenlegi alap√©rtelmezett el√©v√ºl√©si ideje 
+	megn√©zheto a STATS AKILL paranccsal.
+	SQLINE DEL elt√°vol√≠tja a maszkot az SQLINE list√°r√≥l,
+	ha jelen van.Ha bejegyz√©s sorsz√°mot adsz meg akkor azok
+	fognak t√∂rl≈ëdni.	(L√°sd a p√©lda al√°bb)
+	SQLINE LIST kiirja az √∂sszes SQLINE bejegyz√©st; ha
+	egy tetsz√∂leges maszk meg van adva, a lista korl√°tozva lesz
+	azokra a bejegyz√©sekre, amelyekre r√°illik a maszk. P√©lda:
 		
 	   SQINE LIST 2-5,7-9
-	      List·zza a SQLINE-okat 2-tˆl 5-ig Ès 7-tol 9-ig az 
-	      SQLINE list·rÛl
+	      List√°zza a SQLINE-okat 2-t√∂l 5-ig √©s 7-tol 9-ig az 
+	      SQLINE list√°r√≥l
 	      
-	SQLINE VIEW rÈszletesebb verziÛja a SQLINE LIST-nek,
-	Ès megmutatja, ki kÈszÌtette a SGLINE bejegyzÈseket,
-	Ès mikor j·r le, mint a maszkot Ès az indokot.
-	SQLINE CLEAR tˆrli az SQLINE bejegyzÈseket.
+	SQLINE VIEW r√©szletesebb verzi√≥ja a SQLINE LIST-nek,
+	√©s megmutatja, ki k√©sz√≠tette a SGLINE bejegyz√©seket,
+	√©s mikor j√°r le, mint a maszkot √©s az indokot.
+	SQLINE CLEAR t√∂rli az SQLINE bejegyz√©seket.
 	
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_SZLINE
-	Syntax: SZLINE ADD [+lej·rat] maszk indok
-	        SZLINE DEL {maszk | sorsz·m | list}
+	Syntax: SZLINE ADD [+lej√°rat] maszk indok
+	        SZLINE DEL {maszk | sorsz√°m | list}
 	        SZLINE LIST [maszk | list]
 	        SZLINE VIEW [maszk | list]
 	        SZLINE CLEAR
 	
-	LehetˆsÈget ny˙jt az oper·toroknak, hogy karbantarts·k az
-	SZLINE list·t. Ha egy felhaszn·lÛ, IP cÌme r·illik egy 
-	SZLINE maszkra, csatlakozni akar, a szervÌz nem fogaj azt
-	megengedni( Ès ez lehet IP vagy PTR RR vagy not)
-	SZLINE ADD hozz·adja az adott maszkot az SZLINE list·hoz
-	a megadott indokkal (amit meg kell adni).Az elÈv¸lÈst is,
-	egÈsz sz·mmot kˆvet egy idˆparamÈter d (nap),h (Ûra), 
-	m (perc).Ezek kombin·l·sa nem lehetsÈges(1h30m).
-	Ha nem adsz meg idˆegysÈget akkor ˆnmag·ban napot jelent.
-	(+30 az 30 napot jelent).Ha +0-·t adsz meg akkor nem 
-	elÈv¸lo lesz.Ha a usermaszk + -al kezdodik akkor elÈv¸lÈst
-	meg kell adni akkor is ha megegyezik az alapÈrtelmezÈssel.
-	Az SZLINE jelenlegi alapÈrtelmezett elÈv¸lÈsi ideje 
-	megnÈzheto a STATS AKILL paranccsal.
-	SZLINE DEL elt·volÌtja a maszkot az SZLINE list·rÛl,
-	ha jelen van.Ha bejegyzÈs sorsz·mot adsz meg akkor azok 
-	fognak tˆrlodni.	(L·sd a pÈlda al·bb)
-	SZLINE LIST kiirja az ˆsszes SQLINE bejegyzÈst; ha
-	egy tetszˆleges maszk meg van adva, a lista korl·tozva lesz
-	azokra a bejegyzÈsekre, amelyekre r·illik a maszk. PÈlda:
+	Lehet√∂s√©get ny√∫jt az oper√°toroknak, hogy karbantarts√°k az
+	SZLINE list√°t. Ha egy felhaszn√°l√≥, IP c√≠me r√°illik egy 
+	SZLINE maszkra, csatlakozni akar, a szerv√≠z nem fogaj azt
+	megengedni( √©s ez lehet IP vagy PTR RR vagy not)
+	SZLINE ADD hozz√°adja az adott maszkot az SZLINE list√°hoz
+	a megadott indokkal (amit meg kell adni).Az el√©v√ºl√©st is,
+	eg√©sz sz√°mmot k√∂vet egy id√∂param√©ter d (nap),h (√≥ra), 
+	m (perc).Ezek kombin√°l√°sa nem lehets√©ges(1h30m).
+	Ha nem adsz meg id√∂egys√©get akkor √∂nmag√°ban napot jelent.
+	(+30 az 30 napot jelent).Ha +0-√°t adsz meg akkor nem 
+	el√©v√ºlo lesz.Ha a usermaszk + -al kezdodik akkor el√©v√ºl√©st
+	meg kell adni akkor is ha megegyezik az alap√©rtelmez√©ssel.
+	Az SZLINE jelenlegi alap√©rtelmezett el√©v√ºl√©si ideje 
+	megn√©zheto a STATS AKILL paranccsal.
+	SZLINE DEL elt√°vol√≠tja a maszkot az SZLINE list√°r√≥l,
+	ha jelen van.Ha bejegyz√©s sorsz√°mot adsz meg akkor azok 
+	fognak t√∂rlodni.	(L√°sd a p√©lda al√°bb)
+	SZLINE LIST kiirja az √∂sszes SQLINE bejegyz√©st; ha
+	egy tetsz√∂leges maszk meg van adva, a lista korl√°tozva lesz
+	azokra a bejegyz√©sekre, amelyekre r√°illik a maszk. P√©lda:
 		
 	   SZINE LIST 2-5,7-9
-	      List·zza a SZLINE-okat 2-tˆl 5-ig Ès 7-tol 9-ig az 
-	      SZLINE list·rÛl
+	      List√°zza a SZLINE-okat 2-t√∂l 5-ig √©s 7-tol 9-ig az 
+	      SZLINE list√°r√≥l
 
 			
-	SZLINE VIEW rÈszletesebb verziÛja a SZLINE LIST-nek,
-	Ès megmutatja, ki kÈszÌtette a SZLINE bejegyzÈseket,
-	Ès mikor j·r le, mint az IP-t Ès az indokot.
+	SZLINE VIEW r√©szletesebb verzi√≥ja a SZLINE LIST-nek,
+	√©s megmutatja, ki k√©sz√≠tette a SZLINE bejegyz√©seket,
+	√©s mikor j√°r le, mint az IP-t √©s az indokot.
 	
-	SQLINE CLEAR tˆrli az SQLINE bejegyzÈseket.
+	SQLINE CLEAR t√∂rli az SQLINE bejegyz√©seket.
 	
-	Korl·tozva SzervÌz operatornak.
+	Korl√°tozva Szerv√≠z operatornak.
 	
 OPER_HELP_SET
-	Syntax: SET  opciÛ be·llÌt·s
+	Syntax: SET  opci√≥ be√°ll√≠t√°s
 	
-	Be·llÌtja a Services ·ltal·nos opciÛit.
-	A lehetsÈges opciÛk:
-	    READONLY   Csak-olvas·s vagy olvas·s-Ìr·s mÛd be·llÌt·sa
-	    LOGCHAN    KiÌrja a naplÛzott ¸zeneteket a csatorn·ra
-	    DEBUG      Bekapcsolja/kikapcsolja a debug mÛdot
-	    NOEXPIRE   Bekapcsolja/kikapcsolja a nem elÈv¸lı mÛdot
-	    SUPERADMIN Bekapcsolja/kikapcsolja a super-admin mÛdot
+	Be√°ll√≠tja a Services √°ltal√°nos opci√≥it.
+	A lehets√©ges opci√≥k:
+	    READONLY   Csak-olvas√°s vagy olvas√°s-√≠r√°s m√≥d be√°ll√≠t√°sa
+	    LOGCHAN    Ki√≠rja a napl√≥zott √ºzeneteket a csatorn√°ra
+	    DEBUG      Bekapcsolja/kikapcsolja a debug m√≥dot
+	    NOEXPIRE   Bekapcsolja/kikapcsolja a nem el√©v√ºl≈ë m√≥dot
+	    SUPERADMIN Bekapcsolja/kikapcsolja a super-admin m√≥dot
 	    SQL   	 Activate or deactivate sql mode
 	    IGNORE     Activate or deactivate ignore mode
 	    LIST       List the options
 	
-	Korl·tozva SzervÌz adminnak.
+	Korl√°tozva Szerv√≠z adminnak.
 	
 OPER_HELP_SET_READONLY
 	Syntax: SET READONLY {ON | OFF}
 	
-	Csak-olvas·s mÛd aktiv·l·sa/kikapcsol·sa. A csak-olvas·s
-	mÛd, a normal felhaszn·lÛ rÈszÈre nem engedi, hogy b·rmit
-	mÛdosÌtson a szervÌzben, beleÈrtve a nicknÈv, a
-	hozz·fÈrÈs list·t, stb. IRCoper·torok a megfelelı flaggel
-	mÛdosÌtani tudja a szervÌz akill list·t Ès a droppolhat
-	vagy forbidolhat nickneveket Ès szob·kat, de ez nem fog
-	ker¸l mentÈsre, amÌg a csak olvasni mÛdot kikapcsolja
-	Ès restartolja a szervÌzt.
+	Csak-olvas√°s m√≥d aktiv√°l√°sa/kikapcsol√°sa. A csak-olvas√°s
+	m√≥d, a normal felhaszn√°l√≥ r√©sz√©re nem engedi, hogy b√°rmit
+	m√≥dos√≠tson a szerv√≠zben, bele√©rtve a nickn√©v, a
+	hozz√°f√©r√©s list√°t, stb. IRCoper√°torok a megfelel≈ë flaggel
+	m√≥dos√≠tani tudja a szerv√≠z akill list√°t √©s a droppolhat
+	vagy forbidolhat nickneveket √©s szob√°kat, de ez nem fog
+	ker√ºl ment√©sre, am√≠g a csak olvasni m√≥dot kikapcsolja
+	√©s restartolja a szerv√≠zt.
 	
-	Ez a parancs egyenÈrtÈku a parancs-sorban kiadott
-	-readonly opciÛval.	
+	Ez a parancs egyen√©rt√©ku a parancs-sorban kiadott
+	-readonly opci√≥val.	
 
 	
 OPER_HELP_SET_LOGCHAN
 	Syntax: SET LOGCHAN {ON | OFF}
 	
-	Be·llÌtja, hogy a szervÌz a naplÛzÛ csatorn·ra k¸ldje el
-	a rÈszletes naplÛ adatokat Ès persze a naplÛf·jlba.
-	A NaplÛzÛ Csatorn·t (LogChannel) meg kell hat·rozni a
-	szervÌz config f·lj·ban, hogy	haszn·lhasd ezt az opciÛt.
+	Be√°ll√≠tja, hogy a szerv√≠z a napl√≥z√≥ csatorn√°ra k√ºldje el
+	a r√©szletes napl√≥ adatokat √©s persze a napl√≥f√°jlba.
+	A Napl√≥z√≥ Csatorn√°t (LogChannel) meg kell hat√°rozni a
+	szerv√≠z config f√°lj√°ban, hogy	haszn√°lhasd ezt az opci√≥t.
 	
 	This option is equivalent to the command-line option -logchan.
 	
-	Jegyzet: s˙lyos biztons·gi gondokat okozhat, ha ez a
-	naplÛzÛ szoba nincs kellıen vÈdve.
+	Jegyzet: s√∫lyos biztons√°gi gondokat okozhat, ha ez a
+	napl√≥z√≥ szoba nincs kell≈ëen v√©dve.
 	
 OPER_HELP_SET_DEBUG
-	Syntax: SET DEBUG {ON | OFF | sz·m}
+	Syntax: SET DEBUG {ON | OFF | sz√°m}
 	
-	Be vagy kikapcsolja a debug mÛdot. Debug mÛdban, minden a
-	SzervÌznek Ès a szervÌz ·ltal k¸ldˆtt ¸zenet Ès persze mÈg
-	sok m·s ¸zenet rˆgzÌtÈsere ker¸l a naplÛf·jlban. Ha megadsz
-	sz·mot is, akkor a debug mÛd bekapcsol Ès a megadott szinten
-	fog mukˆdni.
+	Be vagy kikapcsolja a debug m√≥dot. Debug m√≥dban, minden a
+	Szerv√≠znek √©s a szerv√≠z √°ltal k√ºld√∂tt √ºzenet √©s persze m√©g
+	sok m√°s √ºzenet r√∂gz√≠t√©sere ker√ºl a napl√≥f√°jlban. Ha megadsz
+	sz√°mot is, akkor a debug m√≥d bekapcsol √©s a megadott szinten
+	fog muk√∂dni.
 	
-	Ez az opciÛ megegyezik a parancs-sorban kiadhatÛ opciÛval:
+	Ez az opci√≥ megegyezik a parancs-sorban kiadhat√≥ opci√≥val:
 	-debug.
 	
 OPER_HELP_SET_NOEXPIRE
 	Syntax: SET NOEXPIRE {ON | OFF}
 	
-	Bekapcsolja a nem elÈv¸lÈst. A nem elÈv¸lı mÛdban nickek,
-	csatorn·k, akillek Ès kivÈtelek rakhatÛak nem elÈv¸lıre is
-	amÌg ezt az opciÛt nem kapcsolod ki.
+	Bekapcsolja a nem el√©v√ºl√©st. A nem el√©v√ºl≈ë m√≥dban nickek,
+	csatorn√°k, akillek √©s kiv√©telek rakhat√≥ak nem el√©v√ºl≈ëre is
+	am√≠g ezt az opci√≥t nem kapcsolod ki.
 	
-	Ez az opciÛ megegyezik a parancs-sorban kiadhatÛ opciÛval:
+	Ez az opci√≥ megegyezik a parancs-sorban kiadhat√≥ opci√≥val:
 	-noexpire.
 	
 OPER_HELP_SET_SUPERADMIN
 	Syntax: SET SUPERADMIN {ON | OFF}
 	
-	Ez a be·llÌt·s extra jogokat biztosÌt sz·modra, pÈld·ul
-	az "ˆsszes szoba founderje" stb...
+	Ez a be√°ll√≠t√°s extra jogokat biztos√≠t sz√°modra, p√©ld√°ul
+	az "√∂sszes szoba founderje" stb...
 	
-	Ez az opciÛ nem aj·nlott, csak akkor haszn·ld, ha 
-	sz¸ksÈges Ès kapcsold ki, ha m·r nem.
+	Ez az opci√≥ nem aj√°nlott, csak akkor haszn√°ld, ha 
+	sz√ºks√©ges √©s kapcsold ki, ha m√°r nem.
 
 OPER_HELP_SET_SQL
 	Syntax: SET SQL {ON | OFF}
@@ -6000,20 +6000,20 @@ OPER_HELP_NOOP
 	        NOOP REVOKE szerver
 	
 	NOOP SET levesz minden O:line-t a megadott
-	szerver-en Ès killel minden IRCopot, aki fent van
-	megelızvÈn a szerver rehashol·s·t (mert ez
-	tˆrˆlnÈ a hat·st).
+	szerver-en √©s killel minden IRCopot, aki fent van
+	megel≈ëzv√©n a szerver rehashol√°s√°t (mert ez
+	t√∂r√∂ln√© a hat√°st).
 	
-	NOOP REVOKE minden levett O:line-t ˙jra elÈrhetıvÈ tesz
+	NOOP REVOKE minden levett O:line-t √∫jra el√©rhet≈ëv√© tesz
 	a megadott szerver-en.
 	
-	Jegyzet: A szerver paramÈtert nem ellenırzi
+	Jegyzet: A szerver param√©tert nem ellen≈ërzi
 	a Szerviz.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_JUPE
-	Syntax: JUPE server [leir·s]
+	Syntax: JUPE server [leir√°s]
 	
 	Tells Services to jupiter a server -- that is, to create
 	a fake "server" connected to Services which prevents
@@ -6024,10 +6024,10 @@ OPER_HELP_JUPE
 	text "Juped by <nick>", showing the nickname of the
 	person who jupitered the server.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_RAW
-	Syntax: RAW szˆveg
+	Syntax: RAW sz√∂veg
 	
 	Sends a string of text directly to the server to which
 	Services is connected.  This command has a very limited
@@ -6035,126 +6035,126 @@ OPER_HELP_RAW
 	improperly.  DO NOT USE THIS COMMAND unless you are
 	absolutely certain you know what you are doing!
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_UPDATE
 	Syntax: UPDATE
 	
-	Menti a SzervÌz adatb·zis·t, azonnal amint kiadtad
+	Menti a Szerv√≠z adatb√°zis√°t, azonnal amint kiadtad
 	a parancsot.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_RELOAD
 	Syntax: RELOAD
 	
-	⁄jratˆlti a SzervÌz konfigur·ciÛs f·jlj·t. Jegyzet: nÈh·ny
-	direktÌv·nak ettıl f¸ggetlen¸l restart kell, hogy hat·sa
-	Èletbe lÈpjen. (PÈld·ul a SzervÌz egysÈgek nicknÈv v·lt·sa 
-	vagy session korl·toz·s aktÌv·l·sa, stb.)
+	√öjrat√∂lti a Szerv√≠z konfigur√°ci√≥s f√°jlj√°t. Jegyzet: n√©h√°ny
+	direkt√≠v√°nak ett≈ël f√ºggetlen√ºl restart kell, hogy hat√°sa
+	√©letbe l√©pjen. (P√©ld√°ul a Szerv√≠z egys√©gek nickn√©v v√°lt√°sa 
+	vagy session korl√°toz√°s akt√≠v√°l√°sa, stb.)
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_QUIT
 	Syntax: QUIT
 	
-	A SzervÌz azonnal le·ll; az adatb·zist nem menti el.
-	Ez a parancs annak elker¸lÈsÈre hasznos, hogy a memÛri·ban
-	lÈvı adatok m·solata beker¸ljˆn az adatb·zisba.
-	Norm·l le·llÌt·sokhoz haszn·ld kÈrlek a
+	A Szerv√≠z azonnal le√°ll; az adatb√°zist nem menti el.
+	Ez a parancs annak elker√ºl√©s√©re hasznos, hogy a mem√≥ri√°ban
+	l√©v≈ë adatok m√°solata beker√ºlj√∂n az adatb√°zisba.
+	Norm√°l le√°ll√≠t√°sokhoz haszn√°ld k√©rlek a
 	SHUTDOWN parancsot!
 	
-	Korl·tozva Services adminoknak.
+	Korl√°tozva Services adminoknak.
 	
 OPER_HELP_SHUTDOWN
 	Syntax: SHUTDOWN
 	
-	Menti a SzervÌz adatb·zis·t, majd le·llÌtja a programot.
+	Menti a Szerv√≠z adatb√°zis√°t, majd le√°ll√≠tja a programot.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_RESTART
 	Syntax: RESTART
 	
-	Menti a SzervÌz adatb·zis·t, majd ˙jraindÌtja a programot.
-	(KilÈp, majd ˙jraindul.)
+	Menti a Szerv√≠z adatb√°zis√°t, majd √∫jraind√≠tja a programot.
+	(Kil√©p, majd √∫jraindul.)
 	
-	Korl·tozva SzervÌz adminoknak.	
+	Korl√°tozva Szerv√≠z adminoknak.	
 	
 OPER_HELP_CHANLIST
 	Syntax: CHANLIST [{pattern | nick} [SECRET]]
 	
-	List·z minden csatorn·t, ami most aktÌv az IRC h·lÛzaton
-	attÛl f¸ggetlen¸l, hogy regisztr·lt vagy sem.
+	List√°z minden csatorn√°t, ami most akt√≠v az IRC h√°l√≥zaton
+	att√≥l f√ºggetlen√ºl, hogy regisztr√°lt vagy sem.
 	
-	Ha a pattern meg van adva, akkor csak az egyezıket
-	list·zza. Ha a nicknÈv van megadva, akkor list·zza azokat
-	a csatorn·kat, ahol az adott user bent van. Ha a SECRET
-	van megadva, akkor list·z minden pattern-nek megfelelı
-	csatorn·r, melyen +s vagy +p mÛd van fent.
+	Ha a pattern meg van adva, akkor csak az egyez≈ëket
+	list√°zza. Ha a nickn√©v van megadva, akkor list√°zza azokat
+	a csatorn√°kat, ahol az adott user bent van. Ha a SECRET
+	van megadva, akkor list√°z minden pattern-nek megfelel≈ë
+	csatorn√°r, melyen +s vagy +p m√≥d van fent.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_USERLIST
 	Syntax: USERLIST [{pattern | #szoba} [INVISIBLE]]
 	
-	List·z minden jelenleg online usert az IRC h·lÛzaton,
-	attÛl f¸ggetlen¸l, hogy regisztr·lt vagy sem.
+	List√°z minden jelenleg online usert az IRC h√°l√≥zaton,
+	att√≥l f√ºggetlen√ºl, hogy regisztr√°lt vagy sem.
 	
-	Ha a pattern meg van adva, akkor csak az egyezıket 
-	list·zza (form·tum: nick!user@host). Ha a #szoba
-	meg van adva, akkor csak az adott csatorn·n lÈvıket
-	list·zza. Ha az INVISIBLE meg van adva, akkor csak a
-	+i flages usereket list·zza.
+	Ha a pattern meg van adva, akkor csak az egyez≈ëket 
+	list√°zza (form√°tum: nick!user@host). Ha a #szoba
+	meg van adva, akkor csak az adott csatorn√°n l√©v≈ëket
+	list√°zza. Ha az INVISIBLE meg van adva, akkor csak a
+	+i flages usereket list√°zza.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 OPER_HELP_MODLOAD
-	Syntax: MODLOAD F·jlnÈv
+	Syntax: MODLOAD F√°jln√©v
 	
-	Ez a parancs betˆlti azt modult, a modules kˆnyvt·rbÛl,
-	amelyiknek a f·jlnevÈt megadtad.
+	Ez a parancs bet√∂lti azt modult, a modules k√∂nyvt√°rb√≥l,
+	amelyiknek a f√°jlnev√©t megadtad.
 	
-	Korl·tozva SzervÌz Rootnak.
+	Korl√°tozva Szerv√≠z Rootnak.
 	
 OPER_HELP_MODUNLOAD
 	Syntax: MODUNLOAD FileName
 	
-	Ez a parancs kitˆlti a megnevezett f·jlnev˚ msdult a 
-	modulok list·j·bÛl.
+	Ez a parancs kit√∂lti a megnevezett f√°jlnev≈± msdult a 
+	modulok list√°j√°b√≥l.
 		
-	Korl·tozva SzervÌz Rootnak.
+	Korl√°tozva Szerv√≠z Rootnak.
 	
 OPER_HELP_MODINFO
-	Syntax: MODINFO F·jlnÈv
+	Syntax: MODINFO F√°jln√©v
 	
-	A parancs rÈszletes inform·ciÛt ad a betˆltˆtt modulokrÛl.
+	A parancs r√©szletes inform√°ci√≥t ad a bet√∂lt√∂tt modulokr√≥l.
 	
-	Korl·tozva SzervÌz Rootnak.
+	Korl√°tozva Szerv√≠z Rootnak.
 	
 OPER_HELP_MODLIST
 	Syntax: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
 	
-	List·zza az ˆsszes betˆltˆtt aktÌv modult.
+	List√°zza az √∂sszes bet√∂lt√∂tt akt√≠v modult.
 	
-	Korl·tozva SzervÌz Rootnak.
+	Korl√°tozva Szerv√≠z Rootnak.
 		
 ###########################################################
 #
-# BotServ help ¸zenetek
+# BotServ help √ºzenetek
 #
 ###########################################################
 
 BOT_HELP_CMD_BOTLIST
-	BOTLIST            List·zza az elÈrhetı botokat
+	BOTLIST            List√°zza az el√©rhet≈ë botokat
 BOT_HELP_CMD_ASSIGN
-	ASSIGN             T·rsÌt egy botot a csatorn·hoz
+	ASSIGN             T√°rs√≠t egy botot a csatorn√°hoz
 BOT_HELP_CMD_SET
-	SET                Konfigur·lja a bot opciÛit
+	SET                Konfigur√°lja a bot opci√≥it
 BOT_HELP_CMD_KICK
-	KICK               Konfigur·lja a kir˙g·sokat
+	KICK               Konfigur√°lja a kir√∫g√°sokat
 BOT_HELP_CMD_BADWORDS
-	BADWORDS           Szerkeszti a tiltott szavak list·j·t
+	BADWORDS           Szerkeszti a tiltott szavak list√°j√°t
 BOT_HELP_CMD_ACT
 	ACT                Makes the bot do the equivalent of a "/me" command
 BOT_HELP_CMD_INFO
@@ -6164,421 +6164,421 @@ BOT_HELP_CMD_SAY
 BOT_HELP_CMD_UNASSIGN
 	UNASSIGN           Unassigns a bot from a channel
 BOT_HELP_CMD_BOT
-	BOT                Karbantartja a h·lÛzat botjainak list·j·t
+	BOT                Karbantartja a h√°l√≥zat botjainak list√°j√°t
 
 BOT_HELP
 	
-	%S lehetıvÈ teszi, hogy botod legyen a csatorn·don.
-	Ezt olyan felhaszn·lÛk sz·m·ra kÈszÌtettÈk, akik
-	nem tudnak saj·t botot futtatni, vagy a h·lÛzaton nem
-	engedÈlyezik ezt. Az elÈrhetı parancsok list·ja al·bb 
-	tal·lhatÛ; haszn·latukhoz Ìrd be %R%S parancs.
-	Bıvebb inform·ciÛt Ìgy kaphatsz az adott parancsrÛl:
+	%S lehet≈ëv√© teszi, hogy botod legyen a csatorn√°don.
+	Ezt olyan felhaszn√°l√≥k sz√°m√°ra k√©sz√≠tett√©k, akik
+	nem tudnak saj√°t botot futtatni, vagy a h√°l√≥zaton nem
+	enged√©lyezik ezt. Az el√©rhet≈ë parancsok list√°ja al√°bb 
+	tal√°lhat√≥; haszn√°latukhoz √≠rd be %R%S parancs.
+	B≈ëvebb inform√°ci√≥t √≠gy kaphatsz az adott parancsr√≥l:
 	%R%S HELP parancs.
 	
 BOT_HELP_FOOTER
-	A Bot akkor fog belÈpni a csatorn·ra, ha legal·bb
+	A Bot akkor fog bel√©pni a csatorn√°ra, ha legal√°bb
 
-	%d felhaszn·lÛ van bent.
+	%d felhaszn√°l√≥ van bent.
 	
 BOT_HELP_BOTLIST
 	Syntax: BOTLIST
 	
-	List·zza az ˆsszes ÈrvÈnyes botot a h·lÛzatrÛl.
+	List√°zza az √∂sszes √©rv√©nyes botot a h√°l√≥zatr√≥l.
 	
 BOT_HELP_ASSIGN
 	Syntax: ASSIGN #szoba nick
 	
-	T·rsÌtja a megnevezett botot a szob·hoz. Be·llÌthatod a
-	botodat a csatorn·d igÈnyeidnek megfelelıen.
-	Kellemes botoz·st! :-)
+	T√°rs√≠tja a megnevezett botot a szob√°hoz. Be√°ll√≠thatod a
+	botodat a csatorn√°d ig√©nyeidnek megfelel≈ëen.
+	Kellemes botoz√°st! :-)
 	
 BOT_HELP_UNASSIGN
 	Syntax: UNASSIGN #szoba
 	
-	Elt·volÌtja a botot a csatorn·rÛl. Ha haszn·lod ezt a
-	parancsot, akkor a botod nem fog tˆbbet belÈpni a
-	szob·ba. A bot konfigur·ciÛi megmaradnak.
-	Azaz nem kell ˙jra bekonfigur·lnod, ha kÈsıbb vissza
-	akarod hozni a szob·dba.
+	Elt√°vol√≠tja a botot a csatorn√°r√≥l. Ha haszn√°lod ezt a
+	parancsot, akkor a botod nem fog t√∂bbet bel√©pni a
+	szob√°ba. A bot konfigur√°ci√≥i megmaradnak.
+	Azaz nem kell √∫jra bekonfigur√°lnod, ha k√©s≈ëbb vissza
+	akarod hozni a szob√°dba.
 	
 BOT_HELP_INFO
 	Syntax: INFO {#szoba  |  nick}
 	
-	LehetıvÈ teszi, hogy megnÈzd a %S inform·ciÛkat egy
-	csatorn·val vagy bottal kapcsolatban. Ha a paramÈter
-	szobanÈv, akkor megkapod a szob·ra vonatkozÛ bot
-	be·llÌt·sokat. Ha a paramÈter nick, akkor a botrÛl
-	kapsz inform·ciÛkat, pÈld·ul lÈtrehoz·s ideje, csatorn·k
-	sz·ma.
+	Lehet≈ëv√© teszi, hogy megn√©zd a %S inform√°ci√≥kat egy
+	csatorn√°val vagy bottal kapcsolatban. Ha a param√©ter
+	szoban√©v, akkor megkapod a szob√°ra vonatkoz√≥ bot
+	be√°ll√≠t√°sokat. Ha a param√©ter nick, akkor a botr√≥l
+	kapsz inform√°ci√≥kat, p√©ld√°ul l√©trehoz√°s ideje, csatorn√°k
+	sz√°ma.
 	
 BOT_HELP_SET
-	Syntax: SET #szoba opciÛ paramÈterek
+	Syntax: SET #szoba opci√≥ param√©terek
 	
-	Be·llÌtja a bot opciÛit. Az opciÛ a kˆvetkezı lehet:
+	Be√°ll√≠tja a bot opci√≥it. Az opci√≥ a k√∂vetkez≈ë lehet:
 	
-	    DONTKICKOPS      VÈdelem az opoknak bot kir˙g·s ellen
-	    DONTKICKVOICES   VÈdelem a voicesokna bot kir˙g·s ellen
-	    GREET            EngedÈlyezi a kˆszˆntı ¸zenetet
-	    FANTASY          EngedÈlyezi a fantaisi parancsokat
+	    DONTKICKOPS      V√©delem az opoknak bot kir√∫g√°s ellen
+	    DONTKICKVOICES   V√©delem a voicesokna bot kir√∫g√°s ellen
+	    GREET            Enged√©lyezi a k√∂sz√∂nt≈ë √ºzenetet
+	    FANTASY          Enged√©lyezi a fantaisi parancsokat
 	    SYMBIOSIS        Megengedi, hogy a bot olyan legyen mint 
 	                     az igazi botok
 	
-	Õrd be %R%S HELP SET opciÛ bıvebb inform·ciÛkÈrt
-	az adott opciÛrÛl.
+	√çrd be %R%S HELP SET opci√≥ b≈ëvebb inform√°ci√≥k√©rt
+	az adott opci√≥r√≥l.
 	
-	MegjegyzÈs: ezekhez a parancsokhoz a hozz·fÈrÈst a
-	levels-ben lehet ·llÌtani.
+	Megjegyz√©s: ezekhez a parancsokhoz a hozz√°f√©r√©st a
+	levels-ben lehet √°ll√≠tani.
 	
 BOT_HELP_SET_DONTKICKOPS
 	Syntax: SET #szoba DONTKICKOPS {ON|OFF}
 	
-	EngedÈlyezi vagy tiltja opok vÈdelmÈt a csatorn·n.
-	Ha engedÈlyezve van, akkor az opokat nem fogja a bot
-	kir˙gni, akkor se, ha nem egyeznek meg a NOKICK szinttel
+	Enged√©lyezi vagy tiltja opok v√©delm√©t a csatorn√°n.
+	Ha enged√©lyezve van, akkor az opokat nem fogja a bot
+	kir√∫gni, akkor se, ha nem egyeznek meg a NOKICK szinttel
 		
 BOT_HELP_SET_DONTKICKVOICES
 	Syntax: SET #szoba DONTKICKVOICES { ON|OFF }
 	
-	EngedÈlyezi vagy tiltja hangadÛk vÈdelmÈt a csatorn·n.
-	Ha engedÈlyezve van, akkor a hangadÛkat nem fogja a bot
-	kir˙gni, akkor se, ha nem egyeznek meg a NOKICK szinttel
+	Enged√©lyezi vagy tiltja hangad√≥k v√©delm√©t a csatorn√°n.
+	Ha enged√©lyezve van, akkor a hangad√≥kat nem fogja a bot
+	kir√∫gni, akkor se, ha nem egyeznek meg a NOKICK szinttel
 	
 BOT_HELP_SET_FANTASY
 	Syntax: SET #szoba FANTASY { ON|OFF }
 	
-	EngedÈlyezi vagy tiltja fantasy mÛdot a csatorn·n.
-	Ha engedÈlyezve van, akkor a kˆvetkezı parancsok
-	haszn·lhatÛk a csatorn·n: !op, !deop, !voice, !devoice,
-	!kick, !kb, !unban, !seen (tal·ld ki hogyan kell
-	haszn·lni ıket; prÛb·ld meg nick megad·s·val, a nÈlk¸l
+	Enged√©lyezi vagy tiltja fantasy m√≥dot a csatorn√°n.
+	Ha enged√©lyezve van, akkor a k√∂vetkez≈ë parancsok
+	haszn√°lhat√≥k a csatorn√°n: !op, !deop, !voice, !devoice,
+	!kick, !kb, !unban, !seen (tal√°ld ki hogyan kell
+	haszn√°lni ≈ëket; pr√≥b√°ld meg nick megad√°s√°val, a n√©lk√ºl
 	is)
 	
-	Azoknak akik ezeket a parancsokat akarj·k haszn·lni
-	rendelkezni¸k KELL a sz¸ksÈg szinttel mind a FANTASIA
-	mind pedig az egyÈb szintekkel, ami a parancshoz
-	sz¸ksÈges. (pÈld·ul, az !op haszn·lat·hoz, meg kell
-	legyen a megfelelı szintj¸k az OPDEOP parancsokhoz.).
+	Azoknak akik ezeket a parancsokat akarj√°k haszn√°lni
+	rendelkezni√ºk KELL a sz√ºks√©g szinttel mind a FANTASIA
+	mind pedig az egy√©b szintekkel, ami a parancshoz
+	sz√ºks√©ges. (p√©ld√°ul, az !op haszn√°lat√°hoz, meg kell
+	legyen a megfelel≈ë szintj√ºk az OPDEOP parancsokhoz.).
 	
 BOT_HELP_SET_GREET
 	Syntax: SET #szoba  GREET { ON|OFF }
 	
-	EngedÈlyezi vagy tiltja Kˆszˆntı mÛdot a csatorn·n.
-	Ha engedÈlyezve van, akkor a bot megjelenÌti azoknak
-	a kˆszˆntı ¸zenetÈt, akiknek a szintj¸k megfelelı ehhez.
+	Enged√©lyezi vagy tiltja K√∂sz√∂nt≈ë m√≥dot a csatorn√°n.
+	Ha enged√©lyezve van, akkor a bot megjelen√≠ti azoknak
+	a k√∂sz√∂nt≈ë √ºzenet√©t, akiknek a szintj√ºk megfelel≈ë ehhez.
 	
 BOT_HELP_SET_SYMBIOSIS
 	Syntax: SET #szoba SYMBIOSIS { ON|OFF }
 	
-	EngedÈlyezi vagy tiltja symbiosis mÛdot a csatorn·n.
-	Ha engedÈlyezve van, akkor a bot fog mindent csin·lni,
-	amit egyÈbkÈnt a %s csin·lna a csatorn·n, mint MODE,
-	KICK, Ès a belÈpı¸zenet kiÌr·sa.
+	Enged√©lyezi vagy tiltja symbiosis m√≥dot a csatorn√°n.
+	Ha enged√©lyezve van, akkor a bot fog mindent csin√°lni,
+	amit egy√©bk√©nt a %s csin√°lna a csatorn√°n, mint MODE,
+	KICK, √©s a bel√©p≈ë√ºzenet ki√≠r√°sa.
 	
 BOT_HELP_KICK
-	Syntax: KICK  #szobaopciÛparamÈterek
+	Syntax: KICK  #szobaopci√≥param√©terek
 	
-	Bot kir˙g·sok be·llÌt·sa. Az opciÛ a kˆvetkezı lehet:
+	Bot kir√∫g√°sok be√°ll√≠t√°sa. Az opci√≥ a k√∂vetkez≈ë lehet:
 	
-	    BOLDS         A bot kir˙gja fÈlkˆvÈr bet˚kkel ÌrÛkat
-	    BADWORDS      A bot kir˙gja a cs˙nyaszavakat haszn·lÛkat
-	    CAPS          A bot kir˙gja CapsLock haszn·lÛkat
-	    COLORS        A bot kir˙gja szinesen ÌrÛkat
-	    FLOOD         A bot kir˙gja floodolÛkat
-	    REPEAT        A bot kir˙gja az ˆnmagukat 
-	                  ismÈtlıket.
-	    REVERSES      A bot kir˙gja visszafelÈ ÌrÛkat
-	    UNDERLINES    A bot kir˙gja al·h˙z·ssal ÌrÛkat
+	    BOLDS         A bot kir√∫gja f√©lk√∂v√©r bet≈±kkel √≠r√≥kat
+	    BADWORDS      A bot kir√∫gja a cs√∫nyaszavakat haszn√°l√≥kat
+	    CAPS          A bot kir√∫gja CapsLock haszn√°l√≥kat
+	    COLORS        A bot kir√∫gja szinesen √≠r√≥kat
+	    FLOOD         A bot kir√∫gja floodol√≥kat
+	    REPEAT        A bot kir√∫gja az √∂nmagukat 
+	                  ism√©tl≈ëket.
+	    REVERSES      A bot kir√∫gja visszafel√© √≠r√≥kat
+	    UNDERLINES    A bot kir√∫gja al√°h√∫z√°ssal √≠r√≥kat
 	
-	Õrd be %R%S HELP KICK opciÛ az adott opciÛval
-	kapcsolatos bıvebb inform·ciÛkÈrt.
+	√çrd be %R%S HELP KICK opci√≥ az adott opci√≥val
+	kapcsolatos b≈ëvebb inform√°ci√≥k√©rt.
 	
-	MegjegyzÈs: A parancshoz valÛ hozz·fÈrÈst a level SET-ben
-	lehet korl·tozni.
+	Megjegyz√©s: A parancshoz val√≥ hozz√°f√©r√©st a level SET-ben
+	lehet korl√°tozni.
 	
 BOT_HELP_KICK_BOLDS
 	Syntax: KICK  #szoba BOLDS { ON|OFF } [ ttb ]
 	
-	Be·llÌtja a fÈlkˆvÈr Ìr·sÈrt j·rÛ kir˙g·st.
-	Ha engedÈlyezve van akkor a bot kir˙g a fÈlkˆvÈr bet˚kÈrt.
+	Be√°ll√≠tja a f√©lk√∂v√©r √≠r√°s√©rt j√°r√≥ kir√∫g√°st.
+	Ha enged√©lyezve van akkor a bot kir√∫g a f√©lk√∂v√©r bet≈±k√©rt.
 	
-	A ttb a banol·s elotti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s elotti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_COLORS
 	Syntax: KICK  #szoba COLORS { ON|OFF } [ ttb ]
 	
-	Be·llÌtja a szines Ìr·sÈrt j·rÛ kir˙g·st.
-	Ha engedÈlyezve van akkor a bot kir˙gja a szÌnesen ÌrÛkat.
+	Be√°ll√≠tja a szines √≠r√°s√©rt j√°r√≥ kir√∫g√°st.
+	Ha enged√©lyezve van akkor a bot kir√∫gja a sz√≠nesen √≠r√≥kat.
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_REVERSES
 	Syntax: KICK  #szobaREVERSES { ON|OFF } [ ttb ]
 	
-	Be·llÌtja a visszafelÈ Ìr·sÈrt j·rÛ kir˙g·st.
-	Ha engedÈlyezve van akkor a bot kir˙gja a reverse ÌrÛkat.
+	Be√°ll√≠tja a visszafel√© √≠r√°s√©rt j√°r√≥ kir√∫g√°st.
+	Ha enged√©lyezve van akkor a bot kir√∫gja a reverse √≠r√≥kat.
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.	
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.	
 
 BOT_HELP_KICK_UNDERLINES
 	Syntax: KICK #szobaUNDERLINES { ON|OFF } [ ttb ]
 	
-	Be·llÌtja az al·h˙zott Ìr·sÈrt j·rÛ kir˙g·st.
-	Ha engedÈlyezve van akkor a bot kir˙gja az al·h˙zva ÌrÛkat
+	Be√°ll√≠tja az al√°h√∫zott √≠r√°s√©rt j√°r√≥ kir√∫g√°st.
+	Ha enged√©lyezve van akkor a bot kir√∫gja az al√°h√∫zva √≠r√≥kat
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_CAPS
-	Syntax: KICK #szobaCAPS { ON|OFF } [ ttb  [ min  [ sz·zalÈk ]]]
+	Syntax: KICK #szobaCAPS { ON|OFF } [ ttb  [ min  [ sz√°zal√©k ]]]
 	
-	Be·llÌtja a t˙lzott caps miatt j·rÛ kir˙g·st.
-	Ha engedÈlyezve van, akkor a bot kir˙gja a "kiab·lÛkat".
+	Be√°ll√≠tja a t√∫lzott caps miatt j√°r√≥ kir√∫g√°st.
+	Ha enged√©lyezve van, akkor a bot kir√∫gja a "kiab√°l√≥kat".
 	
-	A bot csak akkor r˙gja ki a usert, ha legal·bb min sz·m˙
-	bet˚ van Ès ez legal·bb sz·zalÈka%% az ˆsszes szˆvegnek
-	a sorban (ha nincs megadva, akkor 10 karakter a min Ès
-	annak legal·bb a 25%-a az alapbe·llÌt·s)
+	A bot csak akkor r√∫gja ki a usert, ha legal√°bb min sz√°m√∫
+	bet≈± van √©s ez legal√°bb sz√°zal√©ka%% az √∂sszes sz√∂vegnek
+	a sorban (ha nincs megadva, akkor 10 karakter a min √©s
+	annak legal√°bb a 25%-a az alapbe√°ll√≠t√°s)
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_FLOOD
 	Syntax: KICK #szoba FLOOD { ON|OFF } [ ttb  [ sor  [ mp ]]]
 	
-	Be·llÌtja a flood miatti kir˙g·st. Ha engedÈlyezve van
-	akkor a bot kir˙gja a floodolÛ usereket, ha legal·bb
-	sor sz·m˙ sort Ìrtak mp m·sodpercnyi idı alatt.
-	(ha nincs megadva, akkor 6 sor Ès 10 mp alatt).
+	Be√°ll√≠tja a flood miatti kir√∫g√°st. Ha enged√©lyezve van
+	akkor a bot kir√∫gja a floodol√≥ usereket, ha legal√°bb
+	sor sz√°m√∫ sort √≠rtak mp m√°sodpercnyi id≈ë alatt.
+	(ha nincs megadva, akkor 6 sor √©s 10 mp alatt).
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_REPEAT
-	Syntax: KICK  #szoba REPEAT { ON|OFF } [ ttb  [ sz·m ]]
+	Syntax: KICK  #szoba REPEAT { ON|OFF } [ ttb  [ sz√°m ]]
 	
-	Be·llÌtja az ismÈtlÈs miatti kir˙g·st. Ha engedÈlyezve
-	van az opciÛ, akkor a bot kir˙gja az ˆnmagukat ismÈtlı
-	usereket, ha sz·m alkalommal ismÈteltek. 
-	(Ha nem adsz meg ÈrtÈket, akkor az ÈrtÈk 3 lesz)
+	Be√°ll√≠tja az ism√©tl√©s miatti kir√∫g√°st. Ha enged√©lyezve
+	van az opci√≥, akkor a bot kir√∫gja az √∂nmagukat ism√©tl≈ë
+	usereket, ha sz√°m alkalommal ism√©teltek. 
+	(Ha nem adsz meg √©rt√©ket, akkor az √©rt√©k 3 lesz)
 	
-	A ttb a banol·s elıtti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s el≈ëtti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_KICK_BADWORDS
 	Syntax: KICK #szoba BADWORDS {ON|OFF} [ttb]
 	
-	Be·llÌtja a cs˙nyaszavak miatti kir˙g·st. Ha engedÈlyezve
-	van, akkor a bot kir˙gja azt, aki kiejt egy olyan szÛt,
-	ami szerepel a cs˙nyaszavak list·j·n.
+	Be√°ll√≠tja a cs√∫nyaszavak miatti kir√∫g√°st. Ha enged√©lyezve
+	van, akkor a bot kir√∫gja azt, aki kiejt egy olyan sz√≥t,
+	ami szerepel a cs√∫nyaszavak list√°j√°n.
 	
-	A cs˙nyaszavak list·j·t a csatorn·dhoz neked kell megadnod
-	A BADWORDS paranccsal. Õrd be %R%S HELP BADWORDS 
-	bıvebb inform·ciÛkÈrt.
+	A cs√∫nyaszavak list√°j√°t a csatorn√°dhoz neked kell megadnod
+	A BADWORDS paranccsal. √çrd be %R%S HELP BADWORDS 
+	b≈ëvebb inform√°ci√≥k√©rt.
 	
-	A ttb a banol·s elotti kickek sz·ma.
-	Ha nem adod meg, akkor csak kir˙g·st eszkˆzˆl a bot.
-	Ha megadod a ttb-t, akkor x kir˙g·s ut·n banol a bot.
+	A ttb a banol√°s elotti kickek sz√°ma.
+	Ha nem adod meg, akkor csak kir√∫g√°st eszk√∂z√∂l a bot.
+	Ha megadod a ttb-t, akkor x kir√∫g√°s ut√°n banol a bot.
 	
 BOT_HELP_BADWORDS
-	Syntax:BADWORDS #szoba ADD  szÛ  [SINGLE  |  START  |  END]
-		 BADWORDS #szoba DEL { szÛ  |  sorsz·m  |  list}
+	Syntax:BADWORDS #szoba ADD  sz√≥  [SINGLE  |  START  |  END]
+		 BADWORDS #szoba DEL { sz√≥  |  sorsz√°m  |  list}
 		 BADWORDS #szoba LIST  [ maszk  |  list]
 		 BADWORDS #szoba CLEAR
 
-	Karbantartja a szoba cs˙nyaszÛ list·j·t. A tiltott
-	szavak list·ja meghat·rozza, hogy mely szavak kiejtÈsÈre
-	r˙gja ki a bot a usert, ha a kir˙g·s engedÈlyezve van,
-	errıl bıvebb inform·ciÛk: %R%S HELP KICK BADWORDS.
+	Karbantartja a szoba cs√∫nyasz√≥ list√°j√°t. A tiltott
+	szavak list√°ja meghat√°rozza, hogy mely szavak kiejt√©s√©re
+	r√∫gja ki a bot a usert, ha a kir√∫g√°s enged√©lyezve van,
+	err≈ël b≈ëvebb inform√°ci√≥k: %R%S HELP KICK BADWORDS.
 	
-	A BADWORDS ADD parancs hozz·ad egy szÛt a list·hoz.
-	Ha a SINGLE van megadva, akkor lesz kir˙gja a user, ha
-	a konkrÈt szÛt mondja ki.
-	Ha a START van megadva, akkor a szÛ elejÈt figyeli a bot.
-	Ha az END van megadva, akkor a szÛ vÈgÈt figyeli a bot.
+	A BADWORDS ADD parancs hozz√°ad egy sz√≥t a list√°hoz.
+	Ha a SINGLE van megadva, akkor lesz kir√∫gja a user, ha
+	a konkr√©t sz√≥t mondja ki.
+	Ha a START van megadva, akkor a sz√≥ elej√©t figyeli a bot.
+	Ha az END van megadva, akkor a sz√≥ v√©g√©t figyeli a bot.
 	Ha nem adsz meg semmit, akkor	a user minden alkalommal
-	kir˙g·sra ker¸l, ha kiejti a szÛt.
-	Ha nem beszÈl cs˙ny·n, akkor semmi baja nem lesz! :-)
+	kir√∫g√°sra ker√ºl, ha kiejti a sz√≥t.
+	Ha nem besz√©l cs√∫ny√°n, akkor semmi baja nem lesz! :-)
 
-	A BADWORDS DEL parancs elt·volÌtja a megadott szÛt
-	a tiltott szavak list·j·rÛl. Ha egy sorozatot adsz meg
-	a bejegyzÈsek sz·m·val, akkor azok a bejegyzÈsek ker¸lnek
-	tˆrlÈsre. (L·sd lentebb a list·z·st.)
+	A BADWORDS DEL parancs elt√°vol√≠tja a megadott sz√≥t
+	a tiltott szavak list√°j√°r√≥l. Ha egy sorozatot adsz meg
+	a bejegyz√©sek sz√°m√°val, akkor azok a bejegyz√©sek ker√ºlnek
+	t√∂rl√©sre. (L√°sd lentebb a list√°z√°st.)
 	
-	A BADWORDS LIST parancs megjelenÌti a tiltott szavakat.
-	Ha haszn·lod a * karaktert, akkor csak az egyezı
-	bejegyzÈsek ker¸lnek list·z·sra. Ha egy sorozatot adsz meg
-	akkor azok a bejegyzÈsek ker¸lnek megjelenÌtÈsre; pÈlda:
+	A BADWORDS LIST parancs megjelen√≠ti a tiltott szavakat.
+	Ha haszn√°lod a * karaktert, akkor csak az egyez≈ë
+	bejegyz√©sek ker√ºlnek list√°z√°sra. Ha egy sorozatot adsz meg
+	akkor azok a bejegyz√©sek ker√ºlnek megjelen√≠t√©sre; p√©lda:
 
 	   BADWORDS  #szoba  LIST  2-5,7-9
-	      List·zza a cs˙nyaszavakat 2-tıl 5-ig Ès a 7-tıl
+	      List√°zza a cs√∫nyaszavakat 2-t≈ël 5-ig √©s a 7-t≈ël
 	      9-ig.
 	      
-	BADWORDS CLEAR parancs tˆrli az ˆsszes bejegyzÈst
-	a tiltott szavak list·j·rÛl
+	BADWORDS CLEAR parancs t√∂rli az √∂sszes bejegyz√©st
+	a tiltott szavak list√°j√°r√≥l
 	
 BOT_HELP_SAY
-	Syntax: SAY #szoba szˆveg
+	Syntax: SAY #szoba sz√∂veg
 	
-	Elk¸ldi a bot a megadott szˆveget a csatorn·ra.
+	Elk√ºldi a bot a megadott sz√∂veget a csatorn√°ra.
 	
 BOT_HELP_ACT
-	Syntax: ACT #szoba szˆveg
+	Syntax: ACT #szoba sz√∂veg
 	
-	A bot "/me" akciÛval k¸ldi el a megadott szˆveget
-	a csatorn·ra.
+	A bot "/me" akci√≥val k√ºldi el a megadott sz√∂veget
+	a csatorn√°ra.
 	
 BOT_SERVADMIN_HELP_BOT
-	Syntax:	BOT ADD  nick   user   hoszt   valÛs
-			BOT CHANGE  rÈginick   ˙jnick [user  [ hoszt  [ valÛs ]]]
+	Syntax:	BOT ADD  nick   user   hoszt   val√≥s
+			BOT CHANGE  r√©ginick   √∫jnick [user  [ hoszt  [ val√≥s ]]]
 			BOT DEL nick
 	
-	LehetıvÈ teszi a Services adminoknak, hogy lÈtrehozzanak
-	tˆrˆljenek, mÛdosÌtsanak botokat, amiket a userek
-	haszn·lhatnak a csatorn·ikon.
+	Lehet≈ëv√© teszi a Services adminoknak, hogy l√©trehozzanak
+	t√∂r√∂ljenek, m√≥dos√≠tsanak botokat, amiket a userek
+	haszn√°lhatnak a csatorn√°ikon.
 	
-	BOT ADD hozz·ad egy botot a megadott nick, usernÈv,
-	hostnÈv Ès valÛsnÈv haszn·lat·val. AmiÛta nincs ellenırzÈs
-	kÈrlek ÛvatÛsan haszn·ld ezt a parancsot.
-	BOT CHANGE megv·ltoztatja egy bot nickjÈt, usernevÈt,
-	hostnevÈt, valÛsnevÈt, anÈlk¸l hogy tˆrˆlni kellene
-	(minden adat, be·llÌt·s megmarad benne.)
-	BOT DEL tˆrli a megadott botot a list·bÛl.  
+	BOT ADD hozz√°ad egy botot a megadott nick, usern√©v,
+	hostn√©v √©s val√≥sn√©v haszn√°lat√°val. Ami√≥ta nincs ellen≈ërz√©s
+	k√©rlek √≥vat√≥san haszn√°ld ezt a parancsot.
+	BOT CHANGE megv√°ltoztatja egy bot nickj√©t, usernev√©t,
+	hostnev√©t, val√≥snev√©t, an√©lk√ºl hogy t√∂r√∂lni kellene
+	(minden adat, be√°ll√≠t√°s megmarad benne.)
+	BOT DEL t√∂rli a megadott botot a list√°b√≥l.  
 	
-	MegjegyzÈs: ha lÈtrehozol egy botot, egy m·r regisztr·lt
+	Megjegyz√©s: ha l√©trehozol egy botot, egy m√°r regisztr√°lt
 	nickkel, akkor a nick dropolva lesz. Akkor is, ha a user
-	Èppen haszn·lja a nicket; killelve lesz.
+	√©ppen haszn√°lja a nicket; killelve lesz.
 	
 BOT_SERVADMIN_HELP_SET
 	
-	Ezeket az opciÛkat csak SzervÌz adminok haszn·lhatj·k:
+	Ezeket az opci√≥kat csak Szerv√≠z adminok haszn√°lhatj√°k:
 		
-	    NOBOT            Megelızi, hogy egy botot t·rsÌtani lehessen
-	                       csatorn·hoz
-	    PRIVATE          Megelızi, hogy egy botot nem IRCop szemÈly
-	                       t·rsÌthasson
+	    NOBOT            Megel≈ëzi, hogy egy botot t√°rs√≠tani lehessen
+	                       csatorn√°hoz
+	    PRIVATE          Megel≈ëzi, hogy egy botot nem IRCop szem√©ly
+	                       t√°rs√≠thasson
 	
 BOT_SERVADMIN_HELP_SET_NOBOT
 	Syntax: SET #szoba NOBOT {ON|OFF}
 	
-	Ez az opciÛ a botot szob·hoz t·rsÌthatatlann· teszi.
-	Ha egy bot m·r t·rsÌtva van egy csatorn·hoz
-	akkor tˆrlˆdik onnan, ha ezt az opciÛt bekapcsolod.
+	Ez az opci√≥ a botot szob√°hoz t√°rs√≠thatatlann√° teszi.
+	Ha egy bot m√°r t√°rs√≠tva van egy csatorn√°hoz
+	akkor t√∂rl√∂dik onnan, ha ezt az opci√≥t bekapcsolod.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 BOT_SERVADMIN_HELP_SET_PRIVATE
 	Syntax: SET bot-nick PRIVATE {ON|OFF}
 	
-	Ez az opciÛ megelızi, hogy az adott botot a csatorn·hoz
-	nem IRC oper·tor szemÈlyek t·rsÌthass·k.
+	Ez az opci√≥ megel≈ëzi, hogy az adott botot a csatorn√°hoz
+	nem IRC oper√°tor szem√©lyek t√°rs√≠thass√°k.
 	
-	Korl·tozva SzervÌz adminoknak.
+	Korl√°tozva Szerv√≠z adminoknak.
 	
 ###########################################################
 #
-# HostServ ¸zenetek
+# HostServ √ºzenetek
 #
 ###########################################################
 HOST_EMPTY
-	A vhost lista ¸res.
+	A vhost lista √ºres.
 HOST_ENTRY
 	#%d Nick:%s, vhost:%s (%s - %s)
 HOST_IDENT_ENTRY
 	#%d Nick:%s, vhost:%s@%s (%s - %s)
 HOST_SET
-	%s vhostja erre v·ltozott: %s.
+	%s vhostja erre v√°ltozott: %s.
 HOST_IDENT_SET
-	%s vhostja erre v·ltozott: %s@%s.
+	%s vhostja erre v√°ltozott: %s@%s.
 HOST_SETALL
 	A %s csoport vhostja %s lett.
 HOST_DELALL
-	A %s csoport vhostja tˆrˆlve.
+	A %s csoport vhostja t√∂r√∂lve.
 HOST_DELALL_SYNTAX
 	DELALL <nick>.
 HOST_IDENT_SETALL
-	A %s csoport vhostja erre v·ltozott: %s@%s.
+	A %s csoport vhostja erre v√°ltozott: %s@%s.
 HOST_SET_ERROR
-	A vhost hosztmaszknak ÈrvÈnyes form·tumban kell lennie.
+	A vhost hosztmaszknak √©rv√©nyes form√°tumban kell lennie.
 HOST_SET_IDENT_ERROR
-	A vhost identnek ÈrvÈnyes form·tum˙nak kell lenni.
+	A vhost identnek √©rv√©nyes form√°tum√∫nak kell lenni.
 HOST_SET_TOOLONG
-	Hiba! A vhost hoszz˙, Ìrj %d karakternÈl rˆvidebbet!
+	Hiba! A vhost hoszz√∫, √≠rj %d karaktern√©l r√∂videbbet!
 HOST_SET_IDENTTOOLONG
-	Hiba! Az Ident hoszz˙, Ìrj %d karakternÈl rˆvidebbet!
+	Hiba! Az Ident hoszz√∫, √≠rj %d karaktern√©l r√∂videbbet!
 HOST_NOREG
-	%s felhaszn·lÛ nincs a nickserv db f·jlban.
+	%s felhaszn√°l√≥ nincs a nickserv db f√°jlban.
 HOST_SET_SYNTAX
 	SET <nick> <hosztmaszk>.
 HOST_SETALL_SYNTAX
 	SETALL <nick> <hosztmaszk>.
 HOST_DENIED
-	Hozz·fÈrÈs megtagadva.
+	Hozz√°f√©r√©s megtagadva.
 HOST_NOT_ASSIGNED
-	Keress meg egy Oper·tort Ès kÈrj tıle vhostot.
+	Keress meg egy Oper√°tort √©s k√©rj t≈ële vhostot.
 HOST_ACTIVATED
-	A %s virtu·lis hosztod aktiv·lva.
+	A %s virtu√°lis hosztod aktiv√°lva.
 HOST_IDENT_ACTIVATED
-	A  %s@%s virtu·lis hosztod aktiv·lva.
+	A  %s@%s virtu√°lis hosztod aktiv√°lva.
 HOST_ID
-	KÈrlek azonosÌts elıbb a szervÌzben.
+	K√©rlek azonos√≠ts el≈ëbb a szerv√≠zben.
 HOST_NOT_REGED
-	Csak regisztr·lt nickhez tudsz vhostot t·rsÌtani.
+	Csak regisztr√°lt nickhez tudsz vhostot t√°rs√≠tani.
 HOST_DEL
-	%s vhosztja tˆrˆlve lett.
+	%s vhosztja t√∂r√∂lve lett.
 HOST_DEL_SYNTAX
 	DEL <nick>.
 HOST_OFF
 	Your vhost was removed and the normal cloaking restored.
 HOST_OFF_UNREAL
-	A vhostod kikapcsolva. Hogy ˙jra haszn·ld az alap
-	hosztrejtÈst Ìrd be /mode %s +%s
+	A vhostod kikapcsolva. Hogy √∫jra haszn√°ld az alap
+	hosztrejt√©st √≠rd be /mode %s +%s
 HOST_NO_VIDENT
-	÷n ircdje nem t·mogatja a videnteket, ha ez nem igaz,
-	akkor kÈrem jelentse ezt, mint lehetsÈges hib·t.
+	√ñn ircdje nem t√°mogatja a videnteket, ha ez nem igaz,
+	akkor k√©rem jelentse ezt, mint lehets√©ges hib√°t.
 HOST_GROUP
-	Az ˆsszes user vhosztja a(z) %s csoportba %s lett
+	Az √∂sszes user vhosztja a(z) %s csoportba %s lett
 HOST_IDENT_GROUP
-	Az ˆsszes user vhosztja a(z) %s csoportba %s@%s lett
+	Az √∂sszes user vhosztja a(z) %s csoportba %s@%s lett
 HOST_LIST_FOOTER
-	KiÌrja az ˆsszes bejegyzÈst (Sz·ml·lÛ: %d)
+	Ki√≠rja az √∂sszes bejegyz√©st (Sz√°ml√°l√≥: %d)
 HOST_LIST_RANGE_FOOTER
-	KiÌrja a bejegyzÈseket %d-tÛl %d-ig
+	Ki√≠rja a bejegyz√©seket %d-t√≥l %d-ig
 HOST_LIST_KEY_FOOTER
-	KiÌrja azokat a hosztokat melyben a %s szÛ szerepel.
-	(sz·ml·lÛ: %d)
+	Ki√≠rja azokat a hosztokat melyben a %s sz√≥ szerepel.
+	(sz√°ml√°l√≥: %d)
 	
 ###########################################################
 #
-# HostServ Help ¸zenetek
+# HostServ Help √ºzenetek
 #
 ###########################################################
 HOST_HELP_CMD_ON
-	    ON          Aktiv·lja a t·rsÌtott vhostot
+	    ON          Aktiv√°lja a t√°rs√≠tott vhostot
 HOST_HELP_CMD_OFF
-	    OFF         Kikapcsolja a t·rsÌtott vhostot
+	    OFF         Kikapcsolja a t√°rs√≠tott vhostot
 HOST_HELP_CMD_GROUP
-	    GROUP       A vhostot a csoport minden tagj·ra ·llÌtja
+	    GROUP       A vhostot a csoport minden tagj√°ra √°ll√≠tja
 HOST_HELP_CMD_SET
-	    SET         Be·llÌt egy vhosztot a felhaszn·lÛnak
+	    SET         Be√°ll√≠t egy vhosztot a felhaszn√°l√≥nak
 HOST_HELP_CMD_SETALL
-	    SETALL      Be·llÌtja a vhosztot ˆsszes nicknek a csoportban
+	    SETALL      Be√°ll√≠tja a vhosztot √∂sszes nicknek a csoportban
 HOST_HELP_CMD_DEL
-	    DEL         Tˆrli egy felhaszn·lÛnak a vhostj·t
+	    DEL         T√∂rli egy felhaszn√°l√≥nak a vhostj√°t
 HOST_HELP_CMD_DELALL
-	    DELALL      Tˆrli a vhosztot a nickekrˆl a csoportban
+	    DELALL      T√∂rli a vhosztot a nickekr√∂l a csoportban
 HOST_HELP_CMD_LIST
-	    LIST        KiÌr egy vagy tˆbb vhost bejegyzÈst
+	    LIST        Ki√≠r egy vagy t√∂bb vhost bejegyz√©st
 
 HOST_OPER_HELP
 	not used.
@@ -6592,78 +6592,78 @@ HOST_HELP
 HOST_HELP_ON
 	Syntax: ON
 
-	Aktiv·lja a vhostodat, ami a nickhez lett t·rsÌtva.
-	Ha valaki csin·l egy /whois parancsot a nickeden,
-	akkor a vhostodat fogja l·tni a valÛdi IP cÌmed vagy
+	Aktiv√°lja a vhostodat, ami a nickhez lett t√°rs√≠tva.
+	Ha valaki csin√°l egy /whois parancsot a nickeden,
+	akkor a vhostodat fogja l√°tni a val√≥di IP c√≠med vagy
 	hosztneved helyett.
 
 HOST_HELP_SET
 	Syntax: SET <nick> <hostmask>.
 	
-	Be·llÌtja vhostnak a nick rÈszÈre a hosztmaszkot.
-	Ha az IRCD t·mogatja a vIdentet haszn·ld a SET
-	<nick> <ident>@<hostmask>, be·llitja az identet
-	 Ès a hosztot a nick vhosztjakÈnt.
+	Be√°ll√≠tja vhostnak a nick r√©sz√©re a hosztmaszkot.
+	Ha az IRCD t√°mogatja a vIdentet haszn√°ld a SET
+	<nick> <ident>@<hostmask>, be√°llitja az identet
+	 √©s a hosztot a nick vhosztjak√©nt.
 	
-	Korl·tozva Hoszt v·ltoztatÛkra.
+	Korl√°tozva Hoszt v√°ltoztat√≥kra.
 
 HOST_HELP_DELALL
 	Syntax: DELALL <nick>.
 
-	Tˆrlıdik a vhost az ˆsszes nickrıl a csoportban ahol az
-	adott nick van Ès ez a vhosztot haszn·lta 
+	T√∂rl≈ëdik a vhost az √∂sszes nickr≈ël a csoportban ahol az
+	adott nick van √©s ez a vhosztot haszn√°lta 
 	
-	Korl·tozva Hoszt v·ltoztatÛkra.
+	Korl√°tozva Hoszt v√°ltoztat√≥kra.
 
 HOST_HELP_SETALL
 	Syntax: SETALL <nick> <hosztmaszk>.
 
-	Be·llÌtja a vhosztot ˆsszes nick rÈszÈre aki a csoportban 
-	van. Ha az IRCD t·mogatja a vIdent, akkor haszn·lja a 
-	settall <nick> <ident>@<hosztnÈv> parancsot, ez be·llÌtja
-	az adott identet Ès hosztot az ˆsszes tag rÈszÈre vhosztkÈnt.
+	Be√°ll√≠tja a vhosztot √∂sszes nick r√©sz√©re aki a csoportban 
+	van. Ha az IRCD t√°mogatja a vIdent, akkor haszn√°lja a 
+	settall <nick> <ident>@<hosztn√©v> parancsot, ez be√°ll√≠tja
+	az adott identet √©s hosztot az √∂sszes tag r√©sz√©re vhosztk√©nt.
 
-	*Jegyzet: ez nem fogja frissÌteni a vhostot azoknak, akik
-	a nickeket a csoportban a parancs ut·n jegyeztÈk	
+	*Jegyzet: ez nem fogja friss√≠teni a vhostot azoknak, akik
+	a nickeket a csoportban a parancs ut√°n jegyezt√©k	
 
-	Korl·tozva Hoszt v·ltoztatÛkra.
+	Korl√°tozva Hoszt v√°ltoztat√≥kra.
 
 HOST_HELP_OFF
 	Syntax: OFF
 
-	Kikapcsolja a vhostodat,ez most t·rsitva van a nickedhez.
-	Ha valaki haszn·l /whois parancsot a nickeden, akkor a
-	valÛs IP cÌmed vagy hosztod fogja l·tni.
+	Kikapcsolja a vhostodat,ez most t√°rsitva van a nickedhez.
+	Ha valaki haszn√°l /whois parancsot a nickeden, akkor a
+	val√≥s IP c√≠med vagy hosztod fogja l√°tni.
 
 HOST_HELP_DEL
 	Syntax: DEL <nick>
 
-	A vhost tˆrˆlve az adott nick adatb·zis·bÛl.
+	A vhost t√∂r√∂lve az adott nick adatb√°zis√°b√≥l.
 
-	Korl·tozva Hoszt v·ltoztatÛkra.
+	Korl√°tozva Hoszt v√°ltoztat√≥kra.
 
 HOST_HELP_LIST
 	Syntax: LIST [<kulcs>|<#X-Y>]
 	
-	Ez parancs list·zza a regisztr·lt vhostokat az oper·tornak
-	Ha egy kulcs meg van hat·rozva, akkor csak a feltÈtelnek
-	megfelelı vhostokat adja ki melyekben vagy a nickben vagy
+	Ez parancs list√°zza a regisztr√°lt vhostokat az oper√°tornak
+	Ha egy kulcs meg van hat√°rozva, akkor csak a felt√©telnek
+	megfelel≈ë vhostokat adja ki melyekben vagy a nickben vagy
 	a hosztban szerepel a kulcs. Pl: Rob*
 
-	Ha az #x-y stÌlust haszn·lod, csak a megadott sorozatba
-	tartozÛ X Ès Y kˆzˆtti vhostok fognak megjelenni. PÈld·ul
-	az #1-3 csak az elsı 3 vhostot jelenÌti meg.
+	Ha az #x-y st√≠lust haszn√°lod, csak a megadott sorozatba
+	tartoz√≥ X √©s Y k√∂z√∂tti vhostok fognak megjelenni. P√©ld√°ul
+	az #1-3 csak az els≈ë 3 vhostot jelen√≠ti meg.
 
-	A lista haszn·lja NSListMax ÈrtÈket, mint t·g hat·rÈrtÈket
-	amikor megjelenÌti a tartalmat az oper·tornak.
+	A lista haszn√°lja NSListMax √©rt√©ket, mint t√°g hat√°r√©rt√©ket
+	amikor megjelen√≠ti a tartalmat az oper√°tornak.
 
-	Korl·tozva SzervÌz oper·torokra.
+	Korl√°tozva Szerv√≠z oper√°torokra.
 
 HOST_HELP_GROUP
 	Syntax: GROUP
 	
-	Ez a parancs lehetıvÈ teszi, hogy a JELENLEGI nick
-	vhostj·t be·llÌtsuk a csoport minden nickjÈre.
+	Ez a parancs lehet≈ëv√© teszi, hogy a JELENLEGI nick
+	vhostj√°t be√°ll√≠tsuk a csoport minden nickj√©re.
 
 OPER_SVSNICK_UNSUPPORTED
 	Sorry, SVSNICK is not available on this network.

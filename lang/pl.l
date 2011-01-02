@@ -10,7 +10,7 @@
 # Aktualizacja/Updated: 13/10/2008
 # Wersja serwisow/Anope version: svn-1477
 #
-# This file is encoded using iso-8859-2.
+# This file is encoded using utf-8.
 #
 ###########################################################################
 #
@@ -58,7 +58,7 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Espaï¿½l (Spanish)" or "Franï¿½is (French)".
+# For example, "EspaÄÅ¼Ël (Spanish)" or "FranÄÅ¼Ëis (French)".
 LANG_NAME
 	Polski (Polish)
 
@@ -97,7 +97,7 @@ STRFTIME_DAYS_SHORT
 	Nie
 	Pon
 	Wto
-	¦ro
+	Åšro
 	Czw
 	Pia
 	Sob
@@ -105,11 +105,11 @@ STRFTIME_DAYS_SHORT
 # %A
 STRFTIME_DAYS_LONG
 	Niedziela
-	Poniedzia³ek
+	PoniedziaÅ‚ek
 	Wtorek
-	¦roda
+	Åšroda
 	Czwartek
-	Pi±tek
+	PiÄ…tek
 	Sobota
 
 # %b
@@ -123,24 +123,24 @@ STRFTIME_MONTHS_SHORT
 	Lip
 	Sie
 	Wrz
-	Pa¼
+	PaÅº
 	Lis
 	Gru
 
 # %B
 STRFTIME_MONTHS_LONG
-	Styczeñ
+	StyczeÅ„
 	Luty
 	Marzec
-	Kwiecieñ
+	KwiecieÅ„
 	Maj
 	Czerwiec
 	Lipiec
-	Sierpieñ
-	Wrzesieñ
-	Pa¼dziernik
+	SierpieÅ„
+	WrzesieÅ„
+	PaÅºdziernik
 	Listopad
-	Grudzieñ
+	GrudzieÅ„
 
 # This is used in ChanServ/NickServ INFO displays.
 COMMA_SPACE
@@ -148,46 +148,46 @@ COMMA_SPACE
 
 # Various error messages.
 USER_RECORD_NOT_FOUND
-	B³±d wewnêtrzny - nie mogê obs³u¿yæ ¿±dania.
+	BÅ‚Ä…d wewnÄ™trzny - nie mogÄ™ obsÅ‚uÅ¼yÄ‡ Å¼Ä…dania.
 
 UNKNOWN_COMMAND
 	Nieznana komenda %s.
 
 UNKNOWN_COMMAND_HELP
-	Nieznana komenda %s. Napisz "%R%s HELP" aby uzyskaæ pomoc.
+	Nieznana komenda %s. Napisz "%R%s HELP" aby uzyskaÄ‡ pomoc.
 
 SYNTAX_ERROR
-	Sk³adnia: %s
+	SkÅ‚adnia: %s
 
 MORE_INFO
-	Napisz %R%s HELP %s aby uzyskaæ wiêcej informacji.
+	Napisz %R%s HELP %s aby uzyskaÄ‡ wiÄ™cej informacji.
 
 NO_HELP_AVAILABLE
-	Brak dostêpnej pomocy dla %s.
+	Brak dostÄ™pnej pomocy dla %s.
 
 OBSOLETE_COMMAND
-	Ta komenda jest ju¿ przestarza³a. U¿yj %s.
+	Ta komenda jest juÅ¼ przestarzaÅ‚a. UÅ¼yj %s.
 
 BAD_USERHOST_MASK
-	Maska musi mieæ format ident@host.
+	Maska musi mieÄ‡ format ident@host.
 
 BAD_EXPIRY_TIME
-	Nieprawid³owy czas wygasania.
+	NieprawidÅ‚owy czas wygasania.
 
 USERHOST_MASK_TOO_WIDE
-	%s jest za ogólna; u¿yj bardziej szczegó³owej maski.
+	%s jest za ogÃ³lna; uÅ¼yj bardziej szczegÃ³Å‚owej maski.
 
 SERVICE_OFFLINE
 	%s jest obecnie offline.
 
 READ_ONLY_MODE
-	Uwaga: Serwisy s± w trybie tylko do odczytu - zmiany nie bêd± zapisywane!
+	Uwaga: Serwisy sÄ… w trybie tylko do odczytu - zmiany nie bÄ™dÄ… zapisywane!
 
 PASSWORD_INCORRECT
-	Nieprawid³owe has³o.
+	NieprawidÅ‚owe hasÅ‚o.
 
 INVALID_TARGET
-	"/msg %s" nie jest ju¿ obs³ugiwane. U¿yj "/msg %s@%s" lub "/%s".
+	"/msg %s" nie jest juÅ¼ obsÅ‚ugiwane. UÅ¼yj "/msg %s@%s" lub "/%s".
 
 # What's the difference between "Access denied" and "Permission denied"?
 # Very little; you can safely make them the same message with no real loss
@@ -196,29 +196,29 @@ INVALID_TARGET
 # OperServ gets "Access denied", while a non-Services admin trying to use
 # NickServ SASET NOEXPIRE gets "Permission denied".
 ACCESS_DENIED
-	Odmowa dostêpu.
+	Odmowa dostÄ™pu.
 
 PERMISSION_DENIED
-	Brak uprawnieñ.
+	Brak uprawnieÅ„.
 
 RAW_DISABLED
-	Polecenie RAW zosta³o wy³±czone. Je¶li chcesz go u¿ywaæ,
-	ustaw odpowiednio DisableRaw w konfiguracji serwisów.
+	Polecenie RAW zostaÅ‚o wyÅ‚Ä…czone. JeÅ›li chcesz go uÅ¼ywaÄ‡,
+	ustaw odpowiednio DisableRaw w konfiguracji serwisÃ³w.
 
 MORE_OBSCURE_PASSWORD
-	Proszê spróbowaæ ponownie z trudniejszym has³em.
-	Has³o powinno mieæ minimum 5 znaków oraz powinno
-	zawieraæ cyfry i litery.
+	ProszÄ™ sprÃ³bowaÄ‡ ponownie z trudniejszym hasÅ‚em.
+	HasÅ‚o powinno mieÄ‡ minimum 5 znakÃ³w oraz powinno
+	zawieraÄ‡ cyfry i litery.
 
 PASSWORD_TOO_LONG
-	Twoje has³o jest za d³ugie. Spróbuj ponownie z krótszym has³em.
+	Twoje hasÅ‚o jest za dÅ‚ugie. SprÃ³buj ponownie z krÃ³tszym hasÅ‚em.
 
 NICK_NOT_REGISTERED
-	Twój nick nie jest zarejestrowany.
+	TwÃ³j nick nie jest zarejestrowany.
 
 NICK_NOT_REGISTERED_HELP
-	Twój nick jest niezarejestrowany.
-	Napisz %R%s HELP aby uzyskaæ pomoc na temat rejestracji.
+	TwÃ³j nick jest niezarejestrowany.
+	Napisz %R%s HELP aby uzyskaÄ‡ pomoc na temat rejestracji.
 
 NICK_X_IS_SERVICES
 	Nick %s jest serwisem!
@@ -227,69 +227,69 @@ NICK_X_NOT_REGISTERED
 	Nick %s nie jest zarejestrowany.
 
 NICK_X_IN_USE
-	Nick %s jest aktualnie w u¿yciu.
+	Nick %s jest aktualnie w uÅ¼yciu.
 
 NICK_X_NOT_IN_USE
-	Nick %s nie jest aktualnie u¿ywany.
+	Nick %s nie jest aktualnie uÅ¼ywany.
 
 NICK_X_NOT_ON_CHAN
 	%s nie jest aktualnie na kanale %s.
 
 NICK_X_FORBIDDEN
-	Nick %s nie mo¿e byæ rejestrowany ani u¿ywany.
+	Nick %s nie moÅ¼e byÄ‡ rejestrowany ani uÅ¼ywany.
 
 NICK_X_FORBIDDEN_OPER
-	Nick %s zosta³ zablokowany przez %s:
+	Nick %s zostaÅ‚ zablokowany przez %s:
 	%s
 
 NICK_X_ILLEGAL
-	Nick %s jest nieprawid³owy i nie mo¿e byæ u¿ywany.
+	Nick %s jest nieprawidÅ‚owy i nie moÅ¼e byÄ‡ uÅ¼ywany.
 
 NICK_X_TRUNCATED
-	Nick %s zosta³ skrócony do %d znaków.
+	Nick %s zostaÅ‚ skrÃ³cony do %d znakÃ³w.
 
 NICK_X_SUSPENDED
 	Nick %s jest obecnie zawieszony.
 
 CHAN_X_NOT_REGISTERED
-	Kana³ %s nie jest zarejestrowany.
+	KanaÅ‚ %s nie jest zarejestrowany.
 
 CHAN_X_NOT_IN_USE
-	Kana³ %s nie istnieje.
+	KanaÅ‚ %s nie istnieje.
 
 CHAN_X_FORBIDDEN
-	Kana³u %s nie mo¿na rejestrowaæ ani u¿ywaæ.
+	KanaÅ‚u %s nie moÅ¼na rejestrowaÄ‡ ani uÅ¼ywaÄ‡.
 
 CHAN_X_FORBIDDEN_OPER
-	Kana³ %s zosta³ zablokowany przez %s:
+	KanaÅ‚ %s zostaÅ‚ zablokowany przez %s:
 	%s
 
 CHAN_X_SUSPENDED
 	     Zawieszony: [%s] %s
 
 NICK_IDENTIFY_REQUIRED
-	Aby u¿yæ tej komendy musisz siê zidentyfikowaæ.
-	Napisz %R%s IDENTIFY has³o, a pó¼niej ponów próbê.
+	Aby uÅ¼yÄ‡ tej komendy musisz siÄ™ zidentyfikowaÄ‡.
+	Napisz %R%s IDENTIFY hasÅ‚o, a pÃ³Åºniej ponÃ³w prÃ³bÄ™.
 
 CHAN_IDENTIFY_REQUIRED
-	Do u¿ycia tej komendy wymagana jest identyfikacja.
-	Napisz %R%s IDENTIFY %s has³o, a pó¼niej ponów próbê.
+	Do uÅ¼ycia tej komendy wymagana jest identyfikacja.
+	Napisz %R%s IDENTIFY %s hasÅ‚o, a pÃ³Åºniej ponÃ³w prÃ³bÄ™.
 	
 
 MAIL_DISABLED
-	Serwisy zosta³y skonfigurowane tak, aby nie wysy³aæ poczty.
+	Serwisy zostaÅ‚y skonfigurowane tak, aby nie wysyÅ‚aÄ‡ poczty.
 
 MAIL_INVALID
-	Adres e-mail dla %s nie jest prawid³owy.
+	Adres e-mail dla %s nie jest prawidÅ‚owy.
 
 MAIL_X_INVALID
-	%s nie jest prawid³owym adresem e-mail.
+	%s nie jest prawidÅ‚owym adresem e-mail.
 
 MAIL_LATER
-	Nie mogê wys³aæ teraz maila. Spróbuj za chwilê.
+	Nie mogÄ™ wysÅ‚aÄ‡ teraz maila. SprÃ³buj za chwilÄ™.
 
 MAIL_DELAYED
-	Proszê odczekaæ %d sekund(y) i ponowiæ próbê.
+	ProszÄ™ odczekaÄ‡ %d sekund(y) i ponowiÄ‡ prÃ³bÄ™.
 	
 
 NO_REASON
@@ -300,7 +300,7 @@ UNKNOWN
 
 # Duration system
 DURATION_DAY
-	1 dzieñ
+	1 dzieÅ„
 
 DURATION_DAYS
 	%d dni
@@ -328,31 +328,31 @@ NO_EXPIRE
 	nie wygasa
 
 EXPIRES_SOON
-	wygasa przy nastêpnej aktualizacji baz
+	wygasa przy nastÄ™pnej aktualizacji baz
 
 EXPIRES_M
 	wygasa za %d minut(y)
 
 EXPIRES_1M
-	wygasa za %d minutê
+	wygasa za %d minutÄ™
 
 EXPIRES_HM
 	wygasa za %d godzin(y) i %d minut(y)
 
 EXPIRES_H1M
-	wygasa za %d godzinê i %d minut(y)
+	wygasa za %d godzinÄ™ i %d minut(y)
 
 EXPIRES_1HM
-	wygasa za %d godzinê i %d minut(y)
+	wygasa za %d godzinÄ™ i %d minut(y)
 
 EXPIRES_1H1M
-	wygasa za %d godzinê i %d minutê
+	wygasa za %d godzinÄ™ i %d minutÄ™
 
 EXPIRES_D
 	wygasa za %d dni
 
 EXPIRES_1D
-	wygasa za %d dzieñ
+	wygasa za %d dzieÅ„
 
 # Generic Footer message
 END_OF_ANY_LIST
@@ -360,36 +360,36 @@ END_OF_ANY_LIST
 
 # Generic List error messages
 LIST_INCORRECT_RANGE
-	Podano nieprawid³owy zakres. Poprawny zapis to #od-do.
+	Podano nieprawidÅ‚owy zakres. Poprawny zapis to #od-do.
 
 CS_LIST_INCORRECT_RANGE
-	Aby wyszukaæ kana³y o nazwach zaczynaj±cych siê znakiem #
-	nale¿y ten znak pomin±æ (anope zamiast #anope).
+	Aby wyszukaÄ‡ kanaÅ‚y o nazwach zaczynajÄ…cych siÄ™ znakiem #
+	naleÅ¼y ten znak pominÄ…Ä‡ (anope zamiast #anope).
 
 # Generic help limited to messages
 HELP_LIMIT_SERV_OPER
 	
-	Polecenie dostêpne tylko dla operatorów serwisów.
+	Polecenie dostÄ™pne tylko dla operatorÃ³w serwisÃ³w.
 
 HELP_LIMIT_SERV_ADMIN
 	
-	Polecenie dostêpne tylko dla administratorów serwisów.
+	Polecenie dostÄ™pne tylko dla administratorÃ³w serwisÃ³w.
 
 HELP_LIMIT_SERV_ROOT
 	
-	Polecenie dostêpne tylko dla Services Roots.
+	Polecenie dostÄ™pne tylko dla Services Roots.
 
 HELP_LIMIT_IRC_OPER
 	
-	Polecenie dostêpne tylko dla IRC operatorów.
+	Polecenie dostÄ™pne tylko dla IRC operatorÃ³w.
 
 HELP_LIMIT_HOST_SETTER
 	
-	Polecenie dostêpne tylko dla Host Setters.
+	Polecenie dostÄ™pne tylko dla Host Setters.
 
 HELP_LIMIT_HOST_REMOVER
 	
-	Polecenie dostêpne tylko dla Host Removers.
+	Polecenie dostÄ™pne tylko dla Host Removers.
 
 ###########################################################################
 #
@@ -398,114 +398,114 @@ HELP_LIMIT_HOST_REMOVER
 ###########################################################################
 # Automatic messages
 NICK_IS_REGISTERED
-	Ten nick jest zarejestrowany. Je¶li to Twój nick,
-	wpisz: %R%s IDENTIFY has³o
+	Ten nick jest zarejestrowany. JeÅ›li to TwÃ³j nick,
+	wpisz: %R%s IDENTIFY hasÅ‚o
 
 NICK_IS_SECURE
 	Ten nick jest zarejestrowany i chroniony.
-	Zidentyfikuj siê pisz±c: %R%s IDENTIFY has³o
-	je¶li nick nale¿y do Ciebie, w przeciwnym razie zmieñ go.
+	Zidentyfikuj siÄ™ piszÄ…c: %R%s IDENTIFY hasÅ‚o
+	jeÅ›li nick naleÅ¼y do Ciebie, w przeciwnym razie zmieÅ„ go.
 
 NICK_MAY_NOT_BE_USED
-	Ten nick nie mo¿e byæ u¿ywany. Wybierz inny nick.
+	Ten nick nie moÅ¼e byÄ‡ uÅ¼ywany. Wybierz inny nick.
 
 FORCENICKCHANGE_IN_1_MINUTE
-	Masz jedn± minutê na zmianê nicka, potem zostanie zmieniony si³±.
+	Masz jednÄ… minutÄ™ na zmianÄ™ nicka, potem zostanie zmieniony siÅ‚Ä….
 
 FORCENICKCHANGE_IN_20_SECONDS
-	Masz 20 sekund na zmianê nicka, potem zostanie zmieniony si³±.
+	Masz 20 sekund na zmianÄ™ nicka, potem zostanie zmieniony siÅ‚Ä….
 
 FORCENICKCHANGE_NOW
-	Ten nick zosta³ zarejestrowany i nie mo¿esz go u¿ywaæ.
+	Ten nick zostaÅ‚ zarejestrowany i nie moÅ¼esz go uÅ¼ywaÄ‡.
 
 FORCENICKCHANGE_CHANGING
-	Twój nick zosta³ zmieniony na %s.
+	TwÃ³j nick zostaÅ‚ zmieniony na %s.
 
 # REGISTER responses
 NICK_REGISTER_SYNTAX
-	REGISTER has³o [email]
+	REGISTER hasÅ‚o [email]
 
 NICK_REGISTER_SYNTAX_EMAIL
-	REGISTER has³o email
+	REGISTER hasÅ‚o email
 
 NICK_REGISTRATION_DISABLED
-	Rejestracja nicków jest tymczasowo wy³±czona.
+	Rejestracja nickÃ³w jest tymczasowo wyÅ‚Ä…czona.
 
 NICK_REGISTRATION_FAILED
-	Rejestracja nicka nie powiod³a siê.
+	Rejestracja nicka nie powiodÅ‚a siÄ™.
 
 NICK_REG_PLEASE_WAIT
-	Odczekaj %d sekund przed ponownym u¿yciem komendy REGISTER.
+	Odczekaj %d sekund przed ponownym uÅ¼yciem komendy REGISTER.
 
 NICK_CANNOT_BE_REGISTERED
-	Nick %s nie mo¿e byæ rejestrowany.
+	Nick %s nie moÅ¼e byÄ‡ rejestrowany.
 
 NICK_ALREADY_REGISTERED
-	Nick %s jest ju¿ zarejestrowany!
+	Nick %s jest juÅ¼ zarejestrowany!
 
 NICK_REGISTERED
-	Nick %s zosta³ zarejestrowany z mask±: %s.
+	Nick %s zostaÅ‚ zarejestrowany z maskÄ…: %s.
 
 NICK_REGISTERED_NO_MASK
-	Nick %s zosta³ zarejestrowany.
+	Nick %s zostaÅ‚ zarejestrowany.
 
 NICK_PASSWORD_IS
-	Twoje has³o do nicka to %s
+	Twoje hasÅ‚o do nicka to %s
 
 NICK_REG_DELAY
-	Musisz byæ po³±czony(a) d³u¿ej ni¿ %d sekund(y), aby móc zarejestrowaæ nick.
+	Musisz byÄ‡ poÅ‚Ä…czony(a) dÅ‚uÅ¼ej niÅ¼ %d sekund(y), aby mÃ³c zarejestrowaÄ‡ nick.
 
 # GROUP responses
 NICK_GROUP_SYNTAX
-	GROUP nazwa has³o
+	GROUP nazwa hasÅ‚o
 
 NICK_GROUP_DISABLED
-	Grupowanie nicków jest tymczasowo wy³±czone.
+	Grupowanie nickÃ³w jest tymczasowo wyÅ‚Ä…czone.
 
 NICK_GROUP_FAILED
-	Grupowanie nie powiod³o siê.
+	Grupowanie nie powiodÅ‚o siÄ™.
 
 NICK_GROUP_PLEASE_WAIT
-	Odczekaj %d sekund przed ponownym u¿yciem komendy GROUP.
+	Odczekaj %d sekund przed ponownym uÅ¼yciem komendy GROUP.
 
 NICK_GROUP_CHANGE_DISABLED
-	Twój nick jest ju¿ zarejestrowany. Napisz najpierw: %R%s DROP
+	TwÃ³j nick jest juÅ¼ zarejestrowany. Napisz najpierw: %R%s DROP
 
 NICK_GROUP_SAME
-	Nale¿ysz ju¿ do grupy %s.
+	NaleÅ¼ysz juÅ¼ do grupy %s.
 
 NICK_GROUP_TOO_MANY
-	W grupie %s jest za du¿o nicków, usuñ kilka.
+	W grupie %s jest za duÅ¼o nickÃ³w, usuÅ„ kilka.
 	Napisz %R%s HELP GLIST i %R%s HELP DROP,
-	aby uzyskaæ wiêcej informacji.
+	aby uzyskaÄ‡ wiÄ™cej informacji.
 
 NICK_GROUP_JOINED
-	Nale¿ysz teraz do grupy %s.
+	NaleÅ¼ysz teraz do grupy %s.
 
 # IDENTIFY responses
 NICK_IDENTIFY_SYNTAX
-	IDENTIFY has³o
+	IDENTIFY hasÅ‚o
 
 NICK_IDENTIFY_FAILED
-	Identyfikacja nie powiod³a siê.
+	Identyfikacja nie powiodÅ‚a siÄ™.
 
 NICK_IDENTIFY_SUCCEEDED
-	Has³o przyjête - jeste¶ zidentyfikowany(a).
+	HasÅ‚o przyjÄ™te - jesteÅ› zidentyfikowany(a).
 
 NICK_IDENTIFY_EMAIL_REQUIRED
 	Teraz ustaw adres e-mail dla Twojego nicka.
-	Gdy zapomnisz has³a, zostanie ono wys³ane na e-mail.
+	Gdy zapomnisz hasÅ‚a, zostanie ono wysÅ‚ane na e-mail.
 
 NICK_IDENTIFY_EMAIL_HOWTO
-	Napisz %R%S SET EMAIL e-mail, aby ustawiæ adres e-mail.
-	Twoja prywatno¶æ bêdzie uszanowana - nie bêdzie podawany osobom trzecim,
+	Napisz %R%S SET EMAIL e-mail, aby ustawiÄ‡ adres e-mail.
+	Twoja prywatnoÅ›Ä‡ bÄ™dzie uszanowana - nie bÄ™dzie podawany osobom trzecim,
 
 NICK_ALREADY_IDENTIFIED
-	Jeste¶ ju¿ zidentyfikowany(a).
+	JesteÅ› juÅ¼ zidentyfikowany(a).
 
 # UPDATE responses
 NICK_UPDATE_SUCCESS
-	Status zaktualizowany (wiadomo¶ci, vhosty, flagi).
+	Status zaktualizowany (wiadomoÅ›ci, vhosty, flagi).
 	
 
 # LOGOUT responses
@@ -513,23 +513,23 @@ NICK_LOGOUT_SYNTAX
 	LOGOUT
 
 NICK_LOGOUT_SUCCEEDED
-	Twój nick zosta³ pomy¶lnie wylogowany.
+	TwÃ³j nick zostaÅ‚ pomyÅ›lnie wylogowany.
 
 NICK_LOGOUT_X_SUCCEEDED
-	Nick %s zosta³ wylogowany.
+	Nick %s zostaÅ‚ wylogowany.
 
 NICK_LOGOUT_SERVICESADMIN
-	Nie mogê wylogowaæ %s, bo to administrator serwisów.
+	Nie mogÄ™ wylogowaÄ‡ %s, bo to administrator serwisÃ³w.
 
 # DROP responses
 NICK_DROP_DISABLED
-	Usuwanie nicków jest tymczasowo wy³±czone.
+	Usuwanie nickÃ³w jest tymczasowo wyÅ‚Ä…czone.
 
 NICK_DROPPED
-	Twój nick zosta³ odrejestrowany.
+	TwÃ³j nick zostaÅ‚ odrejestrowany.
 
 NICK_X_DROPPED
-	Nick %s zosta³ odrejestrowany.
+	Nick %s zostaÅ‚ odrejestrowany.
 
 # SET responses
 NICK_SET_SYNTAX
@@ -539,78 +539,78 @@ NICK_SET_SERVADMIN_SYNTAX
 	SET [nick] opcja parametry
 
 NICK_SET_DISABLED
-	Modyfikacja ustawieñ nicka jest tymczasowo wy³±czona.
+	Modyfikacja ustawieÅ„ nicka jest tymczasowo wyÅ‚Ä…czona.
 
 NICK_SET_UNKNOWN_OPTION
 	Nieznana opcja komendy SET %s.
 
 NICK_SET_OPTION_DISABLED
-	Opcja %s nie jest dostêpna w tej sieci.
+	Opcja %s nie jest dostÄ™pna w tej sieci.
 
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
-	Now± nazw± MUSI byæ jednym z nicków w grupie!
+	NowÄ… nazwÄ… MUSI byÄ‡ jednym z nickÃ³w w grupie!
 
 NICK_SET_DISPLAY_CHANGED
-	Now± nazw± jest %s.
+	NowÄ… nazwÄ… jest %s.
 
 # SET PASSWORD responses
 NICK_SET_PASSWORD_FAILED
-	Zmiana has³a nie powiod³a siê.
+	Zmiana hasÅ‚a nie powiodÅ‚a siÄ™.
 
 NICK_SET_PASSWORD_CHANGED
-	Has³o zosta³o zmienione.
+	HasÅ‚o zostaÅ‚o zmienione.
 
 NICK_SET_PASSWORD_CHANGED_TO
-	Has³o zosta³o zmienione na %s.
+	HasÅ‚o zostaÅ‚o zmienione na %s.
 
 # SET LANGUAGE responses
 NICK_SET_LANGUAGE_SYNTAX
 	SET LANGUAGE numer
 
 NICK_SET_LANGUAGE_UNKNOWN
-	Nieznany numer jêzyka %d.
-	Napisz %R%s HELP SET LANGUAGE, aby uzyskaæ listê dostêpnych jêzyków.
+	Nieznany numer jÄ™zyka %d.
+	Napisz %R%s HELP SET LANGUAGE, aby uzyskaÄ‡ listÄ™ dostÄ™pnych jÄ™zykÃ³w.
 
 NICK_SET_LANGUAGE_CHANGED
-	Jêzyk zosta³ zmieniony na Polski.
+	JÄ™zyk zostaÅ‚ zmieniony na Polski.
 
 # SET URL responses
 NICK_SET_URL_CHANGED
-	Adres www zosta³ zmieniony na %s.
+	Adres www zostaÅ‚ zmieniony na %s.
 
 NICK_SET_URL_UNSET
-	Adres www zosta³ usuniêty.
+	Adres www zostaÅ‚ usuniÄ™ty.
 
 # SET EMAIL responses
 NICK_SET_EMAIL_CHANGED
-	Adres e-mail zosta³ zmieniony na %s.
+	Adres e-mail zostaÅ‚ zmieniony na %s.
 
 NICK_SET_EMAIL_UNSET
-	Adres e-mail zosta³ usuniêty.
+	Adres e-mail zostaÅ‚ usuniÄ™ty.
 
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
-	Nie mo¿esz usuwaæ adresu e-mail w tej sieci.
+	Nie moÅ¼esz usuwaÄ‡ adresu e-mail w tej sieci.
 	
 
 # SET ICQ responses
 NICK_SET_ICQ_CHANGED
-	Numer ICQ zosta³ zmieniony na %s.
+	Numer ICQ zostaÅ‚ zmieniony na %s.
 
 NICK_SET_ICQ_UNSET
-	Numer ICQ zosta³ usuniêty.
+	Numer ICQ zostaÅ‚ usuniÄ™ty.
 
 NICK_SET_ICQ_INVALID
-	%s nie jest prawid³owym numerem.
+	%s nie jest prawidÅ‚owym numerem.
 	
 
 # SET GREET responses
 NICK_SET_GREET_CHANGED
-	Wiadomo¶æ powitalna zosta³a zmieniona na:
+	WiadomoÅ›Ä‡ powitalna zostaÅ‚a zmieniona na:
 	%s.
 
 NICK_SET_GREET_UNSET
-	Wiadomo¶æ powitalna zosta³a usuniêta.
+	WiadomoÅ›Ä‡ powitalna zostaÅ‚a usuniÄ™ta.
 
 # SET PROTECT responses
 NICK_SET_KILL_SYNTAX
@@ -620,67 +620,67 @@ NICK_SET_KILL_IMMED_SYNTAX
 	SET KILL {ON | QUICK | IMMED | OFF}
 
 NICK_SET_KILL_ON
-	Ochrona jest teraz w³±czona.
+	Ochrona jest teraz wÅ‚Ä…czona.
 
 NICK_SET_KILL_QUICK
-	Ochrona ze zredukowanym opó¼nieniem jest teraz w³±czona.
+	Ochrona ze zredukowanym opÃ³Åºnieniem jest teraz wÅ‚Ä…czona.
 
 NICK_SET_KILL_IMMED
-	Natychmiastowa ochrona jest teraz w³±czona.
+	Natychmiastowa ochrona jest teraz wÅ‚Ä…czona.
 
 NICK_SET_KILL_IMMED_DISABLED
-	Opcja IMMED nie jest jest dostêpna w tej sieci.
+	Opcja IMMED nie jest jest dostÄ™pna w tej sieci.
 
 NICK_SET_KILL_OFF
-	Ochrona jest teraz wy³±czona.
+	Ochrona jest teraz wyÅ‚Ä…czona.
 
 # SET SECURE responses
 NICK_SET_SECURE_SYNTAX
 	SET SECURE {ON | OFF}
 
 NICK_SET_SECURE_ON
-	Opcja bezpieczeñstwa zosta³a w³±czona.
+	Opcja bezpieczeÅ„stwa zostaÅ‚a wÅ‚Ä…czona.
 
 NICK_SET_SECURE_OFF
-	Opcja bezpieczeñstwa zosta³a wy³±czona.
+	Opcja bezpieczeÅ„stwa zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET PRIVATE responses
 NICK_SET_PRIVATE_SYNTAX
 	SET PRIVATE {ON | OFF}
 
 NICK_SET_PRIVATE_ON
-	Opcja prywatno¶ci zosta³a w³±czona.
+	Opcja prywatnoÅ›ci zostaÅ‚a wÅ‚Ä…czona.
 
 NICK_SET_PRIVATE_OFF
-	Opcja prywatno¶ci zosta³a wy³±czona.
+	Opcja prywatnoÅ›ci zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET HIDE responses
 NICK_SET_HIDE_SYNTAX
 	SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 
 NICK_SET_HIDE_EMAIL_ON
-	Twój adres e-mail bêdzie ukrywany w informacjach %s.
+	TwÃ³j adres e-mail bÄ™dzie ukrywany w informacjach %s.
 
 NICK_SET_HIDE_EMAIL_OFF
-	Twój adres e-mail bêdzie pokazywany w informacjach %s.
+	TwÃ³j adres e-mail bÄ™dzie pokazywany w informacjach %s.
 
 NICK_SET_HIDE_MASK_ON
-	Twoja ostatnia maska ident@host bêdzie ukrywana w informacjach %s.
+	Twoja ostatnia maska ident@host bÄ™dzie ukrywana w informacjach %s.
 
 NICK_SET_HIDE_MASK_OFF
-	Twoja ostatnia maska ident@host bêdzie pokazywana w informacjach %s.
+	Twoja ostatnia maska ident@host bÄ™dzie pokazywana w informacjach %s.
 
 NICK_SET_HIDE_QUIT_ON
-	Twoja ostatnia wiadomo¶æ QUIT bêdzie ukrywana w informacjach %s.
+	Twoja ostatnia wiadomoÅ›Ä‡ QUIT bÄ™dzie ukrywana w informacjach %s.
 
 NICK_SET_HIDE_QUIT_OFF
-	Twoja ostatnia wiadomo¶æ QUIT bêdzie pokazywana w informacjach %s.
+	Twoja ostatnia wiadomoÅ›Ä‡ QUIT bÄ™dzie pokazywana w informacjach %s.
 
 NICK_SET_HIDE_STATUS_ON
-	Twój status dostêpu do serwisów bêdzie ukrywany w informacjach %s.
+	TwÃ³j status dostÄ™pu do serwisÃ³w bÄ™dzie ukrywany w informacjach %s.
 
 NICK_SET_HIDE_STATUS_OFF
-	Twój status dostêpu do serwisów bêdzie pokazywany w informacjach %s.
+	TwÃ³j status dostÄ™pu do serwisÃ³w bÄ™dzie pokazywany w informacjach %s.
 	
 
 # SET MSG responses
@@ -688,27 +688,27 @@ NICK_SET_MSG_SYNTAX
 	SET MSG {ON | OFF}
 
 NICK_SET_MSG_ON
-	Serwisy bêd± teraz wysy³aæ wiadomo¶ci.
+	Serwisy bÄ™dÄ… teraz wysyÅ‚aÄ‡ wiadomoÅ›ci.
 
 NICK_SET_MSG_OFF
-	Serwisy bêd± teraz wysy³aæ powiadomienia.
+	Serwisy bÄ™dÄ… teraz wysyÅ‚aÄ‡ powiadomienia.
 
 # SET AUTOOP responses
 NICK_SET_AUTOOP_SYNTAX
 	SET AUTOOP {ON | OFF}
 
 NICK_SET_AUTOOP_ON
-	Serwisy bêd± automatycznie nadawa³y Tobie uprawnienia.
+	Serwisy bÄ™dÄ… automatycznie nadawaÅ‚y Tobie uprawnienia.
 
 NICK_SET_AUTOOP_OFF
-	Serwisy nie bêd± ju¿ automatycznie nadawa³y Tobie uprawnieñ.
+	Serwisy nie bÄ™dÄ… juÅ¼ automatycznie nadawaÅ‚y Tobie uprawnieÅ„.
 
 # SASET responses
 NICK_SASET_SYNTAX
 	SASET nick opcja parametry
 
 NICK_SASET_DISABLED
-	Modyfikacja ustawieñ nicka jest tymczasowo wy³±czona.
+	Modyfikacja ustawieÅ„ nicka jest tymczasowo wyÅ‚Ä…czona.
 
 NICK_SASET_UNKNOWN_OPTION
 	Nieznana opcja komendy SASET %s.
@@ -717,60 +717,60 @@ NICK_SASET_BAD_NICK
 	Nick %s nie jest zarejestrowany.
 
 NICK_SASET_OPTION_DISABLED
-	Opcja %s nie jest dostêpna w tej sieci.
+	Opcja %s nie jest dostÄ™pna w tej sieci.
 
 # SASET DISPLAY responses
 NICK_SASET_DISPLAY_INVALID
-	Nowa nazwa dla %s MUSI byæ jednym z nicków w grupie!
+	Nowa nazwa dla %s MUSI byÄ‡ jednym z nickÃ³w w grupie!
 
 NICK_SASET_DISPLAY_CHANGED
-	Now± nazw± jest %s.
+	NowÄ… nazwÄ… jest %s.
 
 # SASET PASSWORD responses
 NICK_SASET_PASSWORD_FAILED
-	Zmiana has³a dla %s nie powiod³a siê.
+	Zmiana hasÅ‚a dla %s nie powiodÅ‚a siÄ™.
 
 NICK_SASET_PASSWORD_CHANGED
-	Has³o dla %s zosta³o zmienione.
+	HasÅ‚o dla %s zostaÅ‚o zmienione.
 
 NICK_SASET_PASSWORD_CHANGED_TO
-	Has³o dla %s zosta³o zmienione na %s.
+	HasÅ‚o dla %s zostaÅ‚o zmienione na %s.
 
 # SASET URL responses
 NICK_SASET_URL_CHANGED
-	Adres www osoby %s zosta³ zmieniony na %s.
+	Adres www osoby %s zostaÅ‚ zmieniony na %s.
 
 NICK_SASET_URL_UNSET
-	Adres www osoby %s zosta³ usuniêty.
+	Adres www osoby %s zostaÅ‚ usuniÄ™ty.
 
 # SASET EMAIL responses
 NICK_SASET_EMAIL_CHANGED
-	Adres e-mail osoby %s zosta³ zmieniony na %s.
+	Adres e-mail osoby %s zostaÅ‚ zmieniony na %s.
 
 NICK_SASET_EMAIL_UNSET
-	Adres e-mail osoby %s zosta³ usuniêty.
+	Adres e-mail osoby %s zostaÅ‚ usuniÄ™ty.
 
 NICK_SASET_EMAIL_UNSET_IMPOSSIBLE
-	Nie mo¿esz usuwaæ adresu e-mail w tej sieci.
+	Nie moÅ¼esz usuwaÄ‡ adresu e-mail w tej sieci.
 	
 
 # SASET ICQ responses
 NICK_SASET_ICQ_CHANGED
-	Numer ICQ osoby %s zosta³ zmieniony na %s.
+	Numer ICQ osoby %s zostaÅ‚ zmieniony na %s.
 
 NICK_SASET_ICQ_UNSET
-	Numer ICQ osoby %s zosta³ usuniêty.
+	Numer ICQ osoby %s zostaÅ‚ usuniÄ™ty.
 
 NICK_SASET_ICQ_INVALID
-	%s nie jest prawid³owym numerem.
+	%s nie jest prawidÅ‚owym numerem.
 	
 
 # SASET GREET responses
 NICK_SASET_GREET_CHANGED
-	Wiadomo¶æ powitalna osoby %s zosta³a zmieniona na %s.
+	WiadomoÅ›Ä‡ powitalna osoby %s zostaÅ‚a zmieniona na %s.
 
 NICK_SASET_GREET_UNSET
-	Wiadomo¶æ powitalna osoby %s zosta³a usuniêta.
+	WiadomoÅ›Ä‡ powitalna osoby %s zostaÅ‚a usuniÄ™ta.
 
 # SASET PROTECT responses
 NICK_SASET_KILL_SYNTAX
@@ -780,67 +780,67 @@ NICK_SASET_KILL_IMMED_SYNTAX
 	SASET nick KILL {ON | QUICK | IMMED | OFF}
 
 NICK_SASET_KILL_ON
-	Ochrona dla %s jest teraz w³±czona.
+	Ochrona dla %s jest teraz wÅ‚Ä…czona.
 
 NICK_SASET_KILL_QUICK
-	Ochrona dla %s ze zredukowanym opó¼nieniem jest teraz w³±czona.
+	Ochrona dla %s ze zredukowanym opÃ³Åºnieniem jest teraz wÅ‚Ä…czona.
 
 NICK_SASET_KILL_IMMED
-	Natychmiastowa ochrona dla %s jest teraz w³±czona
+	Natychmiastowa ochrona dla %s jest teraz wÅ‚Ä…czona
 
 NICK_SASET_KILL_IMMED_DISABLED
-	Opcja IMMED nie jest dostêpna w tej sieci.
+	Opcja IMMED nie jest dostÄ™pna w tej sieci.
 
 NICK_SASET_KILL_OFF
-	Ochrona dla %s jest teraz wy³±czona.
+	Ochrona dla %s jest teraz wyÅ‚Ä…czona.
 
 # SASET SECURE responses
 NICK_SASET_SECURE_SYNTAX
 	SASET nick SECURE {ON | OFF}
 
 NICK_SASET_SECURE_ON
-	Opcja bezpieczeñstwa dla %s zosta³a w³±czona.
+	Opcja bezpieczeÅ„stwa dla %s zostaÅ‚a wÅ‚Ä…czona.
 
 NICK_SASET_SECURE_OFF
-	Opcja bezpieczeñstwa dla %s zosta³a wy³±czona.
+	Opcja bezpieczeÅ„stwa dla %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SASET PRIVATE responses
 NICK_SASET_PRIVATE_SYNTAX
 	SASET nick PRIVATE {ON | OFF}
 
 NICK_SASET_PRIVATE_ON
-	Opcja prywatno¶ci dla %s zosta³a w³±czona.
+	Opcja prywatnoÅ›ci dla %s zostaÅ‚a wÅ‚Ä…czona.
 
 NICK_SASET_PRIVATE_OFF
-	Opcja prywatno¶ci dla %s zosta³a wy³±czona.
+	Opcja prywatnoÅ›ci dla %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SASET HIDE responses
 NICK_SASET_HIDE_SYNTAX
 	SASET nick HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 
 NICK_SASET_HIDE_EMAIL_ON
-	Adres e-mail osoby %s bêdzie ukrywany w informacjach %s.
+	Adres e-mail osoby %s bÄ™dzie ukrywany w informacjach %s.
 
 NICK_SASET_HIDE_EMAIL_OFF
-	Adres e-mail osoby %s bêdzie pokazywany w informacjach %s.
+	Adres e-mail osoby %s bÄ™dzie pokazywany w informacjach %s.
 
 NICK_SASET_HIDE_MASK_ON
-	Ostatnia maska ident@host osoby %s bêdzie ukrywana w informacjach %s.
+	Ostatnia maska ident@host osoby %s bÄ™dzie ukrywana w informacjach %s.
 
 NICK_SASET_HIDE_MASK_OFF
-	Ostatnia maska ident@host osoby %s bêdzie pokazywana w informacjach %s.
+	Ostatnia maska ident@host osoby %s bÄ™dzie pokazywana w informacjach %s.
 
 NICK_SASET_HIDE_QUIT_ON
-	Ostatnia wiadomo¶æ QUIT osoby %s bêdzie ukrywana w informacjach %s.
+	Ostatnia wiadomoÅ›Ä‡ QUIT osoby %s bÄ™dzie ukrywana w informacjach %s.
 
 NICK_SASET_HIDE_QUIT_OFF
-	Ostatnia wiadomo¶æ QUIT osoby %s bêdzie pokazywana w informacjach %s.
+	Ostatnia wiadomoÅ›Ä‡ QUIT osoby %s bÄ™dzie pokazywana w informacjach %s.
 
 NICK_SASET_HIDE_STATUS_ON
-	Status dostêpu do serwisów osoby %s bêdzie ukrywany w informacjach %s.
+	Status dostÄ™pu do serwisÃ³w osoby %s bÄ™dzie ukrywany w informacjach %s.
 
 NICK_SASET_HIDE_STATUS_OFF
-	Status dostêpu do serwisów osoby %s bêdzie pokazywany w informacjach %s.
+	Status dostÄ™pu do serwisÃ³w osoby %s bÄ™dzie pokazywany w informacjach %s.
 	
 
 # SASET MSG responses
@@ -848,17 +848,17 @@ NICK_SASET_MSG_SYNTAX
 	SASAET nick MSG {ON | OFF}
 
 NICK_SASET_MSG_ON
-	Serwisy bêd± teraz wysy³aæ do %s wiadomo¶ci.
+	Serwisy bÄ™dÄ… teraz wysyÅ‚aÄ‡ do %s wiadomoÅ›ci.
 
 NICK_SASET_MSG_OFF
-	Serwisy bêd± teraz wysy³aæ do %s powiadomienia.
+	Serwisy bÄ™dÄ… teraz wysyÅ‚aÄ‡ do %s powiadomienia.
 
 # SASET NOEXPIRE responses
 NICK_SASET_NOEXPIRE_SYNTAX
 	SASET nick NOEXPIRE {ON | OFF}
 
 NICK_SASET_NOEXPIRE_ON
-	Nick %s nie wyga¶nie.
+	Nick %s nie wygaÅ›nie.
 
 NICK_SASET_NOEXPIRE_OFF
 	Nick %s od teraz podlega zasadom wygasania.
@@ -868,18 +868,18 @@ NICK_SASET_AUTOOP_SYNTAX
 	SASET nick AUTOOP {ON | OFF}
 
 NICK_SASET_AUTOOP_ON
-	Serwisy bêd± automatycznie nadawa³y uprawnienia dla u¿ytkownika %s.
+	Serwisy bÄ™dÄ… automatycznie nadawaÅ‚y uprawnienia dla uÅ¼ytkownika %s.
 
 NICK_SASET_AUTOOP_OFF
-	Serwisy nie bêd± ju¿ automatycznie nadawa³y uprawnieñ dla u¿ytkownika %s.
+	Serwisy nie bÄ™dÄ… juÅ¼ automatycznie nadawaÅ‚y uprawnieÅ„ dla uÅ¼ytkownika %s.
 
 # SASET LANGUAGE responses
 NICK_SASET_LANGUAGE_SYNTAX
 	SASET nick LANGUAGE numer
 
 NICK_SASET_LANGUAGE_UNKNOWN
-	Nieznany numer jêzyka %d.
-	Napisz %R%s HELP SET LANGUAGE, aby uzyskaæ listê dostêpnych jêzyków.
+	Nieznany numer jÄ™zyka %d.
+	Napisz %R%s HELP SET LANGUAGE, aby uzyskaÄ‡ listÄ™ dostÄ™pnych jÄ™zykÃ³w.
 
 NICK_SASET_LANGUAGE_CHANGED
 	Language for %s changed to %s.
@@ -889,31 +889,31 @@ NICK_ACCESS_SYNTAX
 	ACCESS {ADD | DEL | LIST} [maska]
 
 NICK_ACCESS_ALREADY_PRESENT
-	Maska %s jest ju¿ w Twojej li¶cie dostêpu.
+	Maska %s jest juÅ¼ w Twojej liÅ›cie dostÄ™pu.
 
 NICK_ACCESS_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisy(ów) na li¶cie dostêpu.
+	MoÅ¼esz mieÄ‡ tylko %d wpisy(Ã³w) na liÅ›cie dostÄ™pu.
 
 NICK_ACCESS_ADDED
-	%s dodano do Twojej listy dostêpu.
+	%s dodano do Twojej listy dostÄ™pu.
 
 NICK_ACCESS_NOT_FOUND
-	%s nie znaleziono na Twojej li¶cie dostêpu.
+	%s nie znaleziono na Twojej liÅ›cie dostÄ™pu.
 
 NICK_ACCESS_DELETED
-	%s usuniêto z Twojej listy dostêpu.
+	%s usuniÄ™to z Twojej listy dostÄ™pu.
 
 NICK_ACCESS_LIST
-	Lista dostêpu:
+	Lista dostÄ™pu:
 
 NICK_ACCESS_LIST_X
-	Lista dostêpu dla %s:
+	Lista dostÄ™pu dla %s:
 
 NICK_ACCESS_LIST_EMPTY
-	Twoja lista dostêpu jest pusta.
+	Twoja lista dostÄ™pu jest pusta.
 
 NICK_ACCESS_LIST_X_EMPTY
-	Lista dostêpu dla %s jest pusta.
+	Lista dostÄ™pu dla %s jest pusta.
 
 # Status messages
 NICK_STATUS_0
@@ -923,10 +923,10 @@ NICK_STATUS_1
 	STATUS %s 1 (nie jest zidentyfikowany)
 
 NICK_STATUS_2
-	STATUS %s 2 (identyfikacja list± dostêpu)
+	STATUS %s 2 (identyfikacja listÄ… dostÄ™pu)
 
 NICK_STATUS_3
-	STATUS %s 3 (identyfikacja has³em)
+	STATUS %s 3 (identyfikacja hasÅ‚em)
 
 # INFO responses
 NICK_INFO_SYNTAX
@@ -936,13 +936,13 @@ NICK_INFO_REALNAME
 	%s to %s
 
 NICK_INFO_SERVICES_OPER
-	%s jest operatorem serwisów.
+	%s jest operatorem serwisÃ³w.
 
 NICK_INFO_SERVICES_ADMIN
-	%s jest administratorem serwisów.
+	%s jest administratorem serwisÃ³w.
 
 NICK_INFO_SERVICES_ROOT
-	%s jest g³ównym administratorem serwisów.
+	%s jest gÅ‚Ã³wnym administratorem serwisÃ³w.
 
 NICK_INFO_ADDRESS
 	  Ostatni host: %s
@@ -1006,13 +1006,13 @@ NICK_INFO_OPT_NONE
 	Brak
 
 NICK_INFO_NO_EXPIRE
-	Ten nick nie wyga¶nie.
+	Ten nick nie wygaÅ›nie.
 
 NICK_INFO_FOR_MORE
-	Aby uzyskaæ wiêcej informacji napisz %R%s INFO %s ALL.
+	Aby uzyskaÄ‡ wiÄ™cej informacji napisz %R%s INFO %s ALL.
 
 NICK_INFO_SUSPENDED
-	Ten nick jest obecnie zawieszony, powód: %s
+	Ten nick jest obecnie zawieszony, powÃ³d: %s
 
 NICK_INFO_SUSPENDED_NO_REASON
 	Ten nick jest obecnie zawieszony
@@ -1025,22 +1025,22 @@ NICK_LIST_SERVADMIN_SYNTAX
 	LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 
 NICK_LIST_HEADER
-	Lista pasuj±cych wpisów %s:
+	Lista pasujÄ…cych wpisÃ³w %s:
 
 NICK_LIST_RESULTS
-	Koniec listy - %d/%d wpisów wy¶wietlono.
+	Koniec listy - %d/%d wpisÃ³w wyÅ›wietlono.
 
 # ALIST responses
 NICK_ALIST_SYNTAX
 	ALIST nick
 
 NICK_ALIST_HEADER
-	Kana³y, na których jeste¶ na li¶cie dostêpu:
-	  Nr   Kana³              Poziom    Opis
+	KanaÅ‚y, na ktÃ³rych jesteÅ› na liÅ›cie dostÄ™pu:
+	  Nr   KanaÅ‚              Poziom    Opis
 
 NICK_ALIST_HEADER_X
-	Kana³y, na których %s jest na li¶cie dostêpu:
-	  Nr   Kana³              Poziom    Opis
+	KanaÅ‚y, na ktÃ³rych %s jest na liÅ›cie dostÄ™pu:
+	  Nr   KanaÅ‚              Poziom    Opis
 
 NICK_ALIST_XOP_FORMAT
 	  %3d %c%-20s %-8s %s
@@ -1049,17 +1049,17 @@ NICK_ALIST_ACCESS_FORMAT
 	  %3d %c%-20s %-8d %s
 
 NICK_ALIST_FOOTER
-	Koniec listy - %d/%d kana³ów pokazano.
+	Koniec listy - %d/%d kanaÅ‚Ã³w pokazano.
 
 # GLIST responses
 NICK_GLIST_HEADER
-	Lista nicków w grupie:
+	Lista nickÃ³w w grupie:
 
 NICK_GLIST_HEADER_X
-	Lista nicków grupy %s:
+	Lista nickÃ³w grupy %s:
 
 NICK_GLIST_FOOTER
-	%d nicków w grupie.
+	%d nickÃ³w w grupie.
 
 NICK_GLIST_REPLY
 	   %c%s
@@ -1069,54 +1069,54 @@ NICK_GLIST_REPLY_ADMIN
 
 # RECOVER responses
 NICK_RECOVER_SYNTAX
-	RECOVER nick [has³o]
+	RECOVER nick [hasÅ‚o]
 
 NICK_NO_RECOVER_SELF
-	Nie mo¿esz odzyskaæ nicka, którego w³a¶nie u¿ywasz!
+	Nie moÅ¼esz odzyskaÄ‡ nicka, ktÃ³rego wÅ‚aÅ›nie uÅ¼ywasz!
 
 NICK_RECOVERED
-	Twój nick zosta³ w³a¶nie przejêty przez serwisy.
-	Napisz %R%s RELEASE %s, je¶li nie chcesz czekaæ %s sekund na jego automatyczne zwolnienie.
+	TwÃ³j nick zostaÅ‚ wÅ‚aÅ›nie przejÄ™ty przez serwisy.
+	Napisz %R%s RELEASE %s, jeÅ›li nie chcesz czekaÄ‡ %s sekund na jego automatyczne zwolnienie.
 
 # RELEASE responses
 NICK_RELEASE_SYNTAX
-	RELEASE nick [has³o]
+	RELEASE nick [hasÅ‚o]
 
 NICK_RELEASE_NOT_HELD
-	Nick %s nie jest zajêty przez serwisy.
+	Nick %s nie jest zajÄ™ty przez serwisy.
 
 NICK_RELEASED
-	Serwisy w³a¶nie zwolni³y twojego nicka.
+	Serwisy wÅ‚aÅ›nie zwolniÅ‚y twojego nicka.
 
 # GHOST responses
 NICK_GHOST_SYNTAX
-	GHOST nick [has³o]
+	GHOST nick [hasÅ‚o]
 
 NICK_NO_GHOST_SELF
-	Nie mo¿esz usun±æ samego siebie!
+	Nie moÅ¼esz usunÄ…Ä‡ samego siebie!
 
 NICK_GHOST_KILLED
-	Nick zosta³ usuniêty z sieci.
+	Nick zostaÅ‚ usuniÄ™ty z sieci.
 
 # GETPASS responses
 NICK_GETPASS_SYNTAX
 	GETPASS nick
 
 NICK_GETPASS_UNAVAILABLE
-	Komenda GETPASS nie dzia³a, bo has³a s± szyfrowane.
+	Komenda GETPASS nie dziaÅ‚a, bo hasÅ‚a sÄ… szyfrowane.
 
 NICK_GETPASS_PASSWORD_IS
-	Has³o dla %s to %s.
+	HasÅ‚o dla %s to %s.
 
 # GETEMAIL responses
 NICK_GETEMAIL_SYNTAX
 	GETEMAIL user@email-host Bez symboli wieloznacznych!
 
 NICK_GETEMAIL_EMAILS_ARE
-	Adresy e-mail %s pasuj±ce do %s.
+	Adresy e-mail %s pasujÄ…ce do %s.
 
 NICK_GETEMAIL_NOT_USED
-	Nie ma u¿ytkowników z adresem e-mail %s.
+	Nie ma uÅ¼ytkownikÃ³w z adresem e-mail %s.
 	
 
 # SENDPASS responses
@@ -1124,90 +1124,90 @@ NICK_SENDPASS_SYNTAX
 	SENDPASS nick
 
 NICK_SENDPASS_UNAVAILABLE
-	Komenda SENDPASS nie dzia³a, bo has³a s± szyfrowane.
+	Komenda SENDPASS nie dziaÅ‚a, bo hasÅ‚a sÄ… szyfrowane.
 
 NICK_SENDPASS_SUBJECT
-	Has³o do nicka %s
+	HasÅ‚o do nicka %s
 
 NICK_SENDPASS_HEAD
 	Witaj!
 
 NICK_SENDPASS_LINE_1
-	Za¿±da³e¶(a¶) wys³ania has³a do nicka %s na e-mail.
+	ZaÅ¼Ä…daÅ‚eÅ›(aÅ›) wysÅ‚ania hasÅ‚a do nicka %s na e-mail.
 
 NICK_SENDPASS_LINE_2
-	Twoje has³o to: %s
-	Dla w³asnego bezpieczeñstwa nale¿y to has³o natychmiast zmieniæ na inne.
+	Twoje hasÅ‚o to: %s
+	Dla wÅ‚asnego bezpieczeÅ„stwa naleÅ¼y to hasÅ‚o natychmiast zmieniÄ‡ na inne.
 
 NICK_SENDPASS_LINE_3
-	Je¶li nie wiesz dlaczego ta wiadomo¶æ dotar³a do Ciebie zignoruj j±. Je¶li ta sytuacja bêdzie siê powtarzaæ skontaktuj siê z administratorem sieci.
+	JeÅ›li nie wiesz dlaczego ta wiadomoÅ›Ä‡ dotarÅ‚a do Ciebie zignoruj jÄ…. JeÅ›li ta sytuacja bÄ™dzie siÄ™ powtarzaÄ‡ skontaktuj siÄ™ z administratorem sieci.
 
 NICK_SENDPASS_LINE_4
-	PROSZÊ NIE ODPOWIADAÆ NA T¡ WIADOMO¦Æ!
+	PROSZÄ˜ NIE ODPOWIADAÄ† NA TÄ„ WIADOMOÅšÄ†!
 
 NICK_SENDPASS_LINE_5
 	Administratorzy sieci %s.
 
 NICK_SENDPASS_OK
-	Has³o do nicka %s zosta³o wys³ane.
+	HasÅ‚o do nicka %s zostaÅ‚o wysÅ‚ane.
 
 # SUSPEND responses
 NICK_SUSPEND_SYNTAX
-	SUSPEND nick powód
+	SUSPEND nick powÃ³d
 
 NICK_SUSPEND_SUCCEEDED
-	Nick %s zosta³ zawieszony.
+	Nick %s zostaÅ‚ zawieszony.
 
 NICK_SUSPEND_FAILED
-	Zawieszenie nicka %s nie powiod³o siê!
+	Zawieszenie nicka %s nie powiodÅ‚o siÄ™!
 
 # UNSUSPEND responses
 NICK_UNSUSPEND_SYNTAX
 	UNSUSPEND nick
 
 NICK_UNSUSPEND_SUCCEEDED
-	Nick %s zosta³ uwolniony.
+	Nick %s zostaÅ‚ uwolniony.
 
 NICK_UNSUSPEND_FAILED
-	Nie mogê uwolniæ nicka %s!
+	Nie mogÄ™ uwolniÄ‡ nicka %s!
 
 # FORBID responses
 NICK_FORBID_SYNTAX
-	FORBID nick [powód]
+	FORBID nick [powÃ³d]
 
 NICK_FORBID_SYNTAX_REASON
-	FORBID nick powód
+	FORBID nick powÃ³d
 
 NICK_FORBID_SUCCEEDED
-	Nick %s zosta³ zablokowany.
+	Nick %s zostaÅ‚ zablokowany.
 
 NICK_FORBID_FAILED
-	Nie mogê zablokowaæ nicka %s!
+	Nie mogÄ™ zablokowaÄ‡ nicka %s!
 
 # Nick Registraion responses
 NICK_REQUESTED
-	Ten nick zosta³ ju¿ zarejestrowany. Sprawd¼ swoj± pocztê.
+	Ten nick zostaÅ‚ juÅ¼ zarejestrowany. SprawdÅº swojÄ… pocztÄ™.
 
 NICK_REG_RESENT
-	Twój kod rejestracyjny zosta³ ponownie wys³any na %s.
+	TwÃ³j kod rejestracyjny zostaÅ‚ ponownie wysÅ‚any na %s.
 
 NICK_REG_UNABLE
-	Nick nie zosta³ zarejestrowany. Proszê spróbowaæ pó¼niej.
+	Nick nie zostaÅ‚ zarejestrowany. ProszÄ™ sprÃ³bowaÄ‡ pÃ³Åºniej.
 
 NICK_IS_PREREG
-	Ten nick czeka na e-mail z kodem weryfikacyjnym przed zakoñczeniem rejestracji.
+	Ten nick czeka na e-mail z kodem weryfikacyjnym przed zakoÅ„czeniem rejestracji.
 
 NICK_ENTER_REG_CODE
-	Kod zosta³ wys³any na adres %s.
-	Napisz %R%s CONFIRM <kod>, aby dokoñczyæ procedurê rejestracji.
+	Kod zostaÅ‚ wysÅ‚any na adres %s.
+	Napisz %R%s CONFIRM <kod>, aby dokoÅ„czyÄ‡ procedurÄ™ rejestracji.
 
 NICK_CONFIRM_NOT_FOUND
-	Termin wa¿no¶ci kodu rejestracyjnego up³yn±³.
-	Napisz: %R%s REGISTER <has³o> <email>,
-	aby znowu zacz±æ rejestracje.
+	Termin waÅ¼noÅ›ci kodu rejestracyjnego upÅ‚ynÄ…Å‚.
+	Napisz: %R%s REGISTER <hasÅ‚o> <email>,
+	aby znowu zaczÄ…Ä‡ rejestracje.
 
 NICK_CONFIRM_INVALID
-	Podano nieprawid³owy kod, sprawd¼ wiadomo¶æ e-mail i spróbowaæ ponownie.
+	Podano nieprawidÅ‚owy kod, sprawdÅº wiadomoÅ›Ä‡ e-mail i sprÃ³bowaÄ‡ ponownie.
 
 NICK_REG_MAIL_SUBJECT
 	Rejestracja nicka %s
@@ -1216,15 +1216,15 @@ NICK_REG_MAIL_HEAD
 	Witaj!
 
 NICK_REG_MAIL_LINE_1
-	Chcesz zarejestrowaæ nastêpuj±cy nick: %s.
+	Chcesz zarejestrowaÄ‡ nastÄ™pujÄ…cy nick: %s.
 
 NICK_REG_MAIL_LINE_2
-	Proszê napisaæ %R%s CONFIRM %s aby dokoñczyæ rejestracjê.
+	ProszÄ™ napisaÄ‡ %R%s CONFIRM %s aby dokoÅ„czyÄ‡ rejestracjÄ™.
 
 NICK_REG_MAIL_LINE_3
-	Je¶li nie wiesz dlaczego ta wiadomo¶æ dotar³a do Ciebie zignoruj j±. Je¶li sytuacja bêdzie siê powtarzaæ skontaktuj siê z administratorem sieci.
+	JeÅ›li nie wiesz dlaczego ta wiadomoÅ›Ä‡ dotarÅ‚a do Ciebie zignoruj jÄ…. JeÅ›li sytuacja bÄ™dzie siÄ™ powtarzaÄ‡ skontaktuj siÄ™ z administratorem sieci.
 NICK_REG_MAIL_LINE_4
-	PROSZÊ NIE ODPOWIADAÆ NA T¡ WIADOMO¦Æ!
+	PROSZÄ˜ NIE ODPOWIADAÄ† NA TÄ„ WIADOMOÅšÄ†!
 
 NICK_REG_MAIL_LINE_5
 	Administratorzy sieci %s.
@@ -1245,10 +1245,10 @@ CHAN_LEVEL_AUTOOP
 	Automatyczne nadawanie statusu operatora (+o)
 
 CHAN_LEVEL_AUTOVOICE
-	Automatyczne nadawanie prawa g³osu (+v)
+	Automatyczne nadawanie prawa gÅ‚osu (+v)
 
 CHAN_LEVEL_AUTOHALFOP
-	Automatyczne nadawanie statusu pó³-operatora (+h)
+	Automatyczne nadawanie statusu pÃ³Å‚-operatora (+h)
 
 CHAN_LEVEL_AUTOPROTECT
 	Automatyczne nadawanie ochrony (+a)
@@ -1257,664 +1257,664 @@ CHAN_LEVEL_AUTODEOP
 	Automatyczne odbieranie statusu operatora (-o)
 
 CHAN_LEVEL_NOJOIN
-	Nie pozwala wej¶æ na kana³ w trybie RESTRICTED
+	Nie pozwala wejÅ›Ä‡ na kanaÅ‚ w trybie RESTRICTED
 
 CHAN_LEVEL_INVITE
-	Pozwala u¿ywaæ komendy INVITE
+	Pozwala uÅ¼ywaÄ‡ komendy INVITE
 
 CHAN_LEVEL_AKICK
-	Pozwala u¿ywaæ komendy AKICK
+	Pozwala uÅ¼ywaÄ‡ komendy AKICK
 
 CHAN_LEVEL_SET
-	Pozwala modyfikowaæ ustawienia kana³u
+	Pozwala modyfikowaÄ‡ ustawienia kanaÅ‚u
 
 CHAN_LEVEL_CLEAR
-	Pozwala u¿ywaæ komendy CLEAR
+	Pozwala uÅ¼ywaÄ‡ komendy CLEAR
 
 CHAN_LEVEL_UNBAN
-	Pozwala u¿ywaæ komendy UNBAN
+	Pozwala uÅ¼ywaÄ‡ komendy UNBAN
 
 CHAN_LEVEL_OPDEOP
-	Pozwala u¿ywaæ komend OP i DEOP na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komend OP i DEOP na innych osobach
 
 CHAN_LEVEL_ACCESS_LIST
-	Pozwala przegl±daæ listê dostêpu
+	Pozwala przeglÄ…daÄ‡ listÄ™ dostÄ™pu
 
 CHAN_LEVEL_ACCESS_CHANGE
-	Pozwala modyfikowaæ listê dostêpu
+	Pozwala modyfikowaÄ‡ listÄ™ dostÄ™pu
 
 CHAN_LEVEL_MEMO
-	Pozwala listowaæ i czytaæ kana³owe wiadomo¶ci
+	Pozwala listowaÄ‡ i czytaÄ‡ kanaÅ‚owe wiadomoÅ›ci
 
 CHAN_LEVEL_ASSIGN
-	Pozwala przydzielaæ i usuwaæ bota
+	Pozwala przydzielaÄ‡ i usuwaÄ‡ bota
 
 CHAN_LEVEL_BADWORDS
-	Pozwala u¿ywaæ komendy BADWORDS
+	Pozwala uÅ¼ywaÄ‡ komendy BADWORDS
 
 CHAN_LEVEL_NOKICK
-	Ochrona przed kopaniem za pomoc± komendy KICK
+	Ochrona przed kopaniem za pomocÄ… komendy KICK
 
 CHAN_LEVEL_FANTASIA
-	Pozwala u¿ywaæ publicznych komend FANTASY
+	Pozwala uÅ¼ywaÄ‡ publicznych komend FANTASY
 
 CHAN_LEVEL_SAY
-	Pozwala u¿ywaæ komend SAY i ACT
+	Pozwala uÅ¼ywaÄ‡ komend SAY i ACT
 
 CHAN_LEVEL_GREET
-	Wy¶wietla wiadomo¶æ powitaln± (greet)
+	WyÅ›wietla wiadomoÅ›Ä‡ powitalnÄ… (greet)
 
 CHAN_LEVEL_VOICEME
-	Pozwala u¿ywaæ komend VOICE i DEVOICE na sobie
+	Pozwala uÅ¼ywaÄ‡ komend VOICE i DEVOICE na sobie
 
 CHAN_LEVEL_VOICE
-	Pozwala u¿ywaæ komend VOICE i DEVOICE na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komend VOICE i DEVOICE na innych osobach
 
 CHAN_LEVEL_GETKEY
-	Pozwala u¿ywaæ komendy GETKEY
+	Pozwala uÅ¼ywaÄ‡ komendy GETKEY
 
 CHAN_LEVEL_OPDEOPME
-	Pozwala u¿ywaæ komend OP i DEOP na sobie
+	Pozwala uÅ¼ywaÄ‡ komend OP i DEOP na sobie
 
 CHAN_LEVEL_HALFOPME
-	Pozwala u¿ywaæ komend HALFOP i DEHALFOP na sobie
+	Pozwala uÅ¼ywaÄ‡ komend HALFOP i DEHALFOP na sobie
 
 CHAN_LEVEL_HALFOP
-	Pozwala u¿ywaæ komend HALFOP i DEHALFOP na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komend HALFOP i DEHALFOP na innych osobach
 
 CHAN_LEVEL_PROTECTME
-	Pozwala u¿ywaæ komend PROTECT i DEPROTECT na sobie
+	Pozwala uÅ¼ywaÄ‡ komend PROTECT i DEPROTECT na sobie
 
 CHAN_LEVEL_PROTECT
-	Pozwala u¿ywaæ komend PROTECT i DEPROTECT na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komend PROTECT i DEPROTECT na innych osobach
 
 CHAN_LEVEL_KICKME
-	Pozwala u¿ywaæ komendy KICK na sobie
+	Pozwala uÅ¼ywaÄ‡ komendy KICK na sobie
 
 CHAN_LEVEL_KICK
-	Pozwala u¿ywaæ komendy KICK na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komendy KICK na innych osobach
 
 CHAN_LEVEL_SIGNKICK
-	Nie podpisze kicka, gdy SIGNKICK LEVEL jest u¿ywany
+	Nie podpisze kicka, gdy SIGNKICK LEVEL jest uÅ¼ywany
 
 CHAN_LEVEL_BANME
-	Pozwala u¿ywaæ komendy BAN na sobie
+	Pozwala uÅ¼ywaÄ‡ komendy BAN na sobie
 
 CHAN_LEVEL_BAN
-	Pozwala u¿ywaæ komendy BAN na innych osobach
+	Pozwala uÅ¼ywaÄ‡ komendy BAN na innych osobach
 
 CHAN_LEVEL_TOPIC
-	Pozwala u¿ywaæ komendy TOPIC
+	Pozwala uÅ¼ywaÄ‡ komendy TOPIC
 
 CHAN_LEVEL_INFO
-	Pozwala u¿ywaæ opcji ALL w komendzie INFO
+	Pozwala uÅ¼ywaÄ‡ opcji ALL w komendzie INFO
 
 # Automatic responses
 CHAN_IS_REGISTERED
-	Ten kana³ zosta³ zarejestrowany z %s.
+	Ten kanaÅ‚ zostaÅ‚ zarejestrowany z %s.
 
 CHAN_NOT_ALLOWED_OP
-	Nie masz uprawnieñ do statusu operatora na kanale %s.
+	Nie masz uprawnieÅ„ do statusu operatora na kanale %s.
 
 CHAN_MAY_NOT_BE_USED
-	Ten kana³ nie mo¿e byæ u¿ywany.
+	Ten kanaÅ‚ nie moÅ¼e byÄ‡ uÅ¼ywany.
 
 CHAN_NOT_ALLOWED_TO_JOIN
-	Nie masz pozwolenia, aby przebywaæ na tym kanale.
+	Nie masz pozwolenia, aby przebywaÄ‡ na tym kanale.
 
 CHAN_X_INVALID
-	%s nie jest prawid³owym kana³em.
+	%s nie jest prawidÅ‚owym kanaÅ‚em.
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
-	REGISTER kana³ has³o opis
+	REGISTER kanaÅ‚ hasÅ‚o opis
 
 CHAN_REGISTER_DISABLED
-	Rejestracja kana³ów jest tymczasowo wy³±czona.
+	Rejestracja kanaÅ‚Ã³w jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_REGISTER_NOT_LOCAL
-	Lokalne kana³y nie mog± byæ rejestrowane.
+	Lokalne kanaÅ‚y nie mogÄ… byÄ‡ rejestrowane.
 
 CHAN_MUST_REGISTER_NICK
-	Musisz mieæ zarejestrowany nick. Napisz %R%s HELP, aby uzyskaæ	wiêcej informacji.
+	Musisz mieÄ‡ zarejestrowany nick. Napisz %R%s HELP, aby uzyskaÄ‡	wiÄ™cej informacji.
 
 CHAN_MUST_IDENTIFY_NICK
-	Zidentyfikuj siê najpierw u %s komend±:
-	%R%s IDENTIFY has³o
+	Zidentyfikuj siÄ™ najpierw u %s komendÄ…:
+	%R%s IDENTIFY hasÅ‚o
 
 CHAN_MAY_NOT_BE_REGISTERED
-	Kana³u %s nie mo¿na rejestrowaæ.
+	KanaÅ‚u %s nie moÅ¼na rejestrowaÄ‡.
 
 CHAN_ALREADY_REGISTERED
-	Kana³ %s jest ju¿ zarejestrowany!
+	KanaÅ‚ %s jest juÅ¼ zarejestrowany!
 
 CHAN_MUST_BE_CHANOP
-	Aby zarejestrowaæ kana³ musisz byæ jego operatorem.
+	Aby zarejestrowaÄ‡ kanaÅ‚ musisz byÄ‡ jego operatorem.
 
 CHAN_REACHED_CHANNEL_LIMIT
-	B³±d, ju¿ masz osi±gniêty limit %d kana³ów.
+	BÅ‚Ä…d, juÅ¼ masz osiÄ…gniÄ™ty limit %d kanaÅ‚Ã³w.
 
 CHAN_EXCEEDED_CHANNEL_LIMIT
-	B³±d, ju¿ masz przekroczony limit %d kana³ów.
+	BÅ‚Ä…d, juÅ¼ masz przekroczony limit %d kanaÅ‚Ã³w.
 
 CHAN_REGISTRATION_FAILED
-	Rejestracja nie powiod³a siê.
+	Rejestracja nie powiodÅ‚a siÄ™.
 
 CHAN_REGISTERED
-	Kana³ %s zosta³ teraz zarejestrowany.
-	Jako %s jeste¶ od teraz jego w³a¶cicielem.
+	KanaÅ‚ %s zostaÅ‚ teraz zarejestrowany.
+	Jako %s jesteÅ› od teraz jego wÅ‚aÅ›cicielem.
 
 CHAN_PASSWORD_IS
-	Has³o do Twojego kana³u to %s
+	HasÅ‚o do Twojego kanaÅ‚u to %s
 
 CHAN_REGISTER_NONE_CHANNEL
-	Próbujesz rejestrowaæ nieistniej±cy kana³ %s
+	PrÃ³bujesz rejestrowaÄ‡ nieistniejÄ…cy kanaÅ‚ %s
 
 CHAN_SYMBOL_REQUIRED
-	U¿yj symboli # lub & podczas rejestracji
+	UÅ¼yj symboli # lub & podczas rejestracji
 
 # IDENTIFY responses
 CHAN_IDENTIFY_SYNTAX
-	IDENTIFY kana³ has³o
+	IDENTIFY kanaÅ‚ hasÅ‚o
 
 CHAN_IDENTIFY_FAILED
-	Identyfikacja nie powiod³a siê.
+	Identyfikacja nie powiodÅ‚a siÄ™.
 
 CHAN_IDENTIFY_SUCCEEDED
-	Has³o przyjête - masz uprawnienia w³a¶ciciela kana³u %s.
+	HasÅ‚o przyjÄ™te - masz uprawnienia wÅ‚aÅ›ciciela kanaÅ‚u %s.
 
 # LOGOUT responses
 CHAN_LOGOUT_SYNTAX
-	LOGOUT kana³ nick
+	LOGOUT kanaÅ‚ nick
 
 CHAN_LOGOUT_SERVADMIN_SYNTAX
-	LOGOUT kana³ [nick]
+	LOGOUT kanaÅ‚ [nick]
 
 CHAN_LOGOUT_SUCCEEDED
-	U¿ytkownik %s zosta³ wylogowany z kana³u %s.
+	UÅ¼ytkownik %s zostaÅ‚ wylogowany z kanaÅ‚u %s.
 CHAN_LOGOUT_ALL_SUCCEEDED
-	Wylogowano zidentyfikowanych u¿ytkowników z kana³u %s (bez w³a¶ciciela).
+	Wylogowano zidentyfikowanych uÅ¼ytkownikÃ³w z kanaÅ‚u %s (bez wÅ‚aÅ›ciciela).
 CHAN_LOGOUT_FOUNDER_FAILED
-	Nie mo¿esz siê wylogowaæ z %s (jeste¶ w³a¶cicielem).
+	Nie moÅ¼esz siÄ™ wylogowaÄ‡ z %s (jesteÅ› wÅ‚aÅ›cicielem).
 
 # DROP responses
 CHAN_DROP_SYNTAX
-	DROP kana³
+	DROP kanaÅ‚
 
 CHAN_DROP_DISABLED
-	Usuwanie kana³ów jest tymczasowo wy³±czone.
+	Usuwanie kanaÅ‚Ã³w jest tymczasowo wyÅ‚Ä…czone.
 
 CHAN_DROPPED
-	Kana³ %s zosta³ odrejestrowany.
+	KanaÅ‚ %s zostaÅ‚ odrejestrowany.
 
 # SET responses
 CHAN_SET_SYNTAX
-	SET kana³ opcja parametry
+	SET kanaÅ‚ opcja parametry
 
 CHAN_SET_DISABLED
-	Modyfikacja ustawieñ kana³u jest tymczasowo wy³±czona.
+	Modyfikacja ustawieÅ„ kanaÅ‚u jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_SET_UNKNOWN_OPTION
 	Nieznana opcja komendy SET: %s.
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
-	%s posiada za du¿o zarejestrowanych kana³ów.
+	%s posiada za duÅ¼o zarejestrowanych kanaÅ‚Ã³w.
 
 CHAN_FOUNDER_CHANGED
-	W³a¶cicielem kana³u %s jest teraz %s.
+	WÅ‚aÅ›cicielem kanaÅ‚u %s jest teraz %s.
 
 # SET SUCCESSOR responses
 CHAN_SUCCESSOR_CHANGED
-	Zastêpcê dla kana³u %s zmieniono na %s.
+	ZastÄ™pcÄ™ dla kanaÅ‚u %s zmieniono na %s.
 
 CHAN_SUCCESSOR_UNSET
-	Zastêpcê dla kana³u %s usuniêto.
+	ZastÄ™pcÄ™ dla kanaÅ‚u %s usuniÄ™to.
 
 CHAN_SUCCESSOR_IS_FOUNDER
-	%s nie mo¿e byæ zastêpc± na kanale %s, poniewa¿ jest jego w³a¶cicielem.
+	%s nie moÅ¼e byÄ‡ zastÄ™pcÄ… na kanale %s, poniewaÅ¼ jest jego wÅ‚aÅ›cicielem.
 
 # SET PASSWORD responses
 CHAN_SET_PASSWORD_FAILED
-	Zmiana has³a nie powiod³a siê.
+	Zmiana hasÅ‚a nie powiodÅ‚a siÄ™.
 
 CHAN_PASSWORD_CHANGED
-	Has³o do kana³u %s zosta³o zmienione.
+	HasÅ‚o do kanaÅ‚u %s zostaÅ‚o zmienione.
 
 CHAN_PASSWORD_CHANGED_TO
-	Has³o do kana³u %s zosta³o zmienione na %s.
+	HasÅ‚o do kanaÅ‚u %s zostaÅ‚o zmienione na %s.
 
 # SET DESC responses
 CHAN_DESC_CHANGED
-	Opis kana³u %s zosta³ zmieniony na %s.
+	Opis kanaÅ‚u %s zostaÅ‚ zmieniony na %s.
 
 # SET URL responses
 CHAN_URL_CHANGED
-	Adres www dla kana³u %s zosta³ zmieniony na %s.
+	Adres www dla kanaÅ‚u %s zostaÅ‚ zmieniony na %s.
 
 CHAN_URL_UNSET
-	Adres www dla kana³u %s zosta³ usuniêty.
+	Adres www dla kanaÅ‚u %s zostaÅ‚ usuniÄ™ty.
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
-	Adres e-mail kana³u %s zosta³ zmieniony na %s.
+	Adres e-mail kanaÅ‚u %s zostaÅ‚ zmieniony na %s.
 
 CHAN_EMAIL_UNSET
-	Adres e-mail kana³u %s zosta³ usuniêty.
+	Adres e-mail kanaÅ‚u %s zostaÅ‚ usuniÄ™ty.
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
-	Wiadomo¶æ powitalna kana³u %s zosta³a zmieniona.
+	WiadomoÅ›Ä‡ powitalna kanaÅ‚u %s zostaÅ‚a zmieniona.
 
 CHAN_ENTRY_MSG_UNSET
-	Wiadomo¶æ powitalna kana³u %s zosta³a usuniêta.
+	WiadomoÅ›Ä‡ powitalna kanaÅ‚u %s zostaÅ‚a usuniÄ™ta.
 	
 
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
-	%s nie jest prawid³owym rodzajem bana.
+	%s nie jest prawidÅ‚owym rodzajem bana.
 
 CHAN_SET_BANTYPE_CHANGED
-	Rodzajem bana dla kana³u %s jest teraz #%d.
+	Rodzajem bana dla kanaÅ‚u %s jest teraz #%d.
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
 	Nieznany flaga %c zostaje zignorowana.
 
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
-	Flaga %c zosta³a zignorowana, bo nie mo¿na jej blokowaæ.
+	Flaga %c zostaÅ‚a zignorowana, bo nie moÅ¼na jej blokowaÄ‡.
 
 CHAN_SET_MLOCK_L_REQUIRED
-	Musisz za³o¿yæ +l zanim za³o¿ysz +L.
+	Musisz zaÅ‚oÅ¼yÄ‡ +l zanim zaÅ‚oÅ¼ysz +L.
 
 CHAN_SET_MLOCK_K_REQUIRED
-	Musisz za³o¿yæ +i równie¿, aby móc za³o¿yæ +K.
+	Musisz zaÅ‚oÅ¼yÄ‡ +i rÃ³wnieÅ¼, aby mÃ³c zaÅ‚oÅ¼yÄ‡ +K.
 
 CHAN_MLOCK_CHANGED
-	Blokada trybów kana³u %s zosta³a zmieniona na: %s
+	Blokada trybÃ³w kanaÅ‚u %s zostaÅ‚a zmieniona na: %s
 
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
-	SET kana³ KEEPTOPIC {ON | OFF}
+	SET kanaÅ‚ KEEPTOPIC {ON | OFF}
 
 CHAN_SET_KEEPTOPIC_ON
-	Temat kana³u %s bêdzie teraz utrzymywany.
+	Temat kanaÅ‚u %s bÄ™dzie teraz utrzymywany.
 
 CHAN_SET_KEEPTOPIC_OFF
-	Temat kana³u %s nie bêdzie ju¿ utrzymywany.
+	Temat kanaÅ‚u %s nie bÄ™dzie juÅ¼ utrzymywany.
 
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
-	SET kana³ TOPICLOCK {ON | OFF}
+	SET kanaÅ‚ TOPICLOCK {ON | OFF}
 
 CHAN_SET_TOPICLOCK_ON
-	Blokada tematu na kanale %s zosta³a w³±czona.
+	Blokada tematu na kanale %s zostaÅ‚a wÅ‚Ä…czona.
 
 CHAN_SET_TOPICLOCK_OFF
-	Blokada tematu na kanale %s zosta³a wy³±czona.
+	Blokada tematu na kanale %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET PEACE responses
 CHAN_SET_PEACE_SYNTAX
-	SET kana³ PEACE {ON | OFF}
+	SET kanaÅ‚ PEACE {ON | OFF}
 
 CHAN_SET_PEACE_ON
-	Opcja PEACE dla kana³u %s zosta³a w³±czona.
+	Opcja PEACE dla kanaÅ‚u %s zostaÅ‚a wÅ‚Ä…czona.
 
 CHAN_SET_PEACE_OFF
-	Opcja PEACE dla kana³u %s zosta³a wy³±czona.
+	Opcja PEACE dla kanaÅ‚u %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET PRIVATE responses
 CHAN_SET_PRIVATE_SYNTAX
-	SET kana³ PRIVATE {ON | OFF}
+	SET kanaÅ‚ PRIVATE {ON | OFF}
 
 CHAN_SET_PRIVATE_ON
-	Opcja PRIVATE dla kana³u %s zosta³a w³±czona.
+	Opcja PRIVATE dla kanaÅ‚u %s zostaÅ‚a wÅ‚Ä…czona.
 
 CHAN_SET_PRIVATE_OFF
-	Opcja PRIVATE dla kana³u %s zosta³a wy³±czona.
+	Opcja PRIVATE dla kanaÅ‚u %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
-	SET kana³ SECUREOPS {ON | OFF}
+	SET kanaÅ‚ SECUREOPS {ON | OFF}
 
 CHAN_SET_SECUREOPS_ON
-	Status operatora kana³u %s bêdzie teraz chroniony.
+	Status operatora kanaÅ‚u %s bÄ™dzie teraz chroniony.
 
 CHAN_SET_SECUREOPS_OFF
-	Status operatora kana³u %s nie bêdzie ju¿ chroniony.
+	Status operatora kanaÅ‚u %s nie bÄ™dzie juÅ¼ chroniony.
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
-	SET kana³ SECUREFOUNDER {ON | OFF}
+	SET kanaÅ‚ SECUREFOUNDER {ON | OFF}
 
 CHAN_SET_SECUREFOUNDER_ON
-	Status w³a¶ciciela kana³u %s bêdzie teraz chroniony.
+	Status wÅ‚aÅ›ciciela kanaÅ‚u %s bÄ™dzie teraz chroniony.
 
 CHAN_SET_SECUREFOUNDER_OFF
-	Status w³a¶ciciela kana³u %s nie bêdzie ju¿ chroniony.
+	Status wÅ‚aÅ›ciciela kanaÅ‚u %s nie bÄ™dzie juÅ¼ chroniony.
 
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
-	SET kana³ RESTRICTED {ON | OFF}
+	SET kanaÅ‚ RESTRICTED {ON | OFF}
 
 CHAN_SET_RESTRICTED_ON
-	Dostêp do kana³u %s jest teraz ograniczony.
+	DostÄ™p do kanaÅ‚u %s jest teraz ograniczony.
 
 CHAN_SET_RESTRICTED_OFF
-	Dostêp do kana³u %s nie jest ju¿ ograniczony.
+	DostÄ™p do kanaÅ‚u %s nie jest juÅ¼ ograniczony.
 
 # SET SECURE responses
 CHAN_SET_SECURE_SYNTAX
-	SET kana³ SECURE {ON | OFF}
+	SET kanaÅ‚ SECURE {ON | OFF}
 
 CHAN_SET_SECURE_ON
-	Opcja bezpieczeñstwa dla kana³u %s zosta³a w³±czona.
+	Opcja bezpieczeÅ„stwa dla kanaÅ‚u %s zostaÅ‚a wÅ‚Ä…czona.
 
 CHAN_SET_SECURE_OFF
-	Opcja bezpieczeñstwa dla kana³u %s zosta³a wy³±czona.
+	Opcja bezpieczeÅ„stwa dla kanaÅ‚u %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET SIGNKICK responses
 CHAN_SET_SIGNKICK_SYNTAX
-	SET kana³ SIGNKICK {ON | LEVEL | OFF}
+	SET kanaÅ‚ SIGNKICK {ON | LEVEL | OFF}
 
 CHAN_SET_SIGNKICK_ON
-	Podpisywanie komendy KICK na kanale %s zosta³o w³±czone.
+	Podpisywanie komendy KICK na kanale %s zostaÅ‚o wÅ‚Ä…czone.
 
 CHAN_SET_SIGNKICK_LEVEL
-	Podpisywanie komendy KICK na kanale %s zosta³o w³±czone, ale
-	bêdzie zale¿a³o od poziomu dostêpu jaki posiada u¿ytkownik.
+	Podpisywanie komendy KICK na kanale %s zostaÅ‚o wÅ‚Ä…czone, ale
+	bÄ™dzie zaleÅ¼aÅ‚o od poziomu dostÄ™pu jaki posiada uÅ¼ytkownik.
 
 CHAN_SET_SIGNKICK_OFF
-	Podpisywanie komendy KICK na kanale %s zosta³o wy³±czone.
+	Podpisywanie komendy KICK na kanale %s zostaÅ‚o wyÅ‚Ä…czone.
 
 # SET OPNOTICE responses
 CHAN_SET_OPNOTICE_SYNTAX
-	SET kana³ OPNOTICE {ON | OFF}
+	SET kanaÅ‚ OPNOTICE {ON | OFF}
 
 CHAN_SET_OPNOTICE_ON
-	Opcja OPNOTICE dla kana³u %s zosta³a w³±czona.
+	Opcja OPNOTICE dla kanaÅ‚u %s zostaÅ‚a wÅ‚Ä…czona.
 
 CHAN_SET_OPNOTICE_OFF
-	Opcja OPNOTICE dla kana³u %s zosta³a wy³±czona.
+	Opcja OPNOTICE dla kanaÅ‚u %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET XOP responses
 CHAN_SET_XOP_SYNTAX
-	SET kana³ XOP {ON | OFF}
+	SET kanaÅ‚ XOP {ON | OFF}
 
 CHAN_SET_XOP_ON
-	System list xOP na kanale %s zosta³ w³±czony.
+	System list xOP na kanale %s zostaÅ‚ wÅ‚Ä…czony.
 
 CHAN_SET_XOP_OFF
-	System list xOP na kanale %s zosta³ wy³±czony.
+	System list xOP na kanale %s zostaÅ‚ wyÅ‚Ä…czony.
 
 # SET NOEXPIRE responses
 CHAN_SET_NOEXPIRE_SYNTAX
-	SET kana³ NOEXPIRE {ON | OFF}
+	SET kanaÅ‚ NOEXPIRE {ON | OFF}
 
 CHAN_SET_NOEXPIRE_ON
-	Kana³ %s nie wyga¶nie.
+	KanaÅ‚ %s nie wygaÅ›nie.
 
 CHAN_SET_NOEXPIRE_OFF
-	Kana³ %s od teraz podlega prawu wygasania.
+	KanaÅ‚ %s od teraz podlega prawu wygasania.
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na listach xOP.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na listach xOP.
 
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 
 CHAN_XOP_ACCESS
-	Nie mo¿esz u¿yæ tej komendy. U¿yj komendy ACCESS.
-	Napisz %R%s HELP ACCESS, aby uzyskaæ wiêcej informacji.
+	Nie moÅ¼esz uÅ¼yÄ‡ tej komendy. UÅ¼yj komendy ACCESS.
+	Napisz %R%s HELP ACCESS, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 CHAN_XOP_NOT_AVAILABLE
-	System xOP nie jest dostêpny.
+	System xOP nie jest dostÄ™pny.
 
 # AOP messages
 CHAN_AOP_SYNTAX
-	AOP kana³ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
+	AOP kanaÅ‚ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 CHAN_AOP_DISABLED
-	Modyfikacja listy AOP jest tymczasowo wy³±czona.
+	Modyfikacja listy AOP jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_AOP_NICKS_ONLY
-	Kana³owa lista AOP mo¿e zawieraæ jedynie zarejestrowane nicki.
+	KanaÅ‚owa lista AOP moÅ¼e zawieraÄ‡ jedynie zarejestrowane nicki.
 
 CHAN_AOP_ADDED
-	%s dodano do listy AOP kana³u %s.
+	%s dodano do listy AOP kanaÅ‚u %s.
 
 CHAN_AOP_MOVED
-	%s przeniesiono do listy AOP kana³u %s.
+	%s przeniesiono do listy AOP kanaÅ‚u %s.
 
 CHAN_AOP_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie AOP kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie AOP kanaÅ‚u %s.
 
 CHAN_AOP_NOT_FOUND
-	%s nie znaleziono na li¶cie AOP kana³u %s.
+	%s nie znaleziono na liÅ›cie AOP kanaÅ‚u %s.
 
 CHAN_AOP_NO_MATCH
-	Nie znaleziono wpisów w li¶cie AOP kana³u %s.
+	Nie znaleziono wpisÃ³w w liÅ›cie AOP kanaÅ‚u %s.
 
 CHAN_AOP_DELETED
-	%s usuniêto z listy AOP kana³u %s.
+	%s usuniÄ™to z listy AOP kanaÅ‚u %s.
 
 CHAN_AOP_DELETED_ONE
-	Usuniêto 1 wpis z listy AOP kana³u %s.
+	UsuniÄ™to 1 wpis z listy AOP kanaÅ‚u %s.
 
 CHAN_AOP_DELETED_SEVERAL
-	Usuniêto %d wpisów(y) z listy AOP kana³u %s.
+	UsuniÄ™to %d wpisÃ³w(y) z listy AOP kanaÅ‚u %s.
 
 CHAN_AOP_LIST_EMPTY
-	Lista AOP kana³u %s jest pusta.
+	Lista AOP kanaÅ‚u %s jest pusta.
 
 CHAN_AOP_LIST_HEADER
-	Lista AOP kana³u %s:
+	Lista AOP kanaÅ‚u %s:
 	  Nr   Nick
 
 CHAN_AOP_CLEAR
-	Lista AOP kana³u %s zosta³a wyczyszczona.
+	Lista AOP kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # HOP messages
 CHAN_HOP_SYNTAX
-	HOP kana³ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
+	HOP kanaÅ‚ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 CHAN_HOP_DISABLED
-	Modyfikacja listy HOP jest tymczasowo wy³±czona.
+	Modyfikacja listy HOP jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_HOP_NICKS_ONLY
-	Kana³owa lista HOP mo¿e zawieraæ jedynie zarejestrowane nicki.
+	KanaÅ‚owa lista HOP moÅ¼e zawieraÄ‡ jedynie zarejestrowane nicki.
 
 CHAN_HOP_ADDED
-	%s dodano do listy HOP kana³u %s.
+	%s dodano do listy HOP kanaÅ‚u %s.
 
 CHAN_HOP_MOVED
-	%s przeniesiono do listy HOP kana³u %s.
+	%s przeniesiono do listy HOP kanaÅ‚u %s.
 
 CHAN_HOP_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie HOP kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie HOP kanaÅ‚u %s.
 
 CHAN_HOP_NOT_FOUND
-	%s nie znaleziono na li¶cie HOP kana³u %s.
+	%s nie znaleziono na liÅ›cie HOP kanaÅ‚u %s.
 
 CHAN_HOP_NO_MATCH
-	Nie znaleziono wpisów w li¶cie HOP kana³u %s.
+	Nie znaleziono wpisÃ³w w liÅ›cie HOP kanaÅ‚u %s.
 
 CHAN_HOP_DELETED
-	%s usuniêto z listy HOP kana³u %s.
+	%s usuniÄ™to z listy HOP kanaÅ‚u %s.
 
 CHAN_HOP_DELETED_ONE
-	Usuniêto 1 wpis z listy HOP kana³u %s.
+	UsuniÄ™to 1 wpis z listy HOP kanaÅ‚u %s.
 
 CHAN_HOP_DELETED_SEVERAL
-	Usuniêto %d wpisów(y) z listy HOP kana³u %s.
+	UsuniÄ™to %d wpisÃ³w(y) z listy HOP kanaÅ‚u %s.
 
 CHAN_HOP_LIST_EMPTY
-	Lista HOP kana³u %s jest pusta.
+	Lista HOP kanaÅ‚u %s jest pusta.
 
 CHAN_HOP_LIST_HEADER
-	Lista HOP kana³u %s:
+	Lista HOP kanaÅ‚u %s:
 	  Nr   Nick
 
 CHAN_HOP_CLEAR
-	Lista HOP kana³u %s zosta³a wyczyszczona.
+	Lista HOP kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # SOP messages
 CHAN_SOP_SYNTAX
-	SOP kana³ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
+	SOP kanaÅ‚ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 CHAN_SOP_DISABLED
-	Modyfikacja listy SOP jest tymczasowo wy³±czona.
+	Modyfikacja listy SOP jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_SOP_NICKS_ONLY
-	Kana³owa lista SOP mo¿e zawieraæ jedynie zarejestrowane nicki.
+	KanaÅ‚owa lista SOP moÅ¼e zawieraÄ‡ jedynie zarejestrowane nicki.
 
 CHAN_SOP_ADDED
-	%s dodano do listy SOP kana³u %s.
+	%s dodano do listy SOP kanaÅ‚u %s.
 
 CHAN_SOP_MOVED
-	%s przeniesiono do listy SOP kana³u %s.
+	%s przeniesiono do listy SOP kanaÅ‚u %s.
 
 CHAN_SOP_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie SOP kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie SOP kanaÅ‚u %s.
 
 CHAN_SOP_NOT_FOUND
-	%s nie znaleziono na li¶cie SOP kana³u %s.
+	%s nie znaleziono na liÅ›cie SOP kanaÅ‚u %s.
 
 CHAN_SOP_NO_MATCH
-	Nie znaleziono wpisów w li¶cie SOP kana³u %s.
+	Nie znaleziono wpisÃ³w w liÅ›cie SOP kanaÅ‚u %s.
 
 CHAN_SOP_DELETED
-	%s usuniêto z listy SOP kana³u %s.
+	%s usuniÄ™to z listy SOP kanaÅ‚u %s.
 
 CHAN_SOP_DELETED_ONE
-	Usuniêto 1 wpis z listy SOP kana³u %s.
+	UsuniÄ™to 1 wpis z listy SOP kanaÅ‚u %s.
 
 CHAN_SOP_DELETED_SEVERAL
-	Usuniêto %d wpisów(y) z listy SOP kana³u %s.
+	UsuniÄ™to %d wpisÃ³w(y) z listy SOP kanaÅ‚u %s.
 
 CHAN_SOP_LIST_EMPTY
-	Lista SOP kana³u %s jest pusta.
+	Lista SOP kanaÅ‚u %s jest pusta.
 
 CHAN_SOP_LIST_HEADER
-	Lista SOP kana³u %s:
+	Lista SOP kanaÅ‚u %s:
 	  Nr   Nick
 
 CHAN_SOP_CLEAR
-	Lista SOP kana³u %s zosta³a wyczyszczona.
+	Lista SOP kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # VOP messages
 CHAN_VOP_SYNTAX
-	VOP kana³ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
+	VOP kanaÅ‚ {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 CHAN_VOP_DISABLED
-	Modyfikacja listy VOP jest tymczasowo wy³±czona.
+	Modyfikacja listy VOP jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_VOP_NICKS_ONLY
-	Kana³owa lista VOP mo¿e zawieraæ jedynie zarejestrowane nicki.
+	KanaÅ‚owa lista VOP moÅ¼e zawieraÄ‡ jedynie zarejestrowane nicki.
 
 CHAN_VOP_ADDED
-	%s dodano do listy VOP kana³u %s.
+	%s dodano do listy VOP kanaÅ‚u %s.
 
 CHAN_VOP_MOVED
-	%s przeniesiono do listy VOP kana³u %s.
+	%s przeniesiono do listy VOP kanaÅ‚u %s.
 
 CHAN_VOP_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie VOP kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie VOP kanaÅ‚u %s.
 
 CHAN_VOP_NOT_FOUND
-	%s nie znaleziono na li¶cie VOP kana³u %s.
+	%s nie znaleziono na liÅ›cie VOP kanaÅ‚u %s.
 
 CHAN_VOP_NO_MATCH
-	Nie znaleziono wpisów w li¶cie VOP kana³u %s.
+	Nie znaleziono wpisÃ³w w liÅ›cie VOP kanaÅ‚u %s.
 
 CHAN_VOP_DELETED
-	%s usuniêto z listy VOP kana³u %s.
+	%s usuniÄ™to z listy VOP kanaÅ‚u %s.
 
 CHAN_VOP_DELETED_ONE
-	Usuniêto 1 wpis z listy VOP kana³u %s.
+	UsuniÄ™to 1 wpis z listy VOP kanaÅ‚u %s.
 
 CHAN_VOP_DELETED_SEVERAL
-	Usuniêto %d wpisów(y) z listy VOP kana³u %s.
+	UsuniÄ™to %d wpisÃ³w(y) z listy VOP kanaÅ‚u %s.
 
 CHAN_VOP_LIST_EMPTY
-	Lista VOP kana³u %s jest pusta.
+	Lista VOP kanaÅ‚u %s jest pusta.
 
 CHAN_VOP_LIST_HEADER
-	Lista VOP kana³u %s:
+	Lista VOP kanaÅ‚u %s:
 	  Nr   Nick
 
 CHAN_VOP_CLEAR
-	Lista VOP kana³u %s zosta³a wyczyszczona.
+	Lista VOP kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
-	ACCESS kana³ {ADD|DEL|LIST|CLEAR} [nick [poziom] | pozycja]
+	ACCESS kanaÅ‚ {ADD|DEL|LIST|CLEAR} [nick [poziom] | pozycja]
 
 CHAN_ACCESS_XOP
-	Nie mo¿esz u¿yæ tej komendy.
-	Musisz u¿yæ poleceñ VOP, AOP lub SOP.
-	Napisz %R%s HELP komenda, aby uzyskaæ wiêcej informacji.
+	Nie moÅ¼esz uÅ¼yÄ‡ tej komendy.
+	Musisz uÅ¼yÄ‡ poleceÅ„ VOP, AOP lub SOP.
+	Napisz %R%s HELP komenda, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 CHAN_ACCESS_XOP_HOP
-	Nie mo¿esz u¿yæ tej komendy.
-	Musisz u¿yæ poleceñ VOP, HOP, AOP lub SOP.
-	Napisz %R%s HELP komenda, aby uzyskaæ wiêcej informacji.
+	Nie moÅ¼esz uÅ¼yÄ‡ tej komendy.
+	Musisz uÅ¼yÄ‡ poleceÅ„ VOP, HOP, AOP lub SOP.
+	Napisz %R%s HELP komenda, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 CHAN_ACCESS_DISABLED
-	Modyfikacja listy dostêpu jest tymczasowo wy³±czona.
+	Modyfikacja listy dostÄ™pu jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_ACCESS_LEVEL_NONZERO
-	Poziom dostêpu nie mo¿e byæ zerem.
+	Poziom dostÄ™pu nie moÅ¼e byÄ‡ zerem.
 
 CHAN_ACCESS_LEVEL_RANGE
-	Poziom dostêpu musi byæ pomiêdzy %d a %d w³±cznie.
+	Poziom dostÄ™pu musi byÄ‡ pomiÄ™dzy %d a %d wÅ‚Ä…cznie.
 
 CHAN_ACCESS_NICKS_ONLY
-	Kana³owa lista dostêpu mo¿e zawieraæ tylko zarejestrowane nicki.
+	KanaÅ‚owa lista dostÄ™pu moÅ¼e zawieraÄ‡ tylko zarejestrowane nicki.
 
 CHAN_ACCESS_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na kana³owej li¶cie dostêpu.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na kanaÅ‚owej liÅ›cie dostÄ™pu.
 
 CHAN_ACCESS_LEVEL_UNCHANGED
-	Poziom dostêpu dla %s na kanale %s jest
+	Poziom dostÄ™pu dla %s na kanale %s jest
 	nadany od %d.
 
 CHAN_ACCESS_LEVEL_CHANGED
-	Poziom dostêpu dla %s na kanale %s
+	Poziom dostÄ™pu dla %s na kanale %s
 	zmieniono na %d.
 
 CHAN_ACCESS_ADDED
-	%s dodano do listy dostêpu kana³u %s z
+	%s dodano do listy dostÄ™pu kanaÅ‚u %s z
 	poziomem %d.
 
 CHAN_ACCESS_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie dostêpu kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_NOT_FOUND
-	%s nie znaleziono na li¶cie dostêpu kana³u %s.
+	%s nie znaleziono na liÅ›cie dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_NO_MATCH
-	Nie znaleziono wpisów na li¶cie dostêpu kana³u %s.
+	Nie znaleziono wpisÃ³w na liÅ›cie dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_DELETED
-	%s usuniêto z listy dostêpu kana³u %s.
+	%s usuniÄ™to z listy dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_DELETED_ONE
-	Usuniêto 1 wpis z listy dostêpu kana³u %s.
+	UsuniÄ™to 1 wpis z listy dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_DELETED_SEVERAL
-	Usuniêto %d wpisów(y) z listy dostêpu kana³u %s.
+	UsuniÄ™to %d wpisÃ³w(y) z listy dostÄ™pu kanaÅ‚u %s.
 
 CHAN_ACCESS_LIST_EMPTY
-	Lista dostêpu kana³u %s jest pusta.
+	Lista dostÄ™pu kanaÅ‚u %s jest pusta.
 
 CHAN_ACCESS_LIST_HEADER
-	Lista dostêpu kana³u %s:
+	Lista dostÄ™pu kanaÅ‚u %s:
 	  Nr   Poz  Nick
 
 CHAN_ACCESS_LIST_FOOTER
-	Koniec listy dostêpu.
+	Koniec listy dostÄ™pu.
 
 CHAN_ACCESS_LIST_XOP_FORMAT
 	  %3d   %s  %s
@@ -1923,53 +1923,53 @@ CHAN_ACCESS_LIST_AXS_FORMAT
 	  %3d  %4d  %s
 
 CHAN_ACCESS_CLEAR
-	Lista dostêpu kana³u %s zosta³a wyczyszczona.
+	Lista dostÄ™pu kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # AKICK responses
 CHAN_AKICK_SYNTAX
-	AKICK kana³ {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-lub-maska] [powód]
+	AKICK kanaÅ‚ {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-lub-maska] [powÃ³d]
 
 CHAN_AKICK_DISABLED
-	Modyfikacja listy AKICK jest tymczasowo wy³±czona.
+	Modyfikacja listy AKICK jest tymczasowo wyÅ‚Ä…czona.
 
 CHAN_AKICK_ALREADY_EXISTS
-	%s ju¿ istnieje w li¶cie AKICK kana³u %s.
+	%s juÅ¼ istnieje w liÅ›cie AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_REACHED_LIMIT
-	Mo¿esz mieæ jedynie %d wpisów w li¶cie AKICK.
+	MoÅ¼esz mieÄ‡ jedynie %d wpisÃ³w w liÅ›cie AKICK.
 
 CHAN_AKICK_ADDED
-	%s dodano do listy AKICK kana³u %s.
+	%s dodano do listy AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_NO_SUCH_ENTRY
-	Brak wpisu (#%d) na li¶cie AKICK kana³u %s.
+	Brak wpisu (#%d) na liÅ›cie AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_NOT_FOUND
-	%s nie znaleziono na li¶cie AKICK kana³u %s.
+	%s nie znaleziono na liÅ›cie AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_NO_MATCH
-	Nie znaleziono wpisów na li¶cie AKICK kana³u %s.
+	Nie znaleziono wpisÃ³w na liÅ›cie AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_STUCK
-	%s jest od teraz ca³y czas aktywny na %s.
+	%s jest od teraz caÅ‚y czas aktywny na %s.
 
 CHAN_AKICK_UNSTUCK
-	%s nie jest ju¿ zawsze aktywny na %s.
+	%s nie jest juÅ¼ zawsze aktywny na %s.
 
 CHAN_AKICK_DELETED
-	%s usuniêto z listy AKICK %s.
+	%s usuniÄ™to z listy AKICK %s.
 
 CHAN_AKICK_DELETED_ONE
-	Usuniêto 1 wpis z listy AKICK kana³u %s.
+	UsuniÄ™to 1 wpis z listy AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_DELETED_SEVERAL
-	Usuniêto %d wpisów z listy AKICK kana³u %s.
+	UsuniÄ™to %d wpisÃ³w z listy AKICK kanaÅ‚u %s.
 
 CHAN_AKICK_LIST_EMPTY
-	Lista AKICK kana³u %s jest pusta.
+	Lista AKICK kanaÅ‚u %s jest pusta.
 
 CHAN_AKICK_LIST_HEADER
-	Lista AKICK dla kana³u %s:
+	Lista AKICK dla kanaÅ‚u %s:
 
 CHAN_AKICK_LIST_FORMAT
 	  %3d %s (%s)
@@ -1983,21 +1983,21 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 	    %s
 
 CHAN_AKICK_ENFORCE_DONE
-	Egzekucja listy AKICK kana³u %s zakoñczona.
-	Dotyczy³a %d u¿ytkowników.
+	Egzekucja listy AKICK kanaÅ‚u %s zakoÅ„czona.
+	DotyczyÅ‚a %d uÅ¼ytkownikÃ³w.
 
 CHAN_AKICK_CLEAR
-	Lista AKICK kana³u %s zosta³a wyczyszczona.
+	Lista AKICK kanaÅ‚u %s zostaÅ‚a wyczyszczona.
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
-	LEVELS kana³ {SET | DIS[ABLE] | LIST | RESET} [element [poziom]]
+	LEVELS kanaÅ‚ {SET | DIS[ABLE] | LIST | RESET} [element [poziom]]
 
 CHAN_LEVELS_XOP
-	Modyfikowanie poziomów nie jest dostêpne w trybie XOP.
+	Modyfikowanie poziomÃ³w nie jest dostÄ™pne w trybie XOP.
 
 CHAN_LEVELS_RANGE
-	Poziom musi byæ pomiêdzy %d a %d w³±cznie.
+	Poziom musi byÄ‡ pomiÄ™dzy %d a %d wÅ‚Ä…cznie.
 
 CHAN_LEVELS_CHANGED
 	Wymagany poziom dla %s
@@ -2005,35 +2005,35 @@ CHAN_LEVELS_CHANGED
 
 CHAN_LEVELS_UNKNOWN
 	Nieznane ustawienie %s.
-	Napisz %R%s HELP LEVELS DESC, aby uzyskaæ listê dostêpnych mo¿liwo¶ci.
+	Napisz %R%s HELP LEVELS DESC, aby uzyskaÄ‡ listÄ™ dostÄ™pnych moÅ¼liwoÅ›ci.
 
 CHAN_LEVELS_DISABLED
-	%s wy³±czono na kanale %s.
+	%s wyÅ‚Ä…czono na kanale %s.
 
 CHAN_LEVELS_LIST_HEADER
-	Ustawienia poziomów dostêpu kana³u %s:
+	Ustawienia poziomÃ³w dostÄ™pu kanaÅ‚u %s:
 
 CHAN_LEVELS_LIST_DISABLED
-	    %-*s  (wy³±czony)
+	    %-*s  (wyÅ‚Ä…czony)
 
 CHAN_LEVELS_LIST_FOUNDER
-	    %-*s  (tylko w³a¶ciciel)
+	    %-*s  (tylko wÅ‚aÅ›ciciel)
 
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 
 CHAN_LEVELS_RESET
-	Poziomy dostêpu kana³u %s zosta³y zresetowane do domy¶lnych.
+	Poziomy dostÄ™pu kanaÅ‚u %s zostaÅ‚y zresetowane do domyÅ›lnych.
 
 # Status messages
 CHAN_STATUS_SYNTAX
-	STATUS ERROR B³±d sk³adni
+	STATUS ERROR BÅ‚Ä…d skÅ‚adni
 
 CHAN_STATUS_NOT_REGGED
-	STATUS ERROR Kana³ %s nie jest zarejestrowany
+	STATUS ERROR KanaÅ‚ %s nie jest zarejestrowany
 
 CHAN_STATUS_FORBIDDEN
-	STATUS ERROR Kana³ %s jest zakazany
+	STATUS ERROR KanaÅ‚ %s jest zakazany
 
 CHAN_STATUS_NOTONLINE
 	STATUS ERROR Nick %s nie jest online
@@ -2043,22 +2043,22 @@ CHAN_STATUS_INFO
 
 # INFO responses
 CHAN_INFO_SYNTAX
-	INFO kana³ [ALL]
+	INFO kanaÅ‚ [ALL]
 
 CHAN_INFO_HEADER
 	Informacje o kanale %s:
 
 CHAN_INFO_FOUNDER
-	     W³a¶ciciel: %s (%s)
+	     WÅ‚aÅ›ciciel: %s (%s)
 
 CHAN_INFO_NO_FOUNDER
-	     W³a¶ciciel: %s
+	     WÅ‚aÅ›ciciel: %s
 
 CHAN_INFO_SUCCESSOR
-	       Zastêpca: %s (%s)
+	       ZastÄ™pca: %s (%s)
 
 CHAN_INFO_NO_SUCCESSOR
-	       Zastêpca: %s
+	       ZastÄ™pca: %s
 
 CHAN_INFO_DESCRIPTION
 	           Opis: %s
@@ -2070,7 +2070,7 @@ CHAN_INFO_TIME_REGGED
 	 Zarejestrowano: %s
 
 CHAN_INFO_LAST_USED
-	        U¿ywano: %s
+	        UÅ¼ywano: %s
 
 CHAN_INFO_LAST_TOPIC
 	  Ostatni temat: %s
@@ -2133,7 +2133,7 @@ CHAN_INFO_EXPIRE
 	         Wygasa: %s
 
 CHAN_INFO_NO_EXPIRE
-	Ten kana³ nie wyga¶nie.
+	Ten kanaÅ‚ nie wygaÅ›nie.
 
 # LIST responses
 CHAN_LIST_SYNTAX
@@ -2143,158 +2143,158 @@ CHAN_LIST_SERVADMIN_SYNTAX
 	LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 
 CHAN_LIST_HEADER
-	Lista pasuj±cych wpisów %s:
+	Lista pasujÄ…cych wpisÃ³w %s:
 
 CHAN_LIST_FORMAT
 	    %-20s  %s
 
 CHAN_LIST_END
-	Koniec listy - %d/%d wpisów znalezionych.
+	Koniec listy - %d/%d wpisÃ³w znalezionych.
 	
 
 # INVITE responses
 CHAN_INVITE_SYNTAX
-	INVITE kana³
+	INVITE kanaÅ‚
 
 # UNBAN responses
 CHAN_UNBAN_SYNTAX
-	UNBAN kana³
+	UNBAN kanaÅ‚
 
 CHAN_UNBANNED
-	Ban na kanale %s zosta³ zdjêty.
+	Ban na kanale %s zostaÅ‚ zdjÄ™ty.
 
 # TOPIC responses
 CHAN_TOPIC_SYNTAX
-	TOPIC kana³ [temat]
+	TOPIC kanaÅ‚ [temat]
 
 # CLEAR responses
 CHAN_CLEAR_SYNTAX
-	CLEAR kana³ co
+	CLEAR kanaÅ‚ co
 
 CHAN_CLEARED_BANS
-	Wszystkie bany z kana³u %s zosta³y usuniête.
+	Wszystkie bany z kanaÅ‚u %s zostaÅ‚y usuniÄ™te.
 
 CHAN_CLEARED_EXCEPTS
-	Wszystkie wyj±tki z kana³u %s zosta³y usuniête.
+	Wszystkie wyjÄ…tki z kanaÅ‚u %s zostaÅ‚y usuniÄ™te.
 
 CHAN_CLEARED_MODES
-	Wszystkie flagi kana³u %s zosta³y zresetowane.
+	Wszystkie flagi kanaÅ‚u %s zostaÅ‚y zresetowane.
 
 CHAN_CLEARED_OPS
-	Flagi +o zosta³y wyczyszczone na kanale %s.
+	Flagi +o zostaÅ‚y wyczyszczone na kanale %s.
 
 CHAN_CLEARED_HOPS
-	Flagi +h zosta³y wyczyszczone na kanale %s.
+	Flagi +h zostaÅ‚y wyczyszczone na kanale %s.
 
 CHAN_CLEARED_VOICES
-	Flagi +v zosta³y wyczyszczone na kanale %s.
+	Flagi +v zostaÅ‚y wyczyszczone na kanale %s.
 
 CHAN_CLEARED_USERS
-	Wszyscy u¿ytkownicy zostali usuniêci z kana³u %s.
+	Wszyscy uÅ¼ytkownicy zostali usuniÄ™ci z kanaÅ‚u %s.
 
 CHAN_CLEARED_INVITES
-	Wszystkie zaproszenia z kana³u %s zosta³y usuniête.
+	Wszystkie zaproszenia z kanaÅ‚u %s zostaÅ‚y usuniÄ™te.
 
 # GETPASS responses
 CHAN_GETPASS_SYNTAX
-	GETPASS kana³
+	GETPASS kanaÅ‚
 
 CHAN_GETPASS_UNAVAILABLE
-	Komenda GETPASS nie dzia³a, bo has³a s± szyfrowane.
+	Komenda GETPASS nie dziaÅ‚a, bo hasÅ‚a sÄ… szyfrowane.
 
 CHAN_GETPASS_PASSWORD_IS
-	Has³o kana³u %s to %s.
+	HasÅ‚o kanaÅ‚u %s to %s.
 
 # GETKEY responses
 CHAN_GETKEY_SYNTAX
-	GETKEY kana³
+	GETKEY kanaÅ‚
 
 CHAN_GETKEY_NOKEY
-	Kana³ %s nie posiada klucza.
+	KanaÅ‚ %s nie posiada klucza.
 
 CHAN_GETKEY_KEY
 	KEY %s %s
 
 # SENDPASS responses
 CHAN_SENDPASS_SYNTAX
-	SENDPASS kana³
+	SENDPASS kanaÅ‚
 
 CHAN_SENDPASS_UNAVAILABLE
-	Komenda SENDPASS nie dzia³a, bo has³a s± szyfrowane.
+	Komenda SENDPASS nie dziaÅ‚a, bo hasÅ‚a sÄ… szyfrowane.
 
 CHAN_SENDPASS_SUBJECT
-	Has³o do kana³u %s
+	HasÅ‚o do kanaÅ‚u %s
 
 CHAN_SENDPASS_HEAD
 	Witaj!
 
 CHAN_SENDPASS_LINE_1
-	Za¿±da³e¶(a¶) wys³ania has³a do kana³u %s na e-mail.
+	ZaÅ¼Ä…daÅ‚eÅ›(aÅ›) wysÅ‚ania hasÅ‚a do kanaÅ‚u %s na e-mail.
 
 CHAN_SENDPASS_LINE_2
-	Twoje has³o to: %s.
-	Dla w³asnego bezpieczeñstwa nale¿y to has³o natychmiast zmieniæ na inne.
+	Twoje hasÅ‚o to: %s.
+	Dla wÅ‚asnego bezpieczeÅ„stwa naleÅ¼y to hasÅ‚o natychmiast zmieniÄ‡ na inne.
 
 CHAN_SENDPASS_LINE_3
-	Je¶li nie wiesz dlaczego ta wiadomo¶æ dotar³a do Ciebie zignoruj j±. Je¶li ta sytuacja bêdzie siê powtarzaæ skontaktuj siê z administratorem sieci.
+	JeÅ›li nie wiesz dlaczego ta wiadomoÅ›Ä‡ dotarÅ‚a do Ciebie zignoruj jÄ…. JeÅ›li ta sytuacja bÄ™dzie siÄ™ powtarzaÄ‡ skontaktuj siÄ™ z administratorem sieci.
 
 CHAN_SENDPASS_LINE_4
-	PROSZÊ NIE ODPOWIADAÆ NA T¡ WIADOMO¦Æ!
+	PROSZÄ˜ NIE ODPOWIADAÄ† NA TÄ„ WIADOMOÅšÄ†!
 
 CHAN_SENDPASS_LINE_5
 	Administratorzy sieci %s.
 
 CHAN_SENDPASS_OK
-	Has³o do kana³u %s zosta³o wys³ane.
+	HasÅ‚o do kanaÅ‚u %s zostaÅ‚o wysÅ‚ane.
 
 # FORBID responses
 CHAN_FORBID_SYNTAX
-	FORBID kana³ [powód]
+	FORBID kanaÅ‚ [powÃ³d]
 
 CHAN_FORBID_SYNTAX_REASON
-	FORBID kana³ powód
+	FORBID kanaÅ‚ powÃ³d
 
 CHAN_FORBID_SUCCEEDED
-	Kana³ %s zosta³ zablokowany.
+	KanaÅ‚ %s zostaÅ‚ zablokowany.
 
 CHAN_FORBID_FAILED
-	Nie mogê zablokowaæ kana³u %s!
+	Nie mogÄ™ zablokowaÄ‡ kanaÅ‚u %s!
 
 CHAN_FORBID_REASON
-	Ten kana³ zosta³ zablokowany.
+	Ten kanaÅ‚ zostaÅ‚ zablokowany.
 
 # SUSPEND responses
 CHAN_SUSPEND_SYNTAX
-	SUSPEND kana³ [powód]
+	SUSPEND kanaÅ‚ [powÃ³d]
 
 CHAN_SUSPEND_SYNTAX_REASON
-	SUSPEND kana³ powód
+	SUSPEND kanaÅ‚ powÃ³d
 
 CHAN_SUSPEND_SUCCEEDED
-	Kana³ %s zosta³ zawieszony.
+	KanaÅ‚ %s zostaÅ‚ zawieszony.
 
 CHAN_SUSPEND_FAILED
-	Zawieszenie kana³u %s nie powiod³o siê!
+	Zawieszenie kanaÅ‚u %s nie powiodÅ‚o siÄ™!
 
 CHAN_SUSPEND_REASON
-	Ten kana³ zosta³ zawieszony.
+	Ten kanaÅ‚ zostaÅ‚ zawieszony.
 
 # UNSUSPEND responses
 CHAN_UNSUSPEND_SYNTAX
-	UNSUSPEND kana³
+	UNSUSPEND kanaÅ‚
 
 CHAN_UNSUSPEND_ERROR
-	Nie znaleziono znaku # na pocz±tku nazwy kana³u.
+	Nie znaleziono znaku # na poczÄ…tku nazwy kanaÅ‚u.
 
 CHAN_UNSUSPEND_SUCCEEDED
-	Kana³ %s zosta³ uwolniony.
+	KanaÅ‚ %s zostaÅ‚ uwolniony.
 
 CHAN_UNSUSPEND_FAILED
-	Nie mogê uwolniæ kana³u %s!
+	Nie mogÄ™ uwolniÄ‡ kanaÅ‚u %s!
 
 # Misc responses
 CHAN_EXCEPTED
-	%s posiada wyj±tek na %s i nie mo¿e byæ zbanowany póki nie zostanie usuniêty.
+	%s posiada wyjÄ…tek na %s i nie moÅ¼e byÄ‡ zbanowany pÃ³ki nie zostanie usuniÄ™ty.
 
 ###########################################################################
 #
@@ -2303,118 +2303,118 @@ CHAN_EXCEPTED
 ###########################################################################
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
-	Masz jedn± now± wiadomo¶æ.
+	Masz jednÄ… nowÄ… wiadomoÅ›Ä‡.
 
 MEMO_HAVE_NEW_MEMOS
-	Masz %d nowe(ych) wiadomo¶ci.
+	Masz %d nowe(ych) wiadomoÅ›ci.
 
 MEMO_TYPE_READ_LAST
-	Napisz %R%s READ LAST aby przeczytaæ.
+	Napisz %R%s READ LAST aby przeczytaÄ‡.
 
 MEMO_TYPE_READ_NUM
-	Napisz %R%s READ %d aby przeczytaæ.
+	Napisz %R%s READ %d aby przeczytaÄ‡.
 
 MEMO_TYPE_LIST_NEW
 	Napisz %R%s LIST NEW,
-	aby zobaczyæ listê nowych wiadomo¶ci.
+	aby zobaczyÄ‡ listÄ™ nowych wiadomoÅ›ci.
 
 MEMO_AT_LIMIT
-	Uwaga: Osi±gniêto ju¿ limit wiadomo¶ci (%d).
-	Nie bêdziesz otrzymywaæ nowych wiadomo¶ci dopóki
+	Uwaga: OsiÄ…gniÄ™to juÅ¼ limit wiadomoÅ›ci (%d).
+	Nie bÄ™dziesz otrzymywaÄ‡ nowych wiadomoÅ›ci dopÃ³ki
 	nie usuniesz kilku starych.
 
 MEMO_OVER_LIMIT
-	Uwaga: Maksymalny limit wiadomo¶ci (%d) zosta³ osi±gniêty.
-	Nie bêdziesz otrzymywaæ nowych wiadomo¶ci je¶li kilku nie usuniesz.
+	Uwaga: Maksymalny limit wiadomoÅ›ci (%d) zostaÅ‚ osiÄ…gniÄ™ty.
+	Nie bÄ™dziesz otrzymywaÄ‡ nowych wiadomoÅ›ci jeÅ›li kilku nie usuniesz.
 
 MEMO_X_MANY_NOTICE
-	Jest %d wiadomo¶ci dla kana³u %s.
+	Jest %d wiadomoÅ›ci dla kanaÅ‚u %s.
 
 MEMO_X_ONE_NOTICE
-	Jest %d wiadomo¶æ dla kana³u %s.
+	Jest %d wiadomoÅ›Ä‡ dla kanaÅ‚u %s.
 
 MEMO_NEW_X_MEMO_ARRIVED
-	Jest nowa wiadomo¶æ dla kana³u %s.
-	Napisz %R%s READ %s %d aby j± przeczytaæ.
+	Jest nowa wiadomoÅ›Ä‡ dla kanaÅ‚u %s.
+	Napisz %R%s READ %s %d aby jÄ… przeczytaÄ‡.
 
 MEMO_NEW_MEMO_ARRIVED
-	Nasz now± wiadomo¶æ od %s.
-	Napisz %R%s READ %d aby j± przeczytaæ.
+	Nasz nowÄ… wiadomoÅ›Ä‡ od %s.
+	Napisz %R%s READ %d aby jÄ… przeczytaÄ‡.
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
-	Nie masz wiadomo¶ci.
+	Nie masz wiadomoÅ›ci.
 
 MEMO_X_HAS_NO_MEMOS
-	%s nie ma wiadomo¶ci.
+	%s nie ma wiadomoÅ›ci.
 
 MEMO_DOES_NOT_EXIST
-	Wiadomo¶æ %d nie istnieje!
+	WiadomoÅ›Ä‡ %d nie istnieje!
 
 MEMO_LIST_NOT_FOUND
-	Nie znaleziono pasuj±cych wiadomo¶ci.
+	Nie znaleziono pasujÄ…cych wiadomoÅ›ci.
 
 # SEND responses
 MEMO_SEND_SYNTAX
-	SEND {nick | kana³} tre¶æ
+	SEND {nick | kanaÅ‚} treÅ›Ä‡
 
 MEMO_SEND_DISABLED
-	Wysy³anie wiadomo¶ci jest tymczasowo wy³±czone.
+	WysyÅ‚anie wiadomoÅ›ci jest tymczasowo wyÅ‚Ä…czone.
 
 MEMO_SEND_PLEASE_WAIT
-	Odczekaj %d sekund(y) przed ponownym u¿yciem komendy SEND.
+	Odczekaj %d sekund(y) przed ponownym uÅ¼yciem komendy SEND.
 
 MEMO_X_GETS_NO_MEMOS
-	%s nie mo¿e odbieraæ wiadomo¶ci.
+	%s nie moÅ¼e odbieraÄ‡ wiadomoÅ›ci.
 
 MEMO_X_HAS_TOO_MANY_MEMOS
-	%s ma zbyt du¿o wiadomo¶ci i nie mo¿e otrzymywaæ nowych.
+	%s ma zbyt duÅ¼o wiadomoÅ›ci i nie moÅ¼e otrzymywaÄ‡ nowych.
 
 MEMO_SENT
-	Wiadomo¶æ zosta³a wys³ana do %s.
+	WiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana do %s.
 
 MEMO_MASS_SENT
-	Wiadomo¶æ zosta³a wys³ana do wszystkich zarejestrowanych u¿ytkowników.
+	WiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana do wszystkich zarejestrowanych uÅ¼ytkownikÃ³w.
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
-	STAFF tre¶æ wiadomo¶ci
+	STAFF treÅ›Ä‡ wiadomoÅ›ci
 
 # CANCEL responses
 MEMO_CANCEL_SYNTAX
-	CANCEL {nick | kana³}
+	CANCEL {nick | kanaÅ‚}
 
 MEMO_CANCEL_DISABLED
-	Odwo³ywanie wiadomo¶ci jest tymczasowo wy³±czone.
+	OdwoÅ‚ywanie wiadomoÅ›ci jest tymczasowo wyÅ‚Ä…czone.
 
 MEMO_CANCEL_NONE
-	Brak wiadomo¶ci do odwo³ania.
+	Brak wiadomoÅ›ci do odwoÅ‚ania.
 
 MEMO_CANCELLED
-	Ostatnia wiadomo¶æ do %s zosta³a odwo³ana.
+	Ostatnia wiadomoÅ›Ä‡ do %s zostaÅ‚a odwoÅ‚ana.
 
 # LIST responses
 MEMO_LIST_SYNTAX
-	LIST [kana³] [lista | NEW]
+	LIST [kanaÅ‚] [lista | NEW]
 
 MEMO_HAVE_NO_NEW_MEMOS
-	Nie masz nowych wiadomo¶ci.
+	Nie masz nowych wiadomoÅ›ci.
 
 MEMO_X_HAS_NO_NEW_MEMOS
-	%s nie ma nowych wiadomo¶ci.
+	%s nie ma nowych wiadomoÅ›ci.
 
 MEMO_LIST_MEMOS
-	Wiadomo¶ci dla %s. Aby przeczytaæ, napisz: %R%s READ numer
+	WiadomoÅ›ci dla %s. Aby przeczytaÄ‡, napisz: %R%s READ numer
 
 MEMO_LIST_NEW_MEMOS
-	Nowe wiadomo¶ci dla %s. Aby przeczytaæ,
+	Nowe wiadomoÅ›ci dla %s. Aby przeczytaÄ‡,
 	napisz: %R%s READ numer
 
 MEMO_LIST_CHAN_MEMOS
-	Wiadomo¶ci dla %s. Aby przeczytaæ, napisz: %R%s READ %s numer
+	WiadomoÅ›ci dla %s. Aby przeczytaÄ‡, napisz: %R%s READ %s numer
 
 MEMO_LIST_CHAN_NEW_MEMOS
-	Nowe wiadomo¶ci dla %s. Aby przeczytaæ,
+	Nowe wiadomoÅ›ci dla %s. Aby przeczytaÄ‡,
 	napisz: %R%s READ %s numer
 
 MEMO_LIST_HEADER
@@ -2425,42 +2425,42 @@ MEMO_LIST_FORMAT
 
 # READ responses
 MEMO_READ_SYNTAX
-	READ [kana³] {lista | LAST | NEW}
+	READ [kanaÅ‚] {lista | LAST | NEW}
 
 MEMO_HEADER
-	Wiadomo¶æ %d od %s (%s). Aby usun±æ, napisz: %R%s DEL %d
+	WiadomoÅ›Ä‡ %d od %s (%s). Aby usunÄ…Ä‡, napisz: %R%s DEL %d
 
 MEMO_CHAN_HEADER
-	Wiadomo¶æ %d od %s (%s). Aby usun±æ, napisz: %R%s DEL %s %d
+	WiadomoÅ›Ä‡ %d od %s (%s). Aby usunÄ…Ä‡, napisz: %R%s DEL %s %d
 
 MEMO_TEXT
 	%s
 
 # DEL responses
 MEMO_DEL_SYNTAX
-	DEL [kana³] {numer | list | ALL}
+	DEL [kanaÅ‚] {numer | list | ALL}
 
 MEMO_DELETED_NONE
-	Nie usuniêto ¿adnych wiadomo¶ci.
+	Nie usuniÄ™to Å¼adnych wiadomoÅ›ci.
 
 MEMO_DELETED_ONE
-	Wiadomo¶æ %d zosta³a usuniêta.
+	WiadomoÅ›Ä‡ %d zostaÅ‚a usuniÄ™ta.
 
 MEMO_DELETED_SEVERAL
-	Wiadomo¶ci %s zosta³y usuniête.
+	WiadomoÅ›ci %s zostaÅ‚y usuniÄ™te.
 
 MEMO_DELETED_ALL
-	Wszystkie Twoje wiadomo¶ci zosta³y usuniête.
+	Wszystkie Twoje wiadomoÅ›ci zostaÅ‚y usuniÄ™te.
 
 MEMO_CHAN_DELETED_ALL
-	Wszystkie wiadomo¶ci kana³u %s zosta³y usuniête.
+	Wszystkie wiadomoÅ›ci kanaÅ‚u %s zostaÅ‚y usuniÄ™te.
 
 # SET responses
 MEMO_SET_SYNTAX
 	SET opcja parametry
 
 MEMO_SET_DISABLED
-	Ustawianie opcji wiadomo¶ci jest tymczasowo wy³±czone.
+	Ustawianie opcji wiadomoÅ›ci jest tymczasowo wyÅ‚Ä…czone.
 
 MEMO_SET_UNKNOWN_OPTION
 	Nieznana opcja komendy SET %s.
@@ -2470,212 +2470,212 @@ MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | MAIL | NOMAIL | OFF }
 
 MEMO_SET_NOTIFY_ON
-	%s powiadomi Ciê o wiadomo¶ciach podczas logowania i w momencie ich nadej¶cia.
+	%s powiadomi CiÄ™ o wiadomoÅ›ciach podczas logowania i w momencie ich nadejÅ›cia.
 
 MEMO_SET_NOTIFY_LOGON
-	%s powiadomi Ciê o wiadomo¶ciach podczas logowania oraz po wy³±czeniu /away.
+	%s powiadomi CiÄ™ o wiadomoÅ›ciach podczas logowania oraz po wyÅ‚Ä…czeniu /away.
 
 MEMO_SET_NOTIFY_NEW
-	%s bêdzie powiadamia³ Ciê o nowych wiadomo¶ciach w momencie ich nadej¶cia.
+	%s bÄ™dzie powiadamiaÅ‚ CiÄ™ o nowych wiadomoÅ›ciach w momencie ich nadejÅ›cia.
 
 MEMO_SET_NOTIFY_OFF
-	%s nie bêdzie powiadamia³ Ciê o nowych wiadomo¶ciach.
+	%s nie bÄ™dzie powiadamiaÅ‚ CiÄ™ o nowych wiadomoÅ›ciach.
 
 MEMO_SET_NOTIFY_MAIL
-	Powiadomienie o nowych wiadomo¶ciach bêd± wysy³ane na adres e-mail.
+	Powiadomienie o nowych wiadomoÅ›ciach bÄ™dÄ… wysyÅ‚ane na adres e-mail.
 
 MEMO_SET_NOTIFY_NOMAIL
-	Powiadomienie o nowych wiadomo¶ciach nie bêd± wysy³ane na adres e-mail.
+	Powiadomienie o nowych wiadomoÅ›ciach nie bÄ™dÄ… wysyÅ‚ane na adres e-mail.
 
 MEMO_SET_NOTIFY_INVALIDMAIL
-	Twój nick nie ma ustawionego adresu e-mail.
+	TwÃ³j nick nie ma ustawionego adresu e-mail.
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
-	SET LIMIT [kana³] limit
+	SET LIMIT [kanaÅ‚] limit
 
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
-	SET LIMIT [nick | kana³] {limit | NONE} [HARD]
+	SET LIMIT [nick | kanaÅ‚] {limit | NONE} [HARD]
 
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	Nie mo¿esz zmieniaæ swojego limitu wiadomo¶ci.
+	Nie moÅ¼esz zmieniaÄ‡ swojego limitu wiadomoÅ›ci.
 
 MEMO_SET_LIMIT_FORBIDDEN
-	Limit wiadomo¶ci dla %s nie mo¿e byæ zmieniany.
+	Limit wiadomoÅ›ci dla %s nie moÅ¼e byÄ‡ zmieniany.
 
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	Nie mo¿esz ustawiæ swojego limitu wiadomo¶ci wiêkszego ni¿ %d.
+	Nie moÅ¼esz ustawiÄ‡ swojego limitu wiadomoÅ›ci wiÄ™kszego niÅ¼ %d.
 
 MEMO_SET_LIMIT_TOO_HIGH
-	Nie mo¿esz ustawiæ limitu wiadomo¶ci dla %s wiêkszego ni¿ %d.
+	Nie moÅ¼esz ustawiÄ‡ limitu wiadomoÅ›ci dla %s wiÄ™kszego niÅ¼ %d.
 
 MEMO_SET_LIMIT_OVERFLOW
-	Limit wiadomo¶ci jest za du¿y. Limituj do %d.
+	Limit wiadomoÅ›ci jest za duÅ¼y. Limituj do %d.
 
 MEMO_SET_YOUR_LIMIT
-	Twój limit wiadomo¶ci zosta³ zmieniony na %d.
+	TwÃ³j limit wiadomoÅ›ci zostaÅ‚ zmieniony na %d.
 
 MEMO_SET_YOUR_LIMIT_ZERO
-	Nie bêdziesz ju¿ d³u¿ej odbieraæ wiadomo¶ci.
+	Nie bÄ™dziesz juÅ¼ dÅ‚uÅ¼ej odbieraÄ‡ wiadomoÅ›ci.
 
 MEMO_UNSET_YOUR_LIMIT
-	Twój limit wiadomo¶ci zosta³ wy³±czony.
+	TwÃ³j limit wiadomoÅ›ci zostaÅ‚ wyÅ‚Ä…czony.
 
 MEMO_SET_LIMIT
-	Limit wiadomo¶ci dla %s zmieniono na %d.
+	Limit wiadomoÅ›ci dla %s zmieniono na %d.
 
 MEMO_SET_LIMIT_ZERO
-	Limit wiadomo¶ci dla %s ustawiono na 0.
+	Limit wiadomoÅ›ci dla %s ustawiono na 0.
 
 MEMO_UNSET_LIMIT
-	Limit wiadomo¶ci dla %s jest wy³±czony.
+	Limit wiadomoÅ›ci dla %s jest wyÅ‚Ä…czony.
 
 # INFO responses
 MEMO_INFO_SYNTAX
-	INFO [kana³]
+	INFO [kanaÅ‚]
 
 MEMO_INFO_SERVADMIN_SYNTAX
-	INFO [nick | kana³]
+	INFO [nick | kanaÅ‚]
 
 MEMO_INFO_NO_MEMOS
-	Aktualnie nie masz wiadomo¶ci.
+	Aktualnie nie masz wiadomoÅ›ci.
 
 MEMO_INFO_MEMO
-	Aktualnie masz jedn± wiadomo¶æ.
+	Aktualnie masz jednÄ… wiadomoÅ›Ä‡.
 
 MEMO_INFO_MEMO_UNREAD
-	Aktualnie masz jedn± wiadomo¶æ i jest ona nieprzeczytana.
+	Aktualnie masz jednÄ… wiadomoÅ›Ä‡ i jest ona nieprzeczytana.
 
 MEMO_INFO_MEMOS
-	Aktualnie masz %d wiadomo¶ci.
+	Aktualnie masz %d wiadomoÅ›ci.
 
 MEMO_INFO_MEMOS_ONE_UNREAD
-	Aktualnie masz %d wiadomo¶ci, w tym jedn± nieprzeczytan±.
+	Aktualnie masz %d wiadomoÅ›ci, w tym jednÄ… nieprzeczytanÄ….
 
 MEMO_INFO_MEMOS_SOME_UNREAD
-	Aktualnie masz %d wiadomo¶ci, z czego %d jest nieprzeczytanych.
+	Aktualnie masz %d wiadomoÅ›ci, z czego %d jest nieprzeczytanych.
 
 MEMO_INFO_MEMOS_ALL_UNREAD
-	Aktualnie masz %d nieprzeczytanych wiadomo¶ci.
+	Aktualnie masz %d nieprzeczytanych wiadomoÅ›ci.
 
 MEMO_INFO_LIMIT
-	Twój limit wiadomo¶ci wynosi %d.
+	TwÃ³j limit wiadomoÅ›ci wynosi %d.
 
 MEMO_INFO_HARD_LIMIT
-	Twój limit wiadomo¶ci wynosi %d i nie mo¿e byæ zmieniony.
+	TwÃ³j limit wiadomoÅ›ci wynosi %d i nie moÅ¼e byÄ‡ zmieniony.
 
 MEMO_INFO_LIMIT_ZERO
-	Twój limit wiadomo¶ci wynosi 0, nie bêdziesz otrzymywaæ nowych.
+	TwÃ³j limit wiadomoÅ›ci wynosi 0, nie bÄ™dziesz otrzymywaÄ‡ nowych.
 
 MEMO_INFO_HARD_LIMIT_ZERO
-	Twój limit wiadomo¶ci wynosi 0, nie bêdziesz odbieraæ nowych i nie mo¿esz zmieniæ tego limitu.
+	TwÃ³j limit wiadomoÅ›ci wynosi 0, nie bÄ™dziesz odbieraÄ‡ nowych i nie moÅ¼esz zmieniÄ‡ tego limitu.
 MEMO_INFO_NO_LIMIT
-	Nie masz limitu wiadomo¶ci, które mo¿esz trzymaæ.
+	Nie masz limitu wiadomoÅ›ci, ktÃ³re moÅ¼esz trzymaÄ‡.
 
 MEMO_INFO_NOTIFY_OFF
-	Nie bêdziesz otrzymywaæ informacji o nowych wiadomo¶ciach.
+	Nie bÄ™dziesz otrzymywaÄ‡ informacji o nowych wiadomoÅ›ciach.
 
 MEMO_INFO_NOTIFY_ON
-	Bêdziesz powiadomienie informacje o nowych wiadomo¶ciach
-	podczas logowania i w momencie ich nadej¶cia.
+	BÄ™dziesz powiadomienie informacje o nowych wiadomoÅ›ciach
+	podczas logowania i w momencie ich nadejÅ›cia.
 
 MEMO_INFO_NOTIFY_RECEIVE
-	Bêdziesz otrzymywaæ powiadomienie o nowych wiadomo¶ciach.
+	BÄ™dziesz otrzymywaÄ‡ powiadomienie o nowych wiadomoÅ›ciach.
 
 MEMO_INFO_NOTIFY_SIGNON
-	Bêdziesz otrzymywaæ powiadomienie o nowych wiadomo¶ciach podczas logowania.
+	BÄ™dziesz otrzymywaÄ‡ powiadomienie o nowych wiadomoÅ›ciach podczas logowania.
 
 MEMO_INFO_X_NO_MEMOS
-	%s aktualnie nie ma wiadomo¶ci.
+	%s aktualnie nie ma wiadomoÅ›ci.
 
 MEMO_INFO_X_MEMO
-	%s aktualnie ma jedn± wiadomo¶æ.
+	%s aktualnie ma jednÄ… wiadomoÅ›Ä‡.
 
 MEMO_INFO_X_MEMO_UNREAD
-	%s ma aktualnie jedn± wiadomo¶æ, która jest nieprzeczytana.
+	%s ma aktualnie jednÄ… wiadomoÅ›Ä‡, ktÃ³ra jest nieprzeczytana.
 
 MEMO_INFO_X_MEMOS
-	%s ma aktualnie %d wiadomo¶ci.
+	%s ma aktualnie %d wiadomoÅ›ci.
 
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-	%s ma aktualnie %d wiadomo¶ci, w tym jedn± nieprzeczytan±.
+	%s ma aktualnie %d wiadomoÅ›ci, w tym jednÄ… nieprzeczytanÄ….
 
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-	%s ma aktualnie %d wiadomo¶ci, z czego %d jest nieprzeczytanych.
+	%s ma aktualnie %d wiadomoÅ›ci, z czego %d jest nieprzeczytanych.
 
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-	%s ma aktualnie %d nieprzeczytanych wiadomo¶ci.
+	%s ma aktualnie %d nieprzeczytanych wiadomoÅ›ci.
 
 MEMO_INFO_X_LIMIT
-	%s ma limit wiadomo¶ci %d.
+	%s ma limit wiadomoÅ›ci %d.
 
 MEMO_INFO_X_HARD_LIMIT
-	%s ma limit wiadomo¶ci %d i nie mo¿e byæ zmieniony.
+	%s ma limit wiadomoÅ›ci %d i nie moÅ¼e byÄ‡ zmieniony.
 
 MEMO_INFO_X_NO_LIMIT
-	%s nie ma limitu wiadomo¶ci.
+	%s nie ma limitu wiadomoÅ›ci.
 
 MEMO_INFO_X_NOTIFY_OFF
-	%s nie otrzymuje powiadomieñ o nowych wiadomo¶ciach.
+	%s nie otrzymuje powiadomieÅ„ o nowych wiadomoÅ›ciach.
 
 MEMO_INFO_X_NOTIFY_ON
-	%s otrzymuje powiadomienia o nowych wiadomo¶ciach
-	podczas logowania i w momencie ich nadej¶cia.
+	%s otrzymuje powiadomienia o nowych wiadomoÅ›ciach
+	podczas logowania i w momencie ich nadejÅ›cia.
 
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s otrzymuje powiadomienia o nowych wiadomo¶ciach w momencie ich nadej¶cia.
+	%s otrzymuje powiadomienia o nowych wiadomoÅ›ciach w momencie ich nadejÅ›cia.
 
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s otrzymuje powiadomienia o nowych wiadomo¶ciach podczas logowania.
+	%s otrzymuje powiadomienia o nowych wiadomoÅ›ciach podczas logowania.
 
 # Memo2Mail responses
 MEMO_MAIL_SUBJECT
-	Nowa wiadomo¶æ
+	Nowa wiadomoÅ›Ä‡
 
 MEMO_MAIL_TEXT1
 	Witaj %s!
 
 MEMO_MAIL_TEXT2
-	W³a¶nie nadesz³a now± wiadomo¶æ od %s, ma numer %d.
+	WÅ‚aÅ›nie nadeszÅ‚a nowÄ… wiadomoÅ›Ä‡ od %s, ma numer %d.
 
 MEMO_MAIL_TEXT3
-	Tre¶æ wiadomo¶ci:
+	TreÅ›Ä‡ wiadomoÅ›ci:
 
 # RSEND responses
 MEMO_RSEND_PLEASE_WAIT
-	Odczekaj %d sekund przed ponownym u¿yciem komendy RSEND.
+	Odczekaj %d sekund przed ponownym uÅ¼yciem komendy RSEND.
 
 MEMO_RSEND_DISABLED
-	Komenda RSEND nie jest dostêpna w tej sieci.
+	Komenda RSEND nie jest dostÄ™pna w tej sieci.
 
 MEMO_RSEND_SYNTAX
-	RSEND {nick | kana³} tre¶æ
+	RSEND {nick | kanaÅ‚} treÅ›Ä‡
 
 MEMO_RSEND_NICK_MEMO_TEXT
-	[auto-memo] Wys³ana przez Ciebie wiadomo¶æ zosta³a przeczytana.
+	[auto-memo] WysÅ‚ana przez Ciebie wiadomoÅ›Ä‡ zostaÅ‚a przeczytana.
 
 MEMO_RSEND_CHAN_MEMO_TEXT
-	[auto-memo] Wys³ana przez Ciebie wiadomo¶æ do %s zosta³a przeczytana.
+	[auto-memo] WysÅ‚ana przez Ciebie wiadomoÅ›Ä‡ do %s zostaÅ‚a przeczytana.
 
 MEMO_RSEND_USER_NOTIFICATION
-	Powiadomienie o przeczytaniu wiadomo¶ci zosta³o wys³ane do %s.
+	Powiadomienie o przeczytaniu wiadomoÅ›ci zostaÅ‚o wysÅ‚ane do %s.
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
 	CHECK nick
 
 MEMO_CHECK_NOT_READ
-	Ostatnia wys³ana przez Ciebie wiadomo¶æ
-	do %s (w %s) jest wci±¿ nieprzeczytana.
+	Ostatnia wysÅ‚ana przez Ciebie wiadomoÅ›Ä‡
+	do %s (w %s) jest wciÄ…Å¼ nieprzeczytana.
 
 MEMO_CHECK_READ
-	Ostatnia wiadomo¶æ wys³ana do %s (w %s) zosta³a przeczytana.
+	Ostatnia wiadomoÅ›Ä‡ wysÅ‚ana do %s (w %s) zostaÅ‚a przeczytana.
 
 MEMO_CHECK_NO_MEMO
-	%s nie posiada wiadomo¶ci od Ciebie.
+	%s nie posiada wiadomoÅ›ci od Ciebie.
 
 MEMO_NO_RSEND_SELF
-	Nie mo¿esz wysy³aæ wiadomo¶ci z potwierdzeniem odbioru do siebie!
+	Nie moÅ¼esz wysyÅ‚aÄ‡ wiadomoÅ›ci z potwierdzeniem odbioru do siebie!
 
 ###########################################################################
 #
@@ -2687,39 +2687,39 @@ BOT_DOES_NOT_EXIST
 	Bot %s nie istnieje.
 
 BOT_NOT_ASSIGNED
-	Musisz najpierw przydzieliæ bota do kana³u.
-	Napisz %R%S HELP ASSIGN, aby uzyskaæ wiêcej informacji.
+	Musisz najpierw przydzieliÄ‡ bota do kanaÅ‚u.
+	Napisz %R%S HELP ASSIGN, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 BOT_NOT_ON_CHANNEL
 	Nie ma bota na kanale %s.
 
 # Kick reasons (must be a single line)
 BOT_REASON_BADWORD
-	Nie u¿ywaj s³owa \"%s\" na tym kanale!
+	Nie uÅ¼ywaj sÅ‚owa \"%s\" na tym kanale!
 
 BOT_REASON_BADWORD_GENTLE
-	Uwa¿aj co piszesz!
+	UwaÅ¼aj co piszesz!
 
 BOT_REASON_BOLD
 	Nie pogrubiaj tekstu na tym kanale!
 
 BOT_REASON_CAPS
-	Wy³±cz CAPS LOCKa!
+	WyÅ‚Ä…cz CAPS LOCKa!
 
 BOT_REASON_COLOR
-	Nie u¿ywaj kolorów na tym kanale!
+	Nie uÅ¼ywaj kolorÃ³w na tym kanale!
 
 BOT_REASON_FLOOD
-	Przestañ floodowaæ!
+	PrzestaÅ„ floodowaÄ‡!
 
 BOT_REASON_REPEAT
-	Nie powtarzaj siê!
+	Nie powtarzaj siÄ™!
 
 BOT_REASON_REVERSE
-	Nie u¿ywaj odwracania kolorów!
+	Nie uÅ¼ywaj odwracania kolorÃ³w!
 
 BOT_REASON_UNDERLINE
-	Nie u¿ywaj podkre¶leñ na tym kanale!
+	Nie uÅ¼ywaj podkreÅ›leÅ„ na tym kanale!
 
 # !seen replies
 BOT_SEEN_BOT
@@ -2735,10 +2735,10 @@ BOT_SEEN_ON_CHANNEL_AS
 	%s jest teraz na kanale (jako %s)!
 
 BOT_SEEN_ON
-	Widzia³em %s tutaj %s temu.
+	WidziaÅ‚em %s tutaj %s temu.
 
 BOT_SEEN_NEVER
-	Nigdy nie widzia³em %s na tym kanale.
+	Nigdy nie widziaÅ‚em %s na tym kanale.
 
 BOT_SEEN_UNKNOWN
 	Nie wiem kim jest %s.
@@ -2750,65 +2750,65 @@ BOT_BOT_SYNTAX
 	BOT DEL nick
 
 BOT_BOT_ALREADY_EXISTS
-	Bot %s ju¿ istnieje.
+	Bot %s juÅ¼ istnieje.
 
 BOT_BOT_CREATION_FAILED
-	B³±d, nie uda³o siê utworzyæ bota.
+	BÅ‚Ä…d, nie udaÅ‚o siÄ™ utworzyÄ‡ bota.
 
 BOT_BOT_READONLY
-	Modyfikacja botów jest tymczasowo wy³±czona.
+	Modyfikacja botÃ³w jest tymczasowo wyÅ‚Ä…czona.
 
 BOT_BOT_ADDED
-	%s!%s@%s (%s) dodano do listy botów.
+	%s!%s@%s (%s) dodano do listy botÃ³w.
 
 BOT_BOT_ANY_CHANGES
-	Nic siê nie zmieni³o.
+	Nic siÄ™ nie zmieniÅ‚o.
 BOT_BOT_CHANGED
-	Bot %s zosta³ zmieniony na %s!%s@%s (%s)
+	Bot %s zostaÅ‚ zmieniony na %s!%s@%s (%s)
 
 BOT_BOT_DELETED
-	Bot %s zosta³ usuniêty.
+	Bot %s zostaÅ‚ usuniÄ™ty.
 
 # BOTLIST responses
 BOT_BOTLIST_HEADER
-	Lista botów:
+	Lista botÃ³w:
 
 BOT_BOTLIST_PRIVATE_HEADER
-	Boty zarezerwowane dla IRC operatorów:
+	Boty zarezerwowane dla IRC operatorÃ³w:
 
 BOT_BOTLIST_FOOTER
-	%d boty(ów) dostêpnych.
+	%d boty(Ã³w) dostÄ™pnych.
 
 BOT_BOTLIST_EMPTY
-	Obecnie nie ma ¿adnych botów dostêpnych.
-	Popro¶ administratora serwisów o dodanie.
+	Obecnie nie ma Å¼adnych botÃ³w dostÄ™pnych.
+	PoproÅ› administratora serwisÃ³w o dodanie.
 
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
-	ASSIGN kana³ nick
+	ASSIGN kanaÅ‚ nick
 
 BOT_ASSIGN_READONLY
-	Przydzielanie botów jest tymczasowo wy³±czone.
+	Przydzielanie botÃ³w jest tymczasowo wyÅ‚Ä…czone.
 
 BOT_ASSIGN_ALREADY
-	Bot %s jest ju¿ postawiony na %s.
+	Bot %s jest juÅ¼ postawiony na %s.
 
 BOT_ASSIGN_ASSIGNED
-	Bot %s zosta³ przypisany do %s.
+	Bot %s zostaÅ‚ przypisany do %s.
 
 # UNASSIGN responses
 BOT_UNASSIGN_SYNTAX
-	UNASSIGN kana³
+	UNASSIGN kanaÅ‚
 
 BOT_UNASSIGN_UNASSIGNED
-	Nie ma ¿adnych botów przydzielonych do %s.
+	Nie ma Å¼adnych botÃ³w przydzielonych do %s.
 
 # INFO responses
 BOT_INFO_SYNTAX
-	INFO {kana³ | nick}
+	INFO {kanaÅ‚ | nick}
 
 BOT_INFO_NOT_FOUND
-	%s nie jest prawid³ow± nazw± bota lub kana³u.
+	%s nie jest prawidÅ‚owÄ… nazwÄ… bota lub kanaÅ‚u.
 
 BOT_INFO_BOT_HEADER
 	Informacje o bocie %s:
@@ -2823,7 +2823,7 @@ BOT_INFO_BOT_CREATED
 	    Utworzony: %s
 
 BOT_INFO_BOT_USAGE
-	    Obecny na: %d kana³ach
+	    Obecny na: %d kanaÅ‚ach
 BOT_INFO_BOT_OPTIONS
 		Opcje: %s
 
@@ -2840,10 +2840,10 @@ BOT_INFO_CHAN_BOT_NONE
 	       Przydzielony bot: (brak)
 
 BOT_INFO_CHAN_KICK_BADWORDS
-	       Kopanie za s³owa: %s
+	       Kopanie za sÅ‚owa: %s
 
 BOT_INFO_CHAN_KICK_BADWORDS_BAN
-	       Kopanie za s³owa: %s (%d kop(y) do bana)
+	       Kopanie za sÅ‚owa: %s (%d kop(y) do bana)
 
 BOT_INFO_CHAN_KICK_BOLDS
 	 Kopanie za pogrubienia: %s
@@ -2885,22 +2885,22 @@ BOT_INFO_CHAN_KICK_REPEAT_OFF
 	 Kopanie za powtarzanie: %s
 
 BOT_INFO_CHAN_KICK_REVERSES
-	 Kopanie za odw kolorów: %s
+	 Kopanie za odw kolorÃ³w: %s
 
 BOT_INFO_CHAN_KICK_REVERSES_BAN
-	 Kopanie za odw kolorów: %s (%d kop(y) do bana)
+	 Kopanie za odw kolorÃ³w: %s (%d kop(y) do bana)
 
 BOT_INFO_CHAN_KICK_UNDERLINES
-	Kopanie za podkre¶lenia: %s
+	Kopanie za podkreÅ›lenia: %s
 
 BOT_INFO_CHAN_KICK_UNDERLINES_BAN
-	Kopanie za podkre¶lenia: %s (%d kop(y) do bana)
+	Kopanie za podkreÅ›lenia: %s (%d kop(y) do bana)
 
 BOT_INFO_ACTIVE
-	w³±czone
+	wÅ‚Ä…czone
 
 BOT_INFO_INACTIVE
-	wy³±czone
+	wyÅ‚Ä…czone
 
 BOT_INFO_CHAN_OPTIONS
 	             Inne opcje: %s
@@ -2928,260 +2928,260 @@ BOT_INFO_OPT_NONE
 
 # SET responses
 BOT_SET_SYNTAX
-	SET (kana³ | bot) opcja ustawienie
+	SET (kanaÅ‚ | bot) opcja ustawienie
 
 BOT_SET_DISABLED
-	Konfigurowanie bota jest tymczasowo wy³±czone.
+	Konfigurowanie bota jest tymczasowo wyÅ‚Ä…czone.
 
 BOT_SET_UNKNOWN
 	Nieznana opcja %s.
-	Napisz %R%S HELP SET, aby uzyskaæ wiêcej informacji.
+	Napisz %R%S HELP SET, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
-	SET kana³ DONTKICKOPS {ON|OFF}
+	SET kanaÅ‚ DONTKICKOPS {ON|OFF}
 
 BOT_SET_DONTKICKOPS_ON
-	Bot nie bêdzie kopa³ operatorów na kanale %s.
+	Bot nie bÄ™dzie kopaÅ‚ operatorÃ³w na kanale %s.
 
 BOT_SET_DONTKICKOPS_OFF
-	Bot bêdzie teraz kopa³ operatorów na kanale %s.
+	Bot bÄ™dzie teraz kopaÅ‚ operatorÃ³w na kanale %s.
 
 # SET DONTKICKVOICES messages
 BOT_SET_DONTKICKVOICES_SYNTAX
-	SET kana³ DONTKICKVOICES {ON|OFF}
+	SET kanaÅ‚ DONTKICKVOICES {ON|OFF}
 
 BOT_SET_DONTKICKVOICES_ON
-	Bot nie bêdzie kopa³ voiców na kanale %s.
+	Bot nie bÄ™dzie kopaÅ‚ voicÃ³w na kanale %s.
 
 BOT_SET_DONTKICKVOICES_OFF
-	Bot bêdzie kopa³ voiców na kanale %s.
+	Bot bÄ™dzie kopaÅ‚ voicÃ³w na kanale %s.
 
 # SET FANTASY messages
 BOT_SET_FANTASY_SYNTAX
-	SET kana³ FANTASY {ON|OFF}
+	SET kanaÅ‚ FANTASY {ON|OFF}
 
 BOT_SET_FANTASY_ON
-	Komendy fantasy na kanale %s zosta³y w³±czone.
+	Komendy fantasy na kanale %s zostaÅ‚y wÅ‚Ä…czone.
 
 BOT_SET_FANTASY_OFF
-	Komendy fantasy na kanale %s zosta³y wy³±czone.
+	Komendy fantasy na kanale %s zostaÅ‚y wyÅ‚Ä…czone.
 
 # SET GREET messages
 BOT_SET_GREET_SYNTAX
-	SET kana³ GREET {ON|OFF}
+	SET kanaÅ‚ GREET {ON|OFF}
 
 BOT_SET_GREET_ON
-	Witanie u¿ytkowników na kanale %s zosta³o w³±czone.
+	Witanie uÅ¼ytkownikÃ³w na kanale %s zostaÅ‚o wÅ‚Ä…czone.
 
 BOT_SET_GREET_OFF
-	Witanie u¿ytkowników na kanale %s zosta³o wy³±czone.
+	Witanie uÅ¼ytkownikÃ³w na kanale %s zostaÅ‚o wyÅ‚Ä…czone.
 
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
 	SET nick-bota NOBOT {ON|OFF}
 
 BOT_SET_NOBOT_ON
-	Opcja NOBOT zosta³a w³±czona na kanale %s.
+	Opcja NOBOT zostaÅ‚a wÅ‚Ä…czona na kanale %s.
 
 BOT_SET_NOBOT_OFF
-	Opcja NOBOT zosta³a wy³±czona na kanale %s.
+	Opcja NOBOT zostaÅ‚a wyÅ‚Ä…czona na kanale %s.
 
 # SET PRIVATE
 BOT_SET_PRIVATE_SYNTAX
 	SET nick-bota PRIVATE {ON|OFF}
 
 BOT_SET_PRIVATE_ON
-	Opcja PRIVATE bota %s zosta³a w³±czona.
+	Opcja PRIVATE bota %s zostaÅ‚a wÅ‚Ä…czona.
 
 BOT_SET_PRIVATE_OFF
-	Opcja PRIVATE bota %s zosta³a wy³±czona.
+	Opcja PRIVATE bota %s zostaÅ‚a wyÅ‚Ä…czona.
 
 # SET SYMBIOSIS
 BOT_SET_SYMBIOSIS_SYNTAX
-	SET kana³ SYMBIOSIS {ON|OFF}
+	SET kanaÅ‚ SYMBIOSIS {ON|OFF}
 
 BOT_SET_SYMBIOSIS_ON
-	Opcja SYMBIOSIS zosta³a w³±czona na kanale %s.
+	Opcja SYMBIOSIS zostaÅ‚a wÅ‚Ä…czona na kanale %s.
 
 BOT_SET_SYMBIOSIS_OFF
-	Opcja SYMBIOSIS zosta³a wy³±czona na kanale %s.
+	Opcja SYMBIOSIS zostaÅ‚a wyÅ‚Ä…czona na kanale %s.
 
 # KICK responses
 BOT_KICK_SYNTAX
-	KICK kana³ opcja {ON|OFF} [ustawienia]
+	KICK kanaÅ‚ opcja {ON|OFF} [ustawienia]
 
 BOT_KICK_DISABLED
-	Konfigurowanie kopów jest tymczasowo wy³±czone.
+	Konfigurowanie kopÃ³w jest tymczasowo wyÅ‚Ä…czone.
 
 BOT_KICK_UNKNOWN
 	Nieznana opcja %s.
-	Napisz %R%S HELP KICK, aby uzyskaæ wiêcej informacji.
+	Napisz %R%S HELP KICK, aby uzyskaÄ‡ wiÄ™cej informacji.
 
 BOT_KICK_BAD_TTB
-	%s nie mo¿e byæ wziêty jako ilo¶æ wykroczeñ do za³o¿enia bana.
+	%s nie moÅ¼e byÄ‡ wziÄ™ty jako iloÅ›Ä‡ wykroczeÅ„ do zaÅ‚oÅ¼enia bana.
 
 BOT_KICK_BADWORDS_ON
-	Bot bêdzie kopa³ za zakazane s³owa.
-	U¿yj komendy BADWORDS, aby modyfikowaæ listê s³ów.
+	Bot bÄ™dzie kopaÅ‚ za zakazane sÅ‚owa.
+	UÅ¼yj komendy BADWORDS, aby modyfikowaÄ‡ listÄ™ sÅ‚Ã³w.
 
 BOT_KICK_BADWORDS_ON_BAN
-	Bot bêdzie kopa³ za zakazane s³owa,
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
-	U¿yj komendy BADWORDS, aby modyfikowaæ listê.
+	Bot bÄ™dzie kopaÅ‚ za zakazane sÅ‚owa,
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
+	UÅ¼yj komendy BADWORDS, aby modyfikowaÄ‡ listÄ™.
 
 BOT_KICK_BADWORDS_OFF
-	Bot nie bêdzie kopa³ za zakazane s³owa.
+	Bot nie bÄ™dzie kopaÅ‚ za zakazane sÅ‚owa.
 
 BOT_KICK_BOLDS_ON
-	Bot bêdzie kopa³ za pogrubienia.
+	Bot bÄ™dzie kopaÅ‚ za pogrubienia.
 
 BOT_KICK_BOLDS_ON_BAN
-	Bot bêdzie kopa³ za pogrubienia,
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za pogrubienia,
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_BOLDS_OFF
-	Bot nie bêdzie kopa³ za pogrubienia.
+	Bot nie bÄ™dzie kopaÅ‚ za pogrubienia.
 
 BOT_KICK_CAPS_ON
-	Bot bêdzie kopa³ za CAPSa (du¿e litery
-	musz± stanowiæ %d znaków %d%% ca³ej wiadomo¶ci).
+	Bot bÄ™dzie kopaÅ‚ za CAPSa (duÅ¼e litery
+	muszÄ… stanowiÄ‡ %d znakÃ³w %d%% caÅ‚ej wiadomoÅ›ci).
 
 BOT_KICK_CAPS_ON_BAN
-	Bot bêdzie kopa³ za CAPSa (du¿e litery
-	musz± stanowiæ %d znaków %d%% ca³ej wiadomo¶ci).
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za CAPSa (duÅ¼e litery
+	muszÄ… stanowiÄ‡ %d znakÃ³w %d%% caÅ‚ej wiadomoÅ›ci).
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_CAPS_OFF
-	Bot nie bêdzie kopa³ za CAPSa.
+	Bot nie bÄ™dzie kopaÅ‚ za CAPSa.
 
 BOT_KICK_COLORS_ON
-	Bot bêdzie kopa³ za kolory.
+	Bot bÄ™dzie kopaÅ‚ za kolory.
 
 BOT_KICK_COLORS_ON_BAN
-	Bot bêdzie kopa³ za kolory,
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za kolory,
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_COLORS_OFF
-	Bot nie bêdzie kopa³ za kolory.
+	Bot nie bÄ™dzie kopaÅ‚ za kolory.
 
 BOT_KICK_FLOOD_ON
-	Bot bêdzie kopa³ za flood
+	Bot bÄ™dzie kopaÅ‚ za flood
 	(%d linii w %d sekund).
 
 BOT_KICK_FLOOD_ON_BAN
-	Bot bêdzie kopa³ za flood (%d linii w %d sekund),
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za flood (%d linii w %d sekund),
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_FLOOD_OFF
-	Bot nie bêdzie kopa³ za flood.
+	Bot nie bÄ™dzie kopaÅ‚ za flood.
 
 BOT_KICK_REPEAT_ON
-	Bot bêdzie kopa³ za powtórzenia
-	(u¿ytkowników, którzy napisz± %d razy to samo).
+	Bot bÄ™dzie kopaÅ‚ za powtÃ³rzenia
+	(uÅ¼ytkownikÃ³w, ktÃ³rzy napiszÄ… %d razy to samo).
 
 BOT_KICK_REPEAT_ON_BAN
-	Bot bêdzie kopa³ za powtórzenia
-	(u¿ytkowników, którzy napisz± %d razy to samo),
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za powtÃ³rzenia
+	(uÅ¼ytkownikÃ³w, ktÃ³rzy napiszÄ… %d razy to samo),
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_REPEAT_OFF
-	Bot nie bêdzie kopa³ za powtórzenia.
+	Bot nie bÄ™dzie kopaÅ‚ za powtÃ³rzenia.
 
 BOT_KICK_REVERSES_ON
-	Bot bêdzie kopa³ za odwracanie kolorów.
+	Bot bÄ™dzie kopaÅ‚ za odwracanie kolorÃ³w.
 
 BOT_KICK_REVERSES_ON_BAN
-	Bot bêdzie kopa³ za odwracanie kolorów,
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za odwracanie kolorÃ³w,
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_REVERSES_OFF
-	Bot nie bêdzie kopa³ za odwracanie kolorów.
+	Bot nie bÄ™dzie kopaÅ‚ za odwracanie kolorÃ³w.
 
 BOT_KICK_UNDERLINES_ON
-	Bot bêdzie kopa³ za podkre¶lenia.
+	Bot bÄ™dzie kopaÅ‚ za podkreÅ›lenia.
 
 BOT_KICK_UNDERLINES_ON_BAN
-	Bot bêdzie kopa³ za podkre¶lenia,
-	po %d kopach dla tego samego u¿ytkownika za³o¿y bana.
+	Bot bÄ™dzie kopaÅ‚ za podkreÅ›lenia,
+	po %d kopach dla tego samego uÅ¼ytkownika zaÅ‚oÅ¼y bana.
 
 BOT_KICK_UNDERLINES_OFF
-	Bot nie bêdzie kopa³ za podkre¶lenia.
+	Bot nie bÄ™dzie kopaÅ‚ za podkreÅ›lenia.
 
 # BADWORDS messages
 BOT_BADWORDS_SYNTAX
-	BADWORDS kana³ {ADD|DEL|LIST|CLEAR} [s³owo | pozycja] [SINGLE|START|END]
+	BADWORDS kanaÅ‚ {ADD|DEL|LIST|CLEAR} [sÅ‚owo | pozycja] [SINGLE|START|END]
 
 BOT_BADWORDS_DISABLED
-	Modyfikacja listy zakazanych s³ów jest tymczasowo wy³±czona.
+	Modyfikacja listy zakazanych sÅ‚Ã³w jest tymczasowo wyÅ‚Ä…czona.
 
 BOT_BADWORDS_REACHED_LIMIT
-	B³±d, mo¿esz mieæ tylko %d wpisów na li¶cie zakazanych s³ów.
+	BÅ‚Ä…d, moÅ¼esz mieÄ‡ tylko %d wpisÃ³w na liÅ›cie zakazanych sÅ‚Ã³w.
 
 BOT_BADWORDS_ALREADY_EXISTS
-	%s ju¿ istnieje na li¶cie zakazanych s³ów kana³u %s.
+	%s juÅ¼ istnieje na liÅ›cie zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_ADDED
-	%s dodano do listy zakazanych s³ów kana³u %s.
+	%s dodano do listy zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_NO_SUCH_ENTRY
-	Brak wpisów (#%d) na li¶cie zakazanych s³ów kana³u %s.
+	Brak wpisÃ³w (#%d) na liÅ›cie zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_NOT_FOUND
-	%s nie znaleziono na li¶cie zakazanych s³ów kana³u %s.
+	%s nie znaleziono na liÅ›cie zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie zakazanych s³ów kana³u %s.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_DELETED
-	%s usuniêto z listy zakazanych s³ów kana³u %s.
+	%s usuniÄ™to z listy zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_DELETED_ONE
-	Usuniêto 1 wpis z listy zakazanych s³ów kana³u %s.
+	UsuniÄ™to 1 wpis z listy zakazanych sÅ‚Ã³w kanaÅ‚u %s.
 
 BOT_BADWORDS_DELETED_SEVERAL
-	Usuniêto %d wpisów z listy zakazanych s³ów
-	kana³u %s.
+	UsuniÄ™to %d wpisÃ³w z listy zakazanych sÅ‚Ã³w
+	kanaÅ‚u %s.
 
 BOT_BADWORDS_LIST_EMPTY
-	Lista zakazanych s³ów dla kana³u %s jest pusta.
+	Lista zakazanych sÅ‚Ã³w dla kanaÅ‚u %s jest pusta.
 
 BOT_BADWORDS_LIST_HEADER
-	Lista zakazanych s³ów dla %s:
-	  Nr    S³owo                          Typ
+	Lista zakazanych sÅ‚Ã³w dla %s:
+	  Nr    SÅ‚owo                          Typ
 
 BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 
 BOT_BADWORDS_CLEAR
-	Lista zakazanych s³ów zosta³a wyczyszczona.
+	Lista zakazanych sÅ‚Ã³w zostaÅ‚a wyczyszczona.
 
 # SAY responses
 BOT_SAY_SYNTAX
-	SAY kana³ tekst
+	SAY kanaÅ‚ tekst
 
 # ACT responses
 BOT_ACT_SYNTAX
-	ACT kana³ tekst
+	ACT kanaÅ‚ tekst
 
 # Errors
 BOT_EXCEPT
-	U¿ytkownik posiada wyj±tek na kanale.
+	UÅ¼ytkownik posiada wyjÄ…tek na kanale.
 
 BOT_BAD_NICK
-	Nick bota mo¿e zawieraæ tylko prawid³owe znaki.
+	Nick bota moÅ¼e zawieraÄ‡ tylko prawidÅ‚owe znaki.
 
 BOT_BAD_HOST
-	Host bota mo¿e zawieraæ tylko prawid³owe znaki.
+	Host bota moÅ¼e zawieraÄ‡ tylko prawidÅ‚owe znaki.
 
 BOT_BAD_IDENT
-	Ident bota mo¿e zawieraæ tylko prawid³owe znaki.
+	Ident bota moÅ¼e zawieraÄ‡ tylko prawidÅ‚owe znaki.
 
 BOT_LONG_IDENT
-	Ident bota mo¿e siê sk³adaæ maksymalnie z %d znaków.
+	Ident bota moÅ¼e siÄ™ skÅ‚adaÄ‡ maksymalnie z %d znakÃ³w.
 
 BOT_LONG_HOST
-	Host bota mo¿e siê sk³adaæ maksymalnie z %d znaków.
+	Host bota moÅ¼e siÄ™ skÅ‚adaÄ‡ maksymalnie z %d znakÃ³w.
 
 ###########################################################################
 #
@@ -3190,249 +3190,249 @@ BOT_LONG_HOST
 ###########################################################################
 # General messages
 OPER_BOUNCY_MODES
-	Serwisy nie mog± zmieniaæ trybów. Czy serwery s± dobrze skonfigurowane?
+	Serwisy nie mogÄ… zmieniaÄ‡ trybÃ³w. Czy serwery sÄ… dobrze skonfigurowane?
 
 OPER_BOUNCY_MODES_U_LINE
-	Serwisy nie mog± zmieniaæ trybów. Czy U-linie serwerów s± dobrze skonfigurowane?
+	Serwisy nie mogÄ… zmieniaÄ‡ trybÃ³w. Czy U-linie serwerÃ³w sÄ… dobrze skonfigurowane?
 
 # GLOBAL responses
 OPER_GLOBAL_SYNTAX
-	GLOBAL tre¶æ wiadomo¶ci
+	GLOBAL treÅ›Ä‡ wiadomoÅ›ci
 
 # STATS responses
 OPER_STATS_UNKNOWN_OPTION
 	Nieznana opcja STATS %s.
 
 OPER_STATS_CURRENT_USERS
-	U¿ytkowników  : %d (%d operatorów)
+	UÅ¼ytkownikÃ³w  : %d (%d operatorÃ³w)
 
 OPER_STATS_MAX_USERS
-	Rekord u¿ytk. : %d (%s)
+	Rekord uÅ¼ytk. : %d (%s)
 
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
 # or more, but just add a %d to get seconds as well.
 OPER_STATS_UPTIME_DHMS
-	Serwisy dzia³aj± %d dni, %02d:%02d
+	Serwisy dziaÅ‚ajÄ… %d dni, %02d:%02d
 
 OPER_STATS_UPTIME_1DHMS
-	Serwisy dzia³aj± %d dzieñ, %02d:%02d
+	Serwisy dziaÅ‚ajÄ… %d dzieÅ„, %02d:%02d
 
 OPER_STATS_UPTIME_HMS
-	Serwisy dzia³aj± %d godzin i %d minut(y).
+	Serwisy dziaÅ‚ajÄ… %d godzin i %d minut(y).
 
 OPER_STATS_UPTIME_HM1S
-	Serwisy dzia³aj± %d godzin(y) i %d minut(y).
+	Serwisy dziaÅ‚ajÄ… %d godzin(y) i %d minut(y).
 
 OPER_STATS_UPTIME_H1MS
-	Serwisy dzia³aj± %d godzin(y) i %d minutê.
+	Serwisy dziaÅ‚ajÄ… %d godzin(y) i %d minutÄ™.
 
 OPER_STATS_UPTIME_H1M1S
-	Serwisy dzia³aj± %d godzin(y) i %d minutê.
+	Serwisy dziaÅ‚ajÄ… %d godzin(y) i %d minutÄ™.
 
 OPER_STATS_UPTIME_1HMS
-	Serwisy dzia³aj± %d godzinê i %d minut(y).
+	Serwisy dziaÅ‚ajÄ… %d godzinÄ™ i %d minut(y).
 
 OPER_STATS_UPTIME_1HM1S
-	Serwisy dzia³aj± %d godzinê i %d minut(y).
+	Serwisy dziaÅ‚ajÄ… %d godzinÄ™ i %d minut(y).
 
 OPER_STATS_UPTIME_1H1MS
-	Serwisy dzia³aj± %d godzinê i %d minutê.
+	Serwisy dziaÅ‚ajÄ… %d godzinÄ™ i %d minutÄ™.
 
 OPER_STATS_UPTIME_1H1M1S
-	Serwisy dzia³aj± %d godzinê i %d minutê.
+	Serwisy dziaÅ‚ajÄ… %d godzinÄ™ i %d minutÄ™.
 
 OPER_STATS_UPTIME_MS
-	Serwisy dzia³aj± %d minut(y) i %d sekund(y).
+	Serwisy dziaÅ‚ajÄ… %d minut(y) i %d sekund(y).
 
 OPER_STATS_UPTIME_M1S
-	Serwisy dzia³aj± %d minut(y) i %d sekundê.
+	Serwisy dziaÅ‚ajÄ… %d minut(y) i %d sekundÄ™.
 
 OPER_STATS_UPTIME_1MS
-	Serwisy dzia³aj± %d minutê i %d sekund(y).
+	Serwisy dziaÅ‚ajÄ… %d minutÄ™ i %d sekund(y).
 
 OPER_STATS_UPTIME_1M1S
-	Serwisy dzia³aj± %d minutê i %d sekundê.
+	Serwisy dziaÅ‚ajÄ… %d minutÄ™ i %d sekundÄ™.
 
 OPER_STATS_BYTES_READ
 	Odebrano      : %5d kB
 
 OPER_STATS_BYTES_WRITTEN
-	Wys³ano       : %5d kB
+	WysÅ‚ano       : %5d kB
 
 OPER_STATS_USER_MEM
-	U¿ytkownicy   : %6d rekordów, %5d kB
+	UÅ¼ytkownicy   : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_CHANNEL_MEM
-	Kana³         : %6d rekordów, %5d kB
+	KanaÅ‚         : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_GROUPS_MEM
-	Grupy NS      : %6d rekordów, %5d kB
+	Grupy NS      : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_ALIASES_MEM
-	Aliasy NS     : %6d rekordów, %5d kB
+	Aliasy NS     : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_CHANSERV_MEM
-	ChanServ      : %6d rekordów, %5d kB
+	ChanServ      : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_BOTSERV_MEM
-	BotServ       : %6d rekordów, %5d kB
+	BotServ       : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_HOSTSERV_MEM
-	HostServ      : %6d rekordów, %5d kB
+	HostServ      : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_OPERSERV_MEM
-	OperServ      : %6d rekordów, %5d kB
+	OperServ      : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_SESSIONS_MEM
-	Sesji         : %6d rekordów, %5d kB
+	Sesji         : %6d rekordÃ³w, %5d kB
 
 OPER_STATS_AKILL_COUNT
-	Aktualna ilo¶æ wpisów AKILL: %d
+	Aktualna iloÅ›Ä‡ wpisÃ³w AKILL: %d
 
 OPER_STATS_AKILL_EXPIRE_DAYS
-	Domy¶lny czas wygasania AKILL: %d dni
+	DomyÅ›lny czas wygasania AKILL: %d dni
 
 OPER_STATS_AKILL_EXPIRE_DAY
-	Domy¶lny czas wygasania AKILL: 1 dzieñ
+	DomyÅ›lny czas wygasania AKILL: 1 dzieÅ„
 
 OPER_STATS_AKILL_EXPIRE_HOURS
-	Domy¶lny czas wygasania AKILL: %d godzin(y)
+	DomyÅ›lny czas wygasania AKILL: %d godzin(y)
 
 OPER_STATS_AKILL_EXPIRE_HOUR
-	Domy¶lny czas wygasania AKILL: 1 godzina
+	DomyÅ›lny czas wygasania AKILL: 1 godzina
 
 OPER_STATS_AKILL_EXPIRE_MINS
-	Domy¶lny czas wygasania AKILL: %d minut(y)
+	DomyÅ›lny czas wygasania AKILL: %d minut(y)
 
 OPER_STATS_AKILL_EXPIRE_MIN
-	Domy¶lny czas wygasania AKILL: 1 minuta
+	DomyÅ›lny czas wygasania AKILL: 1 minuta
 
 OPER_STATS_AKILL_EXPIRE_NONE
-	Domy¶lny czas wygasania AKILL: nie wygasa
+	DomyÅ›lny czas wygasania AKILL: nie wygasa
 
 OPER_STATS_SGLINE_COUNT
-	Aktualna ilo¶æ wpisów SGLINE: %d
+	Aktualna iloÅ›Ä‡ wpisÃ³w SGLINE: %d
 
 OPER_STATS_SGLINE_EXPIRE_DAYS
-	Domy¶lny czas wygasania SGLINE: %d dni
+	DomyÅ›lny czas wygasania SGLINE: %d dni
 
 OPER_STATS_SGLINE_EXPIRE_DAY
-	Domy¶lny czas wygasania SGLINE: 1 dzieñ
+	DomyÅ›lny czas wygasania SGLINE: 1 dzieÅ„
 
 OPER_STATS_SGLINE_EXPIRE_HOURS
-	Domy¶lny czas wygasania SGLINE: %d godzin(y)
+	DomyÅ›lny czas wygasania SGLINE: %d godzin(y)
 
 OPER_STATS_SGLINE_EXPIRE_HOUR
-	Domy¶lny czas wygasania SGLINE: 1 godzina
+	DomyÅ›lny czas wygasania SGLINE: 1 godzina
 
 OPER_STATS_SGLINE_EXPIRE_MINS
-	Domy¶lny czas wygasania SGLINE: %d minut(y)
+	DomyÅ›lny czas wygasania SGLINE: %d minut(y)
 
 OPER_STATS_SGLINE_EXPIRE_MIN
-	Domy¶lny czas wygasania SGLINE: 1 minuta
+	DomyÅ›lny czas wygasania SGLINE: 1 minuta
 
 OPER_STATS_SGLINE_EXPIRE_NONE
-	Domy¶lny czas wygasania SGLINE: nie wygasa
+	DomyÅ›lny czas wygasania SGLINE: nie wygasa
 
 OPER_STATS_SQLINE_COUNT
-	Aktualna ilo¶æ wpisów SQLINE: %d
+	Aktualna iloÅ›Ä‡ wpisÃ³w SQLINE: %d
 
 OPER_STATS_SQLINE_EXPIRE_DAYS
-	Domy¶lny czas wygasania SQLINE: %d dni
+	DomyÅ›lny czas wygasania SQLINE: %d dni
 
 OPER_STATS_SQLINE_EXPIRE_DAY
-	Domy¶lny czas wygasania SQLINE: 1 dzieñ
+	DomyÅ›lny czas wygasania SQLINE: 1 dzieÅ„
 
 OPER_STATS_SQLINE_EXPIRE_HOURS
-	Domy¶lny czas wygasania SQLINE: %d godzin(y)
+	DomyÅ›lny czas wygasania SQLINE: %d godzin(y)
 
 OPER_STATS_SQLINE_EXPIRE_HOUR
-	Domy¶lny czas wygasania SQLINE: 1 godzina
+	DomyÅ›lny czas wygasania SQLINE: 1 godzina
 
 OPER_STATS_SQLINE_EXPIRE_MINS
-	Domy¶lny czas wygasania SQLINE: %d minut(y)
+	DomyÅ›lny czas wygasania SQLINE: %d minut(y)
 
 OPER_STATS_SQLINE_EXPIRE_MIN
-	Domy¶lny czas wygasania SQLINE: 1 minuta
+	DomyÅ›lny czas wygasania SQLINE: 1 minuta
 
 OPER_STATS_SQLINE_EXPIRE_NONE
-	Domy¶lny czas wygasania SQLINE: nie wygasa
+	DomyÅ›lny czas wygasania SQLINE: nie wygasa
 
 OPER_STATS_SZLINE_COUNT
-	Aktualna ilo¶æ wpisów SZLINE: %d
+	Aktualna iloÅ›Ä‡ wpisÃ³w SZLINE: %d
 
 OPER_STATS_SZLINE_EXPIRE_DAYS
-	Domy¶lny czas wygasania SZLINE: %d dni
+	DomyÅ›lny czas wygasania SZLINE: %d dni
 
 OPER_STATS_SZLINE_EXPIRE_DAY
-	Domy¶lny czas wygasania SZLINE: 1 dzieñ
+	DomyÅ›lny czas wygasania SZLINE: 1 dzieÅ„
 
 OPER_STATS_SZLINE_EXPIRE_HOURS
-	Domy¶lny czas wygasania SZLINE: %d godzin(y)
+	DomyÅ›lny czas wygasania SZLINE: %d godzin(y)
 
 OPER_STATS_SZLINE_EXPIRE_HOUR
-	Domy¶lny czas wygasania SZLINE: 1 godzina
+	DomyÅ›lny czas wygasania SZLINE: 1 godzina
 
 OPER_STATS_SZLINE_EXPIRE_MINS
-	Domy¶lny czas wygasania SZLINE: %d minut(y)
+	DomyÅ›lny czas wygasania SZLINE: %d minut(y)
 
 OPER_STATS_SZLINE_EXPIRE_MIN
-	Domy¶lny czas wygasania SZLINE: 1 minuta
+	DomyÅ›lny czas wygasania SZLINE: 1 minuta
 
 OPER_STATS_SZLINE_EXPIRE_NONE
-	Domy¶lny czas wygasania SZLINE: nie wygasa
+	DomyÅ›lny czas wygasania SZLINE: nie wygasa
 
 OPER_STATS_RESET
-	Statystyki zosta³y zresetowane.
+	Statystyki zostaÅ‚y zresetowane.
 
 OPER_STATS_UPLINK_SERVER
-	Pod³±czony do: %s
+	PodÅ‚Ä…czony do: %s
 
 OPER_STATS_UPLINK_CAPAB
 	Uplink capab  : %s
 
 OPER_STATS_UPLINK_SERVER_COUNT
-	Serwerów      : %d
+	SerwerÃ³w      : %d
 
 # MODE responses
 OPER_MODE_SYNTAX
-	MODE kana³ flagi
+	MODE kanaÅ‚ flagi
 
 # UMODE respondes
 OPER_UMODE_SYNTAX
 	UMODE nick flagi
 
 OPER_UMODE_SUCCESS
-	Zmieniono flagi u¿ytkownika dla %s.
+	Zmieniono flagi uÅ¼ytkownika dla %s.
 
 OPER_UMODE_CHANGED
-	%s zmienia Twoje flagi u¿ytkownika.
+	%s zmienia Twoje flagi uÅ¼ytkownika.
 
 # OLINE responses
 OPER_OLINE_SYNTAX
 	OLINE nick flagi
 
 OPER_OLINE_SUCCESS
-	Flagi operatora %s zosta³y przyznane dla %s.
+	Flagi operatora %s zostaÅ‚y przyznane dla %s.
 
 OPER_OLINE_IRCOP
-	Jeste¶ teraz IRC operatorem.
+	JesteÅ› teraz IRC operatorem.
 
 # CLEARMODES responses
 OPER_CLEARMODES_SYNTAX
-	CLEARMODES kana³ [ALL]
+	CLEARMODES kanaÅ‚ [ALL]
 
 OPER_CLEARMODES_DONE
-	Tryby i bany zosta³y wyczyszczone na kanale %s.
+	Tryby i bany zostaÅ‚y wyczyszczone na kanale %s.
 
 OPER_CLEARMODES_ALL_DONE
-	Wszystkie tryby zosta³y wyczyszczone na kanale %s.
+	Wszystkie tryby zostaÅ‚y wyczyszczone na kanale %s.
 
 # KICK responses
 OPER_KICK_SYNTAX
-	KICK kana³ nick powód
+	KICK kanaÅ‚ nick powÃ³d
 
 # SVSNICK responses
 OPER_SVSNICK_SYNTAX
@@ -3446,111 +3446,111 @@ OPER_ADMIN_SYNTAX
 	ADMIN {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 OPER_ADMIN_SKELETON
-	Serwisy s± w trybie szkieletowym, komenda ADMIN nie jest dostêpna.
+	Serwisy sÄ… w trybie szkieletowym, komenda ADMIN nie jest dostÄ™pna.
 
 OPER_ADMIN_EXISTS
-	%s ju¿ istnieje na li¶cie administratorów serwisów.
+	%s juÅ¼ istnieje na liÅ›cie administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d administratorów serwisów.
+	MoÅ¼esz mieÄ‡ tylko %d administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_ADDED
-	%s dodano do listy administratorów serwisów.
+	%s dodano do listy administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_NOT_FOUND
-	%s nie znaleziono na li¶cie administratorów serwisów.
+	%s nie znaleziono na liÅ›cie administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie administratorów serwisów.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_DELETED
-	%s usuniêto z listy administratorów serwisów.
+	%s usuniÄ™to z listy administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_DELETED_ONE
-	Usuniêto 1 wpis z listy administratorów serwisów.
+	UsuniÄ™to 1 wpis z listy administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy administratorów serwisów.
+	UsuniÄ™to %d wpisy(Ã³w) z listy administratorÃ³w serwisÃ³w.
 
 OPER_ADMIN_LIST_EMPTY
-	Lista administratorów serwisów jest pusta.
+	Lista administratorÃ³w serwisÃ³w jest pusta.
 
 OPER_ADMIN_LIST_HEADER
-	Lista administratorów serwisów:
+	Lista administratorÃ³w serwisÃ³w:
 	  Nr    Nick
 
 OPER_ADMIN_LIST_FORMAT
 	  %3d   %s
 
 OPER_ADMIN_CLEAR
-	Lista administratorów serwisów zosta³a wyczyszczona.
+	Lista administratorÃ³w serwisÃ³w zostaÅ‚a wyczyszczona.
 
 OPER_ADMIN_MOVED
-	%s przeniesiono na listê administratorów serwisów.
+	%s przeniesiono na listÄ™ administratorÃ³w serwisÃ³w.
 
 # OPER responses
 OPER_OPER_SYNTAX
 	OPER {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 OPER_OPER_SKELETON
-	Serwisy s± w trybie szkieletowym, komenda OPER nie jest dostêpna.
+	Serwisy sÄ… w trybie szkieletowym, komenda OPER nie jest dostÄ™pna.
 
 OPER_OPER_EXISTS
-	%s ju¿ istnieje na li¶cie operatorów serwisów.
+	%s juÅ¼ istnieje na liÅ›cie operatorÃ³w serwisÃ³w.
 
 OPER_OPER_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d operatorów serwisów.
+	MoÅ¼esz mieÄ‡ tylko %d operatorÃ³w serwisÃ³w.
 
 OPER_OPER_ADDED
-	%s dodano do listy operatorów serwisów.
+	%s dodano do listy operatorÃ³w serwisÃ³w.
 
 OPER_OPER_NOT_FOUND
-	%s nie znaleziono na li¶cie operatorów serwisów.
+	%s nie znaleziono na liÅ›cie operatorÃ³w serwisÃ³w.
 
 OPER_OPER_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie operatorów serwisów.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie operatorÃ³w serwisÃ³w.
 
 OPER_OPER_DELETED
-	%s usuniêto z listy operatorów serwisów.
+	%s usuniÄ™to z listy operatorÃ³w serwisÃ³w.
 
 OPER_OPER_DELETED_ONE
-	Usuniêto 1 wpis z listy operatorów serwisów.
+	UsuniÄ™to 1 wpis z listy operatorÃ³w serwisÃ³w.
 
 OPER_OPER_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy operatorów serwisów.
+	UsuniÄ™to %d wpisy(Ã³w) z listy operatorÃ³w serwisÃ³w.
 
 OPER_OPER_LIST_EMPTY
-	Lista operatorów serwisów jest pusta.
+	Lista operatorÃ³w serwisÃ³w jest pusta.
 
 OPER_OPER_LIST_HEADER
-	Lista operatorów serwisów:
+	Lista operatorÃ³w serwisÃ³w:
 	  Nr    Nick
 
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 
 OPER_OPER_CLEAR
-	Lista operatorów serwisów zosta³a wyczyszczona.
+	Lista operatorÃ³w serwisÃ³w zostaÅ‚a wyczyszczona.
 
 OPER_OPER_MOVED
-	%s przeniesiono na listê operatorów serwisów.
+	%s przeniesiono na listÄ™ operatorÃ³w serwisÃ³w.
 
 # AKILL responses
 OPER_AKILL_SYNTAX
-	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powód]]
+	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powÃ³d]]
 
 OPER_AKILL_EXISTS
-	%s ju¿ istnieje na li¶cie AKILL.
+	%s juÅ¼ istnieje na liÅ›cie AKILL.
 
 OPER_AKILL_ALREADY_COVERED
-	%s ju¿ jest obejmowane przez %s.
+	%s juÅ¼ jest obejmowane przez %s.
 
 OPER_AKILL_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na li¶cie AKILL.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na liÅ›cie AKILL.
 
 OPER_AKILL_NO_NICK
-	Uwaga: maska AKILL nie mo¿e zawieraæ nicków.
-	Upewnij siê, ¿e nie dodajesz czê¶ci nicka.
+	Uwaga: maska AKILL nie moÅ¼e zawieraÄ‡ nickÃ³w.
+	Upewnij siÄ™, Å¼e nie dodajesz czÄ™Å›ci nicka.
 
 OPER_AKILL_ADDED
 	%s dodano do listy AKILL.
@@ -3559,26 +3559,26 @@ OPER_AKILL_CHANGED
 	Zmieniono czas wygasania %s.
 
 OPER_AKILL_NOT_FOUND
-	%s nie znaleziono na li¶cie AKILL.
+	%s nie znaleziono na liÅ›cie AKILL.
 
 OPER_AKILL_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie AKILL.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie AKILL.
 
 OPER_AKILL_DELETED
-	%s usuniêto z listy AKILL.
+	%s usuniÄ™to z listy AKILL.
 
 OPER_AKILL_DELETED_ONE
-	Usuniêto 1 wpis z listy AKILL.
+	UsuniÄ™to 1 wpis z listy AKILL.
 
 OPER_AKILL_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy AKILL.
+	UsuniÄ™to %d wpisy(Ã³w) z listy AKILL.
 
 OPER_AKILL_LIST_EMPTY
 	Lista AKILL jest pusta.
 
 OPER_AKILL_LIST_HEADER
 	Aktualna lista AKILL:
-	  Nr    Maska                             Powód
+	  Nr    Maska                             PowÃ³d
 
 OPER_AKILL_LIST_FORMAT
 	  %3d   %-32s  %s
@@ -3592,26 +3592,26 @@ OPER_AKILL_VIEW_FORMAT
 	      %s
 
 OPER_AKILL_CLEAR
-	Lista AKILL zosta³a wyczyszczona.
+	Lista AKILL zostaÅ‚a wyczyszczona.
 
 OPER_CHANKILL_SYNTAX
-	CHANKILL [+czas-trwania] {#kana³} [powód]
+	CHANKILL [+czas-trwania] {#kanaÅ‚} [powÃ³d]
 
 # SGLINE responses
 OPER_SGLINE_SYNTAX
-	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powód]]
+	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powÃ³d]]
 
 OPER_SGLINE_UNSUPPORTED
-	Komenda SGLINE nie jest dostêpna w tej sieci.
+	Komenda SGLINE nie jest dostÄ™pna w tej sieci.
 
 OPER_SGLINE_EXISTS
-	%s ju¿ istnieje na li¶cie SGLINE.
+	%s juÅ¼ istnieje na liÅ›cie SGLINE.
 
 OPER_SGLINE_ALREADY_COVERED
-	%s ju¿ jest obejmowane przez %s.
+	%s juÅ¼ jest obejmowane przez %s.
 
 OPER_SGLINE_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na li¶cie SGLINE.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na liÅ›cie SGLINE.
 
 OPER_SGLINE_ADDED
 	%s dodano do listy SGLINE.
@@ -3620,26 +3620,26 @@ OPER_SGLINE_CHANGED
 	Zmieniono czas wygasania %s.
 
 OPER_SGLINE_NOT_FOUND
-	%s nie znaleziono na li¶cie SGLINE.
+	%s nie znaleziono na liÅ›cie SGLINE.
 
 OPER_SGLINE_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie SGLINE.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie SGLINE.
 
 OPER_SGLINE_DELETED
-	%s usuniêto z listy SGLINE.
+	%s usuniÄ™to z listy SGLINE.
 
 OPER_SGLINE_DELETED_ONE
-	Usuniêto 1 wpis z listy SGLINE.
+	UsuniÄ™to 1 wpis z listy SGLINE.
 
 OPER_SGLINE_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy SGLINE.
+	UsuniÄ™to %d wpisy(Ã³w) z listy SGLINE.
 
 OPER_SGLINE_LIST_EMPTY
 	Lista SGLINE jest pusta.
 
 OPER_SGLINE_LIST_HEADER
 	Aktualna lista SGLINE:
-	  Nr    Maska                             Powód
+	  Nr    Maska                             PowÃ³d
 
 OPER_SGLINE_LIST_FORMAT
 	  %3d   %-32s  %s
@@ -3653,23 +3653,23 @@ OPER_SGLINE_VIEW_FORMAT
 	      %s
 
 OPER_SGLINE_CLEAR
-	Lista SGLINE zosta³a wyczyszczona.
+	Lista SGLINE zostaÅ‚a wyczyszczona.
 
 # SQLINE responses
 OPER_SQLINE_SYNTAX
-	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powód]]
+	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powÃ³d]]
 
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	Kana³owe SQLINE nie jest obs³ugiwane przez Twoje ircd.
+	KanaÅ‚owe SQLINE nie jest obsÅ‚ugiwane przez Twoje ircd.
 
 OPER_SQLINE_EXISTS
-	%s ju¿ istnieje na li¶cie SQLINE.
+	%s juÅ¼ istnieje na liÅ›cie SQLINE.
 
 OPER_SQLINE_ALREADY_COVERED
-	%s ju¿ jest obejmowane przez %s.
+	%s juÅ¼ jest obejmowane przez %s.
 
 OPER_SQLINE_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na li¶cie SQLINE.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na liÅ›cie SQLINE.
 
 OPER_SQLINE_ADDED
 	%s dodano do listy SQLINE.
@@ -3678,26 +3678,26 @@ OPER_SQLINE_CHANGED
 	Zmieniono czas wygasania %s.
 
 OPER_SQLINE_NOT_FOUND
-	%s nie znaleziono na li¶cie SQLINE.
+	%s nie znaleziono na liÅ›cie SQLINE.
 
 OPER_SQLINE_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie SQLINE.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie SQLINE.
 
 OPER_SQLINE_DELETED
-	%s usuniêto z listy SQLINE.
+	%s usuniÄ™to z listy SQLINE.
 
 OPER_SQLINE_DELETED_ONE
-	Usuniêto 1 wpis z listy SQLINE.
+	UsuniÄ™to 1 wpis z listy SQLINE.
 
 OPER_SQLINE_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy SQLINE.
+	UsuniÄ™to %d wpisy(Ã³w) z listy SQLINE.
 
 OPER_SQLINE_LIST_EMPTY
 	Lista SQLINE jest pusta.
 
 OPER_SQLINE_LIST_HEADER
 	Aktualna lista SQLINE:
-	  Nr    Maska                             Powód
+	  Nr    Maska                             PowÃ³d
 
 OPER_SQLINE_LIST_FORMAT
 	  %3d   %-32s  %s
@@ -3711,26 +3711,26 @@ OPER_SQLINE_VIEW_FORMAT
 	      %s
 
 OPER_SQLINE_CLEAR
-	Lista SQLINE zosta³a wyczyszczona.
+	Lista SQLINE zostaÅ‚a wyczyszczona.
 
 # SZLINE responses
 OPER_SZLINE_SYNTAX
-	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powód]]
+	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+czas-trwania] {maska | pozycja} [powÃ³d]]
 
 OPER_SZLINE_UNSUPPORTED
-	Komenda SZLINE nie jest dostêpna w tej sieci.
+	Komenda SZLINE nie jest dostÄ™pna w tej sieci.
 
 OPER_SZLINE_EXISTS
-	%s ju¿ istnieje na li¶cie SZLINE.
+	%s juÅ¼ istnieje na liÅ›cie SZLINE.
 
 OPER_SZLINE_ALREADY_COVERED
-	%s ju¿ jest obejmowane przez %s.
+	%s juÅ¼ jest obejmowane przez %s.
 
 OPER_SZLINE_REACHED_LIMIT
-	Mo¿esz mieæ tylko %d wpisów na li¶cie SZLINE.
+	MoÅ¼esz mieÄ‡ tylko %d wpisÃ³w na liÅ›cie SZLINE.
 
 OPER_SZLINE_ONLY_IPS
-	Uwaga: mo¿esz dodawaæ jedynie maski IP do listy SZLINE.
+	Uwaga: moÅ¼esz dodawaÄ‡ jedynie maski IP do listy SZLINE.
 
 OPER_SZLINE_ADDED
 	%s dodano do listy SZLINE.
@@ -3739,26 +3739,26 @@ OPER_SZLINE_CHANGED
 	Zmieniono czas wygasania %s.
 
 OPER_SZLINE_NOT_FOUND
-	%s nie znaleziono na li¶cie SZLINE.
+	%s nie znaleziono na liÅ›cie SZLINE.
 
 OPER_SZLINE_NO_MATCH
-	Nie znaleziono pasuj±cych wpisów na li¶cie SZLINE.
+	Nie znaleziono pasujÄ…cych wpisÃ³w na liÅ›cie SZLINE.
 
 OPER_SZLINE_DELETED
-	%s usuniêto z listy SZLINE.
+	%s usuniÄ™to z listy SZLINE.
 
 OPER_SZLINE_DELETED_ONE
-	Usuniêto 1 wpis z listy SZLINE.
+	UsuniÄ™to 1 wpis z listy SZLINE.
 
 OPER_SZLINE_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy SZLINE.
+	UsuniÄ™to %d wpisy(Ã³w) z listy SZLINE.
 
 OPER_SZLINE_LIST_EMPTY
 	Lista SZLINE jest pusta.
 
 OPER_SZLINE_LIST_HEADER
 	Aktualna lista SZLINE:
-	  Nr    Maska                             Powód
+	  Nr    Maska                             PowÃ³d
 
 OPER_SZLINE_LIST_FORMAT
 	  %3d   %-32s  %s
@@ -3772,105 +3772,105 @@ OPER_SZLINE_VIEW_FORMAT
 	      %s
 
 OPER_SZLINE_CLEAR
-	Lista SZLINE zosta³a wyczyszczona.
+	Lista SZLINE zostaÅ‚a wyczyszczona.
 
 # SET responses
 OPER_SET_SYNTAX
 	SET opcja ustawienie
 
 OPER_SET_IGNORE_ON
-	Opcja IGNORE zosta³a w³±czona.
+	Opcja IGNORE zostaÅ‚a wÅ‚Ä…czona.
 
 OPER_SET_IGNORE_OFF
-	Opcja IGNORE zosta³a wy³±czona.
+	Opcja IGNORE zostaÅ‚a wyÅ‚Ä…czona.
 
 OPER_SET_IGNORE_ERROR
-	Parametrem opcji IGNORE musi byæ ON albo OFF.
+	Parametrem opcji IGNORE musi byÄ‡ ON albo OFF.
 
 OPER_SET_READONLY_ON
-	Serwisy s± teraz w trybie tylko-do-odczytu.
+	Serwisy sÄ… teraz w trybie tylko-do-odczytu.
 
 OPER_SET_READONLY_OFF
-	Serwisy s± teraz w trybie odczyt-zapis.
+	Serwisy sÄ… teraz w trybie odczyt-zapis.
 
 OPER_SET_READONLY_ERROR
-	Parametrem opcji READONLY musi byæ ON albo OFF.
+	Parametrem opcji READONLY musi byÄ‡ ON albo OFF.
 
 OPER_SET_LOGCHAN_ON
-	Serwisy bêd± wysy³aæ wiadomo¶ci na kana³ %s.
+	Serwisy bÄ™dÄ… wysyÅ‚aÄ‡ wiadomoÅ›ci na kanaÅ‚ %s.
 
 OPER_SET_LOGCHAN_OFF
-	Serwisy nie bêd± ju¿ d³u¿ej wysy³aæ wiadomo¶ci na kana³.
+	Serwisy nie bÄ™dÄ… juÅ¼ dÅ‚uÅ¼ej wysyÅ‚aÄ‡ wiadomoÅ›ci na kanaÅ‚.
 
 OPER_SET_LOGCHAN_ERROR
-	Parametrem dla LOGCHAN musi byæ ON albo OFF.
-	Ponadto kana³ logowania musi byæ zdefiniowany w pliku konfiguracyjnym.
+	Parametrem dla LOGCHAN musi byÄ‡ ON albo OFF.
+	Ponadto kanaÅ‚ logowania musi byÄ‡ zdefiniowany w pliku konfiguracyjnym.
 
 OPER_SET_DEBUG_ON
-	Serwisy s± teraz w trybie debugowania.
+	Serwisy sÄ… teraz w trybie debugowania.
 
 OPER_SET_DEBUG_OFF
-	Serwisy nie s± ju¿ w trybie debugowania.
+	Serwisy nie sÄ… juÅ¼ w trybie debugowania.
 
 OPER_SET_DEBUG_LEVEL
-	Serwisy s± teraz w trybie debugowania (poziom %d).
+	Serwisy sÄ… teraz w trybie debugowania (poziom %d).
 
 OPER_SET_DEBUG_ERROR
-	Parametrem opcji DEBUG musi byæ ON, OFF albo liczba dodatnia.
+	Parametrem opcji DEBUG musi byÄ‡ ON, OFF albo liczba dodatnia.
 
 OPER_SET_NOEXPIRE_ON
-	Serwisy nie s± ju¿ w trybie wygasania.
+	Serwisy nie sÄ… juÅ¼ w trybie wygasania.
 
 OPER_SET_NOEXPIRE_OFF
-	Serwisy s± teraz w trybie wygasania.
+	Serwisy sÄ… teraz w trybie wygasania.
 
 OPER_SET_NOEXPIRE_ERROR
-	Parametrem opcji NOEXPIRE musi byæ ON albo OFF.
+	Parametrem opcji NOEXPIRE musi byÄ‡ ON albo OFF.
 
 OPER_SET_UNKNOWN_OPTION
 	Nieznana opcja %s.
 
 OPER_SET_SQL_ON
-	Obs³uga SQL zosta³a w³±czona.
+	ObsÅ‚uga SQL zostaÅ‚a wÅ‚Ä…czona.
 
 OPER_SET_SQL_OFF
-	Obs³uga SQL zosta³a wy³±czona.
+	ObsÅ‚uga SQL zostaÅ‚a wyÅ‚Ä…czona.
 
 OPER_SET_SQL_ERROR
-	Parametrem opcji SQL musi byæ ON albo OFF.
+	Parametrem opcji SQL musi byÄ‡ ON albo OFF.
 
 OPER_SET_SQL_ERROR_INIT
-	B³±d podczas inicjacji SQL, sprawd¼ logi.
+	BÅ‚Ä…d podczas inicjacji SQL, sprawdÅº logi.
 
 OPER_SET_SQL_ERROR_DISABLED
 	SQL nie jest skonfigurowany dla tej sieci.
-	Wprowad¼ zmiany w pliku konfiguracyjnym.
+	WprowadÅº zmiany w pliku konfiguracyjnym.
 
 OPER_SET_LIST_OPTION_ON
-	%s jest w³±czone
+	%s jest wÅ‚Ä…czone
 
 OPER_SET_LIST_OPTION_OFF
-	%s jest wy³±czone
+	%s jest wyÅ‚Ä…czone
 
 # NOOP responses
 OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} serwer
 
 OPER_NOOP_SET
-	Wszystkie O:linie %s zosta³y usuniête.
+	Wszystkie O:linie %s zostaÅ‚y usuniÄ™te.
 
 OPER_NOOP_REVOKE
-	Wszystkie O:linie %s zosta³y zresetowane.
+	Wszystkie O:linie %s zostaÅ‚y zresetowane.
 
 # JUPE responses
 OPER_JUPE_SYNTAX
-	JUPE serwer [powód]
+	JUPE serwer [powÃ³d]
 
 OPER_JUPE_HOST_ERROR
-	Proszê u¿yæ prawid³owej nazwy serwera.
+	ProszÄ™ uÅ¼yÄ‡ prawidÅ‚owej nazwy serwera.
 
 OPER_JUPE_INVALID_SERVER
-	Nie mo¿na wykluczyæ samych serwisów lub uplinka serwisów.
+	Nie moÅ¼na wykluczyÄ‡ samych serwisÃ³w lub uplinka serwisÃ³w.
 
 # RAW responses
 OPER_RAW_SYNTAX
@@ -3882,95 +3882,95 @@ OPER_UPDATING
 
 # RELOAD responses
 OPER_RELOAD
-	Plik konfiguracyjny serwisów zosta³ prze³adowany.
+	Plik konfiguracyjny serwisÃ³w zostaÅ‚ przeÅ‚adowany.
 
 # RESTART responses
 OPER_CANNOT_RESTART
-	Nie zdefiniowano SERVICES_BIN; nie mogê restartowaæ.
-	Uruchom ponownie skrypt configure i przekompiluj serwisy, aby w³±czyæ komendê RESTART.
+	Nie zdefiniowano SERVICES_BIN; nie mogÄ™ restartowaÄ‡.
+	Uruchom ponownie skrypt configure i przekompiluj serwisy, aby wÅ‚Ä…czyÄ‡ komendÄ™ RESTART.
 
 # IGNORE respondes
 OPER_IGNORE_SYNTAX
 	IGNORE {ADD|DEL|LIST|CLEAR} [czas] [nick | maska]
 
 OPER_IGNORE_VALID_TIME
-	Musisz podaæ prawid³ow± liczbê dla czasu.
+	Musisz podaÄ‡ prawidÅ‚owÄ… liczbÄ™ dla czasu.
 
 OPER_IGNORE_TIME_DONE
-	Nick %s bêdzie ignorowany przez %s.
+	Nick %s bÄ™dzie ignorowany przez %s.
 
 OPER_IGNORE_PERM_DONE
-	Nick %s bêdzie stale ignorowany.
+	Nick %s bÄ™dzie stale ignorowany.
 
 OPER_IGNORE_DEL_DONE
-	Nick %s nie bêdzie ignorowany.
+	Nick %s nie bÄ™dzie ignorowany.
 
 OPER_IGNORE_LIST
 	Lista ignorowanych przez serwisy:
 
 OPER_IGNORE_LIST_NOMATCH
-	%s nie znaleziono na li¶cie ignorowanych.
+	%s nie znaleziono na liÅ›cie ignorowanych.
 
 OPER_IGNORE_LIST_EMPTY
 	Lista ignorowanych jest pusta.
 
 OPER_IGNORE_LIST_CLEARED
-	Lista ignorowanych zosta³a wyczyszczona.
+	Lista ignorowanych zostaÅ‚a wyczyszczona.
 
 # KILLCLONES responses
 OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 
 OPER_KILLCLONES_UNKNOWN_NICK
-	Nie mogê znale¼æ u¿ytkownika %s.
+	Nie mogÄ™ znaleÅºÄ‡ uÅ¼ytkownika %s.
 
 # CHANLIST responses
 OPER_CHANLIST_HEADER
-	Lista kana³ów:
-	Nazwa                Tryby u¿yt.   Temat
+	Lista kanaÅ‚Ã³w:
+	Nazwa                Tryby uÅ¼yt.   Temat
 
 OPER_CHANLIST_HEADER_USER
-	Lista kana³ów %s:
-	Nazwa                Tryby u¿yt.   Temat
+	Lista kanaÅ‚Ã³w %s:
+	Nazwa                Tryby uÅ¼yt.   Temat
 
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 
 OPER_CHANLIST_END
-	Koniec listy kana³ów.
+	Koniec listy kanaÅ‚Ã³w.
 
 # USERLIST responses
 OPER_USERLIST_HEADER
-	Lista u¿ytkowników:
+	Lista uÅ¼ytkownikÃ³w:
 	Nick                 Maska
 
 OPER_USERLIST_HEADER_CHAN
-	Lista u¿ytkowników %s:
+	Lista uÅ¼ytkownikÃ³w %s:
 	Nick                 Maska
 
 OPER_USERLIST_RECORD
 	%-20s %s@%s
 
 OPER_USERLIST_END
-	Koniec listy u¿ytkowników.
+	Koniec listy uÅ¼ytkownikÃ³w.
 
 OPER_SUPER_ADMIN_ON
-	Jeste¶ teraz super-administratorem.
+	JesteÅ› teraz super-administratorem.
 
 OPER_SUPER_ADMIN_OFF
-	Nie jeste¶ ju¿ d³u¿ej super-administratorem.
+	Nie jesteÅ› juÅ¼ dÅ‚uÅ¼ej super-administratorem.
 
 OPER_SUPER_ADMIN_SYNTAX
-	Parametrem dla opcji SuperAdmin musi byæ ON lub OFF (musi byæ w³±czona w pliku konfiguracyjnym)
+	Parametrem dla opcji SuperAdmin musi byÄ‡ ON lub OFF (musi byÄ‡ wÅ‚Ä…czona w pliku konfiguracyjnym)
 
 OPER_SUPER_ADMIN_WALL_ON
 	%s jest teraz super-administratorem
 
 OPER_SUPER_ADMIN_WALL_OFF
-	%s nie jest ju¿ d³u¿ej super-administratorem
+	%s nie jest juÅ¼ dÅ‚uÅ¼ej super-administratorem
 
 OPER_SUPER_ADMIN_ONLY
-	Tylko super-administratorzy mog± u¿ywaæ tej komendy.
+	Tylko super-administratorzy mogÄ… uÅ¼ywaÄ‡ tej komendy.
 
 OPER_STAFF_LIST_HEADER
 	 Na Poziom Nick
@@ -3986,13 +3986,13 @@ OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 
 OPER_DEFCON_DENIED
-	Serwisy s± w trybie defcon, spróbuj ponownie pó¼niej.
+	Serwisy sÄ… w trybie defcon, sprÃ³buj ponownie pÃ³Åºniej.
 
 OPER_DEFCON_NO_CONF
-	System defcon musi byæ w³±czony w pliku konfiguracyjnym.
+	System defcon musi byÄ‡ wÅ‚Ä…czony w pliku konfiguracyjnym.
 
 OPER_DEFCON_CHANGED
-	Serwisy s± teraz w systemie DEFCON %d
+	Serwisy sÄ… teraz w systemie DEFCON %d
 
 OPER_DEFCON_WALL
 	%s zmieniono poziom DEFCON na %d
@@ -4002,19 +4002,19 @@ DEFCON_GLOBAL
 
 # Module strings
 OPER_MODULE_LOADED
-	Modu³ %s zosta³ za³adowany.
+	ModuÅ‚ %s zostaÅ‚ zaÅ‚adowany.
 
 OPER_MODULE_UNLOADED
-	Modu³ %s zosta³ wy³adowany.
+	ModuÅ‚ %s zostaÅ‚ wyÅ‚adowany.
 
 OPER_MODULE_LOAD_FAIL
-	Nie mo¿na za³adowaæ modu³u %s
+	Nie moÅ¼na zaÅ‚adowaÄ‡ moduÅ‚u %s
 
 OPER_MODULE_REMOVE_FAIL
-	Nie mo¿na wy³adowaæ modu³u %s
+	Nie moÅ¼na wyÅ‚adowaÄ‡ moduÅ‚u %s
 
 OPER_MODULE_NO_UNLOAD
-	Ten modu³ nie mo¿e zostaæ wy³adowany.
+	Ten moduÅ‚ nie moÅ¼e zostaÄ‡ wyÅ‚adowany.
 
 OPER_MODULE_LOAD_SYNTAX
 	MODLOAD nazwa-pliku
@@ -4023,16 +4023,16 @@ OPER_MODULE_UNLOAD_SYNTAX
 	MODUNLOAD nazwa-pliku
 
 OPER_MODULE_LIST_HEADER
-	Aktualna lista modu³ów:
+	Aktualna lista moduÅ‚Ã³w:
 
 OPER_MODULE_LIST
-	Modu³: %s [%s] [%s]
+	ModuÅ‚: %s [%s] [%s]
 
 OPER_MODULE_LIST_FOOTER
-	Za³adowanych modu³ów: %d.
+	ZaÅ‚adowanych moduÅ‚Ã³w: %d.
 
 OPER_MODULE_INFO_LIST
-	Modu³: %s Wersja: %s Autor: %s Za³adowano: %s
+	ModuÅ‚: %s Wersja: %s Autor: %s ZaÅ‚adowano: %s
 
 OPER_MODULE_CMD_LIST
 	Dodane komendy: %R%s %s
@@ -4041,16 +4041,16 @@ OPER_MODULE_MSG_LIST
 	Zapewnia IRCD handler dla : %s
 
 OPER_MODULE_NO_LIST
-	Aktualnie nie ma za³adowanych modu³ów.
+	Aktualnie nie ma zaÅ‚adowanych moduÅ‚Ã³w.
 
 OPER_MODULE_NO_INFO
-	Informacje o module %s nie s± dostêpne.
+	Informacje o module %s nie sÄ… dostÄ™pne.
 
 OPER_MODULE_INFO_SYNTAX
 	MODINFO nazwa-pliku
 
 MODULE_HELP_HEADER
-	Nastêpuj±ce komendy zosta³y dodane przez modu³:
+	NastÄ™pujÄ…ce komendy zostaÅ‚y dodane przez moduÅ‚:
 
 ###########################################################################
 #
@@ -4062,7 +4062,7 @@ OPER_EXCEPTION_SYNTAX
 	EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [parametry]
 
 OPER_EXCEPTION_ADD_SYNTAX
-	EXCEPTION ADD [+czas-trwania] maska limit powód
+	EXCEPTION ADD [+czas-trwania] maska limit powÃ³d
 
 OPER_EXCEPTION_DEL_SYNTAX
 	EXCEPTION DEL {maska | lista}
@@ -4071,40 +4071,40 @@ OPER_EXCEPTION_MOVE_SYNTAX
 	EXCEPTION MOVE numer pozycja
 
 OPER_EXCEPTION_DISABLED
-	Limitowanie sesji jest wy³±czone.
+	Limitowanie sesji jest wyÅ‚Ä…czone.
 
 OPER_EXCEPTION_ALREADY_PRESENT
-	Maska %s ju¿ istnieje na li¶cie wyj±tków.
+	Maska %s juÅ¼ istnieje na liÅ›cie wyjÄ…tkÃ³w.
 
 OPER_EXCEPTION_TOO_MANY
-	Lista wyj±tków limitów sesji jest pe³na!
+	Lista wyjÄ…tkÃ³w limitÃ³w sesji jest peÅ‚na!
 
 OPER_EXCEPTION_ADDED
 	Limit sesji dla %s zmieniono na %d.
 
 OPER_EXCEPTION_MOVED
-	Wyj±tek dla %s (#%d) przeniesiono na pozycjê %d.
+	WyjÄ…tek dla %s (#%d) przeniesiono na pozycjÄ™ %d.
 
 OPER_EXCEPTION_NO_SUCH_ENTRY
-	Nie znaleziono wpisu (#%d) na li¶cie wyj±tków limitów sesji.
+	Nie znaleziono wpisu (#%d) na liÅ›cie wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_NOT_FOUND
-	%s nie znaleziono na li¶cie wyj±tków limitów sesji.
+	%s nie znaleziono na liÅ›cie wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_NO_MATCH
-	Nie znaleziono wpisów na li¶cie wyj±tków limitów sesji.
+	Nie znaleziono wpisÃ³w na liÅ›cie wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_DELETED
-	%s usuniêto z listy wyj±tków limitów sesji.
+	%s usuniÄ™to z listy wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_DELETED_ONE
-	Usuniêto 1 wpis z listy wyj±tków limitów sesji.
+	UsuniÄ™to 1 wpis z listy wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_DELETED_SEVERAL
-	Usuniêto %d wpisy(ów) z listy wyj±tków limitów sesji.
+	UsuniÄ™to %d wpisy(Ã³w) z listy wyjÄ…tkÃ³w limitÃ³w sesji.
 
 OPER_EXCEPTION_LIST_HEADER
-	Aktualna lista wyj±tków limitów sesji:
+	Aktualna lista wyjÄ…tkÃ³w limitÃ³w sesji:
 
 # mask, limit
 OPER_EXCEPTION_LIST_FORMAT
@@ -4119,16 +4119,16 @@ OPER_EXCEPTION_VIEW_FORMAT
 	    Limit: %-4d  - %s
 
 OPER_EXCEPTION_INVALID_LIMIT
-	Nieprawid³owy limit sesji. Musi byæ liczb± nieujemn± i mniejsz± ni¿ %d.
+	NieprawidÅ‚owy limit sesji. Musi byÄ‡ liczbÄ… nieujemnÄ… i mniejszÄ… niÅ¼ %d.
 
 OPER_EXCEPTION_INVALID_HOSTMASK
-	Nieprawid³owa maska. Tylko rzeczywiste maski s± prawid³owe jako wyj±tki.
+	NieprawidÅ‚owa maska. Tylko rzeczywiste maski sÄ… prawidÅ‚owe jako wyjÄ…tki.
 
 OPER_EXCEPTION_EXISTS
-	%s ju¿ istnieje na li¶cie wyj±tków.
+	%s juÅ¼ istnieje na liÅ›cie wyjÄ…tkÃ³w.
 
 OPER_EXCEPTION_CHANGED
-	Wyj±tek dla %s zosta³ zaktualizowany do %d.
+	WyjÄ…tek dla %s zostaÅ‚ zaktualizowany do %d.
 
 # SESSION responses
 OPER_SESSION_SYNTAX
@@ -4141,13 +4141,13 @@ OPER_SESSION_VIEW_SYNTAX
 	SESSION VIEW host
 
 OPER_SESSION_DISABLED
-	Limitowanie sesji jest wy³±czone.
+	Limitowanie sesji jest wyÅ‚Ä…czone.
 
 OPER_SESSION_INVALID_THRESHOLD
-	Nieprawid³owa warto¶æ progu. Musi byæ liczb± ca³kowit± wiêksz± ni¿ 1.
+	NieprawidÅ‚owa wartoÅ›Ä‡ progu. Musi byÄ‡ liczbÄ… caÅ‚kowitÄ… wiÄ™kszÄ… niÅ¼ 1.
 
 OPER_SESSION_NOT_FOUND
-	%s nie znaleziono na li¶cie sesji.
+	%s nie znaleziono na liÅ›cie sesji.
 
 OPER_SESSION_LIST_HEADER
 	Hosty z przynajmniej %d sesjami:
@@ -4165,100 +4165,100 @@ OPER_SESSION_VIEW_FORMAT
 
 # EXCEPTION help
 OPER_HELP_EXCEPTION
-	Sk³adnia: EXCEPTION ADD [+czas-trwania] maska limit powód
+	SkÅ‚adnia: EXCEPTION ADD [+czas-trwania] maska limit powÃ³d
 	          EXCEPTION DEL {maska | lista}
 	          EXCEPTION MOVE numer pozycja
 	          EXCEPTION LIST [maska | lista]
 	          EXCEPTION VIEW [maska | lista]
 	
-	Pozwala administratorom serwisów na zarz±dzanie list± limitów
-	sesji dla poszczególnych hostów - np. serwery shell mog±
-	mieæ wiêksz± liczbê po³±czeñ. Kiedy limit po³±czeñ zostanie
-	osi±gniêty ka¿dy nowy u¿ytkownik z takiego hosta bêdzie
-	roz³±czany z sieci±. Przed roz³±czeniem zostanie wys³ane
-	powiadomienie (jego tre¶æ ustawia siê w pliku konfiguracyjnym).
+	Pozwala administratorom serwisÃ³w na zarzÄ…dzanie listÄ… limitÃ³w
+	sesji dla poszczegÃ³lnych hostÃ³w - np. serwery shell mogÄ…
+	mieÄ‡ wiÄ™kszÄ… liczbÄ™ poÅ‚Ä…czeÅ„. Kiedy limit poÅ‚Ä…czeÅ„ zostanie
+	osiÄ…gniÄ™ty kaÅ¼dy nowy uÅ¼ytkownik z takiego hosta bÄ™dzie
+	rozÅ‚Ä…czany z sieciÄ…. Przed rozÅ‚Ä…czeniem zostanie wysÅ‚ane
+	powiadomienie (jego treÅ›Ä‡ ustawia siÄ™ w pliku konfiguracyjnym).
 	
-	EXCEPTION ADD dodaje wskazan± maskê na listê wyj±tków.
-	Maski nick!user@host oraz user@host s± nieprawid³owe,
-	poniewa¿ zawieraj± nick lub ident u¿ytkownika. Dopuszczalne
+	EXCEPTION ADD dodaje wskazanÄ… maskÄ™ na listÄ™ wyjÄ…tkÃ³w.
+	Maski nick!user@host oraz user@host sÄ… nieprawidÅ‚owe,
+	poniewaÅ¼ zawierajÄ… nick lub ident uÅ¼ytkownika. Dopuszczalne
 	maski to np. box.host.dom lub *.host.dom. Limit musi
-	byæ liczb± nieujemn±. Podanie zera oznacza wy³±czenie limitu.
+	byÄ‡ liczbÄ… nieujemnÄ…. Podanie zera oznacza wyÅ‚Ä…czenie limitu.
 	Format czasu jest opisany w pomocy polecenia AKILL.
-	EXCEPTION DEL usuwa wskazane wpisy z listy wyj±tków.
-	EXCEPTION MOVE przenosi wyj±tek o wskazanym numerze na
-	now± pozycjê. Wyj±tki znajduj±ce siê pomiêdzy zostan±
-	odpowiednio przeniesione, aby wype³niæ powsta³± lukê.
-	EXCEPTION LIST oraz EXCEPTION VIEW listuj± wyj±tki.
-	Podanie maski powoduje ograniczenie wy¶wietlanych wpisów.
-	EXCEPTION VIEW zwraca dodatkowo informacje o zak³adaj±cym,
+	EXCEPTION DEL usuwa wskazane wpisy z listy wyjÄ…tkÃ³w.
+	EXCEPTION MOVE przenosi wyjÄ…tek o wskazanym numerze na
+	nowÄ… pozycjÄ™. WyjÄ…tki znajdujÄ…ce siÄ™ pomiÄ™dzy zostanÄ…
+	odpowiednio przeniesione, aby wypeÅ‚niÄ‡ powstaÅ‚Ä… lukÄ™.
+	EXCEPTION LIST oraz EXCEPTION VIEW listujÄ… wyjÄ…tki.
+	Podanie maski powoduje ograniczenie wyÅ›wietlanych wpisÃ³w.
+	EXCEPTION VIEW zwraca dodatkowo informacje o zakÅ‚adajÄ…cym,
 	limicie, powodzie, masce oraz czasie.
 	
-	Nale¿y pamiêtaæ, ¿e pod³±czaj±cy siê klient bêdzie u¿ywa³
-	pierwszego wyj±tku o pasuj±cej masce. Du¿a lista wyj±tków i
-	zbyt ogólne maski powoduj± pogorszenie wydajno¶ci serwisów.
+	NaleÅ¼y pamiÄ™taÄ‡, Å¼e podÅ‚Ä…czajÄ…cy siÄ™ klient bÄ™dzie uÅ¼ywaÅ‚
+	pierwszego wyjÄ…tku o pasujÄ…cej masce. DuÅ¼a lista wyjÄ…tkÃ³w i
+	zbyt ogÃ³lne maski powodujÄ… pogorszenie wydajnoÅ›ci serwisÃ³w.
 
 OPER_HELP_SESSION
-	Sk³adnia: SESSION LIST minimum
+	SkÅ‚adnia: SESSION LIST minimum
 	          SESSION VIEW host
 	
-	Pozwala administratorom serwisów na listowanie sesji.
+	Pozwala administratorom serwisÃ³w na listowanie sesji.
 	
 	SESSION LIST listuje hosty z przynajmniej minimum sesjami.
-	Minimum musi byæ wiêksze od 1, aby zapobiec przypadkowemu
-	listowaniu du¿ej liczby pojedynczych hostów.
-	SESSION VIEW wy¶wietla szczegó³owe informacje na temat 
-	podanego hosta - podaj±c aktualny limit oraz ilo¶æ sesji.
-	Parametr host mo¿e zawieraæ symboli wieloznacznych.
+	Minimum musi byÄ‡ wiÄ™ksze od 1, aby zapobiec przypadkowemu
+	listowaniu duÅ¼ej liczby pojedynczych hostÃ³w.
+	SESSION VIEW wyÅ›wietla szczegÃ³Å‚owe informacje na temat 
+	podanego hosta - podajÄ…c aktualny limit oraz iloÅ›Ä‡ sesji.
+	Parametr host moÅ¼e zawieraÄ‡ symboli wieloznacznych.
 	
-	Wiêcej informacji na temat ograniczania liczby sesji
-	znajduje siê w pomocy polecenia EXCEPTION.
+	WiÄ™cej informacji na temat ograniczania liczby sesji
+	znajduje siÄ™ w pomocy polecenia EXCEPTION.
 
 OPER_HELP_STAFF
-	Sk³adnia: STAFF
+	SkÅ‚adnia: STAFF
 	
-	Wy¶wietla nicki obs³ugi serwisów, poziom i status online.
+	WyÅ›wietla nicki obsÅ‚ugi serwisÃ³w, poziom i status online.
 
 OPER_HELP_DEFCON
-	Sk³adnia: DEFCON [1|2|3|4|5]
+	SkÅ‚adnia: DEFCON [1|2|3|4|5]
 	
-	System defcon umo¿liwia wprowadzanie wcze¶niej
-	zdefiniowanych ograniczeñ dla serwisów podczas
-	próby ataku na sieæ.
+	System defcon umoÅ¼liwia wprowadzanie wczeÅ›niej
+	zdefiniowanych ograniczeÅ„ dla serwisÃ³w podczas
+	prÃ³by ataku na sieÄ‡.
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
-	* Wy³±cza rejestrowanie kana³ów
+	* WyÅ‚Ä…cza rejestrowanie kanaÅ‚Ã³w
 
 OPER_HELP_DEFCON_NO_NEW_NICKS
-	* Wy³±cza rejestrowanie nicków
+	* WyÅ‚Ä…cza rejestrowanie nickÃ³w
 
 OPER_HELP_DEFCON_NO_MLOCK_CHANGE
-	* Flagi kana³ów nie bêd± wymuszane (MLOCK)
+	* Flagi kanaÅ‚Ã³w nie bÄ™dÄ… wymuszane (MLOCK)
 
 OPER_HELP_DEFCON_FORCE_CHAN_MODES
-	* Wymusza ustawienie flag (%s) na wszystkich kana³ach
+	* Wymusza ustawienie flag (%s) na wszystkich kanaÅ‚ach
 
 OPER_HELP_DEFCON_REDUCE_SESSION
-	* U¿ywa zredukowanego limitu sesji: %d
+	* UÅ¼ywa zredukowanego limitu sesji: %d
 
 OPER_HELP_DEFCON_NO_NEW_CLIENTS
-	* Killuje wszystkich nowych klientów
+	* Killuje wszystkich nowych klientÃ³w
 
 OPER_HELP_DEFCON_OPER_ONLY
-	* Ignoruje zwyk³ych u¿ytkowników (informuje ich o tym)
+	* Ignoruje zwykÅ‚ych uÅ¼ytkownikÃ³w (informuje ich o tym)
 
 OPER_HELP_DEFCON_SILENT_OPER_ONLY
-	* Cicho ignoruje zwyk³ych u¿ytkowników
+	* Cicho ignoruje zwykÅ‚ych uÅ¼ytkownikÃ³w
 
 OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
-	* AKILLuje wszystkich nowych klientów
+	* AKILLuje wszystkich nowych klientÃ³w
 
 OPER_HELP_DEFCON_NO_NEW_MEMOS
-	* Nowe wiadomo¶ci nie bêd± wysy³ane
+	* Nowe wiadomoÅ›ci nie bÄ™dÄ… wysyÅ‚ane
 
 OPER_HELP_CHANKILL
-	Sk³adnia: CHANKILL [+czas] kana³ powód
+	SkÅ‚adnia: CHANKILL [+czas] kanaÅ‚ powÃ³d
 	
-	Zak³ada AKILLa na ka¿dy nick na wskazanym kanale.
-	Na listê zostaj± dodane prawdziwe adresy (ident@host),
+	ZakÅ‚ada AKILLa na kaÅ¼dy nick na wskazanym kanale.
+	Na listÄ™ zostajÄ… dodane prawdziwe adresy (ident@host),
 	po czym AKILL zostaje wykonany.
 ###########################################################################
 #
@@ -4266,159 +4266,159 @@ OPER_HELP_CHANKILL
 #
 ###########################################################################
 NEWS_LOGON_TEXT
-	[Wiadomo¶æ powitalna - %s] %s
+	[WiadomoÅ›Ä‡ powitalna - %s] %s
 
 NEWS_OPER_TEXT
-	[Wiadomo¶æ dla operatorów - %s] %s
+	[WiadomoÅ›Ä‡ dla operatorÃ³w - %s] %s
 
 NEWS_RANDOM_TEXT
-	[Losowa wiadomo¶æ - %s] %s
+	[Losowa wiadomoÅ›Ä‡ - %s] %s
 
 NEWS_LOGON_SYNTAX
 	LOGONNEWS {ADD|DEL|LIST} [tekst|numer]
 
 NEWS_LOGON_LIST_HEADER
-	Wiadomo¶ci powitalne:
+	WiadomoÅ›ci powitalne:
 
 NEWS_LOGON_LIST_ENTRY
 	%5d (%s przez %s)
 	    %s
 
 NEWS_LOGON_LIST_NONE
-	Nie ma wiadomo¶ci powitalnych.
+	Nie ma wiadomoÅ›ci powitalnych.
 
 NEWS_LOGON_ADD_SYNTAX
 	LOGONNEWS ADD tekst
 
 NEWS_LOGON_ADD_FULL
-	Lista wiadomo¶ci powitalnych jest pe³na!
+	Lista wiadomoÅ›ci powitalnych jest peÅ‚na!
 
 NEWS_LOGON_ADDED
-	Dodano now± wiadomo¶æ powitaln± (#%d).
+	Dodano nowÄ… wiadomoÅ›Ä‡ powitalnÄ… (#%d).
 
 NEWS_LOGON_DEL_SYNTAX
 	LOGONNEWS DEL {numer | ALL}
 
 NEWS_LOGON_DEL_NOT_FOUND
-	Wiadomo¶æ powitalna #%d nie zosta³a znaleziona!
+	WiadomoÅ›Ä‡ powitalna #%d nie zostaÅ‚a znaleziona!
 
 NEWS_LOGON_DELETED
-	Wiadomo¶æ powitalna #%d zosta³a skasowana.
+	WiadomoÅ›Ä‡ powitalna #%d zostaÅ‚a skasowana.
 
 NEWS_LOGON_DEL_NONE
-	Nie ma wiadomo¶ci powitalnych do skasowania!
+	Nie ma wiadomoÅ›ci powitalnych do skasowania!
 
 NEWS_LOGON_DELETED_ALL
-	Wszystkie wiadomo¶ci powitalne zosta³ skasowane.
+	Wszystkie wiadomoÅ›ci powitalne zostaÅ‚ skasowane.
 
 NEWS_OPER_SYNTAX
 	OPERNEWS {ADD|DEL|LIST} [tekst|numer]
 
 NEWS_OPER_LIST_HEADER
-	Wiadomo¶ci dla operatorów:
+	WiadomoÅ›ci dla operatorÃ³w:
 
 NEWS_OPER_LIST_ENTRY
 	%5d (%s przez %s)
 	    %s
 
 NEWS_OPER_LIST_NONE
-	Nie ma wiadomo¶ci dla operatorów.
+	Nie ma wiadomoÅ›ci dla operatorÃ³w.
 
 NEWS_OPER_ADD_SYNTAX
 	OPERNEWS ADD tekst
 
 NEWS_OPER_ADD_FULL
-	Lista wiadomo¶ci jest pe³na!
+	Lista wiadomoÅ›ci jest peÅ‚na!
 
 NEWS_OPER_ADDED
-	Dodano now± wiadomo¶æ dla operatorów (#%d).
+	Dodano nowÄ… wiadomoÅ›Ä‡ dla operatorÃ³w (#%d).
 
 NEWS_OPER_DEL_SYNTAX
 	OPERNEWS DEL {numer | ALL}
 
 NEWS_OPER_DEL_NOT_FOUND
-	Wiadomo¶æ dla operatorów #%d nie zosta³a znaleziona!
+	WiadomoÅ›Ä‡ dla operatorÃ³w #%d nie zostaÅ‚a znaleziona!
 
 NEWS_OPER_DELETED
-	Wiadomo¶æ dla operatorów #%d zosta³a skasowana.
+	WiadomoÅ›Ä‡ dla operatorÃ³w #%d zostaÅ‚a skasowana.
 
 NEWS_OPER_DEL_NONE
-	Nie ma wiadomo¶ci dla operatorów do skasowania!
+	Nie ma wiadomoÅ›ci dla operatorÃ³w do skasowania!
 
 NEWS_OPER_DELETED_ALL
-	Wszystkie wiadomo¶ci dla operatorów zosta³y skasowane.
+	Wszystkie wiadomoÅ›ci dla operatorÃ³w zostaÅ‚y skasowane.
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [tekst|numer]
 
 NEWS_RANDOM_LIST_HEADER
-	Losowe wiadomo¶ci:
+	Losowe wiadomoÅ›ci:
 
 NEWS_RANDOM_LIST_ENTRY
 	%5d (%s przez %s)
 	    %s
 
 NEWS_RANDOM_LIST_NONE
-	Nie ma losowych wiadomo¶ci.
+	Nie ma losowych wiadomoÅ›ci.
 
 NEWS_RANDOM_ADD_SYNTAX
 	RANDOMNEWS ADD tekst
 
 NEWS_RANDOM_ADD_FULL
-	Lista wiadomo¶ci jest pe³na!
+	Lista wiadomoÅ›ci jest peÅ‚na!
 
 NEWS_RANDOM_ADDED
-	Dodano now± losow± wiadomo¶æ (#%d).
+	Dodano nowÄ… losowÄ… wiadomoÅ›Ä‡ (#%d).
 
 NEWS_RANDOM_DEL_SYNTAX
 	RANDOMNEWS DEL {numer | ALL}
 
 NEWS_RANDOM_DEL_NOT_FOUND
-	Losowa wiadomo¶æ #%d nie zosta³a znaleziona!
+	Losowa wiadomoÅ›Ä‡ #%d nie zostaÅ‚a znaleziona!
 
 NEWS_RANDOM_DELETED
-	Losowa wiadomo¶æ #%d zosta³a skasowana.
+	Losowa wiadomoÅ›Ä‡ #%d zostaÅ‚a skasowana.
 
 NEWS_RANDOM_DEL_NONE
-	Nie ma losowych wiadomo¶ci do skasowania!
+	Nie ma losowych wiadomoÅ›ci do skasowania!
 
 NEWS_RANDOM_DELETED_ALL
-	Wszystkie losowe wiadomo¶ci zosta³y skasowane.
+	Wszystkie losowe wiadomoÅ›ci zostaÅ‚y skasowane.
 
 NEWS_HELP_LOGON
-	Sk³adnia: LOGONNEWS ADD tekst
+	SkÅ‚adnia: LOGONNEWS ADD tekst
 	          LOGONNEWS DEL {numer | ALL}
 	          LOGONNEWS LIST
 	
-	Edytuje lub wy¶wietla listê wiadomo¶ci wysy³anych po
-	przy³±czeniu u¿ytkownika do sieci. Je¶li zdefniowanych
-	wiadomo¶ci jest wiêcej tylko najnowsze %s zostanie
-	wys³anych (aby zapobiec floodowaniu). Warto¶æ NewsCount
-	mo¿e zostaæ zmieniona w pliku konfiguracyjym serwisów.
+	Edytuje lub wyÅ›wietla listÄ™ wiadomoÅ›ci wysyÅ‚anych po
+	przyÅ‚Ä…czeniu uÅ¼ytkownika do sieci. JeÅ›li zdefniowanych
+	wiadomoÅ›ci jest wiÄ™cej tylko najnowsze %s zostanie
+	wysÅ‚anych (aby zapobiec floodowaniu). WartoÅ›Ä‡ NewsCount
+	moÅ¼e zostaÄ‡ zmieniona w pliku konfiguracyjym serwisÃ³w.
 	
 	LOGONNEWS may only be used by Services admins.
 
 NEWS_HELP_OPER
-	Sk³adnia: OPERNEWS ADD tekst
+	SkÅ‚adnia: OPERNEWS ADD tekst
 	          OPERNEWS DEL {numer | ALL}
 	          OPERNEWS LIST
 	
-	Edytuje lub wy¶wietla listê wiadomo¶ci wysy³anych po
-	wykonaniu polecenia /OPER. Je¶li zdefiniowanych
-	wiadomo¶ci jest wiêcej tylko najnowsze %s zostanie
-	wys³anych (aby zapobiec floodowaniu). Warto¶æ NewsCount
-	mo¿e zostaæ zmieniona w pliku konfiguracyjym serwisów.
+	Edytuje lub wyÅ›wietla listÄ™ wiadomoÅ›ci wysyÅ‚anych po
+	wykonaniu polecenia /OPER. JeÅ›li zdefiniowanych
+	wiadomoÅ›ci jest wiÄ™cej tylko najnowsze %s zostanie
+	wysÅ‚anych (aby zapobiec floodowaniu). WartoÅ›Ä‡ NewsCount
+	moÅ¼e zostaÄ‡ zmieniona w pliku konfiguracyjym serwisÃ³w.
 	
 	OPERNEWS may only be used by Services admins. 
 
 NEWS_HELP_RANDOM
-	Sk³adnia: RANDOMNEWS ADD tekst
+	SkÅ‚adnia: RANDOMNEWS ADD tekst
 	          RANDOMNEWS DEL {numer | ALL}
 	          RANDOMNEWS LIST
 	
-	Edytuje lub wy¶wietla listê losowych newsów.
-	Po po³±czeniu z sieci± u¿ytkownik otrzyma dok³adnie
-	jedn± wylosowan± z tej listy wiadomo¶æ.
+	Edytuje lub wyÅ›wietla listÄ™ losowych newsÃ³w.
+	Po poÅ‚Ä…czeniu z sieciÄ… uÅ¼ytkownik otrzyma dokÅ‚adnie
+	jednÄ… wylosowanÄ… z tej listy wiadomoÅ›Ä‡.
 	
 	RANDOMNEWS may only be used by Services admins. 
 
@@ -4428,18 +4428,18 @@ NEWS_HELP_RANDOM
 #
 ###########################################################################
 HELP_HELP
-	%S jest serwisem udzielaj±cym informacji
-	na temat innych serwisów. Dostêpne tematy pomocy:
+	%S jest serwisem udzielajÄ…cym informacji
+	na temat innych serwisÃ³w. DostÄ™pne tematy pomocy:
 	
 	
 	%R%s HELP
-	     rejestracja i zarz±dzanie nickami
+	     rejestracja i zarzÄ…dzanie nickami
 	
 	%R%s HELP
-	     rejestracja i zarz±dzanie kana³ami
+	     rejestracja i zarzÄ…dzanie kanaÅ‚ami
 	
 	%R%s HELP
-	     wysy³anie wiadomo¶ci do u¿ytkowników off-line
+	     wysyÅ‚anie wiadomoÅ›ci do uÅ¼ytkownikÃ³w off-line
 
 HELP_HELP_BOT
 	%R%s HELP
@@ -4447,7 +4447,7 @@ HELP_HELP_BOT
 
 HELP_HELP_HOST
 	%R%s HELP
-	     ustawianie vhostów
+	     ustawianie vhostÃ³w
 
 ###########################################################################
 #
@@ -4455,22 +4455,22 @@ HELP_HELP_HOST
 #
 ###########################################################################
 NICK_HELP_CMD_CONFIRM
-	    CONFIRM     Potwierdza rejestracjê nicka
+	    CONFIRM     Potwierdza rejestracjÄ™ nicka
 
 NICK_HELP_CMD_RESEND
-	    RESEND      Wysy³a ponownie kod autoryzuj±cy
+	    RESEND      WysyÅ‚a ponownie kod autoryzujÄ…cy
 
 NICK_HELP_CMD_REGISTER
 	    REGISTER    Rejestruje nicka
 
 NICK_HELP_CMD_GROUP
-	    GROUP       Do³±cza nick do wskazanej grupy
+	    GROUP       DoÅ‚Ä…cza nick do wskazanej grupy
 
 NICK_HELP_CMD_IDENTIFY
-	    IDENTIFY    Identyfikuje w³a¶ciciela nicka
+	    IDENTIFY    Identyfikuje wÅ‚aÅ›ciciela nicka
 
 NICK_HELP_CMD_ACCESS
-	    ACCESS      Zarz±dza list± dostêpu
+	    ACCESS      ZarzÄ…dza listÄ… dostÄ™pu
 
 NICK_HELP_CMD_SET
 	    SET         Modyfikuje ustawienia nicka
@@ -4482,44 +4482,44 @@ NICK_HELP_CMD_DROP
 	    DROP        Usuwa nicka
 
 NICK_HELP_CMD_RECOVER
-	    RECOVER     Od³±cza u¿ytkownika, który u¿ywa Twojego nicka
+	    RECOVER     OdÅ‚Ä…cza uÅ¼ytkownika, ktÃ³ry uÅ¼ywa Twojego nicka
 
 NICK_HELP_CMD_RELEASE
-	    RELEASE     Zwalnia nick po u¿yciu komendy RECOVER
+	    RELEASE     Zwalnia nick po uÅ¼yciu komendy RECOVER
 
 NICK_HELP_CMD_SENDPASS
-	    SENDPASS    Pomaga odzyskaæ utracone has³o
+	    SENDPASS    Pomaga odzyskaÄ‡ utracone hasÅ‚o
 
 NICK_HELP_CMD_GHOST
-	    GHOST       Od³±cza wskazany nick od serwera
+	    GHOST       OdÅ‚Ä…cza wskazany nick od serwera
 
 NICK_HELP_CMD_ALIST
-	    ALIST       Listuje kana³y na których masz uprawnienia
+	    ALIST       Listuje kanaÅ‚y na ktÃ³rych masz uprawnienia
 
 NICK_HELP_CMD_GLIST
-	    GLIST       Wy¶wietla wszystkie nicki w Twojej grupie
+	    GLIST       WyÅ›wietla wszystkie nicki w Twojej grupie
 
 NICK_HELP_CMD_INFO
 	    INFO        Pokazuje informacje o zarejestrowanym nicku
 
 NICK_HELP_CMD_LIST
-	    LIST        Listuje zarejestrowane nicki pasuj±ce do wzorca
+	    LIST        Listuje zarejestrowane nicki pasujÄ…ce do wzorca
 
 NICK_HELP_CMD_LOGOUT
-	    LOGOUT      Odwraca dzia³anie komendy IDENTIFY
+	    LOGOUT      Odwraca dziaÅ‚anie komendy IDENTIFY
 
 NICK_HELP_CMD_STATUS
-	    STATUS      Podaje status w³a¶ciciela podanego nicka
+	    STATUS      Podaje status wÅ‚aÅ›ciciela podanego nicka
 
 NICK_HELP_CMD_UPDATE
-	    UPDATE      Aktualizuje twój obecny status np.
-	                sprawdza nowe wiadomo¶ci
+	    UPDATE      Aktualizuje twÃ³j obecny status np.
+	                sprawdza nowe wiadomoÅ›ci
 
 NICK_HELP_CMD_GETPASS
-	    GETPASS     Podaje has³o do wskazanego nicka
+	    GETPASS     Podaje hasÅ‚o do wskazanego nicka
 
 NICK_HELP_CMD_GETEMAIL
-	    GETEMAIL    Wy¶wietla u¿ytkowników zarejestrowanych z
+	    GETEMAIL    WyÅ›wietla uÅ¼ytkownikÃ³w zarejestrowanych z
 	                podanym adresem e-mail
 
 NICK_HELP_CMD_FORBID
@@ -4527,715 +4527,715 @@ NICK_HELP_CMD_FORBID
 
 NICK_HELP_CMD_SUSPEND
 	    SUSPEND     Blokuje podany nick z zachowaniem
-	                wszelkich jego danych i ustawieñ
+	                wszelkich jego danych i ustawieÅ„
 
 NICK_HELP_CMD_UNSUSPEND
 	    UNSUSPEND   Uwalnia zawieszonego nicka
 
 NICK_HELP
-	%S umo¿liwia rejestracjê nicka i zapewnia
-	wy³±czno¶æ na jego u¿ywanie. Poni¿sze komendy
-	umo¿liwiaj± zarz±dzanie nickiem, aby ich u¿yæ wpisz:
+	%S umoÅ¼liwia rejestracjÄ™ nicka i zapewnia
+	wyÅ‚Ä…cznoÅ›Ä‡ na jego uÅ¼ywanie. PoniÅ¼sze komendy
+	umoÅ¼liwiajÄ… zarzÄ…dzanie nickiem, aby ich uÅ¼yÄ‡ wpisz:
 	%R%S komenda
-	Aby uzyskaæ szczegó³owy opis polecenia wpisz:
+	Aby uzyskaÄ‡ szczegÃ³Å‚owy opis polecenia wpisz:
 	%R%S HELP komenda
 	
 	
 
 NICK_HELP_FOOTER
 	
-	UWAGA: Ten serwis ma na celu umo¿liwienie identyfikacji
-	u¿ytkowników. NIE s³u¿y do kradzie¿y nicków czy innych
-	z³o¶liwych akcji. Nadu¿ycia bêd± skutkowa³y co najmniej
-	utrat± zarejestrowanego nicka.
+	UWAGA: Ten serwis ma na celu umoÅ¼liwienie identyfikacji
+	uÅ¼ytkownikÃ³w. NIE sÅ‚uÅ¼y do kradzieÅ¼y nickÃ³w czy innych
+	zÅ‚oÅ›liwych akcji. NaduÅ¼ycia bÄ™dÄ… skutkowaÅ‚y co najmniej
+	utratÄ… zarejestrowanego nicka.
 	
 
 NICK_HELP_EXPIRES
 	
-	Nicki nieu¿ywane przez d³u¿szy czas s± automatycznie
+	Nicki nieuÅ¼ywane przez dÅ‚uÅ¼szy czas sÄ… automatycznie
 	usuwane po %d dniach od ostatniej identyfikacji.
-	Wszelkie ustawienia oraz uprawnienia zostaj± usuniête.
+	Wszelkie ustawienia oraz uprawnienia zostajÄ… usuniÄ™te.
 
 NICK_HELP_REGISTER
-	Sk³adnia: REGISTER has³o [email]
+	SkÅ‚adnia: REGISTER hasÅ‚o [email]
 	
-	Rejestruje aktualnie u¿ywany nick w bazie %S.
-	Po rejestracji mo¿esz u¿yæ komend SET i ACCESS
-	do konfiguracji niektórych opcji nicka wedle upodobañ.
-	Upewnij siê, ¿e pamiêtasz has³o rejestracyjne, bo 
-	bêdzie ono potrzebne w przysz³o¶ci do zmiany
-	ustawieñ i identyfikacji. Wielko¶æ liter w ha¶le 
+	Rejestruje aktualnie uÅ¼ywany nick w bazie %S.
+	Po rejestracji moÅ¼esz uÅ¼yÄ‡ komend SET i ACCESS
+	do konfiguracji niektÃ³rych opcji nicka wedle upodobaÅ„.
+	Upewnij siÄ™, Å¼e pamiÄ™tasz hasÅ‚o rejestracyjne, bo 
+	bÄ™dzie ono potrzebne w przyszÅ‚oÅ›ci do zmiany
+	ustawieÅ„ i identyfikacji. WielkoÅ›Ä‡ liter w haÅ›le 
 	ma znaczenie!!!.
 	
-	Jak wybraæ has³o?
+	Jak wybraÄ‡ hasÅ‚o?
 	
-	Has³o musi byæ trudne do odgadniêcia. U¿ywanie imion
-	jako hase³ jest niewskazane. Bardzo krótkie has³o
-	mo¿e zostaæ odgadniête metod± prób i b³êdów.
-	Twoje has³o musi mieæ d³ugo¶æ co najmniej 5 znaków.
-	Znak spacji nie mo¿e byæ u¿yty w ha¶le.
+	HasÅ‚o musi byÄ‡ trudne do odgadniÄ™cia. UÅ¼ywanie imion
+	jako haseÅ‚ jest niewskazane. Bardzo krÃ³tkie hasÅ‚o
+	moÅ¼e zostaÄ‡ odgadniÄ™te metodÄ… prÃ³b i bÅ‚Ä™dÃ³w.
+	Twoje hasÅ‚o musi mieÄ‡ dÅ‚ugoÅ›Ä‡ co najmniej 5 znakÃ³w.
+	Znak spacji nie moÅ¼e byÄ‡ uÅ¼yty w haÅ›le.
 	
 	Parametr email jest opcjonalny i od razu przy 
 	rejestracji ustawia adres e-mail dla Twojego nicka. 
-	Mo¿e siê zdarzyæ, ¿e adres e-mail mo¿e byæ wymagany 
-	na niektórych sieciach. Twoja prywatno¶æ jest
-	chroniona - adres nie bêdzie udostêpniany osobom
+	MoÅ¼e siÄ™ zdarzyÄ‡, Å¼e adres e-mail moÅ¼e byÄ‡ wymagany 
+	na niektÃ³rych sieciach. Twoja prywatnoÅ›Ä‡ jest
+	chroniona - adres nie bÄ™dzie udostÄ™pniany osobom
 	trzecim.
 	
-	Wraz z rejestracj± zostaje utworzona grupa.
-	Nicki z tej samej grupy maj± wspólne ustawienia,
-	prawa na kanale oraz ustawienia wiadomo¶ci.
-	Aby uzyskaæ wiêcej informacji napisz: 
+	Wraz z rejestracjÄ… zostaje utworzona grupa.
+	Nicki z tej samej grupy majÄ… wspÃ³lne ustawienia,
+	prawa na kanale oraz ustawienia wiadomoÅ›ci.
+	Aby uzyskaÄ‡ wiÄ™cej informacji napisz: 
 	%R%S HELP GROUP.
 	
 
 NICK_HELP_GROUP
-	Sk³adnia: GROUP nazwa has³o
+	SkÅ‚adnia: GROUP nazwa hasÅ‚o
 	
 	Ta komenda powoduje dodanie Twojego nicka do grupy
-	reprezentowanej przez nick nazwa o ha¶le has³o.
+	reprezentowanej przez nick nazwa o haÅ›le hasÅ‚o.
 	
-	Grupowanie nicków pozwala na dzielenie siê ustawieniami,
-	wiadomo¶ciami oraz uprawnieniami z innymi nickami z grupy.
+	Grupowanie nickÃ³w pozwala na dzielenie siÄ™ ustawieniami,
+	wiadomoÅ›ciami oraz uprawnieniami z innymi nickami z grupy.
 	
-	Je¶li jaki¶ nick z grupy zostanie usuniêty nie tracisz
-	¿adnych ustawieñ czy uprawnieñ, jednak grupa istnieje
-	dopóki jest w niej przynajmniej jeden nick.
+	JeÅ›li jakiÅ› nick z grupy zostanie usuniÄ™ty nie tracisz
+	Å¼adnych ustawieÅ„ czy uprawnieÅ„, jednak grupa istnieje
+	dopÃ³ki jest w niej przynajmniej jeden nick.
 	
-	Komenda mo¿e byæ u¿yta nawet wtedy kiedy bie¿±cy nick
+	Komenda moÅ¼e byÄ‡ uÅ¼yta nawet wtedy kiedy bieÅ¼Ä…cy nick
 	nie jest zarejestrowany, w przeciwnym wypadku musisz
-	siê zidentyfikowaæ. Aby uzyskaæ wiêcej informacji wpisz:
+	siÄ™ zidentyfikowaÄ‡. Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP IDENTIFY
 	
-	Mo¿liwe i zalecane jest u¿ywanie tej komendy na nickach,
-	które nie s± zarejestrowane, zostan± one wtedy automatycznie
+	MoÅ¼liwe i zalecane jest uÅ¼ywanie tej komendy na nickach,
+	ktÃ³re nie sÄ… zarejestrowane, zostanÄ… one wtedy automatycznie
 	dodane do bazy %S.
 	
-	UWAGA: Komendê mo¿na u¿yæ tak¿e na zarejestrowanym nicku,
-	nale¿y jednak wzi±æ pod uwagê to, ¿e je¶li bie¿±cy nick jest
+	UWAGA: KomendÄ™ moÅ¼na uÅ¼yÄ‡ takÅ¼e na zarejestrowanym nicku,
+	naleÅ¼y jednak wziÄ…Ä‡ pod uwagÄ™ to, Å¼e jeÅ›li bieÅ¼Ä…cy nick jest
 	ostatni ze swojej grupy, to wszystkie jego ustawienia oraz
-	uprawnienia zostan± usuniête! Z tego powodu najlepiej grupowaæ
-	nowy nick ze starym, a nie na odwrót. Zmiana grupy mo¿e byæ
-	wy³±czona przez administratora w niektórych sieciach.
+	uprawnienia zostanÄ… usuniÄ™te! Z tego powodu najlepiej grupowaÄ‡
+	nowy nick ze starym, a nie na odwrÃ³t. Zmiana grupy moÅ¼e byÄ‡
+	wyÅ‚Ä…czona przez administratora w niektÃ³rych sieciach.
 	
-	Mo¿na byæ tylko w jednej grupie w danej chwili,
-	³±czenie grup nie jest mo¿liwe.
+	MoÅ¼na byÄ‡ tylko w jednej grupie w danej chwili,
+	Å‚Ä…czenie grup nie jest moÅ¼liwe.
 	
-	Uwaga: wszystkie nicki w grupie maj± to samo has³o.
+	Uwaga: wszystkie nicki w grupie majÄ… to samo hasÅ‚o.
 
 NICK_HELP_IDENTIFY
-	Sk³adnia: IDENTIFY has³o
+	SkÅ‚adnia: IDENTIFY hasÅ‚o
 	
-	Informuje %S, ¿e nick którego w³a¶nie u¿ywasz 
-	nale¿y do Ciebie. Wiele komend wymaga identyfikacji 
-	przed ich u¿yciem. Has³em jest to samo has³o, 
-	którego u¿yto przy komendzie REGISTER.
+	Informuje %S, Å¼e nick ktÃ³rego wÅ‚aÅ›nie uÅ¼ywasz 
+	naleÅ¼y do Ciebie. Wiele komend wymaga identyfikacji 
+	przed ich uÅ¼yciem. HasÅ‚em jest to samo hasÅ‚o, 
+	ktÃ³rego uÅ¼yto przy komendzie REGISTER.
 
 NICK_HELP_UPDATE
-	Sk³adnia: UPDATE
+	SkÅ‚adnia: UPDATE
 	
-	Aktualizuje twój obecny status, np. sprawdza czy s± nowe
-	wiadomo¶ci, ustawia odpowiednie uprawnienia na kana³ach,
-	aktualizuje vhosta oraz flagi u¿ytkownika.
+	Aktualizuje twÃ³j obecny status, np. sprawdza czy sÄ… nowe
+	wiadomoÅ›ci, ustawia odpowiednie uprawnienia na kanaÅ‚ach,
+	aktualizuje vhosta oraz flagi uÅ¼ytkownika.
 
 NICK_HELP_LOGOUT
-	Sk³adnia: LOGOUT
+	SkÅ‚adnia: LOGOUT
 	
-	Odwraca dzia³anie komendy IDENTIFY. Po wydaniu
-	tego polecenia nie bêdziesz rozpoznawany jako
-	w³a¶ciciel nicka.
+	Odwraca dziaÅ‚anie komendy IDENTIFY. Po wydaniu
+	tego polecenia nie bÄ™dziesz rozpoznawany jako
+	wÅ‚aÅ›ciciel nicka.
 NICK_HELP_DROP
-	Sk³adnia: DROP [nick]
+	SkÅ‚adnia: DROP [nick]
 	
-	Usuwa nick z bazy danych %S. Usuniêty nick
-	mo¿e zostaæ ponownie zarejestrowany przez ka¿dego.
+	Usuwa nick z bazy danych %S. UsuniÄ™ty nick
+	moÅ¼e zostaÄ‡ ponownie zarejestrowany przez kaÅ¼dego.
 	
-	Mo¿esz usun±æ nick nale¿±cy do Twojej grupy podaj±c
+	MoÅ¼esz usunÄ…Ä‡ nick naleÅ¼Ä…cy do Twojej grupy podajÄ…c
 	go jako dodatkowy parametr nick.
 	
-	U¿ycie tej komendy wymaga identyfikacji z u¿yciem
-	has³a. Aby uzyskaæ wiêcej informacji wpisz:
+	UÅ¼ycie tej komendy wymaga identyfikacji z uÅ¼yciem
+	hasÅ‚a. Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP IDENTIFY
 
 NICK_HELP_ACCESS
-	Sk³adnia: ACCESS ADD maska
+	SkÅ‚adnia: ACCESS ADD maska
 	          ACCESS DEL maska
 	          ACCESS LIST
 	
-	Modyfikuje lub wy¶wietla listê dostêpu dla nicka.
-	Lista dostêpu okre¶la hosty u¿ytkowników mog±cych
-	u¿ywaæ twojego nicka. Je¶li chcesz u¿ywaæ nicka z
-	innego hosta musisz siê najpierw zidentyfikowaæ
-	w serwisie %S komend± IDENTIFY.
+	Modyfikuje lub wyÅ›wietla listÄ™ dostÄ™pu dla nicka.
+	Lista dostÄ™pu okreÅ›la hosty uÅ¼ytkownikÃ³w mogÄ…cych
+	uÅ¼ywaÄ‡ twojego nicka. JeÅ›li chcesz uÅ¼ywaÄ‡ nicka z
+	innego hosta musisz siÄ™ najpierw zidentyfikowaÄ‡
+	w serwisie %S komendÄ… IDENTIFY.
 	
-	Przyk³ady:
+	PrzykÅ‚ady:
 	
 	    ACCESS ADD userek@ircnet.pl
-	        Zezwala na dostêp do nicka ka¿demu 
-	        ³±cz±cemu siê z domeny ircnet.pl.
+	        Zezwala na dostÄ™p do nicka kaÅ¼demu 
+	        Å‚Ä…czÄ…cemu siÄ™ z domeny ircnet.pl.
 	
 	    ACCESS DEL userek@ircnet.pl
 	        Odwraca efekt poprzedniej komendy.
 	
 	    ACCESS LIST
-	        Wy¶wietla aktualn± listê dostêpu.
+	        WyÅ›wietla aktualnÄ… listÄ™ dostÄ™pu.
 
 NICK_HELP_SET
-	Sk³adnia: SET opcja parametry
+	SkÅ‚adnia: SET opcja parametry
 	
-	Ustawia ró¿ne opcje nicka. Dostêpne opcje to:
+	Ustawia rÃ³Å¼ne opcje nicka. DostÄ™pne opcje to:
 	
-	    DISPLAY    Ustawia nick reprezentuj±cy grupê nicków
-	    PASSWORD   Ustawia has³o do nicka
-	    LANGUAGE   Ustawia jêzyk w którym serwisy bêd±
-	               wysy³a³y komunikaty
+	    DISPLAY    Ustawia nick reprezentujÄ…cy grupÄ™ nickÃ³w
+	    PASSWORD   Ustawia hasÅ‚o do nicka
+	    LANGUAGE   Ustawia jÄ™zyk w ktÃ³rym serwisy bÄ™dÄ…
+	               wysyÅ‚aÅ‚y komunikaty
 	    URL        Przypisuje adres www do nicka
 	    EMAIL      Przypisuje adres e-mail do nicka
 	    ICQ        Przypisuje numer ICQ do nicka
 	    GREET      Przypisuje komunikat powitalny do nicka
-	    KILL       W³±cza lub wy³±cza ochronê nicka
-	    SECURE     W³±cza lub wy³±cza bezpieczeñstwo nicka
-	    PRIVATE    Zapobiega wy¶wietlaniu nicka po wydaniu
+	    KILL       WÅ‚Ä…cza lub wyÅ‚Ä…cza ochronÄ™ nicka
+	    SECURE     WÅ‚Ä…cza lub wyÅ‚Ä…cza bezpieczeÅ„stwo nicka
+	    PRIVATE    Zapobiega wyÅ›wietlaniu nicka po wydaniu
 	               polecenia: %R%S LIST
-	    HIDE       Ukrywa poszczególne informacje o nicku
-	    MSG        Zmienia sposób komunikacji serwisów
-	    AUTOOP     W³±cza lub wy³±cza automatyczne opowanie
+	    HIDE       Ukrywa poszczegÃ³lne informacje o nicku
+	    MSG        Zmienia sposÃ³b komunikacji serwisÃ³w
+	    AUTOOP     WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne opowanie
 	
-	Aby u¿yæ tej komendy musisz siê zidentyfikowaæ z u¿yciem
-	Twojego has³a. Aby uzyskaæ wiêcej informacji wpisz:
+	Aby uÅ¼yÄ‡ tej komendy musisz siÄ™ zidentyfikowaÄ‡ z uÅ¼yciem
+	Twojego hasÅ‚a. Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP IDENTIFY
 	
-	Aby uzyskaæ wiêcej informacji o danej opcji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji o danej opcji wpisz:
 	%R%S HELP SET opcja
 
 NICK_HELP_SET_DISPLAY
-	Sk³adnia: SET DISPLAY nowa-nazwa
+	SkÅ‚adnia: SET DISPLAY nowa-nazwa
 	
-	Zmienia nazwê reprezentuj±c± Twoj± grupê nicków w
-	serwisach na now±. Nazwa MUSI byæ jednym z nicków
-	nale¿±cych do Twojej grupy.
+	Zmienia nazwÄ™ reprezentujÄ…cÄ… TwojÄ… grupÄ™ nickÃ³w w
+	serwisach na nowÄ…. Nazwa MUSI byÄ‡ jednym z nickÃ³w
+	naleÅ¼Ä…cych do Twojej grupy.
 
 NICK_HELP_SET_PASSWORD
-	Sk³adnia: SET PASSWORD nowe-has³o
+	SkÅ‚adnia: SET PASSWORD nowe-hasÅ‚o
 	
-	Zmienia Twoje has³o do nicka.
+	Zmienia Twoje hasÅ‚o do nicka.
 
 NICK_HELP_SET_LANGUAGE
-	Sk³adnia: SET LANGUAGE numer
+	SkÅ‚adnia: SET LANGUAGE numer
 	
-	Zmienia jêzyk jakiego u¿ywaj± serwisy odpowiadaj±c 
-	Tobie (czyli przyk³adowo kiedy odpowiadaj± na 
-	wys³an± przez Ciebie komendê). Numer mo¿e byæ 
-	wybrany z poni¿szej listy obs³ugiwanych jêzyków:
+	Zmienia jÄ™zyk jakiego uÅ¼ywajÄ… serwisy odpowiadajÄ…c 
+	Tobie (czyli przykÅ‚adowo kiedy odpowiadajÄ… na 
+	wysÅ‚anÄ… przez Ciebie komendÄ™). Numer moÅ¼e byÄ‡ 
+	wybrany z poniÅ¼szej listy obsÅ‚ugiwanych jÄ™zykÃ³w:
 
 NICK_HELP_SET_URL
-	Sk³adnia: SET URL adres
+	SkÅ‚adnia: SET URL adres
 	
 	Przypisuje podany adres strony www nickowi.
-	Ten adres bêdzie siê pokazywa³ w opisie Twojego
-	nicka dostêpnym po u¿yciu polecenia INFO.
+	Ten adres bÄ™dzie siÄ™ pokazywaÅ‚ w opisie Twojego
+	nicka dostÄ™pnym po uÅ¼yciu polecenia INFO.
 
 NICK_HELP_SET_EMAIL
-	Sk³adnia: SET EMAIL adres
+	SkÅ‚adnia: SET EMAIL adres
 	
 	Przypisuje adres e-mail Twojemu nickowi. Adres
-	bêdzie wy¶wietlany przy opisie Twojego nicka
-	dostêpnym przy u¿yciu komendy INFO.
+	bÄ™dzie wyÅ›wietlany przy opisie Twojego nicka
+	dostÄ™pnym przy uÅ¼yciu komendy INFO.
 
 NICK_HELP_SET_ICQ
-	Sk³adnia: SET ICQ numer
+	SkÅ‚adnia: SET ICQ numer
 	
-	Przypisuje numer ICQ Twojemu nickowi, który
-	bêdzie wy¶wietlany przy opisie Twojego nicka
-	dostêpnym przy u¿yciu komendy INFO.
+	Przypisuje numer ICQ Twojemu nickowi, ktÃ³ry
+	bÄ™dzie wyÅ›wietlany przy opisie Twojego nicka
+	dostÄ™pnym przy uÅ¼yciu komendy INFO.
 	
 
 NICK_HELP_SET_GREET
-	Sk³adnia: SET GREET wiadomo¶æ
+	SkÅ‚adnia: SET GREET wiadomoÅ›Ä‡
 	
-	Ustawia wiadomo¶æ powitaln± dla Twojego nicka.
-	Je¶li kana³ ma przydzielonego bota, w³±czone witanie
-	u¿ytkowników oraz masz odpowiedni poziom dostêpu to
-	wtedy ta wiadomo¶æ bêdzie wysy³ana na kana³ przez bota.
+	Ustawia wiadomoÅ›Ä‡ powitalnÄ… dla Twojego nicka.
+	JeÅ›li kanaÅ‚ ma przydzielonego bota, wÅ‚Ä…czone witanie
+	uÅ¼ytkownikÃ³w oraz masz odpowiedni poziom dostÄ™pu to
+	wtedy ta wiadomoÅ›Ä‡ bÄ™dzie wysyÅ‚ana na kanaÅ‚ przez bota.
 
 NICK_HELP_SET_KILL
-	Sk³adnia: SET KILL {ON | QUICK | IMMED | OFF}
+	SkÅ‚adnia: SET KILL {ON | QUICK | IMMED | OFF}
 	
-	W³±cza lub wy³±cza automatyczn± ochronê dla nicka.
-	U¿ytkownicy wchodz±cy na chroniony nick otrzymuj±
-	informacje od %S, ¿e nick jest zarejestrowany i
-	je¶li siê nie zidentyfikuj± lub go nie zmieni±
-	w okre¶lonym czasie to ich nick zostanie zmieniony
-	si³± lub zostan± od³±czeni od sieci.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatycznÄ… ochronÄ™ dla nicka.
+	UÅ¼ytkownicy wchodzÄ…cy na chroniony nick otrzymujÄ…
+	informacje od %S, Å¼e nick jest zarejestrowany i
+	jeÅ›li siÄ™ nie zidentyfikujÄ… lub go nie zmieniÄ…
+	w okreÅ›lonym czasie to ich nick zostanie zmieniony
+	siÅ‚Ä… lub zostanÄ… odÅ‚Ä…czeni od sieci.
 	
-	Opcja QUICK skraca czas oczekiwania na zmianê
+	Opcja QUICK skraca czas oczekiwania na zmianÄ™
 	z 60 sekund do 20. W przypadku opcji IMMED
-	nick zostanie zmieniony natychmiast bez mo¿liwo¶ci
-	identyfikacji (wstêpna identyfikacja nastêpuje
-	na podstawie listy dostêpu, dlatego t± opcjê
-	nale¿y stosowaæ z rozwag±). Administrator sieci 
-	mo¿e wy³±czyæ korzystanie z IMMED.
+	nick zostanie zmieniony natychmiast bez moÅ¼liwoÅ›ci
+	identyfikacji (wstÄ™pna identyfikacja nastÄ™puje
+	na podstawie listy dostÄ™pu, dlatego tÄ… opcjÄ™
+	naleÅ¼y stosowaÄ‡ z rozwagÄ…). Administrator sieci 
+	moÅ¼e wyÅ‚Ä…czyÄ‡ korzystanie z IMMED.
 NICK_HELP_SET_SECURE
-	Sk³adnia: SET SECURE {ON | OFF}
+	SkÅ‚adnia: SET SECURE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê bezpieczeñstwa dla nicka.
-	W³±czenie SECURE wymusza na u¿ytkowniku podanie
-	has³a zanim ten zostanie rozpoznany jako w³a¶ciciel
-	nicka. %S nie bierze pod uwagê w tym wypadku
-	wystêpowania adresu li¶cie dostêpu. Je¶li adres 
-	znajduje siê na li¶cie %S nie skilluje
-	u¿ytkownika niezale¿nie od ustawienia opcji KILL.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ bezpieczeÅ„stwa dla nicka.
+	WÅ‚Ä…czenie SECURE wymusza na uÅ¼ytkowniku podanie
+	hasÅ‚a zanim ten zostanie rozpoznany jako wÅ‚aÅ›ciciel
+	nicka. %S nie bierze pod uwagÄ™ w tym wypadku
+	wystÄ™powania adresu liÅ›cie dostÄ™pu. JeÅ›li adres 
+	znajduje siÄ™ na liÅ›cie %S nie skilluje
+	uÅ¼ytkownika niezaleÅ¼nie od ustawienia opcji KILL.
 
 NICK_HELP_SET_PRIVATE
-	Sk³adnia: SET PRIVATE {ON | OFF}
+	SkÅ‚adnia: SET PRIVATE {ON | OFF}
 
-	W³±cza lub wy³±cza opcjê PRIVATE dla nicka.
-	Kiedy ta opcja jest w³±czona nick nie bêdzie
-	umieszczany na listach wy¶wietlanych komend±:
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ PRIVATE dla nicka.
+	Kiedy ta opcja jest wÅ‚Ä…czona nick nie bÄ™dzie
+	umieszczany na listach wyÅ›wietlanych komendÄ…:
 	%R%S LIST
-	Jednak ka¿dy, kto zna nick mo¿e uzyskaæ o nim
-	informacje u¿ywaj±c polecenia INFO.
+	Jednak kaÅ¼dy, kto zna nick moÅ¼e uzyskaÄ‡ o nim
+	informacje uÅ¼ywajÄ…c polecenia INFO.
 
 NICK_HELP_SET_HIDE
-	Sk³adnia: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+	SkÅ‚adnia: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
-	To polecenie pozwala na ukrycie czê¶ci informacji, które
-	s± wy¶wietlane przez polecenie INFO serwisu %s.
-	Pierwszy argument okre¶la ukrywan± informacjê:
-	EMAIL - adres e-mail, USERMASK - ostatnio u¿ywany host,
-	QUIT - ostatnia wiadomo¶æ po¿egnalna, STATUS - status
-	dostêpu do serwisów. Drugi argument okre¶la, czy dana 
-	informacja bêdzie pokazywana (OFF), czy ukrywana (ON).
+	To polecenie pozwala na ukrycie czÄ™Å›ci informacji, ktÃ³re
+	sÄ… wyÅ›wietlane przez polecenie INFO serwisu %s.
+	Pierwszy argument okreÅ›la ukrywanÄ… informacjÄ™:
+	EMAIL - adres e-mail, USERMASK - ostatnio uÅ¼ywany host,
+	QUIT - ostatnia wiadomoÅ›Ä‡ poÅ¼egnalna, STATUS - status
+	dostÄ™pu do serwisÃ³w. Drugi argument okreÅ›la, czy dana 
+	informacja bÄ™dzie pokazywana (OFF), czy ukrywana (ON).
 NICK_HELP_SET_MSG
-	Sk³adnia: SET MSG {ON | OFF}
+	SkÅ‚adnia: SET MSG {ON | OFF}
 	
-	Pozwala wybraæ sposób w jaki serwisy bêd± pisaæ do
-	Ciebie. Kiedy ta opcja jest w³±czona serwisy bêd±
-	wysy³aæ wiadomo¶ci prywatne (query), w przeciwnym
-	wypadku bêd± wysy³aæ powiadomienia (notice).
+	Pozwala wybraÄ‡ sposÃ³b w jaki serwisy bÄ™dÄ… pisaÄ‡ do
+	Ciebie. Kiedy ta opcja jest wÅ‚Ä…czona serwisy bÄ™dÄ…
+	wysyÅ‚aÄ‡ wiadomoÅ›ci prywatne (query), w przeciwnym
+	wypadku bÄ™dÄ… wysyÅ‚aÄ‡ powiadomienia (notice).
 
 NICK_HELP_SET_AUTOOP
-	Sk³adnia: SET AUTOOP {ON | OFF}
+	SkÅ‚adnia: SET AUTOOP {ON | OFF}
 	
-	W³±cza lub wy³±cza automatyczne nadawanie uprawnieñ
-	przy wchodzeniu na kana³.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne nadawanie uprawnieÅ„
+	przy wchodzeniu na kanaÅ‚.
 
 NICK_HELP_SASET
-	Sk³adnia: SASET nick opcja parametry.
+	SkÅ‚adnia: SASET nick opcja parametry.
 	
-	Ustawia ró¿ne opcje nicka wskazanemu u¿ytkownikowi.
-	Dostêpne opcje to:
+	Ustawia rÃ³Å¼ne opcje nicka wskazanemu uÅ¼ytkownikowi.
+	DostÄ™pne opcje to:
 	
-	    DISPLAY    Ustawia nick reprezentuj±cy grupê nicków
-	    PASSWORD   Ustawia has³o do nicka
-	    LANGUAGE   Ustawia jêzyk w którym serwisy bêd±
-	               wysy³a³y komunikaty
+	    DISPLAY    Ustawia nick reprezentujÄ…cy grupÄ™ nickÃ³w
+	    PASSWORD   Ustawia hasÅ‚o do nicka
+	    LANGUAGE   Ustawia jÄ™zyk w ktÃ³rym serwisy bÄ™dÄ…
+	               wysyÅ‚aÅ‚y komunikaty
 	    URL        Przypisuje adres www do nicka
 	    EMAIL      Przypisuje adres e-mail do nicka
 	    ICQ        Przypisuje numer ICQ do nicka
 	    GREET      Przypisuje komunikat powitalny do nicka
-	    KILL       W³±cza lub wy³±cza ochronê nicka
-	    SECURE     W³±cza lub wy³±cza bezpieczeñstwo nicka
-	    PRIVATE    Zapobiega wy¶wietlaniu nicka po wydaniu
+	    KILL       WÅ‚Ä…cza lub wyÅ‚Ä…cza ochronÄ™ nicka
+	    SECURE     WÅ‚Ä…cza lub wyÅ‚Ä…cza bezpieczeÅ„stwo nicka
+	    PRIVATE    Zapobiega wyÅ›wietlaniu nicka po wydaniu
 	               polecenia: %R%S LIST
-	    HIDE       Ukrywa poszczególne informacje o nicku
-	    MSG        Zmienia sposób komunikacji serwisów
-	    AUTOOP     W³±cza lub wy³±cza automatyczne opowanie
-	    NOEXPIRE   Zapobiega wyga¶niêciu nicka
+	    HIDE       Ukrywa poszczegÃ³lne informacje o nicku
+	    MSG        Zmienia sposÃ³b komunikacji serwisÃ³w
+	    AUTOOP     WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne opowanie
+	    NOEXPIRE   Zapobiega wygaÅ›niÄ™ciu nicka
 	
-	Aby uzyskaæ wiêcej informacji o danej opcji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji o danej opcji wpisz:
 	%R%S HELP SASET opcja
 
 NICK_HELP_SASET_DISPLAY
-	Sk³adnia: SASET nick DISPLAY nowa-nazwa
+	SkÅ‚adnia: SASET nick DISPLAY nowa-nazwa
 	
-	Zmienia nazwê reprezentuj±c± grupê nicków wskazanego
-	u¿ytkownika na now±. Nazwa MUSI byæ jednym z nicków
-	nale¿±cych do tej grupy.
+	Zmienia nazwÄ™ reprezentujÄ…cÄ… grupÄ™ nickÃ³w wskazanego
+	uÅ¼ytkownika na nowÄ…. Nazwa MUSI byÄ‡ jednym z nickÃ³w
+	naleÅ¼Ä…cych do tej grupy.
 
 NICK_HELP_SASET_PASSWORD
-	Sk³adnia: SASET nick PASSWORD nowe-has³o
+	SkÅ‚adnia: SASET nick PASSWORD nowe-hasÅ‚o
 	
-	Zmienia has³o wskazanemu u¿ytkownikowi.
+	Zmienia hasÅ‚o wskazanemu uÅ¼ytkownikowi.
 
 NICK_HELP_SASET_URL
-	Sk³adnia: SASET nick URL url
+	SkÅ‚adnia: SASET nick URL url
 	
-	Przypisuje podany adres www wskazanemu u¿ytkownikowi.
-	Ten adres bêdzie siê pokazywa³ w opisie jego nicka
-	dostêpnym po u¿yciu polecenia INFO.
+	Przypisuje podany adres www wskazanemu uÅ¼ytkownikowi.
+	Ten adres bÄ™dzie siÄ™ pokazywaÅ‚ w opisie jego nicka
+	dostÄ™pnym po uÅ¼yciu polecenia INFO.
 
 NICK_HELP_SASET_EMAIL
-	Sk³adnia: SASET nick EMAIL adres
+	SkÅ‚adnia: SASET nick EMAIL adres
 	
-	Przypisuje wskazanemu u¿ytkownikowi adres e-mail.
+	Przypisuje wskazanemu uÅ¼ytkownikowi adres e-mail.
 
 NICK_HELP_SASET_ICQ
-	Sk³adnia: SASET nick ICQ numer
+	SkÅ‚adnia: SASET nick ICQ numer
 	
-	Przypisuje numer ICQ wskazanemu nickowi, który
-	bêdzie wy¶wietlany przy opisie nicka dostêpnym
-	przy u¿yciu komendy INFO.
+	Przypisuje numer ICQ wskazanemu nickowi, ktÃ³ry
+	bÄ™dzie wyÅ›wietlany przy opisie nicka dostÄ™pnym
+	przy uÅ¼yciu komendy INFO.
 NICK_HELP_SASET_GREET
-	Sk³adnia: SASET nick GREET wiadomo¶æ
+	SkÅ‚adnia: SASET nick GREET wiadomoÅ›Ä‡
 	
-	Ustawia wiadomo¶æ powitaln± dla wskazanego u¿ytkownika.
-	Je¶li kana³ ma przydzielonego bota, w³±czone witanie
-	oraz u¿ytkownik ma odpowiedni poziom dostêpu to
-	wtedy ta wiadomo¶æ bêdzie wysy³ana na kana³ przez bota.
+	Ustawia wiadomoÅ›Ä‡ powitalnÄ… dla wskazanego uÅ¼ytkownika.
+	JeÅ›li kanaÅ‚ ma przydzielonego bota, wÅ‚Ä…czone witanie
+	oraz uÅ¼ytkownik ma odpowiedni poziom dostÄ™pu to
+	wtedy ta wiadomoÅ›Ä‡ bÄ™dzie wysyÅ‚ana na kanaÅ‚ przez bota.
 
 NICK_HELP_SASET_KILL
-	Sk³adnia: SASET nick KILL {ON | QUICK | IMMED | OFF}
+	SkÅ‚adnia: SASET nick KILL {ON | QUICK | IMMED | OFF}
 	
-	W³±cza lub wy³±cza automatyczn± ochronê dla nicka.
-	U¿ytkownicy wchodz±cy na chroniony nick otrzymuj±
-	informacje od %S, ¿e nick jest zarejestrowany i
-	je¶li siê nie zidentyfikuj± lub go nie zmieni±
-	w okre¶lonym czasie to ich nick zostanie zmieniony
-	si³± lub zostan± od³±czeni od sieci.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatycznÄ… ochronÄ™ dla nicka.
+	UÅ¼ytkownicy wchodzÄ…cy na chroniony nick otrzymujÄ…
+	informacje od %S, Å¼e nick jest zarejestrowany i
+	jeÅ›li siÄ™ nie zidentyfikujÄ… lub go nie zmieniÄ…
+	w okreÅ›lonym czasie to ich nick zostanie zmieniony
+	siÅ‚Ä… lub zostanÄ… odÅ‚Ä…czeni od sieci.
 	
-	Opcja QUICK skraca czas oczekiwania na zmianê
+	Opcja QUICK skraca czas oczekiwania na zmianÄ™
 	z 60 sekund do 20. W przypadku opcji IMMED
-	nick zostanie zmieniony natychmiast bez mo¿liwo¶ci
-	identyfikacji (wstêpna identyfikacja nastêpuje
-	na podstawie listy dostêpu, dlatego t± opcjê
-	nale¿y stosowaæ z rozwag±). Administrator sieci 
-	mo¿e wy³±czyæ korzystanie z IMMED.
+	nick zostanie zmieniony natychmiast bez moÅ¼liwoÅ›ci
+	identyfikacji (wstÄ™pna identyfikacja nastÄ™puje
+	na podstawie listy dostÄ™pu, dlatego tÄ… opcjÄ™
+	naleÅ¼y stosowaÄ‡ z rozwagÄ…). Administrator sieci 
+	moÅ¼e wyÅ‚Ä…czyÄ‡ korzystanie z IMMED.
 NICK_HELP_SASET_SECURE
-	Sk³adnia: SASET nick SECURE {ON | OFF}
+	SkÅ‚adnia: SASET nick SECURE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê bezpieczeñstwa dla nicka.
-	W³±czenie SECURE wymusza na u¿ytkowniku podanie
-	has³a zanim ten zostanie rozpoznany jako w³a¶ciciel
-	nicka. %S nie bierze pod uwagê w tym wypadku
-	wystêpowania adresu li¶cie dostêpu. Je¶li adres 
-	znajduje siê na li¶cie %S nie skilluje
-	u¿ytkownika niezale¿nie od ustawienia opcji KILL.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ bezpieczeÅ„stwa dla nicka.
+	WÅ‚Ä…czenie SECURE wymusza na uÅ¼ytkowniku podanie
+	hasÅ‚a zanim ten zostanie rozpoznany jako wÅ‚aÅ›ciciel
+	nicka. %S nie bierze pod uwagÄ™ w tym wypadku
+	wystÄ™powania adresu liÅ›cie dostÄ™pu. JeÅ›li adres 
+	znajduje siÄ™ na liÅ›cie %S nie skilluje
+	uÅ¼ytkownika niezaleÅ¼nie od ustawienia opcji KILL.
 
 NICK_HELP_SASET_PRIVATE
-	Sk³adnia: SASET nick PRIVATE {ON | OFF}
+	SkÅ‚adnia: SASET nick PRIVATE {ON | OFF}
 
-	W³±cza lub wy³±cza opcjê PRIVATE dla nicka.
-	Kiedy ta opcja jest w³±czona nick nie bêdzie
-	umieszczany na listach wy¶wietlanych komend±:
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ PRIVATE dla nicka.
+	Kiedy ta opcja jest wÅ‚Ä…czona nick nie bÄ™dzie
+	umieszczany na listach wyÅ›wietlanych komendÄ…:
 	%R%S LIST
-	Jednak ka¿dy, kto zna nick mo¿e uzyskaæ o nim
-	informacje u¿ywaj±c polecenia INFO.
+	Jednak kaÅ¼dy, kto zna nick moÅ¼e uzyskaÄ‡ o nim
+	informacje uÅ¼ywajÄ…c polecenia INFO.
 
 NICK_HELP_SASET_HIDE
-	Sk³adnia: SASET nick HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+	SkÅ‚adnia: SASET nick HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
-	To polecenie pozwala na ukrycie czê¶ci informacji, które
-	s± wy¶wietlane przez polecenie INFO serwisu %s.
-	Pierwszy argument okre¶la ukrywan± informacjê:
-	EMAIL - adres e-mail, USERMASK - ostatnio u¿ywany host,
-	QUIT - ostatnia wiadomo¶æ po¿egnalna, STATUS - status
-	dostêpu do serwisów. Drugi argument okre¶la, czy dana 
-	informacja bêdzie pokazywana (OFF), czy ukrywana (ON).
+	To polecenie pozwala na ukrycie czÄ™Å›ci informacji, ktÃ³re
+	sÄ… wyÅ›wietlane przez polecenie INFO serwisu %s.
+	Pierwszy argument okreÅ›la ukrywanÄ… informacjÄ™:
+	EMAIL - adres e-mail, USERMASK - ostatnio uÅ¼ywany host,
+	QUIT - ostatnia wiadomoÅ›Ä‡ poÅ¼egnalna, STATUS - status
+	dostÄ™pu do serwisÃ³w. Drugi argument okreÅ›la, czy dana 
+	informacja bÄ™dzie pokazywana (OFF), czy ukrywana (ON).
 NICK_HELP_SASET_MSG
-	Sk³adnia: SASET nick MSG {ON | OFF}
+	SkÅ‚adnia: SASET nick MSG {ON | OFF}
 	
-	Pozwala wybraæ sposób w jaki serwisy bêd± pisaæ do
-	wskazanego u¿ytkownika. Kiedy ta opcja jest
-	w³±czona serwisy bêd± wysy³aæ wiadomo¶ci prywatne
-	w przeciwnym wypadku bêd± wysy³aæ powiadomienia.
+	Pozwala wybraÄ‡ sposÃ³b w jaki serwisy bÄ™dÄ… pisaÄ‡ do
+	wskazanego uÅ¼ytkownika. Kiedy ta opcja jest
+	wÅ‚Ä…czona serwisy bÄ™dÄ… wysyÅ‚aÄ‡ wiadomoÅ›ci prywatne
+	w przeciwnym wypadku bÄ™dÄ… wysyÅ‚aÄ‡ powiadomienia.
 
 NICK_HELP_SASET_NOEXPIRE
-	Sk³adnia: SASET nick NOEXPIRE {ON | OFF}
+	SkÅ‚adnia: SASET nick NOEXPIRE {ON | OFF}
 	
-	W³±cza lub wy³±cza automatyczne usuniêcie nicka,
-	je¶li nie bêdzie on u¿ywany.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne usuniÄ™cie nicka,
+	jeÅ›li nie bÄ™dzie on uÅ¼ywany.
 
 NICK_HELP_SASET_AUTOOP
-	Sk³adnia: SASET nick AUTOOP {ON | OFF}
+	SkÅ‚adnia: SASET nick AUTOOP {ON | OFF}
 	
-	W³±cza lub wy³±cza automatyczne nadawanie uprawnieñ
-	wskazanemu u¿ytkownikowi przy wchodzeniu na kana³.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne nadawanie uprawnieÅ„
+	wskazanemu uÅ¼ytkownikowi przy wchodzeniu na kanaÅ‚.
 
 NICK_HELP_SASET_LANGUAGE
-	Sk³adnia: SASET nick LANGUAGE numer
+	SkÅ‚adnia: SASET nick LANGUAGE numer
 	
-	Zmienia jêzyk jakiego u¿ywaj± serwisy komunikuj±c 
-	siê ze wskazan± osob±. Numer musi byæ wybrany z
-	listy obs³ugiwanych jêzyków, która jest dostêpna
+	Zmienia jÄ™zyk jakiego uÅ¼ywajÄ… serwisy komunikujÄ…c 
+	siÄ™ ze wskazanÄ… osobÄ…. Numer musi byÄ‡ wybrany z
+	listy obsÅ‚ugiwanych jÄ™zykÃ³w, ktÃ³ra jest dostÄ™pna
 	po wydaniu polecenia %R%S HELP SET LANGUAGE.
 
 NICK_HELP_RECOVER
-	Sk³adnia: RECOVER nick [has³o]
+	SkÅ‚adnia: RECOVER nick [hasÅ‚o]
 	
-	Pozwala na odzyskanie nicka je¶li jest on u¿ywany przez
-	inn± osobê. Wykonuje te same czynno¶ci co %S w
+	Pozwala na odzyskanie nicka jeÅ›li jest on uÅ¼ywany przez
+	innÄ… osobÄ™. Wykonuje te same czynnoÅ›ci co %S w
 	przypadku automatycznej ochrony nicka.
 	
-	U¿ycie tej komendy powoduje wprowadzenie sztucznego
-	u¿ytkownika przez %S o nicku, który chcesz odzyskaæ.
-	Spowoduje to od³±czenie u¿ytkownika, który go aktualnie
-	u¿ywa. Serwis pozostanie przez minutê online, aby
-	uniemo¿liwiæ natychmiastowe po³±czenie z serwerem
-	na tym samym nicku. Po tym czasie mo¿esz zaj±æ nick.
-	Je¶li nie chcesz czekaæ minuty mo¿esz u¿yæ polecenia
+	UÅ¼ycie tej komendy powoduje wprowadzenie sztucznego
+	uÅ¼ytkownika przez %S o nicku, ktÃ³ry chcesz odzyskaÄ‡.
+	Spowoduje to odÅ‚Ä…czenie uÅ¼ytkownika, ktÃ³ry go aktualnie
+	uÅ¼ywa. Serwis pozostanie przez minutÄ™ online, aby
+	uniemoÅ¼liwiÄ‡ natychmiastowe poÅ‚Ä…czenie z serwerem
+	na tym samym nicku. Po tym czasie moÅ¼esz zajÄ…Ä‡ nick.
+	JeÅ›li nie chcesz czekaÄ‡ minuty moÅ¼esz uÅ¼yÄ‡ polecenia
 	RELEASE (%R%S HELP RELEASE).
 
-	Aby u¿yæ polecenia RECOVER musi byæ spe³niony jeden
-	z warunków:
-	1. twój adres znajduje siê na li¶cie dostêpu,
-	2. jeste¶ zidentyfikowany w grupie,
-	   do której nale¿y wskazany nick,
-	3. podasz prawid³owe has³o do nicka.
+	Aby uÅ¼yÄ‡ polecenia RECOVER musi byÄ‡ speÅ‚niony jeden
+	z warunkÃ³w:
+	1. twÃ³j adres znajduje siÄ™ na liÅ›cie dostÄ™pu,
+	2. jesteÅ› zidentyfikowany w grupie,
+	   do ktÃ³rej naleÅ¼y wskazany nick,
+	3. podasz prawidÅ‚owe hasÅ‚o do nicka.
 
 NICK_HELP_RELEASE
-	Sk³adnia: RELEASE nick [has³o]
+	SkÅ‚adnia: RELEASE nick [hasÅ‚o]
 	
-	Instruuje %S aby zdj±³ wszelkie blokady na³o¿one
-	przez automatyczn± ochronê nicka lub w wyniku u¿ycia
+	Instruuje %S aby zdjÄ…Å‚ wszelkie blokady naÅ‚oÅ¼one
+	przez automatycznÄ… ochronÄ™ nicka lub w wyniku uÅ¼ycia
 	polecenia RECOVER. Blokada trwa %s; to polecenie
-	pozwala j± skróciæ.
+	pozwala jÄ… skrÃ³ciÄ‡.
 	
-	Aby u¿yæ polecenia RELEASE musi byæ spe³niony jeden
-	z warunków:
-	1. twój adres znajduje siê na li¶cie dostêpu,
-	2. jeste¶ zidentyfikowany w grupie,
-	   do której nale¿y wskazany nick,
-	3. podasz prawid³owe has³o do nicka.
+	Aby uÅ¼yÄ‡ polecenia RELEASE musi byÄ‡ speÅ‚niony jeden
+	z warunkÃ³w:
+	1. twÃ³j adres znajduje siÄ™ na liÅ›cie dostÄ™pu,
+	2. jesteÅ› zidentyfikowany w grupie,
+	   do ktÃ³rej naleÅ¼y wskazany nick,
+	3. podasz prawidÅ‚owe hasÅ‚o do nicka.
 
 NICK_HELP_GHOST
-	Sk³adnia: GHOST nick [has³o]
+	SkÅ‚adnia: GHOST nick [hasÅ‚o]
 	
-	Opcja likwiduje sesjê-ducha o wskazanym nicku.
-	Taka sytuacja najczê¶ciej ma miejsce wtedy, gdy
-	po³±czenie z serwem IRC nie zosta³o zakoñczone w
-	sposób prawid³owy (komputer siê zawiesi³ lub
-	wyst±pi³a awaria ³±cza internetowego). Serwer IRC
-	mo¿e wtedy nie rozpoznaæ zerwania po³±czenia i
-	bêdzie czeka³ okre¶lon± ilo¶æ czasu na odpowied¼ 
+	Opcja likwiduje sesjÄ™-ducha o wskazanym nicku.
+	Taka sytuacja najczÄ™Å›ciej ma miejsce wtedy, gdy
+	poÅ‚Ä…czenie z serwem IRC nie zostaÅ‚o zakoÅ„czone w
+	sposÃ³b prawidÅ‚owy (komputer siÄ™ zawiesiÅ‚ lub
+	wystÄ…piÅ‚a awaria Å‚Ä…cza internetowego). Serwer IRC
+	moÅ¼e wtedy nie rozpoznaÄ‡ zerwania poÅ‚Ä…czenia i
+	bÄ™dzie czekaÅ‚ okreÅ›lonÄ… iloÅ›Ä‡ czasu na odpowiedÅº 
 	od klienta.
 	
-	Aby u¿yæ polecenia GHOST musi byæ spe³niony jeden
-	z warunków:
-	1. twój adres znajduje siê na li¶cie dostêpu,
-	2. jeste¶ zidentyfikowany w grupie,
-	   do której nale¿y wskazany nick,
-	3. podasz prawid³owe has³o do nicka.
+	Aby uÅ¼yÄ‡ polecenia GHOST musi byÄ‡ speÅ‚niony jeden
+	z warunkÃ³w:
+	1. twÃ³j adres znajduje siÄ™ na liÅ›cie dostÄ™pu,
+	2. jesteÅ› zidentyfikowany w grupie,
+	   do ktÃ³rej naleÅ¼y wskazany nick,
+	3. podasz prawidÅ‚owe hasÅ‚o do nicka.
 
 NICK_HELP_INFO
-	Sk³adnia: INFO nick [ALL]
+	SkÅ‚adnia: INFO nick [ALL]
 	
-	Wy¶wietla informacje na temat wybranego nicka:
-	w³a¶ciciel, kiedy ostatnio widziano, z jakiego 
-	hosta oraz opcje nicka. Je¶li zidentyfikowany 
-	u¿ytkownik u¿yje tej komendy na sobie wraz z
-	parametrem ALL otrzyma wszystkie mo¿liwe
-	informacje - nawet je¶li zosta³y one ukryte.
+	WyÅ›wietla informacje na temat wybranego nicka:
+	wÅ‚aÅ›ciciel, kiedy ostatnio widziano, z jakiego 
+	hosta oraz opcje nicka. JeÅ›li zidentyfikowany 
+	uÅ¼ytkownik uÅ¼yje tej komendy na sobie wraz z
+	parametrem ALL otrzyma wszystkie moÅ¼liwe
+	informacje - nawet jeÅ›li zostaÅ‚y one ukryte.
 
 NICK_HELP_LIST
-	Sk³adnia: LIST wzorzec
+	SkÅ‚adnia: LIST wzorzec
 	
-	Listuje wszystkie zarejestrowane nicki pasuj±ce do
+	Listuje wszystkie zarejestrowane nicki pasujÄ…ce do
 	podanego wzorca w postaci nick!ident@host. Nicki z
-	w³±czon± opcj± PRIVATE zostan± pominiête.
+	wÅ‚Ä…czonÄ… opcjÄ… PRIVATE zostanÄ… pominiÄ™te.
 	
-	Przyk³ady:
+	PrzykÅ‚ady:
 	
 	    LIST *!adirm@mafia.ru
-	        Lista wszystkich nicków pasuj±cych do
+	        Lista wszystkich nickÃ³w pasujÄ…cych do
 	        *!adirm@mafia.ru.
 	
 	    LIST *Bot*!*@*
-	        Lista wszystkich nicków z Bot w nazwie
-	        (wielko¶æ liter nie ma znaczenia).
+	        Lista wszystkich nickÃ³w z Bot w nazwie
+	        (wielkoÅ›Ä‡ liter nie ma znaczenia).
 	
 	    LIST *!*@*.ircnet.pl
-	        Lista wszystkich nicków z mask± domeny
+	        Lista wszystkich nickÃ³w z maskÄ… domeny
 	        ircnet.pl
 
 NICK_HELP_ALIST
-	Sk³adnia: ALIST [poziom]
+	SkÅ‚adnia: ALIST [poziom]
 	
-	Listuje wszystkie kana³y, gdzie masz wpis na li¶cie
-	dostêpu. Aby ograniczyæ listê pokazywanych kana³ów
-	mo¿esz podaæ poziom XOP lub numer
+	Listuje wszystkie kanaÅ‚y, gdzie masz wpis na liÅ›cie
+	dostÄ™pu. Aby ograniczyÄ‡ listÄ™ pokazywanych kanaÅ‚Ã³w
+	moÅ¼esz podaÄ‡ poziom XOP lub numer
 
-	Przyk³ady:
+	PrzykÅ‚ady:
 	    ALIST Founder
-	        Listuje kana³y, których jeste¶ w³a¶cicielem
+	        Listuje kanaÅ‚y, ktÃ³rych jesteÅ› wÅ‚aÅ›cicielem
 
 	    ALIST AOP
-	        Listuje kana³y, na których masz poziom
-	        AOP lub wy¿szy.
+	        Listuje kanaÅ‚y, na ktÃ³rych masz poziom
+	        AOP lub wyÅ¼szy.
 
 	    ALIST 10
-	        Listuje kana³y, na których masz poziom
-	        10. lub wy¿szy.
+	        Listuje kanaÅ‚y, na ktÃ³rych masz poziom
+	        10. lub wyÅ¼szy.
 
-	Kana³y z opcj± NOEXPIRE bêd± oznaczone wykrzyknikiem.
+	KanaÅ‚y z opcjÄ… NOEXPIRE bÄ™dÄ… oznaczone wykrzyknikiem.
 NICK_HELP_GLIST
-	Sk³adnia: GLIST
+	SkÅ‚adnia: GLIST
 	
 	Listuje wszystkie nicki z Twojej grupy.
 
 NICK_HELP_STATUS
-	Sk³adnia: STATUS nick...
+	SkÅ‚adnia: STATUS nick...
 	
-	Zwraca status wskazanych u¿ytkowników (czy s±
-	rozpoznawani jako w³a¶ciciele nicka).
-	Odpowied¼ ma nastêpuj±cy format:
+	Zwraca status wskazanych uÅ¼ytkownikÃ³w (czy sÄ…
+	rozpoznawani jako wÅ‚aÅ›ciciele nicka).
+	OdpowiedÅº ma nastÄ™pujÄ…cy format:
 	
 	    nick kod
 	
-	Gdzie nick jest tym nickiem wys³anym w 
-	komendzie, a kod mo¿e oznaczaæ:
+	Gdzie nick jest tym nickiem wysÅ‚anym w 
+	komendzie, a kod moÅ¼e oznaczaÄ‡:
 	
-	0 - u¿ytkownik jest offline lub nick niezarejestrowany
-	1 - u¿ytkownik nie zidentyfikowa³ siê jako w³a¶ciciel nicka
-	2 - u¿ytkownik rozpoznany na podstawie listy dostêpu
-	3 - u¿ytkownik rozpoznany na podstawie has³a
+	0 - uÅ¼ytkownik jest offline lub nick niezarejestrowany
+	1 - uÅ¼ytkownik nie zidentyfikowaÅ‚ siÄ™ jako wÅ‚aÅ›ciciel nicka
+	2 - uÅ¼ytkownik rozpoznany na podstawie listy dostÄ™pu
+	3 - uÅ¼ytkownik rozpoznany na podstawie hasÅ‚a
 	
-	Maksymalnie mo¿na podaæ 16 nicków w jednym poleceniu.
-	Reszta bêdzie ignorowana. Je¶li nie zostanie podany
-	¿aden nick zostanie zwrócony twój status.
+	Maksymalnie moÅ¼na podaÄ‡ 16 nickÃ³w w jednym poleceniu.
+	Reszta bÄ™dzie ignorowana. JeÅ›li nie zostanie podany
+	Å¼aden nick zostanie zwrÃ³cony twÃ³j status.
 
 NICK_HELP_SENDPASS
-	Sk³adnia: SENDPASS nick
+	SkÅ‚adnia: SENDPASS nick
 	
-	Wysy³a has³o do podanego nicka na adres e-mail
-	przypisany do niego. Ta komenda pomaga odzyskaæ
-	zapomniane has³o.
+	WysyÅ‚a hasÅ‚o do podanego nicka na adres e-mail
+	przypisany do niego. Ta komenda pomaga odzyskaÄ‡
+	zapomniane hasÅ‚o.
 	
-	Ta komenda w niektórych sieciach mo¿e byæ dostêpna
-	jedynie dla osób z uprawnieniami IRC operatora.
+	Ta komenda w niektÃ³rych sieciach moÅ¼e byÄ‡ dostÄ™pna
+	jedynie dla osÃ³b z uprawnieniami IRC operatora.
 	
-	Ta komenda jest niedostêpna kiedy has³a s± szyfrowane.
+	Ta komenda jest niedostÄ™pna kiedy hasÅ‚a sÄ… szyfrowane.
 
 NICK_HELP_CONFIRM
-	Sk³adnia: CONFIRM kod
+	SkÅ‚adnia: CONFIRM kod
 	
-	To polecenie umo¿liwia zakoñczenie procesu rejestracji.
-	Aby nick zosta³ zarejestrowany w serwisie %S nale¿y
-	wywo³aæ to polecenie z kodem, który zosta³ wys³any na
+	To polecenie umoÅ¼liwia zakoÅ„czenie procesu rejestracji.
+	Aby nick zostaÅ‚ zarejestrowany w serwisie %S naleÅ¼y
+	wywoÅ‚aÄ‡ to polecenie z kodem, ktÃ³ry zostaÅ‚ wysÅ‚any na
 	adres e-mail podany podczas pierwszego kroku rejestracji.
-	Aby siê dowiedzieæ wiêcej wpisz %R%S HELP REGISTER
+	Aby siÄ™ dowiedzieÄ‡ wiÄ™cej wpisz %R%S HELP REGISTER
 
 NICK_HELP_RESEND
-	Sk³adnia: RESEND
+	SkÅ‚adnia: RESEND
 	
-	To polecenie powoduje ponowne wys³anie kodu autoryzuj±cego
-	na adres e-mail u¿ytkownika, który wydaje polecenie.
+	To polecenie powoduje ponowne wysÅ‚anie kodu autoryzujÄ…cego
+	na adres e-mail uÅ¼ytkownika, ktÃ³ry wydaje polecenie.
 
 NICK_SERVADMIN_HELP
 	
-	Administratorzy serwisów mog± usun±æ ka¿dy nick
-	bez potrzeby identyfikacji jako jego w³a¶ciciele
-	oraz przegl±daæ listê dostêpu do ka¿dego nicka
+	Administratorzy serwisÃ³w mogÄ… usunÄ…Ä‡ kaÅ¼dy nick
+	bez potrzeby identyfikacji jako jego wÅ‚aÅ›ciciele
+	oraz przeglÄ…daÄ‡ listÄ™ dostÄ™pu do kaÅ¼dego nicka
 	(%R%S ACCESS LIST nick).
 
 NICK_SERVADMIN_HELP_LOGOUT
-	Sk³adnia: LOGOUT [nick [REVALIDATE]]
+	SkÅ‚adnia: LOGOUT [nick [REVALIDATE]]
 
-	Polecenie wydane bez parametrów odwraca dzia³anie
-	komendy IDENTIFY - nie bêdziesz rozpoznawany jako
-	w³a¶ciciel nicka.
+	Polecenie wydane bez parametrÃ³w odwraca dziaÅ‚anie
+	komendy IDENTIFY - nie bÄ™dziesz rozpoznawany jako
+	wÅ‚aÅ›ciciel nicka.
 	
-	Administrator serwisów mo¿e podaæ jako parametr nick
-	u¿ytkownika, który ma zostaæ wylogowany. Parametr
+	Administrator serwisÃ³w moÅ¼e podaÄ‡ jako parametr nick
+	uÅ¼ytkownika, ktÃ³ry ma zostaÄ‡ wylogowany. Parametr
 	REVALIDATE powoduje informowanie przez serwisy
-	u¿ytkownika o potrzebie ponownej identyfikacji.
+	uÅ¼ytkownika o potrzebie ponownej identyfikacji.
 
 NICK_SERVADMIN_HELP_DROP
-	Sk³adnia: DROP [nick]
+	SkÅ‚adnia: DROP [nick]
 	
-	Komenda wywo³ana bez parametru spowoduje usuniêcie
+	Komenda wywoÅ‚ana bez parametru spowoduje usuniÄ™cie
 	Twojego nicka z bazy serwisu %S.
 	
-	Komenda u¿yta z parametrem usuwa wskazany nick.
-	Ka¿dy u¿ytkownik mo¿e usuwaæ nicki znajduj±ce siê
-	w jego grupie bez specjalnych uprawnieñ. Usuwanie
-	dowolnego nicka jest ograniczone do administratorów.
+	Komenda uÅ¼yta z parametrem usuwa wskazany nick.
+	KaÅ¼dy uÅ¼ytkownik moÅ¼e usuwaÄ‡ nicki znajdujÄ…ce siÄ™
+	w jego grupie bez specjalnych uprawnieÅ„. Usuwanie
+	dowolnego nicka jest ograniczone do administratorÃ³w.
 
 NICK_SERVADMIN_HELP_INFO
 	
-	Administratorzy serwisów mog± u¿ywaæ parametru
-	ALL dla ka¿dego nicka.
+	Administratorzy serwisÃ³w mogÄ… uÅ¼ywaÄ‡ parametru
+	ALL dla kaÅ¼dego nicka.
 
 NICK_SERVADMIN_HELP_LIST
-	Sk³adnia: LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+	SkÅ‚adnia: LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	
-	Listuje wszystkie zarejestrowane nicki pasuj±ce
+	Listuje wszystkie zarejestrowane nicki pasujÄ…ce
 	do podanego wzorca w postaci nick!ident@host.
-	Administratorzy serwisów mog± zobaczyæ nicki z
-	ustawion± opcj± PRIVATE, a przy nickach z opcj±
-	NOEXPIRE zobacz± dodany do nich wykrzyknik.
+	Administratorzy serwisÃ³w mogÄ… zobaczyÄ‡ nicki z
+	ustawionÄ… opcjÄ… PRIVATE, a przy nickach z opcjÄ…
+	NOEXPIRE zobaczÄ… dodany do nich wykrzyknik.
 	
-	Administratorzy serwisów mog± tak¿e podaæ parametry:
-	FORBIDDEN, SUSPENDED, NOEXPIRE i UNCONFIRMED, które
-	ogranicz± listê wy¶wietlanych nicków do tych, które
-	spe³niaj± podane warunki. Je¶li zostanie podanych
-	wiêcej warunków, wszystkie nicki spe³niaj±ce choæ
-	jeden z nich zostan± pokazane.
+	Administratorzy serwisÃ³w mogÄ… takÅ¼e podaÄ‡ parametry:
+	FORBIDDEN, SUSPENDED, NOEXPIRE i UNCONFIRMED, ktÃ³re
+	ograniczÄ… listÄ™ wyÅ›wietlanych nickÃ³w do tych, ktÃ³re
+	speÅ‚niajÄ… podane warunki. JeÅ›li zostanie podanych
+	wiÄ™cej warunkÃ³w, wszystkie nicki speÅ‚niajÄ…ce choÄ‡
+	jeden z nich zostanÄ… pokazane.
 	
-	Przyk³ady:
+	PrzykÅ‚ady:
 	
 	    LIST *!adirm@mafia.ru
-	        Lista wszystkich nicków pasuj±cych do
+	        Lista wszystkich nickÃ³w pasujÄ…cych do
 	        *!adirm@mafia.ru.
 	
 	    LIST *Bot*!*@*
-	        Lista wszystkich nicków z Bot w nazwie
-	        (wielko¶æ liter nie ma znaczenia).
+	        Lista wszystkich nickÃ³w z Bot w nazwie
+	        (wielkoÅ›Ä‡ liter nie ma znaczenia).
 	
 	    LIST *!*@*.ircnet.pl
-	        Lista wszystkich nicków z mask± domeny
+	        Lista wszystkich nickÃ³w z maskÄ… domeny
 	        ircnet.pl
 
 NICK_SERVADMIN_HELP_ALIST
-	Sk³adnia: ALIST [nick] [poziom]
+	SkÅ‚adnia: ALIST [nick] [poziom]
 	
-	Listuje wszystkie kana³y na których jeste¶ na li¶cie
-	dostêpu. Opcjonalnie mo¿esz podaæ nick wraz z poziomem,
-	co ograniczy ilo¶æ pokazywanych wpisów.
+	Listuje wszystkie kanaÅ‚y na ktÃ³rych jesteÅ› na liÅ›cie
+	dostÄ™pu. Opcjonalnie moÅ¼esz podaÄ‡ nick wraz z poziomem,
+	co ograniczy iloÅ›Ä‡ pokazywanych wpisÃ³w.
 	
 	Parametr nick jest przeznaczony tylko dla
-	administratorów serwisów.
+	administratorÃ³w serwisÃ³w.
 
 NICK_SERVADMIN_HELP_GLIST
-	Sk³adnia: GLIST [nick]
+	SkÅ‚adnia: GLIST [nick]
 	
-	Polecenie wywo³ane bez parametrów listuje wszystkie
-	nicki nale¿±ce do grupy wydaj±cego polecenie.
+	Polecenie wywoÅ‚ane bez parametrÃ³w listuje wszystkie
+	nicki naleÅ¼Ä…ce do grupy wydajÄ…cego polecenie.
 	
-	Administratorzy serwisów mog± jako parametr podaæ
-	nick osoby, której nicki chc± sprawdziæ.
+	Administratorzy serwisÃ³w mogÄ… jako parametr podaÄ‡
+	nick osoby, ktÃ³rej nicki chcÄ… sprawdziÄ‡.
 
 NICK_SERVADMIN_HELP_GETPASS
-	Sk³adnia: GETPASS nick
+	SkÅ‚adnia: GETPASS nick
 	
-	Zwraca has³o w³a¶ciciela dla wskazanego nicka.
-	UWAGA: u¿ycie tej komendy powoduje wys³anie
-	informacji o jej u¿yciu przy pomocy WALLOP/GLOBOP.
+	Zwraca hasÅ‚o wÅ‚aÅ›ciciela dla wskazanego nicka.
+	UWAGA: uÅ¼ycie tej komendy powoduje wysÅ‚anie
+	informacji o jej uÅ¼yciu przy pomocy WALLOP/GLOBOP.
 	
-	Ta komenda jest niedostêpna kiedy has³a s± szyfrowane.
+	Ta komenda jest niedostÄ™pna kiedy hasÅ‚a sÄ… szyfrowane.
 
 NICK_SERVADMIN_HELP_GETEMAIL
-	Sk³adnia: GETEMAIL uzytkownik@serwer.com
+	SkÅ‚adnia: GETEMAIL uzytkownik@serwer.com
 	
-	Listuje nicki, które maj± ustawiony podany adres e-mail.
-	Uwaga: nie mo¿na u¿ywaæ symboli wieloznacznych (* lub ?).
-	Ka¿dy przypadek u¿ycia tej komendy jest logowany.
+	Listuje nicki, ktÃ³re majÄ… ustawiony podany adres e-mail.
+	Uwaga: nie moÅ¼na uÅ¼ywaÄ‡ symboli wieloznacznych (* lub ?).
+	KaÅ¼dy przypadek uÅ¼ycia tej komendy jest logowany.
 
 NICK_SERVADMIN_HELP_FORBID
-	Sk³adnia: FORBID nick [powód]
+	SkÅ‚adnia: FORBID nick [powÃ³d]
 	
-	Uniemo¿liwia rejestracjê i korzystanie ze wskazanego
-	nicka. Blokadê mo¿na zdj±æ u¿ywaj±c komendy DROP.
+	UniemoÅ¼liwia rejestracjÄ™ i korzystanie ze wskazanego
+	nicka. BlokadÄ™ moÅ¼na zdjÄ…Ä‡ uÅ¼ywajÄ…c komendy DROP.
 	
-	W niektórych sieciach wymagane jest podanie powodu.
+	W niektÃ³rych sieciach wymagane jest podanie powodu.
 
 NICK_SERVADMIN_HELP_SUSPEND
-	Sk³adnia: SUSPEND nick powód
+	SkÅ‚adnia: SUSPEND nick powÃ³d
 	
-	Zawiesza nick uniemo¿liwiaj±c identyfikacjê.
+	Zawiesza nick uniemoÅ¼liwiajÄ…c identyfikacjÄ™.
 
 NICK_SERVADMIN_HELP_UNSUSPEND
-	Sk³adnia: UNSUSPEND nick
+	SkÅ‚adnia: UNSUSPEND nick
 	
 	Uwalnia zawieszony nick.
 
@@ -5245,276 +5245,276 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 #
 ###########################################################################
 CHAN_HELP_CMD_GETPASS
-	    GETPASS     Podaje has³o w³a¶ciciela wskazanego kana³u
+	    GETPASS     Podaje hasÅ‚o wÅ‚aÅ›ciciela wskazanego kanaÅ‚u
 
 CHAN_HELP_CMD_FORBID
-	    FORBID      Blokuje podany kana³
+	    FORBID      Blokuje podany kanaÅ‚
 
 CHAN_HELP_CMD_SUSPEND
-	    SUSPEND     Blokuje podany kana³ z zachowaniem
-	                wszelkich jego danych i ustawieñ
+	    SUSPEND     Blokuje podany kanaÅ‚ z zachowaniem
+	                wszelkich jego danych i ustawieÅ„
 
 CHAN_HELP_CMD_UNSUSPEND
-	    UNSUSPEND   Uwalnia zawieszony kana³
+	    UNSUSPEND   Uwalnia zawieszony kanaÅ‚
 
 CHAN_HELP_CMD_STATUS
-	    STATUS      Zwraca aktualny poziom dostêpu do
-	                kana³u wskazanego u¿ytkownika
+	    STATUS      Zwraca aktualny poziom dostÄ™pu do
+	                kanaÅ‚u wskazanego uÅ¼ytkownika
 
 CHAN_HELP_CMD_REGISTER
-	    REGISTER    Rejestruje kana³
+	    REGISTER    Rejestruje kanaÅ‚
 
 CHAN_HELP_CMD_IDENTIFY
-	    IDENTIFY    Identyfikuje w³a¶ciciela kana³u
+	    IDENTIFY    Identyfikuje wÅ‚aÅ›ciciela kanaÅ‚u
 
 CHAN_HELP_CMD_SET
-	    SET         Modyfikuje ustawienia kana³u
+	    SET         Modyfikuje ustawienia kanaÅ‚u
 
 CHAN_HELP_CMD_AOP
-	    AOP         Zarz±dza list± AOP (operatorów)
+	    AOP         ZarzÄ…dza listÄ… AOP (operatorÃ³w)
 
 CHAN_HELP_CMD_SOP
-	    SOP         Zarz±dza list± SOP (super-operatorów)
+	    SOP         ZarzÄ…dza listÄ… SOP (super-operatorÃ³w)
 
 CHAN_HELP_CMD_ACCESS
-	    ACCESS      Zarz±dza list± dostêpu
+	    ACCESS      ZarzÄ…dza listÄ… dostÄ™pu
 
 CHAN_HELP_CMD_LEVELS
-	    LEVELS      Zarz±dza poziomami dostêpu
+	    LEVELS      ZarzÄ…dza poziomami dostÄ™pu
 
 CHAN_HELP_CMD_AKICK
-	    AKICK       Zarz±dza list± AKICK
+	    AKICK       ZarzÄ…dza listÄ… AKICK
 
 CHAN_HELP_CMD_DROP
-	    DROP        Usuwa kana³
+	    DROP        Usuwa kanaÅ‚
 
 CHAN_HELP_CMD_SENDPASS
-	    SENDPASS    Pomaga odzyskaæ utracone has³o
+	    SENDPASS    Pomaga odzyskaÄ‡ utracone hasÅ‚o
 
 CHAN_HELP_CMD_BAN
-	    BAN         Banuje wskazan± osobê na kanale
+	    BAN         Banuje wskazanÄ… osobÄ™ na kanale
 
 CHAN_HELP_CMD_CLEAR
-	    CLEAR       Usuwa wskazane obiekty z kana³u
+	    CLEAR       Usuwa wskazane obiekty z kanaÅ‚u
 
 CHAN_HELP_CMD_DEVOICE
-	    DEVOICE     Odbiera wskazanej osobie prawo g³osu
+	    DEVOICE     Odbiera wskazanej osobie prawo gÅ‚osu
 
 CHAN_HELP_CMD_GETKEY
-	    GETKEY      Podaje klucz do wskazanego kana³u
+	    GETKEY      Podaje klucz do wskazanego kanaÅ‚u
 
 CHAN_HELP_CMD_INFO
 	    INFO        Pokazuje informacje o zarejestrowanym kanale
 
 CHAN_HELP_CMD_INVITE
-	    INVITE      Zaprasza osobê wydaj±c± polecenie na kana³
+	    INVITE      Zaprasza osobÄ™ wydajÄ…cÄ… polecenie na kanaÅ‚
 
 CHAN_HELP_CMD_KICK
-	    KICK        Wyrzuca wskazany nick z kana³u
+	    KICK        Wyrzuca wskazany nick z kanaÅ‚u
 
 CHAN_HELP_CMD_LIST
-	    LIST        Listuje zarejestrowane kana³y pasuj±ce do wzorca
+	    LIST        Listuje zarejestrowane kanaÅ‚y pasujÄ…ce do wzorca
 
 CHAN_HELP_CMD_LOGOUT
-	    LOGOUT      Wyloguje wskazan± osobê
+	    LOGOUT      Wyloguje wskazanÄ… osobÄ™
 
 CHAN_HELP_CMD_OP
 	    OP          Nadaje wskazanej osobie uprawnienia operatora
 
 CHAN_HELP_CMD_TOPIC
-	    TOPIC       Zmienia temat podanego kana³u
+	    TOPIC       Zmienia temat podanego kanaÅ‚u
 
 CHAN_HELP_CMD_UNBAN
-	    UNBAN       Usuwa wszystkie bany blokuj±ce wej¶cie na kana³
+	    UNBAN       Usuwa wszystkie bany blokujÄ…ce wejÅ›cie na kanaÅ‚
 
 CHAN_HELP_CMD_VOICE
-	    VOICE       Nadaje wskazanej osobie prawo g³osu
+	    VOICE       Nadaje wskazanej osobie prawo gÅ‚osu
 
 CHAN_HELP_CMD_VOP
-	    VOP         Zarz±dza list± VOP (osób z prawem g³osu)
+	    VOP         ZarzÄ…dza listÄ… VOP (osÃ³b z prawem gÅ‚osu)
 
 CHAN_HELP_CMD_DEHALFOP
-	    DEHALFOP    Odbiera wskazanej osobie uprawnienia pó³-operatora
+	    DEHALFOP    Odbiera wskazanej osobie uprawnienia pÃ³Å‚-operatora
 
 CHAN_HELP_CMD_DEOWNER
-	    DEOWNER     Usuwa twój status w³a¶ciciela kana³u
+	    DEOWNER     Usuwa twÃ³j status wÅ‚aÅ›ciciela kanaÅ‚u
 
 CHAN_HELP_CMD_DEPROTECT
-	    DEPROTECT   Wy³±cza ochronê wskazanej osoby
+	    DEPROTECT   WyÅ‚Ä…cza ochronÄ™ wskazanej osoby
 
 CHAN_HELP_CMD_HALFOP
-	    HALFOP      Nadaje wskazanej osobie uprawnienia pó³-operatora
+	    HALFOP      Nadaje wskazanej osobie uprawnienia pÃ³Å‚-operatora
 
 CHAN_HELP_CMD_HOP
-	    HOP         Zarz±dza list± HOP (pó³-operatorów)
+	    HOP         ZarzÄ…dza listÄ… HOP (pÃ³Å‚-operatorÃ³w)
 
 CHAN_HELP_CMD_OWNER
-	    OWNER       Nadaje Tobie status w³a¶ciciela kana³u
+	    OWNER       Nadaje Tobie status wÅ‚aÅ›ciciela kanaÅ‚u
 
 CHAN_HELP_CMD_PROTECT
-	    PROTECT     Chroni wskazan± osobê
+	    PROTECT     Chroni wskazanÄ… osobÄ™
 
 CHAN_HELP_CMD_ADMIN
-	    ADMIN       Chroni wskazan± osobê
+	    ADMIN       Chroni wskazanÄ… osobÄ™
 
 CHAN_HELP_CMD_DEADMIN
-	    DEADMIN     Wy³±cza ochronê wskazanej osoby
+	    DEADMIN     WyÅ‚Ä…cza ochronÄ™ wskazanej osoby
 
 CHAN_HELP_CMD_DEOP
 	    DEOP        Odbiera wskazanej osobie uprawnienia operatora
 
 CHAN_HELP
-	%S umo¿liwia rejestracjê kana³u, zmianê
-	jego ustawieñ oraz zapobiega przed odebraniem
-	kontroli nad kana³em. Poni¿sze komendy pozwalaj±
-	na zarz±dzanie kana³em, aby ich u¿yæ wpisz:
+	%S umoÅ¼liwia rejestracjÄ™ kanaÅ‚u, zmianÄ™
+	jego ustawieÅ„ oraz zapobiega przed odebraniem
+	kontroli nad kanaÅ‚em. PoniÅ¼sze komendy pozwalajÄ…
+	na zarzÄ…dzanie kanaÅ‚em, aby ich uÅ¼yÄ‡ wpisz:
 	%R%S komenda
-	Aby uzyskaæ szczegó³owy opis polecenia wpisz:
+	Aby uzyskaÄ‡ szczegÃ³Å‚owy opis polecenia wpisz:
 	%R%S HELP komenda
 	
 
 CHAN_HELP_EXPIRES
 	
-	Uwaga! Kana³ który nie by³ u¿ywany przez %d dni
-	(np. nie odwiedzi³ go ¿aden u¿ytkownik umieszczony
-	na li¶cie dostêpu kana³u w tym czasie) zostanie
+	Uwaga! KanaÅ‚ ktÃ³ry nie byÅ‚ uÅ¼ywany przez %d dni
+	(np. nie odwiedziÅ‚ go Å¼aden uÅ¼ytkownik umieszczony
+	na liÅ›cie dostÄ™pu kanaÅ‚u w tym czasie) zostanie
 	automatycznie odrejestrowany.
 
 CHAN_HELP_REGISTER
-	Sk³adnia: REGISTER kana³ has³o opis
+	SkÅ‚adnia: REGISTER kanaÅ‚ hasÅ‚o opis
 	
-	Rejestruje kana³ w bazie danych %S. Aby u¿yæ
-	tej komendy musisz byæ operatorem na kanale, który
-	chcesz zarejestrowaæ. Has³o umo¿liwia pó¼niejsz±
-	identyfikacjê jako w³a¶ciciel kana³u (IDENTIFY).
-	Ostatni parametr, który musi zostaæ podany, okre¶la
-	cel istnienia kana³u.
+	Rejestruje kanaÅ‚ w bazie danych %S. Aby uÅ¼yÄ‡
+	tej komendy musisz byÄ‡ operatorem na kanale, ktÃ³ry
+	chcesz zarejestrowaÄ‡. HasÅ‚o umoÅ¼liwia pÃ³ÅºniejszÄ…
+	identyfikacjÄ™ jako wÅ‚aÅ›ciciel kanaÅ‚u (IDENTIFY).
+	Ostatni parametr, ktÃ³ry musi zostaÄ‡ podany, okreÅ›la
+	cel istnienia kanaÅ‚u.
 	
-	Po rejestracji kana³u stajesz siê jego w³a¶cicielem,
-	który mo¿e zmieniaæ wszystkie jego ustawienia.
+	Po rejestracji kanaÅ‚u stajesz siÄ™ jego wÅ‚aÅ›cicielem,
+	ktÃ³ry moÅ¼e zmieniaÄ‡ wszystkie jego ustawienia.
 	%S automatycznie nadaje uprawnienia operatora
-	w³a¶cicielowi, który wchodzi na kana³. Informacje 
-	na temat nadawania uprawnieñ innym u¿ytkownikom
-	znajduj± siê w pomocy polecenia ACCESS
+	wÅ‚aÅ›cicielowi, ktÃ³ry wchodzi na kanaÅ‚. Informacje 
+	na temat nadawania uprawnieÅ„ innym uÅ¼ytkownikom
+	znajdujÄ… siÄ™ w pomocy polecenia ACCESS
 	(%R%S HELP ACCESS).
 	
-	UWAGA: Aby zarejestrowaæ kana³ nale¿y posiadaæ
-	zarejestrowany nick, aby uzyskaæ wiêcej informacji
-	na temat zarz±dzania nickiem wpisz: %R%s HELP
+	UWAGA: Aby zarejestrowaÄ‡ kanaÅ‚ naleÅ¼y posiadaÄ‡
+	zarejestrowany nick, aby uzyskaÄ‡ wiÄ™cej informacji
+	na temat zarzÄ…dzania nickiem wpisz: %R%s HELP
 
 CHAN_HELP_IDENTIFY
-	Sk³adnia: IDENTIFY kana³ has³o
+	SkÅ‚adnia: IDENTIFY kanaÅ‚ hasÅ‚o
 	
-	Autoryzuje u¿ytkownika w serwisie %S jako w³a¶ciciela
-	wskazanego kana³u. Wiele wa¿nych komend wymaga dokonania
-	identyfikacji przed ich u¿yciem. Has³em jest to samo
-	has³o, którego u¿yto przy komendzie REGISTER.
+	Autoryzuje uÅ¼ytkownika w serwisie %S jako wÅ‚aÅ›ciciela
+	wskazanego kanaÅ‚u. Wiele waÅ¼nych komend wymaga dokonania
+	identyfikacji przed ich uÅ¼yciem. HasÅ‚em jest to samo
+	hasÅ‚o, ktÃ³rego uÅ¼yto przy komendzie REGISTER.
 
 CHAN_HELP_LOGOUT
-	Sk³adnia: LOGOUT kana³ nick
+	SkÅ‚adnia: LOGOUT kanaÅ‚ nick
 	
-	Pozwala na wylogowanie wskazanego u¿ytkownika z kana³u.
-	W celu odzyskania uprawnieñ u¿ytkownik bêdzie musia³
-	ponownie siê zidentyfikowaæ.
+	Pozwala na wylogowanie wskazanego uÅ¼ytkownika z kanaÅ‚u.
+	W celu odzyskania uprawnieÅ„ uÅ¼ytkownik bÄ™dzie musiaÅ‚
+	ponownie siÄ™ zidentyfikowaÄ‡.
 	
-	Ka¿dy mo¿e wylogowaæ siebie, natomiast w³a¶ciciel kana³u
-	mo¿e wylogowaæ ka¿dego.
+	KaÅ¼dy moÅ¼e wylogowaÄ‡ siebie, natomiast wÅ‚aÅ›ciciel kanaÅ‚u
+	moÅ¼e wylogowaÄ‡ kaÅ¼dego.
 
 CHAN_HELP_DROP
-	Sk³adnia: DROP kana³
+	SkÅ‚adnia: DROP kanaÅ‚
 	
-	Usuwa podany kana³. Komenda mo¿e zostaæ u¿yta
-	jedynie przez w³a¶ciciela kana³u, po wcze¶niejszej
-	IDENTIFYKACJI przy pomocy has³a kana³u.
+	Usuwa podany kanaÅ‚. Komenda moÅ¼e zostaÄ‡ uÅ¼yta
+	jedynie przez wÅ‚aÅ›ciciela kanaÅ‚u, po wczeÅ›niejszej
+	IDENTIFYKACJI przy pomocy hasÅ‚a kanaÅ‚u.
 
 CHAN_HELP_SET
-	Sk³adnia: SET kana³ opcja parametry
+	SkÅ‚adnia: SET kanaÅ‚ opcja parametry
 	
-	Pozwala w³a¶cicielowi kana³u na zmianê ro¿nych  
-	opcji oraz informacji dotycz±cych kana³u.
+	Pozwala wÅ‚aÅ›cicielowi kanaÅ‚u na zmianÄ™ roÅ¼nych  
+	opcji oraz informacji dotyczÄ…cych kanaÅ‚u.
 	
-	Dostêpne opcje:
+	DostÄ™pne opcje:
 	
-	    FOUNDER       Ustawia nick w³a¶ciciela kana³u
-	    SUCCESSOR     Ustawia nick spadkobiercy kana³u
-	    PASSWORD      Ustawia has³o w³a¶ciciela
-	    DESC          Ustawia opis kana³u
-	    URL           Przypisuje adres www do kana³u
-	    EMAIL         Przypisuje adres e-mail do kana³u
-	    ENTRYMSG      Ustawia wiadomo¶æ, która bêdzie wysy³ana
-	                  do u¿ytkowników wchodz±cych na kana³
-	    BANTYPE       Ustawia sposób banowania przez serwisy
-	    MLOCK         Blokuje zdejmowanie lub zak³adanie flag
-	    KEEPTOPIC     Zapamiêtuje temat kiedy kana³ jest pusty
-	    OPNOTICE      Wysy³a powiadomienie kiedy zostaj± u¿yte
+	    FOUNDER       Ustawia nick wÅ‚aÅ›ciciela kanaÅ‚u
+	    SUCCESSOR     Ustawia nick spadkobiercy kanaÅ‚u
+	    PASSWORD      Ustawia hasÅ‚o wÅ‚aÅ›ciciela
+	    DESC          Ustawia opis kanaÅ‚u
+	    URL           Przypisuje adres www do kanaÅ‚u
+	    EMAIL         Przypisuje adres e-mail do kanaÅ‚u
+	    ENTRYMSG      Ustawia wiadomoÅ›Ä‡, ktÃ³ra bÄ™dzie wysyÅ‚ana
+	                  do uÅ¼ytkownikÃ³w wchodzÄ…cych na kanaÅ‚
+	    BANTYPE       Ustawia sposÃ³b banowania przez serwisy
+	    MLOCK         Blokuje zdejmowanie lub zakÅ‚adanie flag
+	    KEEPTOPIC     ZapamiÄ™tuje temat kiedy kanaÅ‚ jest pusty
+	    OPNOTICE      WysyÅ‚a powiadomienie kiedy zostajÄ… uÅ¼yte
 	                  komendy OP/DEOP
-	    PEACE         Reguluje u¿ycie krytycznych komend
-	    PRIVATE       Zapobiega wy¶wietlaniu kana³u po wydaniu
+	    PEACE         Reguluje uÅ¼ycie krytycznych komend
+	    PRIVATE       Zapobiega wyÅ›wietlaniu kanaÅ‚u po wydaniu
 	                  polecenia LIST
-	    RESTRICTED    Ogranicza dostêp do kana³u
-	    SECURE        W³±cza lub wy³±cza bezpieczeñstwo kana³u
-	    SECUREOPS     ¦ci¶le kontroluje status operatorów
-	    SECUREFOUNDER ¦ci¶le kontroluje status w³a¶ciciela
-	    SIGNKICK      Podpisuje kicki kiedy u¿yto komendy KICK
-	    TOPICLOCK     Ogranicza mo¿liwo¶æ zmiany tematu
-	    XOP           W³±cza system uprawnieñ xOP
-	                  (u¿ycie komend SOP, AOP, HOP, VOP)
+	    RESTRICTED    Ogranicza dostÄ™p do kanaÅ‚u
+	    SECURE        WÅ‚Ä…cza lub wyÅ‚Ä…cza bezpieczeÅ„stwo kanaÅ‚u
+	    SECUREOPS     ÅšciÅ›le kontroluje status operatorÃ³w
+	    SECUREFOUNDER ÅšciÅ›le kontroluje status wÅ‚aÅ›ciciela
+	    SIGNKICK      Podpisuje kicki kiedy uÅ¼yto komendy KICK
+	    TOPICLOCK     Ogranicza moÅ¼liwoÅ›Ä‡ zmiany tematu
+	    XOP           WÅ‚Ä…cza system uprawnieÅ„ xOP
+	                  (uÅ¼ycie komend SOP, AOP, HOP, VOP)
 	
-	Aby uzyskaæ wiêcej informacji o danej opcji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji o danej opcji wpisz:
 	%R%S HELP SET opcja
 
 CHAN_HELP_SET_FOUNDER
-	Sk³adnia: SET kana³ FOUNDER nick
+	SkÅ‚adnia: SET kanaÅ‚ FOUNDER nick
 	
-	Zmienia w³a¶ciciela kana³u.
-	Nowy nick musi byæ zarejestrowany.
+	Zmienia wÅ‚aÅ›ciciela kanaÅ‚u.
+	Nowy nick musi byÄ‡ zarejestrowany.
 
 CHAN_HELP_SET_SUCCESSOR
-	Sk³adnia: SET kana³ SUCCESSOR nick
+	SkÅ‚adnia: SET kanaÅ‚ SUCCESSOR nick
 	
-	Ustawia spadkobiercê kana³u. Je¶li nick w³a¶ciciela
-	wyga¶nie lub zostanie usuniêty kana³ zostaje przekazany
-	spadkobiercy, który staje siê nowym w³a¶cicielem.
-	Je¿eli spadkobierca jest w³a¶cicielem zbyt du¿ej
-	liczby kana³ów (%d) to kana³ zostanie odrejestrowany.
+	Ustawia spadkobiercÄ™ kanaÅ‚u. JeÅ›li nick wÅ‚aÅ›ciciela
+	wygaÅ›nie lub zostanie usuniÄ™ty kanaÅ‚ zostaje przekazany
+	spadkobiercy, ktÃ³ry staje siÄ™ nowym wÅ‚aÅ›cicielem.
+	JeÅ¼eli spadkobierca jest wÅ‚aÅ›cicielem zbyt duÅ¼ej
+	liczby kanaÅ‚Ã³w (%d) to kanaÅ‚ zostanie odrejestrowany.
 CHAN_HELP_SET_PASSWORD
-	Sk³adnia: SET kana³ PASSWORD has³o
+	SkÅ‚adnia: SET kanaÅ‚ PASSWORD hasÅ‚o
 	
-	Zmienia has³o w³a¶ciciela kana³u.
+	Zmienia hasÅ‚o wÅ‚aÅ›ciciela kanaÅ‚u.
 
 CHAN_HELP_SET_DESC
-	Sk³adnia: SET kana³ DESC opis
+	SkÅ‚adnia: SET kanaÅ‚ DESC opis
 	
-	Ustawia opis kana³u widoczny po wydaniu polecenia LIST oraz INFO.
+	Ustawia opis kanaÅ‚u widoczny po wydaniu polecenia LIST oraz INFO.
 
 CHAN_HELP_SET_URL
-	Sk³adnia: SET kana³ URL [url]
+	SkÅ‚adnia: SET kanaÅ‚ URL [url]
 	
-	Przypisuje adres strony www do kana³u. Adres bêdzie
-	widoczny po u¿yciu polecenia INFO. Komenda wywo³ana
-	bez parametru usuwa wcze¶niej ustawiony adres.
+	Przypisuje adres strony www do kanaÅ‚u. Adres bÄ™dzie
+	widoczny po uÅ¼yciu polecenia INFO. Komenda wywoÅ‚ana
+	bez parametru usuwa wczeÅ›niej ustawiony adres.
 
 CHAN_HELP_SET_EMAIL
-	Sk³adnia: SET kana³ EMAIL [adres]
+	SkÅ‚adnia: SET kanaÅ‚ EMAIL [adres]
 	
-	Przypisuje adres e-mail do kana³u. Adres bêdzie
-	widoczny po u¿yciu polecenia INFO. Komenda wywo³ana
-	bez parametru usuwa wcze¶niej ustawiony adres.
+	Przypisuje adres e-mail do kanaÅ‚u. Adres bÄ™dzie
+	widoczny po uÅ¼yciu polecenia INFO. Komenda wywoÅ‚ana
+	bez parametru usuwa wczeÅ›niej ustawiony adres.
 
 CHAN_HELP_SET_ENTRYMSG
-	Sk³adnia: SET kana³ ENTRYMSG [tre¶æ]
+	SkÅ‚adnia: SET kanaÅ‚ ENTRYMSG [treÅ›Ä‡]
 	
-	Ustawia tekst powiadomienia wysy³anego poprzez /notice
-	do u¿ytkowników wchodz±cych na kana³. Komenda wywo³ana
-	bez parametru usuwa wcze¶niej ustawion± wiadomo¶æ.
+	Ustawia tekst powiadomienia wysyÅ‚anego poprzez /notice
+	do uÅ¼ytkownikÃ³w wchodzÄ…cych na kanaÅ‚. Komenda wywoÅ‚ana
+	bez parametru usuwa wczeÅ›niej ustawionÄ… wiadomoÅ›Ä‡.
 
 CHAN_HELP_SET_BANTYPE
-	Sk³adnia: SET kana³ BANTYPE typ
+	SkÅ‚adnia: SET kanaÅ‚ BANTYPE typ
 	
-	Ustala typ banów zak³adanych przez serwisy.
+	Ustala typ banÃ³w zakÅ‚adanych przez serwisy.
 	
-	Typ banów oznaczany jest numerami od 0 do 3,
-	poszczególne numery oznaczaj±:
+	Typ banÃ³w oznaczany jest numerami od 0 do 3,
+	poszczegÃ³lne numery oznaczajÄ…:
 	
 	0: ban w postaci *!ident@host
 	1: ban w postaci *!*ident@host
@@ -5522,840 +5522,840 @@ CHAN_HELP_SET_BANTYPE
 	3: ban w postaci *!*ident@*.domena
 
 CHAN_HELP_SET_KEEPTOPIC
-	Sk³adnia: SET kana³ KEEPTOPIC {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ KEEPTOPIC {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê zapamiêtywania tematu.
-	Kiedy ta opcja jest w³±czona %S ustawi ostatni
-	temat za ka¿dym razem, gdy na kana³ bêdzie wchodziæ
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ zapamiÄ™tywania tematu.
+	Kiedy ta opcja jest wÅ‚Ä…czona %S ustawi ostatni
+	temat za kaÅ¼dym razem, gdy na kanaÅ‚ bÄ™dzie wchodziÄ‡
 	pierwsza osoba.
 
 CHAN_HELP_SET_TOPICLOCK
-	Sk³adnia: SET kana³ TOPICLOCK {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ TOPICLOCK {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê blokowania tematu kana³u.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ blokowania tematu kanaÅ‚u.
 	
-	Je¶li ta opcja jest w³±czona, %S pozwoli na
-	zmianê tematu tylko poprzez wydanie komendy TOPIC.
+	JeÅ›li ta opcja jest wÅ‚Ä…czona, %S pozwoli na
+	zmianÄ™ tematu tylko poprzez wydanie komendy TOPIC.
 
 CHAN_HELP_SET_MLOCK
-	Sk³adnia: SET kana³ MLOCK flagi
+	SkÅ‚adnia: SET kanaÅ‚ MLOCK flagi
 	
-	Ustawia blokadê flag kana³owych. %S pozwala na 
-	definiowanie, które flag kana³owe maj± byæ zawsze 
-	w³±czone, wy³±czone lub ustawiane dowolnie przez 
-	operatorów kana³u.
+	Ustawia blokadÄ™ flag kanaÅ‚owych. %S pozwala na 
+	definiowanie, ktÃ³re flag kanaÅ‚owe majÄ… byÄ‡ zawsze 
+	wÅ‚Ä…czone, wyÅ‚Ä…czone lub ustawiane dowolnie przez 
+	operatorÃ³w kanaÅ‚u.
 	
-	Sk³adnia polecenia jest identyczna jak w komendzie 
+	SkÅ‚adnia polecenia jest identyczna jak w komendzie 
 	/MODE, tzn. flagi poprzedzone znakiem+ 
-	zostan± za³o¿one na kana³, natomiast poprzedzone 
-	znakiem - bêd± zdejmowane z kana³u. W odró¿nieniu 
-	od komendy /MODE, ka¿de u¿ycie SET MLOCK, 
-	usunie wszystkie wcze¶niej zdefiniowane mody!
+	zostanÄ… zaÅ‚oÅ¼one na kanaÅ‚, natomiast poprzedzone 
+	znakiem - bÄ™dÄ… zdejmowane z kanaÅ‚u. W odrÃ³Å¼nieniu 
+	od komendy /MODE, kaÅ¼de uÅ¼ycie SET MLOCK, 
+	usunie wszystkie wczeÅ›niej zdefiniowane mody!
 	
-	UWAGA: W przypadku ustawiania klucza dostêpu do 
-	kana³u (drugi przyk³ad poni¿ej), powinna równie¿ 
-	zostaæ aktywowana opcja RESTRICTED (zobacz 
+	UWAGA: W przypadku ustawiania klucza dostÄ™pu do 
+	kanaÅ‚u (drugi przykÅ‚ad poniÅ¼ej), powinna rÃ³wnieÅ¼ 
+	zostaÄ‡ aktywowana opcja RESTRICTED (zobacz 
 	HELP SET RESTRICTED), w przeciwnym wypadku, 
-	u¿ytkownik wchodz±cy na pusty kana³, bêdzie móg³ 
-	odczytaæ za³o¿ony klucz!
+	uÅ¼ytkownik wchodzÄ…cy na pusty kanaÅ‚, bÄ™dzie mÃ³gÅ‚ 
+	odczytaÄ‡ zaÅ‚oÅ¼ony klucz!
 	
-	Przyk³ady:
+	PrzykÅ‚ady:
 	
-	    SET #kana³ MLOCK +nt-iklps
-	        Wymusza w³±czenie flag n oraz t, wy³±czenie flag
+	    SET #kanaÅ‚ MLOCK +nt-iklps
+	        Wymusza wÅ‚Ä…czenie flag n oraz t, wyÅ‚Ä…czenie flag
 	        i, k, l, p, s; flaga m nie jest zmieniana.
 	
-	    SET #kana³ MLOCK +knst-ilmp my-key
-	        Wymusza w³±czenie flag k, n, s, oraz t, wy³±czenie
-	        i, l, m, oraz p. Wymusza tak¿e ustawienie klucza 
-	        na warto¶æ "my-key".
+	    SET #kanaÅ‚ MLOCK +knst-ilmp my-key
+	        Wymusza wÅ‚Ä…czenie flag k, n, s, oraz t, wyÅ‚Ä…czenie
+	        i, l, m, oraz p. Wymusza takÅ¼e ustawienie klucza 
+	        na wartoÅ›Ä‡ "my-key".
 	
-	    SET #kana³ MLOCK +
-	        Wy³±cza blokowanie flag - mog± byæ zmieniane dowolnie.
+	    SET #kanaÅ‚ MLOCK +
+	        WyÅ‚Ä…cza blokowanie flag - mogÄ… byÄ‡ zmieniane dowolnie.
 
 CHAN_HELP_SET_PEACE
-	Sk³adnia: SET kana³ PEACE {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ PEACE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê PEACE dla kana³u.
-	W³±czenie tej opcji uniemo¿liwia wykopanie,
-	banowanie lub odebranie uprawnieñ u¿ytkownikowi,
-	który ma poziom uprawnieñ wy¿szy lub równy
-	korzystaj±c z poleceñ serwisu %S.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ PEACE dla kanaÅ‚u.
+	WÅ‚Ä…czenie tej opcji uniemoÅ¼liwia wykopanie,
+	banowanie lub odebranie uprawnieÅ„ uÅ¼ytkownikowi,
+	ktÃ³ry ma poziom uprawnieÅ„ wyÅ¼szy lub rÃ³wny
+	korzystajÄ…c z poleceÅ„ serwisu %S.
 
 CHAN_HELP_SET_PRIVATE
-	Sk³adnia: SET kana³ PRIVATE {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ PRIVATE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê PRIVATE dla kana³u.
-	Kiedy ta opcja jest w³±czona kana³ nie bêdzie
-	umieszczany na listach wy¶wietlanych komend±:
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ PRIVATE dla kanaÅ‚u.
+	Kiedy ta opcja jest wÅ‚Ä…czona kanaÅ‚ nie bÄ™dzie
+	umieszczany na listach wyÅ›wietlanych komendÄ…:
 	%R%S LIST
 
 CHAN_HELP_SET_RESTRICTED
-	Sk³adnia: SET kana³ RESTRICTED {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ RESTRICTED {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê ograniczonego dostêpu do kana³u.
-	Po w³±czeniu tej opcji tylko osoby znajduj±ce siê na
-	li¶cie dostêpu bêd± mog³y przebywaæ na kanale. Pozostali
-	u¿ytkownicy bêd± banowani, a nastêpnie usuwani z kana³u.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ ograniczonego dostÄ™pu do kanaÅ‚u.
+	Po wÅ‚Ä…czeniu tej opcji tylko osoby znajdujÄ…ce siÄ™ na
+	liÅ›cie dostÄ™pu bÄ™dÄ… mogÅ‚y przebywaÄ‡ na kanale. Pozostali
+	uÅ¼ytkownicy bÄ™dÄ… banowani, a nastÄ™pnie usuwani z kanaÅ‚u.
 
 CHAN_HELP_SET_SECURE
-	Sk³adnia: SET kana³ SECURE {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ SECURE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcje bezpieczeñstwa kana³u.
-	Po w³±czeniu tej opcji tylko zarejestrowani
-	u¿ytkownicy, którzy siê zidentyfikowali bêd±
-	otrzymywaæ od serwisu %S uprawnienia
-	wynikaj±ce z wpisów na li¶cie dostêpu.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcje bezpieczeÅ„stwa kanaÅ‚u.
+	Po wÅ‚Ä…czeniu tej opcji tylko zarejestrowani
+	uÅ¼ytkownicy, ktÃ³rzy siÄ™ zidentyfikowali bÄ™dÄ…
+	otrzymywaÄ‡ od serwisu %S uprawnienia
+	wynikajÄ…ce z wpisÃ³w na liÅ›cie dostÄ™pu.
 
 CHAN_HELP_SET_SECUREOPS
-	Sk³adnia: SET kana³ SECUREOPS {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ SECUREOPS {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê SECUREOPS dla kana³u.
-	Kiedy ta opcja jest w³±czona u¿ytkownicy bez wpisu
-	na li¶cie dostêpu kana³u (ACCESS LIST) nie bêd±
-	mogli posiadaæ statusu operatora.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ SECUREOPS dla kanaÅ‚u.
+	Kiedy ta opcja jest wÅ‚Ä…czona uÅ¼ytkownicy bez wpisu
+	na liÅ›cie dostÄ™pu kanaÅ‚u (ACCESS LIST) nie bÄ™dÄ…
+	mogli posiadaÄ‡ statusu operatora.
 
 CHAN_HELP_SET_SECUREFOUNDER
-	Sk³adnia: SET kana³ SECUREFOUNDER {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ SECUREFOUNDER {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê bezpiecznego w³a¶ciciela.
-	Ustawienie tej opcji powoduje ograniczenie uprawnieñ
-	w³a¶ciciela do osoby, która jest wpisana jako w³a¶ciciel
-	(a nie osób znaj±cych has³o w³a¶ciciela kana³u).
-	Operacje takie jak usuniêcie kana³u, zmiana has³a,
-	w³a¶ciciela oraz zastêpcy bêd± dostêpne tylko
-	dla jednego u¿ytkownika.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ bezpiecznego wÅ‚aÅ›ciciela.
+	Ustawienie tej opcji powoduje ograniczenie uprawnieÅ„
+	wÅ‚aÅ›ciciela do osoby, ktÃ³ra jest wpisana jako wÅ‚aÅ›ciciel
+	(a nie osÃ³b znajÄ…cych hasÅ‚o wÅ‚aÅ›ciciela kanaÅ‚u).
+	Operacje takie jak usuniÄ™cie kanaÅ‚u, zmiana hasÅ‚a,
+	wÅ‚aÅ›ciciela oraz zastÄ™pcy bÄ™dÄ… dostÄ™pne tylko
+	dla jednego uÅ¼ytkownika.
 
 CHAN_HELP_SET_SIGNKICK
-	Sk³adnia: SET kana³ SIGNKICK {ON | LEVEL | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ SIGNKICK {ON | LEVEL | OFF}
 	
-	W³±cza lub wy³±cza podpisywanie komend kick.
-	W³±czenie tej opcji powoduje dodawanie nicka osoby 
-	wydaj±cej polecenie do uzasadnienia kicka.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza podpisywanie komend kick.
+	WÅ‚Ä…czenie tej opcji powoduje dodawanie nicka osoby 
+	wydajÄ…cej polecenie do uzasadnienia kicka.
 	
-	Je¶li poziomy dostêpu by³y konfigurowane z u¿yciem LEVEL
-	osoby maj±ce poziom wiêkszy lub równy SIGNKICK nie bêd±
-	podpisywane. Aby uzyskaæ wiêcej informacji wpisz:
+	JeÅ›li poziomy dostÄ™pu byÅ‚y konfigurowane z uÅ¼yciem LEVEL
+	osoby majÄ…ce poziom wiÄ™kszy lub rÃ³wny SIGNKICK nie bÄ™dÄ…
+	podpisywane. Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP LEVELS
 
 CHAN_HELP_SET_XOP
-	Sk³adnia: SET kana³ XOP {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ XOP {ON | OFF}
 	
-	W³±cza lub wy³±cza system list xOP dla kana³u.
-	Kiedy XOP zostanie w³±czony przyznawanie uprawnieñ
-	odbywa siê przy pomocy poleceñ AOP/ SOP/ VOP.
-	Wy³±czenie funkcji xOP wymusza korzystanie z
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza system list xOP dla kanaÅ‚u.
+	Kiedy XOP zostanie wÅ‚Ä…czony przyznawanie uprawnieÅ„
+	odbywa siÄ™ przy pomocy poleceÅ„ AOP/ SOP/ VOP.
+	WyÅ‚Ä…czenie funkcji xOP wymusza korzystanie z
 	polecenia ACCESS.
 	
-	Uwaga: w momencie w³±czania systemu list XOP
-	wszelkie definicje poziomów dostêpu zostan±
-	trwale zresetowane. Ponowne przej¶cie z XOP na
-	system listy dostêpu nie spowoduje odzyskania
+	Uwaga: w momencie wÅ‚Ä…czania systemu list XOP
+	wszelkie definicje poziomÃ³w dostÄ™pu zostanÄ…
+	trwale zresetowane. Ponowne przejÅ›cie z XOP na
+	system listy dostÄ™pu nie spowoduje odzyskania
 	poprzedniej konfiguracji!
 	
-	Kiedy XOP zostanie w³±czony u¿ytkownikom
+	Kiedy XOP zostanie wÅ‚Ä…czony uÅ¼ytkownikom
 	automatycznie zostaje przypisany odpowiedni poziom
-	dostêpu. Automatyczne przyporz±dkowanie nie zawsze 
-	musi byæ poprawne. Nie zaleca siê przej¶cia na
-	system XOP, je¶li definicje poziomów dostêpu dla 
-	kana³u zosta³y wcze¶niej zmodyfikowane przy pomocy 
+	dostÄ™pu. Automatyczne przyporzÄ…dkowanie nie zawsze 
+	musi byÄ‡ poprawne. Nie zaleca siÄ™ przejÅ›cia na
+	system XOP, jeÅ›li definicje poziomÃ³w dostÄ™pu dla 
+	kanaÅ‚u zostaÅ‚y wczeÅ›niej zmodyfikowane przy pomocy 
 	polecenia LEVELS.
 	
 
 CHAN_HELP_SET_OPNOTICE
-	Sk³adnia: SET kana³ OPNOTICE {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ OPNOTICE {ON | OFF}
 	
-	W³±cza lub wy³±cza opcjê OPNOTICE dla kana³u.
-	Kiedy ta opcja jest w³±czona, %S bêdzie
-	informowa³ u¿ytkowników przebywaj±cych na kanale,
-	kiedy zostanie u¿yta komenda OP lub DEOP.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ OPNOTICE dla kanaÅ‚u.
+	Kiedy ta opcja jest wÅ‚Ä…czona, %S bÄ™dzie
+	informowaÅ‚ uÅ¼ytkownikÃ³w przebywajÄ…cych na kanale,
+	kiedy zostanie uÅ¼yta komenda OP lub DEOP.
 
 CHAN_HELP_AOP
-	Sk³adnia: AOP kana³ ADD nick
-	          AOP kana³ DEL {nick | numer | lista}
-	          AOP kana³ LIST [maska | lista]
-	          AOP kana³ CLEAR
+	SkÅ‚adnia: AOP kanaÅ‚ ADD nick
+	          AOP kanaÅ‚ DEL {nick | numer | lista}
+	          AOP kanaÅ‚ LIST [maska | lista]
+	          AOP kanaÅ‚ CLEAR
 	
-	Zarz±dza list± AOP (AutoOP) dla kana³u.
-	U¿ytkownicy wpisani na t± listê bêd± otrzymywaæ
-	automatycznie status operatora, maj± prawo siê
-	odbanowaæ i zaprosiæ je¶li jest taka potrzeba itd.
+	ZarzÄ…dza listÄ… AOP (AutoOP) dla kanaÅ‚u.
+	UÅ¼ytkownicy wpisani na tÄ… listÄ™ bÄ™dÄ… otrzymywaÄ‡
+	automatycznie status operatora, majÄ… prawo siÄ™
+	odbanowaÄ‡ i zaprosiÄ‡ jeÅ›li jest taka potrzeba itd.
 	
 	Komenda AOP ADD dodaje podany nick do listy AOP.
 	
 	Komenda AOP DEL usuwa wskazane wpisy z listy.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	Komenda AOP LIST wy¶wietla zawarto¶æ listy AOP.
-	Parametr maska pozwala filtrowaæ wy¶wietlane wpisy
-	(symbol * zastêpuje dowolny ci±g znaków w nicku).
-	Jako parametr mo¿na te¿ podaæ numery wpisów na li¶cie:
+	Komenda AOP LIST wyÅ›wietla zawartoÅ›Ä‡ listy AOP.
+	Parametr maska pozwala filtrowaÄ‡ wyÅ›wietlane wpisy
+	(symbol * zastÄ™puje dowolny ciÄ…g znakÃ³w w nicku).
+	Jako parametr moÅ¼na teÅ¼ podaÄ‡ numery wpisÃ³w na liÅ›cie:
 	
-	   AOP kana³ LIST 2-5,7-9
-	      Wy¶wietli wpisy na li¶cie od numeru 2 do 5 oraz
+	   AOP kanaÅ‚ LIST 2-5,7-9
+	      WyÅ›wietli wpisy na liÅ›cie od numeru 2 do 5 oraz
 	      od 7 do 9.
 	
 	Komenda AOP CLEAR usuwa wszystkie wpisy z listy.
 	
-	Komendy AOP ADD oraz AOP DEL s± dostêpne dla
-	u¿ytkowników z uprawnieniami SOP lub wy¿szymi.
-	Komenda AOP CLEAR jest dostêpna dla w³a¶ciciela
-	kana³u. Wszyscy u¿ytkownicy wpisani na listê AOP
-	mog± u¿ywaæ komendy AOP LIST.
+	Komendy AOP ADD oraz AOP DEL sÄ… dostÄ™pne dla
+	uÅ¼ytkownikÃ³w z uprawnieniami SOP lub wyÅ¼szymi.
+	Komenda AOP CLEAR jest dostÄ™pna dla wÅ‚aÅ›ciciela
+	kanaÅ‚u. Wszyscy uÅ¼ytkownicy wpisani na listÄ™ AOP
+	mogÄ… uÅ¼ywaÄ‡ komendy AOP LIST.
 	
-	Komenda AOP mo¿e byæ wy³±czona dla Twojego kana³u,
-	w takim przypadku nale¿y u¿ywaæ komendy ACCESS.
-	Aby uzyskaæ informacje o komendzie ACCESS wpisz:
+	Komenda AOP moÅ¼e byÄ‡ wyÅ‚Ä…czona dla Twojego kanaÅ‚u,
+	w takim przypadku naleÅ¼y uÅ¼ywaÄ‡ komendy ACCESS.
+	Aby uzyskaÄ‡ informacje o komendzie ACCESS wpisz:
 	%R%S HELP ACCESS
-	Aby dowiedzieæ siê jak w³±czyæ tryb xOP wpisz:
+	Aby dowiedzieÄ‡ siÄ™ jak wÅ‚Ä…czyÄ‡ tryb xOP wpisz:
 	%R%S HELP SET XOP
 
 CHAN_HELP_HOP
-	Sk³adnia: HOP kana³ ADD nick
-	          HOP kana³ DEL {nick | numer | lista}
-	          HOP kana³ LIST [maska | lista]
-	          HOP kana³ CLEAR
+	SkÅ‚adnia: HOP kanaÅ‚ ADD nick
+	          HOP kanaÅ‚ DEL {nick | numer | lista}
+	          HOP kanaÅ‚ LIST [maska | lista]
+	          HOP kanaÅ‚ CLEAR
 	
-	Zarz±dza list± HOP (HalfOP) dla kana³u.
-	U¿ytkownicy wpisani na t± listê bêd± otrzymywaæ
-	automatycznie status pó³-operatora.
+	ZarzÄ…dza listÄ… HOP (HalfOP) dla kanaÅ‚u.
+	UÅ¼ytkownicy wpisani na tÄ… listÄ™ bÄ™dÄ… otrzymywaÄ‡
+	automatycznie status pÃ³Å‚-operatora.
 	
 	Komenda HOP ADD dodaje podany nick do listy HOP.
 	
 	Komenda HOP DEL usuwa wskazane wpisy z listy.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	Komenda HOP LIST wy¶wietla zawarto¶æ listy HOP.
-	Parametr maska pozwala filtrowaæ wy¶wietlane wpisy
-	(symbol * zastêpuje dowolny ci±g znaków w nicku).
-	Jako parametr mo¿na te¿ podaæ numery wpisów na li¶cie:
+	Komenda HOP LIST wyÅ›wietla zawartoÅ›Ä‡ listy HOP.
+	Parametr maska pozwala filtrowaÄ‡ wyÅ›wietlane wpisy
+	(symbol * zastÄ™puje dowolny ciÄ…g znakÃ³w w nicku).
+	Jako parametr moÅ¼na teÅ¼ podaÄ‡ numery wpisÃ³w na liÅ›cie:
 	
-	   HOP kana³ LIST 2-5,7-9
-	      Wy¶wietli wpisy na li¶cie od numeru 2 do 5 oraz
+	   HOP kanaÅ‚ LIST 2-5,7-9
+	      WyÅ›wietli wpisy na liÅ›cie od numeru 2 do 5 oraz
 	      od 7 do 9.
 	
 	Komenda HOP CLEAR usuwa wszystkie wpisy z listy.
 	
-	Komendy HOP ADD, HOP DEL oraz HOP LIST s± dostêpne
-	dla u¿ytkowników z uprawnieniami AOP lub wy¿szymi.
-	Komenda HOP CLEAR jest dostêpna tylko dla
-	w³a¶ciciela kana³u.
+	Komendy HOP ADD, HOP DEL oraz HOP LIST sÄ… dostÄ™pne
+	dla uÅ¼ytkownikÃ³w z uprawnieniami AOP lub wyÅ¼szymi.
+	Komenda HOP CLEAR jest dostÄ™pna tylko dla
+	wÅ‚aÅ›ciciela kanaÅ‚u.
 	
-	Komenda HOP mo¿e byæ wy³±czona dla Twojego kana³u,
-	w takim przypadku nale¿y u¿ywaæ komendy ACCESS.
-	Aby uzyskaæ informacje o komendzie ACCESS wpisz:
+	Komenda HOP moÅ¼e byÄ‡ wyÅ‚Ä…czona dla Twojego kanaÅ‚u,
+	w takim przypadku naleÅ¼y uÅ¼ywaÄ‡ komendy ACCESS.
+	Aby uzyskaÄ‡ informacje o komendzie ACCESS wpisz:
 	%R%S HELP ACCESS
-	Aby dowiedzieæ siê jak w³±czyæ tryb xOP wpisz:
+	Aby dowiedzieÄ‡ siÄ™ jak wÅ‚Ä…czyÄ‡ tryb xOP wpisz:
 	%R%S HELP SET XOP
 
 CHAN_HELP_SOP
-	Sk³adnia: SOP kana³ ADD nick
-	          SOP kana³ DEL {nick | numer | lista}
-	          SOP kana³ LIST [maska | lista]
-	          SOP kana³ CLEAR
+	SkÅ‚adnia: SOP kanaÅ‚ ADD nick
+	          SOP kanaÅ‚ DEL {nick | numer | lista}
+	          SOP kanaÅ‚ LIST [maska | lista]
+	          SOP kanaÅ‚ CLEAR
 	
-	Zarz±dza list± SOP (SuperOP) dla kana³u.
-	U¿ytkownicy wpisani na t± listê bêd± otrzymywaæ
+	ZarzÄ…dza listÄ… SOP (SuperOP) dla kanaÅ‚u.
+	UÅ¼ytkownicy wpisani na tÄ… listÄ™ bÄ™dÄ… otrzymywaÄ‡
 	automatycznie status operatora.
 	
 	Komenda SOP ADD dodaje podany nick do listy SOP.
 	
 	Komenda SOP DEL usuwa wskazane wpisy z listy.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	Komenda SOP LIST wy¶wietla zawarto¶æ listy SOP.
-	Parametr maska pozwala filtrowaæ wy¶wietlane wpisy
-	(symbol * zastêpuje dowolny ci±g znaków w nicku).
-	Jako parametr mo¿na te¿ podaæ numery wpisów na li¶cie:
+	Komenda SOP LIST wyÅ›wietla zawartoÅ›Ä‡ listy SOP.
+	Parametr maska pozwala filtrowaÄ‡ wyÅ›wietlane wpisy
+	(symbol * zastÄ™puje dowolny ciÄ…g znakÃ³w w nicku).
+	Jako parametr moÅ¼na teÅ¼ podaÄ‡ numery wpisÃ³w na liÅ›cie:
 	
-	   SOP kana³ LIST 2-5,7-9
-	      Wy¶wietli wpisy na li¶cie od numeru 2 do 5 oraz
+	   SOP kanaÅ‚ LIST 2-5,7-9
+	      WyÅ›wietli wpisy na liÅ›cie od numeru 2 do 5 oraz
 	      od 7 do 9.
 	
 	Komenda SOP CLEAR usuwa wszystkie wpisy z listy.
 	
-	Komendy SOP ADD, SOP DEL oraz SOP CLEAR s±
-	dostêpne tylko dla w³a¶ciciela kana³u.
-	Komenda SOP LIST jest dostêpna dla
-	u¿ytkowników wpisanych na listê AOP.
+	Komendy SOP ADD, SOP DEL oraz SOP CLEAR sÄ…
+	dostÄ™pne tylko dla wÅ‚aÅ›ciciela kanaÅ‚u.
+	Komenda SOP LIST jest dostÄ™pna dla
+	uÅ¼ytkownikÃ³w wpisanych na listÄ™ AOP.
 	
-	Komenda SOP mo¿e byæ wy³±czona dla Twojego kana³u,
-	w takim przypadku nale¿y u¿ywaæ komendy ACCESS.
-	Aby uzyskaæ informacje o komendzie ACCESS wpisz:
+	Komenda SOP moÅ¼e byÄ‡ wyÅ‚Ä…czona dla Twojego kanaÅ‚u,
+	w takim przypadku naleÅ¼y uÅ¼ywaÄ‡ komendy ACCESS.
+	Aby uzyskaÄ‡ informacje o komendzie ACCESS wpisz:
 	%R%S HELP ACCESS
-	Aby dowiedzieæ siê jak w³±czyæ tryb xOP wpisz:
+	Aby dowiedzieÄ‡ siÄ™ jak wÅ‚Ä…czyÄ‡ tryb xOP wpisz:
 	%R%S HELP SET XOP
 
 CHAN_HELP_VOP
-	Sk³adnia: VOP kana³ ADD nick
-	          VOP kana³ DEL {nick | numer | lista}
-	          VOP kana³ LIST [maska | lista]
-	          VOP kana³ CLEAR
+	SkÅ‚adnia: VOP kanaÅ‚ ADD nick
+	          VOP kanaÅ‚ DEL {nick | numer | lista}
+	          VOP kanaÅ‚ LIST [maska | lista]
+	          VOP kanaÅ‚ CLEAR
 	
-	Zarz±dza list± VOP (VOicePeople) dla kana³u.
-	U¿ytkownicy wpisani na t± listê bêd± otrzymywaæ
-	automatycznie prawo g³osu i bêd± mogli je sobie
-	nadaæ je¶li bêdzie taka potrzeba.
+	ZarzÄ…dza listÄ… VOP (VOicePeople) dla kanaÅ‚u.
+	UÅ¼ytkownicy wpisani na tÄ… listÄ™ bÄ™dÄ… otrzymywaÄ‡
+	automatycznie prawo gÅ‚osu i bÄ™dÄ… mogli je sobie
+	nadaÄ‡ jeÅ›li bÄ™dzie taka potrzeba.
 	
 	Komenda VOP ADD dodaje podany nick do listy VOP.
 	
 	Komenda VOP DEL usuwa wskazane wpisy z listy.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 		
-	Komenda VOP LIST wy¶wietla zawarto¶æ listy VOP.
-	Parametr maska pozwala filtrowaæ wy¶wietlane wpisy
-	(symbol * zastêpuje dowolny ci±g znaków w nicku).
-	Jako parametr mo¿na te¿ podaæ numery wpisów na li¶cie:
+	Komenda VOP LIST wyÅ›wietla zawartoÅ›Ä‡ listy VOP.
+	Parametr maska pozwala filtrowaÄ‡ wyÅ›wietlane wpisy
+	(symbol * zastÄ™puje dowolny ciÄ…g znakÃ³w w nicku).
+	Jako parametr moÅ¼na teÅ¼ podaÄ‡ numery wpisÃ³w na liÅ›cie:
 	
-	   VOP kana³ LIST 2-5,7-9
-	      Wy¶wietli wpisy na li¶cie od numeru 2 do 5 oraz
+	   VOP kanaÅ‚ LIST 2-5,7-9
+	      WyÅ›wietli wpisy na liÅ›cie od numeru 2 do 5 oraz
 	      od 7 do 9.
 	
 	Komenda VOP CLEAR usuwa wszystkie wpisy z listy.
 	
-	Komendy VOP ADD, VOP DEL oraz VOP LIST s± dostêpne
-	dla u¿ytkowników z uprawnieniami AOP lub wy¿szymi.
-	Komenda VOP CLEAR jest dostêpna tylko dla
-	w³a¶ciciela kana³u.
+	Komendy VOP ADD, VOP DEL oraz VOP LIST sÄ… dostÄ™pne
+	dla uÅ¼ytkownikÃ³w z uprawnieniami AOP lub wyÅ¼szymi.
+	Komenda VOP CLEAR jest dostÄ™pna tylko dla
+	wÅ‚aÅ›ciciela kanaÅ‚u.
 	
-	Komenda VOP mo¿e byæ wy³±czona dla Twojego kana³u,
-	w takim przypadku nale¿y u¿ywaæ komendy ACCESS.
-	Aby uzyskaæ informacje o komendzie ACCESS wpisz:
+	Komenda VOP moÅ¼e byÄ‡ wyÅ‚Ä…czona dla Twojego kanaÅ‚u,
+	w takim przypadku naleÅ¼y uÅ¼ywaÄ‡ komendy ACCESS.
+	Aby uzyskaÄ‡ informacje o komendzie ACCESS wpisz:
 	%R%S HELP ACCESS
-	Aby dowiedzieæ siê jak w³±czyæ tryb xOP wpisz:
+	Aby dowiedzieÄ‡ siÄ™ jak wÅ‚Ä…czyÄ‡ tryb xOP wpisz:
 	%R%S HELP SET XOP
 
 CHAN_HELP_ACCESS
-	Sk³adnia: ACCESS kana³ ADD nick level
-	          ACCESS kana³ DEL {nick | numer | list}
-	          ACCESS kana³ LIST [maska | list]
-	          ACCESS kana³ CLEAR
+	SkÅ‚adnia: ACCESS kanaÅ‚ ADD nick level
+	          ACCESS kanaÅ‚ DEL {nick | numer | list}
+	          ACCESS kanaÅ‚ LIST [maska | list]
+	          ACCESS kanaÅ‚ CLEAR
 	
-	Polecenie pozwala na zarz±dzanie wpisami w kana³owej
-	li¶cie dostêpu (access list). Ustalony poziom
-	dostêpu okre¶la, którzy u¿ytkownicy mog± pe³niæ
-	funkcje operatorów kana³u, oraz posiadaæ dostêp do
-	komend %S. Ró¿ne poziomy okre¶laj± inne
+	Polecenie pozwala na zarzÄ…dzanie wpisami w kanaÅ‚owej
+	liÅ›cie dostÄ™pu (access list). Ustalony poziom
+	dostÄ™pu okreÅ›la, ktÃ³rzy uÅ¼ytkownicy mogÄ… peÅ‚niÄ‡
+	funkcje operatorÃ³w kanaÅ‚u, oraz posiadaÄ‡ dostÄ™p do
+	komend %S. RÃ³Å¼ne poziomy okreÅ›lajÄ… inne
 	przywileje.
 	Napisz msg %R%S HELP ACCESS LEVELS,
-	aby uzyskaæ wiêcej informacji. Ka¿dy u¿ytkownik,
-	który nie zosta³ wpisany na listê dostêpu, posiada
-	poziom uprawnieñ równy 0.
+	aby uzyskaÄ‡ wiÄ™cej informacji. KaÅ¼dy uÅ¼ytkownik,
+	ktÃ³ry nie zostaÅ‚ wpisany na listÄ™ dostÄ™pu, posiada
+	poziom uprawnieÅ„ rÃ³wny 0.
 	
 	Polecenie ACCESS ADD dodaje podany nick do listy z
-	okre¶lonym poziomem dostêpu. Je¶li nick jest ju¿
-	wpisany na li¶cie, jego poziom dostêpu zostanie
+	okreÅ›lonym poziomem dostÄ™pu. JeÅ›li nick jest juÅ¼
+	wpisany na liÅ›cie, jego poziom dostÄ™pu zostanie
 	zmieniony zgodnie z podanym parametrem. Przyznawany
-	poziom dostêpu nie mo¿e byæ wy¿szy ni¿ poziom osoby
-	wydaj±cej komendê ADD.
+	poziom dostÄ™pu nie moÅ¼e byÄ‡ wyÅ¼szy niÅ¼ poziom osoby
+	wydajÄ…cej komendÄ™ ADD.
 	
 	Polecenie ACCESS DEL usuwa wskazane wpisy z listy.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	Polecenie ACCESS LIST wy¶wietla zawarto¶æ listy.
-	Parametr maska pozwala zawêziæ wynik polecenia
-	do jedynie tych wpisów, których host pasuje do
-	wskazanej w komendzie maski (dozwolone jest u¿ywanie
-	znaku * - zastêpuje on dowolny ci±g znaków).
-	Jako parametr mo¿na podaæ tak¿e numery wpisów na
-	li¶cie, na przyk³ad:
+	Polecenie ACCESS LIST wyÅ›wietla zawartoÅ›Ä‡ listy.
+	Parametr maska pozwala zawÄ™ziÄ‡ wynik polecenia
+	do jedynie tych wpisÃ³w, ktÃ³rych host pasuje do
+	wskazanej w komendzie maski (dozwolone jest uÅ¼ywanie
+	znaku * - zastÄ™puje on dowolny ciÄ…g znakÃ³w).
+	Jako parametr moÅ¼na podaÄ‡ takÅ¼e numery wpisÃ³w na
+	liÅ›cie, na przykÅ‚ad:
 	
-	   ACCESS kana³ LIST 2-5,7-9
-	    Wy¶wietli wpisy na li¶cie od numeru 2 do 5, oraz
+	   ACCESS kanaÅ‚ LIST 2-5,7-9
+	    WyÅ›wietli wpisy na liÅ›cie od numeru 2 do 5, oraz
 	    od 7 do 9.
 	
 	Polecenie ACCESS CLEAR usuwa wszystkie wpisy z listy.
 
 CHAN_HELP_ACCESS_LEVELS
-	Poziomy dostêpu u¿ytkowników:
+	Poziomy dostÄ™pu uÅ¼ytkownikÃ³w:
 	
-	Standardowe poziomy dostêpu zosta³y podane poni¿ej:
-	   Founder  Pe³ny dostêp do poleceñ %S.
+	Standardowe poziomy dostÄ™pu zostaÅ‚y podane poniÅ¼ej:
+	   Founder  PeÅ‚ny dostÄ™p do poleceÅ„ %S.
 	            Automatyczne nadawanie statusu operatora.
-	            UWAGA: tylko jedna osoba mo¿e byæ
-	            w³a¶cicielem (Founder) kana³u.
-	            Nie mo¿na nadaæ tego uprawnienia
-	            za pomoc± polecenia ACCESS.
-	        10  Dostêp do polecenia AKICK,
+	            UWAGA: tylko jedna osoba moÅ¼e byÄ‡
+	            wÅ‚aÅ›cicielem (Founder) kanaÅ‚u.
+	            Nie moÅ¼na nadaÄ‡ tego uprawnienia
+	            za pomocÄ… polecenia ACCESS.
+	        10  DostÄ™p do polecenia AKICK,
 	            Automatyczne nadawanie statusu operatora.
 	         5  Automatyczne nadawanie statusu operatora.
-	         3  Automatyczne nadawanie prawa g³osu.
-	         0  Brak specjalnych przywilejów.
-	            Inne osoby mog± nadaæ status
-	            operatora temu u¿ytkownikowi
-	            (je¶li wy³±czono opcjê secure-ops).
-	        <0  Brak mo¿liwo¶ci pe³nienia funkcji
+	         3  Automatyczne nadawanie prawa gÅ‚osu.
+	         0  Brak specjalnych przywilejÃ³w.
+	            Inne osoby mogÄ… nadaÄ‡ status
+	            operatora temu uÅ¼ytkownikowi
+	            (jeÅ›li wyÅ‚Ä…czono opcjÄ™ secure-ops).
+	        <0  Brak moÅ¼liwoÅ›ci peÅ‚nienia funkcji
 	            operatora.
 	
-	Standardowe poziomy mog± zostaæ zmienione, mo¿liwe
-	jest tak¿e definiowanie w³asnych poziomów dostêpu.
-	Aby uzyskaæ wiêcej informacji wpisz:
+	Standardowe poziomy mogÄ… zostaÄ‡ zmienione, moÅ¼liwe
+	jest takÅ¼e definiowanie wÅ‚asnych poziomÃ³w dostÄ™pu.
+	Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP LEVELS
 
 CHAN_HELP_AKICK
-	Sk³adnia: AKICK kana³ ADD {nick | maska} [powód]
-	          AKICK kana³ STICK maska
-	          AKICK kana³ UNSTICK maska
-	          AKICK kana³ DEL {nick | maska | numer-wpisu | lista}
-	          AKICK kana³ LIST [maska | numer-wpisu | lista]
-	          AKICK kana³ VIEW [maska | numer-wpisu | lista]
-	          AKICK kana³ ENFORCE
-	          AKICK kana³ CLEAR
+	SkÅ‚adnia: AKICK kanaÅ‚ ADD {nick | maska} [powÃ³d]
+	          AKICK kanaÅ‚ STICK maska
+	          AKICK kanaÅ‚ UNSTICK maska
+	          AKICK kanaÅ‚ DEL {nick | maska | numer-wpisu | lista}
+	          AKICK kanaÅ‚ LIST [maska | numer-wpisu | lista]
+	          AKICK kanaÅ‚ VIEW [maska | numer-wpisu | lista]
+	          AKICK kanaÅ‚ ENFORCE
+	          AKICK kanaÅ‚ CLEAR
 	
-	Polecenie zarz±dza list± AutoKick dla kana³u. Je¶li
-	u¿ytkownik znajduj±cy siê na li¶cie AKICK, wejdzie
-	na kana³, %S za³o¿y bana, a nastêpnie wykopie
-	u¿ytkownika z kana³u.
+	Polecenie zarzÄ…dza listÄ… AutoKick dla kanaÅ‚u. JeÅ›li
+	uÅ¼ytkownik znajdujÄ…cy siÄ™ na liÅ›cie AKICK, wejdzie
+	na kanaÅ‚, %S zaÅ‚oÅ¼y bana, a nastÄ™pnie wykopie
+	uÅ¼ytkownika z kanaÅ‚u.
 	
-	Polecenie AKICK ADD dodaje podany nick lub maskê
-	hosta do listy AutoKick. Je¶li zostanie podany
-	powód, bêdzie on u¿ywany przy wykopywaniu
-	u¿ytkownika dodanego do listy z kana³u, je¶li nie
-	zostanie podany, u¿ywany bêdzie domy¶lny:
+	Polecenie AKICK ADD dodaje podany nick lub maskÄ™
+	hosta do listy AutoKick. JeÅ›li zostanie podany
+	powÃ³d, bÄ™dzie on uÅ¼ywany przy wykopywaniu
+	uÅ¼ytkownika dodanego do listy z kanaÅ‚u, jeÅ›li nie
+	zostanie podany, uÅ¼ywany bÄ™dzie domyÅ›lny:
 	You have been banned from channel.
-	Dodawanie zarejestrowanego nicka na listê powoduje
-	wykopywanie wszystkich nicków nale¿±cych do grupy.
+	Dodawanie zarejestrowanego nicka na listÄ™ powoduje
+	wykopywanie wszystkich nickÃ³w naleÅ¼Ä…cych do grupy.
 	
-	Polecenie AKICK STICK umo¿liwia permanentne
-	dodanie podanej maski do banów na kanale. Za ka¿dym
-	razem gdy kto¶ zdejmie wskazanego bana z kana³u,
-	%S automatycznie za³o¿y go ponownie.
-	Parametrem polecenia nie mo¿e byæ nick a jedynie
+	Polecenie AKICK STICK umoÅ¼liwia permanentne
+	dodanie podanej maski do banÃ³w na kanale. Za kaÅ¼dym
+	razem gdy ktoÅ› zdejmie wskazanego bana z kanaÅ‚u,
+	%S automatycznie zaÅ‚oÅ¼y go ponownie.
+	Parametrem polecenia nie moÅ¼e byÄ‡ nick a jedynie
 	host.
 	
-	Polecenie AKICK UNSTICK niweluje dzia³anie
-	polecenia AKICK STICK - umo¿liwia zdjêcie bana z
-	kana³u.
+	Polecenie AKICK UNSTICK niweluje dziaÅ‚anie
+	polecenia AKICK STICK - umoÅ¼liwia zdjÄ™cie bana z
+	kanaÅ‚u.
 	
-	AKICK DEL usuwa wskazany nick lub maskê z listy AKICK.
-	Jako argument przyjmuje nick, maskê, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	AKICK DEL usuwa wskazany nick lub maskÄ™ z listy AKICK.
+	Jako argument przyjmuje nick, maskÄ™, numer wpisu lub
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	AKICK LIST wy¶wietla zawarto¶æ listy AKICK. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
+	AKICK LIST wyÅ›wietla zawartoÅ›Ä‡ listy AKICK. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
 	pokazane.
 
-	AKICK VIEW zwraca wiêcej szczegó³ów ni¿ AKICK LIST.
+	AKICK VIEW zwraca wiÄ™cej szczegÃ³Å‚Ã³w niÅ¼ AKICK LIST.
 	
-	Polecenie AKICK ENFORCE powoduje ¿e %S
-	usunie z kana³u wszystkich u¿ytkowników, których
-	hosty pasuj± do wskazanych masek w li¶cie AKICK.
+	Polecenie AKICK ENFORCE powoduje Å¼e %S
+	usunie z kanaÅ‚u wszystkich uÅ¼ytkownikÃ³w, ktÃ³rych
+	hosty pasujÄ… do wskazanych masek w liÅ›cie AKICK.
 	
 	Polecenie AKICK CLEAR usuwa wszystkie wpisy z listy.
 
 CHAN_HELP_LEVELS
-	Sk³adnia: LEVELS kana³ SET typ poziom
-	          LEVELS kana³ {DIS | DISABLE} typ
-	          LEVELS kana³ LIST
-	          LEVELS kana³ RESET
+	SkÅ‚adnia: LEVELS kanaÅ‚ SET typ poziom
+	          LEVELS kanaÅ‚ {DIS | DISABLE} typ
+	          LEVELS kanaÅ‚ LIST
+	          LEVELS kanaÅ‚ RESET
 	
-	Polecenie LEVELS umo¿liwia przypisywanie 
-	uprawnieñ poszczególnym poziomom dostepu.
-	Przy u¿yciu tej komendy mo¿esz definiowaæ 
-	poziomy dostêpu do wszystkich funkcji %S 
+	Polecenie LEVELS umoÅ¼liwia przypisywanie 
+	uprawnieÅ„ poszczegÃ³lnym poziomom dostepu.
+	Przy uÅ¼yciu tej komendy moÅ¼esz definiowaÄ‡ 
+	poziomy dostÄ™pu do wszystkich funkcji %S 
 	(SET FOUNDER, SET PASSWORD oraz LEVELS
-	s± dostêpne tylko dla w³a¶ciciela kana³u).
+	sÄ… dostÄ™pne tylko dla wÅ‚aÅ›ciciela kanaÅ‚u).
 	
-	LEVELS SET pozwala zmieniæ przypisany poziom dla 
-	okre¶lonej operacji lub ich grup. LEVELS DISABLE 
-	(lub DIS w skrócie) wy³±cza okre¶lon± funkcjê lub
-	zastrzega dostêp do niej dla w³a¶ciciela kana³u.
-	LEVELS LIST wy¶wietla aktualnie ustalone poziomy 
-	dla ka¿dej z operacji. LEVELS RESET przywraca 
-	standardowe ustawienia poziomów dostêpu - identyczne 
-	z tymi jakie ustawiane s± dla kana³u po jego 
+	LEVELS SET pozwala zmieniÄ‡ przypisany poziom dla 
+	okreÅ›lonej operacji lub ich grup. LEVELS DISABLE 
+	(lub DIS w skrÃ³cie) wyÅ‚Ä…cza okreÅ›lonÄ… funkcjÄ™ lub
+	zastrzega dostÄ™p do niej dla wÅ‚aÅ›ciciela kanaÅ‚u.
+	LEVELS LIST wyÅ›wietla aktualnie ustalone poziomy 
+	dla kaÅ¼dej z operacji. LEVELS RESET przywraca 
+	standardowe ustawienia poziomÃ³w dostÄ™pu - identyczne 
+	z tymi jakie ustawiane sÄ… dla kanaÅ‚u po jego 
 	utworzeniu (zobacz HELP ACCESS LEVELS).
 	
-	Aby obejrzeæ spis wszystkich funkcji które mog± 
-	zostaæ przypisane poziomom dostêpu, zobacz
+	Aby obejrzeÄ‡ spis wszystkich funkcji ktÃ³re mogÄ… 
+	zostaÄ‡ przypisane poziomom dostÄ™pu, zobacz
 	HELP LEVELS DESC.
 
 CHAN_HELP_LEVELS_DESC
-	Poni¿ej znajduje siê lista wszystkich dostêpnych uprawnieñ.
+	PoniÅ¼ej znajduje siÄ™ lista wszystkich dostÄ™pnych uprawnieÅ„.
 	Poziomy dla AUTODEOP oraz NOJOIN to poziomy maksymalne,
-	reszta uprawnieñ ma poziomy minimalne.
+	reszta uprawnieÅ„ ma poziomy minimalne.
 
 CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
 
 CHAN_HELP_INFO
-	Sk³adnia: INFO kana³ [ALL]
+	SkÅ‚adnia: INFO kanaÅ‚ [ALL]
 	
-	Wy¶wietla informacje o zarejestrowanym kanale:
-	w³a¶ciciel, data za³o¿enia, opis, blokada flag,
-	czas ostatniego u¿ycia. Kiedy zostanie podany parametr
-	ALL zostan± wy¶wietlone tak¿e informacje o spadkobiercy
-	kana³u i wiadomo¶ci powitalnej.
+	WyÅ›wietla informacje o zarejestrowanym kanale:
+	wÅ‚aÅ›ciciel, data zaÅ‚oÅ¼enia, opis, blokada flag,
+	czas ostatniego uÅ¼ycia. Kiedy zostanie podany parametr
+	ALL zostanÄ… wyÅ›wietlone takÅ¼e informacje o spadkobiercy
+	kanaÅ‚u i wiadomoÅ›ci powitalnej.
 	
-	Domy¶lnie parametr ALL jest dostêpny dla osób z
-	uprawnieniami w³a¶ciciela kana³u.
+	DomyÅ›lnie parametr ALL jest dostÄ™pny dla osÃ³b z
+	uprawnieniami wÅ‚aÅ›ciciela kanaÅ‚u.
 
 CHAN_HELP_LIST
-	Sk³adnia: LIST wzorzec
+	SkÅ‚adnia: LIST wzorzec
 	
-	Listuje kana³y o nazwie pasuj±cej do podanego wzorca
-	(kana³y z opcj± PRIVATE nie bêd± pokazywane).
+	Listuje kanaÅ‚y o nazwie pasujÄ…cej do podanego wzorca
+	(kanaÅ‚y z opcjÄ… PRIVATE nie bÄ™dÄ… pokazywane).
 	Poprzedzenie znakiem '#' powoduje podawanie zakresu,
-	nazwy kana³ów powinny byæ pisane bez znaku '#'.
+	nazwy kanaÅ‚Ã³w powinny byÄ‡ pisane bez znaku '#'.
 
 CHAN_HELP_OP
-	Sk³adnia: OP [kana³ [nick]]
+	SkÅ‚adnia: OP [kanaÅ‚ [nick]]
 	
-	Nadaje status operatora wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Nadaje status operatora wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_DEOP
-	Sk³adnia: DEOP [kana³ [nick]]
+	SkÅ‚adnia: DEOP [kanaÅ‚ [nick]]
 	
-	Odbiera status operatora wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Odbiera status operatora wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_VOICE
-	Sk³adnia: VOICE [kana³ [nick]]
+	SkÅ‚adnia: VOICE [kanaÅ‚ [nick]]
 	
-	Nadaje prawo g³osu wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Nadaje prawo gÅ‚osu wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych przynajmniej
-	5. poziom dostêpu. Osoby wpisane na listê VOP lub
-	posiadaj±ce 3. poziom dostêpu mog± j± wykonywaæ
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych przynajmniej
+	5. poziom dostÄ™pu. Osoby wpisane na listÄ™ VOP lub
+	posiadajÄ…ce 3. poziom dostÄ™pu mogÄ… jÄ… wykonywaÄ‡
 	jedynie na sobie.
 
 CHAN_HELP_DEVOICE
-	Sk³adnia: DEVOICE [kana³ [nick]]
+	SkÅ‚adnia: DEVOICE [kanaÅ‚ [nick]]
 	
-	Odbiera prawo g³osu wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Odbiera prawo gÅ‚osu wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych przynajmniej
-	5. poziom dostêpu. Osoby wpisane na listê VOP lub
-	posiadaj±ce 3. poziom dostêpu mog± j± wykonywaæ
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych przynajmniej
+	5. poziom dostÄ™pu. Osoby wpisane na listÄ™ VOP lub
+	posiadajÄ…ce 3. poziom dostÄ™pu mogÄ… jÄ… wykonywaÄ‡
 	jedynie na sobie.
 
 CHAN_HELP_HALFOP
-	Sk³adnia: HALFOP [kana³ [nick]]
+	SkÅ‚adnia: HALFOP [kanaÅ‚ [nick]]
 	
-	Nadaje status pó³-operatora wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Nadaje status pÃ³Å‚-operatora wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych przynajmniej
-	5. poziom dostêpu. Osoby wpisane na listê HOP lub
-	posiadaj±ce 4. poziom dostêpu mog± j± wykonywaæ
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych przynajmniej
+	5. poziom dostÄ™pu. Osoby wpisane na listÄ™ HOP lub
+	posiadajÄ…ce 4. poziom dostÄ™pu mogÄ… jÄ… wykonywaÄ‡
 	jedynie na sobie.
 
 CHAN_HELP_DEHALFOP
-	Sk³adnia: DEHALFOP [kana³ [nick]]
+	SkÅ‚adnia: DEHALFOP [kanaÅ‚ [nick]]
 	
-	Odbiera status pó³-operatora wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Odbiera status pÃ³Å‚-operatora wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych przynajmniej
-	5. poziom dostêpu. Osoby wpisane na listê HOP lub
-	posiadaj±ce 4. poziom dostêpu mog± j± wykonywaæ
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych przynajmniej
+	5. poziom dostÄ™pu. Osoby wpisane na listÄ™ HOP lub
+	posiadajÄ…ce 4. poziom dostÄ™pu mogÄ… jÄ… wykonywaÄ‡
 	jedynie na sobie.
 
 CHAN_HELP_PROTECT
-	Sk³adnia: PROTECT [kana³ [nick]]
+	SkÅ‚adnia: PROTECT [kanaÅ‚ [nick]]
 	
-	Nadaje ochronê wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Nadaje ochronÄ™ wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê SOP lub posiadaj±cych przynajmniej
-	10. poziom dostêpu.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ SOP lub posiadajÄ…cych przynajmniej
+	10. poziom dostÄ™pu.
 
 CHAN_HELP_DEPROTECT
-	Sk³adnia: DEPROTECT [kana³ [nick]]
+	SkÅ‚adnia: DEPROTECT [kanaÅ‚ [nick]]
 	
-	Usuwa ochronê wskazanemu u¿ytkownikowi.
-	Je¶li nie zostanie podany nick operacja bêdzie
-	przeprowadzona na osobie wydaj±cej t± komendê.
-	Je¶li tak¿e nie zostanie podany kana³ operacja
-	bêdzie przeprowadzona na wszystkich kana³ach na
-	których przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Usuwa ochronÄ™ wskazanemu uÅ¼ytkownikowi.
+	JeÅ›li nie zostanie podany nick operacja bÄ™dzie
+	przeprowadzona na osobie wydajÄ…cej tÄ… komendÄ™.
+	JeÅ›li takÅ¼e nie zostanie podany kanaÅ‚ operacja
+	bÄ™dzie przeprowadzona na wszystkich kanaÅ‚ach na
+	ktÃ³rych przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê SOP lub posiadaj±cych przynajmniej
-	10. poziom dostêpu.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ SOP lub posiadajÄ…cych przynajmniej
+	10. poziom dostÄ™pu.
 
 CHAN_HELP_OWNER
-	Sk³adnia: OWNER [kana³]
+	SkÅ‚adnia: OWNER [kanaÅ‚]
 	
-	Nadaje uprawnienia w³a¶ciciela kana³u.
-	Je¶li nie zostanie podany kana³ operacja bêdzie
-	przeprowadzona na wszystkich kana³ach na których
-	przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Nadaje uprawnienia wÅ‚aÅ›ciciela kanaÅ‚u.
+	JeÅ›li nie zostanie podany kanaÅ‚ operacja bÄ™dzie
+	przeprowadzona na wszystkich kanaÅ‚ach na ktÃ³rych
+	przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna tylko dla w³a¶ciciela kana³u.
+	Standardowo ta komenda jest dostÄ™pna tylko dla wÅ‚aÅ›ciciela kanaÅ‚u.
 
 CHAN_HELP_DEOWNER
-	Sk³adnia: DEOWNER [kana³]
+	SkÅ‚adnia: DEOWNER [kanaÅ‚]
 	
-	Odbiera uprawnienia w³a¶ciciela kana³u.
-	Je¶li nie zostanie podany kana³ operacja bêdzie
-	przeprowadzona na wszystkich kana³ach na których
-	przebywa osoba wydaj±ca to polecenie z
-	uwzglêdnieniem posiadanych uprawnieñ.
+	Odbiera uprawnienia wÅ‚aÅ›ciciela kanaÅ‚u.
+	JeÅ›li nie zostanie podany kanaÅ‚ operacja bÄ™dzie
+	przeprowadzona na wszystkich kanaÅ‚ach na ktÃ³rych
+	przebywa osoba wydajÄ…ca to polecenie z
+	uwzglÄ™dnieniem posiadanych uprawnieÅ„.
 	
-	Standardowo ta komenda jest dostêpna tylko dla w³a¶ciciela kana³u.
+	Standardowo ta komenda jest dostÄ™pna tylko dla wÅ‚aÅ›ciciela kanaÅ‚u.
 
 CHAN_HELP_INVITE
-	Sk³adnia: INVITE kana³
+	SkÅ‚adnia: INVITE kanaÅ‚
 	
-	%S wysy³a u¿ytkownikowi zaproszenie do kana³u.
+	%S wysyÅ‚a uÅ¼ytkownikowi zaproszenie do kanaÅ‚u.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_UNBAN
-	Sk³adnia: UNBAN kana³
+	SkÅ‚adnia: UNBAN kanaÅ‚
 	
-	Sprawia, ¿e %S zdejmie wszystkie bany, które
-	uniemo¿liwiaj± wydaj±cemu komendê wej¶cie na
-	wskazany kana³.
+	Sprawia, Å¼e %S zdejmie wszystkie bany, ktÃ³re
+	uniemoÅ¼liwiajÄ… wydajÄ…cemu komendÄ™ wejÅ›cie na
+	wskazany kanaÅ‚.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_KICK
-	Sk³adnia: KICK [kana³ [nick [powód]]]
+	SkÅ‚adnia: KICK [kanaÅ‚ [nick [powÃ³d]]]
 	
-	Wykopuje wskazanego u¿ytkownika z kana³u.
-	Pominiêcie nicka powoduje wyrzucenie osoby
-	wydaj±cej polecenie. Dodatkowo pominiêcie
-	nazwy kana³u powoduje wyrzucenie wydaj±cego
-	polecenie ze wszystkich kana³ów, na których
-	przebywa z uwzglêdnieniem uprawnieñ na nich
-	przys³uguj±cych.
+	Wykopuje wskazanego uÅ¼ytkownika z kanaÅ‚u.
+	PominiÄ™cie nicka powoduje wyrzucenie osoby
+	wydajÄ…cej polecenie. Dodatkowo pominiÄ™cie
+	nazwy kanaÅ‚u powoduje wyrzucenie wydajÄ…cego
+	polecenie ze wszystkich kanaÅ‚Ã³w, na ktÃ³rych
+	przebywa z uwzglÄ™dnieniem uprawnieÅ„ na nich
+	przysÅ‚ugujÄ…cych.
 	
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_BAN
-	Sk³adnia: BAN [kana³ [nick [powód]]]
+	SkÅ‚adnia: BAN [kanaÅ‚ [nick [powÃ³d]]]
 	
-	Banuje wskazanego u¿ytkownika na kanale.
-	Pominiêcie nicka powoduje zbanowanie osoby
-	wydaj±cej polecenie. Dodatkowo pominiêcie
-	nazwy kana³u powoduje zbanowanie wydaj±cego
-	polecenie na wszystkich kana³ach, na których
-	przebywa z uwzglêdnieniem uprawnieñ na nich
-	przys³uguj±cych.
+	Banuje wskazanego uÅ¼ytkownika na kanale.
+	PominiÄ™cie nicka powoduje zbanowanie osoby
+	wydajÄ…cej polecenie. Dodatkowo pominiÄ™cie
+	nazwy kanaÅ‚u powoduje zbanowanie wydajÄ…cego
+	polecenie na wszystkich kanaÅ‚ach, na ktÃ³rych
+	przebywa z uwzglÄ™dnieniem uprawnieÅ„ na nich
+	przysÅ‚ugujÄ…cych.
 
-	Standardowo ta komenda jest dostêpna dla u¿ytkowników
-	wpisanych na listê AOP lub posiadaj±cych poziom
-	dostêpu 5 lub wy¿szy.
+	Standardowo ta komenda jest dostÄ™pna dla uÅ¼ytkownikÃ³w
+	wpisanych na listÄ™ AOP lub posiadajÄ…cych poziom
+	dostÄ™pu 5 lub wyÅ¼szy.
 
 CHAN_HELP_TOPIC
-	Sk³adnia: TOPIC kana³ [temat]
+	SkÅ‚adnia: TOPIC kanaÅ‚ [temat]
 	
-	Wymusza na serwisie %S zmianê tematu na kanale.
-	Pominiêcie tematu powoduje usuniêcie istniej±cego.
-	Ta komenda jest u¿yteczna w po³±czeniu z ustawieniem
-	TOPICLOCK. Aby uzyskaæ wiêcej informacji wpisz
+	Wymusza na serwisie %S zmianÄ™ tematu na kanale.
+	PominiÄ™cie tematu powoduje usuniÄ™cie istniejÄ…cego.
+	Ta komenda jest uÅ¼yteczna w poÅ‚Ä…czeniu z ustawieniem
+	TOPICLOCK. Aby uzyskaÄ‡ wiÄ™cej informacji wpisz
 	%R%S HELP SET TOPICLOCK
 	
-	Standardowo ta komenda jest dostêpna dla w³a¶ciciela kana³u.
+	Standardowo ta komenda jest dostÄ™pna dla wÅ‚aÅ›ciciela kanaÅ‚u.
 
 CHAN_HELP_CLEAR
-	Sk³adnia: CLEAR kana³ opcje
+	SkÅ‚adnia: CLEAR kanaÅ‚ opcje
 	
-	Umo¿liwia kompleksowe usuniêcie niektórych ustawieñ na
-	kanale poprzez %S. Dostêpne opcje:
+	UmoÅ¼liwia kompleksowe usuniÄ™cie niektÃ³rych ustawieÅ„ na
+	kanale poprzez %S. DostÄ™pne opcje:
 	
-	   MODES     Usuwa tryby z kana³u
-	   BANS      Usuwa bany z kana³u
-	   EXCEPTS   Usuwa wyj±tki od banów z kana³u
-	   INVITES   Usuwa zaproszenia z kana³u
+	   MODES     Usuwa tryby z kanaÅ‚u
+	   BANS      Usuwa bany z kanaÅ‚u
+	   EXCEPTS   Usuwa wyjÄ…tki od banÃ³w z kanaÅ‚u
+	   INVITES   Usuwa zaproszenia z kanaÅ‚u
 	   OPS       Odbiera wszystkim status operatora
-	   HOPS      Odbiera wszystkim status pó³-operatora
-	   VOICES    Odbiera wszystkim prawo g³osu
-	   USERS     Usuwa u¿ytkowników z kana³u
+	   HOPS      Odbiera wszystkim status pÃ³Å‚-operatora
+	   VOICES    Odbiera wszystkim prawo gÅ‚osu
+	   USERS     Usuwa uÅ¼ytkownikÃ³w z kanaÅ‚u
 	
-	Standardowo ta komenda jest dostêpna dla w³a¶ciciela kana³u.
+	Standardowo ta komenda jest dostÄ™pna dla wÅ‚aÅ›ciciela kanaÅ‚u.
 	
 CHAN_HELP_GETKEY
-	Sk³adnia: GETKEY kana³
+	SkÅ‚adnia: GETKEY kanaÅ‚
 	
-	Zwraca has³o wstêpu do wskazanego kana³u.
-	Komenda jest g³ównie przeznaczona dla botów,
+	Zwraca hasÅ‚o wstÄ™pu do wskazanego kanaÅ‚u.
+	Komenda jest gÅ‚Ã³wnie przeznaczona dla botÃ³w,
 	dlatego wynik ma format:
 	
-	KEY <kana³> <klucz>
+	KEY <kanaÅ‚> <klucz>
 	
-	Je¶li kana³ nie ma klucza zostanie zwrócona
-	warto¶æ "NO KEY".
+	JeÅ›li kanaÅ‚ nie ma klucza zostanie zwrÃ³cona
+	wartoÅ›Ä‡ "NO KEY".
 
 CHAN_HELP_SENDPASS
-	Sk³adnia: SENDPASS kana³
+	SkÅ‚adnia: SENDPASS kanaÅ‚
 	
-	Wysy³a has³o do podanego kana³u na adres e-mail
-	przypisany do nicka w³a¶ciciela kana³u. Ta komenda
-	pomaga odzyskaæ zapomniane has³o.
+	WysyÅ‚a hasÅ‚o do podanego kanaÅ‚u na adres e-mail
+	przypisany do nicka wÅ‚aÅ›ciciela kanaÅ‚u. Ta komenda
+	pomaga odzyskaÄ‡ zapomniane hasÅ‚o.
 	
-	Ta komenda w niektórych sieciach mo¿e byæ dostêpna
-	jedynie dla osób z uprawnieniami IRC operatora.
+	Ta komenda w niektÃ³rych sieciach moÅ¼e byÄ‡ dostÄ™pna
+	jedynie dla osÃ³b z uprawnieniami IRC operatora.
 	
-	Ta komenda jest niedostêpna kiedy has³a s± szyfrowane.
+	Ta komenda jest niedostÄ™pna kiedy hasÅ‚a sÄ… szyfrowane.
 
 CHAN_SERVADMIN_HELP
 	
-	Administratorzy serwisów mog± usun±æ ka¿dy kana³
-	bez potrzeby identyfikacji jako jego w³a¶ciciele.
-	Mog± przegl±daæ listê dostêpu ka¿dego kana³u,
-	listê AKICK, ustawienia poziomów dostêpu itd.
+	Administratorzy serwisÃ³w mogÄ… usunÄ…Ä‡ kaÅ¼dy kanaÅ‚
+	bez potrzeby identyfikacji jako jego wÅ‚aÅ›ciciele.
+	MogÄ… przeglÄ…daÄ‡ listÄ™ dostÄ™pu kaÅ¼dego kanaÅ‚u,
+	listÄ™ AKICK, ustawienia poziomÃ³w dostÄ™pu itd.
 
 CHAN_SERVADMIN_HELP_LOGOUT
-	Sk³adnia: LOGOUT kana³ nick
+	SkÅ‚adnia: LOGOUT kanaÅ‚ nick
 	
-	Pozwala na wylogowanie wskazanego u¿ytkownika z kana³u.
-	W celu odzyskania uprawnieñ u¿ytkownik bêdzie musia³
-	ponownie siê zidentyfikowaæ.
+	Pozwala na wylogowanie wskazanego uÅ¼ytkownika z kanaÅ‚u.
+	W celu odzyskania uprawnieÅ„ uÅ¼ytkownik bÄ™dzie musiaÅ‚
+	ponownie siÄ™ zidentyfikowaÄ‡.
 	
-	Ka¿dy mo¿e wylogowaæ siebie, natomiast w³a¶ciciel kana³u
-	mo¿e wylogowaæ ka¿dego.
+	KaÅ¼dy moÅ¼e wylogowaÄ‡ siebie, natomiast wÅ‚aÅ›ciciel kanaÅ‚u
+	moÅ¼e wylogowaÄ‡ kaÅ¼dego.
 	
-	Administrator serwisów mo¿e wylogowaæ dowoln± osobê
-	z dowolnego kana³u. Pominiêcie nicka powoduje wylogowanie
-	wszystkich zidentyfikowanych osób.
+	Administrator serwisÃ³w moÅ¼e wylogowaÄ‡ dowolnÄ… osobÄ™
+	z dowolnego kanaÅ‚u. PominiÄ™cie nicka powoduje wylogowanie
+	wszystkich zidentyfikowanych osÃ³b.
 
 CHAN_SERVADMIN_HELP_DROP
-	Sk³adnia: DROP kana³
+	SkÅ‚adnia: DROP kanaÅ‚
 	
-	Usuwa wskazany kana³. Tylko administratorzy serwisów
-	mog± usun±æ kana³, którego nie s± w³a¶cicielami.
+	Usuwa wskazany kanaÅ‚. Tylko administratorzy serwisÃ³w
+	mogÄ… usunÄ…Ä‡ kanaÅ‚, ktÃ³rego nie sÄ… wÅ‚aÅ›cicielami.
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Administratorzy serwisów mog± ustawiæ kana³owi 
-	opcjê NOEXPIRE, która zapobiega wyga¶niêciu
-	kana³u je¶li nie jest on u¿ywany.
+	Administratorzy serwisÃ³w mogÄ… ustawiÄ‡ kanaÅ‚owi 
+	opcjÄ™ NOEXPIRE, ktÃ³ra zapobiega wygaÅ›niÄ™ciu
+	kanaÅ‚u jeÅ›li nie jest on uÅ¼ywany.
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
-	Sk³adnia: SET kana³ NOEXPIRE {ON | OFF}
+	SkÅ‚adnia: SET kanaÅ‚ NOEXPIRE {ON | OFF}
 	
-	W³±cza lub wy³±cza automatyczne usuniêcie kana³u,
-	je¶li nie bêdzie on u¿ywany.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza automatyczne usuniÄ™cie kanaÅ‚u,
+	jeÅ›li nie bÄ™dzie on uÅ¼ywany.
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Administratorzy serwisów zawsze mog± u¿ywaæ parametru ALL.
+	Administratorzy serwisÃ³w zawsze mogÄ… uÅ¼ywaÄ‡ parametru ALL.
 
 CHAN_SERVADMIN_HELP_LIST
-	Sk³adnia: LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
+	SkÅ‚adnia: LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 
-	Listuje kana³y o nazwie pasuj±cej do podanego wzorca
-	(kana³y z opcj± PRIVATE bêd± pokazywane jedynie
-	administratorom serwisów). Kana³y z ustawion± opcj±
-	NOEXPIRE bêd± mia³y przy nazwie dodany znak !.
+	Listuje kanaÅ‚y o nazwie pasujÄ…cej do podanego wzorca
+	(kanaÅ‚y z opcjÄ… PRIVATE bÄ™dÄ… pokazywane jedynie
+	administratorom serwisÃ³w). KanaÅ‚y z ustawionÄ… opcjÄ…
+	NOEXPIRE bÄ™dÄ… miaÅ‚y przy nazwie dodany znak !.
 
-	Administratorzy serwisów mog± tak¿e podaæ parametry:
-	FORBIDDEN, SUSPENDED i NOEXPIRE, które ogranicz± listê
-	wy¶wietlanych kana³ów do tych, które spe³niaj± podane 
-	warunki. Je¶li zostanie podane wiêcej warunków
-	wszystkie kana³y spe³niaj±ce choæ jeden z nich 
-	zostan± pokazane.
+	Administratorzy serwisÃ³w mogÄ… takÅ¼e podaÄ‡ parametry:
+	FORBIDDEN, SUSPENDED i NOEXPIRE, ktÃ³re ograniczÄ… listÄ™
+	wyÅ›wietlanych kanaÅ‚Ã³w do tych, ktÃ³re speÅ‚niajÄ… podane 
+	warunki. JeÅ›li zostanie podane wiÄ™cej warunkÃ³w
+	wszystkie kanaÅ‚y speÅ‚niajÄ…ce choÄ‡ jeden z nich 
+	zostanÄ… pokazane.
 
 CHAN_SERVADMIN_HELP_GETPASS
-	Sk³adnia: GETPASS kana³
+	SkÅ‚adnia: GETPASS kanaÅ‚
 	
-	Zwraca has³o w³a¶ciciela dla wskazanego kana³u. 
-	UWAGA: u¿ycie tej komendy powoduje wys³anie
-	informacji o jej u¿yciu przy pomocy WALLOP/GLOBOP.
+	Zwraca hasÅ‚o wÅ‚aÅ›ciciela dla wskazanego kanaÅ‚u. 
+	UWAGA: uÅ¼ycie tej komendy powoduje wysÅ‚anie
+	informacji o jej uÅ¼yciu przy pomocy WALLOP/GLOBOP.
 
 CHAN_SERVADMIN_HELP_FORBID
-	Sk³adnia: FORBID kana³ [powód]
+	SkÅ‚adnia: FORBID kanaÅ‚ [powÃ³d]
 	
-	Uniemo¿liwia rejestracjê i korzystanie ze wskazanego
-	kana³u. Blokadê mo¿na zdj±æ u¿ywaj±c komendy DROP.
+	UniemoÅ¼liwia rejestracjÄ™ i korzystanie ze wskazanego
+	kanaÅ‚u. BlokadÄ™ moÅ¼na zdjÄ…Ä‡ uÅ¼ywajÄ…c komendy DROP.
 	
-	W niektórych sieciach wymagane jest podanie powodu.
+	W niektÃ³rych sieciach wymagane jest podanie powodu.
 
 CHAN_SERVADMIN_HELP_SUSPEND
-	Sk³adnia: SUSPEND kana³ [powód]
+	SkÅ‚adnia: SUSPEND kanaÅ‚ [powÃ³d]
 	
-	Zawiesza dzia³anie wskazanego kana³u.
-	Blokada mo¿e zostaæ zdjêta z zachowaniem
-	wszelkich ustawieñ komend± UNSUSPEND.
+	Zawiesza dziaÅ‚anie wskazanego kanaÅ‚u.
+	Blokada moÅ¼e zostaÄ‡ zdjÄ™ta z zachowaniem
+	wszelkich ustawieÅ„ komendÄ… UNSUSPEND.
 	
-	W niektórych sieciach wymagane jest podanie powodu.
+	W niektÃ³rych sieciach wymagane jest podanie powodu.
 
 CHAN_SERVADMIN_HELP_UNSUSPEND
-	Sk³adnia: UNSUSPEND kana³
+	SkÅ‚adnia: UNSUSPEND kanaÅ‚
 	
-	Uwalnia zawieszony kana³. Wszystkie dane i ustawienia
-	s± odtworzone sprzed zawieszenia.
+	Uwalnia zawieszony kanaÅ‚. Wszystkie dane i ustawienia
+	sÄ… odtworzone sprzed zawieszenia.
 
 CHAN_SERVADMIN_HELP_STATUS
-	Sk³adnia: STATUS kana³ nick
+	SkÅ‚adnia: STATUS kanaÅ‚ nick
 	
-	Wy¶wietla aktualny poziom dostêpu (access level) 
+	WyÅ›wietla aktualny poziom dostÄ™pu (access level) 
 	wskazanego nicka na kanale. Format odpowiedzi jest 
-	nastêpuj±cy:
+	nastÄ™pujÄ…cy:
 	
-	    STATUS kana³ nick poziom-dostêpu
+	    STATUS kanaÅ‚ nick poziom-dostÄ™pu
 	
-	W przypadku wyst±pienia b³êdu, format odpowiedzi 
-	bêdzie nastêpuj±cy:
+	W przypadku wystÄ…pienia bÅ‚Ä™du, format odpowiedzi 
+	bÄ™dzie nastÄ™pujÄ…cy:
 	
-	    STATUS ERROR informacja-o-b³êdzie
+	    STATUS ERROR informacja-o-bÅ‚Ä™dzie
 
 ###########################################################################
 #
@@ -6363,237 +6363,237 @@ CHAN_SERVADMIN_HELP_STATUS
 #
 ###########################################################################
 MEMO_HELP_CMD_SEND
-	    SEND        Wysy³a wiadomo¶æ do u¿ytkownika/kana³u
+	    SEND        WysyÅ‚a wiadomoÅ›Ä‡ do uÅ¼ytkownika/kanaÅ‚u
 
 MEMO_HELP_CMD_CANCEL
-	    CANCEL      Wycofuje ostatni± wys³an± wiadomo¶æ
+	    CANCEL      Wycofuje ostatniÄ… wysÅ‚anÄ… wiadomoÅ›Ä‡
 
 MEMO_HELP_CMD_LIST
-	    LIST        Wy¶wietla wszystkie wiadomo¶ci
+	    LIST        WyÅ›wietla wszystkie wiadomoÅ›ci
 
 MEMO_HELP_CMD_READ
-	    READ        Wy¶wietla jedn± lub wiêcej wiadomo¶ci
+	    READ        WyÅ›wietla jednÄ… lub wiÄ™cej wiadomoÅ›ci
 
 MEMO_HELP_CMD_DEL
-	    DEL         Kasuje jedn± lub wiêcej wiadomo¶ci
+	    DEL         Kasuje jednÄ… lub wiÄ™cej wiadomoÅ›ci
 
 MEMO_HELP_CMD_SET
-	    SET         Ustawia opcje zwi±zane z wiadomo¶ciami
+	    SET         Ustawia opcje zwiÄ…zane z wiadomoÅ›ciami
 
 MEMO_HELP_CMD_INFO
-	    INFO        Wy¶wietla informacje o wiadomo¶ciach
+	    INFO        WyÅ›wietla informacje o wiadomoÅ›ciach
 
 MEMO_HELP_CMD_RSEND
-	    RSEND       Wysy³a wiadomo¶æ z ¿±daniem potwierdzenia odbioru
+	    RSEND       WysyÅ‚a wiadomoÅ›Ä‡ z Å¼Ä…daniem potwierdzenia odbioru
 
 MEMO_HELP_CMD_CHECK
-	    CHECK       Sprawdza czy ostatnia wiadomo¶æ zosta³a przeczytana
+	    CHECK       Sprawdza czy ostatnia wiadomoÅ›Ä‡ zostaÅ‚a przeczytana
 
 MEMO_HELP_CMD_SENDALL
-	    SENDALL     Wysy³a wiadomo¶æ do wszystkich
-	                zarejestrowanych u¿ytkowników
+	    SENDALL     WysyÅ‚a wiadomoÅ›Ä‡ do wszystkich
+	                zarejestrowanych uÅ¼ytkownikÃ³w
 
 MEMO_HELP_CMD_STAFF
-	    STAFF       Wysy³a wiadomo¶æ do wszystkich
-	                operatorów/administratorów
+	    STAFF       WysyÅ‚a wiadomoÅ›Ä‡ do wszystkich
+	                operatorÃ³w/administratorÃ³w
 
 MEMO_HELP_HEADER
-	%S umo¿liwia wysy³anie krótkich wiadomo¶ci
-	do innych u¿ytkowników (niezale¿nie od tego czy
-	s± oni w danej chwili na IRCu) lub do kana³ów(*).
-	Aby móc u¿ywaæ tego serwisu nadawca i odbiorca
-	(kana³ lub nick) musz± byæ zarejestrowani.
-	Poni¿sze komendy pozwalaj± na wysy³anie i
-	odbieranie wiadomo¶ci, aby ich u¿yæ wpisz:
+	%S umoÅ¼liwia wysyÅ‚anie krÃ³tkich wiadomoÅ›ci
+	do innych uÅ¼ytkownikÃ³w (niezaleÅ¼nie od tego czy
+	sÄ… oni w danej chwili na IRCu) lub do kanaÅ‚Ã³w(*).
+	Aby mÃ³c uÅ¼ywaÄ‡ tego serwisu nadawca i odbiorca
+	(kanaÅ‚ lub nick) muszÄ… byÄ‡ zarejestrowani.
+	PoniÅ¼sze komendy pozwalajÄ… na wysyÅ‚anie i
+	odbieranie wiadomoÅ›ci, aby ich uÅ¼yÄ‡ wpisz:
 	%R%S komenda
-	Aby uzyskaæ szczegó³owy opis polecenia wpisz:
+	Aby uzyskaÄ‡ szczegÃ³Å‚owy opis polecenia wpisz:
 	%R%S HELP komenda
 
 MEMO_HELP_ADMIN
-	nie jest u¿ywane.
+	nie jest uÅ¼ywane.
 
 MEMO_HELP_OPER
-	nie jest u¿ywane.
+	nie jest uÅ¼ywane.
 
 MEMO_HELP_FOOTER
 	
-	Napisz %R%S HELP polecenie aby uzyskaæ pomoc
-	na temat powy¿szych poleceñ.
+	Napisz %R%S HELP polecenie aby uzyskaÄ‡ pomoc
+	na temat powyÅ¼szych poleceÅ„.
 
-	(*) Domy¶lnie ka¿dy u¿ytkownik maj±cy przynajmniej 10.
-	    poziom dostêpu na kanale mo¿e czytaæ wiadomo¶ci,
-	    ale mo¿na to zmieniæ komend± LEVELS serwisu %s.
+	(*) DomyÅ›lnie kaÅ¼dy uÅ¼ytkownik majÄ…cy przynajmniej 10.
+	    poziom dostÄ™pu na kanale moÅ¼e czytaÄ‡ wiadomoÅ›ci,
+	    ale moÅ¼na to zmieniÄ‡ komendÄ… LEVELS serwisu %s.
 
 MEMO_HELP_SEND
-	Sk³adnia: SEND {nick | kana³} tre¶æ-wiadomo¶ci
+	SkÅ‚adnia: SEND {nick | kanaÅ‚} treÅ›Ä‡-wiadomoÅ›ci
 	
-	Wysy³a wiadomo¶æ wskazanej osobie lub na podany kana³.
-	Po wys³aniu odbiorca otrzyma powiadomienie o nowej
-	wiadomo¶ci (o ile ma w³±czone powiadomienia).
-	Adresatem musi byæ zarejestrowany nick lub kana³.
+	WysyÅ‚a wiadomoÅ›Ä‡ wskazanej osobie lub na podany kanaÅ‚.
+	Po wysÅ‚aniu odbiorca otrzyma powiadomienie o nowej
+	wiadomoÅ›ci (o ile ma wÅ‚Ä…czone powiadomienia).
+	Adresatem musi byÄ‡ zarejestrowany nick lub kanaÅ‚.
 
 MEMO_HELP_CANCEL
-	Sk³adnia: CANCEL {nick | kana³}
+	SkÅ‚adnia: CANCEL {nick | kanaÅ‚}
 	
-	Wycofuje ostatni± wys³an± wiadomo¶æ,
-	o ile nie zosta³a przeczytana.
+	Wycofuje ostatniÄ… wysÅ‚anÄ… wiadomoÅ›Ä‡,
+	o ile nie zostaÅ‚a przeczytana.
 
 MEMO_HELP_LIST
-	Sk³adnia: LIST [kana³] [lista | NEW]
+	SkÅ‚adnia: LIST [kanaÅ‚] [lista | NEW]
 	
-	Wy¶wietla wszystkie odebrane wiadomo¶ci. Parametr 
-	NEW ogranicza listê do nowych wiadomo¶ci, które
-	oznaczane s± symbolem "*" po lewej stronie numeru.
-	Mo¿na tak¿e sprecyzowaæ listê wy¶wietlanych 
-	wiadomo¶ci podaj±c ich numery, np:
+	WyÅ›wietla wszystkie odebrane wiadomoÅ›ci. Parametr 
+	NEW ogranicza listÄ™ do nowych wiadomoÅ›ci, ktÃ³re
+	oznaczane sÄ… symbolem "*" po lewej stronie numeru.
+	MoÅ¼na takÅ¼e sprecyzowaÄ‡ listÄ™ wyÅ›wietlanych 
+	wiadomoÅ›ci podajÄ…c ich numery, np:
 
 	   LIST 2-5,7-9
-	      Wy¶wietli wiadomo¶ci od numeru 2 do 5 oraz od 7 do 9.
+	      WyÅ›wietli wiadomoÅ›ci od numeru 2 do 5 oraz od 7 do 9.
 
 MEMO_HELP_READ
-	Sk³adnia: READ [kana³] {numer | lista | LAST | NEW}
+	SkÅ‚adnia: READ [kanaÅ‚] {numer | lista | LAST | NEW}
 	
-	Wy¶wietla tekst wskazanej wiadomo¶ci. Parametr LAST
-	oznacza ostatni± z wiadomo¶ci, NEW wy¶wietla wszystkie
-	nieprzeczytane wiadomo¶ci. Je¶li zostanie podany numer
-	zostanie wy¶wietlona wiadomo¶æ o podanym numerze. Mo¿na
-	tak¿e podawaæ listê wiadomo¶ci np.:
+	WyÅ›wietla tekst wskazanej wiadomoÅ›ci. Parametr LAST
+	oznacza ostatniÄ… z wiadomoÅ›ci, NEW wyÅ›wietla wszystkie
+	nieprzeczytane wiadomoÅ›ci. JeÅ›li zostanie podany numer
+	zostanie wyÅ›wietlona wiadomoÅ›Ä‡ o podanym numerze. MoÅ¼na
+	takÅ¼e podawaÄ‡ listÄ™ wiadomoÅ›ci np.:
 	
 	   READ 2-5,7-9
-	      Wy¶wietli wiadomo¶ci od numeru 2 do 5 oraz od 7 do 9.
+	      WyÅ›wietli wiadomoÅ›ci od numeru 2 do 5 oraz od 7 do 9.
 
 MEMO_HELP_DEL
-	Sk³adnia: DEL [kana³] {numer | lista | LAST | ALL}
+	SkÅ‚adnia: DEL [kanaÅ‚] {numer | lista | LAST | ALL}
 	
-	Kasuje jedn± lub wiêcej wiadomo¶ci. Dopuszczalne 
-	jest podanie numeru wiadomo¶ci lub listy wiadomo¶ci, 
-	przyk³ad poni¿ej.
+	Kasuje jednÄ… lub wiÄ™cej wiadomoÅ›ci. Dopuszczalne 
+	jest podanie numeru wiadomoÅ›ci lub listy wiadomoÅ›ci, 
+	przykÅ‚ad poniÅ¼ej.
 	
-	Parametr LAST oznacza skasowanie ostatniej wiadomo¶ci.
-	Parametr ALL oznacza skasowanie wszystkich wiadomo¶ci.
+	Parametr LAST oznacza skasowanie ostatniej wiadomoÅ›ci.
+	Parametr ALL oznacza skasowanie wszystkich wiadomoÅ›ci.
 	
-	Przyk³ady:
+	PrzykÅ‚ady:
 	
 	   DEL 1
-	      Usuwa pierwsz± wiadomo¶æ.
+	      Usuwa pierwszÄ… wiadomoÅ›Ä‡.
 	
 	   DEL 2-5,7-9
-	      Kasuje wiadomo¶ci od numeru 2 do 5 oraz od 7 do 9.
+	      Kasuje wiadomoÅ›ci od numeru 2 do 5 oraz od 7 do 9.
 
 MEMO_HELP_SET
-	Sk³adnia: SET opcja parametry
+	SkÅ‚adnia: SET opcja parametry
 	
-	Ustawia ró¿ne opcje wiadomo¶ci. Dostêpne opcje:
+	Ustawia rÃ³Å¼ne opcje wiadomoÅ›ci. DostÄ™pne opcje:
 	
-	    NOTIFY      Ustawia kiedy otrzymasz informacjê
-	                o nowej wiadomo¶ci
-	    LIMIT       Ustawia maksymaln± liczbê wiadomo¶ci
-	                jakie mo¿esz odebraæ
+	    NOTIFY      Ustawia kiedy otrzymasz informacjÄ™
+	                o nowej wiadomoÅ›ci
+	    LIMIT       Ustawia maksymalnÄ… liczbÄ™ wiadomoÅ›ci
+	                jakie moÅ¼esz odebraÄ‡
 	
-	Aby uzyskaæ wiêcej informacji o danej opcji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji o danej opcji wpisz:
 	%R%S HELP SET opcja
 
 MEMO_HELP_SET_NOTIFY
-	Sk³adnia: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
+	SkÅ‚adnia: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 	
-	Ustala sposób wys³ania powiadomieñ o nowych wiadomo¶ciach:
+	Ustala sposÃ³b wysÅ‚ania powiadomieÅ„ o nowych wiadomoÅ›ciach:
 	
-	   ON      Powiadomienie zostanie wys³ane po 
-	           zalogowaniu siê, kiedy nie bêdzie 
+	   ON      Powiadomienie zostanie wysÅ‚ane po 
+	           zalogowaniu siÄ™, kiedy nie bÄ™dzie 
 	           ustawiony tryb /AWAY oraz w momencie
-	           otrzymania wiadomo¶ci.
-	   LOGON   Powiadomienie zostanie wys³ane jedynie 
-	           po zalogowaniu siê lub po wy³±czeniu 
+	           otrzymania wiadomoÅ›ci.
+	   LOGON   Powiadomienie zostanie wysÅ‚ane jedynie 
+	           po zalogowaniu siÄ™ lub po wyÅ‚Ä…czeniu 
 	           trybu /AWAY.
-	   NEW     Powiadomienie bêdzie wysy³ane jedynie w 
-	           momencie otrzymania wiadomo¶ci.
-	   MAIL    Powiadomienia bêd± wysy³ane e-mailem oraz
-	           wedle pozosta³ych ustawieñ.
-	   NOMAIL  Powiadomienia nie bêd± wysy³ane e-mailem.
-	   OFF     Powiadomienia nie bêd± wysy³ane.
+	   NEW     Powiadomienie bÄ™dzie wysyÅ‚ane jedynie w 
+	           momencie otrzymania wiadomoÅ›ci.
+	   MAIL    Powiadomienia bÄ™dÄ… wysyÅ‚ane e-mailem oraz
+	           wedle pozostaÅ‚ych ustawieÅ„.
+	   NOMAIL  Powiadomienia nie bÄ™dÄ… wysyÅ‚ane e-mailem.
+	   OFF     Powiadomienia nie bÄ™dÄ… wysyÅ‚ane.
 	
-	Opcja ON jest kombinacj± opcji LOGON oraz NEW.
+	Opcja ON jest kombinacjÄ… opcji LOGON oraz NEW.
 
 MEMO_HELP_SET_LIMIT
-	Sk³adnia: SET LIMIT [kana³] limit
+	SkÅ‚adnia: SET LIMIT [kanaÅ‚] limit
 	
-	Ustala Twoj± (lub kana³u) maksymaln± liczbê 
-	wiadomo¶ci. Je¶li ustalona zostanie ona na 0, 
-	przyjmowanie wiadomo¶ci zostanie wy³±czone. Limit 
-	nie mo¿e byæ wiêkszy ni¿ %d.
+	Ustala TwojÄ… (lub kanaÅ‚u) maksymalnÄ… liczbÄ™ 
+	wiadomoÅ›ci. JeÅ›li ustalona zostanie ona na 0, 
+	przyjmowanie wiadomoÅ›ci zostanie wyÅ‚Ä…czone. Limit 
+	nie moÅ¼e byÄ‡ wiÄ™kszy niÅ¼ %d.
 
 MEMO_HELP_INFO
-	Sk³adnia: INFO [kana³]
+	SkÅ‚adnia: INFO [kanaÅ‚]
 	
-	Wy¶wietla ilo¶æ wiadomo¶ci, ile z nich jest 
+	WyÅ›wietla iloÅ›Ä‡ wiadomoÅ›ci, ile z nich jest 
 	nieprzeczytanych oraz limit przyjmowania 
-	wiadomo¶ci. Je¶li podany zostanie kana³ wy¶wietlone 
-	informacje bêd± odnosi³y siê do wskazanego kana³u.
+	wiadomoÅ›ci. JeÅ›li podany zostanie kanaÅ‚ wyÅ›wietlone 
+	informacje bÄ™dÄ… odnosiÅ‚y siÄ™ do wskazanego kanaÅ‚u.
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
-	Sk³adnia: SET LIMIT [nick | kana³] {limit | NONE} [HARD]
+	SkÅ‚adnia: SET LIMIT [nick | kanaÅ‚] {limit | NONE} [HARD]
 	
-	Ustala maksymaln± ilo¶æ wiadomo¶ci jak± mo¿e 
-	posiadaæ u¿ytkownik lub kana³. Ustalenie limitu 
-	na 0, wy³±czy przyjmowanie wiadomo¶ci. Parametr 
-	NONE pozwoli na nielimitowan± ilo¶æ wiadomo¶ci. 
-	Je¶li nie podany zostanie nick lub kana³ zmieniony 
-	zostanie limit wydaj±cego polecenie.
+	Ustala maksymalnÄ… iloÅ›Ä‡ wiadomoÅ›ci jakÄ… moÅ¼e 
+	posiadaÄ‡ uÅ¼ytkownik lub kanaÅ‚. Ustalenie limitu 
+	na 0, wyÅ‚Ä…czy przyjmowanie wiadomoÅ›ci. Parametr 
+	NONE pozwoli na nielimitowanÄ… iloÅ›Ä‡ wiadomoÅ›ci. 
+	JeÅ›li nie podany zostanie nick lub kanaÅ‚ zmieniony 
+	zostanie limit wydajÄ…cego polecenie.
 	
-	Dodanie parametru HARD uniemo¿liwia zmianê 
-	limitu przez u¿ytkownika.
+	Dodanie parametru HARD uniemoÅ¼liwia zmianÄ™ 
+	limitu przez uÅ¼ytkownika.
 
-	To u¿ycie polecenia SET LIMIT jest dostêpne dla 
-	administratorów serwisów. Pozostali u¿ytkownicy 
-	mog± jedynie modyfikowaæ w³asny limit lub kana³u na
-	którym maj± do tego uprawnienia. Nie mog± wy³±czyæ 
-	limitu, a tak¿e ustaliæ jego warto¶ci powy¿ej %d 
-	oraz u¿yæ parametru HARD.
+	To uÅ¼ycie polecenia SET LIMIT jest dostÄ™pne dla 
+	administratorÃ³w serwisÃ³w. Pozostali uÅ¼ytkownicy 
+	mogÄ… jedynie modyfikowaÄ‡ wÅ‚asny limit lub kanaÅ‚u na
+	ktÃ³rym majÄ… do tego uprawnienia. Nie mogÄ… wyÅ‚Ä…czyÄ‡ 
+	limitu, a takÅ¼e ustaliÄ‡ jego wartoÅ›ci powyÅ¼ej %d 
+	oraz uÅ¼yÄ‡ parametru HARD.
 
 
 
 MEMO_SERVADMIN_HELP_INFO
-	Sk³adnia: INFO [nick | kana³]
+	SkÅ‚adnia: INFO [nick | kanaÅ‚]
 	
-	Polecenie wydane bez parametru wy¶wietla informacje o
-	liczbie odebranych wiadomo¶ci, liczbie nowych wiadomo¶ci
-	oraz limicie wiadomo¶ci.
+	Polecenie wydane bez parametru wyÅ›wietla informacje o
+	liczbie odebranych wiadomoÅ›ci, liczbie nowych wiadomoÅ›ci
+	oraz limicie wiadomoÅ›ci.
 	
-	Je¶li zostanie wskazany kana³, pokazane zostan± te 
-	same informacje w odniesieniu do tego kana³u.
+	JeÅ›li zostanie wskazany kanaÅ‚, pokazane zostanÄ… te 
+	same informacje w odniesieniu do tego kanaÅ‚u.
 	
-	Administratorzy serwisów mog± obejrzeæ informacje 
-	dot. dowolnych u¿ytkowników podaj±c parametr nick.
+	Administratorzy serwisÃ³w mogÄ… obejrzeÄ‡ informacje 
+	dot. dowolnych uÅ¼ytkownikÃ³w podajÄ…c parametr nick.
 	
 
 MEMO_HELP_STAFF
-	Sk³adnia: STAFF tre¶æ-wiadomo¶ci
+	SkÅ‚adnia: STAFF treÅ›Ä‡-wiadomoÅ›ci
 	
-	Wysy³a wiadomo¶æ o podanej tre¶ci do wszystkich
-	operatorów i administratorów serwisów. U¿ytkownicy
-	wpisani jednocze¶nie na kilka list otrzymaj±
-	wiadomo¶ci kilka razy.
+	WysyÅ‚a wiadomoÅ›Ä‡ o podanej treÅ›ci do wszystkich
+	operatorÃ³w i administratorÃ³w serwisÃ³w. UÅ¼ytkownicy
+	wpisani jednoczeÅ›nie na kilka list otrzymajÄ…
+	wiadomoÅ›ci kilka razy.
 
 MEMO_HELP_SENDALL
-	Sk³adnia: SENDALL tre¶æ-wiadomo¶ci
+	SkÅ‚adnia: SENDALL treÅ›Ä‡-wiadomoÅ›ci
 	
-	Wysy³a wiadomo¶æ do wszystkich zarejestrowanych u¿ytkowników.
+	WysyÅ‚a wiadomoÅ›Ä‡ do wszystkich zarejestrowanych uÅ¼ytkownikÃ³w.
 
 MEMO_HELP_RSEND
-	Sk³adnia: RSEND {nick | kana³} tre¶æ-wiadomo¶ci
+	SkÅ‚adnia: RSEND {nick | kanaÅ‚} treÅ›Ä‡-wiadomoÅ›ci
 	
-	Wysy³a wiadomo¶æ wskazanej osobie lub na podany kana³.
-	Po wys³aniu odbiorca otrzyma powiadomienie o nowej
-	wiadomo¶ci (o ile ma w³±czone powiadomienia).
-	Adresatem musi byæ zarejestrowany nick lub kana³.
-	Kiedy wiadomo¶æ zostanie przeczytana przez odbiorcê
-	automatyczne potwierdzenie odbioru zostanie wys³ane
+	WysyÅ‚a wiadomoÅ›Ä‡ wskazanej osobie lub na podany kanaÅ‚.
+	Po wysÅ‚aniu odbiorca otrzyma powiadomienie o nowej
+	wiadomoÅ›ci (o ile ma wÅ‚Ä…czone powiadomienia).
+	Adresatem musi byÄ‡ zarejestrowany nick lub kanaÅ‚.
+	Kiedy wiadomoÅ›Ä‡ zostanie przeczytana przez odbiorcÄ™
+	automatyczne potwierdzenie odbioru zostanie wysÅ‚ane
 	do nadawcy.
 MEMO_HELP_CHECK
-	Sk³adnia: CHECK nick
+	SkÅ‚adnia: CHECK nick
 	
-	Sprawdza, czy ostatnia wiadomo¶æ wys³ana do nick
-	zosta³a przeczytana. Ta komenda nie dzia³a dla kana³ów.
+	Sprawdza, czy ostatnia wiadomoÅ›Ä‡ wysÅ‚ana do nick
+	zostaÅ‚a przeczytana. Ta komenda nie dziaÅ‚a dla kanaÅ‚Ã³w.
 
 ###########################################################################
 #
@@ -6601,79 +6601,79 @@ MEMO_HELP_CHECK
 #
 ###########################################################################
 OPER_HELP_CMD_GLOBAL
-	    GLOBAL      Wysy³a wiadomo¶æ do wszystkich u¿ytkowników
+	    GLOBAL      WysyÅ‚a wiadomoÅ›Ä‡ do wszystkich uÅ¼ytkownikÃ³w
 
 OPER_HELP_CMD_STATS
 	    STATS       Pokazuje informacje o serwisach i sieci
 
 OPER_HELP_CMD_OPER
-	    OPER        Zarz±dza list± operatorów serwisów
+	    OPER        ZarzÄ…dza listÄ… operatorÃ³w serwisÃ³w
 
 OPER_HELP_CMD_ADMIN
-	    ADMIN       Zarz±dza list± administratorów serwisów
+	    ADMIN       ZarzÄ…dza listÄ… administratorÃ³w serwisÃ³w
 
 OPER_HELP_CMD_STAFF
-	    STAFF       Wy¶wietla ekipê serwisów oraz jej status
+	    STAFF       WyÅ›wietla ekipÄ™ serwisÃ³w oraz jej status
 
 OPER_HELP_CMD_MODE
-	    MODE        Zmienia flagi kana³u
+	    MODE        Zmienia flagi kanaÅ‚u
 
 OPER_HELP_CMD_KICK
-	    KICK        Wyrzuca u¿ytkownika z kana³u
+	    KICK        Wyrzuca uÅ¼ytkownika z kanaÅ‚u
 
 OPER_HELP_CMD_CLEARMODES
-	    CLEARMODES  Usuwa wszystkie flagi z kana³u
+	    CLEARMODES  Usuwa wszystkie flagi z kanaÅ‚u
 
 OPER_HELP_CMD_KILLCLONES
-	    KILLCLONES  Od³±cza wszystkich u¿ytkowników o danym ho¶cie
+	    KILLCLONES  OdÅ‚Ä…cza wszystkich uÅ¼ytkownikÃ³w o danym hoÅ›cie
 
 OPER_HELP_CMD_AKILL
-	    AKILL       Zarz±dza list± AKILL
+	    AKILL       ZarzÄ…dza listÄ… AKILL
 
 OPER_HELP_CMD_SGLINE
-	    SGLINE      Zarz±dza list± SGLINE
+	    SGLINE      ZarzÄ…dza listÄ… SGLINE
 
 OPER_HELP_CMD_SQLINE
-	    SQLINE      Zarz±dza list± SQLINE
+	    SQLINE      ZarzÄ…dza listÄ… SQLINE
 
 OPER_HELP_CMD_SZLINE
-	    SZLINE      Zarz±dza list± SZLINE
+	    SZLINE      ZarzÄ…dza listÄ… SZLINE
 
 OPER_HELP_CMD_CHANLIST
-	    CHANLIST    Listuje wszystkie kana³y
+	    CHANLIST    Listuje wszystkie kanaÅ‚y
 
 OPER_HELP_CMD_USERLIST
-	    USERLIST    Listuje wszystkich u¿ytkowników
+	    USERLIST    Listuje wszystkich uÅ¼ytkownikÃ³w
 
 OPER_HELP_CMD_LOGONNEWS
-	    LOGONNEWS   Zarz±dza wiadomo¶ciami powitalnymi
+	    LOGONNEWS   ZarzÄ…dza wiadomoÅ›ciami powitalnymi
 
 OPER_HELP_CMD_RANDOMNEWS
-	    RANDOMNEWS  Zarz±dza losowymi wiadomo¶ciami
+	    RANDOMNEWS  ZarzÄ…dza losowymi wiadomoÅ›ciami
 
 OPER_HELP_CMD_OPERNEWS
-	    OPERNEWS    Zarz±dza wiadomo¶ciami dla operatorów
+	    OPERNEWS    ZarzÄ…dza wiadomoÅ›ciami dla operatorÃ³w
 
 OPER_HELP_CMD_SESSION
-	    SESSION     Wy¶wietla listê sesji
+	    SESSION     WyÅ›wietla listÄ™ sesji
 
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION   Zarz±dza list± wyj±tków dla limitów sesji
+	    EXCEPTION   ZarzÄ…dza listÄ… wyjÄ…tkÃ³w dla limitÃ³w sesji
 
 OPER_HELP_CMD_NOOP
 	    NOOP        Tymczasowo usuwa wszystkie O:linie na serwerze
 
 OPER_HELP_CMD_JUPE
-	    JUPE        Blokuje pod³±czanie podanego serwera
+	    JUPE        Blokuje podÅ‚Ä…czanie podanego serwera
 
 OPER_HELP_CMD_IGNORE
-	    IGNORE      Zarz±dza list± ignorowanych przez serwisy
+	    IGNORE      ZarzÄ…dza listÄ… ignorowanych przez serwisy
 
 OPER_HELP_CMD_SET
-	    SET         Ustawia ró¿ne globalne opcje serwisów
+	    SET         Ustawia rÃ³Å¼ne globalne opcje serwisÃ³w
 
 OPER_HELP_CMD_RELOAD
-	    RELOAD      £aduje na nowo plik konfiguracyjny
+	    RELOAD      Åaduje na nowo plik konfiguracyjny
 
 OPER_HELP_CMD_UPDATE
 	    UPDATE      Wymusza natychmiastowy zapis baz na dysku
@@ -6682,543 +6682,543 @@ OPER_HELP_CMD_RESTART
 	    RESTART     Zapisuje bazy i restartuje serwisy
 
 OPER_HELP_CMD_QUIT
-	    QUIT        Wy³±cza serwisy bez zapisywania baz
+	    QUIT        WyÅ‚Ä…cza serwisy bez zapisywania baz
 
 OPER_HELP_CMD_SHUTDOWN
-	    SHUTDOWN    Wy³±cza serwisy z zapisaniem baz
+	    SHUTDOWN    WyÅ‚Ä…cza serwisy z zapisaniem baz
 
 OPER_HELP_CMD_DEFCON
 	    DEFCON      Modyfikuje poziom systemu DefCon
 
 OPER_HELP_CMD_CHANKILL
-	    CHANKILL    AKILL wszystkich u¿ytkowników na kanale
+	    CHANKILL    AKILL wszystkich uÅ¼ytkownikÃ³w na kanale
 
 OPER_HELP_CMD_OLINE
-	    OLINE       Daje flagi operatora wybranemu u¿ytkownikowi
+	    OLINE       Daje flagi operatora wybranemu uÅ¼ytkownikowi
 
 OPER_HELP_CMD_UMODE
-	    UMODE       Modyfikuje flagi wskazanego u¿ytkownika
+	    UMODE       Modyfikuje flagi wskazanego uÅ¼ytkownika
 
 OPER_HELP_CMD_SVSNICK
-	    SVSNICK     Wymusza zmianê nicka danego u¿ytkownika
+	    SVSNICK     Wymusza zmianÄ™ nicka danego uÅ¼ytkownika
 
 OPER_HELP_CMD_MODLOAD
-	    MODLOAD     £aduje modu³
+	    MODLOAD     Åaduje moduÅ‚
 
 OPER_HELP_CMD_MODUNLOAD
-	    MODUNLOAD   Wy³adowuje modu³
+	    MODUNLOAD   WyÅ‚adowuje moduÅ‚
 
 OPER_HELP_CMD_MODINFO
-	    MODINFO     Wy¶wietla informacja o podanym module
+	    MODINFO     WyÅ›wietla informacja o podanym module
 
 OPER_HELP_CMD_MODLIST
-	    MODLIST     Listuje za³adowane modu³y
+	    MODLIST     Listuje zaÅ‚adowane moduÅ‚y
 
 OPER_HELP
 	Komendy %S:
 
 OPER_HELP_LOGGED
-	Uwaga: Wszystkie komendy odbierane przez %S s± logowane!
+	Uwaga: Wszystkie komendy odbierane przez %S sÄ… logowane!
 
 OPER_HELP_GLOBAL
-	Sk³adnia: GLOBAL wiadomo¶æ
+	SkÅ‚adnia: GLOBAL wiadomoÅ›Ä‡
 	
-	Pozwala administratorom wysy³aæ wiadomo¶ci do wszystkich
-	u¿ytkowników. Wiadomo¶æ zostanie wys³ana z nicka %s.
+	Pozwala administratorom wysyÅ‚aÄ‡ wiadomoÅ›ci do wszystkich
+	uÅ¼ytkownikÃ³w. WiadomoÅ›Ä‡ zostanie wysÅ‚ana z nicka %s.
 
 OPER_HELP_STATS
-	Sk³adnia: STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
+	SkÅ‚adnia: STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
 	
-	Polecenie bez parametrów wy¶wietla bie¿±c± liczbê 
-	u¿ytkowników oraz operatorów pod³±czonych do sieci (nie
-	licz±c serwisów), najwiêksz± liczbê u¿ytkowników licz±c od 
-	startu serwisów oraz czas pracy serwisów.
+	Polecenie bez parametrÃ³w wyÅ›wietla bieÅ¼Ä…cÄ… liczbÄ™ 
+	uÅ¼ytkownikÃ³w oraz operatorÃ³w podÅ‚Ä…czonych do sieci (nie
+	liczÄ…c serwisÃ³w), najwiÄ™kszÄ… liczbÄ™ uÅ¼ytkownikÃ³w liczÄ…c od 
+	startu serwisÃ³w oraz czas pracy serwisÃ³w.
 	
-	Parametr AKILL wy¶wietla informacje o rozmiarze listy
-	AKILL oraz domy¶lnym czasie wygasania wpisów.
+	Parametr AKILL wyÅ›wietla informacje o rozmiarze listy
+	AKILL oraz domyÅ›lnym czasie wygasania wpisÃ³w.
 	
-	Parametr RESET resetuje maksymaln± liczbê u¿ytkowników
-	pod³±czonych do sieci.
+	Parametr RESET resetuje maksymalnÄ… liczbÄ™ uÅ¼ytkownikÃ³w
+	podÅ‚Ä…czonych do sieci.
 	
-	Parametr MEMORY wy¶wietla informacje o zu¿yciu pamiêci
-	przez serwisów. U¿ycie tego polecenia mo¿e chwilowo
-	zawiesiæ dzia³anie serwisów na du¿ych sieciach.
+	Parametr MEMORY wyÅ›wietla informacje o zuÅ¼yciu pamiÄ™ci
+	przez serwisÃ³w. UÅ¼ycie tego polecenia moÅ¼e chwilowo
+	zawiesiÄ‡ dziaÅ‚anie serwisÃ³w na duÅ¼ych sieciach.
 	
-	Parametr UPLINK wy¶wietla informacje o serwerze, do 
-	którego serwisy s± bezpo¶rednio pod³±czone.
+	Parametr UPLINK wyÅ›wietla informacje o serwerze, do 
+	ktÃ³rego serwisy sÄ… bezpoÅ›rednio podÅ‚Ä…czone.
 	
-	Parametr ALL wy¶wietla wszystkie dostêpne informacje.
+	Parametr ALL wyÅ›wietla wszystkie dostÄ™pne informacje.
 	
-	UPTIME mo¿e byæ u¿ywane jako synonim STATS.
+	UPTIME moÅ¼e byÄ‡ uÅ¼ywane jako synonim STATS.
 
 OPER_HELP_OPER
-	Sk³adnia: OPER ADD nick
+	SkÅ‚adnia: OPER ADD nick
 	          OPER DEL {nick | numer-wpisu | lista}
 	          OPER LIST [maska | lista]
 	          OPER CLEAR
 	
-	Pozwala g³ównym administratorom serwisów na zarz±dzanie
-	list± operatorów serwisów. Osoby na takiej li¶cie po 
-	identyfikacji u %s bêd± mog³y korzystaæ z poleceñ
-	zarezerwowanych dla operatorów serwisów.
+	Pozwala gÅ‚Ã³wnym administratorom serwisÃ³w na zarzÄ…dzanie
+	listÄ… operatorÃ³w serwisÃ³w. Osoby na takiej liÅ›cie po 
+	identyfikacji u %s bÄ™dÄ… mogÅ‚y korzystaÄ‡ z poleceÅ„
+	zarezerwowanych dla operatorÃ³w serwisÃ³w.
 	
-	OPER ADD dodaje wskazany nick na listê operatorów.
+	OPER ADD dodaje wskazany nick na listÄ™ operatorÃ³w.
 	
-	OPER DEL usuwa wskazane wpisy z listy operatorów.
+	OPER DEL usuwa wskazane wpisy z listy operatorÃ³w.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	OPER LIST wy¶wietla listê operatorów serwisów. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	OPER LIST wyÅ›wietla listÄ™ operatorÃ³w serwisÃ³w. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   OPER LIST 2-5,7-9
-	      Listuje operatorów od 2 do 5 oraz od 7 do 9.
+	      Listuje operatorÃ³w od 2 do 5 oraz od 7 do 9.
 	
-	OPER CLEAR usuwa wszystkie wpisy z listy operatorów.
+	OPER CLEAR usuwa wszystkie wpisy z listy operatorÃ³w.
 	
-	Ka¿dy IRC operator mo¿e u¿yæ polecenia OPER LIST.
+	KaÅ¼dy IRC operator moÅ¼e uÅ¼yÄ‡ polecenia OPER LIST.
 
 OPER_HELP_ADMIN
-	Sk³adnia: ADMIN ADD nick
+	SkÅ‚adnia: ADMIN ADD nick
 	          ADMIN DEL {nick | numer-wpisu | lista}
 	          ADMIN LIST [maska | lista]
 	          ADMIN CLEAR
 	
-	Pozwala g³ównym administratorom serwisów na zarz±dzanie
-	list± administratorów serwisów. Osoby na takiej li¶cie po 
-	identyfikacji u %s bêd± mog³y korzystaæ z poleceñ
-	zarezerwowanych dla administratorów serwisów.
+	Pozwala gÅ‚Ã³wnym administratorom serwisÃ³w na zarzÄ…dzanie
+	listÄ… administratorÃ³w serwisÃ³w. Osoby na takiej liÅ›cie po 
+	identyfikacji u %s bÄ™dÄ… mogÅ‚y korzystaÄ‡ z poleceÅ„
+	zarezerwowanych dla administratorÃ³w serwisÃ³w.
 	
-	ADMIN ADD dodaje wskazany nick na listê administratorów.
+	ADMIN ADD dodaje wskazany nick na listÄ™ administratorÃ³w.
 	
-	ADMIN DEL usuwa wskazane wpisy z listy administratorów.
+	ADMIN DEL usuwa wskazane wpisy z listy administratorÃ³w.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 
-	ADMIN LIST wy¶wietla listê administratorów serwisów. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	ADMIN LIST wyÅ›wietla listÄ™ administratorÃ³w serwisÃ³w. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   ADMIN LIST 2-5,7-9
-	      Listuje administratorów od 2 do 5 oraz od 7 do 9.
+	      Listuje administratorÃ³w od 2 do 5 oraz od 7 do 9.
 
-	ADMIN CLEAR usuwa wszystkie wpisy z listy administratorów.
+	ADMIN CLEAR usuwa wszystkie wpisy z listy administratorÃ³w.
 	
-	Ka¿dy IRC operator mo¿e u¿yæ polecenia ADMIN LIST.
+	KaÅ¼dy IRC operator moÅ¼e uÅ¼yÄ‡ polecenia ADMIN LIST.
 
 OPER_HELP_IGNORE
-	Sk³adnia: IGNORE {ADD|DEL|LIST|CLEAR} [czas] [nick | maska]
+	SkÅ‚adnia: IGNORE {ADD|DEL|LIST|CLEAR} [czas] [nick | maska]
 	
-	Pozwala administratorom serwisów na w³±czenie ignorowania
-	osób na podstawie nicka lub maski przez okre¶lony czas lub
-	do najbli¿szego restartu. Podaj±c czas mo¿na stosowaæ
+	Pozwala administratorom serwisÃ³w na wÅ‚Ä…czenie ignorowania
+	osÃ³b na podstawie nicka lub maski przez okreÅ›lony czas lub
+	do najbliÅ¼szego restartu. PodajÄ…c czas moÅ¼na stosowaÄ‡
 	jednostki: s dla sekund, m dla minut, h dla godzin
-	oraz d dla dni. Kombinacja tych jednostek nie jest mo¿liwa.
-	Sta³e ignorowanie uzyskuje siêpodaj±c warto¶æ 0.
-	Je¶li maska nie bêdzie w formacie user@host oraz 
+	oraz d dla dni. Kombinacja tych jednostek nie jest moÅ¼liwa.
+	StaÅ‚e ignorowanie uzyskuje siÄ™podajÄ…c wartoÅ›Ä‡ 0.
+	JeÅ›li maska nie bÄ™dzie w formacie user@host oraz 
 	nick!user@host to zostanie potraktowana jako nick.
-	Podaj±c maskê mo¿na korzystaæ z symboli wieloznacznych.
+	PodajÄ…c maskÄ™ moÅ¼na korzystaÄ‡ z symboli wieloznacznych.
 
-	IRC operatorzy nie bêd± ignorowani.
+	IRC operatorzy nie bÄ™dÄ… ignorowani.
 	
 OPER_HELP_MODE
-	Sk³adnia: MODE kana³ flagi
+	SkÅ‚adnia: MODE kanaÅ‚ flagi
 	
-	Pozwala operatorom serwisów na zmianê flag dla wskazanego
-	kana³u. Parametry s± identyczne jak dla komendy /MODE.
+	Pozwala operatorom serwisÃ³w na zmianÄ™ flag dla wskazanego
+	kanaÅ‚u. Parametry sÄ… identyczne jak dla komendy /MODE.
 
 OPER_HELP_UMODE
-	Sk³adnia: UMODE u¿ytkownik flagi
+	SkÅ‚adnia: UMODE uÅ¼ytkownik flagi
 	
-	Pozwala super-administratorom zmieniaæ flagi
-	innym u¿ytkownikom. Parametry s± identyczne jak
+	Pozwala super-administratorom zmieniaÄ‡ flagi
+	innym uÅ¼ytkownikom. Parametry sÄ… identyczne jak
 	dla komendy /MODE.
 
 OPER_HELP_OLINE
-	Sk³adnia: OLINE nick flagi
+	SkÅ‚adnia: OLINE nick flagi
 	
 	Pozwala super-administratorom na nadanie wskazanemu
-	u¿ytkownikowi uprawnieñ irc operatora z okre¶lonymi
-	flagami. Flagi powinny byæ poprzedzone znakami "+" lub "-". 
-	Aby usun±æ wszystkie flagi wystarczy podaæ "-".
+	uÅ¼ytkownikowi uprawnieÅ„ irc operatora z okreÅ›lonymi
+	flagami. Flagi powinny byÄ‡ poprzedzone znakami "+" lub "-". 
+	Aby usunÄ…Ä‡ wszystkie flagi wystarczy podaÄ‡ "-".
 
 OPER_HELP_CLEARMODES
-	Sk³adnia: CLEARMODES kana³ [ALL]
+	SkÅ‚adnia: CLEARMODES kanaÅ‚ [ALL]
 	
 	Usuwa wszystkie binarne flagi (i,k,l,m,n,p,s,t) oraz bany
 	ustawione na wskazanym kanale. Dodanie parametru ALL
-	odbiera tak¿e uprawnienia (+o, +v).
+	odbiera takÅ¼e uprawnienia (+o, +v).
 
 OPER_HELP_KICK
-	Sk³adnia: KICK kana³ nick powód
+	SkÅ‚adnia: KICK kanaÅ‚ nick powÃ³d
 	
-	Pozwala administratorom wyrzuciæ u¿ytkownika z
-	dowolnego kana³u. Parametry s± identyczne jak
-	dla komendy /KICK. Do powodu zostaje do³±czony
-	nick operatora, który wydaje polecenie.
+	Pozwala administratorom wyrzuciÄ‡ uÅ¼ytkownika z
+	dowolnego kanaÅ‚u. Parametry sÄ… identyczne jak
+	dla komendy /KICK. Do powodu zostaje doÅ‚Ä…czony
+	nick operatora, ktÃ³ry wydaje polecenie.
 	
 	*** SpamMan has been kicked off channel #my_channel by %S (Alcan (Flood))
 
 OPER_HELP_SVSNICK
-	Sk³adnia: SVSNICK nick nowy-nick
+	SkÅ‚adnia: SVSNICK nick nowy-nick
 	
-	Zmienia nick wskazanemu u¿ytkownikowi.
+	Zmienia nick wskazanemu uÅ¼ytkownikowi.
 
 OPER_HELP_AKILL
-	Sk³adnia: AKILL ADD [+czas-trwania] maska powód
+	SkÅ‚adnia: AKILL ADD [+czas-trwania] maska powÃ³d
 	          AKILL DEL {maska | numer-wpisu | lista}
 	          AKILL LIST [maska | lista]
 	          AKILL VIEW [maska | lista]
 	          AKILL CLEAR
 	
-	Pozwala operatorom serwisów na zarz±dzanie list± AKILL.
-	Je¶li u¿ytkownik pasuj±cy do maski na li¶cie pod³±czy siê
-	do sieci serwisy natychmiast go roz³±cz± oraz za³o¿± K-line
+	Pozwala operatorom serwisÃ³w na zarzÄ…dzanie listÄ… AKILL.
+	JeÅ›li uÅ¼ytkownik pasujÄ…cy do maski na liÅ›cie podÅ‚Ä…czy siÄ™
+	do sieci serwisy natychmiast go rozÅ‚Ä…czÄ… oraz zaÅ‚oÅ¼Ä… K-line
 	na jego host.
 	
-	AKILL ADD dodaje maskê (w formacie user@host lub ip)
-	oraz powód (który musi zostaæ podany) na listê AKILL.
-	Podaj±c czas mo¿na stosowaæ jednostki: s dla sekund,
+	AKILL ADD dodaje maskÄ™ (w formacie user@host lub ip)
+	oraz powÃ³d (ktÃ³ry musi zostaÄ‡ podany) na listÄ™ AKILL.
+	PodajÄ…c czas moÅ¼na stosowaÄ‡ jednostki: s dla sekund,
 	m dla minut, h dla godzin oraz d dla dni.
-	Kombinacja tych jednostek nie jest mo¿liwa. Domy¶ln±
-	jednostk± s± dni (+30 oznacza 30 dni). Podanie +0
-	oznacza, ¿e wpis nie wyga¶nie. Je¶li maska zaczyna siê
-	znakiem + to podanie czasu jest obowi±zkowe (nawet je¶li
-	jest identyczny z domy¶lnym). Domy¶lny czas wygasania
-	mo¿na sprawdziæ przy pomocy polecenia STATS AKILL.
+	Kombinacja tych jednostek nie jest moÅ¼liwa. DomyÅ›lnÄ…
+	jednostkÄ… sÄ… dni (+30 oznacza 30 dni). Podanie +0
+	oznacza, Å¼e wpis nie wygaÅ›nie. JeÅ›li maska zaczyna siÄ™
+	znakiem + to podanie czasu jest obowiÄ…zkowe (nawet jeÅ›li
+	jest identyczny z domyÅ›lnym). DomyÅ›lny czas wygasania
+	moÅ¼na sprawdziÄ‡ przy pomocy polecenia STATS AKILL.
 	
 	AKILL DEL usuwa wskazane wpisy z listy AKILL.
 	Jako argument przyjmuje nick, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 
-	AKILL LIST wy¶wietla zawarto¶æ listy AKILL. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	AKILL LIST wyÅ›wietla zawartoÅ›Ä‡ listy AKILL. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   AKILL LIST 2-5,7-9
 	      Listuje wpisy od 2 do 5 oraz od 7 do 9.
 	
-	AKILL VIEW zwraca wiêcej szczegó³ów ni¿ AKILL LIST.
-	Wy¶wietla informacje o dodaj±cym AKILL, datê dodania,
-	datê wyga¶niêcia, maskê oraz powód.
+	AKILL VIEW zwraca wiÄ™cej szczegÃ³Å‚Ã³w niÅ¼ AKILL LIST.
+	WyÅ›wietla informacje o dodajÄ…cym AKILL, datÄ™ dodania,
+	datÄ™ wygaÅ›niÄ™cia, maskÄ™ oraz powÃ³d.
 	
 	AKILL CLEAR usuwa wszystkie wpisy z listy AKILL.
 	
 
 OPER_HELP_SGLINE
-	Sk³adnia: SGLINE ADD [+czas-trwania] maska powód
+	SkÅ‚adnia: SGLINE ADD [+czas-trwania] maska powÃ³d
 	          SGLINE DEL {maska | numer-wpisu | lista}
 	          SGLINE LIST [maska | lista]
 	          SGLINE VIEW [maska | lista]
 	          SGLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarz±dzanie list± SGLINE.
-	Je¶li u¿ytkownik z realname pasuj±cym do maski na li¶cie
-	pod³±czy siê do sieci serwisy natychmiast go roz³±cz±.
+	Pozwala operatorom serwisÃ³w na zarzÄ…dzanie listÄ… SGLINE.
+	JeÅ›li uÅ¼ytkownik z realname pasujÄ…cym do maski na liÅ›cie
+	podÅ‚Ä…czy siÄ™ do sieci serwisy natychmiast go rozÅ‚Ä…czÄ….
 	
-	SGLINE ADD dodaje wskazan± maskê realname oraz 
-	powód (który musi zostaæ podany) na listê SGLINE.
-	Podaj±c czas mo¿na stosowaæ jednostki: s dla sekund,
+	SGLINE ADD dodaje wskazanÄ… maskÄ™ realname oraz 
+	powÃ³d (ktÃ³ry musi zostaÄ‡ podany) na listÄ™ SGLINE.
+	PodajÄ…c czas moÅ¼na stosowaÄ‡ jednostki: s dla sekund,
 	m dla minut, h dla godzin oraz d dla dni.
-	Kombinacja tych jednostek nie jest mo¿liwa. Domy¶ln±
-	jednostk± s± dni (+30 oznacza 30 dni). Podanie +0
-	oznacza, ¿e wpis nie wyga¶nie. Je¶li maska zaczyna siê
-	znakiem + to podanie czasu jest obowi±zkowe (nawet je¶li
-	jest identyczny z domy¶lnym). Domy¶lny czas wygasania
-	mo¿na sprawdziæ przy pomocy polecenia STATS AKILL.
-	Uwaga: realname mo¿e zawieraæ spacje, dlatego
-	separatorem pomiêdzy mask± i powodem jest dwukropek.
+	Kombinacja tych jednostek nie jest moÅ¼liwa. DomyÅ›lnÄ…
+	jednostkÄ… sÄ… dni (+30 oznacza 30 dni). Podanie +0
+	oznacza, Å¼e wpis nie wygaÅ›nie. JeÅ›li maska zaczyna siÄ™
+	znakiem + to podanie czasu jest obowiÄ…zkowe (nawet jeÅ›li
+	jest identyczny z domyÅ›lnym). DomyÅ›lny czas wygasania
+	moÅ¼na sprawdziÄ‡ przy pomocy polecenia STATS AKILL.
+	Uwaga: realname moÅ¼e zawieraÄ‡ spacje, dlatego
+	separatorem pomiÄ™dzy maskÄ… i powodem jest dwukropek.
 	
 	SGLINE DEL usuwa wskazane wpisy z listy SGLINE.
-	Jako argument przyjmuje maskê, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	Jako argument przyjmuje maskÄ™, numer wpisu lub
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	SGLINE LIST wy¶wietla zawarto¶æ listy SGLINE. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	SGLINE LIST wyÅ›wietla zawartoÅ›Ä‡ listy SGLINE. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   SGLINE LIST 2-5,7-9
 	      Listuje wpisy od 2 do 5 oraz od 7 do 9.
 	
-	SGLINE VIEW zwraca wiêcej szczegó³ów ni¿ SGLINE LIST.
-	Wy¶wietla informacje o dodaj±cym SGLINE, datê dodania,
-	datê wyga¶niêcia, maskê oraz powód.
+	SGLINE VIEW zwraca wiÄ™cej szczegÃ³Å‚Ã³w niÅ¼ SGLINE LIST.
+	WyÅ›wietla informacje o dodajÄ…cym SGLINE, datÄ™ dodania,
+	datÄ™ wygaÅ›niÄ™cia, maskÄ™ oraz powÃ³d.
 	
 	SGLINE CLEAR usuwa wszystkie wpisy z listy.
 
 OPER_HELP_SQLINE
-	Sk³adnia: SQLINE ADD [+czas-trwania] maska powód
+	SkÅ‚adnia: SQLINE ADD [+czas-trwania] maska powÃ³d
 	          SQLINE DEL {maska | numer-wpisu | lista}
 	          SQLINE LIST [maska | lista]
 	          SQLINE VIEW [maska | lista]
 	          SQLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarz±dzanie list± SQLINE.
-	Je¶li u¿ytkownik z nickiem pasuj±cym do maski na li¶cie
-	pod³±czy siê do sieci serwisy natychmiast go roz³±cz±.
+	Pozwala operatorom serwisÃ³w na zarzÄ…dzanie listÄ… SQLINE.
+	JeÅ›li uÅ¼ytkownik z nickiem pasujÄ…cym do maski na liÅ›cie
+	podÅ‚Ä…czy siÄ™ do sieci serwisy natychmiast go rozÅ‚Ä…czÄ….
 	
-	Je¶li pierwszym znakiem maski jest # serwisy zablokuj±
-	mo¿liwo¶æ korzystania z kana³ów o nazwie pasuj±cej do
-	niej (o ile IRCd obs³uguje taki rodzaj blokady).
+	JeÅ›li pierwszym znakiem maski jest # serwisy zablokujÄ…
+	moÅ¼liwoÅ›Ä‡ korzystania z kanaÅ‚Ã³w o nazwie pasujÄ…cej do
+	niej (o ile IRCd obsÅ‚uguje taki rodzaj blokady).
 	
-	SQLINE ADD dodaje wskazan± maskê oraz powód
-	(który musi zostaæ podany) na listê SQLINE.
-	Podaj±c czas mo¿na stosowaæ jednostki: s dla sekund,
+	SQLINE ADD dodaje wskazanÄ… maskÄ™ oraz powÃ³d
+	(ktÃ³ry musi zostaÄ‡ podany) na listÄ™ SQLINE.
+	PodajÄ…c czas moÅ¼na stosowaÄ‡ jednostki: s dla sekund,
 	m dla minut, h dla godzin oraz d dla dni.
-	Kombinacja tych jednostek nie jest mo¿liwa. Domy¶ln±
-	jednostk± s± dni (+30 oznacza 30 dni). Podanie +0
-	oznacza, ¿e wpis nie wyga¶nie. Je¶li maska zaczyna siê
-	znakiem + to podanie czasu jest obowi±zkowe (nawet je¶li
-	jest identyczny z domy¶lnym). Domy¶lny czas wygasania
-	mo¿na sprawdziæ przy pomocy polecenia STATS AKILL.
+	Kombinacja tych jednostek nie jest moÅ¼liwa. DomyÅ›lnÄ…
+	jednostkÄ… sÄ… dni (+30 oznacza 30 dni). Podanie +0
+	oznacza, Å¼e wpis nie wygaÅ›nie. JeÅ›li maska zaczyna siÄ™
+	znakiem + to podanie czasu jest obowiÄ…zkowe (nawet jeÅ›li
+	jest identyczny z domyÅ›lnym). DomyÅ›lny czas wygasania
+	moÅ¼na sprawdziÄ‡ przy pomocy polecenia STATS AKILL.
 	
 	SQLINE DEL usuwa wskazane wpisy z listy SQLINE.
-	Jako argument przyjmuje maskê, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	Jako argument przyjmuje maskÄ™, numer wpisu lub
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	SQLINE LIST wy¶wietla zawarto¶æ listy SQLINE. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	SQLINE LIST wyÅ›wietla zawartoÅ›Ä‡ listy SQLINE. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   SQLINE LIST 2-5,7-9
 	      Listuje wpisy od 2 do 5 oraz od 7 do 9.
 	
-	SQLINE VIEW zwraca wiêcej szczegó³ów ni¿ SQLINE LIST.
-	Wy¶wietla informacje o dodaj±cym SQLINE, datê dodania,
-	datê wyga¶niêcia, maskê oraz powód.
+	SQLINE VIEW zwraca wiÄ™cej szczegÃ³Å‚Ã³w niÅ¼ SQLINE LIST.
+	WyÅ›wietla informacje o dodajÄ…cym SQLINE, datÄ™ dodania,
+	datÄ™ wygaÅ›niÄ™cia, maskÄ™ oraz powÃ³d.
 
 	SQLINE CLEAR usuwa wszystkie wpisy z listy.
 
 OPER_HELP_SZLINE
-	Sk³adnia: SZLINE ADD [+czas-trwania] maska powód
+	SkÅ‚adnia: SZLINE ADD [+czas-trwania] maska powÃ³d
 	          SZLINE DEL {maska | numer-wpisu | lista}
 	          SZLINE LIST [maska | lista]
 	          SZLINE VIEW [maska | lista]
 	          SZLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarz±dzanie list± SZLINE.
-	Je¶li u¿ytkownik z adresem IP pasuj±cym do maski na li¶cie
-	pod³±czy siê do sieci serwisy natychmiast go roz³±cz±.
+	Pozwala operatorom serwisÃ³w na zarzÄ…dzanie listÄ… SZLINE.
+	JeÅ›li uÅ¼ytkownik z adresem IP pasujÄ…cym do maski na liÅ›cie
+	podÅ‚Ä…czy siÄ™ do sieci serwisy natychmiast go rozÅ‚Ä…czÄ….
 	
-	SZLINE ADD dodaje wskazan± maskê oraz powód
-	(który musi zostaæ podany) na listê SZLINE.
-	Podaj±c czas mo¿na stosowaæ jednostki: s dla sekund,
+	SZLINE ADD dodaje wskazanÄ… maskÄ™ oraz powÃ³d
+	(ktÃ³ry musi zostaÄ‡ podany) na listÄ™ SZLINE.
+	PodajÄ…c czas moÅ¼na stosowaÄ‡ jednostki: s dla sekund,
 	m dla minut, h dla godzin oraz d dla dni.
-	Kombinacja tych jednostek nie jest mo¿liwa. Domy¶ln±
-	jednostk± s± dni (+30 oznacza 30 dni). Podanie +0
-	oznacza, ¿e wpis nie wyga¶nie. Je¶li maska zaczyna siê
-	znakiem + to podanie czasu jest obowi±zkowe (nawet je¶li
-	jest identyczny z domy¶lnym). Domy¶lny czas wygasania
-	mo¿na sprawdziæ przy pomocy polecenia STATS AKILL.
+	Kombinacja tych jednostek nie jest moÅ¼liwa. DomyÅ›lnÄ…
+	jednostkÄ… sÄ… dni (+30 oznacza 30 dni). Podanie +0
+	oznacza, Å¼e wpis nie wygaÅ›nie. JeÅ›li maska zaczyna siÄ™
+	znakiem + to podanie czasu jest obowiÄ…zkowe (nawet jeÅ›li
+	jest identyczny z domyÅ›lnym). DomyÅ›lny czas wygasania
+	moÅ¼na sprawdziÄ‡ przy pomocy polecenia STATS AKILL.
 	
 	SZLINE DEL usuwa wskazane wpisy z listy SZLINE.
-	Jako argument przyjmuje maskê, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	Jako argument przyjmuje maskÄ™, numer wpisu lub
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 	
-	SZLINE LIST wy¶wietla zawarto¶æ listy SZLINE. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	SZLINE LIST wyÅ›wietla zawartoÅ›Ä‡ listy SZLINE. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
 	   SZLINE LIST 2-5,7-9
 	      Listuje wpisy od 2 do 5 oraz od 7 do 9.
 	
-	SZLINE VIEW zwraca wiêcej szczegó³ów ni¿ SZLINE LIST.
-	Wy¶wietla informacje o dodaj±cym SZLINE, datê dodania,
-	datê wyga¶niêcia, maskê oraz powód.
+	SZLINE VIEW zwraca wiÄ™cej szczegÃ³Å‚Ã³w niÅ¼ SZLINE LIST.
+	WyÅ›wietla informacje o dodajÄ…cym SZLINE, datÄ™ dodania,
+	datÄ™ wygaÅ›niÄ™cia, maskÄ™ oraz powÃ³d.
 
 	SZLINE CLEAR usuwa wszystkie wpisy z listy.
 
 OPER_HELP_SET
-	Sk³adnia: SET opcja warto¶æ
+	SkÅ‚adnia: SET opcja wartoÅ›Ä‡
 	
-	Ustawia ró¿ne globalne ustawienia serwisów.
-	Obecnie zdefiniowane s± nastêpuj±ce ustawienia:
-	    READONLY   W³±cza tryb tylko-do-odczytu lub odczyt-zapis
-	    LOGCHAN    W³±cza raportowanie na kana³
-	    DEBUG      W³±cza lub wy³±cza tryb debugowania
-	    NOEXPIRE   W³±cza lub wy³±cza tryb noexpire
-	    SUPERADMIN W³±cza lub wy³±cza tryb super administratora
-	    SQL        W³±cza lub wy³±cza obs³ugê SQL
-	    IGNORE     W³±cza lub wy³±cza tryb ignorowania
+	Ustawia rÃ³Å¼ne globalne ustawienia serwisÃ³w.
+	Obecnie zdefiniowane sÄ… nastÄ™pujÄ…ce ustawienia:
+	    READONLY   WÅ‚Ä…cza tryb tylko-do-odczytu lub odczyt-zapis
+	    LOGCHAN    WÅ‚Ä…cza raportowanie na kanaÅ‚
+	    DEBUG      WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb debugowania
+	    NOEXPIRE   WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb noexpire
+	    SUPERADMIN WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb super administratora
+	    SQL        WÅ‚Ä…cza lub wyÅ‚Ä…cza obsÅ‚ugÄ™ SQL
+	    IGNORE     WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb ignorowania
 	    LIST       Listuje aktualne ustawienia
 
 OPER_HELP_SET_READONLY
-	Sk³adnia: SET READONLY {ON | OFF}
+	SkÅ‚adnia: SET READONLY {ON | OFF}
 	
-	W³±cza lub wy³±cza tryb tylko-do-odczytu. W³±czenie tej
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb tylko-do-odczytu. WÅ‚Ä…czenie tej
 	opcji powoduje zablokowanie wykonywania zmian w ustawieniach
-	serwisów, dotyczy to list dostêpu kana³u oraz nicka itd.
-	Operatorzy serwisów z odpowiednimi uprawnieniami bêd±
-	mogli modyfikowaæ listê AKILL, usuwaæ lub blokowaæ nicki
-	oraz kana³y, ale ¿adne z tych zmian nie zostan± zapisane
-	dopóki tryb tylko-do-odczytu nie zostanie wy³±czony przed
-	restartem lub wy³±czeniem serwisów.
+	serwisÃ³w, dotyczy to list dostÄ™pu kanaÅ‚u oraz nicka itd.
+	Operatorzy serwisÃ³w z odpowiednimi uprawnieniami bÄ™dÄ…
+	mogli modyfikowaÄ‡ listÄ™ AKILL, usuwaÄ‡ lub blokowaÄ‡ nicki
+	oraz kanaÅ‚y, ale Å¼adne z tych zmian nie zostanÄ… zapisane
+	dopÃ³ki tryb tylko-do-odczytu nie zostanie wyÅ‚Ä…czony przed
+	restartem lub wyÅ‚Ä…czeniem serwisÃ³w.
 	
-	Ta opcja ma taki sam efekt jak argument linii poleceñ -readonly.
+	Ta opcja ma taki sam efekt jak argument linii poleceÅ„ -readonly.
 
 OPER_HELP_SET_LOGCHAN
-	Sk³adnia: SET LOGCHAN {ON | OFF}
+	SkÅ‚adnia: SET LOGCHAN {ON | OFF}
 	
-	W³±cza lub wy³±cza wysy³anie wiadomo¶ci na podany kana³, które
-	trafiaj± do logów. Aby mo¿na by³o skorzystaæ z tej opcji nale¿y
-	zdefiniowaæ w pliku konfiguracyjnym nazwê kana³u (LogChannel).
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza wysyÅ‚anie wiadomoÅ›ci na podany kanaÅ‚, ktÃ³re
+	trafiajÄ… do logÃ³w. Aby moÅ¼na byÅ‚o skorzystaÄ‡ z tej opcji naleÅ¼y
+	zdefiniowaÄ‡ w pliku konfiguracyjnym nazwÄ™ kanaÅ‚u (LogChannel).
 
-	Ta opcja ma taki sam efekt jak argument linii poleceñ -logchan.
+	Ta opcja ma taki sam efekt jak argument linii poleceÅ„ -logchan.
 
-	Uwaga: Ustawiony kana³ musi byæ odpowiednio zabezpieczony,
-	aby chroniæ prywatno¶æ u¿ytkowników.
+	Uwaga: Ustawiony kanaÅ‚ musi byÄ‡ odpowiednio zabezpieczony,
+	aby chroniÄ‡ prywatnoÅ›Ä‡ uÅ¼ytkownikÃ³w.
 OPER_HELP_SET_DEBUG
-	Sk³adnia: SET DEBUG {ON | OFF | poziom}
+	SkÅ‚adnia: SET DEBUG {ON | OFF | poziom}
 	
-	W³±cza lub wy³±cza tryb debugowania. W tym trybie wszystkie
-	dane wysy³ane do serwisów i przez nie oraz wiele innych
-	komunikatów zapisywane s± do loga. Je¶li zostanie podany 
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb debugowania. W tym trybie wszystkie
+	dane wysyÅ‚ane do serwisÃ³w i przez nie oraz wiele innych
+	komunikatÃ³w zapisywane sÄ… do loga. JeÅ›li zostanie podany 
 	numer poziomu poziom tryb debugowania jest aktywowany
 	ze wskazanym poziomem.
 	
-	Ta opcja ma taki sam efekt jak argument linii poleceñ -debug.
+	Ta opcja ma taki sam efekt jak argument linii poleceÅ„ -debug.
 
 OPER_HELP_SET_NOEXPIRE
-	Sk³adnia: SET NOEXPIRE {ON | OFF}
+	SkÅ‚adnia: SET NOEXPIRE {ON | OFF}
 	
-	W³±cza lub wy³±cza tryb wygasania. Je¶li ta opcja
-	zosta³a w³±czona nicki, kana³y, wpisy na listach
-	AKILL oraz wyj±tków nie bêd± automatycznie wygasa³y.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza tryb wygasania. JeÅ›li ta opcja
+	zostaÅ‚a wÅ‚Ä…czona nicki, kanaÅ‚y, wpisy na listach
+	AKILL oraz wyjÄ…tkÃ³w nie bÄ™dÄ… automatycznie wygasaÅ‚y.
 	
-	Ta opcja ma taki sam efekt jak argument linii poleceñ -noexpire.
+	Ta opcja ma taki sam efekt jak argument linii poleceÅ„ -noexpire.
 
 OPER_HELP_SET_SUPERADMIN
-	Sk³adnia: SET SUPERADMIN {ON | OFF}
+	SkÅ‚adnia: SET SUPERADMIN {ON | OFF}
 	
-	Ustawienie tej opcji nadaje wydaj±cemu polecenie
-	dodatkowe uprawnienia (np. jest w³a¶cicielem 
-	wszystkich kana³ów w sieci).
+	Ustawienie tej opcji nadaje wydajÄ…cemu polecenie
+	dodatkowe uprawnienia (np. jest wÅ‚aÅ›cicielem 
+	wszystkich kanaÅ‚Ã³w w sieci).
 	
-	Ta opcja powinna byæ u¿ywana tylko wtedy, kiedy
-	jest taka potrzeba. Nale¿y j± pó¼niej wy³±czyæ.
+	Ta opcja powinna byÄ‡ uÅ¼ywana tylko wtedy, kiedy
+	jest taka potrzeba. NaleÅ¼y jÄ… pÃ³Åºniej wyÅ‚Ä…czyÄ‡.
 
 OPER_HELP_SET_SQL
-	Sk³adnia: SET SQL {ON | OFF}
+	SkÅ‚adnia: SET SQL {ON | OFF}
 	
-	W³±cza lub wy³±cza korzystanie z bazy danych SQL.
-	Komenda ta pozwala na wy³±czenie serwera SQL
-	podczas nieprzerwanej pracy serwisów.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza korzystanie z bazy danych SQL.
+	Komenda ta pozwala na wyÅ‚Ä…czenie serwera SQL
+	podczas nieprzerwanej pracy serwisÃ³w.
 
 OPER_HELP_SET_IGNORE
-	Sk³adnia: SET IGNORE {ON | OFF}
+	SkÅ‚adnia: SET IGNORE {ON | OFF}
 	
-	To ustawienie pozwala w³±czaæ/wy³±czaæ system ignorowania.
+	To ustawienie pozwala wÅ‚Ä…czaÄ‡/wyÅ‚Ä…czaÄ‡ system ignorowania.
 
 OPER_HELP_SET_LIST
-	Sk³adnia: SET LIST
+	SkÅ‚adnia: SET LIST
 	
 	Listuje aktualne ustawienia serwisu %S.
 
 OPER_HELP_NOOP
-	Sk³adnia: NOOP SET serwer
+	SkÅ‚adnia: NOOP SET serwer
 	          NOOP REVOKE serwer
 	
 	NOOP SET usuwa wszystkie O:linie ze wskazanego
-	serwera oraz killuje wszystkich operatorów, aby
-	zapobiec zrehashowaniu serwera (prze³adowanie pliku
+	serwera oraz killuje wszystkich operatorÃ³w, aby
+	zapobiec zrehashowaniu serwera (przeÅ‚adowanie pliku
 	konfiguracyjnego usuwa efekt tego polecenia).
 	
-	NOOP REVOKE powoduje przywrócenie wszystkich 
-	uprawnieñ na wskazanym serwerze.
+	NOOP REVOKE powoduje przywrÃ³cenie wszystkich 
+	uprawnieÅ„ na wskazanym serwerze.
 	
-	Uwaga: Serwisy nie sprawdzaj± warto¶ci serwer.
+	Uwaga: Serwisy nie sprawdzajÄ… wartoÅ›ci serwer.
 
 OPER_HELP_JUPE
-	Sk³adnia: JUPE serwer [powód]
+	SkÅ‚adnia: JUPE serwer [powÃ³d]
 	
 	To polecenie powoduje wprowadzenie przez serwisy do sieci
-	sztucznego serwera, co zapobiega pod³±czaniu prawdziwego
-	serwera o tej samej nazwie. Blokadê mo¿na zdj±æ u¿ywaj±c
-	standardowego polecenia SQUIT. Je¶li zostanie podany
-	powód bêdzie on wy¶wietlany w polu informacyjnym serwera,
-	w przeciwnym wypadku wy¶wietlane bêdzie "Juped by <nick>".
+	sztucznego serwera, co zapobiega podÅ‚Ä…czaniu prawdziwego
+	serwera o tej samej nazwie. BlokadÄ™ moÅ¼na zdjÄ…Ä‡ uÅ¼ywajÄ…c
+	standardowego polecenia SQUIT. JeÅ›li zostanie podany
+	powÃ³d bÄ™dzie on wyÅ›wietlany w polu informacyjnym serwera,
+	w przeciwnym wypadku wyÅ›wietlane bÄ™dzie "Juped by <nick>".
 
 OPER_HELP_RAW
-	Sk³adnia: RAW tekst
+	SkÅ‚adnia: RAW tekst
 	
-	Wysy³a tekst bezpo¶rednio do serwera, do którego s±
-	pod³±czone serwisy. To polecenie ma bardzo ograniczone
-	zastosowanie i mo¿e powodowaæ chaos, kiedy jest u¿ywane
-	w sposób nieprawid³owy. NIE U¯YWAJ TEGO POLECENIA
-	je¶li nie masz pewno¶ci co robisz.
+	WysyÅ‚a tekst bezpoÅ›rednio do serwera, do ktÃ³rego sÄ…
+	podÅ‚Ä…czone serwisy. To polecenie ma bardzo ograniczone
+	zastosowanie i moÅ¼e powodowaÄ‡ chaos, kiedy jest uÅ¼ywane
+	w sposÃ³b nieprawidÅ‚owy. NIE UÅ»YWAJ TEGO POLECENIA
+	jeÅ›li nie masz pewnoÅ›ci co robisz.
 
 OPER_HELP_UPDATE
-	Sk³adnia: UPDATE
+	SkÅ‚adnia: UPDATE
 	
 	Wymusza natychmiastowy zapis baz danych na dysku.
 
 OPER_HELP_RELOAD
-	Sk³adnia RELOAD
+	SkÅ‚adnia RELOAD
 	
-	Wymusza ponowne za³adowanie pliku konfiguracyjnego.
-	Niektóre opcje wci±¿ wymagaj± restartu serwisów
-	(zmiana nicków serwisów, aktywacja limitów sesji itd.).
+	Wymusza ponowne zaÅ‚adowanie pliku konfiguracyjnego.
+	NiektÃ³re opcje wciÄ…Å¼ wymagajÄ… restartu serwisÃ³w
+	(zmiana nickÃ³w serwisÃ³w, aktywacja limitÃ³w sesji itd.).
 OPER_HELP_QUIT
-	Sk³adnia: QUIT
+	SkÅ‚adnia: QUIT
 	
-	Wymusza na serwisach natychmiastowe zakoñczenie pracy bez
-	zapisywania baz. To polecenie powinno byæ u¿yte jedynie,
-	gdy zachodzi podejrzenie uszkodzenia baz, które serwisy
-	przechowuj± w pamiêci. Do normalnego zakoñczenia pracy
-	serwisów nale¿y u¿yæ polecenia SHUTDOWN.
+	Wymusza na serwisach natychmiastowe zakoÅ„czenie pracy bez
+	zapisywania baz. To polecenie powinno byÄ‡ uÅ¼yte jedynie,
+	gdy zachodzi podejrzenie uszkodzenia baz, ktÃ³re serwisy
+	przechowujÄ… w pamiÄ™ci. Do normalnego zakoÅ„czenia pracy
+	serwisÃ³w naleÅ¼y uÅ¼yÄ‡ polecenia SHUTDOWN.
 
 OPER_HELP_SHUTDOWN
-	Sk³adnia: SHUTDOWN
+	SkÅ‚adnia: SHUTDOWN
 	
-	Wymusza zapisanie baz danych, a nastêpnie wy³±cza serwisy.
+	Wymusza zapisanie baz danych, a nastÄ™pnie wyÅ‚Ä…cza serwisy.
 
 OPER_HELP_RESTART
-	Sk³adnia: RESTART
+	SkÅ‚adnia: RESTART
 	
-	Wymusza zapisanie baz, a nastêpnie restartuje serwisy.
+	Wymusza zapisanie baz, a nastÄ™pnie restartuje serwisy.
 
 OPER_HELP_CHANLIST
-	Sk³adnia: CHANLIST [{wzorzec | nick} [SECRET]]
+	SkÅ‚adnia: CHANLIST [{wzorzec | nick} [SECRET]]
 	
-	Listuje wszystkie istniej±ce kana³y w sieci, niezale¿nie od
-	tego czy s± zarejestrowane.
+	Listuje wszystkie istniejÄ…ce kanaÅ‚y w sieci, niezaleÅ¼nie od
+	tego czy sÄ… zarejestrowane.
 	
-	Podanie wzorca ogranicza listê pokazywanych kana³ów.
-	Podanie nicka wy¶wietla kana³y, na których przebywa
-	wskazany u¿ytkownik. Dodanie parametru SECRET ogranicza
-	listê do kana³ów z flag± +s lub +p.
+	Podanie wzorca ogranicza listÄ™ pokazywanych kanaÅ‚Ã³w.
+	Podanie nicka wyÅ›wietla kanaÅ‚y, na ktÃ³rych przebywa
+	wskazany uÅ¼ytkownik. Dodanie parametru SECRET ogranicza
+	listÄ™ do kanaÅ‚Ã³w z flagÄ… +s lub +p.
 
 OPER_HELP_USERLIST
-	Sk³adnia: USERLIST [{wzorzec | kana³} [INVISIBLE]]
+	SkÅ‚adnia: USERLIST [{wzorzec | kanaÅ‚} [INVISIBLE]]
 	
-	Listuje wszystkich u¿ytkowników w sieci, niezale¿nie od
-	tego czy maj± zarejestrowanego nicka.
+	Listuje wszystkich uÅ¼ytkownikÃ³w w sieci, niezaleÅ¼nie od
+	tego czy majÄ… zarejestrowanego nicka.
 	
-	Podanie wzorca ogranicza listê pokazywanych u¿ytkowników.
-	(musi byæ w formacie nick!ident@host). Podanie kana³u 
-	listuje u¿ytkowników przebywaj±cych na wskazanym kanale.
-	Dodanie parametru INVISIBLE listuje tylko u¿ytkowników z flag± +i.
+	Podanie wzorca ogranicza listÄ™ pokazywanych uÅ¼ytkownikÃ³w.
+	(musi byÄ‡ w formacie nick!ident@host). Podanie kanaÅ‚u 
+	listuje uÅ¼ytkownikÃ³w przebywajÄ…cych na wskazanym kanale.
+	Dodanie parametru INVISIBLE listuje tylko uÅ¼ytkownikÃ³w z flagÄ… +i.
 
 OPER_HELP_MODLOAD
-	Sk³adnia: MODLOAD nazwa-pliku
+	SkÅ‚adnia: MODLOAD nazwa-pliku
 	
-	To polecenie ³aduje wskazany modu³ z katalogu modu³ów.
+	To polecenie Å‚aduje wskazany moduÅ‚ z katalogu moduÅ‚Ã³w.
 
 OPER_HELP_MODUNLOAD
-	Sk³adnia: MODUNLOAD nazwa-pliku
+	SkÅ‚adnia: MODUNLOAD nazwa-pliku
 	
-	To polecenie wy³aduje wskazany modu³.
+	To polecenie wyÅ‚aduje wskazany moduÅ‚.
 
 OPER_HELP_MODINFO
-	Sk³adnia: MODINFO nazwa-pliku
+	SkÅ‚adnia: MODINFO nazwa-pliku
 	
-	To polecenie wy¶wietla informacje na temat za³adowanego modu³u
+	To polecenie wyÅ›wietla informacje na temat zaÅ‚adowanego moduÅ‚u
 
 OPER_HELP_MODLIST
-	Sk³adnia: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
+	SkÅ‚adnia: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
 	
-	Listuje za³adowane modu³y.
+	Listuje zaÅ‚adowane moduÅ‚y.
 
 ###########################################################################
 #
@@ -7226,10 +7226,10 @@ OPER_HELP_MODLIST
 #
 ###########################################################################
 BOT_HELP_CMD_BOTLIST
-	    BOTLIST        Listuje dostêpne boty
+	    BOTLIST        Listuje dostÄ™pne boty
 
 BOT_HELP_CMD_ASSIGN
-	    ASSIGN         Przydziela bota na kana³
+	    ASSIGN         Przydziela bota na kanaÅ‚
 
 BOT_HELP_CMD_SET
 	    SET            Konfiguruje bota
@@ -7238,316 +7238,316 @@ BOT_HELP_CMD_KICK
 	    KICK           Konfiguruje opcje kopania
 
 BOT_HELP_CMD_BADWORDS
-	    BADWORDS       Zarz±dza list± zakazanych s³ów
+	    BADWORDS       ZarzÄ…dza listÄ… zakazanych sÅ‚Ã³w
 
 BOT_HELP_CMD_ACT
-	    ACT            Wyra¿a przez bota akcjê (komenda /me)
+	    ACT            WyraÅ¼a przez bota akcjÄ™ (komenda /me)
 
 BOT_HELP_CMD_INFO
 	    INFO           Pokazuje informacje i ustawienia BotServa
-	                   dotycz±ce bota lub kana³u
+	                   dotyczÄ…ce bota lub kanaÅ‚u
 
 BOT_HELP_CMD_SAY
 	    SAY            Wypowiada przez bota tekst na kanale
 
 BOT_HELP_CMD_UNASSIGN
-	    UNASSIGN       Usuwa bota z kana³u
+	    UNASSIGN       Usuwa bota z kanaÅ‚u
 
 BOT_HELP_CMD_BOT
-	    BOT            Zarz±dza sieciow± list± botów
+	    BOT            ZarzÄ…dza sieciowÄ… listÄ… botÃ³w
 
 BOT_HELP
-	%S pozwala umie¶ciæ bota na w³asnym kanale.
-	Zosta³ stworzony dla u¿ytkowników, którzy nie mog±
-	hostowaæ w³asnego bota oraz dla tych sieci które
-	nie pozwalaj± na ich u¿ywanie. Poni¿sze komendy
-	umo¿liwiaj± zarz±dzanie botem, aby ich u¿yæ wpisz:
+	%S pozwala umieÅ›ciÄ‡ bota na wÅ‚asnym kanale.
+	ZostaÅ‚ stworzony dla uÅ¼ytkownikÃ³w, ktÃ³rzy nie mogÄ…
+	hostowaÄ‡ wÅ‚asnego bota oraz dla tych sieci ktÃ³re
+	nie pozwalajÄ… na ich uÅ¼ywanie. PoniÅ¼sze komendy
+	umoÅ¼liwiajÄ… zarzÄ…dzanie botem, aby ich uÅ¼yÄ‡ wpisz:
 	%R%S komenda
-	Aby uzyskaæ szczegó³owy opis polecenia wpisz:
+	Aby uzyskaÄ‡ szczegÃ³Å‚owy opis polecenia wpisz:
 	%R%S HELP komenda
 
 BOT_HELP_FOOTER
-	Bot wejdzie na kana³ je¶li przebywa na nim
-	przynajmniej %d u¿ytkownik(ów).
+	Bot wejdzie na kanaÅ‚ jeÅ›li przebywa na nim
+	przynajmniej %d uÅ¼ytkownik(Ã³w).
 
 BOT_HELP_BOTLIST
-	Sk³adnia: BOTLIST
+	SkÅ‚adnia: BOTLIST
 	
-	Listuje dostêpne w sieci boty.
+	Listuje dostÄ™pne w sieci boty.
 
 BOT_HELP_ASSIGN
-	Sk³adnia: ASSIGN kana³ nick
+	SkÅ‚adnia: ASSIGN kanaÅ‚ nick
 	
-	Przydziela bota o wskazanym nicku na kana³.
+	Przydziela bota o wskazanym nicku na kanaÅ‚.
 
 BOT_HELP_UNASSIGN
-	Sk³adnia: UNASSIGN kana³
+	SkÅ‚adnia: UNASSIGN kanaÅ‚
 	
-	U¿ycie tej komendy usuwa bota z kana³u.
-	Bêdzie mo¿na go ponownie przydzieliæ w ka¿dej
+	UÅ¼ycie tej komendy usuwa bota z kanaÅ‚u.
+	BÄ™dzie moÅ¼na go ponownie przydzieliÄ‡ w kaÅ¼dej
 	chwili, bez potrzeby ponownego konfigurowania.
 
 BOT_HELP_INFO
-	Sk³adnia: INFO {kana³ | nick}
+	SkÅ‚adnia: INFO {kanaÅ‚ | nick}
 	
-	Wy¶wietla informacje serwisu %S o wskazanym kanale
-	lub bocie. Je¶li parametrem jest nazwa kana³u to
-	zostan± pokazane informacje dotycz±ce kana³u.
-	Je¶li parametrem bêdzie nick bota to zostan±
+	WyÅ›wietla informacje serwisu %S o wskazanym kanale
+	lub bocie. JeÅ›li parametrem jest nazwa kanaÅ‚u to
+	zostanÄ… pokazane informacje dotyczÄ…ce kanaÅ‚u.
+	JeÅ›li parametrem bÄ™dzie nick bota to zostanÄ…
 	pokazane informacje takie jak: data utworzenia,
-	ilo¶æ obs³ugiwanych kana³ów itp.
+	iloÅ›Ä‡ obsÅ‚ugiwanych kanaÅ‚Ã³w itp.
 
 BOT_HELP_SET
-	Sk³adnia: SET (kana³ | bot) opcja parametry
+	SkÅ‚adnia: SET (kanaÅ‚ | bot) opcja parametry
 	
-	Umo¿liwia konfiguracjê nastêpuj±cych opcji bota:
+	UmoÅ¼liwia konfiguracjÄ™ nastÄ™pujÄ…cych opcji bota:
 	
-	   DONTKICKOPS      Bot nie kopie operatorów
-	   DONTKICKVOICES   Bot nie kopie osób z prawem g³osu
-	   GREET            W³±cza wiadomo¶æ powitaln±
-	   FANTASY          W³±cza publiczne komendy
+	   DONTKICKOPS      Bot nie kopie operatorÃ³w
+	   DONTKICKVOICES   Bot nie kopie osÃ³b z prawem gÅ‚osu
+	   GREET            WÅ‚Ä…cza wiadomoÅ›Ä‡ powitalnÄ…
+	   FANTASY          WÅ‚Ä…cza publiczne komendy
 	   SYMBIOSIS        Przejmuje zadania ChanServa
 	
-	Aby uzyskaæ wiêcej informacji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP SET opcja
 	
-	Informacja: dostêp do tej komendy jest kontrolowany
+	Informacja: dostÄ™p do tej komendy jest kontrolowany
 	przez poziom SET.
 BOT_HELP_SET_DONTKICKOPS
-	Sk³adnia: SET kana³ DONTKICKOPS {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ DONTKICKOPS {ON|OFF}
 	
-	W³±cza lub wy³±cza opcjê kopania u¿ytkowników
-	posiadaj±cych status operatora nawet je¶li nie
-	przys³uguje im poziom dostêpu NOKICK.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ kopania uÅ¼ytkownikÃ³w
+	posiadajÄ…cych status operatora nawet jeÅ›li nie
+	przysÅ‚uguje im poziom dostÄ™pu NOKICK.
 
 BOT_HELP_SET_DONTKICKVOICES
-	Sk³adnia: SET kana³ DONTKICKVOICES {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ DONTKICKVOICES {ON|OFF}
 	
-	W³±cza lub wy³±cza opcjê kopania u¿ytkowników
-	posiadaj±cych prawo g³osu nawet je¶li nie
-	przys³uguje im poziom dostêpu NOKICK.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ kopania uÅ¼ytkownikÃ³w
+	posiadajÄ…cych prawo gÅ‚osu nawet jeÅ›li nie
+	przysÅ‚uguje im poziom dostÄ™pu NOKICK.
 
 BOT_HELP_SET_FANTASY
-	Sk³adnia: SET kana³ FANTASY {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ FANTASY {ON|OFF}
 	
-	W³±cza lub wy³±cza dostêp do publicznych poleceñ
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza dostÄ™p do publicznych poleceÅ„
 	na kanale takich jak: !op, !deop, !voice, !devoice,
-	!kick, !kb, !unban, !seen (cze¶æ komend przyjmuje
+	!kick, !kb, !unban, !seen (czeÅ›Ä‡ komend przyjmuje
 	jako parametry nicki i powody).
 	
-	U¿ytkownicy dopuszczeni do u¿ywania komend
-	publicznych musz± mieæ odpowiedni poziom dostêpu
-	do wydania danego polecenia (np. aby u¿ywac !deop
-	trzeba posiadaæ poziom dostêpu OPDEOP).
+	UÅ¼ytkownicy dopuszczeni do uÅ¼ywania komend
+	publicznych muszÄ… mieÄ‡ odpowiedni poziom dostÄ™pu
+	do wydania danego polecenia (np. aby uÅ¼ywac !deop
+	trzeba posiadaÄ‡ poziom dostÄ™pu OPDEOP).
 
 BOT_HELP_SET_GREET
-	Sk³adnia: SET kana³ GREET {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ GREET {ON|OFF}
 	
-	W³±cza lub wy³±cza witanie podczas wej¶cia u¿ytkowników
-	ich w³asn± wiadomo¶ci± powitaln±. U¿ytkownik zostanie
-	powitany, je¶li bêdzie mia³ odpowiedni poziom dostêpu.
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza witanie podczas wejÅ›cia uÅ¼ytkownikÃ³w
+	ich wÅ‚asnÄ… wiadomoÅ›ciÄ… powitalnÄ…. UÅ¼ytkownik zostanie
+	powitany, jeÅ›li bÄ™dzie miaÅ‚ odpowiedni poziom dostÄ™pu.
 
 BOT_HELP_SET_SYMBIOSIS
-	Sk³adnia: SET kana³ SYMBIOSIS {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ SYMBIOSIS {ON|OFF}
 	
-	W³±cza lub wy³±cza opcjê symbiozy na kanale.
-	Gdy ten tryb jest w³±czony wszystkie operacje,
-	które wykonywa³ %s (np. opowanie) bêd±
+	WÅ‚Ä…cza lub wyÅ‚Ä…cza opcjÄ™ symbiozy na kanale.
+	Gdy ten tryb jest wÅ‚Ä…czony wszystkie operacje,
+	ktÃ³re wykonywaÅ‚ %s (np. opowanie) bÄ™dÄ…
 	wykonywane przez bota.
 
 BOT_HELP_KICK
-	Sk³adnia: KICK kana³ opcja parametry
+	SkÅ‚adnia: KICK kanaÅ‚ opcja parametry
 	
 	Konfiguruje opcje kopania na kanale:
 	
-	   BOLDS        Kopanie za u¿ywanie pogrubieñ
-	   BADWORDS     Kopanie za u¿ywanie zakazanych s³ów
+	   BOLDS        Kopanie za uÅ¼ywanie pogrubieÅ„
+	   BADWORDS     Kopanie za uÅ¼ywanie zakazanych sÅ‚Ã³w
 	   CAPS         Kopanie za pisanie WIELKIMI LITERAMI
-	   COLORS       Kopanie za stosowanie kolorów
+	   COLORS       Kopanie za stosowanie kolorÃ³w
 	   FLOOD        Kopanie za flood
 	   REPEAT       Kopanie za wielokrotne powtarzanie
-	   REVERSES     Kopanie za odwracanie kolorów
-	   UNDERLINES   Kopanie za u¿ywanie podkre¶leñ
+	   REVERSES     Kopanie za odwracanie kolorÃ³w
+	   UNDERLINES   Kopanie za uÅ¼ywanie podkreÅ›leÅ„
 	
-	Aby uzyskaæ wiêcej informacji wpisz:
+	Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP KICK opcja
 
 BOT_HELP_KICK_BOLDS
-	Sk³adnia: KICK kana³ BOLDS {ON|OFF} [ttb]
+	SkÅ‚adnia: KICK kanaÅ‚ BOLDS {ON|OFF} [ttb]
 	
 	Ustawia kopanie za pogrubianie tekstu.
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_COLORS
-	Sk³adnia: KICK kana³ COLORS {ON|OFF} [ttb]
+	SkÅ‚adnia: KICK kanaÅ‚ COLORS {ON|OFF} [ttb]
 	
-	Ustawia kopanie za u¿ywanie kolorowego tekstu.
+	Ustawia kopanie za uÅ¼ywanie kolorowego tekstu.
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_REVERSES
-	Sk³adnia: KICK kana³ REVERSES {ON|OFF} [ttb]
+	SkÅ‚adnia: KICK kanaÅ‚ REVERSES {ON|OFF} [ttb]
 	
-	Ustawia kopanie za odwracanie kolorów tekstu (ctrl+r).
+	Ustawia kopanie za odwracanie kolorÃ³w tekstu (ctrl+r).
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_UNDERLINES
-	Sk³adnia: KICK kana³ UNDERLINES {ON|OFF} [ttb]
+	SkÅ‚adnia: KICK kanaÅ‚ UNDERLINES {ON|OFF} [ttb]
 	
-	Ustawia kopanie za podkre¶lanie tekstu.
+	Ustawia kopanie za podkreÅ›lanie tekstu.
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_CAPS
-	Sk³adnia: KICK kana³ CAPS {ON|OFF} [ttb [min [procent]]]
+	SkÅ‚adnia: KICK kanaÅ‚ CAPS {ON|OFF} [ttb [min [procent]]]
 	
-	Ustawia kopanie za u¿ywanie WIELKICH LITER.
+	Ustawia kopanie za uÅ¼ywanie WIELKICH LITER.
 	
-	Bot kopie je¶li tekst zawiera przynajmniej min
+	Bot kopie jeÅ›li tekst zawiera przynajmniej min
 	wielkich liter i stanowi przynajmniej procent
-	ca³ego tekstu w linii (w przypadku nie podania tych
-	warto¶ci przyjmowane s± domy¶lne: 10 znaków i 25%).
+	caÅ‚ego tekstu w linii (w przypadku nie podania tych
+	wartoÅ›ci przyjmowane sÄ… domyÅ›lne: 10 znakÃ³w i 25%).
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_FLOOD
-	Sk³adnia: KICK kana³ FLOOD {ON|OFF} [ttb [ln [sek]]]
+	SkÅ‚adnia: KICK kanaÅ‚ FLOOD {ON|OFF} [ttb [ln [sek]]]
 	
-	Ustawia kopanie za flood. W³±czenie tej opcji
-	powoduje wykopywanie u¿ytkowników wysy³aj±cych na
-	kana³ przynajmniej ln linii tekstu w ci±gu sek
-	sekund (w przypadku nie podania tych warto¶ci przyjmowane
-	s± domy¶lne: 6 linii w ci±gu 10 sekund).
+	Ustawia kopanie za flood. WÅ‚Ä…czenie tej opcji
+	powoduje wykopywanie uÅ¼ytkownikÃ³w wysyÅ‚ajÄ…cych na
+	kanaÅ‚ przynajmniej ln linii tekstu w ciÄ…gu sek
+	sekund (w przypadku nie podania tych wartoÅ›ci przyjmowane
+	sÄ… domyÅ›lne: 6 linii w ciÄ…gu 10 sekund).
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_REPEAT
-	Sk³adnia: KICK kana³ REPEAT {ON|OFF} [ttb [liczba]]
+	SkÅ‚adnia: KICK kanaÅ‚ REPEAT {ON|OFF} [ttb [liczba]]
 	
-	Ustawia kopanie za powtarzanie tekstu. W³±czenie tej
-	opcji powoduje wykopywanie u¿ytkowników wysy³aj±cych
-	na kana³ przynajmniej liczba razy ten sam tekst
-	(w przypadku nie podania tego parametru jego warto¶æ
-	ustalana jest domy¶lnie na 3).
+	Ustawia kopanie za powtarzanie tekstu. WÅ‚Ä…czenie tej
+	opcji powoduje wykopywanie uÅ¼ytkownikÃ³w wysyÅ‚ajÄ…cych
+	na kanaÅ‚ przynajmniej liczba razy ten sam tekst
+	(w przypadku nie podania tego parametru jego wartoÅ›Ä‡
+	ustalana jest domyÅ›lnie na 3).
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_KICK_BADWORDS
-	Sk³adnia: KICK kana³ BADWORDS {ON|OFF} [ttb]
+	SkÅ‚adnia: KICK kanaÅ‚ BADWORDS {ON|OFF} [ttb]
 	
-	Ustawia kopanie za u¿ywanie zakazanych s³ów.
+	Ustawia kopanie za uÅ¼ywanie zakazanych sÅ‚Ã³w.
 	
-	Aby ustaliæ listê zakazanych u¿yj polecenia BADWORDS.
-	Aby uzyskaæ wiêcej informacji wpisz:
+	Aby ustaliÄ‡ listÄ™ zakazanych uÅ¼yj polecenia BADWORDS.
+	Aby uzyskaÄ‡ wiÄ™cej informacji wpisz:
 	%R%S HELP BADWORDS
 	
-	ttb to liczba okre¶laj±ca ile razy u¿ytkownik
-	zostanie wykopany zanim bot za³o¿y bana.
-	Pominiêcie parametru ttb wy³±cza banowanie.
+	ttb to liczba okreÅ›lajÄ…ca ile razy uÅ¼ytkownik
+	zostanie wykopany zanim bot zaÅ‚oÅ¼y bana.
+	PominiÄ™cie parametru ttb wyÅ‚Ä…cza banowanie.
 
 BOT_HELP_BADWORDS
-	Sk³adnia: BADWORDS kana³ ADD s³owo [SINGLE | START | END]
-	          BADWORDS kana³ DEL {s³owo | numer-wpisu | lista}
-	          BADWORDS kana³ LIST [maska | lista]
-	          BADWORDS kana³ CLEAR
+	SkÅ‚adnia: BADWORDS kanaÅ‚ ADD sÅ‚owo [SINGLE | START | END]
+	          BADWORDS kanaÅ‚ DEL {sÅ‚owo | numer-wpisu | lista}
+	          BADWORDS kanaÅ‚ LIST [maska | lista]
+	          BADWORDS kanaÅ‚ CLEAR
 	
-	Polecenie umo¿liwia zarz±dzanie list± niedozwolonych
-	s³ów. Lista definiuje za jakie s³owa u¿ytkownicy mog±
-	zostaæ wyrzuceni z kana³u. Aby uzyskaæ wiêcej informacji
+	Polecenie umoÅ¼liwia zarzÄ…dzanie listÄ… niedozwolonych
+	sÅ‚Ã³w. Lista definiuje za jakie sÅ‚owa uÅ¼ytkownicy mogÄ…
+	zostaÄ‡ wyrzuceni z kanaÅ‚u. Aby uzyskaÄ‡ wiÄ™cej informacji
 	napisz: %R%S HELP KICK BADWORDS
 	
-	BADWORDS ADD dodaje wskazane s³owo do listy.
-	Parametr SINGLE powoduje, ¿e u¿ytkownicy bêd± kopani za
-	u¿ywanie wskazanego s³owa w ca³o¶ci.
-	Parametr START powoduje, ¿e u¿ytkownicy bêd± kopani za
-	u¿ywanie wskazanego s³owa na pocz±tku innych wyrazów.
-	Parametr END powoduje, ¿e u¿ytkownicy bêd± kopani za
-	u¿ywanie wskazanego s³owa na koñcu innych wyrazów.
-	Pominiêcie parametru powoduje, ¿e u¿ytkownicy bêd±
-	kopani w ka¿dym z przypadków, kiedy zostanie u¿yte 
-	wskazane s³owo.
+	BADWORDS ADD dodaje wskazane sÅ‚owo do listy.
+	Parametr SINGLE powoduje, Å¼e uÅ¼ytkownicy bÄ™dÄ… kopani za
+	uÅ¼ywanie wskazanego sÅ‚owa w caÅ‚oÅ›ci.
+	Parametr START powoduje, Å¼e uÅ¼ytkownicy bÄ™dÄ… kopani za
+	uÅ¼ywanie wskazanego sÅ‚owa na poczÄ…tku innych wyrazÃ³w.
+	Parametr END powoduje, Å¼e uÅ¼ytkownicy bÄ™dÄ… kopani za
+	uÅ¼ywanie wskazanego sÅ‚owa na koÅ„cu innych wyrazÃ³w.
+	PominiÄ™cie parametru powoduje, Å¼e uÅ¼ytkownicy bÄ™dÄ…
+	kopani w kaÅ¼dym z przypadkÃ³w, kiedy zostanie uÅ¼yte 
+	wskazane sÅ‚owo.
 	
-	BADWORDS DEL usuwa wskazane wpisy z listy s³ów.
-	Jako argument przyjmuje s³owo, numer wpisu lub
-	listê (przyk³ad poni¿ej dla polecenia LIST).
+	BADWORDS DEL usuwa wskazane wpisy z listy sÅ‚Ã³w.
+	Jako argument przyjmuje sÅ‚owo, numer wpisu lub
+	listÄ™ (przykÅ‚ad poniÅ¼ej dla polecenia LIST).
 
-	BADWORDS LIST wy¶wietla zawarto¶æ listy s³ów. Je¶li
-	zostanie podana maska tylko pasuj±ce wpisy zostan±
-	pokazane. Mo¿na tak¿e u¿yæ listy, przyk³ad:
+	BADWORDS LIST wyÅ›wietla zawartoÅ›Ä‡ listy sÅ‚Ã³w. JeÅ›li
+	zostanie podana maska tylko pasujÄ…ce wpisy zostanÄ…
+	pokazane. MoÅ¼na takÅ¼e uÅ¼yÄ‡ listy, przykÅ‚ad:
 
-	   BADWORDS kana³ LIST 2-5,7-9
+	   BADWORDS kanaÅ‚ LIST 2-5,7-9
 	      Listuje wpisy od numeru 2 do 5 oraz od 7 do 9.
 	
 	BADWORDS CLEAR usuwa wszystkie wpisy z listy.
 
 BOT_HELP_SAY
-	Sk³adnia: SAY kana³ tekst
+	SkÅ‚adnia: SAY kanaÅ‚ tekst
 	
 	Wypowiada przez bota podany tekst na kanale.
 
 BOT_HELP_ACT
-	Sk³adnia: ACT kana³ tekst
+	SkÅ‚adnia: ACT kanaÅ‚ tekst
 	
-	Sprawia, ¿e bot u¿yje komendy akcji (/me) przy
+	Sprawia, Å¼e bot uÅ¼yje komendy akcji (/me) przy
 	wypowiadaniu podanego tekstu na kanale.
 
 BOT_SERVADMIN_HELP_BOT
-	Sk³adnia: BOT ADD nick ident host nazwa
+	SkÅ‚adnia: BOT ADD nick ident host nazwa
 	          BOT CHANGE starynick nowynick [ident [host [nazwa]]]
 	          BOT DEL nick
 	
-	Polecenie pozwala administratorom serwisów na
-	tworzenie, modyfikowanie oraz kasowanie botów
-	u¿ywanych przez u¿ytkowników sieci na kana³ach.
+	Polecenie pozwala administratorom serwisÃ³w na
+	tworzenie, modyfikowanie oraz kasowanie botÃ³w
+	uÅ¼ywanych przez uÅ¼ytkownikÃ³w sieci na kanaÅ‚ach.
 	
 	BOT ADD dodaje bota o podanym nicku, idencie,
-	ho¶cie oraz realname.
-	BOT CHANGE pozwala na zmianê nicka, identa,
+	hoÅ›cie oraz realname.
+	BOT CHANGE pozwala na zmianÄ™ nicka, identa,
 	hosta lub realname bota bez jego kasowania.
 	BOT DEL usuwa wskazanego bota.
 	
-	UWAGA: Je¶li stworzony zostanie bot o nicku,
-	który jest ju¿ zarejestrowany, nick zostanie
-	odrejestrowany. Podobnie je¶li nick stworzonego
-	bota bêdzie u¿ywany przez innego u¿ytkownika,
+	UWAGA: JeÅ›li stworzony zostanie bot o nicku,
+	ktÃ³ry jest juÅ¼ zarejestrowany, nick zostanie
+	odrejestrowany. Podobnie jeÅ›li nick stworzonego
+	bota bÄ™dzie uÅ¼ywany przez innego uÅ¼ytkownika,
 	zostanie on wtedy skillowany.
 
 BOT_SERVADMIN_HELP_SET
 	
-	Opcje dostêpne dla administratorów serwisów:
+	Opcje dostÄ™pne dla administratorÃ³w serwisÃ³w:
 	
-	   NOBOT     Uniemo¿liwia przypisanie bota do kana³u
+	   NOBOT     UniemoÅ¼liwia przypisanie bota do kanaÅ‚u
 	   PRIVATE   Zastrzega przypisywanie bota tylko dla IRC
-	             Operatorów
+	             OperatorÃ³w
 
 BOT_SERVADMIN_HELP_SET_NOBOT
-	Sk³adnia: SET kana³ NOBOT {ON|OFF}
+	SkÅ‚adnia: SET kanaÅ‚ NOBOT {ON|OFF}
 	
-	Polecenie to pozwala okre¶liæ kana³, dla którego
-	nie wolno przypisywaæ botów. Je¶li w danej chwili
-	bot jest przypisany do kana³u, zostanie usuniêty.
+	Polecenie to pozwala okreÅ›liÄ‡ kanaÅ‚, dla ktÃ³rego
+	nie wolno przypisywaÄ‡ botÃ³w. JeÅ›li w danej chwili
+	bot jest przypisany do kanaÅ‚u, zostanie usuniÄ™ty.
 
 BOT_SERVADMIN_HELP_SET_PRIVATE
-	Sk³adnia: SET nick-bota PRIVATE {ON|OFF}
+	SkÅ‚adnia: SET nick-bota PRIVATE {ON|OFF}
 	
 	Polecenie pozwala na ograniczenie przypisywania
-	wskazanego bota dla u¿ytkowników nie bêd±cych
+	wskazanego bota dla uÅ¼ytkownikÃ³w nie bÄ™dÄ…cych
 	IRC operatorami.
 
 ###########################################################################
@@ -7556,7 +7556,7 @@ BOT_SERVADMIN_HELP_SET_PRIVATE
 #
 ###########################################################################
 HOST_EMPTY
-	Lista vhostów jest pusta.
+	Lista vhostÃ³w jest pusta.
 
 HOST_ENTRY
 	#%d Nick:%s, vhost:%s (%s - %s)
@@ -7565,34 +7565,34 @@ HOST_IDENT_ENTRY
 	#%d Nick:%s, vhost:%s@%s (%s - %s)
 
 HOST_SET
-	Vhost dla %s zosta³ zmieniony na %s.
+	Vhost dla %s zostaÅ‚ zmieniony na %s.
 
 HOST_IDENT_SET
-	Vhost dla %s zosta³ zmieniony na %s@%s.
+	Vhost dla %s zostaÅ‚ zmieniony na %s@%s.
 
 HOST_SETALL
-	Vhosty dla grupy %s zosta³y zmienione na %s.
+	Vhosty dla grupy %s zostaÅ‚y zmienione na %s.
 
 HOST_DELALL
-	Vhosty dla grupy %s zosta³y usuniête.
+	Vhosty dla grupy %s zostaÅ‚y usuniÄ™te.
 
 HOST_DELALL_SYNTAX
 	DELALL <nick>.
 
 HOST_IDENT_SETALL
-	Vhosty dla grupy %s zosta³y zmienione na %s@%s.
+	Vhosty dla grupy %s zostaÅ‚y zmienione na %s@%s.
 
 HOST_SET_ERROR
-	Vhost musi mieæ format prawid³owej maski hosta.
+	Vhost musi mieÄ‡ format prawidÅ‚owej maski hosta.
 
 HOST_SET_IDENT_ERROR
-	Ident vhosta musi mieæ format prawid³owego identa.
+	Ident vhosta musi mieÄ‡ format prawidÅ‚owego identa.
 
 HOST_SET_TOOLONG
-	B³±d! Vhost jest za d³ugi, u¿yj vhosta krótszego ni¿ %d znaków.
+	BÅ‚Ä…d! Vhost jest za dÅ‚ugi, uÅ¼yj vhosta krÃ³tszego niÅ¼ %d znakÃ³w.
 
 HOST_SET_IDENTTOOLONG
-	B³±d! Ident jest za d³ugi, u¿yj identa krótszego ni¿ %d znaków.
+	BÅ‚Ä…d! Ident jest za dÅ‚ugi, uÅ¼yj identa krÃ³tszego niÅ¼ %d znakÃ³w.
 
 HOST_NOREG
 	Nie znaleziono %s w bazie serwisu NickServ.
@@ -7604,50 +7604,50 @@ HOST_SETALL_SYNTAX
 	SETALL <nick> <maska-hosta>.
 
 HOST_DENIED
-	Brak dostêpu.
+	Brak dostÄ™pu.
 
 HOST_NOT_ASSIGNED
-	Skontaktuj siê z operatorem, aby uzyskaæ vhosta na ten nick.
+	Skontaktuj siÄ™ z operatorem, aby uzyskaÄ‡ vhosta na ten nick.
 
 HOST_ACTIVATED
-	Twój vhost %s jest teraz aktywny.
+	TwÃ³j vhost %s jest teraz aktywny.
 
 HOST_IDENT_ACTIVATED
-	Twój vhost %s@%s jest teraz aktywny.
+	TwÃ³j vhost %s@%s jest teraz aktywny.
 
 HOST_ID
-	Najpierw zidentyfikuj siê u serwisów.
+	Najpierw zidentyfikuj siÄ™ u serwisÃ³w.
 
 HOST_NOT_REGED
-	Aby uzyskaæ vhosta musisz byæ najpierw zarejestrowany.
+	Aby uzyskaÄ‡ vhosta musisz byÄ‡ najpierw zarejestrowany.
 
 HOST_DEL
-	Vhost dla %s zosta³ usuniêty.
+	Vhost dla %s zostaÅ‚ usuniÄ™ty.
 
 HOST_DEL_SYNTAX
 	DEL <nick>.
 HOST_OFF
-	Twój vhost zosta³ usuniêty i zosta³o w³±czone normalne ukrywanie hosta.
+	TwÃ³j vhost zostaÅ‚ usuniÄ™ty i zostaÅ‚o wÅ‚Ä…czone normalne ukrywanie hosta.
 HOST_OFF_UNREAL
-	Twój vhost zosta³ usuniêty. Aby w³±czyæ standardowe ukrywanie hosta wpisz /mode %s +%s
+	TwÃ³j vhost zostaÅ‚ usuniÄ™ty. Aby wÅ‚Ä…czyÄ‡ standardowe ukrywanie hosta wpisz /mode %s +%s
 
 HOST_NO_VIDENT
-	Twoje IRCD nie obs³uguje vIdentów, je¶li nie jest to prawda zg³o¶ b³±d.
+	Twoje IRCD nie obsÅ‚uguje vIdentÃ³w, jeÅ›li nie jest to prawda zgÅ‚oÅ› bÅ‚Ä…d.
 
 HOST_GROUP
-	Wszystkie vhosty w grupie %s zosta³y zmienione na %s
+	Wszystkie vhosty w grupie %s zostaÅ‚y zmienione na %s
 
 HOST_IDENT_GROUP
-	Wszystkie vhosty w grupie %s zosta³y zmienione na %s@%s
+	Wszystkie vhosty w grupie %s zostaÅ‚y zmienione na %s@%s
 
 HOST_LIST_FOOTER
-	Wy¶wietlono wszystkie wpisy (Liczba: %d)
+	WyÅ›wietlono wszystkie wpisy (Liczba: %d)
 
 HOST_LIST_RANGE_FOOTER
-	Wy¶wietlono wpisy od %d do %d
+	WyÅ›wietlono wpisy od %d do %d
 
 HOST_LIST_KEY_FOOTER
-	Wy¶wietlono pasuj±ce wpisy %s (Liczba: %d)
+	WyÅ›wietlono pasujÄ…ce wpisy %s (Liczba: %d)
 
 ###########################################################################
 #
@@ -7661,109 +7661,109 @@ HOST_HELP_CMD_OFF
 	    OFF         Deaktywuje przypisanego vhosta
 
 HOST_HELP_CMD_GROUP
-	    GROUP       Synchronizuje vhosty wszystkich nicków w grupie
+	    GROUP       Synchronizuje vhosty wszystkich nickÃ³w w grupie
 
 HOST_HELP_CMD_SET
-	    SET         Zmienia vhost wskazanemu u¿ytkownikowi
+	    SET         Zmienia vhost wskazanemu uÅ¼ytkownikowi
 
 HOST_HELP_CMD_SETALL
-	    SETALL      Zmienia vhosty wszystkich nicków w grupie
+	    SETALL      Zmienia vhosty wszystkich nickÃ³w w grupie
 
 HOST_HELP_CMD_DEL
-	    DEL         Usuwa vhost wskazanego u¿ytkownika
+	    DEL         Usuwa vhost wskazanego uÅ¼ytkownika
 
 HOST_HELP_CMD_DELALL
-	    DELALL      Usuwa vhosty wszystkich nicków w grupie
+	    DELALL      Usuwa vhosty wszystkich nickÃ³w w grupie
 
 HOST_HELP_CMD_LIST
 	    LIST        Listuje vhosty
 
 HOST_OPER_HELP
-	nie jest u¿ywane.
+	nie jest uÅ¼ywane.
 
 HOST_ADMIN_HELP
-	nie jest u¿ywane.
+	nie jest uÅ¼ywane.
 
 HOST_HELP
 	Komendy %S:
 
 HOST_HELP_ON
-	Sk³adnia: ON
+	SkÅ‚adnia: ON
 	
-	Aktywuje vhosta aktualnie przypisanego do u¿ywanego nicka.
-	Po u¿yciu tego polecenia Twój prawdziwy adres zostanie 
-	zast±piony vhostem.
+	Aktywuje vhosta aktualnie przypisanego do uÅ¼ywanego nicka.
+	Po uÅ¼yciu tego polecenia TwÃ³j prawdziwy adres zostanie 
+	zastÄ…piony vhostem.
 
 HOST_HELP_SET
-	Sk³adnia: SET <nick> <vhost>.
+	SkÅ‚adnia: SET <nick> <vhost>.
 	
-	Ustawia wskazanemu u¿ytkownikowi vhosta.
-	Je¶li Twoje IRCD obs³uguje videnty to u¿ywaj±c
+	Ustawia wskazanemu uÅ¼ytkownikowi vhosta.
+	JeÅ›li Twoje IRCD obsÅ‚uguje videnty to uÅ¼ywajÄ…c
 	polecenia SET <nick> <ident>@<vhost>
-	mo¿na zmieniaæ tak¿e ident.
+	moÅ¼na zmieniaÄ‡ takÅ¼e ident.
 
 HOST_HELP_DELALL
-	Sk³adnia: DELALL <nick>.
+	SkÅ‚adnia: DELALL <nick>.
 	
-	Usuwa wszystkie vhosty grupy, do której nale¿y wskazany nick.
+	Usuwa wszystkie vhosty grupy, do ktÃ³rej naleÅ¼y wskazany nick.
 
 HOST_HELP_SETALL
-	Sk³adnia: SETALL <nick> <vhost>.
+	SkÅ‚adnia: SETALL <nick> <vhost>.
 	
-	Ustawia vhosta dla wszystkich nicków w obrêbie grupy.
-	Je¶li IRCD obs³uguje vIdenty wydanie polecenia
+	Ustawia vhosta dla wszystkich nickÃ³w w obrÄ™bie grupy.
+	JeÅ›li IRCD obsÅ‚uguje vIdenty wydanie polecenia
 	SETALL <nick> <ident>@<vhost> spowoduje ustawienie
-	tak¿e identów.
+	takÅ¼e identÃ³w.
 	
 	UWAGA: to polecenie nie spowoduje zmiany vhosta
-	dla nicka, który pó¼niej zostanie dodany do grupy.
+	dla nicka, ktÃ³ry pÃ³Åºniej zostanie dodany do grupy.
 
 HOST_HELP_OFF
-	Sk³adnia: OFF
+	SkÅ‚adnia: OFF
 	
-	Deaktywuje vhosta aktualnie przypisanego do u¿ywanego nicka.
-	Po u¿yciu tego polecenia ka¿dy bêdzie móg³ sprawdziæ Twój
-	prawdziwy adres u¿ywaj±c polecenia /WHOIS.
+	Deaktywuje vhosta aktualnie przypisanego do uÅ¼ywanego nicka.
+	Po uÅ¼yciu tego polecenia kaÅ¼dy bÄ™dzie mÃ³gÅ‚ sprawdziÄ‡ TwÃ³j
+	prawdziwy adres uÅ¼ywajÄ…c polecenia /WHOIS.
 
 HOST_HELP_DEL
-	Sk³adnia: DEL <nick>
+	SkÅ‚adnia: DEL <nick>
 	
 	Usuwa vhosta przypisanego do wskazanego nicka.
 
 HOST_HELP_LIST
-	Sk³adnia: LIST [<wzorzec>|<#X-Y>]
+	SkÅ‚adnia: LIST [<wzorzec>|<#X-Y>]
 	
 	To polecenie listuje zarejestrowane vhosty operatorowi.
-	Je¶li podano wzorzec tylko wpisy o pasuj±cych nickach
-	lub vhostach zostan± pokazane. Podanie np. Rob*
-	spowoduje wy¶wietlenie wszystkich wpisów zaczynaj±cych
-	siê od Rob.
+	JeÅ›li podano wzorzec tylko wpisy o pasujÄ…cych nickach
+	lub vhostach zostanÄ… pokazane. Podanie np. Rob*
+	spowoduje wyÅ›wietlenie wszystkich wpisÃ³w zaczynajÄ…cych
+	siÄ™ od Rob.
 	
-	Je¶li zostanie u¿yty format #X-Y to tylko wpisy nale¿±ce
-	do przedzia³u od X do Y bêd± pokazane. Podanie #1-3
-	spowoduje wy¶wietlenie pierwszych 3 wpisów wpisów.
+	JeÅ›li zostanie uÅ¼yty format #X-Y to tylko wpisy naleÅ¼Ä…ce
+	do przedziaÅ‚u od X do Y bÄ™dÄ… pokazane. Podanie #1-3
+	spowoduje wyÅ›wietlenie pierwszych 3 wpisÃ³w wpisÃ³w.
 	
-	Maksymalna d³ugo¶æ listy wy¶wietlanej operatorowi podczas
-	jednego zapytania jest okre¶lona przez ustawienie NSListMax.
+	Maksymalna dÅ‚ugoÅ›Ä‡ listy wyÅ›wietlanej operatorowi podczas
+	jednego zapytania jest okreÅ›lona przez ustawienie NSListMax.
 
 HOST_HELP_GROUP
-	Sk³adnia: GROUP
+	SkÅ‚adnia: GROUP
 	
-	To polecenie pozwala ustawiæ vhost bie¿±cego nicka
-	dla wszystkich nicków w grupie.
+	To polecenie pozwala ustawiÄ‡ vhost bieÅ¼Ä…cego nicka
+	dla wszystkich nickÃ³w w grupie.
 
 OPER_SVSNICK_UNSUPPORTED
-	Komenda SVSNICK nie jest dostêpna w tej sieci.
+	Komenda SVSNICK nie jest dostÄ™pna w tej sieci.
 
 OPER_SQLINE_UNSUPPORTED
-	Komenda SQLINE nie jest dostêpna w tej sieci.
+	Komenda SQLINE nie jest dostÄ™pna w tej sieci.
 
 OPER_SVSO_UNSUPPORTED
-	Komenda OLINE nie jest dostêpna w tej sieci.
+	Komenda OLINE nie jest dostÄ™pna w tej sieci.
 
 OPER_UMODE_UNSUPPORTED
-	Komenda UMODE nie jest dostêpna w tej sieci.
+	Komenda UMODE nie jest dostÄ™pna w tej sieci.
 
 OPER_SUPER_ADMIN_NOT_ENABLED
-	Opcja SuperAdmin nie jest w³±czona w pliku konfiguracyjnym.
+	Opcja SuperAdmin nie jest wÅ‚Ä…czona w pliku konfiguracyjnym.
 
