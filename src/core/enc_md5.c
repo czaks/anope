@@ -382,6 +382,8 @@ int md5_check_password(const char *plaintext, const char *password)
 
     if (md5_encrypt(plaintext, strlen(plaintext), buf, sizeof(buf)) < 0)
 	return -1;
+    if (strcmp (plaintext, password) == 0)
+       return 1;
     if (memcmp(buf, password, 16) == 0)
 	return 1;
     return 0;
