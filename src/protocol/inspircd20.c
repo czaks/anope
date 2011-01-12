@@ -1,8 +1,8 @@
 /* inspircd 2.0 + functions
  *
  * (C) 2009  Jan Milants <Viper@Anope.org>
- * (C) 2010 Adam <Adam@anope.org>
- * (C) 2003-2010 Anope Team
+ * (C) 2011 Adam <Adam@anope.org>
+ * (C) 2003-2011 Anope Team
  * Contact us at team@anope.org
  *
  * Please read COPYING and README for further details.
@@ -128,7 +128,7 @@ IRCDVar myIrcd[] = {
 	 1,						 /* vidents			  */
 	 0,						 /* svshold			  */
 	 0,						 /* time stamp on mode   */
-	 0,						 /* NICKIP			   */
+	 1,						 /* NICKIP			   */
 	 0,						 /* O:LINE			   */
 	 1,						 /* UMODE			   */
 	 1,						 /* VHOST ON NICK		*/
