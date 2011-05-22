@@ -1242,6 +1242,19 @@ NickAlias *findnick(const char *nick)
         return NULL;
     }
 
+    if (nick[0] >= '0' && nick[0] <= '9') {
+        int i, uuid = atoi(nick);
+        NickCore *nc;
+
+        for (i = 0; i < 1024; i++) {
+            for (nc = nclists[i]; nc; nc = nc->next) {
+                if (nc->uuid == uuid) {
+                    nick = nc->display;
+                }
+            }
+        }
+    }
+
     for (na = nalists[HASH(nick)]; na; na = na->next) {
         if (stricmp(na->nick, nick) == 0)
             return na;
