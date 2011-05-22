@@ -7,8 +7,9 @@
 #               Szczyrzyca Mateusz <annihilator@ircnet.pl>
 #               PolNet Team: http://www.ircnet.pl
 #
-# Aktualizacja/Updated: 13/10/2008
-# Wersja serwisow/Anope version: svn-1477
+#		Łabanowski Marcin  <marcin@6irc.net>
+#
+# Aktualizacja/Updated: 22/05/2011
 #
 # This file is encoded using utf-8.
 #
@@ -181,7 +182,7 @@ SERVICE_OFFLINE
 	%s jest obecnie offline.
 
 READ_ONLY_MODE
-	Uwaga: Serwisy są w trybie tylko do odczytu - zmiany nie będą zapisywane!
+	Uwaga: Usługi są w trybie tylko do odczytu - zmiany nie będą zapisywane!
 
 PASSWORD_INCORRECT
 	Nieprawidłowe hasło.
@@ -203,7 +204,7 @@ PERMISSION_DENIED
 
 RAW_DISABLED
 	Polecenie RAW zostało wyłączone. Jeśli chcesz go używać,
-	ustaw odpowiednio DisableRaw w konfiguracji serwisów.
+	ustaw odpowiednio DisableRaw w konfiguracji usług.
 
 MORE_OBSCURE_PASSWORD
 	Proszę spróbować ponownie z trudniejszym hasłem.
@@ -221,7 +222,7 @@ NICK_NOT_REGISTERED_HELP
 	Napisz %R%s HELP aby uzyskać pomoc na temat rejestracji.
 
 NICK_X_IS_SERVICES
-	Nick %s jest serwisem!
+	Nick %s jest usługą!
 
 NICK_X_NOT_REGISTERED
 	Nick %s nie jest zarejestrowany.
@@ -277,7 +278,7 @@ CHAN_IDENTIFY_REQUIRED
 	
 
 MAIL_DISABLED
-	Serwisy zostały skonfigurowane tak, aby nie wysyłać poczty.
+	Usługi zostały skonfigurowane tak, aby nie wysyłać poczty.
 
 MAIL_INVALID
 	Adres e-mail dla %s nie jest prawidłowy.
@@ -369,15 +370,15 @@ CS_LIST_INCORRECT_RANGE
 # Generic help limited to messages
 HELP_LIMIT_SERV_OPER
 	
-	Polecenie dostępne tylko dla operatorów serwisów.
+	Polecenie dostępne tylko dla operatorów usług.
 
 HELP_LIMIT_SERV_ADMIN
 	
-	Polecenie dostępne tylko dla administratorów serwisów.
+	Polecenie dostępne tylko dla administratorów usług.
 
 HELP_LIMIT_SERV_ROOT
 	
-	Polecenie dostępne tylko dla Services Roots.
+	Polecenie dostępne tylko dla głównych administratorów usług.
 
 HELP_LIMIT_IRC_OPER
 	
@@ -385,11 +386,11 @@ HELP_LIMIT_IRC_OPER
 
 HELP_LIMIT_HOST_SETTER
 	
-	Polecenie dostępne tylko dla Host Setters.
+	Polecenie dostępne tylko dla ustawiających hosty.
 
 HELP_LIMIT_HOST_REMOVER
 	
-	Polecenie dostępne tylko dla Host Removers.
+	Polecenie dostępne tylko dla usuwających hosty.
 
 ###########################################################################
 #
@@ -519,7 +520,7 @@ NICK_LOGOUT_X_SUCCEEDED
 	Nick %s został wylogowany.
 
 NICK_LOGOUT_SERVICESADMIN
-	Nie mogę wylogować %s, bo to administrator serwisów.
+	Nie mogę wylogować %s, bo to administrator usług.
 
 # DROP responses
 NICK_DROP_DISABLED
@@ -677,10 +678,10 @@ NICK_SET_HIDE_QUIT_OFF
 	Twoja ostatnia wiadomość QUIT będzie pokazywana w informacjach %s.
 
 NICK_SET_HIDE_STATUS_ON
-	Twój status dostępu do serwisów będzie ukrywany w informacjach %s.
+	Twój status dostępu do usług będzie ukrywany w informacjach %s.
 
 NICK_SET_HIDE_STATUS_OFF
-	Twój status dostępu do serwisów będzie pokazywany w informacjach %s.
+	Twój status dostępu do usług będzie pokazywany w informacjach %s.
 	
 
 # SET MSG responses
@@ -688,20 +689,20 @@ NICK_SET_MSG_SYNTAX
 	SET MSG {ON | OFF}
 
 NICK_SET_MSG_ON
-	Serwisy będą teraz wysyłać wiadomości.
+	Usługi będą teraz wysyłać wiadomości.
 
 NICK_SET_MSG_OFF
-	Serwisy będą teraz wysyłać powiadomienia.
+	Usługi będą teraz wysyłać powiadomienia.
 
 # SET AUTOOP responses
 NICK_SET_AUTOOP_SYNTAX
 	SET AUTOOP {ON | OFF}
 
 NICK_SET_AUTOOP_ON
-	Serwisy będą automatycznie nadawały Tobie uprawnienia.
+	Usługi będą automatycznie nadawały Tobie uprawnienia.
 
 NICK_SET_AUTOOP_OFF
-	Serwisy nie będą już automatycznie nadawały Tobie uprawnień.
+	Usługi nie będą już automatycznie nadawały Tobie uprawnień.
 
 # SASET responses
 NICK_SASET_SYNTAX
@@ -837,21 +838,21 @@ NICK_SASET_HIDE_QUIT_OFF
 	Ostatnia wiadomość QUIT osoby %s będzie pokazywana w informacjach %s.
 
 NICK_SASET_HIDE_STATUS_ON
-	Status dostępu do serwisów osoby %s będzie ukrywany w informacjach %s.
+	Status dostępu do usług osoby %s będzie ukrywany w informacjach %s.
 
 NICK_SASET_HIDE_STATUS_OFF
-	Status dostępu do serwisów osoby %s będzie pokazywany w informacjach %s.
+	Status dostępu do usług osoby %s będzie pokazywany w informacjach %s.
 	
 
 # SASET MSG responses
 NICK_SASET_MSG_SYNTAX
-	SASAET nick MSG {ON | OFF}
+	SASET nick MSG {ON | OFF}
 
 NICK_SASET_MSG_ON
-	Serwisy będą teraz wysyłać do %s wiadomości.
+	Usługi będą teraz wysyłać do %s wiadomości.
 
 NICK_SASET_MSG_OFF
-	Serwisy będą teraz wysyłać do %s powiadomienia.
+	Usługi będą teraz wysyłać do %s powiadomienia.
 
 # SASET NOEXPIRE responses
 NICK_SASET_NOEXPIRE_SYNTAX
@@ -868,10 +869,10 @@ NICK_SASET_AUTOOP_SYNTAX
 	SASET nick AUTOOP {ON | OFF}
 
 NICK_SASET_AUTOOP_ON
-	Serwisy będą automatycznie nadawały uprawnienia dla użytkownika %s.
+	Usługi będą automatycznie nadawały uprawnienia dla użytkownika %s.
 
 NICK_SASET_AUTOOP_OFF
-	Serwisy nie będą już automatycznie nadawały uprawnień dla użytkownika %s.
+	Usługi nie będą już automatycznie nadawały uprawnień dla użytkownika %s.
 
 # SASET LANGUAGE responses
 NICK_SASET_LANGUAGE_SYNTAX
@@ -882,7 +883,7 @@ NICK_SASET_LANGUAGE_UNKNOWN
 	Napisz %R%s HELP SET LANGUAGE, aby uzyskać listę dostępnych języków.
 
 NICK_SASET_LANGUAGE_CHANGED
-	Language for %s changed to %s.
+	Język dla %s został zmieniony na %s.
 
 # ACCESS responses
 NICK_ACCESS_SYNTAX
@@ -936,13 +937,13 @@ NICK_INFO_REALNAME
 	%s to %s
 
 NICK_INFO_SERVICES_OPER
-	%s jest operatorem serwisów.
+	%s jest operatorem usług.
 
 NICK_INFO_SERVICES_ADMIN
-	%s jest administratorem serwisów.
+	%s jest administratorem usług.
 
 NICK_INFO_SERVICES_ROOT
-	%s jest głównym administratorem serwisów.
+	%s jest głównym administratorem usług.
 
 NICK_INFO_ADDRESS
 	  Ostatni host: %s
@@ -1075,7 +1076,7 @@ NICK_NO_RECOVER_SELF
 	Nie możesz odzyskać nicka, którego właśnie używasz!
 
 NICK_RECOVERED
-	Twój nick został właśnie przejęty przez serwisy.
+	Twój nick został właśnie przejęty przez usługi.
 	Napisz %R%s RELEASE %s, jeśli nie chcesz czekać %s sekund na jego automatyczne zwolnienie.
 
 # RELEASE responses
@@ -1083,10 +1084,10 @@ NICK_RELEASE_SYNTAX
 	RELEASE nick [hasło]
 
 NICK_RELEASE_NOT_HELD
-	Nick %s nie jest zajęty przez serwisy.
+	Nick %s nie jest zajęty przez usługi.
 
 NICK_RELEASED
-	Serwisy właśnie zwolniły twojego nicka.
+	Usługi właśnie zwolniły twojego nicka.
 
 # GHOST responses
 NICK_GHOST_SYNTAX
@@ -1110,7 +1111,7 @@ NICK_GETPASS_PASSWORD_IS
 
 # GETEMAIL responses
 NICK_GETEMAIL_SYNTAX
-	GETEMAIL user@email-host Bez symboli wieloznacznych!
+	GETEMAIL user@email-host (bez symboli wieloznacznych)
 
 NICK_GETEMAIL_EMAILS_ARE
 	Adresy e-mail %s pasujące do %s.
@@ -2781,7 +2782,7 @@ BOT_BOTLIST_FOOTER
 
 BOT_BOTLIST_EMPTY
 	Obecnie nie ma żadnych botów dostępnych.
-	Poproś administratora serwisów o dodanie.
+	Poproś administratora usług o dodanie.
 
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
@@ -3190,10 +3191,10 @@ BOT_LONG_HOST
 ###########################################################################
 # General messages
 OPER_BOUNCY_MODES
-	Serwisy nie mogą zmieniać trybów. Czy serwery są dobrze skonfigurowane?
+	Usługi nie mogą zmieniać trybów. Czy serwery są dobrze skonfigurowane?
 
 OPER_BOUNCY_MODES_U_LINE
-	Serwisy nie mogą zmieniać trybów. Czy U-linie serwerów są dobrze skonfigurowane?
+	Usługi nie mogą zmieniać trybów. Czy U-linie serwerów są dobrze skonfigurowane?
 
 # GLOBAL responses
 OPER_GLOBAL_SYNTAX
@@ -3214,46 +3215,46 @@ OPER_STATS_MAX_USERS
 # is to only give resolution to the nearest minute when uptime is one hour
 # or more, but just add a %d to get seconds as well.
 OPER_STATS_UPTIME_DHMS
-	Serwisy działają %d dni, %02d:%02d
+	Usługi działają %d dni, %02d:%02d
 
 OPER_STATS_UPTIME_1DHMS
-	Serwisy działają %d dzień, %02d:%02d
+	Usługi działają %d dzień, %02d:%02d
 
 OPER_STATS_UPTIME_HMS
-	Serwisy działają %d godzin i %d minut(y).
+	Usługi działają %d godzin i %d minut(y).
 
 OPER_STATS_UPTIME_HM1S
-	Serwisy działają %d godzin(y) i %d minut(y).
+	Usługi działają %d godzin(y) i %d minut(y).
 
 OPER_STATS_UPTIME_H1MS
-	Serwisy działają %d godzin(y) i %d minutę.
+	Usługi działają %d godzin(y) i %d minutę.
 
 OPER_STATS_UPTIME_H1M1S
-	Serwisy działają %d godzin(y) i %d minutę.
+	Usługi działają %d godzin(y) i %d minutę.
 
 OPER_STATS_UPTIME_1HMS
-	Serwisy działają %d godzinę i %d minut(y).
+	Usługi działają %d godzinę i %d minut(y).
 
 OPER_STATS_UPTIME_1HM1S
-	Serwisy działają %d godzinę i %d minut(y).
+	Usługi działają %d godzinę i %d minut(y).
 
 OPER_STATS_UPTIME_1H1MS
-	Serwisy działają %d godzinę i %d minutę.
+	Usługi działają %d godzinę i %d minutę.
 
 OPER_STATS_UPTIME_1H1M1S
-	Serwisy działają %d godzinę i %d minutę.
+	Usługi działają %d godzinę i %d minutę.
 
 OPER_STATS_UPTIME_MS
-	Serwisy działają %d minut(y) i %d sekund(y).
+	Usługi działają %d minut(y) i %d sekund(y).
 
 OPER_STATS_UPTIME_M1S
-	Serwisy działają %d minut(y) i %d sekundę.
+	Usługi działają %d minut(y) i %d sekundę.
 
 OPER_STATS_UPTIME_1MS
-	Serwisy działają %d minutę i %d sekund(y).
+	Usługi działają %d minutę i %d sekund(y).
 
 OPER_STATS_UPTIME_1M1S
-	Serwisy działają %d minutę i %d sekundę.
+	Usługi działają %d minutę i %d sekundę.
 
 OPER_STATS_BYTES_READ
 	Odebrano      : %5d kB
@@ -3446,94 +3447,94 @@ OPER_ADMIN_SYNTAX
 	ADMIN {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 OPER_ADMIN_SKELETON
-	Serwisy są w trybie szkieletowym, komenda ADMIN nie jest dostępna.
+	Usługi są w trybie szkieletowym, komenda ADMIN nie jest dostępna.
 
 OPER_ADMIN_EXISTS
-	%s już istnieje na liście administratorów serwisów.
+	%s już istnieje na liście administratorów usług.
 
 OPER_ADMIN_REACHED_LIMIT
-	Możesz mieć tylko %d administratorów serwisów.
+	Możesz mieć tylko %d administratorów usług.
 
 OPER_ADMIN_ADDED
-	%s dodano do listy administratorów serwisów.
+	%s dodano do listy administratorów usług.
 
 OPER_ADMIN_NOT_FOUND
-	%s nie znaleziono na liście administratorów serwisów.
+	%s nie znaleziono na liście administratorów usług.
 
 OPER_ADMIN_NO_MATCH
-	Nie znaleziono pasujących wpisów na liście administratorów serwisów.
+	Nie znaleziono pasujących wpisów na liście administratorów usług.
 
 OPER_ADMIN_DELETED
-	%s usunięto z listy administratorów serwisów.
+	%s usunięto z listy administratorów usług.
 
 OPER_ADMIN_DELETED_ONE
-	Usunięto 1 wpis z listy administratorów serwisów.
+	Usunięto 1 wpis z listy administratorów usług.
 
 OPER_ADMIN_DELETED_SEVERAL
-	Usunięto %d wpisy(ów) z listy administratorów serwisów.
+	Usunięto %d wpisy(ów) z listy administratorów usług.
 
 OPER_ADMIN_LIST_EMPTY
-	Lista administratorów serwisów jest pusta.
+	Lista administratorów usług jest pusta.
 
 OPER_ADMIN_LIST_HEADER
-	Lista administratorów serwisów:
+	Lista administratorów usług:
 	  Nr    Nick
 
 OPER_ADMIN_LIST_FORMAT
 	  %3d   %s
 
 OPER_ADMIN_CLEAR
-	Lista administratorów serwisów została wyczyszczona.
+	Lista administratorów usług została wyczyszczona.
 
 OPER_ADMIN_MOVED
-	%s przeniesiono na listę administratorów serwisów.
+	%s przeniesiono na listę administratorów usług.
 
 # OPER responses
 OPER_OPER_SYNTAX
 	OPER {ADD|DEL|LIST|CLEAR} [nick | pozycja]
 
 OPER_OPER_SKELETON
-	Serwisy są w trybie szkieletowym, komenda OPER nie jest dostępna.
+	Usługi są w trybie szkieletowym, komenda OPER nie jest dostępna.
 
 OPER_OPER_EXISTS
-	%s już istnieje na liście operatorów serwisów.
+	%s już istnieje na liście operatorów usług.
 
 OPER_OPER_REACHED_LIMIT
-	Możesz mieć tylko %d operatorów serwisów.
+	Możesz mieć tylko %d operatorów usług.
 
 OPER_OPER_ADDED
-	%s dodano do listy operatorów serwisów.
+	%s dodano do listy operatorów usług.
 
 OPER_OPER_NOT_FOUND
-	%s nie znaleziono na liście operatorów serwisów.
+	%s nie znaleziono na liście operatorów usług.
 
 OPER_OPER_NO_MATCH
-	Nie znaleziono pasujących wpisów na liście operatorów serwisów.
+	Nie znaleziono pasujących wpisów na liście operatorów usług.
 
 OPER_OPER_DELETED
-	%s usunięto z listy operatorów serwisów.
+	%s usunięto z listy operatorów usług.
 
 OPER_OPER_DELETED_ONE
-	Usunięto 1 wpis z listy operatorów serwisów.
+	Usunięto 1 wpis z listy operatorów usług.
 
 OPER_OPER_DELETED_SEVERAL
-	Usunięto %d wpisy(ów) z listy operatorów serwisów.
+	Usunięto %d wpisy(ów) z listy operatorów usług.
 
 OPER_OPER_LIST_EMPTY
-	Lista operatorów serwisów jest pusta.
+	Lista operatorów usług jest pusta.
 
 OPER_OPER_LIST_HEADER
-	Lista operatorów serwisów:
+	Lista operatorów usług:
 	  Nr    Nick
 
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 
 OPER_OPER_CLEAR
-	Lista operatorów serwisów została wyczyszczona.
+	Lista operatorów usług została wyczyszczona.
 
 OPER_OPER_MOVED
-	%s przeniesiono na listę operatorów serwisów.
+	%s przeniesiono na listę operatorów usług.
 
 # AKILL responses
 OPER_AKILL_SYNTAX
@@ -3788,41 +3789,41 @@ OPER_SET_IGNORE_ERROR
 	Parametrem opcji IGNORE musi być ON albo OFF.
 
 OPER_SET_READONLY_ON
-	Serwisy są teraz w trybie tylko-do-odczytu.
+	Usługi są teraz w trybie tylko-do-odczytu.
 
 OPER_SET_READONLY_OFF
-	Serwisy są teraz w trybie odczyt-zapis.
+	Usługi są teraz w trybie odczyt-zapis.
 
 OPER_SET_READONLY_ERROR
 	Parametrem opcji READONLY musi być ON albo OFF.
 
 OPER_SET_LOGCHAN_ON
-	Serwisy będą wysyłać wiadomości na kanał %s.
+	Usługi będą wysyłać wiadomości na kanał %s.
 
 OPER_SET_LOGCHAN_OFF
-	Serwisy nie będą już dłużej wysyłać wiadomości na kanał.
+	Usługi nie będą już dłużej wysyłać wiadomości na kanał.
 
 OPER_SET_LOGCHAN_ERROR
 	Parametrem dla LOGCHAN musi być ON albo OFF.
 	Ponadto kanał logowania musi być zdefiniowany w pliku konfiguracyjnym.
 
 OPER_SET_DEBUG_ON
-	Serwisy są teraz w trybie debugowania.
+	Usługi są teraz w trybie debugowania.
 
 OPER_SET_DEBUG_OFF
-	Serwisy nie są już w trybie debugowania.
+	Usługi nie są już w trybie debugowania.
 
 OPER_SET_DEBUG_LEVEL
-	Serwisy są teraz w trybie debugowania (poziom %d).
+	Usługi są teraz w trybie debugowania (poziom %d).
 
 OPER_SET_DEBUG_ERROR
 	Parametrem opcji DEBUG musi być ON, OFF albo liczba dodatnia.
 
 OPER_SET_NOEXPIRE_ON
-	Serwisy nie są już w trybie wygasania.
+	Usługi nie są już w trybie wygasania.
 
 OPER_SET_NOEXPIRE_OFF
-	Serwisy są teraz w trybie wygasania.
+	Usługi są teraz w trybie wygasania.
 
 OPER_SET_NOEXPIRE_ERROR
 	Parametrem opcji NOEXPIRE musi być ON albo OFF.
@@ -3870,7 +3871,7 @@ OPER_JUPE_HOST_ERROR
 	Proszę użyć prawidłowej nazwy serwera.
 
 OPER_JUPE_INVALID_SERVER
-	Nie można wykluczyć samych serwisów lub uplinka serwisów.
+	Nie można wykluczyć samych usług lub serwera nadrzędnego.
 
 # RAW responses
 OPER_RAW_SYNTAX
@@ -3882,12 +3883,12 @@ OPER_UPDATING
 
 # RELOAD responses
 OPER_RELOAD
-	Plik konfiguracyjny serwisów został przeładowany.
+	Plik konfiguracyjny usług został przeładowany.
 
 # RESTART responses
 OPER_CANNOT_RESTART
 	Nie zdefiniowano SERVICES_BIN; nie mogę restartować.
-	Uruchom ponownie skrypt configure i przekompiluj serwisy, aby włączyć komendę RESTART.
+	Uruchom ponownie skrypt configure i przekompiluj usługi, aby włączyć komendę RESTART.
 
 # IGNORE respondes
 OPER_IGNORE_SYNTAX
@@ -3906,7 +3907,7 @@ OPER_IGNORE_DEL_DONE
 	Nick %s nie będzie ignorowany.
 
 OPER_IGNORE_LIST
-	Lista ignorowanych przez serwisy:
+	Lista ignorowanych przez usługi:
 
 OPER_IGNORE_LIST_NOMATCH
 	%s nie znaleziono na liście ignorowanych.
@@ -3986,13 +3987,13 @@ OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 
 OPER_DEFCON_DENIED
-	Serwisy są w trybie defcon, spróbuj ponownie później.
+	Usługi są w trybie defcon, spróbuj ponownie później.
 
 OPER_DEFCON_NO_CONF
 	System defcon musi być włączony w pliku konfiguracyjnym.
 
 OPER_DEFCON_CHANGED
-	Serwisy są teraz w systemie DEFCON %d
+	Usługi są teraz w systemie DEFCON %d
 
 OPER_DEFCON_WALL
 	%s zmieniono poziom DEFCON na %d
@@ -4171,7 +4172,7 @@ OPER_HELP_EXCEPTION
 	          EXCEPTION LIST [maska | lista]
 	          EXCEPTION VIEW [maska | lista]
 	
-	Pozwala administratorom serwisów na zarządzanie listą limitów
+	Pozwala administratorom usług na zarządzanie listą limitów
 	sesji dla poszczególnych hostów - np. serwery shell mogą
 	mieć większą liczbę połączeń. Kiedy limit połączeń zostanie
 	osiągnięty każdy nowy użytkownik z takiego hosta będzie
@@ -4195,13 +4196,13 @@ OPER_HELP_EXCEPTION
 	
 	Należy pamiętać, że podłączający się klient będzie używał
 	pierwszego wyjątku o pasującej masce. Duża lista wyjątków i
-	zbyt ogólne maski powodują pogorszenie wydajności serwisów.
+	zbyt ogólne maski powodują pogorszenie wydajności usług.
 
 OPER_HELP_SESSION
 	Składnia: SESSION LIST minimum
 	          SESSION VIEW host
 	
-	Pozwala administratorom serwisów na listowanie sesji.
+	Pozwala administratorom usług na listowanie sesji.
 	
 	SESSION LIST listuje hosty z przynajmniej minimum sesjami.
 	Minimum musi być większe od 1, aby zapobiec przypadkowemu
@@ -4216,13 +4217,13 @@ OPER_HELP_SESSION
 OPER_HELP_STAFF
 	Składnia: STAFF
 	
-	Wyświetla nicki obsługi serwisów, poziom i status online.
+	Wyświetla nicki obsługi usług, poziom i status online.
 
 OPER_HELP_DEFCON
 	Składnia: DEFCON [1|2|3|4|5]
 	
 	System defcon umożliwia wprowadzanie wcześniej
-	zdefiniowanych ograniczeń dla serwisów podczas
+	zdefiniowanych ograniczeń dla usług podczas
 	próby ataku na sieć.
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
 	* Wyłącza rejestrowanie kanałów
@@ -4394,9 +4395,9 @@ NEWS_HELP_LOGON
 	przyłączeniu użytkownika do sieci. Jeśli zdefniowanych
 	wiadomości jest więcej tylko najnowsze %s zostanie
 	wysłanych (aby zapobiec floodowaniu). Wartość NewsCount
-	może zostać zmieniona w pliku konfiguracyjym serwisów.
+	może zostać zmieniona w pliku konfiguracyjym usług.
 	
-	LOGONNEWS may only be used by Services admins.
+	LOGONNEWS może być używane tylko przez administratorów usług. 
 
 NEWS_HELP_OPER
 	Składnia: OPERNEWS ADD tekst
@@ -4407,9 +4408,9 @@ NEWS_HELP_OPER
 	wykonaniu polecenia /OPER. Jeśli zdefiniowanych
 	wiadomości jest więcej tylko najnowsze %s zostanie
 	wysłanych (aby zapobiec floodowaniu). Wartość NewsCount
-	może zostać zmieniona w pliku konfiguracyjym serwisów.
+	może zostać zmieniona w pliku konfiguracyjym usług.
 	
-	OPERNEWS may only be used by Services admins. 
+	OPERNEWS może być używane tylko przez administratorów usług. 
 
 NEWS_HELP_RANDOM
 	Składnia: RANDOMNEWS ADD tekst
@@ -4420,7 +4421,7 @@ NEWS_HELP_RANDOM
 	Po połączeniu z siecią użytkownik otrzyma dokładnie
 	jedną wylosowaną z tej listy wiadomość.
 	
-	RANDOMNEWS may only be used by Services admins. 
+	RANDOMNEWS może być używane tylko przez administratorów usług. 
 
 ###########################################################################
 #
@@ -4428,8 +4429,8 @@ NEWS_HELP_RANDOM
 #
 ###########################################################################
 HELP_HELP
-	%S jest serwisem udzielającym informacji
-	na temat innych serwisów. Dostępne tematy pomocy:
+	%S jest usługą udzielającą informacji
+	na temat innych usług. Dostępne tematy pomocy:
 	
 	
 	%R%s HELP
@@ -4443,7 +4444,7 @@ HELP_HELP
 
 HELP_HELP_BOT
 	%R%s HELP
-	     stawianie serwisowego bota na kanale
+	     stawianie bota usług na kanale
 
 HELP_HELP_HOST
 	%R%s HELP
@@ -4544,7 +4545,7 @@ NICK_HELP
 
 NICK_HELP_FOOTER
 	
-	UWAGA: Ten serwis ma na celu umożliwienie identyfikacji
+	UWAGA: Ta usługa ma na celu umożliwienie identyfikacji
 	użytkowników. NIE służy do kradzieży nicków czy innych
 	złośliwych akcji. Nadużycia będą skutkowały co najmniej
 	utratą zarejestrowanego nicka.
@@ -4666,7 +4667,7 @@ NICK_HELP_ACCESS
 	Lista dostępu określa hosty użytkowników mogących
 	używać twojego nicka. Jeśli chcesz używać nicka z
 	innego hosta musisz się najpierw zidentyfikować
-	w serwisie %S komendą IDENTIFY.
+	w usłudze %S komendą IDENTIFY.
 	
 	Przykłady:
 	
@@ -4687,7 +4688,7 @@ NICK_HELP_SET
 	
 	    DISPLAY    Ustawia nick reprezentujący grupę nicków
 	    PASSWORD   Ustawia hasło do nicka
-	    LANGUAGE   Ustawia język w którym serwisy będą
+	    LANGUAGE   Ustawia język w którym usługi będą
 	               wysyłały komunikaty
 	    URL        Przypisuje adres www do nicka
 	    EMAIL      Przypisuje adres e-mail do nicka
@@ -4698,7 +4699,7 @@ NICK_HELP_SET
 	    PRIVATE    Zapobiega wyświetlaniu nicka po wydaniu
 	               polecenia: %R%S LIST
 	    HIDE       Ukrywa poszczególne informacje o nicku
-	    MSG        Zmienia sposób komunikacji serwisów
+	    MSG        Zmienia sposób komunikacji usług
 	    AUTOOP     Włącza lub wyłącza automatyczne opowanie
 	
 	Aby użyć tej komendy musisz się zidentyfikować z użyciem
@@ -4712,7 +4713,7 @@ NICK_HELP_SET_DISPLAY
 	Składnia: SET DISPLAY nowa-nazwa
 	
 	Zmienia nazwę reprezentującą Twoją grupę nicków w
-	serwisach na nową. Nazwa MUSI być jednym z nicków
+	usługach na nową. Nazwa MUSI być jednym z nicków
 	należących do Twojej grupy.
 
 NICK_HELP_SET_PASSWORD
@@ -4723,7 +4724,7 @@ NICK_HELP_SET_PASSWORD
 NICK_HELP_SET_LANGUAGE
 	Składnia: SET LANGUAGE numer
 	
-	Zmienia język jakiego używają serwisy odpowiadając 
+	Zmienia język jakiego używają usługi odpowiadając 
 	Tobie (czyli przykładowo kiedy odpowiadają na 
 	wysłaną przez Ciebie komendę). Numer może być 
 	wybrany z poniższej listy obsługiwanych języków:
@@ -4800,17 +4801,17 @@ NICK_HELP_SET_HIDE
 	Składnia: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
 	To polecenie pozwala na ukrycie części informacji, które
-	są wyświetlane przez polecenie INFO serwisu %s.
+	są wyświetlane przez polecenie INFO usługi %s.
 	Pierwszy argument określa ukrywaną informację:
 	EMAIL - adres e-mail, USERMASK - ostatnio używany host,
 	QUIT - ostatnia wiadomość pożegnalna, STATUS - status
-	dostępu do serwisów. Drugi argument określa, czy dana 
+	dostępu do usług. Drugi argument określa, czy dana 
 	informacja będzie pokazywana (OFF), czy ukrywana (ON).
 NICK_HELP_SET_MSG
 	Składnia: SET MSG {ON | OFF}
 	
-	Pozwala wybrać sposób w jaki serwisy będą pisać do
-	Ciebie. Kiedy ta opcja jest włączona serwisy będą
+	Pozwala wybrać sposób w jaki usługi będą pisać do
+	Ciebie. Kiedy ta opcja jest włączona usługi będą
 	wysyłać wiadomości prywatne (query), w przeciwnym
 	wypadku będą wysyłać powiadomienia (notice).
 
@@ -4828,7 +4829,7 @@ NICK_HELP_SASET
 	
 	    DISPLAY    Ustawia nick reprezentujący grupę nicków
 	    PASSWORD   Ustawia hasło do nicka
-	    LANGUAGE   Ustawia język w którym serwisy będą
+	    LANGUAGE   Ustawia język w którym usługi będą
 	               wysyłały komunikaty
 	    URL        Przypisuje adres www do nicka
 	    EMAIL      Przypisuje adres e-mail do nicka
@@ -4839,7 +4840,7 @@ NICK_HELP_SASET
 	    PRIVATE    Zapobiega wyświetlaniu nicka po wydaniu
 	               polecenia: %R%S LIST
 	    HIDE       Ukrywa poszczególne informacje o nicku
-	    MSG        Zmienia sposób komunikacji serwisów
+	    MSG        Zmienia sposób komunikacji usług
 	    AUTOOP     Włącza lub wyłącza automatyczne opowanie
 	    NOEXPIRE   Zapobiega wygaśnięciu nicka
 	
@@ -4926,18 +4927,18 @@ NICK_HELP_SASET_HIDE
 	Składnia: SASET nick HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
 	To polecenie pozwala na ukrycie części informacji, które
-	są wyświetlane przez polecenie INFO serwisu %s.
+	są wyświetlane przez polecenie INFO usługi %s.
 	Pierwszy argument określa ukrywaną informację:
 	EMAIL - adres e-mail, USERMASK - ostatnio używany host,
 	QUIT - ostatnia wiadomość pożegnalna, STATUS - status
-	dostępu do serwisów. Drugi argument określa, czy dana 
+	dostępu do usług. Drugi argument określa, czy dana 
 	informacja będzie pokazywana (OFF), czy ukrywana (ON).
 NICK_HELP_SASET_MSG
 	Składnia: SASET nick MSG {ON | OFF}
 	
-	Pozwala wybrać sposób w jaki serwisy będą pisać do
+	Pozwala wybrać sposób w jaki usługi będą pisać do
 	wskazanego użytkownika. Kiedy ta opcja jest
-	włączona serwisy będą wysyłać wiadomości prywatne
+	włączona usługi będą wysyłać wiadomości prywatne
 	w przeciwnym wypadku będą wysyłać powiadomienia.
 
 NICK_HELP_SASET_NOEXPIRE
@@ -4955,7 +4956,7 @@ NICK_HELP_SASET_AUTOOP
 NICK_HELP_SASET_LANGUAGE
 	Składnia: SASET nick LANGUAGE numer
 	
-	Zmienia język jakiego używają serwisy komunikując 
+	Zmienia język jakiego używają usługi komunikując 
 	się ze wskazaną osobą. Numer musi być wybrany z
 	listy obsługiwanych języków, która jest dostępna
 	po wydaniu polecenia %R%S HELP SET LANGUAGE.
@@ -4970,7 +4971,7 @@ NICK_HELP_RECOVER
 	Użycie tej komendy powoduje wprowadzenie sztucznego
 	użytkownika przez %S o nicku, który chcesz odzyskać.
 	Spowoduje to odłączenie użytkownika, który go aktualnie
-	używa. Serwis pozostanie przez minutę online, aby
+	używa. Usługa pozostanie przez minutę online, aby
 	uniemożliwić natychmiastowe połączenie z serwerem
 	na tym samym nicku. Po tym czasie możesz zająć nick.
 	Jeśli nie chcesz czekać minuty możesz użyć polecenia
@@ -5110,7 +5111,7 @@ NICK_HELP_CONFIRM
 	Składnia: CONFIRM kod
 	
 	To polecenie umożliwia zakończenie procesu rejestracji.
-	Aby nick został zarejestrowany w serwisie %S należy
+	Aby nick został zarejestrowany w usłudze %S należy
 	wywołać to polecenie z kodem, który został wysłany na
 	adres e-mail podany podczas pierwszego kroku rejestracji.
 	Aby się dowiedzieć więcej wpisz %R%S HELP REGISTER
@@ -5123,7 +5124,7 @@ NICK_HELP_RESEND
 
 NICK_SERVADMIN_HELP
 	
-	Administratorzy serwisów mogą usunąć każdy nick
+	Administratorzy usług mogą usunąć każdy nick
 	bez potrzeby identyfikacji jako jego właściciele
 	oraz przeglądać listę dostępu do każdego nicka
 	(%R%S ACCESS LIST nick).
@@ -5135,16 +5136,16 @@ NICK_SERVADMIN_HELP_LOGOUT
 	komendy IDENTIFY - nie będziesz rozpoznawany jako
 	właściciel nicka.
 	
-	Administrator serwisów może podać jako parametr nick
+	Administrator usług może podać jako parametr nick
 	użytkownika, który ma zostać wylogowany. Parametr
-	REVALIDATE powoduje informowanie przez serwisy
+	REVALIDATE powoduje informowanie przez usługi
 	użytkownika o potrzebie ponownej identyfikacji.
 
 NICK_SERVADMIN_HELP_DROP
 	Składnia: DROP [nick]
 	
 	Komenda wywołana bez parametru spowoduje usunięcie
-	Twojego nicka z bazy serwisu %S.
+	Twojego nicka z bazy usługi %S.
 	
 	Komenda użyta z parametrem usuwa wskazany nick.
 	Każdy użytkownik może usuwać nicki znajdujące się
@@ -5153,7 +5154,7 @@ NICK_SERVADMIN_HELP_DROP
 
 NICK_SERVADMIN_HELP_INFO
 	
-	Administratorzy serwisów mogą używać parametru
+	Administratorzy usług mogą używać parametru
 	ALL dla każdego nicka.
 
 NICK_SERVADMIN_HELP_LIST
@@ -5161,11 +5162,11 @@ NICK_SERVADMIN_HELP_LIST
 	
 	Listuje wszystkie zarejestrowane nicki pasujące
 	do podanego wzorca w postaci nick!ident@host.
-	Administratorzy serwisów mogą zobaczyć nicki z
+	Administratorzy usług mogą zobaczyć nicki z
 	ustawioną opcją PRIVATE, a przy nickach z opcją
 	NOEXPIRE zobaczą dodany do nich wykrzyknik.
 	
-	Administratorzy serwisów mogą także podać parametry:
+	Administratorzy usług mogą także podać parametry:
 	FORBIDDEN, SUSPENDED, NOEXPIRE i UNCONFIRMED, które
 	ograniczą listę wyświetlanych nicków do tych, które
 	spełniają podane warunki. Jeśli zostanie podanych
@@ -5194,7 +5195,7 @@ NICK_SERVADMIN_HELP_ALIST
 	co ograniczy ilość pokazywanych wpisów.
 	
 	Parametr nick jest przeznaczony tylko dla
-	administratorów serwisów.
+	administratorów usług.
 
 NICK_SERVADMIN_HELP_GLIST
 	Składnia: GLIST [nick]
@@ -5202,7 +5203,7 @@ NICK_SERVADMIN_HELP_GLIST
 	Polecenie wywołane bez parametrów listuje wszystkie
 	nicki należące do grupy wydającego polecenie.
 	
-	Administratorzy serwisów mogą jako parametr podać
+	Administratorzy usług mogą jako parametr podać
 	nick osoby, której nicki chcą sprawdzić.
 
 NICK_SERVADMIN_HELP_GETPASS
@@ -5405,7 +5406,7 @@ CHAN_HELP_REGISTER
 CHAN_HELP_IDENTIFY
 	Składnia: IDENTIFY kanał hasło
 	
-	Autoryzuje użytkownika w serwisie %S jako właściciela
+	Autoryzuje użytkownika w usłudze %S jako właściciela
 	wskazanego kanału. Wiele ważnych komend wymaga dokonania
 	identyfikacji przed ich użyciem. Hasłem jest to samo
 	hasło, którego użyto przy komendzie REGISTER.
@@ -5443,7 +5444,7 @@ CHAN_HELP_SET
 	    EMAIL         Przypisuje adres e-mail do kanału
 	    ENTRYMSG      Ustawia wiadomość, która będzie wysyłana
 	                  do użytkowników wchodzących na kanał
-	    BANTYPE       Ustawia sposób banowania przez serwisy
+	    BANTYPE       Ustawia sposób banowania przez usługi
 	    MLOCK         Blokuje zdejmowanie lub zakładanie flag
 	    KEEPTOPIC     Zapamiętuje temat kiedy kanał jest pusty
 	    OPNOTICE      Wysyła powiadomienie kiedy zostają użyte
@@ -5511,7 +5512,7 @@ CHAN_HELP_SET_ENTRYMSG
 CHAN_HELP_SET_BANTYPE
 	Składnia: SET kanał BANTYPE typ
 	
-	Ustala typ banów zakładanych przez serwisy.
+	Ustala typ banów zakładanych przez usługi.
 	
 	Typ banów oznaczany jest numerami od 0 do 3,
 	poszczególne numery oznaczają:
@@ -5580,7 +5581,7 @@ CHAN_HELP_SET_PEACE
 	Włączenie tej opcji uniemożliwia wykopanie,
 	banowanie lub odebranie uprawnień użytkownikowi,
 	który ma poziom uprawnień wyższy lub równy
-	korzystając z poleceń serwisu %S.
+	korzystając z poleceń usługi %S.
 
 CHAN_HELP_SET_PRIVATE
 	Składnia: SET kanał PRIVATE {ON | OFF}
@@ -5604,7 +5605,7 @@ CHAN_HELP_SET_SECURE
 	Włącza lub wyłącza opcje bezpieczeństwa kanału.
 	Po włączeniu tej opcji tylko zarejestrowani
 	użytkownicy, którzy się zidentyfikowali będą
-	otrzymywać od serwisu %S uprawnienia
+	otrzymywać od usługi %S uprawnienia
 	wynikające z wpisów na liście dostępu.
 
 CHAN_HELP_SET_SECUREOPS
@@ -6206,7 +6207,7 @@ CHAN_HELP_BAN
 CHAN_HELP_TOPIC
 	Składnia: TOPIC kanał [temat]
 	
-	Wymusza na serwisie %S zmianę tematu na kanale.
+	Wymusza na usłudze %S zmianę tematu na kanale.
 	Pominięcie tematu powoduje usunięcie istniejącego.
 	Ta komenda jest użyteczna w połączeniu z ustawieniem
 	TOPICLOCK. Aby uzyskać więcej informacji wpisz
@@ -6257,7 +6258,7 @@ CHAN_HELP_SENDPASS
 
 CHAN_SERVADMIN_HELP
 	
-	Administratorzy serwisów mogą usunąć każdy kanał
+	Administratorzy usług mogą usunąć każdy kanał
 	bez potrzeby identyfikacji jako jego właściciele.
 	Mogą przeglądać listę dostępu każdego kanału,
 	listę AKICK, ustawienia poziomów dostępu itd.
@@ -6272,19 +6273,19 @@ CHAN_SERVADMIN_HELP_LOGOUT
 	Każdy może wylogować siebie, natomiast właściciel kanału
 	może wylogować każdego.
 	
-	Administrator serwisów może wylogować dowolną osobę
+	Administrator usług może wylogować dowolną osobę
 	z dowolnego kanału. Pominięcie nicka powoduje wylogowanie
 	wszystkich zidentyfikowanych osób.
 
 CHAN_SERVADMIN_HELP_DROP
 	Składnia: DROP kanał
 	
-	Usuwa wskazany kanał. Tylko administratorzy serwisów
+	Usuwa wskazany kanał. Tylko administratorzy usług
 	mogą usunąć kanał, którego nie są właścicielami.
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Administratorzy serwisów mogą ustawić kanałowi 
+	Administratorzy usług mogą ustawić kanałowi 
 	opcję NOEXPIRE, która zapobiega wygaśnięciu
 	kanału jeśli nie jest on używany.
 
@@ -6296,17 +6297,17 @@ CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Administratorzy serwisów zawsze mogą używać parametru ALL.
+	Administratorzy usług zawsze mogą używać parametru ALL.
 
 CHAN_SERVADMIN_HELP_LIST
 	Składnia: LIST wzorzec [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 
 	Listuje kanały o nazwie pasującej do podanego wzorca
 	(kanały z opcją PRIVATE będą pokazywane jedynie
-	administratorom serwisów). Kanały z ustawioną opcją
+	administratorom usług). Kanały z ustawioną opcją
 	NOEXPIRE będą miały przy nazwie dodany znak !.
 
-	Administratorzy serwisów mogą także podać parametry:
+	Administratorzy usług mogą także podać parametry:
 	FORBIDDEN, SUSPENDED i NOEXPIRE, które ograniczą listę
 	wyświetlanych kanałów do tych, które spełniają podane 
 	warunki. Jeśli zostanie podane więcej warunków
@@ -6401,7 +6402,7 @@ MEMO_HELP_HEADER
 	%S umożliwia wysyłanie krótkich wiadomości
 	do innych użytkowników (niezależnie od tego czy
 	są oni w danej chwili na IRCu) lub do kanałów(*).
-	Aby móc używać tego serwisu nadawca i odbiorca
+	Aby móc używać tej usługi nadawca i odbiorca
 	(kanał lub nick) muszą być zarejestrowani.
 	Poniższe komendy pozwalają na wysyłanie i
 	odbieranie wiadomości, aby ich użyć wpisz:
@@ -6422,7 +6423,7 @@ MEMO_HELP_FOOTER
 
 	(*) Domyślnie każdy użytkownik mający przynajmniej 10.
 	    poziom dostępu na kanale może czytać wiadomości,
-	    ale można to zmienić komendą LEVELS serwisu %s.
+	    ale można to zmienić komendą LEVELS usługi %s.
 
 MEMO_HELP_SEND
 	Składnia: SEND {nick | kanał} treść-wiadomości
@@ -6544,7 +6545,7 @@ MEMO_SERVADMIN_HELP_SET_LIMIT
 	limitu przez użytkownika.
 
 	To użycie polecenia SET LIMIT jest dostępne dla 
-	administratorów serwisów. Pozostali użytkownicy 
+	administratorów usług. Pozostali użytkownicy 
 	mogą jedynie modyfikować własny limit lub kanału na
 	którym mają do tego uprawnienia. Nie mogą wyłączyć 
 	limitu, a także ustalić jego wartości powyżej %d 
@@ -6562,7 +6563,7 @@ MEMO_SERVADMIN_HELP_INFO
 	Jeśli zostanie wskazany kanał, pokazane zostaną te 
 	same informacje w odniesieniu do tego kanału.
 	
-	Administratorzy serwisów mogą obejrzeć informacje 
+	Administratorzy usług mogą obejrzeć informacje 
 	dot. dowolnych użytkowników podając parametr nick.
 	
 
@@ -6570,7 +6571,7 @@ MEMO_HELP_STAFF
 	Składnia: STAFF treść-wiadomości
 	
 	Wysyła wiadomość o podanej treści do wszystkich
-	operatorów i administratorów serwisów. Użytkownicy
+	operatorów i administratorów usług. Użytkownicy
 	wpisani jednocześnie na kilka list otrzymają
 	wiadomości kilka razy.
 
@@ -6604,16 +6605,16 @@ OPER_HELP_CMD_GLOBAL
 	    GLOBAL      Wysyła wiadomość do wszystkich użytkowników
 
 OPER_HELP_CMD_STATS
-	    STATS       Pokazuje informacje o serwisach i sieci
+	    STATS       Pokazuje informacje o usługach i sieci
 
 OPER_HELP_CMD_OPER
-	    OPER        Zarządza listą operatorów serwisów
+	    OPER        Zarządza listą operatorów usług
 
 OPER_HELP_CMD_ADMIN
-	    ADMIN       Zarządza listą administratorów serwisów
+	    ADMIN       Zarządza listą administratorów usług
 
 OPER_HELP_CMD_STAFF
-	    STAFF       Wyświetla ekipę serwisów oraz jej status
+	    STAFF       Wyświetla ekipę usług oraz jej status
 
 OPER_HELP_CMD_MODE
 	    MODE        Zmienia flagi kanału
@@ -6667,10 +6668,10 @@ OPER_HELP_CMD_JUPE
 	    JUPE        Blokuje podłączanie podanego serwera
 
 OPER_HELP_CMD_IGNORE
-	    IGNORE      Zarządza listą ignorowanych przez serwisy
+	    IGNORE      Zarządza listą ignorowanych przez usługi
 
 OPER_HELP_CMD_SET
-	    SET         Ustawia różne globalne opcje serwisów
+	    SET         Ustawia różne globalne opcje usług
 
 OPER_HELP_CMD_RELOAD
 	    RELOAD      Ładuje na nowo plik konfiguracyjny
@@ -6679,13 +6680,13 @@ OPER_HELP_CMD_UPDATE
 	    UPDATE      Wymusza natychmiastowy zapis baz na dysku
 
 OPER_HELP_CMD_RESTART
-	    RESTART     Zapisuje bazy i restartuje serwisy
+	    RESTART     Zapisuje bazy i restartuje usługi
 
 OPER_HELP_CMD_QUIT
-	    QUIT        Wyłącza serwisy bez zapisywania baz
+	    QUIT        Wyłącza usługi bez zapisywania baz
 
 OPER_HELP_CMD_SHUTDOWN
-	    SHUTDOWN    Wyłącza serwisy z zapisaniem baz
+	    SHUTDOWN    Wyłącza usługi z zapisaniem baz
 
 OPER_HELP_CMD_DEFCON
 	    DEFCON      Modyfikuje poziom systemu DefCon
@@ -6731,8 +6732,8 @@ OPER_HELP_STATS
 	
 	Polecenie bez parametrów wyświetla bieżącą liczbę 
 	użytkowników oraz operatorów podłączonych do sieci (nie
-	licząc serwisów), największą liczbę użytkowników licząc od 
-	startu serwisów oraz czas pracy serwisów.
+	licząc usług), największą liczbę użytkowników licząc od 
+	startu usług oraz czas pracy usług.
 	
 	Parametr AKILL wyświetla informacje o rozmiarze listy
 	AKILL oraz domyślnym czasie wygasania wpisów.
@@ -6741,11 +6742,11 @@ OPER_HELP_STATS
 	podłączonych do sieci.
 	
 	Parametr MEMORY wyświetla informacje o zużyciu pamięci
-	przez serwisów. Użycie tego polecenia może chwilowo
-	zawiesić działanie serwisów na dużych sieciach.
+	przez usług. Użycie tego polecenia może chwilowo
+	zawiesić działanie usług na dużych sieciach.
 	
 	Parametr UPLINK wyświetla informacje o serwerze, do 
-	którego serwisy są bezpośrednio podłączone.
+	którego usługi są bezpośrednio podłączone.
 	
 	Parametr ALL wyświetla wszystkie dostępne informacje.
 	
@@ -6757,10 +6758,10 @@ OPER_HELP_OPER
 	          OPER LIST [maska | lista]
 	          OPER CLEAR
 	
-	Pozwala głównym administratorom serwisów na zarządzanie
-	listą operatorów serwisów. Osoby na takiej liście po 
+	Pozwala głównym administratorom usług na zarządzanie
+	listą operatorów usług. Osoby na takiej liście po 
 	identyfikacji u %s będą mogły korzystać z poleceń
-	zarezerwowanych dla operatorów serwisów.
+	zarezerwowanych dla operatorów usług.
 	
 	OPER ADD dodaje wskazany nick na listę operatorów.
 	
@@ -6768,7 +6769,7 @@ OPER_HELP_OPER
 	Jako argument przyjmuje nick, numer wpisu lub
 	listę (przykład poniżej dla polecenia LIST).
 	
-	OPER LIST wyświetla listę operatorów serwisów. Jeśli
+	OPER LIST wyświetla listę operatorów usług. Jeśli
 	zostanie podana maska tylko pasujące wpisy zostaną
 	pokazane. Można także użyć listy, przykład:
 
@@ -6785,10 +6786,10 @@ OPER_HELP_ADMIN
 	          ADMIN LIST [maska | lista]
 	          ADMIN CLEAR
 	
-	Pozwala głównym administratorom serwisów na zarządzanie
-	listą administratorów serwisów. Osoby na takiej liście po 
+	Pozwala głównym administratorom usług na zarządzanie
+	listą administratorów usług. Osoby na takiej liście po 
 	identyfikacji u %s będą mogły korzystać z poleceń
-	zarezerwowanych dla administratorów serwisów.
+	zarezerwowanych dla administratorów usług.
 	
 	ADMIN ADD dodaje wskazany nick na listę administratorów.
 	
@@ -6796,7 +6797,7 @@ OPER_HELP_ADMIN
 	Jako argument przyjmuje nick, numer wpisu lub
 	listę (przykład poniżej dla polecenia LIST).
 
-	ADMIN LIST wyświetla listę administratorów serwisów. Jeśli
+	ADMIN LIST wyświetla listę administratorów usług. Jeśli
 	zostanie podana maska tylko pasujące wpisy zostaną
 	pokazane. Można także użyć listy, przykład:
 
@@ -6810,7 +6811,7 @@ OPER_HELP_ADMIN
 OPER_HELP_IGNORE
 	Składnia: IGNORE {ADD|DEL|LIST|CLEAR} [czas] [nick | maska]
 	
-	Pozwala administratorom serwisów na włączenie ignorowania
+	Pozwala administratorom usług na włączenie ignorowania
 	osób na podstawie nicka lub maski przez określony czas lub
 	do najbliższego restartu. Podając czas można stosować
 	jednostki: s dla sekund, m dla minut, h dla godzin
@@ -6825,7 +6826,7 @@ OPER_HELP_IGNORE
 OPER_HELP_MODE
 	Składnia: MODE kanał flagi
 	
-	Pozwala operatorom serwisów na zmianę flag dla wskazanego
+	Pozwala operatorom usług na zmianę flag dla wskazanego
 	kanału. Parametry są identyczne jak dla komendy /MODE.
 
 OPER_HELP_UMODE
@@ -6872,9 +6873,9 @@ OPER_HELP_AKILL
 	          AKILL VIEW [maska | lista]
 	          AKILL CLEAR
 	
-	Pozwala operatorom serwisów na zarządzanie listą AKILL.
+	Pozwala operatorom usług na zarządzanie listą AKILL.
 	Jeśli użytkownik pasujący do maski na liście podłączy się
-	do sieci serwisy natychmiast go rozłączą oraz założą K-line
+	do sieci usługi natychmiast go rozłączą oraz założą K-line
 	na jego host.
 	
 	AKILL ADD dodaje maskę (w formacie user@host lub ip)
@@ -6913,9 +6914,9 @@ OPER_HELP_SGLINE
 	          SGLINE VIEW [maska | lista]
 	          SGLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarządzanie listą SGLINE.
+	Pozwala operatorom usług na zarządzanie listą SGLINE.
 	Jeśli użytkownik z realname pasującym do maski na liście
-	podłączy się do sieci serwisy natychmiast go rozłączą.
+	podłączy się do sieci usługi natychmiast go rozłączą.
 	
 	SGLINE ADD dodaje wskazaną maskę realname oraz 
 	powód (który musi zostać podany) na listę SGLINE.
@@ -6954,11 +6955,11 @@ OPER_HELP_SQLINE
 	          SQLINE VIEW [maska | lista]
 	          SQLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarządzanie listą SQLINE.
+	Pozwala operatorom usług na zarządzanie listą SQLINE.
 	Jeśli użytkownik z nickiem pasującym do maski na liście
-	podłączy się do sieci serwisy natychmiast go rozłączą.
+	podłączy się do sieci usługi natychmiast go rozłączą.
 	
-	Jeśli pierwszym znakiem maski jest # serwisy zablokują
+	Jeśli pierwszym znakiem maski jest # usługi zablokują
 	możliwość korzystania z kanałów o nazwie pasującej do
 	niej (o ile IRCd obsługuje taki rodzaj blokady).
 	
@@ -6997,9 +6998,9 @@ OPER_HELP_SZLINE
 	          SZLINE VIEW [maska | lista]
 	          SZLINE CLEAR
 	
-	Pozwala operatorom serwisów na zarządzanie listą SZLINE.
+	Pozwala operatorom usług na zarządzanie listą SZLINE.
 	Jeśli użytkownik z adresem IP pasującym do maski na liście
-	podłączy się do sieci serwisy natychmiast go rozłączą.
+	podłączy się do sieci usługi natychmiast go rozłączą.
 	
 	SZLINE ADD dodaje wskazaną maskę oraz powód
 	(który musi zostać podany) na listę SZLINE.
@@ -7032,7 +7033,7 @@ OPER_HELP_SZLINE
 OPER_HELP_SET
 	Składnia: SET opcja wartość
 	
-	Ustawia różne globalne ustawienia serwisów.
+	Ustawia różne globalne ustawienia usług.
 	Obecnie zdefiniowane są następujące ustawienia:
 	    READONLY   Włącza tryb tylko-do-odczytu lub odczyt-zapis
 	    LOGCHAN    Włącza raportowanie na kanał
@@ -7048,12 +7049,12 @@ OPER_HELP_SET_READONLY
 	
 	Włącza lub wyłącza tryb tylko-do-odczytu. Włączenie tej
 	opcji powoduje zablokowanie wykonywania zmian w ustawieniach
-	serwisów, dotyczy to list dostępu kanału oraz nicka itd.
-	Operatorzy serwisów z odpowiednimi uprawnieniami będą
+	usług, dotyczy to list dostępu kanału oraz nicka itd.
+	Operatorzy usług z odpowiednimi uprawnieniami będą
 	mogli modyfikować listę AKILL, usuwać lub blokować nicki
 	oraz kanały, ale żadne z tych zmian nie zostaną zapisane
 	dopóki tryb tylko-do-odczytu nie zostanie wyłączony przed
-	restartem lub wyłączeniem serwisów.
+	restartem lub wyłączeniem usług.
 	
 	Ta opcja ma taki sam efekt jak argument linii poleceń -readonly.
 
@@ -7072,7 +7073,7 @@ OPER_HELP_SET_DEBUG
 	Składnia: SET DEBUG {ON | OFF | poziom}
 	
 	Włącza lub wyłącza tryb debugowania. W tym trybie wszystkie
-	dane wysyłane do serwisów i przez nie oraz wiele innych
+	dane wysyłane do usług i przez nie oraz wiele innych
 	komunikatów zapisywane są do loga. Jeśli zostanie podany 
 	numer poziomu poziom tryb debugowania jest aktywowany
 	ze wskazanym poziomem.
@@ -7103,7 +7104,7 @@ OPER_HELP_SET_SQL
 	
 	Włącza lub wyłącza korzystanie z bazy danych SQL.
 	Komenda ta pozwala na wyłączenie serwera SQL
-	podczas nieprzerwanej pracy serwisów.
+	podczas nieprzerwanej pracy usług.
 
 OPER_HELP_SET_IGNORE
 	Składnia: SET IGNORE {ON | OFF}
@@ -7113,7 +7114,7 @@ OPER_HELP_SET_IGNORE
 OPER_HELP_SET_LIST
 	Składnia: SET LIST
 	
-	Listuje aktualne ustawienia serwisu %S.
+	Listuje aktualne ustawienia usługi %S.
 
 OPER_HELP_NOOP
 	Składnia: NOOP SET serwer
@@ -7127,12 +7128,12 @@ OPER_HELP_NOOP
 	NOOP REVOKE powoduje przywrócenie wszystkich 
 	uprawnień na wskazanym serwerze.
 	
-	Uwaga: Serwisy nie sprawdzają wartości serwer.
+	Uwaga: Usługi nie sprawdzają wartości serwer.
 
 OPER_HELP_JUPE
 	Składnia: JUPE serwer [powód]
 	
-	To polecenie powoduje wprowadzenie przez serwisy do sieci
+	To polecenie powoduje wprowadzenie przez usługi do sieci
 	sztucznego serwera, co zapobiega podłączaniu prawdziwego
 	serwera o tej samej nazwie. Blokadę można zdjąć używając
 	standardowego polecenia SQUIT. Jeśli zostanie podany
@@ -7143,7 +7144,7 @@ OPER_HELP_RAW
 	Składnia: RAW tekst
 	
 	Wysyła tekst bezpośrednio do serwera, do którego są
-	podłączone serwisy. To polecenie ma bardzo ograniczone
+	podłączone usługi. To polecenie ma bardzo ograniczone
 	zastosowanie i może powodować chaos, kiedy jest używane
 	w sposób nieprawidłowy. NIE UŻYWAJ TEGO POLECENIA
 	jeśli nie masz pewności co robisz.
@@ -7157,26 +7158,26 @@ OPER_HELP_RELOAD
 	Składnia RELOAD
 	
 	Wymusza ponowne załadowanie pliku konfiguracyjnego.
-	Niektóre opcje wciąż wymagają restartu serwisów
-	(zmiana nicków serwisów, aktywacja limitów sesji itd.).
+	Niektóre opcje wciąż wymagają restartu usług
+	(zmiana nicków usług, aktywacja limitów sesji itd.).
 OPER_HELP_QUIT
 	Składnia: QUIT
 	
-	Wymusza na serwisach natychmiastowe zakończenie pracy bez
+	Wymusza na usługach natychmiastowe zakończenie pracy bez
 	zapisywania baz. To polecenie powinno być użyte jedynie,
-	gdy zachodzi podejrzenie uszkodzenia baz, które serwisy
+	gdy zachodzi podejrzenie uszkodzenia baz, które usługi
 	przechowują w pamięci. Do normalnego zakończenia pracy
-	serwisów należy użyć polecenia SHUTDOWN.
+	usług należy użyć polecenia SHUTDOWN.
 
 OPER_HELP_SHUTDOWN
 	Składnia: SHUTDOWN
 	
-	Wymusza zapisanie baz danych, a następnie wyłącza serwisy.
+	Wymusza zapisanie baz danych, a następnie wyłącza usługi.
 
 OPER_HELP_RESTART
 	Składnia: RESTART
 	
-	Wymusza zapisanie baz, a następnie restartuje serwisy.
+	Wymusza zapisanie baz, a następnie restartuje usługi.
 
 OPER_HELP_CHANLIST
 	Składnia: CHANLIST [{wzorzec | nick} [SECRET]]
@@ -7290,7 +7291,7 @@ BOT_HELP_UNASSIGN
 BOT_HELP_INFO
 	Składnia: INFO {kanał | nick}
 	
-	Wyświetla informacje serwisu %S o wskazanym kanale
+	Wyświetla informacje usługi %S o wskazanym kanale
 	lub bocie. Jeśli parametrem jest nazwa kanału to
 	zostaną pokazane informacje dotyczące kanału.
 	Jeśli parametrem będzie nick bota to zostaną
@@ -7512,7 +7513,7 @@ BOT_SERVADMIN_HELP_BOT
 	          BOT CHANGE starynick nowynick [ident [host [nazwa]]]
 	          BOT DEL nick
 	
-	Polecenie pozwala administratorom serwisów na
+	Polecenie pozwala administratorom usług na
 	tworzenie, modyfikowanie oraz kasowanie botów
 	używanych przez użytkowników sieci na kanałach.
 	
@@ -7530,7 +7531,7 @@ BOT_SERVADMIN_HELP_BOT
 
 BOT_SERVADMIN_HELP_SET
 	
-	Opcje dostępne dla administratorów serwisów:
+	Opcje dostępne dla administratorów usług:
 	
 	   NOBOT     Uniemożliwia przypisanie bota do kanału
 	   PRIVATE   Zastrzega przypisywanie bota tylko dla IRC
@@ -7595,7 +7596,7 @@ HOST_SET_IDENTTOOLONG
 	Błąd! Ident jest za długi, użyj identa krótszego niż %d znaków.
 
 HOST_NOREG
-	Nie znaleziono %s w bazie serwisu NickServ.
+	Nie znaleziono %s w bazie usługi NickServ.
 
 HOST_SET_SYNTAX
 	SET <nick> <maska-hosta>.
@@ -7616,7 +7617,7 @@ HOST_IDENT_ACTIVATED
 	Twój vhost %s@%s jest teraz aktywny.
 
 HOST_ID
-	Najpierw zidentyfikuj się u serwisów.
+	Najpierw zidentyfikuj się u usług.
 
 HOST_NOT_REGED
 	Aby uzyskać vhosta musisz być najpierw zarejestrowany.
@@ -7626,8 +7627,10 @@ HOST_DEL
 
 HOST_DEL_SYNTAX
 	DEL <nick>.
+
 HOST_OFF
 	Twój vhost został usunięty i zostało włączone normalne ukrywanie hosta.
+
 HOST_OFF_UNREAL
 	Twój vhost został usunięty. Aby włączyć standardowe ukrywanie hosta wpisz /mode %s +%s
 
