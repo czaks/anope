@@ -421,6 +421,7 @@ NickAlias *makenick(const char *nick)
     /* First make the core */
     nc = scalloc(1, sizeof(NickCore));
     nc->display = sstrdup(nick);
+    nc->uuid = rand();
     slist_init(&nc->aliases);
     insert_core(nc);
     alog("%s: group %s has been created", s_NickServ, nc->display);

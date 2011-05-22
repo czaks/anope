@@ -541,7 +541,7 @@ struct nickcore_ {
 	char pass[PASSMAX];				/* Password of the nicks */
 	char *email;				/* E-mail associated to the nick */
 	char *greet;				/* Greet associated to the nick */
-	uint32 icq;				/* ICQ # associated to the nick */
+	uint32 uuid;				/* Unique User ID */
 	char *url;				/* URL associated to the nick */
 	uint32 flags;				/* See NI_* below */
 	uint16 language;			/* Language selected by nickname owner (LANG_*) */

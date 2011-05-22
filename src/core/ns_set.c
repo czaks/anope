@@ -22,7 +22,6 @@ int do_set_language(User * u, NickCore * nc, char *param);
 int do_set_url(User * u, NickCore * nc, char *param);
 int do_set_email(User * u, NickCore * nc, char *param);
 int do_set_greet(User * u, NickCore * nc, char *param);
-int do_set_icq(User * u, NickCore * nc, char *param);
 int do_set_kill(User * u, NickCore * nc, char *param);
 int do_set_secure(User * u, NickCore * nc, char *param);
 int do_set_private(User * u, NickCore * nc, char *param);
@@ -58,9 +57,6 @@ int AnopeInit(int argc, char **argv)
     moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
     c = createCommand("SET EMAIL", NULL, NULL, NICK_HELP_SET_EMAIL, -1, -1,
                       -1, -1);
-    moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
-    c = createCommand("SET ICQ", NULL, NULL, NICK_HELP_SET_ICQ, -1, -1, -1,
-                      -1);
     moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
     c = createCommand("SET GREET", NULL, NULL, NICK_HELP_SET_GREET, -1, -1,
                       -1, -1);
@@ -129,8 +125,7 @@ int do_set(User * u)
     } else if (!param
         && (!cmd
             || (stricmp(cmd, "URL") != 0 && stricmp(cmd, "EMAIL") != 0
-                && stricmp(cmd, "GREET") != 0
-                && stricmp(cmd, "ICQ") != 0))) {
+                && stricmp(cmd, "GREET") != 0))) {
         syntax_error(s_NickServ, u, "SET", NICK_SET_SYNTAX);
     } else if (!na) {
         notice_lang(s_NickServ, u, NICK_NOT_REGISTERED);
@@ -150,8 +145,6 @@ int do_set(User * u)
         do_set_url(u, na->nc, param);
     } else if (stricmp(cmd, "EMAIL") == 0) {
         do_set_email(u, na->nc, param);
-    } else if (stricmp(cmd, "ICQ") == 0) {
-        do_set_icq(u, na->nc, param);
     } else if (stricmp(cmd, "GREET") == 0) {
         do_set_greet(u, na->nc, param);
     } else if (stricmp(cmd, "KILL") == 0) {
@@ -301,27 +294,6 @@ int do_set_email(User * u, NickCore * nc, char *param)
     } else {
         nc->email = NULL;
         notice_lang(s_NickServ, u, NICK_SET_EMAIL_UNSET);
-    }
-    return MOD_CONT;
-}
-
-int do_set_icq(User * u, NickCore * nc, char *param)
-{
-    if (param) {
-        int32 tmp = atol(param);
-        if (!tmp) {
-            notice_lang(s_NickServ, u, NICK_SET_ICQ_INVALID, param);
-        } else {
-            nc->icq = tmp;
-            alog("%s: %s!%s@%s set their icq to %d",
-                 s_NickServ, u->nick, u->username, u->host, nc->icq);
-            notice_lang(s_NickServ, u, NICK_SET_ICQ_CHANGED, param);
-        }
-    } else {
-        nc->icq = 0;
-        alog("%s: %s!%s@%s unset their icq",
-             s_NickServ, u->nick, u->username, u->host);
-        notice_lang(s_NickServ, u, NICK_SET_ICQ_UNSET);
     }
     return MOD_CONT;
 }

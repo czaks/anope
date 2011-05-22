@@ -195,8 +195,10 @@ int do_info(User * u)
         if (na->nc->email
             && (show_hidden || !(na->nc->flags & NI_HIDE_EMAIL)))
             notice_lang(s_NickServ, u, NICK_INFO_EMAIL, na->nc->email);
-        if (na->nc->icq)
-            notice_lang(s_NickServ, u, NICK_INFO_ICQ, na->nc->icq);
+        if (!na->nc->uuid)
+            na->nc->uuid = rand();
+
+        notice_user(s_NickServ, u, "          UUID: %d", na->nc->uuid);
 
         if (show_hidden) {
             if (s_HostServ && ircd->vhost) {

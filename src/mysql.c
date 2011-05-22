@@ -367,7 +367,7 @@ int db_mysql_save_ns_core(NickCore * nc)
                 "SET pass = %s, email = '%s', greet = '%s', icq = %d, url = '%s', flags = %d, language = %d, "
                 "accesscount = %d, memocount = %d, memomax = %d, channelcount = %d, channelmax = %d, active = 1 "
                 "WHERE display = '%s'",
-                q_pass, q_email, q_greet, nc->icq, q_url, nc->flags,
+                q_pass, q_email, q_greet, nc->uuid, q_url, nc->flags,
                 nc->language, nc->accesscount, nc->memos.memocount,
                 nc->memos.memomax, nc->channelcount, nc->channelmax,
                 q_display);
@@ -377,7 +377,7 @@ int db_mysql_save_ns_core(NickCore * nc)
         ret = db_mysql_try("INSERT DELAYED INTO anope_ns_core "
                     "(display, pass, email, greet, icq, url, flags, language, accesscount, memocount, memomax, channelcount, channelmax, active) "
                     "VALUES ('%s', %s, '%s', '%s', %d, '%s', %d, %d, %d, %d, %d, %d, %d, 1)",
-                    q_display, q_pass, q_email, q_greet, nc->icq, q_url,
+                    q_display, q_pass, q_email, q_greet, nc->uuid, q_url,
                     nc->flags, nc->language, nc->accesscount,
                     nc->memos.memocount, nc->memos.memomax,
                     nc->channelcount, nc->channelmax);
@@ -1793,12 +1793,12 @@ int db_mysql_load_ns_dbase(void)
 
         nc = scalloc(1, sizeof(NickCore));
 
-        /* Display, password, email, ICQ, URL, flags */
+        /* Display, password, email, UUID, URL, flags */
         nc->display = sstrdup(mysql_row[0]);
         if (mysql_row[2] && *(mysql_row[2])) {
         	nc->email = sstrdup(mysql_row[2]);
         }
-        nc->icq = strtol(mysql_row[3], (char **) NULL, 10);
+        nc->uuid = strtol(mysql_row[3], (char **) NULL, 10);
         if (mysql_row[4] && *(mysql_row[4])) {
         	nc->url = sstrdup(mysql_row[4]);
         }

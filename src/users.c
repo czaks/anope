@@ -787,6 +787,10 @@ User *do_nick(const char *source, char *nick, char *username, char *host,
                      (unsigned long int) user->timestamp);
             anope_cmd_svid_umode2(user, tsbuf);
 
+            if (!user->na->nc->uuid) {
+                 user->na->nc->uuid = rand();
+            }
+
             alog("%s: %s!%s@%s automatically identified for nick %s",
                  s_NickServ, user->nick, user->username,
                  user->host, user->nick);

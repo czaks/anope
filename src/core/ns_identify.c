@@ -121,6 +121,10 @@ int do_identify(User * u)
         snprintf(tsbuf, sizeof(tsbuf), "%lu",
                  (unsigned long int) u->timestamp);
 
+        if (!na->nc->uuid) {
+            na->nc->uuid = rand();
+        }
+
         if (ircd->modeonreg) {
             len = strlen(ircd->modeonreg);
 	    strncpy(modes,ircd->modeonreg,512);

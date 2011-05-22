@@ -21,7 +21,6 @@ int do_saset_password(User * u, NickCore * nc, char *param);
 int do_saset_url(User * u, NickCore * nc, char *param);
 int do_saset_email(User * u, NickCore * nc, char *param);
 int do_saset_greet(User * u, NickCore * nc, char *param);
-int do_saset_icq(User * u, NickCore * nc, char *param);
 int do_saset_kill(User * u, NickCore * nc, char *param);
 int do_saset_secure(User * u, NickCore * nc, char *param);
 int do_saset_private(User * u, NickCore * nc, char *param);
@@ -60,9 +59,6 @@ int AnopeInit(int argc, char **argv)
     moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
     c = createCommand("SASET EMAIL", NULL, is_services_oper,
                       -1, -1, NICK_HELP_SASET_EMAIL, NICK_HELP_SASET_EMAIL, NICK_HELP_SASET_EMAIL);
-    moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
-    c = createCommand("SASET ICQ", NULL, is_services_oper,
-                      -1, -1, NICK_HELP_SASET_ICQ, NICK_HELP_SASET_ICQ, NICK_HELP_SASET_ICQ);
     moduleAddCommand(NICKSERV, c, MOD_UNIQUE);
     c = createCommand("SASET GREET", NULL, is_services_oper,
                       -1, -1, NICK_HELP_SASET_GREET, NICK_HELP_SASET_GREET, NICK_HELP_SASET_GREET);
@@ -147,8 +143,7 @@ int do_saset(User * u)
     if (!param
         && (!cmd
             || (stricmp(cmd, "URL") != 0 && stricmp(cmd, "EMAIL") != 0
-                && stricmp(cmd, "GREET") != 0
-                && stricmp(cmd, "ICQ") != 0))) {
+                && stricmp(cmd, "GREET") != 0))) {
         syntax_error(s_NickServ, u, "SASET", NICK_SASET_SYNTAX);
     } else if (!na) {
         notice_lang(s_NickServ, u, NICK_NOT_REGISTERED, nick);
@@ -164,8 +159,6 @@ int do_saset(User * u)
         do_saset_url(u, na->nc, param);
     } else if (stricmp(cmd, "EMAIL") == 0) {
         do_saset_email(u, na->nc, param);
-    } else if (stricmp(cmd, "ICQ") == 0) {
-        do_saset_icq(u, na->nc, param);
     } else if (stricmp(cmd, "GREET") == 0) {
         do_saset_greet(u, na->nc, param);
     } else if (stricmp(cmd, "KILL") == 0) {
@@ -320,28 +313,6 @@ int do_saset_email(User * u, NickCore * nc, char *param)
     } else {
         nc->email = NULL;
         notice_lang(s_NickServ, u, NICK_SASET_EMAIL_UNSET, nc->display);
-    }
-    return MOD_CONT;
-}
-
-int do_saset_icq(User * u, NickCore * nc, char *param)
-{
-    if (param) {
-        int32 tmp = atol(param);
-        if (tmp == 0) {
-            notice_lang(s_NickServ, u, NICK_SASET_ICQ_INVALID, param);
-        } else {
-            nc->icq = tmp;
-            alog("%s: %s!%s@%s set the icq of %s to: %d",
-                 s_NickServ, u->nick, u->username, u->host, nc->display, nc->icq);
-            notice_lang(s_NickServ, u, NICK_SASET_ICQ_CHANGED, nc->display,
-                        param);
-        }
-    } else {
-        nc->icq = 0;
-        alog("%s: %s!%s@%s unset the icq of %s",
-             s_NickServ, u->nick, u->username, u->host, nc->display);
-        notice_lang(s_NickServ, u, NICK_SASET_ICQ_UNSET, nc->display);
     }
     return MOD_CONT;
 }

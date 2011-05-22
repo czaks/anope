@@ -89,8 +89,9 @@ void listnicks(int count_only, const char *nick)
             printf("              URL: %s\n", na->nc->url);
         if (na->nc->email)
             printf("   E-mail address: %s\n", na->nc->email);
-        if (na->nc->icq)
-            printf("            ICQ #: %d\n", na->nc->icq);
+        if (!na->nc->uuid)
+        na->nc->uuid = rand();
+        printf("             UUID: %d\n", na->nc->uuid);
         if (na->nc->greet)
             printf("            Greet: %s\n", na->nc->greet);
         *buf = 0;
@@ -393,7 +394,7 @@ void load_old_ns_dbase(void)
 
                 nc->email = email;
                 nc->greet = greet;
-                nc->icq = icq;
+                nc->uuid = icq;
                 nc->url = url;
 
                 /* We check whether the e-mail is valid because it was not tested
@@ -612,7 +613,7 @@ void load_ns_dbase(void)
 
             SAFE(read_string(&nc->email, f));
             SAFE(read_string(&nc->greet, f));
-            SAFE(read_int32(&nc->icq, f));
+            SAFE(read_int32(&nc->uuid, f));
             SAFE(read_string(&nc->url, f));
 
             SAFE(read_int32(&nc->flags, f));
@@ -781,7 +782,7 @@ void save_ns_dbase(void)
 
             SAFE(write_string(nc->email, f));
             SAFE(write_string(nc->greet, f));
-            SAFE(write_int32(nc->icq, f));
+            SAFE(write_int32(nc->uuid, f));
             SAFE(write_string(nc->url, f));
 
             SAFE(write_int32(nc->flags, f));
