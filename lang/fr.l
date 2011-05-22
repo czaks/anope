@@ -4652,11 +4652,11 @@ CHAN_HELP_SET_RESTRICTED
 CHAN_HELP_SET_SECURE
 	Syntaxe: SET canal SECURE {ON | OFF}
 	
-	Active ou désactive les caractéristiques de sécurité de %s pour 
+	Active ou désactive les caractéristiques de sécurité de %S pour 
 	un canal. Lorsque la Sécurité est active, seuls les 
 	utilisateurs qui ont enregistré leurs pseudos avec %s et qui sont 
-	identifiés avec leur mot de passe auront accès au canal sous 
-	contrôle de la liste d'accès.
+	identifiés avec leur mot de passe auront accés au canal sous 
+	contréle de la liste d'accés.
 
 CHAN_HELP_SET_SECUREOPS
 	Syntaxe: SET canal SECUREOPS {ON | OFF}
