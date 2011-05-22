@@ -130,6 +130,8 @@ int do_set(User * u)
                 && stricmp(cmd, "GREET") != 0
                 && stricmp(cmd, "ICQ") != 0))) {
         syntax_error(s_NickServ, u, "SET", NICK_SET_SYNTAX);
+    } else if (stricmp(cmd, "LANGLOCK") == 0) {
+        u->isLangLocked = 1;
     } else if (!na) {
         notice_lang(s_NickServ, u, NICK_NOT_REGISTERED);
     } else if (na->status & NS_VERBOTEN) {

@@ -892,6 +892,7 @@ struct user_ {
     ModuleData *moduleData;		/* defined for it, it should allow the module Add/Get */	
     
     int isSuperAdmin;		/* is SuperAdmin on or off? */
+    int isLangLocked;           /* is language locked to en_US? */
 
     struct u_chanlist {
 		struct u_chanlist *next, *prev;

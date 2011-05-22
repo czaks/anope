@@ -240,6 +240,9 @@ void lang_init()
 int strftime_lang(char *buf, int size, User * u, int format, struct tm *tm)
 {
     int language = u && u->na ? u->na->nc->language : NSDefLanguage;
+    if (u->isLangLocked) {
+        language = LANG_EN_US;
+    }
     char tmpbuf[BUFSIZE], buf2[BUFSIZE];
     char *s;
     int i, ret;
