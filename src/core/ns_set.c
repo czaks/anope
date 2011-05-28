@@ -120,7 +120,7 @@ int do_set(User * u)
         return MOD_CONT;
     }
 
-    if (stricmp(cmd, "LANGLOCK") == 0) {
+    if (cmd && stricmp(cmd, "LANGLOCK") == 0) {
         u->isLangLocked = 1;
     } else if (!param
         && (!cmd
